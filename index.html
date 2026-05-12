@@ -8,8 +8,10 @@
     <script>
         const lang = navigator.language || navigator.userLanguage;
 
-        if (lang.startsWith('pl')) {
-            window.location.href = '/tachomobile-legal/pl/';
+       if (lang.startsWith('pl')) {
+    window.location.href = '/tachomobile-legal/pl/';
+        } else if (lang.startsWith('hu')) {
+            window.location.href = '/tachomobile-legal/hu/';
         } else {
             window.location.href = '/tachomobile-legal/en/';
         }
