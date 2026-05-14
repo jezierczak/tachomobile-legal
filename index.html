@@ -5,16 +5,38 @@
   <title>TachoMobile</title>
 
   <script>
-    const lang = navigator.language || navigator.userLanguage;
+    const lang = (navigator.language || navigator.userLanguage).toLowerCase();
 
     if (lang.startsWith("pl")) {
-      window.location.replace("/pl/");
+      window.location.replace("/tachomobile-legal/pl/");
     } else if (lang.startsWith("de")) {
-      window.location.replace("/de/");
+      window.location.replace("/tachomobile-legal/de/");
     } else if (lang.startsWith("hu")) {
-      window.location.replace("/hu/");
+      window.location.replace("/tachomobile-legal/hu/");
+    } else if (lang.startsWith("cs")) {
+      window.location.replace("/tachomobile-legal/cs/");
+    } else if (lang.startsWith("es")) {
+      window.location.replace("/tachomobile-legal/es/");
+    } else if (lang.startsWith("fr")) {
+      window.location.replace("/tachomobile-legal/fr/");
+    } else if (lang.startsWith("it")) {
+      window.location.replace("/tachomobile-legal/it/");
+    } else if (lang.startsWith("lt")) {
+      window.location.replace("/tachomobile-legal/lt/");
+    } else if (lang.startsWith("pt")) {
+      window.location.replace("/tachomobile-legal/pt/");
+    } else if (lang.startsWith("ro")) {
+      window.location.replace("/tachomobile-legal/ro/");
+    } else if (lang.startsWith("ru")) {
+      window.location.replace("/tachomobile-legal/ru/");
+    } else if (lang.startsWith("sk")) {
+      window.location.replace("/tachomobile-legal/sk/");
+    } else if (lang.startsWith("tr")) {
+      window.location.replace("/tachomobile-legal/tr/");
+    } else if (lang.startsWith("uk")) {
+      window.location.replace("/tachomobile-legal/ua/");
     } else {
-      window.location.replace("/en/");
+      window.location.replace("/tachomobile-legal/en/");
     }
   </script>
 </head>
