@@ -1,3 +1,4 @@
+html
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -39,21 +40,21 @@
 <h1>Zásady ochrany osobních údajů</h1>
 
 <p class="muted">
-Poslední aktualizace: 16. května 2026
+Naposledy aktualizováno: 13. června 2026
 </p>
 
 <p>
-Tyto Zásady ochrany osobních údajů vysvětlují, jak aplikace TachoMobile 2 („Aplikace“) shromažďuje, používá, uchovává a chrání informace uživatelů.
+Tyto Zásady ochrany osobních údajů vysvětlují, jak aplikace TachoMobile 2 („Aplikace“) shromažďuje, používá, ukládá, zpracovává a chrání informace o uživatelích.
 </p>
 
 <h2>1. Obecné informace</h2>
 
 <p>
-TachoMobile 2 je aplikace pro asistenci řidičům navržená pro sledování doby jízdy, pracovních aktivit, přestávek, pohotovosti a dalších informací souvisejících s dopravou.
+TachoMobile 2 je aplikace určená jako asistent řidiče, která pomáhá uživatelům sledovat dobu řízení, pracovní činnosti, přestávky, dobu pohotovosti a další informace související s dopravou.
 </p>
 
 <p>
-Aplikace je určena pro profesionální i soukromé použití v oblasti sledování aktivit řidiče a správy pracovní doby.
+Aplikace je určena pro profesionální i osobní použití související se sledováním činnosti řidiče a správou času.
 </p>
 
 <h2>2. Shromažďované informace</h2>
@@ -63,70 +64,139 @@ V závislosti na používaných funkcích může Aplikace shromažďovat a zprac
 </p>
 
 <ul>
-    <li>Údaje o poloze (včetně přístupu k poloze na pozadí)</li>
-    <li>Údaje o pohybu a rozpoznávání aktivit</li>
-    <li>Diagnostická data aplikace a informace o pádech</li>
-    <li>Anonymní analytické informace</li>
-    <li>Informace o nákupech a předplatném poskytované službou Google Play Billing</li>
-</ul>
+    <li>údaje o poloze, včetně přístupu k poloze na pozadí, používané pro automatickou detekci aktivit a volitelně ukládané jako součást záznamů o aktivitě uživatele;</li>
 
-<p>
-Většina provozních dat generovaných aplikací je ukládána lokálně v zařízení uživatele.
-</p>
+    <li>údaje o pohybu a rozpoznávání aktivit;</li>
+
+    <li>záznamy o aktivitě řidiče a provozní údaje vytvořené nebo zadané uživatelem v rámci Aplikace;</li>
+
+    <li>metadata synchronizace v cloudu potřebná pro poskytování funkcí zálohování a obnovy dat;</li>
+
+    <li>identifikátory uživatelských účtů používané pro ověřování a synchronizaci prostřednictvím Firebase Authentication;</li>
+
+    <li>diagnostické údaje aplikace, hlášení o pádech a technické informace;</li>
+
+    <li>anonymní analytické informace;</li>
+
+    <li>informace o nákupech a stavu předplatného poskytované službou Google Play Billing.</li>
+</ul>
 
 <h2>3. Jak jsou informace používány</h2>
 
 <p>
-Shromážděné informace jsou používány výhradně za účelem:
+Shromážděné informace jsou používány výhradně k:
 </p>
 
 <ul>
-    <li>Automatické detekce jízdy</li>
-    <li>Výpočtu doby řízení a odpočinku</li>
-    <li>Generování reportů aktivit řidiče</li>
-    <li>Poskytování funkce časové osy aktivit</li>
-    <li>Zlepšování stability a spolehlivosti aplikace</li>
-    <li>Poskytování funkcí prémiového předplatného</li>
-    <li>Předcházení zneužití, pádům a technickým problémům</li>
+    <li>automatické detekci řízení;</li>
+
+    <li>výpočtu dob řízení a odpočinku;</li>
+
+    <li>generování přehledů o aktivitách řidiče;</li>
+
+    <li>poskytování funkce časové osy aktivit;</li>
+
+    <li>synchronizaci a obnově uživatelských dat mezi zařízeními, pokud je povolena synchronizace v cloudu;</li>
+
+    <li>zajištění funkce zálohování;</li>
+
+    <li>zlepšování stability a spolehlivosti aplikace;</li>
+
+    <li>poskytování funkcí prémiového předplatného;</li>
+
+    <li>prevenci zneužití, pádů aplikace, podvodů a technických problémů.</li>
 </ul>
 
 <p>
-Aplikace neprodává osobní údaje uživatelů třetím stranám.
+Aplikace neprodává osobní údaje třetím stranám.
 </p>
 
-<h2>4. Lokální ukládání dat</h2>
+<h2>4. Ukládání dat lokálně a v cloudu</h2>
 
 <p>
 Většina dat aplikace je ukládána lokálně v zařízení uživatele.
-TachoMobile 2 neprovozuje centrální cloudovou platformu pro ukládání záznamů o aktivitách řidičů.
 </p>
 
 <p>
-Uživatel odpovídá za zabezpečení svého zařízení, záloh, exportovaných souborů a lokálních dat aplikace.
-</p>
-
-<h2>5. Exportované reporty</h2>
-
-<p>
-Aplikace umožňuje vytvářet a exportovat PDF reporty.
-Tyto soubory jsou vytvářeny lokálně v zařízení a zůstávají plně pod kontrolou uživatele.
+Pokud uživatel dobrovolně povolí synchronizaci a zálohování v cloudu, mohou být vybraná data aplikace bezpečně ukládána pomocí služeb Google Firebase, včetně Firebase Firestore.
 </p>
 
 <p>
-Exportované soubory mohou obsahovat informace o aktivitách řidiče zadané nebo vytvořené uživatelem.
+Data uložená v cloudu mohou zahrnovat:
 </p>
 
-<h2>6. Služby třetích stran</h2>
+<ul>
+    <li>záznamy o aktivitách řidiče;</li>
+
+    <li>metadata synchronizace;</li>
+
+    <li>informace o zálohách;</li>
+
+    <li>identifikátory synchronizace zařízení;</li>
+
+    <li>údaje o poloze obsažené v záznamech aktivit;</li>
+
+    <li>další informace nezbytné pro obnovu dat aplikace a synchronizaci dat mezi zařízeními.</li>
+</ul>
+
+<p>
+Synchronizace v cloudu je volitelná a uživatel ji může kdykoli zapnout nebo vypnout.
+</p>
+
+<p>
+Uživatelé nesou odpovědnost za zabezpečení svých zařízení, exportovaných souborů a přístupu ke svým synchronizačním účtům.
+</p>
+
+<h2>5. Informace o poloze</h2>
+
+<p>
+TachoMobile 2 může shromažďovat údaje o poloze za účelem podpory automatické detekce řízení a funkcí souvisejících s aktivitami.
+</p>
+
+<p>
+Údaje o poloze nejsou používány k nepřetržitému veřejnému sledování uživatelů.
+</p>
+
+<p>
+Pokud je povolena synchronizace v cloudu, mohou být údaje o poloze, které jsou součástí záznamů aktivit, zahrnuty do synchronizovaných záloh výhradně pro účely zálohování a obnovy.
+</p>
+
+<p>
+V době zveřejnění těchto Zásad ochrany osobních údajů Aplikace neposkytuje funkce umožňující uživatelům sdílet svou polohu v reálném čase nebo synchronizované záznamy aktivit s jinými uživateli.
+</p>
+
+<h2>6. Exportované přehledy</h2>
+
+<p>
+Aplikace umožňuje uživatelům vytvářet a exportovat přehledy ve formátu PDF.
+</p>
+
+<p>
+Tyto přehledy jsou vytvářeny lokálně v zařízení uživatele a zůstávají pod jeho kontrolou.
+</p>
+
+<p>
+Exportované soubory mohou obsahovat uživatelem zadané nebo vygenerované informace o aktivitách při řízení.
+</p>
+
+<h2>7. Služby třetích stran</h2>
 
 <p>
 Aplikace může využívat služby třetích stran, včetně:
 </p>
 
 <ul>
-    <li>Google Play Services</li>
-    <li>Google Play Billing</li>
-    <li>Firebase Analytics</li>
-    <li>Firebase Crashlytics</li>
+    <li>Google Play Services;</li>
+
+    <li>Google Play Billing;</li>
+
+    <li>Firebase Authentication;</li>
+
+    <li>Firebase Firestore;</li>
+
+    <li>Firebase Analytics;</li>
+
+    <li>Firebase Crashlytics.</li>
 </ul>
 
 <p>
@@ -134,95 +204,128 @@ Tito poskytovatelé mohou zpracovávat určité technické informace v souladu s
 </p>
 
 <p>
-Služby Google mohou automaticky shromažďovat technické identifikátory, záznamy o pádech, diagnostická data a anonymní statistiky používání potřebné pro funkčnost, bezpečnost a monitorování výkonu aplikace.
+Služby Google mohou automaticky shromažďovat technické identifikátory, záznamy o pádech, diagnostické informace a anonymní statistiky používání nezbytné pro fungování aplikace, bezpečnost a sledování výkonu.
 </p>
 
-<h2>7. Doba uchovávání dat</h2>
+<h2>8. Uchovávání údajů</h2>
 
 <p>
-TachoMobile 2 uchovává uživatelská data pouze po dobu nezbytnou pro zajištění funkčnosti aplikace, zlepšení stability, splnění právních povinností a prevenci zneužití.
-</p>
-
-<p>
-Většina dat o aktivitách uživatele je ukládána lokálně v zařízení uživatele a zůstává pod jeho přímou kontrolou.
+Většina údajů vytvořených uživatelem zůstává uložena lokálně v zařízení uživatele, dokud je uživatel nesmaže.
 </p>
 
 <p>
-Pokud jsou diagnostická, analytická nebo crash data zpracovávána prostřednictvím externích poskytovatelů, jako jsou Firebase nebo Google Play Services, řídí se doba uchovávání zásadami těchto poskytovatelů.
-</p>
-
-<p>
-Uživatel může lokálně uložená data kdykoli odstranit:
+Pokud je povolena synchronizace v cloudu, mohou synchronizovaná data zůstat uložena ve službách Firebase, dokud:
 </p>
 
 <ul>
-    <li>Odinstalováním aplikace</li>
-    <li>Vymazáním dat aplikace v nastavení Androidu</li>
-    <li>Ručním odstraněním exportovaných souborů</li>
+    <li>uživatel nesmaže cloudovou zálohu prostřednictvím Aplikace;</li>
+
+    <li>uživatel nevypne synchronizaci a nepožádá o odstranění dat;</li>
+
+    <li>data nejsou odstraněna jiným způsobem v souladu s těmito Zásadami ochrany osobních údajů.</li>
 </ul>
 
-<h2>8. Mazání dat</h2>
+<p>
+Diagnostické, analytické a údaje související s pády zpracovávané prostřednictvím služeb Google nebo Firebase jsou uchovávány v souladu se zásadami těchto poskytovatelů.
+</p>
+
+<h2>9. Odstranění údajů</h2>
 
 <p>
-Uživatel může požádat o odstranění externě zpracovávaných dat kontaktováním vývojáře.
+Uživatelé mohou trvale odstranit synchronizovaná cloudová data přímo v Aplikaci pomocí funkce odstranění cloudové zálohy.
 </p>
 
 <p>
-V příslušných případech budou žádosti o odstranění zpracovány v přiměřené lhůtě, pokud uchování dat není vyžadováno z právních, bezpečnostních, účetních nebo protizneužívacích důvodů.
+Uživatelé mohou rovněž požádat o odstranění externě zpracovávaných údajů kontaktováním vývojáře.
 </p>
 
 <p>
-Protože většina dat je ukládána lokálně v zařízení uživatele, odinstalování aplikace nebo vymazání dat aplikace obvykle vede k trvalému odstranění dat aplikace.
+Uživatelé mohou kdykoli odstranit lokálně uložená data:
 </p>
 
-<h2>9. GDPR / Uživatelé z EU</h2>
+<ul>
+    <li>odinstalováním aplikace;</li>
+
+    <li>vymazáním úložiště aplikace v nastavení Androidu;</li>
+
+    <li>ručním odstraněním exportovaných souborů;</li>
+
+    <li>odstraněním cloudových záloh prostřednictvím Aplikace.</li>
+</ul>
+
+<h2>10. GDPR / Uživatelé z EU</h2>
 
 <p>
 Uživatelé nacházející se v Evropské unii mohou mít právo:
 </p>
 
 <ul>
-    <li>Požadovat přístup ke svým osobním údajům</li>
-    <li>Požadovat odstranění svých osobních údajů</li>
-    <li>Požadovat opravu nepřesných údajů</li>
-    <li>Vznést námitku proti určitým typům zpracování</li>
-    <li>Požadovat omezení zpracování</li>
+    <li>požadovat přístup ke svým osobním údajům;</li>
+
+    <li>požadovat opravu nepřesných informací;</li>
+
+    <li>požadovat odstranění svých osobních údajů;</li>
+
+    <li>požadovat omezení zpracování;</li>
+
+    <li>vznést námitku proti určitým druhům zpracování;</li>
+
+    <li>požadovat informace o způsobu zpracování svých údajů.</li>
 </ul>
 
 <p>
-Právním základem pro zpracování údajů může být souhlas uživatele, oprávněný zájem, plnění smlouvy nebo právní povinnosti.
-</p>
-
-<h2>10. Oprávnění aplikace</h2>
-
-<p>
-Aplikace může vyžadovat následující oprávnění:
+Právním základem pro zpracování může být:
 </p>
 
 <ul>
-    <li>Přístup k poloze</li>
-    <li>Přístup k poloze na pozadí</li>
-    <li>Přístup k internetu</li>
-    <li>Přístup ke službám běžícím v popředí</li>
-    <li>Přístup k oznámením</li>
-    <li>Přístup k rozpoznávání aktivit</li>
+    <li>souhlas uživatele;</li>
+
+    <li>poskytování služeb výslovně požadovaných uživatelem;</li>
+
+    <li>oprávněné zájmy související s bezpečností aplikace, její spolehlivostí a prevencí podvodů;</li>
+
+    <li>splnění právních povinností.</li>
+</ul>
+
+<h2>11. Oprávnění</h2>
+
+<p>
+Aplikace může vyžadovat oprávnění zahrnující:
+</p>
+
+<ul>
+    <li>přístup k poloze;</li>
+
+    <li>přístup k poloze na pozadí;</li>
+
+    <li>přístup k internetu;</li>
+
+    <li>přístup ke službě běžící v popředí;</li>
+
+    <li>přístup k oznámením;</li>
+
+    <li>přístup k rozpoznávání aktivit.</li>
 </ul>
 
 <p>
-Tato oprávnění jsou nezbytná pro správné fungování aplikace, například pro automatickou detekci jízdy, sledování aktivit, oznámení a generování reportů.
+Tato oprávnění jsou nezbytná pro poskytování funkcí, jako je automatická detekce řízení, sledování aktivit, synchronizace, oznámení, generování přehledů a zálohování.
 </p>
 
-<h2>11. Bezpečnost</h2>
+<h2>12. Bezpečnost</h2>
 
 <p>
-Jsou používána přiměřená technická a organizační opatření k ochraně dat aplikace a zabránění neoprávněnému přístupu.
+Jsou zaváděna přiměřená technická a organizační opatření na ochranu údajů uživatelů a prevenci neoprávněného přístupu.
 </p>
 
 <p>
-Žádný způsob elektronického ukládání nebo přenosu dat přes internet však nemůže být zcela bezpečný.
+Data přenášená mezi Aplikací a cloudovými službami jsou během přenosu šifrována.
 </p>
 
-<h2>12. Ochrana soukromí dětí</h2>
+<p>
+Žádný způsob elektronického přenosu ani ukládání dat však nelze zaručit jako zcela bezpečný.
+</p>
+
+<h2>13. Ochrana soukromí dětí</h2>
 
 <p>
 Aplikace není určena dětem mladším 13 let.
@@ -232,201 +335,27 @@ Aplikace není určena dětem mladším 13 let.
 Aplikace vědomě neshromažďuje osobní údaje dětí.
 </p>
 
-<h2>13. Změny těchto zásad</h2>
+<h2>14. Změny těchto zásad</h2>
 
 <p>
 Tyto Zásady ochrany osobních údajů mohou být čas od času aktualizovány.
-Změny nabývají účinnosti okamžikem zveřejnění na této stránce.
 </p>
 
-<h2>14. Kontakt</h2>
+<p>
+Změny nabývají účinnosti okamžitě po jejich zveřejnění na této stránce.
+Pokračováním v používání Aplikace po zveřejnění změn uživatel vyjadřuje souhlas s aktualizovanými Zásadami ochrany osobních údajů.
+</p>
+
+<h2>15. Kontakt</h2>
 
 <p>
-Máte-li dotazy týkající se těchto Zásad ochrany osobních údajů nebo zpracování dat, můžete kontaktovat vývojáře:
+Máte-li dotazy týkající se těchto Zásad ochrany osobních údajů nebo postupů při zpracování údajů, můžete kontaktovat:
 </p>
 
 <p>
 <a href="mailto:tachomobile.support@gmail.com">
 tachomobile.support@gmail.com
 </a>
-</p>
-
-</body>
-</html>
-```
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TachoMobile 2 - Zásady ochrany osobních údajů</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.7;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            color: #222;
-            background: #fff;
-        }
-
-        h1, h2 {
-            color: #111;
-        }
-
-        h1 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-
-        a {
-            color: #0066cc;
-        }
-
-        .muted {
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-
-<h1>Zásady ochrany osobních údajů</h1>
-
-<p class="muted">
-Poslední aktualizace: 12. května 2026
-</p>
-
-<p>
-Tyto Zásady ochrany osobních údajů vysvětlují, jak TachoMobile 2 („Aplikace“) shromažďuje, používá a chrání informace uživatelů.
-</p>
-
-<h2>1. Obecné informace</h2>
-
-<p>
-TachoMobile 2 je asistenční aplikace pro řidiče navržená tak, aby pomáhala uživatelům sledovat dobu řízení, pracovní aktivity, přestávky a související dopravní informace.
-</p>
-
-<h2>2. Shromažďované informace</h2>
-
-<p>
-V závislosti na používaných funkcích může Aplikace shromažďovat a zpracovávat:
-</p>
-
-<ul>
-    <li>údaje o poloze (včetně přístupu k poloze na pozadí)</li>
-    <li>údaje o pohybu a rozpoznávání aktivit</li>
-    <li>diagnostické informace aplikace a informace o pádech</li>
-    <li>anonymní analytické informace</li>
-    <li>informace o nákupech a stavu předplatného poskytované službou Google Play Billing</li>
-</ul>
-
-<h2>3. Jak jsou informace používány</h2>
-
-<p>
-Shromážděné informace jsou používány výhradně pro:
-</p>
-
-<ul>
-    <li>automatickou detekci jízdy</li>
-    <li>výpočty doby řízení a odpočinku</li>
-    <li>generování reportů aktivit řidiče</li>
-    <li>zlepšování stability a spolehlivosti aplikace</li>
-    <li>poskytování funkcí prémiového předplatného</li>
-</ul>
-
-<h2>4. Lokální ukládání dat</h2>
-
-<p>
-Většina dat aplikace je ukládána lokálně v zařízení uživatele.
-TachoMobile 2 neprovozuje centrální cloudovou platformu pro ukládání záznamů o jízdách uživatelů.
-</p>
-
-<p>
-Uživatelé jsou odpovědní za zabezpečení svého zařízení a exportovaných souborů.
-</p>
-
-<h2>5. Exportované reporty</h2>
-
-<p>
-Aplikace umožňuje uživatelům generovat a exportovat PDF reporty.
-Tyto soubory jsou vytvářeny lokálně v zařízení a jsou plně pod kontrolou uživatele.
-</p>
-
-<h2>6. Služby třetích stran</h2>
-
-<p>
-Aplikace může používat služby třetích stran, včetně:
-</p>
-
-<ul>
-    <li>Google Play Services</li>
-    <li>Google Play Billing</li>
-    <li>Firebase Analytics</li>
-    <li>Firebase Crashlytics</li>
-</ul>
-
-<p>
-Tito poskytovatelé mohou zpracovávat určité technické informace podle svých vlastních zásad ochrany osobních údajů.
-</p>
-
-<h2>7. GDPR / Uživatelé v EU</h2>
-
-<p>
-Uživatelé nacházející se v Evropské unii mají právo:
-</p>
-
-<ul>
-    <li>požadovat přístup ke svým osobním údajům</li>
-    <li>požadovat vymazání svých osobních údajů</li>
-    <li>požadovat opravu nepřesných údajů</li>
-    <li>vznést námitku proti určitým typům zpracování</li>
-</ul>
-
-<p>
-Protože většina dat je ukládána lokálně v zařízení uživatele, mají uživatelé obecně přímou kontrolu nad svými vlastními daty.
-</p>
-
-<h2>8. Oprávnění</h2>
-
-<p>
-Aplikace může vyžadovat oprávnění včetně:
-</p>
-
-<ul>
-    <li>přístupu k poloze</li>
-    <li>přístupu k poloze na pozadí</li>
-    <li>přístupu k internetu</li>
-    <li>přístupu ke službě běžící na popředí</li>
-    <li>přístupu k oznámením</li>
-</ul>
-
-<p>
-Tato oprávnění jsou vyžadována pro základní funkčnost aplikace.
-</p>
-
-<h2>9. Ochrana soukromí dětí</h2>
-
-<p>
-Aplikace není určena pro děti mladší 13 let.
-</p>
-
-<h2>10. Změny těchto zásad</h2>
-
-<p>
-Tyto Zásady ochrany osobních údajů mohou být čas od času aktualizovány.
-Změny nabývají účinnosti po zveřejnění na této stránce.
-</p>
-
-<h2>11. Kontakt</h2>
-
-<p>
-Pokud máte dotazy týkající se těchto Zásad ochrany osobních údajů, můžete kontaktovat:
-</p>
-
-<p>
-<a href="mailto:tachomobile.support@gmail.com">tachomobile.support@gmail.com</a>
 </p>
 
 </body>
