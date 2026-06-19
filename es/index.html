@@ -3,119 +3,327 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TachoMobile 2</title>
+    <title>TachoMobile 2 - Asistente Inteligente de Tacógrafo</title>
 
     <style>
+        :root {
+            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
+            --bg-card: #14151f;       /* Ciemne tło kart */
+            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --accent-purple-hover: #6d28d9;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.7;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            color: #222;
-            background: #fff;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 0 20px;
         }
 
-        h1 {
-            color: #111;
-            margin-bottom: 10px;
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
-        h2 {
-            margin-top: 40px;
-            color: #222;
+        /* --- HERO SECTION --- */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 80px 0;
         }
 
-        .subtitle {
-            color: #666;
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 0;
+            }
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            letter-spacing: -0.03em;
+            background: linear-gradient(to right, #ffffff, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
             margin-bottom: 30px;
+            max-width: 540px;
+        }
+
+        .play-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--accent-purple);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
+        }
+
+        .play-button:hover {
+            background-color: var(--accent-purple-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
+        }
+
+        .hero-mockup {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app-screenshot {
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            border-radius: 32px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            border: 4px solid #2e303f;
+            transition: transform 0.3s ease;
+        }
+
+        .app-screenshot:hover {
+            transform: scale(1.03);
+        }
+
+        /* --- FEATURE GRID --- */
+        .features {
+            padding: 6px 0 60px 0;
+        }
+
+        .features-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 60px;
         }
 
         .card {
-            background: #f8f8f8;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            background-color: var(--bg-card);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #222533;
+            transition: border-color 0.2s ease;
         }
 
-        ul {
-            padding-left: 20px;
+        .card:hover {
+            border-color: var(--accent-purple);
         }
 
-        a {
-            color: #0066cc;
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* --- BANNER SECTION --- */
+        .promo-banner-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .promo-banner {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* --- LEGAL & LINKS --- */
+        .links-list {
+            list-style: none;
+        }
+
+        .links-list li {
+            margin-bottom: 12px;
+        }
+
+        .links-list a {
+            display: block;
+            padding: 12px 16px;
+            background-color: #1a1b26;
+            border-radius: 8px;
+            color: #c084fc;
             text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            border: 1px solid #222533;
         }
 
-        a:hover {
+        .links-list a:hover {
+            background-color: #222436;
+            color: #ffffff;
+        }
+
+        .contact-link {
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
             text-decoration: underline;
         }
 
+        /* --- FOOTER --- */
         .footer {
-            margin-top: 50px;
-            color: #777;
-            font-size: 14px;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            color: #565f89;
+            font-size: 0.9rem;
+            border-top: 1px solid #1a1b26;
         }
     </style>
 </head>
 <body>
 
-<h1>TachoMobile 2</h1>
+<div class="container">
 
-<p class="subtitle">
-Aplicación de asistencia para conductores destinada al seguimiento de actividades de conducción, tiempo de trabajo, descansos e información relacionada con el transporte.
-</p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
+            <h1>TachoMobile 2</h1>
+            <p class="subtitle">
+                Asistente inteligente de tacógrafo para conductores profesionales. Monitorea las actividades de conducción, períodos de trabajo, descansos y mantente en total cumplimiento con las regulaciones de transporte.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
+                Descargar en Google Play
+            </a>
+        </div>
+        <div class="hero-mockup">
+            <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
+        </div>
+    </section>
 
-<div class="card">
-    <h2>Acerca de</h2>
+    <!-- PROMO BANNER SHOWCASE -->
+    <div class="promo-banner-container">
+        <img src="../promo_en.jpg" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+    </div>
 
-    <p>
-        TachoMobile 2 es una aplicación Android diseñada para ayudar a los conductores a supervisar las actividades de conducción, los períodos de trabajo, los descansos y otra información relacionada con el transporte.
-    </p>
+    <!-- MAIN FEATURES SECTION -->
+    <section class="features">
+        <h2 class="features-title">Funciones principales</h2>
+        <div class="grid">
+            <div class="card">
+                <h2>Tiempo de conducción</h2>
+                <p>Monitorea la conducción, el tiempo de trabajo y los descansos en tiempo real con alta precisión directamente desde la interfaz principal.</p>
+            </div>
 
-    <p>
-        La aplicación está pensada como una herramienta de apoyo y organización para conductores profesionales y particulares.
-    </p>
-</div>
+            <div class="card">
+                <h2>Notificaciones inteligentes</h2>
+                <p>Mantente informado y al día con las complejas reglas de tiempo de conducción a través de alertas del sistema proactivas e inteligentes.</p>
+            </div>
 
-<div class="card">
-    <h2>Desarrollador</h2>
+            <div class="card">
+                <h2>Análisis de conducción</h2>
+                <p>Accede a estadísticas detalladas de trabajo, registros automatizados y reportes operativos claros para mantener tu seguimiento organizado.</p>
+            </div>
 
-    <p>
-        TachoMobile 2 es desarrollada por el desarrollador independiente de Android Jarosław Jezierczak.
-    </p>
+            <div class="card">
+                <h2>Gestión de datos</h2>
+                <p>Gestiona tus registros de datos de forma segura con opciones de exportación sencillas, diseñadas para operaciones de transporte profesionales e independientes.</p>
+            </div>
+        </div>
+    </section>
 
-    <p>
-        El proyecto combina experiencia real en la industria del transporte con muchos años de desarrollo de aplicaciones Android.
-    </p>
+    <!-- ABOUT & DEVELOPER -->
+    <div class="grid">
+        <div class="card">
+            <h2>Sobre el proyecto</h2>
+            <p style="margin-bottom: 15px;">
+                TachoMobile 2 está diseñado para servir como un libro de registro personal avanzado y una herramienta de asistencia para conductores profesionales de camiones y maquinaria.
+            </p>
+            <p>
+                La aplicación se centra en la simplicidad, la sincronización segura en la nube, el cifrado de datos y una excelente usabilidad de la interfaz en entornos de tránsito modernos.
+            </p>
+        </div>
 
-    <p>
-        Jarosław trabajó anteriormente como conductor de camión y operador de maquinaria antes de centrarse en el desarrollo independiente de software y herramientas móviles relacionadas con el transporte.
-    </p>
-</div>
+        <div class="card">
+            <h2>El desarrollador</h2>
+            <p>
+                Desarrollado por el ingeniero independiente <strong>Jarosław Jezierczak</strong>. El software combina de manera única una larga experiencia real en la industria del transporte comercial de carga pesada con el desarrollo de software para Android para responder exactamente a las necesidades prácticas de los conductores.
+            </p>
+        </div>
+    </div>
 
-<div class="card">
-    <h2>Soporte</h2>
+    <!-- LEGAL & SUPPORT CONTACT -->
+    <div class="grid">
+        <div class="card">
+            <h2>Documentos legales</h2>
+            <ul class="links-list">
+                <li><a href="privacy-policy.html">Política de privacidad</a></li>
+                <li><a href="terms.html">Términos de uso</a></li>
+                <li><a href="disclaimer.html">Descargo de responsabilidad</a></li>
+                <li><a href="delete-account.html">Eliminación de cuenta y datos</a></li>
+            </ul>
+        </div>
 
-    <p>
-        Contacto:
-        <a href="mailto:tachomobile.support@gmail.com">tachomobile.support@gmail.com</a>
-    </p>
-</div>
+        <div class="card">
+            <h2>Soporte y consultas</h2>
+            <p style="margin-bottom: 20px;">
+                ¿Tienes preguntas sobre las configuraciones de cumplimiento del tacógrafo, las funciones de sincronización en la nube o las políticas de facturación? No dudes en ponerte en contacto directamente:
+            </p>
+            <p>
+                <strong>Email de soporte:</strong><br/>
+                <a href="mailto:tachomobile.support@gmail.com" class="contact-link">tachomobile.support@gmail.com</a>
+            </p>
+        </div>
+    </div>
 
-<div class="card">
-    <h2>Documentos legales</h2>
+    <!-- FOOTER -->
+    <footer class="footer">
+        © 2026 TachoMobile 2. Todos los derechos reservados. Desarrollado por Jarosław Jezierczak.
+    </footer>
 
-    <ul>
-        <li><a href="privacy-policy.html">Política de privacidad</a></li>
-        <li><a href="terms.html">Términos de uso</a></li>
-        <li><a href="disclaimer.html">Descargo de responsabilidad</a></li>
-        <li><a href="delete-account.html">Eliminación de cuenta</a></li>
-    </ul>
-</div>
-
-<div class="footer">
-    © 2026 TachoMobile 2
 </div>
 
 </body>
