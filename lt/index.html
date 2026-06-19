@@ -3,119 +3,327 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TachoMobile 2</title>
+    <title>TachoMobile 2 - Išmanusis tachografo asistentas</title>
 
     <style>
+        :root {
+            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
+            --bg-card: #14151f;       /* Ciemne tło kart */
+            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --accent-purple-hover: #6d28d9;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.7;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            color: #222;
-            background: #fff;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 0 20px;
         }
 
-        h1 {
-            color: #111;
-            margin-bottom: 10px;
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
-        h2 {
-            margin-top: 40px;
-            color: #222;
+        /* --- HERO SECTION --- */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 80px 0;
         }
 
-        .subtitle {
-            color: #666;
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 0;
+            }
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            letter-spacing: -0.03em;
+            background: linear-gradient(to right, #ffffff, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
             margin-bottom: 30px;
+            max-width: 540px;
+        }
+
+        .play-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--accent-purple);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
+        }
+
+        .play-button:hover {
+            background-color: var(--accent-purple-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
+        }
+
+        .hero-mockup {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app-screenshot {
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            border-radius: 32px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            border: 4px solid #2e303f;
+            transition: transform 0.3s ease;
+        }
+
+        .app-screenshot:hover {
+            transform: scale(1.03);
+        }
+
+        /* --- FEATURE GRID --- */
+        .features {
+            padding: 6px 0 60px 0;
+        }
+
+        .features-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 60px;
         }
 
         .card {
-            background: #f8f8f8;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            background-color: var(--bg-card);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #222533;
+            transition: border-color 0.2s ease;
         }
 
-        ul {
-            padding-left: 20px;
+        .card:hover {
+            border-color: var(--accent-purple);
         }
 
-        a {
-            color: #0066cc;
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* --- BANNER SECTION --- */
+        .promo-banner-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .promo-banner {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* --- LEGAL & LINKS --- */
+        .links-list {
+            list-style: none;
+        }
+
+        .links-list li {
+            margin-bottom: 12px;
+        }
+
+        .links-list a {
+            display: block;
+            padding: 12px 16px;
+            background-color: #1a1b26;
+            border-radius: 8px;
+            color: #c084fc;
             text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            border: 1px solid #222533;
         }
 
-        a:hover {
+        .links-list a:hover {
+            background-color: #222436;
+            color: #ffffff;
+        }
+
+        .contact-link {
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
             text-decoration: underline;
         }
 
+        /* --- FOOTER --- */
         .footer {
-            margin-top: 50px;
-            color: #777;
-            font-size: 14px;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            color: #565f89;
+            font-size: 0.9rem;
+            border-top: 1px solid #1a1b26;
         }
     </style>
 </head>
 <body>
 
-<h1>TachoMobile 2</h1>
+<div class="container">
 
-<p class="subtitle">
-Vairuotojo pagalbinė programėlė vairavimo veiklai, darbo laikui, pertraukoms ir su transportu susijusiai informacijai stebėti.
-</p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
+            <h1>TachoMobile 2</h1>
+            <p class="subtitle">
+                Išmanusis tachografo asistentas profesionaliems vairuotojams. Stebėkite vairavimo veiklą, darbo laiką, pertraukas ir visiškai laikykitės transporto taisyklių.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
+                Atsisiųsti iš „Google Play“
+            </a>
+        </div>
+        <div class="hero-mockup">
+            <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
+        </div>
+    </section>
 
-<div class="card">
-    <h2>Apie programą</h2>
+    <!-- PROMO BANNER SHOWCASE -->
+    <div class="promo-banner-container">
+        <img src="../promo_en.jpg" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+    </div>
 
-    <p>
-        TachoMobile 2 yra Android programėlė, skirta padėti vairuotojams stebėti vairavimo veiklą, darbo laikotarpius, pertraukas ir kitą su transportu susijusią informaciją.
-    </p>
+    <!-- MAIN FEATURES SECTION -->
+    <section class="features">
+        <h2 class="features-title">Pagrindinės funkcijos</h2>
+        <div class="grid">
+            <div class="card">
+                <h2>Vairavimo laikas</h2>
+                <p>Stebėkite vairavimą, darbo laiką ir pertraukas realiuoju laiku dideliu tikslumu tiesiai iš pagrindinės sąsajos.</p>
+            </div>
 
-    <p>
-        Programėlė skirta kaip pagalbinis ir organizacinis įrankis profesionaliems ir privatiems vairuotojams.
-    </p>
-</div>
+            <div class="card">
+                <h2>Išmanieji pranešimai</h2>
+                <p>Būkite informuoti ir laikykitės sudėtingų vairavimo laiko taisyklių, naudodamiesi išankstiniais ir išmaniaisiais sistemos įspėjimais.</p>
+            </div>
 
-<div class="card">
-    <h2>Kūrėjas</h2>
+            <div class="card">
+                <h2>Vairavimo analizė</h2>
+                <p>Pasiekite išsamią darbo statistiką, automatizuotus žurnalus ir aiškias veiklos ataskaitas, kad jūsų stebėjimas būtų tvarkingas.</p>
+            </div>
 
-    <p>
-        TachoMobile 2 kuria nepriklausomas Android kūrėjas Jarosław Jezierczak.
-    </p>
+            <div class="card">
+                <h2>Duomenų valdymas</h2>
+                <p>Saugiai tvarkykite savo duomenų žurnalus naudodami lengvo eksportavimo parinktis, skirtas profesionalioms ir nepriklausomoms transporto operacijoms.</p>
+            </div>
+        </div>
+    </section>
 
-    <p>
-        Projektas apjungia realią transporto sektoriaus patirtį ir ilgalaikę Android programėlių kūrimo praktiką.
-    </p>
+    <!-- ABOUT & DEVELOPER -->
+    <div class="grid">
+        <div class="card">
+            <h2>Arie projektą</h2>
+            <p style="margin-bottom: 15px;">
+                „TachoMobile 2“ yra sukurtas kaip pažangus asmeninis žurnalas ir pagalbinis įrankis profesionaliems sunkvežimių ir technikos vairuotojams.
+            </p>
+            <p>
+                Programėlėje dėmesys skiriamas paprastumui, saugiam debesų sinchronizavimui, duomenų šifravimui ir patikimam sąsajos patogumui šiuolaikinėje tranzito aplinkoje.
+            </p>
+        </div>
 
-    <p>
-        Jarosław anksčiau dirbo sunkvežimio vairuotoju ir technikos operatoriumi, prieš pradėdamas nepriklausomą programinės įrangos kūrimą bei transportui skirtų mobiliųjų įrankių kūrimą.
-    </p>
-</div>
+        <div class="card">
+            <h2>Kūrėjas</h2>
+            <p>
+                Sukūrė nepriklausomas inžinierius <strong>Jarosław Jezierczak</strong>. Programinė įranga unikaliai sujungia ilgametę realią komercinio sunkiasvorio transporto pramonės patirtį su „Android“ programėlių kūrimu, kad tiksliai atitiktų praktinius vairuotojų poreikius.
+            </p>
+        </div>
+    </div>
 
-<div class="card">
-    <h2>Pagalba</h2>
+    <!-- LEGAL & SUPPORT CONTACT -->
+    <div class="grid">
+        <div class="card">
+            <h2>Teisiniai dokumentai</h2>
+            <ul class="links-list">
+                <li><a href="privacy-policy.html">Privatumo politika</a></li>
+                <li><a href="terms.html">Naudojimo sąlygos</a></li>
+                <li><a href="disclaimer.html">Atsakomybės apribojimas</a></li>
+                <li><a href="delete-account.html">Paskyros ir duomenų ištrynimas</a></li>
+            </ul>
+        </div>
 
-    <p>
-        Kontaktai:
-        <a href="mailto:tachomobile.support@gmail.com">tachomobile.support@gmail.com</a>
-    </p>
-</div>
+        <div class="card">
+            <h2>Pagalba ir užklausos</h2>
+            <p style="margin-bottom: 20px;">
+                Turite klausimų dėl tachografo atitikties konfigūracijų, duomenų sinchronizavimo funkcijų ar atsiskaitymo taisyklių? Nedvejodami kreipkitės tiesiogiai:
+            </p>
+            <p>
+                <strong>Pagalba el. paštu:</strong><br/>
+                <a href="mailto:tachomobile.support@gmail.com" class="contact-link">tachomobile.support@gmail.com</a>
+            </p>
+        </div>
+    </div>
 
-<div class="card">
-    <h2>Teisiniai dokumentai</h2>
+    <!-- FOOTER -->
+    <footer class="footer">
+        © 2026 TachoMobile 2. Visos teisės saugomos. Sukūrė Jarosław Jezierczak.
+    </footer>
 
-    <ul>
-        <li><a href="privacy-policy.html">Privatumo politika</a></li>
-        <li><a href="terms.html">Naudojimo sąlygos</a></li>
-        <li><a href="disclaimer.html">Atsakomybės ribojimas</a></li>
-        <li><a href="delete-account.html">Paskyros trynimas</a></li>
-    </ul>
-</div>
-
-<div class="footer">
-    © 2026 TachoMobile 2
 </div>
 
 </body>
