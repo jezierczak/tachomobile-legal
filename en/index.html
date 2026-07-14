@@ -7,9 +7,9 @@
 
     <style>
         :root {
-            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
-            --bg-card: #14151f;       /* Ciemne tło kart */
-            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --bg-dark: #0b0c10;       /* Deep black from the app UI */
+            --bg-card: #14151f;       /* Dark card background */
+            --accent-purple: #7c3aed; /* Purple from the WORKING button */
             --accent-purple-hover: #6d28d9;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
@@ -99,7 +99,7 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
         }
-          .guide-button {
+        .guide-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -122,7 +122,6 @@
             box-shadow: 0 6px 24px rgba(124, 58, 237, 0.3);
         }
 
-
         .hero-mockup {
             flex: 1;
             display: flex;
@@ -144,7 +143,7 @@
             transform: scale(1.03);
         }
 
-        /* --- FEATURE GRID (Dane z promo_en.jpg) --- */
+        /* --- FEATURE GRID --- */
         .features {
             padding: 6px 0 60px 0;
         }
@@ -250,48 +249,42 @@
 
 <div class="container">
 
-    <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
-            <!-- Grafika z folderu nadrzędnego -->
             <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
             <h1>TachoMobile 2</h1>
             <p class="subtitle">
-                Smart tachograph assistant for professional drivers. Monitor driving activities, work periods, breaks, and stay fully compliant with transport regulations.
+                Smart assistant for professional drivers. Monitor driving time in real-time and import .ddd files directly from your driver card to automatically analyze your actual working hours and rest periods.
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
-                Get it on Google Play
+                Download on Google Play
             </a>
             <br/>
 
             <a href="guide/first-steps/" class="guide-button">
-                🚀 New to TachoMobile? Start Here
+                🚀 Quick Start Guide for New Users
             </a>
         </div>
         <div class="hero-mockup">
-            <!-- Grafika z folderu nadrzędnego -->
             <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
         </div>
     </section>
 
-    <!-- PROMO BANNER SHOWCASE -->
     <div class="promo-banner-container">
-        <!-- Grafika z folderu nadrzędnego -->
-        <img src="../promo_en.jpg" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+        <img src="../promo_en.png" alt="TachoMobile 2 Features Overview" class="promo-banner" />
     </div>
 
-    <!-- MAIN FEATURES SECTION -->
     <section class="features">
-        <h2 class="features-title">Core Capabilities</h2>
+        <h2 class="features-title">Main Features</h2>
         <div class="grid">
             <div class="card">
                 <h2>Driving Time</h2>
-                <p>Track driving, work time, and breaks in real time with high precision directly from the main interface.</p>
+                <p>Monitor your driving, working time, and breaks in real-time with high precision directly from the main application interface.</p>
             </div>
 
             <div class="card">
                 <h2>Smart Notifications</h2>
-                <p>Stay updated and compliant with complex driving time rules through proactive and intelligent system alerts.</p>
+                <p>Stay on track and comply with complex working hours regulations through active and intelligent system alerts.</p>
             </div>
 
             <div class="card">
@@ -300,63 +293,29 @@
             </div>
 
             <div class="card">
+                <h2>Import .ddd Files</h2>
+                <p>Easily import .ddd files from your driver card or tachograph. The app automatically analyzes historical data, giving you seamless control over your driving time.</p>
+            </div>
+
+            <div class="card">
                 <h2>Data Management</h2>
-                <p>Securely handle your data logs with easy export options designed for professional and independent transport operations.</p>
+                <p>Securely manage your data logs with easy export options designed for professional and independent transport operations.</p>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT & DEVELOPER -->
     <div class="grid">
         <div class="card">
-            <h2>About the Project</h2>
+            <h2>About the App</h2>
             <p style="margin-bottom: 15px;">
-                TachoMobile 2 is built to serve as an advanced personal logbook and assistant tool for professional truck and machinery drivers.
+                TachoMobile 2 is an Android application designed to assist drivers in monitoring their daily on-road activities.
             </p>
             <p>
-                The app focuses on simplicity, secure cloud synchronization, data encryption, and robust layout usability in modern transit environments.
+                The project focuses on readability, ease of use, secure cloud synchronization, and user data encryption.
             </p>
         </div>
 
         <div class="card">
-            <h2>The Developer</h2>
+            <h2>About the Developer</h2>
             <p>
-                Developed by independent engineer <strong>Jarosław Jezierczak</strong>. The software uniquely bridges long-term heavy commercial transport industry experience with Android software development to target drivers' practical business needs.
-            </p>
-        </div>
-    </div>
-
-    <!-- LEGAL & SUPPORT CONTACT -->
-    <div class="grid">
-        <div class="card">
-            <h2>Legal Documents</h2>
-            <ul class="links-list">
-                <!-- Dokumenty ładowane lokalnie z tego samego folderu /en/ -->
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="terms.html">Terms of Use</a></li>
-                <li><a href="disclaimer.html">Disclaimer</a></li>
-                <li><a href="delete-account.html">Account & Data Deletion</a></li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>Support & Inquiry</h2>
-            <p style="margin-bottom: 20px;">
-                Have questions regarding tachograph compliance configurations, data synchronization features, or billing policies? Feel free to reach out directly:
-            </p>
-            <p>
-                <strong>Email Support:</strong><br/>
-                <a href="mailto:tachomobile.support@gmail.com" class="contact-link">tachomobile.support@gmail.com</a>
-            </p>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        © 2026 TachoMobile 2. All rights reserved. Developed by Jarosław Jezierczak.
-    </footer>
-
-</div>
-
-</body>
-</html>
+                The application is developed by independent programmer <strong>Jarosław Jezierczaka</strong>. The project uniquely combines practical, long-term experience in the transport industry (including working as a truck driver and machinery operator) with professional mobile software development for the Android platform.
