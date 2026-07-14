@@ -7,9 +7,9 @@
 
     <style>
         :root {
-            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
-            --bg-card: #14151f;       /* Ciemne tło kart */
-            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --bg-dark: #0b0c10;       /* Noir profond de l'interface de l'application */
+            --bg-card: #14151f;       /* Fond sombre des cartes */
+            --accent-purple: #7c3aed; /* Violet du bouton WORKING */
             --accent-purple-hover: #6d28d9;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
@@ -99,7 +99,7 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
         }
-       .guide-button {
+        .guide-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -253,23 +253,18 @@
     <section class="hero">
         <div class="hero-content">
             <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
-                <h1>TachoMobile 2</h1>
-                
-                <p class="subtitle">
-                Assistant intelligent de tachygraphe pour les conducteurs professionnels.
-                Surveille les temps de conduite, les périodes de travail et les temps de repos,
-                tout en vous aidant à respecter la réglementation du transport.
-                </p>
-                
-                <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile"
-                   target="_blank"
-                   class="play-button">
-                    Télécharger sur Google Play
-                </a>
-                
-                <a href="guide/first-steps/" class="guide-button">
-                    🚀 Premiers pas
-                </a>
+            <h1>TachoMobile 2</h1>
+            <p class="subtitle">
+                Assistant intelligent pour les chauffeurs professionnels. Suivez votre temps de conduite en temps réel et importez des fichiers .ddd (données téléchargées depuis une carte de conducteur ou un tachygraphe) pour analyser automatiquement vos heures réelles de travail et de repos.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
+                Télécharger sur Google Play
+            </a>
+            <br/>
+
+            <a href="guide/first-steps/" class="guide-button">
+                🚀 Guide de démarrage rapide pour les nouveaux utilisateurs
+            </a>
         </div>
         <div class="hero-mockup">
             <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
@@ -278,51 +273,36 @@
 
     <!-- PROMO BANNER SHOWCASE -->
     <div class="promo-banner-container">
-       <img src="../promo_en.jpg"
-     alt="Présentation des fonctionnalités de TachoMobile 2"
-     class="promo-banner" />
+        <img src="../promo_en.png" alt="TachoMobile 2 Features Overview" class="promo-banner" />
     </div>
 
     <!-- MAIN FEATURES SECTION -->
     <section class="features">
-      <h2 class="features-title">Fonctionnalités principales</h2>
+        <h2 class="features-title">Fonctionnalités principales</h2>
         <div class="grid">
             <div class="card">
-              <h2>Temps de conduite</h2>
-                
-                <p>
-                Surveillez en temps réel les temps de conduite,
-                de travail et de repos avec une grande précision,
-                directement depuis l'écran principal.
-                </p>
+                <h2>Temps de conduite</h2>
+                <p>Suivez la conduite, le temps de travail et les pauses en temps réel avec une haute précision directement depuis l'interface principale de l'application.</p>
             </div>
 
             <div class="card">
-              <h2>Notifications intelligentes</h2>
-
-                <p>
-                Recevez des alertes intelligentes concernant les limites de conduite,
-                les pauses et les temps de repos afin de rester conforme à la réglementation.
-                </p>
+                <h2>Notifications intelligentes</h2>
+                <p>Restez informé et respectez les réglementations complexes sur le temps de travail grâce à des alertes système actives et intelligentes.</p>
             </div>
 
             <div class="card">
-             <h2>Analyse de la conduite</h2>
-                
-                <p>
-                Consultez des statistiques détaillées,
-                un historique complet des activités
-                et des rapports clairs pour mieux gérer votre travail.
-                </p>
+                <h2>Analyse de conduite</h2>
+                <p>Accédez à des statistiques de travail détaillées, des journaux automatisés et des rapports opérationnels clairs pour garder vos données organisées.</p>
             </div>
 
             <div class="card">
-               <h2>Gestion des données</h2>
+                <h2>Importation de fichiers .ddd</h2>
+                <p>Importez facilement des fichiers .ddd téléchargés depuis votre carte de conducteur ou votre tachygraphe. L'application analyse automatiquement les données historiques pour faciliter le contrôle des temps de conduite.</p>
+            </div>
 
-                <p>
-                Gérez vos données en toute sécurité grâce à des options simples
-                d'exportation et de sauvegarde conçues pour les conducteurs professionnels.
-                </p>
+            <div class="card">
+                <h2>Gestion des données</h2>
+                <p>Gérez vos journaux de données en toute sécurité grâce à des options d'exportation simples, conçues pour les opérations de transport professionnel et indépendant.</p>
             </div>
         </div>
     </section>
@@ -330,24 +310,19 @@
     <!-- ABOUT & DEVELOPER -->
     <div class="grid">
         <div class="card">
-            <h2>À propos du projet</h2>
-            
+            <h2>À propos de l'application</h2>
             <p style="margin-bottom: 15px;">
-            TachoMobile 2 est conçu comme un journal électronique avancé et un outil d'assistance destiné aux conducteurs professionnels de poids lourds et de véhicules utilitaires.
+                TachoMobile 2 est une application Android conçue pour aider les conducteurs dans le suivi quotidien de leurs activités sur la route.
             </p>
-            
             <p>
-            L'application met l'accent sur la simplicité d'utilisation, la sécurité des données, la synchronisation fiable et une interface moderne adaptée au travail quotidien des conducteurs.
+                Le projet met l'accent sur la lisibilité, la simplicité d'utilisation, la synchronisation sécurisée dans le cloud et le chiffrement des données utilisateur.
             </p>
         </div>
 
         <div class="card">
-            <h2>Le développeur</h2>
-            
+            <h2>À propos du développeur</h2>
             <p>
-            Développé par l'ingénieur logiciel indépendant
-            <strong>Jarosław Jezierczak</strong>.
-            Cette application combine une expérience concrète du secteur du transport routier avec le développement Android afin de répondre aux besoins réels des conducteurs professionnels.
+                L'application est développée par le programmeur indépendant <strong>Jarosław Jezierczak</strong>. Le projet combine de manière unique une solide expérience pratique de plusieurs années dans le secteur du transport (notamment comme chauffeur de camion et opérateur de machines) avec le développement professionnel de logiciels mobiles pour la plateforme Android.
             </p>
         </div>
     </div>
@@ -355,8 +330,7 @@
     <!-- LEGAL & SUPPORT CONTACT -->
     <div class="grid">
         <div class="card">
-           <h2>Documents légaux</h2>
-
+            <h2>Documents légaux</h2>
             <ul class="links-list">
                 <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
                 <li><a href="terms.html">Conditions d'utilisation</a></li>
@@ -366,27 +340,21 @@
         </div>
 
         <div class="card">
-          <h2>Assistance et contact</h2>
-                
-                <p style="margin-bottom: 20px;">
-                Vous avez des questions concernant l'application, les fonctionnalités Premium ou les paramètres du tachygraphe ?
-                N'hésitez pas à nous contacter.
-                </p>
-                
-                <p>
-                <strong>Email du support :</strong><br/>
-                <a href="mailto:tachomobile.support@gmail.com"
-                class="contact-link">
-                tachomobile.support@gmail.com
-                </a>
-                </p>
+            <h2>Support et questions</h2>
+            <p style="margin-bottom: 20px;">
+                Vous avez des questions concernant la configuration de la conformité du tachygraphe, les fonctionnalités de synchronisation des données dans le cloud ou les politiques de facturation ? N'hésitez pas à nous contacter directement :
+            </p>
+            <p>
+                <strong>Support e-mail :</strong><br/>
+                <a href="mailto:tachomobile.support@gmail.com" class="contact-link">tachomobile.support@gmail.com</a>
+            </p>
         </div>
     </div>
 
     <!-- FOOTER -->
-<footer class="footer">
-© 2026 TachoMobile 2. Tous droits réservés. Développé par Jarosław Jezierczak.
-</footer>
+    <footer class="footer">
+        © 2026 TachoMobile 2. Tous droits réservés. Créé par Jarosław Jezierczak.
+    </footer>
 
 </div>
 
