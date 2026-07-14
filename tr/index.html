@@ -7,6 +7,367 @@
 
     <style>
         :root {
+            --bg-dark: #0b0c10;       /* Uygulama arayüzünden derin siyah */
+            --bg-card: #14151f;       /* Kartların koyu arka planı */
+            --accent-purple: #7c3aed; /* WORKING butonunun mor rengi */
+            --accent-purple-hover: #6d28d9;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 80px 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 0;
+            }
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            letter-spacing: -0.03em;
+            background: linear-gradient(to right, #ffffff, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            max-width: 540px;
+        }
+
+        .play-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--accent-purple);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
+        }
+
+        .play-button:hover {
+            background-color: var(--accent-purple-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
+        }
+        .guide-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 14px;
+            padding: 14px 32px;
+            border-radius: 10px;
+            border: 2px solid var(--accent-purple);
+            color: var(--accent-purple);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: all 0.2s ease;
+            background: transparent;
+        }
+        
+        .guide-button:hover {
+            background: var(--accent-purple);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(124, 58, 237, 0.3);
+        }
+
+        .hero-mockup {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app-screenshot {
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            border-radius: 32px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            border: 4px solid #2e303f;
+            transition: transform 0.3s ease;
+        }
+
+        .app-screenshot:hover {
+            transform: scale(1.03);
+        }
+
+        /* --- FEATURE GRID --- */
+        .features {
+            padding: 6px 0 60px 0;
+        }
+
+        .features-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #222533;
+            transition: border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: var(--accent-purple);
+        }
+
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* --- BANNER SECTION --- */
+        .promo-banner-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .promo-banner {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* --- LEGAL & LINKS --- */
+        .links-list {
+            list-style: none;
+        }
+
+        .links-list li {
+            margin-bottom: 12px;
+        }
+
+        .links-list a {
+            display: block;
+            padding: 12px 16px;
+            background-color: #1a1b26;
+            border-radius: 8px;
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            border: 1px solid #222533;
+        }
+
+        .links-list a:hover {
+            background-color: #222436;
+            color: #ffffff;
+        }
+
+        .contact-link {
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- FOOTER --- */
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            color: #565f89;
+            font-size: 0.9rem;
+            border-top: 1px solid #1a1b26;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
+            <h1>TachoMobile 2</h1>
+            <p class="subtitle">
+                Profesyonel sürücüler için akıllı asistan. Sürüş sürenizi gerçek zamanlı olarak izleyin ve gerçek çalışma ve dinlenme sürelerinizi otomatik olarak analiz etmek için .ddd dosyalarını (sürücü kartından veya takograftan indirilen verileri) içe aktarın.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
+                Google Play'den İndirin
+            </a>
+            <br/>
+
+            <a href="guide/first-steps/" class="guide-button">
+                🚀 Yeni Kullanıcılar İçin Hızlı Başlangıç Kılavuzu
+            </a>
+        </div>
+        <div class="hero-mockup">
+            <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
+        </div>
+    </section>
+
+    <!-- PROMO BANNER SHOWCASE -->
+    <div class="promo-banner-container">
+        <img src="../promo_en.png" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+    </div>
+
+    <!-- MAIN FEATURES SECTION -->
+    <section class="features">
+        <h2 class="features-title">Ana Özellikler</h2>
+        <div class="grid">
+            <div class="card">
+                <h2>Sürüş Süresi</h2>
+                <p>Doğrudan uygulamanın ana arayüzünden sürüşünüzü, çalışma sürenizi ve molalarınızı yüksek hassasiyetle ve gerçek zamanlı olarak izleyin.</p>
+            </div>
+
+            <div class="card">
+                <h2>Akıllı Bildirimler</h2>
+                <p>Aktif ve akıllı sistem uyarıları sayesinde güncel kalın ve karmaşık çalışma saatleri yönetmeliklerine kolayca uyum sağlayın.</p>
+            </div>
+
+            <div class="card">
+                <h2>Sürüş Analizi</h2>
+                <p>Takibinizi düzenli tutmak için ayrıntılı çalışma istatistiklerine, otomatik günlüklere ve net operasyonel raporlara erişin.</p>
+            </div>
+
+            <div class="card">
+                <h2>.ddd Dosyalarını İçe Aktarma</h2>
+                <p>Sürücü kartınızdan veya takografınızdan indirilen .ddd dosyalarını kolayca içe aktarın. Uygulama, geçmiş verileri otomatik olarak analiz ederek sürüş süreleriniz üzerindeki kontrolünüzü kolaylaştırır.</p>
+            </div>
+
+            <div class="card">
+                <h2>Veri Yönetimi</h2>
+                <p>Profesyonel ve bağımsız taşımacılık operasyonları için tasarlanmış kolay dışa aktarma seçenekleriyle veri günlüklerinizi güvenle yönetin.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT & DEVELOPER -->
+    <div class="grid">
+        <div class="card">
+            <h2>Uygulama Hakkında</h2>
+            <p style="margin-bottom: 15px;">
+                TachoMobile 2, sürücülerin yoldaki günlük faaliyetlerini izlemelerine yardımcı olmak için tasarlanmış bir Android uygulamasıdır.
+            </p>
+            <p>
+                Proje; okunabilirlik, kullanım kolaylığı, güvenli bulut senkronizasyonu ve kullanıcı verilerinin şifrelenmesine odaklanmaktadır.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Geliştirici Hakkında</h2>
+            <p>
+                Uygulama, bağımsız geliştirici <strong>Jarosław Jezierczak</strong> tarafından geliştirilmektedir. Proje, taşımacılık sektöründeki (kamyon şoförlüğü ve iş makinesi operatörlüğü dahil) uzun yıllara dayanan pratik deneyimi, Android platformu için profesyonel mobil yazılım geliştirme yetkinliği ile benzersiz bir şekilde birleştirmektedir.
+            </p>
+        </div>
+    </div>
+
+    <!-- LEGAL & SUPPORT CONTACT -->
+    <div class="grid">
+        <div class="card">
+            <h2>Yasal Belgeler</h2>
+            <ul class="links-list">
+                <li><a href="privacy-policy.html">Gizlilik Politikası</a></li>
+                <li><a href="terms.html">Kullanım Şartları</a></li>
+                <li><a href="disclaimer.html">Sorumluluk Reddi Beyanı</a></li>
+                <li><a href="delete-account.html">Hesap ve Veri Silme</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Destek ve Sorular</h2>
+            <p style="margin-bottom: 20px;">
+                Takograf uyumluluk yapılandırması, bulut veri senkronizasyonu özellikleri veya faturalandırma politikaları hakkında sorularınız mı var? Bizimle doğrudan iletişime geçebilirsiniz:
+            </p>
+            <p>
+                <strong>E-posta Desteği:</strong><br/>
+                <a href="mailto:tachomobile.support@gmail.com" class="contact-link">tachomobile.support@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        © 2026 TachoMobile 2. Tüm hakları saklıdır. Jarosław Jezierczak tarafından geliştirilmiştir.
+    </footer>
+
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TachoMobile 2 - Akıllı Takograf Asistanı</title>
+
+    <style>
+        :root {
             --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
             --bg-card: #14151f;       /* Ciemne tło kart */
             --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
