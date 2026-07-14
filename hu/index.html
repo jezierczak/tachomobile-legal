@@ -7,9 +7,9 @@
 
     <style>
         :root {
-            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
-            --bg-card: #14151f;       /* Ciemne tło kart */
-            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --bg-dark: #0b0c10;       /* Mélyfekete az alkalmazás felületéről */
+            --bg-card: #14151f;       /* Kártyák sötét háttere */
+            --accent-purple: #7c3aed; /* Lila szín a WORKING gombról */
             --accent-purple-hover: #6d28d9;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
@@ -99,8 +99,7 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
         }
-
-                .guide-button {
+        .guide-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -256,14 +255,15 @@
             <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
             <h1>TachoMobile 2</h1>
             <p class="subtitle">
-                Intelligens tachográf asszisztens hivatásos járművezetőknek. Kövesse nyomon a vezetési tevékenységeket, a munkaidőt, a szüneteket, és feleljen meg teljes mértékben a szállítási szabályozásoknak.
+                Intelligens asszisztens hivatásos gépjárművezetőknek. Kísérje figyelemmel vezetési idejét valós időben, és importáljon .ddd fájlokat (gépjárművezetői kártyáról vagy tachográfról letöltött adatokat) a tényleges munka- és pihenőidők automatikus elemzéséhez.
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
-                Szerezd be a Google Playen
+                Letöltés a Google Play-en
             </a>
+            <br/>
 
             <a href="guide/first-steps/" class="guide-button">
-                🚀 Első lépések
+                🚀 Gyorsútmutató új felhasználóknak
             </a>
         </div>
         <div class="hero-mockup">
@@ -273,31 +273,36 @@
 
     <!-- PROMO BANNER SHOWCASE -->
     <div class="promo-banner-container">
-        <img src="../promo_en.jpg" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+        <img src="../promo_en.png" alt="TachoMobile 2 Features Overview" class="promo-banner" />
     </div>
 
     <!-- MAIN FEATURES SECTION -->
     <section class="features">
-        <h2 class="features-title">Főbb funkciók</h2>
+        <h2 class="features-title">Fő funkciók</h2>
         <div class="grid">
             <div class="card">
                 <h2>Vezetési idő</h2>
-                <p>Kövesse nyomon a vezetést, a munkaidőt és a szüneteket valós időben, nagy pontossággal, közvetlenül a fő kezelőfelületről.</p>
+                <p>Kövesse figyelemmel a vezetést, a munkaidőt és a pihenőidőket valós időben, nagy pontossággal, közvetlenül az alkalmazás fő kezelőfelületéről.</p>
             </div>
 
             <div class="card">
                 <h2>Intelligens értesítések</h2>
-                <p>Maradjon naprakész és szabálykövető a komplex vezetésiidő-szabályokkal a proaktív és intelligens rendszerfigyelmeztetések révén.</p>
+                <p>Maradjon naprakész, és feleljen meg a bonyolult munkaidő-szabályozásoknak az aktív és intelligens rendszerfigyelmeztetések segítségével.</p>
             </div>
 
             <div class="card">
-                <h2>Vezetéselemzés</h2>
-                <p>Férjen hozzá a részletes munkastatisztikákhoz, az automatizált naplókhoz és az átlátható működési jelentésekhez, hogy nyomon követése mindig rendszerezett legyen.</p>
+                <h2>Vezetési elemzés</h2>
+                <p>Férjen hozzá a részletes munkastatisztikákhoz, az automatizált naplókhoz és az átlátható működési jelentésekhez, hogy adatai mindig rendezettek legyenek.</p>
+            </div>
+
+            <div class="card">
+                <h2>.ddd fájlok importálása</h2>
+                <p>Importáljon egyszerűen a gépjárművezetői kártyáról vagy tachográfról letöltött .ddd fájlokat. Az alkalmazás automatikusan elemzi a korábbi adatokat, megkönnyítve a vezetési idők ellenőrzését.</p>
             </div>
 
             <div class="card">
                 <h2>Adatkezelés</h2>
-                <p>Kezelje biztonságosan adatnaplóit a hivatásos és független szállítási műveletekhez tervezett egyszerű exportálási lehetőségekkel.</p>
+                <p>Biztonságosan kezelheti adatnaplóit az egyszerű exportálási opciókkal, amelyeket a hivatásos és független fuvarozási igényekre terveztünk.</p>
             </div>
         </div>
     </section>
@@ -305,19 +310,19 @@
     <!-- ABOUT & DEVELOPER -->
     <div class="grid">
         <div class="card">
-            <h2>A projektről</h2>
+            <h2>Az alkalmazásról</h2>
             <p style="margin-bottom: 15px;">
-                A TachoMobile 2 egy fejlett személyes naplóként és asszisztens eszközként készült hivatásos tehergépkocsi- és gépjárművezetők számára.
+                A TachoMobile 2 egy Androidra tervezett alkalmazás, amely segítséget nyújt a járművezetőknek a napi közúti tevékenységeik nyomon követésében.
             </p>
             <p>
-                Az alkalmazás az egyszerűségre, a biztonságos felhőalapú szinkronizálásra, az adattitkosításra és a modern közlekedési környezetben való robusztus használhatóságra összpontosít.
+                A projekt kiemelten fókuszál az átláthatóságra, a könnyű kezelhetőségre, a biztonságos felhőalapú szinkronizációra, valamint a felhasználói adatok titkosítására.
             </p>
         </div>
 
         <div class="card">
-            <h2>A fejlesztő</h2>
+            <h2>A fejlesztőről</h2>
             <p>
-                Fejlesztette: <strong>Jarosław Jezierczak</strong> független mérnök. A szoftver egyedülálló módon hidalja át a nehézgépjármű-szállítási ágazatban szerzett hosszú távú tapasztalatot az Android szoftverfejlesztéssel, hogy célba vegye a járművezetők gyakorlati üzleti igényeit.
+                Az alkalmazást egy független programozó, <strong>Jarosław Jezierczak</strong> fejleszti. A projekt egyedülálló módon ötvözi a szállítási ágazatban szerzett többéves gyakorlati tapasztalatot (beleértve a kamionsofőrként és gépkezelőként végzett munkát) a professzionális Android mobil szoftverfejlesztéssel.
             </p>
         </div>
     </div>
@@ -337,7 +342,7 @@
         <div class="card">
             <h2>Támogatás és kérdések</h2>
             <p style="margin-bottom: 20px;">
-                Kérdése van a tachográf-megfelelőségi beállításokkal, a felhőszinkronizálási funkciókkal vagy a számlázási feltételekkel kapcsolatban? Forduljon hozzánk bizalommal közvetlenül:
+                Kérdése van a tachográf megfelelőségi beállításaival, a felhőalapú adatszinkronizálási funkciókkal vagy a számlázási irányelvekkel kapcsolatban? Forduljon hozzánk bizalommal:
             </p>
             <p>
                 <strong>E-mail támogatás:</strong><br/>
@@ -348,7 +353,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        © 2026 TachoMobile 2. Minden jog fenntartva. Fejlesztette: Jarosław Jezierczak.
+        © 2026 TachoMobile 2. Minden jog fenntartva. Készítette: Jarosław Jezierczak.
     </footer>
 
 </div>
