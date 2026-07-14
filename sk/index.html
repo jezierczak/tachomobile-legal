@@ -7,9 +7,9 @@
 
     <style>
         :root {
-            --bg-dark: #0b0c10;       /* Głęboka czerń z UI aplikacji */
-            --bg-card: #14151f;       /* Ciemne tło kart */
-            --accent-purple: #7c3aed; /* Fiolet z przycisku WORKING */
+            --bg-dark: #0b0c10;       /* Hlboká čerň z UI aplikácie */
+            --bg-card: #14151f;       /* Tmavé pozadie kariet */
+            --accent-purple: #7c3aed; /* Fialová z tlačidla WORKING */
             --accent-purple-hover: #6d28d9;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
@@ -99,8 +99,7 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 24px rgba(124, 58, 237, 0.4);
         }
-
-                .guide-button {
+        .guide-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -256,14 +255,16 @@
             <img src="../predkosciomierz_moj.png" alt="TachoMobile 2 Logo" class="hero-logo" />
             <h1>TachoMobile 2</h1>
             <p class="subtitle">
-                Inteligentný asistent tachografu pre profesionálnych vodičov. Monitorujte činnosti jazdy, pracovný čas, prestávky a buďte plne v súlade s dopravnými predpismi.
+                Inteligentný asistent pre profesionálnych vodičov. Sledujte čas jazdy v reálnom čase a importujte súbory .ddd (dáta stiahnuté z karty vodiča alebo tachografu) pre automatickú analýzu vašej skutočnej pracovnej doby a odpočinku.
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.productive.jarek.tachomobile" target="_blank" class="play-button">
                 Stiahnuť na Google Play
             </a>
+            <br/>
+
             <a href="guide/first-steps/" class="guide-button">
-                🚀 Prvé kroky
-            </a>    
+                🚀 Príručka pre nových používateľov
+            </a>
         </div>
         <div class="hero-mockup">
             <img src="../Screenshot_20260514_224612.png" alt="TachoMobile 2 App Interface" class="app-screenshot" />
@@ -272,7 +273,7 @@
 
     <!-- PROMO BANNER SHOWCASE -->
     <div class="promo-banner-container">
-        <img src="../promo_en.jpg" alt="TachoMobile 2 Features Overview" class="promo-banner" />
+        <img src="../promo_en.png" alt="TachoMobile 2 Features Overview" class="promo-banner" />
     </div>
 
     <!-- MAIN FEATURES SECTION -->
@@ -280,23 +281,28 @@
         <h2 class="features-title">Hlavné funkcie</h2>
         <div class="grid">
             <div class="card">
-                <h2>Doba jazdy</h2>
-                <p>Sledujte jazdu, pracovný čas a prestávky v reálnom čase s vysokou presnosťou priamo z hlavného rozhrania.</p>
+                <h2>Čas jazdy</h2>
+                <p>Sledujte jazdu, pracovný čas a prestávky v reálnom čase s vysokou presnosťou priamo z hlavného rozhrania aplikácie.</p>
             </div>
 
             <div class="card">
                 <h2>Inteligentné upozornenia</h2>
-                <p>Zostaňte informovaní a v súlade s komplexnými pravidlami doby jazdy vďaka proaktívnym a inteligentným systémovým upozorneniam.</p>
+                <p>Majte prehľad a dodržiavajte zložité predpisy o pracovnom čase vďaka aktívnym a inteligentným systémovým upozorneniam.</p>
             </div>
 
             <div class="card">
                 <h2>Analýza jazdy</h2>
-                <p>Získajte prístup k podrobným štatistikám práce, automatickým záznamom a prehľadným prevádzkovým správam.</p>
+                <p>Získajte prístup k podrobným štatistikám práce, automatickým protokolom a prehľadným prevádzkovým prehľadom, aby ste mali vo svojich dátach poriadok.</p>
+            </div>
+
+            <div class="card">
+                <h2>Import súborov .ddd</h2>
+                <p>Pohodlne importujte súbory .ddd stiahnuté z karty vodiča alebo tachografu. Aplikácia automaticky analyzuje historické dáta a uľahčí kontrolu nad časom jazdy.</p>
             </div>
 
             <div class="card">
                 <h2>Správa dát</h2>
-                <p>Bezpečne spravujte svoje dátové záznamy s možnosťou jednoduchého exportu navrhnutou pre profesionálnu aj nezávislú dopravu.</p>
+                <p>Bezpečne spravujte svoje dátové protokoly vďaka jednoduchým možnostiam exportu navrhnutým pre profesionálnu a nezávislú prepravu.</p>
             </div>
         </div>
     </section>
@@ -304,19 +310,19 @@
     <!-- ABOUT & DEVELOPER -->
     <div class="grid">
         <div class="card">
-            <h2>O projekte</h2>
+            <h2>O aplikácii</h2>
             <p style="margin-bottom: 15px;">
-                TachoMobile 2 je navrhnutý ako pokročilý osobný denník a pomocný nástroj pre profesionálnych vodičov nákladných vozidiel a ťažkej techniky.
+                TachoMobile 2 je aplikácia pre systém Android navrhnutá tak, aby pomáhala vodičom pri každodennom sledovaní ich aktivít na cestách.
             </p>
             <p>
-                Aplikácia sa zameriava na jednoduchosť, bezpečnú cloudovú synchronizáciu, šifrovanie dát a spoľahlivú použiteľnosť v modernom dopravnom prostredí.
+                Projekt sa zameriava na prehľadnosť, jednoduchosť použitia, bezpečnú synchronizáciu v cloude a šifrovanie užívateľských dát.
             </p>
         </div>
 
         <div class="card">
-            <h2>Vývojár</h2>
+            <h2>O vývojárovi</h2>
             <p>
-                Vyvinuté nezávislým vývojárom, ktorým je <strong>Jarosław Jezierczak</strong>. Tento softvér jedinečným spôsobom spája dlhoročné reálne skúsenosti z oblasti komerčnej kamiónovej dopravy s vývojom aplikácií pre Android, vďaka čomu presne reaguje na praktické opatrenia a potreby vodičov.
+                Aplikáciu vyvíja nezávislý programátor <strong>Jarosław Jezierczak</strong>. Projekt jedinečným spôsobom spája praktické, dlhoročné skúsenosti v dopravnom sektore (vrátane práce ako vodič kamiónu a operátor strojov) s profesionálnym vývojom mobilného softvéru pre platformu Android.
             </p>
         </div>
     </div>
@@ -336,7 +342,7 @@
         <div class="card">
             <h2>Podpora a otázky</h2>
             <p style="margin-bottom: 20px;">
-                Máte otázky týkajúce sa konfigurácie zhody tachografov, funkcií synchronizácie dát alebo podmienok fakturácie? Neváhajte sa obrátiť priamo na nás:
+                Máte otázky ohľadom nastavenia kompatibility s tachografom, funkcií synchronizácie dát v cloude alebo pravidiel účtovania? Neváhajte nás kontaktovať priamo:
             </p>
             <p>
                 <strong>E-mailová podpora:</strong><br/>
@@ -347,7 +353,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        © 2026 TachoMobile 2. Všetky práva vyhradené. Vyvinul Jarosław Jezierczak.
+        © 2026 TachoMobile 2. Všetky práva vyhradené. Vytvoril Jarosław Jezierczak.
     </footer>
 
 </div>
