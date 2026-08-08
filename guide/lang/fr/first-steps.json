@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "fr"
+             },
+    "page":  {
+                 "title":  "Comment fonctionne TachoMobile 2 ?",
+                 "heading":  "📖 Comment fonctionne TachoMobile 2 ?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 est un assistant intelligent pour les conducteurs qui aide à surveiller les temps de conduite, les pauses, les périodes de repos et le respect de la réglementation.",
+                  "2":  "L\u0027application fonctionne de manière similaire à un tachygraphe : elle détecte automatiquement l\u0027activité du conducteur à partir des données GPS et tient un journal électronique de la journée de travail."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Premiers pas",
+                                   "text1":  "Accordez toutes les autorisations nécessaires et vérifiez l\u0027écran \u003cb\u003eÉtat de l\u0027application\u003c/b\u003e.",
+                                   "text2":  "Ensuite, sélectionnez \u003cb\u003eCommencer le travail / Insérer la carte conducteur\u003c/b\u003e. À partir de ce moment, l\u0027application fonctionne automatiquement en arrière-plan.",
+                                   "tip":  {
+                                               "title":  "💡 Conseil",
+                                               "text":  "Pendant le travail, il est recommandé de connecter le téléphone à un chargeur. L\u0027utilisation continue du GPS augmente la consommation de la batterie."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Détection automatique de la conduite",
+                                       "text1":  "TachoMobile détecte automatiquement le début et la fin de la conduite et modifie les activités du conducteur.",
+                                       "text2":  "L\u0027algorithme analyse les données GPS ainsi que le comportement de l\u0027appareil afin de reconnaître la conduite avec la plus grande précision possible."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pauses",
+                                    "text1":  "Lors des pauses prolongées, il est recommandé de désactiver la fonction de détection de la conduite.",
+                                    "text2":  "Cela permet d\u0027éviter les enregistrements accidentels causés par la marche, les déplacements en dehors du véhicule ou une perte temporaire du signal GPS.",
+                                    "text3":  "Cependant, cela n\u0027est pas obligatoire : l\u0027application utilise des algorithmes qui limitent les détections erronées."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Modifier les activités",
+                                  "text1":  "Chaque enregistrement peut être modifié, supprimé ou son type peut être changé. En cas de détection incorrecte d'une activité, il est facile de la corriger manuellement.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Fin de la journée de travail",
+                                    "text1":  "À la fin de la journée, sélectionnez \u003cb\u003eRetirer la carte / Terminer le travail\u003c/b\u003e. L'application arrêtera le suivi GPS afin de réduire la consommation d'énergie.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analyse et fonctionnalités Premium",
+                                     "text1":  "À partir des données collectées, l\u0027application analyse les temps de conduite, les pauses, les périodes de repos, les limites ainsi que les éventuelles infractions.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eLa version gratuite\u003c/b\u003e utilise le même moteur de calcul que Premium. La détection automatique de la conduite et le suivi de base fonctionnent de manière identique.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e ainsi que la \u003cb\u003epériode d\u0027essai\u003c/b\u003e débloquent toutes les fonctionnalités avancées, notamment les analyses détaillées, l\u0027historique complet, les statistiques, les rapports ainsi que les alertes concernant les limites approchantes et les infractions potentielles."
+                                 },
+                     "done":  {
+                                  "title":  "✅ C\u0027est tout !",
+                                  "automatic":  "Au quotidien, le conducteur doit simplement :",
+                                  "daily":  "TachoMobile 2 s\u0027occupe de tout le reste.",
+                                  "items":  {
+                                                "1":  "Commencer sa journée de travail.",
+                                                "2":  "Terminer sa journée de travail."
+                                            },
+                                  "text":  "TachoMobile 2 s\u0027occupe de tout le reste."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Informations importantes",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 est un outil d\u0027assistance destiné aux conducteurs.\u003c/b\u003e Il ne remplace ni le tachygraphe ni les équipements exigés par la réglementation en vigueur.",
+                                     "text2":  "L\u0027application utilise les données GPS ainsi que ses propres algorithmes de reconnaissance des activités. Malgré son développement continu, il est possible que certaines activités soient occasionnellement mal identifiées en raison des limitations du signal GPS, du système Android ou des caractéristiques de l\u0027appareil.",
+                                     "text3":  "Le conducteur doit toujours vérifier les données enregistrées. En cas de divergence, les enregistrements du tachygraphe ainsi que la réglementation en vigueur prévalent."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Retour à la page d\u0027accueil"
+                   },
+    "footer":  "© TachoMobile 2"
+}

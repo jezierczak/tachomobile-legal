@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "ro"
+             },
+    "page":  {
+                 "title":  "Cum funcționează TachoMobile 2?",
+                 "heading":  "📖 Cum funcționează TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 este un asistent inteligent pentru șoferi, care ajută la monitorizarea timpului de conducere, a pauzelor, a perioadelor de odihnă și a respectării legislației.",
+                  "2":  "Aplicația funcționează similar unui tahograf – detectează automat activitatea șoferului pe baza datelor GPS și păstrează o evidență electronică a zilei de lucru."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Primii pași",
+                                   "text1":  "Acordați toate permisiunile necesare și verificați ecranul \u003cb\u003eStarea aplicației\u003c/b\u003e.",
+                                   "text2":  "Apoi selectați \u003cb\u003eÎncepeți munca / Introduceți cardul șoferului\u003c/b\u003e. Din acest moment, aplicația va funcționa automat în fundal.",
+                                   "tip":  {
+                                               "title":  "💡 Sfat",
+                                               "text":  "În timpul utilizării este recomandat să conectați telefonul la încărcător. Utilizarea continuă a GPS-ului crește consumul bateriei."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Detectarea automată a condusului",
+                                       "text1":  "TachoMobile detectează automat începutul și sfârșitul condusului și schimbă activitatea șoferului.",
+                                       "text2":  "Algoritmul analizează datele GPS și comportamentul dispozitivului pentru a identifica deplasarea cât mai precis posibil."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pauze",
+                                    "text1":  "În timpul pauzelor mai lungi este recomandat să dezactivați funcția de detectare a condusului.",
+                                    "text2":  "Astfel se evită înregistrările accidentale cauzate de mersul pe jos, deplasarea în afara vehiculului sau pierderea temporară a semnalului GPS.",
+                                    "text3":  "Totuși, acest lucru nu este obligatoriu – aplicația utilizează algoritmi care reduc detectările eronate."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Editarea activităților",
+                                  "text1":  "Fiecare înregistrare poate fi editată, ștearsă sau îi poate fi schimbat tipul. Dacă o activitate este detectată incorect, aceasta poate fi corectată cu ușurință manual.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Încheierea programului",
+                                    "text1":  "La sfârșitul zilei selectați \u003cb\u003eScoateți cardul / Încheiați munca\u003c/b\u003e. Aplicația va opri monitorizarea GPS pentru a reduce consumul de energie.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analiză și funcții Premium",
+                                     "text1":  "Pe baza datelor colectate, aplicația analizează timpul de conducere, pauzele, perioadele de odihnă, limitele și posibilele încălcări ale regulilor.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eVersiunea gratuită\u003c/b\u003e utilizează același motor de calcul ca versiunea Premium. Detectarea automată a condusului și monitorizarea de bază funcționează identic.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e și \u003cb\u003eperioada de probă\u003c/b\u003e deblochează toate funcțiile avansate, inclusiv analize detaliate, istoric complet, statistici, rapoarte și avertizări privind apropierea limitelor și posibile încălcări."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Atât!",
+                                  "automatic":  "În utilizarea de zi cu zi, șoferul trebuie doar să:",
+                                  "daily":  "De toate celelalte se ocupă TachoMobile 2.",
+                                  "items":  {
+                                                "1":  "Înceapă munca.",
+                                                "2":  "Încheie munca la sfârșitul zilei."
+                                            },
+                                  "text":  "De toate celelalte se ocupă TachoMobile 2."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Informații importante",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 este un instrument de asistență pentru șoferi.\u003c/b\u003e Nu înlocuiește tahograful și nici echipamentele impuse de legislația în vigoare.",
+                                     "text2":  "Aplicația utilizează date GPS și algoritmi proprii pentru recunoașterea activităților. În ciuda dezvoltării continue, uneori poate identifica incorect o activitate din cauza limitărilor semnalului GPS, ale sistemului Android sau ale dispozitivului utilizat.",
+                                     "text3":  "Șoferul trebuie să verifice întotdeauna datele înregistrate. În cazul unor diferențe, au prioritate înregistrările tahografului și prevederile legale aplicabile."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Înapoi la pagina principală"
+                   },
+    "footer":  "© TachoMobile 2"
+}

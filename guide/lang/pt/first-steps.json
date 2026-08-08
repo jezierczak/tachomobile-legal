@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "pt"
+             },
+    "page":  {
+                 "title":  "Como funciona o TachoMobile 2?",
+                 "heading":  "📖 Como funciona o TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "O TachoMobile 2 é um assistente inteligente para motoristas que ajuda a monitorizar os tempos de condução, pausas, períodos de descanso e o cumprimento da legislação.",
+                  "2":  "A aplicação funciona de forma semelhante a um tacógrafo: reconhece automaticamente a atividade do motorista com base nos dados GPS e mantém um registo eletrónico da jornada de trabalho."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Primeiros passos",
+                                   "text1":  "Conceda todas as permissões necessárias e verifique o ecrã \u003cb\u003eEstado da aplicação\u003c/b\u003e.",
+                                   "text2":  "Em seguida, selecione \u003cb\u003eIniciar trabalho / Inserir o cartão do motorista\u003c/b\u003e. A partir desse momento, a aplicação funcionará automaticamente em segundo plano.",
+                                   "tip":  {
+                                               "title":  "💡 Dica",
+                                               "text":  "Durante o trabalho, recomenda-se ligar o telemóvel ao carregador. A utilização contínua do GPS aumenta o consumo da bateria."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Deteção automática da condução",
+                                       "text1":  "O TachoMobile deteta automaticamente o início e o fim da condução e altera a atividade do motorista.",
+                                       "text2":  "O algoritmo analisa os dados GPS e o comportamento do dispositivo para reconhecer a condução com a maior precisão possível."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pausas",
+                                    "text1":  "Durante pausas prolongadas, recomenda-se desativar a função de deteção da condução.",
+                                    "text2":  "Isso ajuda a evitar registos acidentais causados por caminhadas, deslocações fora do veículo ou perdas temporárias do sinal GPS.",
+                                    "text3":  "No entanto, isto não é obrigatório — a aplicação utiliza algoritmos que reduzem as deteções incorretas."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Editar atividades",
+                                  "text1":  "Cada registo pode ser editado, eliminado ou ter o seu tipo alterado. Se uma atividade for identificada incorretamente, pode ser facilmente corrigida manualmente.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Terminar o trabalho",
+                                    "text1":  "No final do dia, selecione \u003cb\u003eRetirar o cartão / Terminar o trabalho\u003c/b\u003e. A aplicação irá interromper a monitorização por GPS para reduzir o consumo de energia.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Análise e funcionalidades Premium",
+                                     "text1":  "Com base nos dados recolhidos, a aplicação analisa os tempos de condução, pausas, períodos de descanso, limites e possíveis infrações.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eA versão gratuita\u003c/b\u003e utiliza o mesmo motor de cálculo da versão Premium. A deteção automática da condução e a monitorização básica funcionam exatamente da mesma forma.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e e o \u003cb\u003eperíodo experimental\u003c/b\u003e desbloqueiam todas as funcionalidades avançadas, incluindo análises detalhadas, histórico completo, estatísticas, relatórios e alertas sobre limites próximos e possíveis infrações."
+                                 },
+                     "done":  {
+                                  "title":  "✅ É só isso!",
+                                  "automatic":  "No dia a dia, o motorista apenas precisa de:",
+                                  "daily":  "O TachoMobile 2 trata de todo o resto.",
+                                  "items":  {
+                                                "1":  "Iniciar o trabalho.",
+                                                "2":  "Terminar o trabalho no final do dia."
+                                            },
+                                  "text":  "O TachoMobile 2 trata de todo o resto."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Informação importante",
+                                     "text1":  "\u003cb\u003eO TachoMobile 2 é uma ferramenta de apoio ao motorista.\u003c/b\u003e Não substitui o tacógrafo nem os equipamentos exigidos pela legislação em vigor.",
+                                     "text2":  "A aplicação utiliza dados GPS e algoritmos próprios para reconhecimento de atividades. Apesar do desenvolvimento contínuo, pode ocasionalmente identificar uma atividade de forma incorreta devido a limitações do sinal GPS, do sistema Android ou das características do dispositivo.",
+                                     "text3":  "O motorista deve sempre verificar os dados registados. Em caso de divergências, prevalecem os registos do tacógrafo e a legislação aplicável."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Voltar à página inicial"
+                   },
+    "footer":  "© TachoMobile 2"
+}

@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "tr"
+             },
+    "page":  {
+                 "title":  "TachoMobile 2 nasıl çalışır?",
+                 "heading":  "📖 TachoMobile 2 nasıl çalışır?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2, sürüş süresini, molaları, dinlenme sürelerini ve yasal düzenlemelere uyumu takip etmeye yardımcı olan akıllı bir sürücü asistanıdır.",
+                  "2":  "Uygulama, takograf benzeri şekilde çalışır; GPS verilerini kullanarak sürücünün faaliyetlerini otomatik olarak algılar ve çalışma gününün elektronik kaydını tutar."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. İlk adımlar",
+                                   "text1":  "Gerekli tüm izinleri verin ve \u003cb\u003eUygulama Durumu\u003c/b\u003e ekranını kontrol edin.",
+                                   "text2":  "Ardından \u003cb\u003eÇalışmayı Başlat / Sürücü Kartını Tak\u003c/b\u003e seçeneğini seçin. Bu andan itibaren uygulama arka planda otomatik olarak çalışacaktır.",
+                                   "tip":  {
+                                               "title":  "💡 İpucu",
+                                               "text":  "Çalışma sırasında telefonunuzu şarja takmanız önerilir. GPS\u0027in sürekli kullanılması pil tüketimini artırır."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Otomatik sürüş algılama",
+                                       "text1":  "TachoMobile sürüşün başlangıcını ve bitişini otomatik olarak algılar ve sürücünün faaliyetini buna göre değiştirir.",
+                                       "text2":  "Algoritma, sürüşü mümkün olduğunca doğru şekilde tespit etmek için GPS verilerini ve cihazın davranışını analiz eder."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Molalar",
+                                    "text1":  "Uzun molalar sırasında sürüş algılama özelliğinin kapatılması önerilir.",
+                                    "text2":  "Bu sayede yürüyüş, araç dışında hareket etme veya geçici GPS sinyal kaybı nedeniyle oluşabilecek yanlış kayıtlar önlenebilir.",
+                                    "text3":  "Ancak bu zorunlu değildir; uygulama yanlış algılamaları azaltan algoritmalar kullanır."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Faaliyetleri düzenleme",
+                                  "text1":  "Her kayıt düzenlenebilir, silinebilir veya türü değiştirilebilir. Bir faaliyet yanlış algılanmışsa, manuel olarak kolayca düzeltilebilir.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Çalışmayı bitirme",
+                                    "text1":  "Günün sonunda \u003cb\u003eKartı Çıkar / Çalışmayı Bitir\u003c/b\u003e seçeneğini seçin. Uygulama enerji tüketimini azaltmak için GPS izlemeyi durduracaktır.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analiz ve Premium özellikler",
+                                     "text1":  "Toplanan verilere dayanarak uygulama sürüş sürelerini, molaları, dinlenme sürelerini, limitleri ve olası ihlalleri analiz eder.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eÜcretsiz sürüm\u003c/b\u003e, Premium ile aynı hesaplama motorunu kullanır. Otomatik sürüş algılama ve temel izleme aynı şekilde çalışır.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e ve \u003cb\u003edeneme süresi\u003c/b\u003e, ayrıntılı analizler, tam geçmiş, istatistikler, raporlar ve yaklaşan limitler ile olası ihlaller hakkında uyarılar dahil tüm gelişmiş özelliklerin kilidini açar."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Hepsi bu kadar!",
+                                  "automatic":  "Günlük kullanımda sürücünün yalnızca şunları yapması gerekir:",
+                                  "daily":  "Diğer her şeyi TachoMobile 2 sizin yerinize yapar.",
+                                  "items":  {
+                                                "1":  "Çalışmayı başlatmak.",
+                                                "2":  "Günün sonunda çalışmayı bitirmek."
+                                            },
+                                  "text":  "Diğer her şeyi TachoMobile 2 sizin yerinize yapar."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Önemli bilgi",
+                                     "text1":  "\u003cb\u003eTachoMobile 2, sürücülere yardımcı olmak için geliştirilmiş bir araçtır.\u003c/b\u003e Takografın veya yürürlükteki mevzuat tarafından zorunlu tutulan cihazların yerine geçmez.",
+                                     "text2":  "Uygulama GPS verilerini ve kendi faaliyet tanıma algoritmalarını kullanır. Sürekli geliştiriliyor olmasına rağmen, GPS sinyalindeki kısıtlamalar, Android sistemi veya cihazın özellikleri nedeniyle zaman zaman faaliyetleri yanlış algılayabilir.",
+                                     "text3":  "Sürücü her zaman kaydedilen verileri kontrol etmelidir. Herhangi bir farklılık durumunda takograf kayıtları ve yürürlükteki yasal düzenlemeler esas alınır."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Ana sayfaya dön"
+                   },
+    "footer":  "© TachoMobile 2"
+}

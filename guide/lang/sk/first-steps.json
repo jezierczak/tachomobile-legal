@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "sk"
+             },
+    "page":  {
+                 "title":  "Ako funguje TachoMobile 2?",
+                 "heading":  "📖 Ako funguje TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 je inteligentný asistent vodiča, ktorý pomáha sledovať čas jazdy, prestávky, odpočinky a dodržiavanie právnych predpisov.",
+                  "2":  "Aplikácia funguje podobne ako tachograf – automaticky rozpoznáva aktivitu vodiča na základe údajov GPS a vedie elektronický záznam pracovného dňa."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Prvé kroky",
+                                   "text1":  "Udeľte všetky potrebné povolenia a skontrolujte obrazovku \u003cb\u003eStav aplikácie\u003c/b\u003e.",
+                                   "text2":  "Potom vyberte \u003cb\u003eZačať prácu / Vložiť kartu vodiča\u003c/b\u003e. Od tohto momentu bude aplikácia automaticky pracovať na pozadí.",
+                                   "tip":  {
+                                               "title":  "💡 Tip",
+                                               "text":  "Počas práce odporúčame pripojiť telefón k nabíjačke. Neustále používanie GPS zvyšuje spotrebu batérie."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automatické rozpoznanie jazdy",
+                                       "text1":  "TachoMobile automaticky rozpozná začiatok a koniec jazdy a zmení aktivitu vodiča.",
+                                       "text2":  "Algoritmus analyzuje údaje GPS a správanie zariadenia, aby čo najpresnejšie rozpoznal jazdu."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Prestávky",
+                                    "text1":  "Počas dlhších prestávok sa odporúča vypnúť funkciu rozpoznávania jazdy.",
+                                    "text2":  "Tým sa predíde náhodným záznamom spôsobeným chôdzou, pohybom mimo vozidla alebo dočasnou stratou GPS signálu.",
+                                    "text3":  "Nie je to však povinné – aplikácia používa algoritmy, ktoré minimalizujú chybné rozpoznania."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Úprava aktivít",
+                                  "text1":  "Každý záznam je možné upraviť, odstrániť alebo zmeniť jeho typ. Ak bola aktivita rozpoznaná nesprávne, môžete ju jednoducho opraviť ručne.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Ukončenie práce",
+                                    "text1":  "Na konci dňa vyberte \u003cb\u003eVybrať kartu / Ukončiť prácu\u003c/b\u003e. Aplikácia zastaví sledovanie GPS, aby znížila spotrebu energie.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analýza a funkcie Premium",
+                                     "text1":  "Na základe zozbieraných údajov aplikácia analyzuje čas jazdy, prestávky, odpočinky, limity a možné porušenia predpisov.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eBezplatná verzia\u003c/b\u003e používa rovnaký výpočtový engine ako Premium. Automatické rozpoznávanie jazdy a základné monitorovanie fungujú rovnako.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e a \u003cb\u003eskúšobná verzia\u003c/b\u003e odomykajú všetky pokročilé funkcie vrátane podrobných analýz, kompletnej histórie, štatistík, reportov a upozornení na blížiace sa limity a možné porušenia."
+                                 },
+                     "done":  {
+                                  "title":  "✅ To je všetko!",
+                                  "automatic":  "Vodič by mal každý deň iba:",
+                                  "daily":  "O všetko ostatné sa postará TachoMobile 2.",
+                                  "items":  {
+                                                "1":  "Začať prácu.",
+                                                "2":  "Po skončení dňa ukončiť prácu."
+                                            },
+                                  "text":  "O všetko ostatné sa postará TachoMobile 2."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Dôležité informácie",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 je nástroj na podporu práce vodiča.\u003c/b\u003e Nenahrádza tachograf ani zariadenia vyžadované platnými právnymi predpismi.",
+                                     "text2":  "Aplikácia využíva údaje GPS a vlastné algoritmy rozpoznávania aktivít. Napriek neustálemu vývoju môže príležitostne nesprávne rozpoznať aktivitu z dôvodu obmedzení GPS signálu, systému Android alebo špecifických vlastností zariadenia.",
+                                     "text3":  "Vodič by mal vždy skontrolovať zaznamenané údaje. V prípade nezrovnalostí majú prednosť údaje z tachografu a platné právne predpisy."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Späť na hlavnú stránku"
+                   },
+    "footer":  "© TachoMobile 2"
+}

@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "it"
+             },
+    "page":  {
+                 "title":  "Come funziona TachoMobile 2?",
+                 "heading":  "📖 Come funziona TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 è un assistente intelligente per autisti che aiuta a monitorare i tempi di guida, le pause, i periodi di riposo e il rispetto delle normative.",
+                  "2":  "L\u0027applicazione funziona in modo simile a un tachigrafo: riconosce automaticamente l\u0027attività del conducente in base ai dati GPS e registra elettronicamente la giornata lavorativa."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Primi passi",
+                                   "text1":  "Concedi tutte le autorizzazioni richieste e controlla la schermata \u003cb\u003eStato dell\u0027applicazione\u003c/b\u003e.",
+                                   "text2":  "Successivamente seleziona \u003cb\u003eInizia il lavoro / Inserisci la carta del conducente\u003c/b\u003e. Da questo momento l\u0027applicazione funzionerà automaticamente in background.",
+                                   "tip":  {
+                                               "title":  "💡 Suggerimento",
+                                               "text":  "Durante il lavoro è consigliabile collegare il telefono al caricabatterie. L\u0027utilizzo continuo del GPS aumenta il consumo della batteria."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Rilevamento automatico della guida",
+                                       "text1":  "TachoMobile rileva automaticamente l\u0027inizio e la fine della guida e aggiorna l\u0027attività del conducente.",
+                                       "text2":  "L\u0027algoritmo analizza i dati GPS e il comportamento del dispositivo per riconoscere la guida con la massima precisione possibile."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pause",
+                                    "text1":  "Durante le pause più lunghe è consigliabile disattivare la funzione di rilevamento della guida.",
+                                    "text2":  "In questo modo si evitano registrazioni accidentali causate da passeggiate, spostamenti fuori dal veicolo o perdite temporanee del segnale GPS.",
+                                    "text3":  "Tuttavia, non è obbligatorio: l\u0027applicazione utilizza algoritmi che riducono al minimo i rilevamenti errati."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Modifica delle attività",
+                                  "text1":  "Ogni registrazione può essere modificata, eliminata o cambiarne il tipo. Se un'attività viene rilevata in modo errato, può essere facilmente corretta manualmente.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Fine della giornata lavorativa",
+                                    "text1":  "Al termine della giornata seleziona \u003cb\u003eRimuovi la carta / Termina il lavoro\u003c/b\u003e. L'applicazione interromperà il monitoraggio GPS per ridurre il consumo energetico.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analisi e funzionalità Premium",
+                                     "text1":  "Sulla base dei dati raccolti, l\u0027applicazione analizza i tempi di guida, le pause, i periodi di riposo, i limiti e le possibili violazioni.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eLa versione gratuita\u003c/b\u003e utilizza lo stesso motore di calcolo della versione Premium. Il rilevamento automatico della guida e il monitoraggio di base funzionano esattamente allo stesso modo.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e e il \u003cb\u003eperiodo di prova\u003c/b\u003e sbloccano tutte le funzionalità avanzate, tra cui analisi dettagliate, cronologia completa, statistiche, report e avvisi relativi ai limiti imminenti e alle possibili violazioni."
+                                 },
+                     "done":  {
+                                  "title":  "✅ È tutto!",
+                                  "automatic":  "Nell\u0027uso quotidiano il conducente deve semplicemente:",
+                                  "daily":  "A tutto il resto pensa TachoMobile 2.",
+                                  "items":  {
+                                                "1":  "Iniziare il lavoro.",
+                                                "2":  "Terminare il lavoro alla fine della giornata."
+                                            },
+                                  "text":  "A tutto il resto pensa TachoMobile 2."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Informazioni importanti",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 è uno strumento di supporto per il conducente.\u003c/b\u003e Non sostituisce il tachigrafo né i dispositivi richiesti dalla normativa vigente.",
+                                     "text2":  "L\u0027applicazione utilizza dati GPS e algoritmi proprietari per il riconoscimento delle attività. Nonostante il continuo sviluppo, in alcuni casi potrebbe identificare erroneamente un\u0027attività a causa delle limitazioni del segnale GPS, del sistema Android o delle caratteristiche del dispositivo.",
+                                     "text3":  "Il conducente deve sempre verificare i dati registrati. In caso di discrepanze, prevalgono le registrazioni del tachigrafo e la normativa vigente."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Torna alla pagina principale"
+                   },
+    "footer":  "© TachoMobile 2"
+}

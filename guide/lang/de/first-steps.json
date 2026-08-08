@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "de"
+             },
+    "page":  {
+                 "title":  "Wie funktioniert TachoMobile 2?",
+                 "heading":  "📖 Wie funktioniert TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 ist ein intelligenter Assistent für Fahrer, der dabei hilft, Lenkzeiten, Pausen, Ruhezeiten und die Einhaltung der gesetzlichen Vorschriften zu überwachen.",
+                  "2":  "Die App funktioniert ähnlich wie ein Tachograph – sie erkennt die Aktivitäten des Fahrers automatisch anhand der GPS-Daten und erstellt ein elektronisches Fahrtenprotokoll."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Erste Schritte",
+                                   "text1":  "Erteilen Sie alle erforderlichen Berechtigungen und überprüfen Sie den Bildschirm \u003cb\u003eApp-Status\u003c/b\u003e.",
+                                   "text2":  "Wählen Sie anschließend \u003cb\u003eArbeit beginnen / Fahrerkarte einlegen\u003c/b\u003e. Ab diesem Zeitpunkt arbeitet die App automatisch im Hintergrund.",
+                                   "tip":  {
+                                               "title":  "💡 Tipp",
+                                               "text":  "Es wird empfohlen, das Telefon während der Nutzung an ein Ladegerät anzuschließen. Die kontinuierliche Nutzung von GPS erhöht den Akkuverbrauch."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automatische Fahrerkennung",
+                                       "text1":  "TachoMobile erkennt automatisch den Beginn und das Ende einer Fahrt und wechselt die Fahreraktivitäten entsprechend.",
+                                       "text2":  "Der Algorithmus analysiert GPS-Daten sowie das Verhalten des Geräts, um Fahrten möglichst präzise zu erkennen."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pausen",
+                                    "text1":  "Während längerer Pausen wird empfohlen, die Fahrerkennung zu deaktivieren.",
+                                    "text2":  "Dadurch werden versehentliche Einträge vermieden, die durch Spaziergänge, Bewegungen außerhalb des Fahrzeugs oder kurzfristige GPS-Signalverluste entstehen können.",
+                                    "text3":  "Dies ist jedoch nicht verpflichtend – die App verwendet Algorithmen, die Fehlerkennungen weitgehend vermeiden."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Aktivitäten bearbeiten",
+                                  "text1":  "Jeder Eintrag kann bearbeitet, gelöscht oder sein Typ geändert werden. Falls eine Aktivität falsch erkannt wurde, kann sie jederzeit manuell korrigiert werden.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Arbeit beenden",
+                                    "text1":  "Wählen Sie am Ende des Tages \u003cb\u003eFahrerkarte entnehmen / Arbeit beenden\u003c/b\u003e. Die App beendet anschließend die GPS-Überwachung, um den Energieverbrauch zu reduzieren.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analyse und Premium-Funktionen",
+                                     "text1":  "Auf Grundlage der gesammelten Daten analysiert die App Lenkzeiten, Pausen, Ruhezeiten, Grenzwerte sowie mögliche Verstöße.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eDie kostenlose Version\u003c/b\u003e verwendet dieselbe Berechnungs-Engine wie Premium. Die automatische Fahrerkennung und die grundlegende Überwachung funktionieren identisch.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e sowie die \u003cb\u003eTestversion\u003c/b\u003e schalten alle erweiterten Funktionen frei, darunter detaillierte Analysen, den vollständigen Verlauf, Statistiken, Berichte sowie Warnungen vor bevorstehenden Grenzwerten und möglichen Verstößen."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Das ist alles!",
+                                  "automatic":  "Im Alltag muss der Fahrer lediglich:",
+                                  "daily":  "Den Rest übernimmt TachoMobile 2.",
+                                  "items":  {
+                                                "1":  "Die Arbeit beginnen.",
+                                                "2":  "Die Arbeit am Ende des Tages beenden."
+                                            },
+                                  "text":  "Den Rest übernimmt TachoMobile 2."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Wichtiger Hinweis",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 ist ein unterstützendes Werkzeug für Fahrer.\u003c/b\u003e Es ersetzt weder den Tachographen noch die gesetzlich vorgeschriebenen Geräte.",
+                                     "text2":  "Die App verwendet GPS-Daten und eigene Algorithmen zur Aktivitätserkennung. Trotz kontinuierlicher Weiterentwicklung kann es aufgrund von GPS-Einschränkungen, Android-Beschränkungen oder gerätespezifischen Besonderheiten gelegentlich zu einer fehlerhaften Erkennung kommen.",
+                                     "text3":  "Der Fahrer sollte die aufgezeichneten Daten stets überprüfen. Im Falle von Abweichungen haben die Aufzeichnungen des Tachographen sowie die geltenden gesetzlichen Vorschriften Vorrang."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Zurück zur Startseite"
+                   },
+    "footer":  "© TachoMobile 2"
+}

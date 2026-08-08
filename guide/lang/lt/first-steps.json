@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "lt"
+             },
+    "page":  {
+                 "title":  "Kaip veikia „TachoMobile 2“?",
+                 "heading":  "📖 Kaip veikia „TachoMobile 2“?"
+             },
+    "intro":  {
+                  "1":  "„TachoMobile 2“ – tai išmanus vairuotojo pagalbininkas, padedantis stebėti vairavimo laiką, pertraukas, poilsio laikotarpius ir teisės aktų reikalavimų laikymąsi.",
+                  "2":  "Programa veikia panašiai kaip tachografas – ji automatiškai atpažįsta vairuotojo veiklą pagal GPS duomenis ir elektroniniu būdu registruoja darbo dieną."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Pirmieji žingsniai",
+                                   "text1":  "Suteikite visus reikiamus leidimus ir patikrinkite ekraną \u003cb\u003eProgramos būsena\u003c/b\u003e.",
+                                   "text2":  "Tada pasirinkite \u003cb\u003ePradėti darbą / Įdėti vairuotojo kortelę\u003c/b\u003e. Nuo šio momento programa automatiškai veiks fone.",
+                                   "tip":  {
+                                               "title":  "💡 Patarimas",
+                                               "text":  "Dirbant rekomenduojama prijungti telefoną prie įkroviklio. Nuolatinis GPS naudojimas didina akumuliatoriaus energijos sąnaudas."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automatinis vairavimo aptikimas",
+                                       "text1":  "„TachoMobile“ automatiškai nustato vairavimo pradžią ir pabaigą bei atitinkamai pakeičia vairuotojo veiklą.",
+                                       "text2":  "Algoritmas analizuoja GPS duomenis ir įrenginio veikimą, kad kuo tiksliau atpažintų vairavimą."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pertraukos",
+                                    "text1":  "Ilgesnių pertraukų metu rekomenduojama išjungti vairavimo aptikimo funkciją.",
+                                    "text2":  "Taip išvengsite atsitiktinių įrašų, kuriuos gali sukelti vaikščiojimas, judėjimas už transporto priemonės ribų arba laikinas GPS signalo praradimas.",
+                                    "text3":  "Tačiau tai nėra privaloma – programa naudoja algoritmus, kurie sumažina klaidingų aptikimų skaičių."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Veiklų redagavimas",
+                                  "text1":  "Kiekvieną įrašą galima redaguoti, ištrinti arba pakeisti jo tipą. Jei veikla buvo atpažinta neteisingai, ją galima lengvai pataisyti rankiniu būdu.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Darbo pabaiga",
+                                    "text1":  "Baigę darbo dieną pasirinkite \u003cb\u003eIšimti kortelę / Baigti darbą\u003c/b\u003e. Programa sustabdys GPS stebėjimą, kad sumažintų energijos sąnaudas.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analizė ir Premium funkcijos",
+                                     "text1":  "Remdamasi surinktais duomenimis, programa analizuoja vairavimo laiką, pertraukas, poilsio laikotarpius, limitus ir galimus pažeidimus.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eNemokama versija\u003c/b\u003e naudoja tą patį skaičiavimo variklį kaip ir Premium. Automatinis vairavimo aptikimas ir pagrindinis stebėjimas veikia identiškai.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e ir \u003cb\u003ebandomasis laikotarpis\u003c/b\u003e atrakina visas pažangias funkcijas, įskaitant išsamią analizę, visą istoriją, statistiką, ataskaitas bei įspėjimus apie artėjančius limitus ir galimus pažeidimus."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Viskas!",
+                                  "automatic":  "Kasdien vairuotojui tereikia:",
+                                  "daily":  "Visa kita atliks „TachoMobile 2“.",
+                                  "items":  {
+                                                "1":  "Pradėti darbą.",
+                                                "2":  "Baigti darbą dienos pabaigoje."
+                                            },
+                                  "text":  "Visa kita atliks „TachoMobile 2“."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Svarbi informacija",
+                                     "text1":  "\u003cb\u003e„TachoMobile 2“ yra pagalbinė priemonė vairuotojui.\u003c/b\u003e Ji nepakeičia tachografo ar kitų teisės aktuose numatytų privalomų įrenginių.",
+                                     "text2":  "Programa naudoja GPS duomenis ir savo veiklos atpažinimo algoritmus. Nepaisant nuolatinio tobulinimo, kartais veikla gali būti atpažinta neteisingai dėl GPS signalo apribojimų, „Android“ sistemos ar konkretaus įrenginio ypatumų.",
+                                     "text3":  "Vairuotojas visada turėtų patikrinti užregistruotus duomenis. Jei atsiranda neatitikimų, pirmenybė teikiama tachografo įrašams ir galiojantiems teisės aktams."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Grįžti į pagrindinį puslapį"
+                   },
+    "footer":  "© TachoMobile 2"
+}

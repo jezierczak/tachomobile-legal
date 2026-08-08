@@ -1,0 +1,80 @@
+{
+    "meta":  {
+                 "htmlLang":  "en"
+             },
+    "page":  {
+                 "title":  "How TachoMobile 2 Works",
+                 "heading":  "📖 How TachoMobile 2 Works"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 is an intelligent driver assistant that helps monitor driving time, breaks, rest periods and compliance with EU driving regulations.",
+                  "2":  "The application works similarly to a digital tachograph by automatically recognizing driver activities using GPS data and maintaining an electronic record of the working day."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Starting Your Working Day",
+                                   "text1":  "Grant all required permissions and verify that everything is correctly configured in the \u003cb\u003eApplication Status\u003c/b\u003e screen.",
+                                   "text2":  "Then select \u003cb\u003eStart Work / Insert Driver Card\u003c/b\u003e. From this point on, TachoMobile runs automatically in the background.",
+                                   "tip":  {
+                                               "title":  "💡 Tip",
+                                               "text":  "It is recommended to keep your phone connected to a charger while working, as continuous GPS usage may increase battery consumption."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automatic Driving Detection",
+                                       "text1":  "TachoMobile automatically detects when driving starts and ends, updating driver activities without requiring manual input.",
+                                       "text2":  "The application analyzes GPS data together with device behavior to recognize driving activity as accurately as possible."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Breaks",
+                                    "text1":  "During longer breaks it is recommended to disable automatic driving detection.",
+                                    "text2":  "This helps prevent accidental activity entries caused by walking, moving outside the vehicle or temporary GPS signal loss.",
+                                    "text3":  "However, this is not mandatory. TachoMobile includes intelligent algorithms designed to minimize false driving detections."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Editing Activities",
+                                  "text1":  "Every activity can be edited, deleted or changed at any time.",
+                                  "text2":  "If an activity has been detected incorrectly, it can easily be corrected manually."
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Finishing Your Working Day",
+                                    "text1":  "At the end of your shift select \u003cb\u003eRemove Driver Card / Finish Work\u003c/b\u003e.",
+                                    "text2":  "The application will stop GPS monitoring to reduce unnecessary battery usage."
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analysis \u0026 Premium Features",
+                                     "text1":  "Based on collected data, TachoMobile automatically analyzes:",
+                                     "items":  [
+                                                   "Driving time",
+                                                   "Breaks",
+                                                   "Daily rest periods",
+                                                   "Weekly rest periods",
+                                                   "Driving limits",
+                                                   "Potential infringements",
+                                                   "Working time statistics"
+                                               ],
+                                     "free":  "\u003cb\u003eThe Free version\u003c/b\u003e uses exactly the same calculation engine as the Premium version. Automatic driving detection and core monitoring features work identically in both versions.",
+                                     "premium":  "\u003cb\u003ePremium\u003c/b\u003e and the \u003cb\u003eFree Trial\u003c/b\u003e unlock all advanced features, including detailed analysis, complete history, advanced statistics, reports, configurable alerts and notifications before driving limits or possible infringements are reached."
+                                 },
+                     "done":  {
+                                  "title":  "✅ That\u0027s It!",
+                                  "automatic":  "Once configured, almost everything works automatically.",
+                                  "daily":  "In everyday use, the driver only needs to:",
+                                  "items":  {
+                                                "1":  "Start the working day.",
+                                                "2":  "Finish work at the end of the shift."
+                                            },
+                                  "text":  "TachoMobile 2 takes care of everything else."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Important Information",
+                                     "text1":  "\u003cb\u003eTachoMobile 2 is a driver assistance tool.\u003c/b\u003e It does not replace a digital tachograph or any recording equipment required by applicable laws and regulations.",
+                                     "text2":  "The application uses GPS data together with proprietary activity recognition algorithms. Although continuously improved, occasional incorrect activity detection may occur due to GPS limitations, Android system restrictions or specific device characteristics.",
+                                     "text3":  "Drivers should always verify recorded activities. In the event of any discrepancy, the official tachograph records and applicable legislation always take precedence."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Back to Home Page"
+                   },
+    "footer":  "© TachoMobile 2"
+}

@@ -1,0 +1,74 @@
+{
+    "meta":  {
+                 "htmlLang":  "hu"
+             },
+    "page":  {
+                 "title":  "Hogyan működik a TachoMobile 2?",
+                 "heading":  "📖 Hogyan működik a TachoMobile 2?"
+             },
+    "intro":  {
+                  "1":  "A TachoMobile 2 egy intelligens sofőrsegéd, amely segít nyomon követni a vezetési időt, a szüneteket, a pihenőidőket és a jogszabályok betartását.",
+                  "2":  "Az alkalmazás a tachográfhoz hasonlóan működik – a GPS-adatok alapján automatikusan felismeri a járművezető tevékenységét, és elektronikus nyilvántartást vezet a munkanapról."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Első lépések",
+                                   "text1":  "Adjon meg minden szükséges engedélyt, majd ellenőrizze az \u003cb\u003eAlkalmazás állapota\u003c/b\u003e képernyőt.",
+                                   "text2":  "Ezután válassza a \u003cb\u003eMunka megkezdése / Sofőrkártya behelyezése\u003c/b\u003e lehetőséget. Ettől kezdve az alkalmazás automatikusan a háttérben működik.",
+                                   "tip":  {
+                                               "title":  "💡 Tipp",
+                                               "text":  "Munka közben ajánlott a telefont töltőre csatlakoztatni. A GPS folyamatos használata növeli az akkumulátor fogyasztását."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automatikus vezetésfelismerés",
+                                       "text1":  "A TachoMobile automatikusan felismeri a vezetés kezdetét és végét, valamint ennek megfelelően módosítja a járművezető tevékenységeit.",
+                                       "text2":  "Az algoritmus a GPS-adatokat és a készülék viselkedését elemzi, hogy a lehető legpontosabban ismerje fel a vezetést."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Szünetek",
+                                    "text1":  "Hosszabb szünetek alatt ajánlott kikapcsolni a vezetésfelismerési funkciót.",
+                                    "text2":  "Ez segít elkerülni a véletlen bejegyzéseket, amelyeket séta, a járművön kívüli mozgás vagy átmeneti GPS-jelvesztés okozhat.",
+                                    "text3":  "Ez azonban nem kötelező – az alkalmazás olyan algoritmusokat használ, amelyek csökkentik a hibás felismerések számát."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Tevékenységek szerkesztése",
+                                  "text1":  "Minden bejegyzés szerkeszthető, törölhető vagy módosítható a típusa. Ha egy tevékenységet az alkalmazás hibásan ismert fel, az könnyen javítható kézzel.",
+                                  "text2":  ""
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Munka befejezése",
+                                    "text1":  "A nap végén válassza a \u003cb\u003eSofőrkártya eltávolítása / Munka befejezése\u003c/b\u003e lehetőséget. Az alkalmazás leállítja a GPS figyelését az energiafogyasztás csökkentése érdekében.",
+                                    "text2":  ""
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Elemzés és Premium funkciók",
+                                     "text1":  "Az összegyűjtött adatok alapján az alkalmazás elemzi a vezetési időt, a szüneteket, a pihenőidőket, a korlátozásokat és a lehetséges szabálysértéseket.",
+                                     "items":  [
+
+                                               ],
+                                     "free":  "\u003cb\u003eAz ingyenes verzió\u003c/b\u003e ugyanazt a számítási motort használja, mint a Premium. Az automatikus vezetésfelismerés és az alapvető nyomon követés teljesen azonos módon működik.",
+                                     "premium":  "\u003cb\u003eA Premium\u003c/b\u003e és a \u003cb\u003epróbaidőszak\u003c/b\u003e minden fejlett funkciót felold, beleértve a részletes elemzéseket, a teljes előzményeket, a statisztikákat, a jelentéseket, valamint a közelgő korlátozásokról és lehetséges szabálysértésekről szóló figyelmeztetéseket."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Ennyi az egész!",
+                                  "automatic":  "A sofőrnek a mindennapokban mindössze ennyit kell tennie:",
+                                  "daily":  "Minden másról a TachoMobile 2 gondoskodik.",
+                                  "items":  {
+                                                "1":  "Megkezdeni a munkát.",
+                                                "2":  "A nap végén befejezni a munkát."
+                                            },
+                                  "text":  "Minden másról a TachoMobile 2 gondoskodik."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Fontos információ",
+                                     "text1":  "\u003cb\u003eA TachoMobile 2 egy, a járművezető munkáját segítő eszköz.\u003c/b\u003e Nem helyettesíti a tachográfot vagy a jogszabályok által előírt egyéb berendezéseket.",
+                                     "text2":  "Az alkalmazás GPS-adatokat és saját tevékenységfelismerő algoritmusokat használ. A folyamatos fejlesztés ellenére előfordulhat, hogy a GPS-jel korlátai, az Android rendszer vagy az adott készülék sajátosságai miatt időnként hibásan ismer fel egy tevékenységet.",
+                                     "text3":  "A járművezetőnek mindig ellenőriznie kell a rögzített adatokat. Eltérés esetén a tachográf adatai és a hatályos jogszabályok az irányadók."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Vissza a főoldalra"
+                   },
+    "footer":  "© TachoMobile 2"
+}
