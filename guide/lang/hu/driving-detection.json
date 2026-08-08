@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Vezetésfelismerés",
+    "heading": "Vezetésfelismerés"
+  },
+  "intro": {
+    "1": "A TachoMobile számos információforrást használ a vezetés automatikus észlelésére.",
+    "2": "A telefon GPS-je információt ad a jármű mozgásáról és sebességéről. A Google tevékenységfelismerés segít meghatározni, hogy a telefon a járműben vagy azon kívül van-e.",
+    "3": "Ezeket a forrásokat együtt elemezzük a telefon aktuális állapotának meghatározása és az automatikus vezetésfelismerés megfelelő vezérlése érdekében."
+  },
+  "sections": {
+    "how": {
+      "title": "Hogyan működik a vezetésfelismerés?",
+      "content": "<p>TachoMobile nem rendelkezik közvetlen kapcsolattal a tachográfokkal. A telefon GPS-ét és a Google Activity Recognition funkcióját használja a vezetési tevékenység automatikus észlelésére.</p><p>A telefon GPS-je információt ad a jármű mozgásáról és sebességéről. A Google tevékenységfelismerés segít meghatározni, hogy a telefon a járműben vagy azon kívül van-e.</p><p>Ezeket a forrásokat együtt elemezzük a telefon aktuális állapotának meghatározása és az automatikus vezetésfelismerés megfelelő vezérlése érdekében.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Észlelési üzemmódok",
+      "content": "<p>Ez a négy érzékelési mód:</p><h3>⛔ KI — letiltva</h3><p>Az automatikus vezetésfelismerés teljesen le van tiltva.\nA</p><ul><li>GPS nem használható észlelésre.</li><li>A Google tevékenységfelismerése nem használható észlelésre.</li><li>A tevékenységek bevitele csak manuálisan történik.\nA</li></ul><p>OFF teljes mértékben manuális tevékenységkezelést jelent.</p><h3>✋ MANUAL — kézi</h3><p>A tevékenységek bevitele csak manuálisan történik.</p><p>A következő tevékenységek során a GPS az útvonal követésére és a kilométerek számlálására szolgál:</p><ul><li>Vezetés</li><li>Elérhetőség legénységben</li></ul><p><strong>Fontos:\nA</strong> MANUAL nem jelenti azt, hogy a GPS teljesen le van tiltva. A GPS akkor működik, ha szükséges nyomon követni a vezetést vagy a személyzet elérhetőségét.</p><h3>STANDBY — készenlét\nA</h3><p>Standby egy speciális üzemmód, amelyet főleg olyan helyzetekre terveztek, amikor a vezető szünetet tart. Szokatlan körülmények között, például gyenge vagy instabil GPS-jel esetén az alkalmazás vezetést észlelhet, még akkor is, ha a jármű áll.</p><ol><li>Az alkalmazás észlelheti a lehetséges vezetést.</li><li>Egy üzenet tájékoztatja Önt, hogy vezetést észlelt.</li><li>Az alkalmazás 30 másodpercet vár a megerősítésre.</li><li>Ha a vezetést nem erősítik meg, az észlelés törlődik.</li><li>A vezetés megerősítése esetén a vezetési bejegyzés megmarad.</li><li>Az üzemmód AUTO-ra vált.</li></ol><p>A készenléti üzemmód javasolt szünetekben.</p><h3>AUTO — automatikus\nA</h3><p>AUTO a teljesen automatikus vezetésfelismerési mód.</p><ul><li>Az illesztőprogram-tevékenységek automatikusan módosulnak az algoritmus alapján.</li><li>A GPS munka közben működik.</li><li>Az automatikus érzékelés munka közben működik.</li></ul><p>A munkavégzés és a járművezetői kártya eltávolítása után az automatikus vezetésfelismerés felfüggesztésre kerül.</p><p>A munkavégzés utáni pihenés alatt a GPS nem használható az automatikus vezetésérzékeléshez.</p>"
+    },
+    "vehicleStates": {
+      "title": "Járműfelismerési állapotok",
+      "content": "<p>A TachoMobile az Alkalmazás állapotában ikonnal mutatja az aktuális felismerési állapotot.</p><p><strong>Fontos:</strong> A jármű felismerési állapota nem egyezik meg a vezető tevékenységével. Ez az egyik olyan elem, amelyet az észlelőmotor használ a tevékenység megváltoztatásának eldöntésekor.</p><h3>⏸️ Mindenképpen a járművön kívül</h3><p>Az alkalmazás nagyon biztos abban, hogy a telefon a járművön kívül van. Akkukímélő módban a GPS nagyon ritkán használható ebben az állapotban – akár egy minta 60 másodpercenként.</p><h3>A járművön kívül</h3><p>A telefon felismerte, hogy a járművön kívül van.</p><h3>Mindenképpen a járműben</h3><p>Az alkalmazás nagyon biztos abban, hogy a telefon a járműben van. Ebben az állapotban alacsonyabb vezetési aktiválási sebesség küszöbérték használható.</p><h3>A járműben</h3><p>Az alkalmazás felismerte, hogy a telefon a járműben van.</p><h3>autóba épített zár\nA</h3><p><strong>In-Car Lock a felhasználó számára nem elérhető beállítás.</strong> Ez egy automatikus mechanizmus, amely védi az észlelési műveletet.</p><p>Ha az alkalmazás nagyon biztos abban, hogy a telefon a járműben van, és töltőhöz van csatlakoztatva, aktiválhatja az In-Car Lock funkciót.</p><p>Ebben az állapotban az alkalmazás feltételezi, hogy a telefon a járműben marad, és nem vált át más felismerési állapotba rövid vagy ideiglenes jelváltozások miatt.\nA</p><p>autós zárat a következő után szabadítják fel:</p><ul><li>a töltő le van választva,</li><li>vagy legalább 2 percig tartó leállást észlel.</li></ul><p>A legalacsonyabb vezetési aktiválási sebesség küszöbértéket használja az In-Car Lock.\nA</p><p>autós zár automatikusan működik. A felhasználó nem kapcsolja be kézzel.</p>"
+    },
+    "power": {
+      "title": "Átváltás pihenésre a tápellátás megszűnése után",
+      "content": "<p>Ez a vezetésfelismerési beállításokban elérhető opció.</p><p>Ha engedélyezve van, megállás után vagy nagyon alacsony sebességnél az energiaveszteség automatikusan pihenésbe kapcsolhatja a tevékenységet.</p><p>Például:</p><p><strong>vezetés → megállás → gyújtás kikapcsolva → pihenés</strong></p><p>Ez a funkció elkülönül az autós zártól.</p>"
+    },
+    "detectionModes": {
+      "title": "Észlelési módok",
+      "content": "<p>Ez egy külön beállítás a négy üzemmódtól: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Letiltva</h3><p>Az automatikus GPS-mintavétel az észleléshez le van tiltva.</p><h3>Nagy pontosság</h3><ul><li>Gyors GPS-mintavétel.</li><li>Gyors észlelési válasz.</li><li>Gyors mintavételezés észlelt leállás esetén is.</li><li>Nagy pontosság és érzékenység.</li><li>Megnövekedett akkumulátorfogyasztás.</li></ul><h3>⚖️ Kiegyensúlyozott</h3><ul><li>Kompromisszum a sebesség és az akkumulátorfogyasztás között.</li><li>A leállás észlelése után kötegelt mintavétel történik.</li><li>Ez az alapértelmezett mód.</li></ul><h3>Akkukímélő</h3><p>Ez a mindennapi munkához ajánlott gazdaságos üzemmód.</p><ul><li>Megállás észlelése után a GPS-t nagyon ritkán használják: 60 másodpercenként egy mintát.</li><li>50 km/h felett a mintavétel 8 másodpercenként történik.</li></ul><p>Az akkumulátorkímélő funkció továbbra is lehetővé teszi az automatikus vezetés észlelését. Ez elsősorban a GPS használatának módját változtatja meg.</p><p>A nagy pontosságú, a kiegyensúlyozott és az akkumulátorkímélő üzemmód az alapértelmezett észlelési mód, és mindegyiknek megvan a saját vezetési aktiválási és deaktiválási sebessége.</p>"
+    },
+    "custom": {
+      "title": "Egyéni mód",
+      "content": "<p>Az egyéni mód prémium szolgáltatás. Lehetővé teszi a felhasználó számára, hogy az észlelést saját igényeihez igazítsa.</p><p>Ez a rész tartalmazza a felhasználó által beállítható vezetési be- és kikapcsolási sebességeket, valamint a megállt állapotban használt követési módot is.</p><h3>Mintavételi érzékenység</h3><p>Ez határozza meg az átlag kiszámításához használt GPS-minták számát.</p><p>Alapértelmezett érték: 3 minta.</p><h3>A minták közötti intervallum</h3><p>Ez határozza meg az egymást követő GPS-minták közötti időt.</p><p>Alapértelmezett érték: 4 másodperc.</p><p>Az alapértelmezett konfiguráció 4 másodpercenként 3 mintát jelent. Ezekből a mintákból átlagot számítanak ki, majd az algoritmus felhasználja a vezetési aktiválás és a deaktiválás sebességének meghatározásakor.</p>"
+    },
+    "thresholds": {
+      "title": "Aktiválási és deaktiválási sebességek",
+      "content": "<p>Egyedi módban a felhasználó beállíthatja a sebesség küszöbértékeit.</p><p>Az algoritmus a járműfelismerési információkat és az átlagos GPS-sebességet használja fel.</p><p>Alapértelmezett felismerési szintek:</p><ul><li>Mindenképpen a járműben – 3 km/h</li><li>Valószínűleg a járműben – 6 km/h</li><li>Valószínűleg a járművön kívül — 12 km/h</li><li>A járművön kívül — 15 km/h</li></ul><p>Ezek az értékek nem egy egyszerű „X km/h felett = vezetés” rendszer. Ezek olyan paraméterek, amelyeket az algoritmus a jármű felismerési állapotával együtt használ.</p><p>Az alapértelmezett észlelési módoknak saját aktiválási és deaktiválási sebességük is van. Az egyéni mód lehetővé teszi a felhasználó számára, hogy beállítsa ezeket a küszöbértékeket.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Követési mód megálláskor",
+      "content": "<p>Megállás észlelése után a felhasználó kiválaszthatja, hogyan folytatódjon a GPS követés.</p><h3>Valós idejű\nA</h3><p>GPS-mintákat a beállított séma szerint veszik. Például 4 másodperces időközönként 4 másodpercenként vesznek mintát. Ez megfelel a nagy pontosságnak.</p><h3>Adagolás</h3><p>A minták nagyobb intervallumokba vannak csoportosítva. Például: 16 másodperc. Ez a Balanced-nak felel meg.</p><h3>Eco\nA</h3><p>GPS-t sokkal ritkábban használják. Például: 60 másodperc. Ez megfelel az akkumulátorkímélő funkciónak.</p><p>Ezzel a móddal csökkentheti az akkumulátor fogyasztását álló helyzetben.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Átváltási logika",
+      "content": "<p>Ez a beállítás határozza meg, hogy az alkalmazás mennyi ideig várjon a leállás észlelése után, mielőtt megváltoztatná a tevékenységet.</p><p>Elérhető értékek:</p><ul><li>Azonnal</li><li>10 másodperc</li><li>30 másodperc</li><li>1 perc</li><li>2 perc</li><li>5 perc</li></ul><p>Például, ha 1 percet választ, és a jármű ebben a percben ismét megmozdul, a megállási tevékenység törlődik, és a vezetés folytatódik. Az Azonnali funkcióval a váltás azonnal megtörténik, amint megállást észlel.</p>"
+    },
+    "defaultActivity": {
+      "title": "Alapértelmezett tevékenység megállás után",
+      "content": "<p>Ez az opció határozza meg, hogy melyik tevékenység kerüljön mentésre a leállás észlelése után.</p><p>Az elérhető programtevékenységek közé tartozik például:</p><ul><li>Rest</li><li>Munka</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Fontos különbség",
+      "content": "<p>Ne keverje össze ezt a három különálló fogalmat:</p><h3>Érzékelési üzemmód</h3><ul><li>KI</li><li>KÉZIKÖNYV</li><li>KÉSZENLÉTI</li><li>AUTO</li></ul><h3>Észlelési mód / mintavételi módszer</h3><ul><li>Letiltva</li><li>Nagy pontosság</li><li>Kiegyensúlyozott</li><li>Akkukímélő</li><li>Egyedi</li></ul><h3>Járműfelismerési állapot</h3><ul><li>A járművön kívül</li><li>Mindenképpen a járművön kívül</li><li>A járműben</li><li>Mindenképpen a járműben</li><li>autóba épített zár</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a főoldalra"
+  },
+  "footer": "© TachoMobile 2"
+}

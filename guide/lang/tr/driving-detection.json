@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Sürüş algılama",
+    "heading": "Sürüş algılama"
+  },
+  "intro": {
+    "1": "TachoMobile, sürüşü otomatik olarak algılamak için çeşitli bilgi kaynaklarını kullanır.",
+    "2": "Telefonun GPS'si aracın hareketi ve hızı hakkında bilgi sağlar. Google Etkinlik Tanıma, telefonun aracın içinde mi yoksa dışında mı olduğunu belirlemeye yardımcı olur.",
+    "3": "Bu kaynaklar, telefonun mevcut durumunu belirlemek ve otomatik sürüş algılamayı uygun şekilde kontrol etmek için birlikte analiz edilir."
+  },
+  "sections": {
+    "how": {
+      "title": "Sürüş algılama nasıl çalışır?",
+      "content": "<p>TachoMobile'ın takografla doğrudan bağlantısı yoktur. Sürüş etkinliğini otomatik olarak algılamak için telefonun GPS'sini ve Google Etkinlik Tanıma özelliğini kullanır.</p><p>Telefonun GPS'si aracın hareketi ve hızı hakkında bilgi sağlar. Google Etkinlik Tanıma, telefonun aracın içinde mi yoksa dışında mı olduğunu belirlemeye yardımcı olur.</p><p>Bu kaynaklar, telefonun mevcut durumunu belirlemek ve otomatik sürüş algılamayı uygun şekilde kontrol etmek için birlikte analiz edilir.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Algılama çalışma modları",
+      "content": "<p>Bunlar algılamanın dört çalışma modudur:</p><h3>⛔ KAPALI — devre dışı</h3><p>Otomatik sürüş algılama tamamen devre dışı bırakıldı.</p><ul><li>GPS algılama için kullanılmaz.</li><li>Google Etkinlik Tanıma algılama için kullanılmaz.</li><li>Etkinlikler yalnızca manuel olarak girilir.</li></ul><p>OFF, tamamen manuel etkinlik yönetimi anlamına gelir.</p><h3>✋ MANUEL — manuel</h3><p>Etkinlikler yalnızca manuel olarak girilir.</p><p>Aşağıdaki aktiviteler sırasında rotayı takip etmek ve kilometreleri saymak için GPS kullanılır:</p><ul><li>Sürüş</li><li>Mürettebatta kullanılabilirlik</li></ul><p><strong>Önemli:</strong> MANUAL GPS'in tamamen devre dışı bırakıldığı anlamına gelmez. GPS, bir ekipte Sürüş veya Uygunluk Durumunun izlenmesi gerektiğinde çalışır.</p><h3>BEKLEME — bekleme</h3><p>Bekleme, esas olarak sürücünün mola verdiği durumlara yönelik özel bir moddur. Zayıf veya dengesiz GPS sinyali gibi olağandışı durumlarda uygulama, araç hareketsiz olsa bile sürüşü algılayabilir.</p><ol><li>Uygulama olası sürüşü tespit edebilir.</li><li>Bir mesaj size sürüşün tespit edildiğini bildirir.</li><li>Uygulama onay için 30 saniye bekler.</li><li>Sürüş onaylanmazsa algılama iptal edilir.</li><li>Sürüş onaylanırsa sürüş girişi korunur.</li><li>Çalışma modu OTOMATİK olarak değişir.</li></ol><p>Mola sırasında Bekleme modunun kullanılması önerilir.</p><h3>OTOMATİK — otomatik</h3><p>AUTO, tam otomatik sürüş algılama modudur.</p><ul><li>Sürücü etkinlikleri algoritmaya göre otomatik olarak değiştirilir.</li><li>GPS iş sırasında çalışır.</li><li>Otomatik algılama çalışma sırasında çalışır.</li></ul><p>İş bittikten ve sürücü kartı çıkarıldıktan sonra otomatik sürüş algılaması askıya alınır.</p><p>İş bittikten sonraki dinlenme sırasında, otomatik sürüş tespiti için GPS kullanılmaz.</p>"
+    },
+    "vehicleStates": {
+      "title": "Araç tanıma durumları",
+      "content": "<p>TachoMobile, Uygulama Durumu'ndaki bir simgeyle mevcut tanıma durumunu gösterir.</p><p><strong>Önemli:</strong> Araç tanıma durumu sürücünün etkinliğiyle aynı değil. Etkinliğin değiştirilip değiştirilmeyeceğine karar verirken algılama motorunun kullandığı öğelerden biridir.</p><h3>⏸️ Kesinlikle aracın dışında</h3><p>Uygulama, telefonun araç dışında olduğundan oldukça emin. Pil tasarrufu modlarında GPS bu durumda çok nadiren kullanılabilir; hatta her 60 saniyede bir örnek bile kullanılabilir.</p><h3>Aracın dışında</h3><p>Telefonun aracın dışında olduğu algılandı.</p><h3>Kesinlikle araçta</h3><p>Uygulama, telefonun araç içerisinde olduğundan oldukça emin. Bu durumda daha düşük bir sürüş aktivasyon hızı eşiği kullanılabilir.</p><h3>Araçta</h3><p>Uygulama telefonun aracın içinde olduğunu algıladı.</p><h3>Araç İçi Kilit</h3><p><strong>Araç İçi Kilit kullanıcının kullanabileceği bir ayar değildir.</strong> Algılama işlemini koruyan otomatik bir mekanizmadır.</p><p>Uygulama, telefonun araçta olduğundan ve şarj cihazına bağlı olduğundan son derece eminse Araç İçi Kilidi etkinleştirebilir.</p><p>Bu durumda uygulama, telefonun araçta kaldığını ve kısa veya geçici sinyal değişiklikleri nedeniyle diğer tanıma durumlarına geçmediğini varsayar.</p><p>Araç İçi Kilit şu tarihten sonra piyasaya sürülür:</p><ul><li>şarj cihazının bağlantısı kesilmiş,</li><li>veya en az 2 dakika süren bir durma algılandı.</li></ul><p>Araç İçi Kilitlemede en düşük sürüş etkinleştirme hızı eşiği kullanılır.</p><p>Araç İçi Kilit otomatiktir. Kullanıcı bunu manuel olarak açmaz.</p>"
+    },
+    "power": {
+      "title": "Güç kaybından sonra dinlenmeye geç",
+      "content": "<p>Bu, sürüş algılama ayarlarında bulunan bir seçenektir.</p><p>Etkinleştirildiğinde, durduktan sonra veya çok düşük bir hızda güç kaybı, etkinliği otomatik olarak dinlenme moduna geçirebilir.</p><p>Örneğin:</p><p><strong>sürüş → durma → kontak kapalı → dinlenme</strong></p><p>Bu fonksiyon Araç İçi Kilitten ayrıdır.</p>"
+    },
+    "detectionModes": {
+      "title": "Algılama modları",
+      "content": "<p>Bu, dört çalışma modundan ayrı bir ayardır: KAPALI / MANUEL / BEKLEME / OTOMATİK.</p><h3>⛔ Devre Dışı</h3><p>Algılama için otomatik GPS örnekleme devre dışı.</p><h3>Yüksek doğruluk</h3><ul><li>Hızlı GPS örnekleme.</li><li>Hızlı algılama yanıtı.</li><li>Tespit edilen durma sırasında da hızlı örnekleme.</li><li>Yüksek doğruluk ve yanıt verme hızı.</li><li>Artan pil tüketimi.</li></ul><h3>⚖️ Dengeli</h3><ul><li>Hız ve pil tüketimi arasında bir uzlaşma.</li><li>Durma tespit edildikten sonra toplu örnekleme kullanılır.</li><li>Bu, varsayılan moddur.</li></ul><h3>Pil tasarrufu</h3><p>Bu, günlük işler için önerilen ekonomik bir moddur.</p><ul><li>Durma tespit edildikten sonra GPS çok nadiren kullanılır: her 60 saniyede bir örnek.</li><li>50 km/saatin üzerinde örnekleme her 8 saniyede bir gruplandırılır.</li></ul><p>Pil tasarrufu yine de otomatik sürüş tespitine olanak tanır. Esas olarak GPS'in nasıl kullanıldığını değiştirir.</p><p>Yüksek doğruluk, Dengeli ve Pil tasarrufu varsayılan algılama modlarıdır ve her birinin kendi sürüş etkinleştirme ve devre dışı bırakma hızları vardır.</p>"
+    },
+    "custom": {
+      "title": "Özel mod",
+      "content": "<p>Özel mod bir Premium özelliktir. Kullanıcının algılamayı kendi ihtiyaçlarına göre uyarlamasına olanak tanır.</p><p>Bu bölüm aynı zamanda kullanıcının ayarlanabilir sürüş etkinleştirme ve devre dışı bırakma hızlarını ve dururken kullanılan izleme modunu da içerir.</p><h3>Örnekleme hassasiyeti</h3><p>Bu, bir ortalamayı hesaplamak için kullanılan GPS örneklerinin sayısını belirler.</p><p>Varsayılan değer: 3 örnek.</p><h3>Numuneler arasındaki aralık</h3><p>Bu, ardışık GPS örnekleri arasındaki süreyi belirler.</p><p>Varsayılan değer: 4 saniye.</p><p>Varsayılan konfigürasyon her 4 saniyede bir alınan 3 örnek anlamına gelir. Bu örneklerden bir ortalama hesaplanır ve daha sonra algoritma tarafından sürüş etkinleştirme ve devre dışı bırakma hızını belirlerken kullanılır.</p>"
+    },
+    "thresholds": {
+      "title": "Etkinleştirme ve devre dışı bırakma hızları",
+      "content": "<p>Özel modda kullanıcı hız eşiklerini ayarlayabilir.</p><p>Algoritma, araç tanıma bilgilerini ortalama GPS hızıyla birlikte kullanır.</p><p>Varsayılan tanıma seviyeleri:</p><ul><li>Kesinlikle araçta — 3 km/saat</li><li>Muhtemelen araçta — 6 km/saat</li><li>Muhtemelen aracın dışında — 12 km/s</li><li>Aracın dışında — 15 km/s</li></ul><p>Bu değerler basit bir “X km/saatin üzerinde = sürüş” sistemi değildir. Algoritma tarafından araç tanıma durumuyla birlikte kullanılan parametrelerdir.</p><p>Varsayılan algılama modlarının ayrıca kendi etkinleştirme ve devre dışı bırakma hızları vardır. Özel mod, kullanıcının bu eşikleri ayarlamasına olanak tanır.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Duraklama sırasında izleme modu",
+      "content": "<p>Durma tespit edildikten sonra kullanıcı GPS takibinin nasıl devam etmesi gerektiğini seçebilir.</p><h3>Gerçek zamanlı</h3><p>GPS örnekleri yapılandırılmış şemaya göre alınır. Örneğin 4 saniyelik aralıklarla her 4 saniyede bir numune alınır. Bu, Yüksek doğruluğa karşılık gelir.</p><h3>Toplu İşleme</h3><p>Örnekler daha büyük aralıklarla gruplandırılır. Örneğin: 16 saniye. Bu Dengeli'ye karşılık gelir.</p><h3>Eco</h3><p>GPS çok daha az sıklıkla kullanılır. Örneğin: 60 saniye. Bu, Pil tasarrufuna karşılık gelir.</p><p>Bu, dururken pil tüketimini azaltmanın bir yoludur.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Geçiş mantığı",
+      "content": "<p>Bu seçenek, uygulamanın bir durma tespit ettikten sonra etkinliği değiştirmeden önce ne kadar bekleyeceğini belirler.</p><p>Mevcut değerler:</p><ul><li>Hemen</li><li>10 saniye</li><li>30 saniye</li><li>1 dakika</li><li>2 dakika</li><li>5 dakika</li></ul><p>Örneğin 1 dakika seçilirse ve o dakika içinde araç tekrar hareket ederse durma etkinliği iptal edilir ve sürüşe devam edilir. Hemen seçeneğinde, bir durma algılandığı anda geçiş gerçekleşir.</p>"
+    },
+    "defaultActivity": {
+      "title": "Durduktan sonra varsayılan faaliyet",
+      "content": "<p>Bu seçenek, bir durma algılandıktan sonra hangi etkinliğin kaydedileceğini belirler.</p><p>Mevcut program aktiviteleri arasında örneğin:</p><ul><li>Dinlenme</li><li>Çalışması</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Önemli ayrım",
+      "content": "<p>Bu üç ayrı kavramı karıştırmayın:</p><h3>Algılama çalışma modu</h3><ul><li>KAPALI</li><li>KILAVUZU</li><li>BEKLEME</li><li>OTOMATİK</li></ul><h3>Algılama modu / örnekleme yöntemi</h3><ul><li>Devre Dışı</li><li>Yüksek doğruluk</li><li>Dengeli</li><li>Pil tasarrufu</li><li>Özel</li></ul><h3>Araç tanıma durumu</h3><ul><li>Aracın dışında</li><li>Kesinlikle aracın dışında</li><li>Araçta</li><li>Kesinlikle araçta</li><li>Araç İçi Kilit</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Ana sayfaya dön"
+  },
+  "footer": "© TachoMobile 2"
+}

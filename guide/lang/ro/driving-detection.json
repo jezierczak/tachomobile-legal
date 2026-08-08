@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Detectarea condusului",
+    "heading": "Detectarea condusului"
+  },
+  "intro": {
+    "1": "TachoMobile utilizează mai multe surse de informații pentru a detecta automat conducerea.",
+    "2": "GPS-ul telefonului oferă informații despre mișcarea și viteza vehiculului. Google Activity Recognition ajută la determinarea dacă telefonul se află în interiorul sau în afara vehiculului.",
+    "3": "Aceste surse sunt analizate împreună pentru a determina starea curentă a telefonului și pentru a controla în mod corespunzător detectarea automată a conducerii."
+  },
+  "sections": {
+    "how": {
+      "title": "Cum funcționează detectarea condusului?",
+      "content": "<p>TachoMobile nu are conexiune directă la un tahograf. Utilizează GPS-ul telefonului și Google Activity Recognition pentru a detecta automat activitatea de conducere.</p><p>GPS-ul telefonului oferă informații despre mișcarea și viteza vehiculului. Google Activity Recognition ajută la determinarea dacă telefonul se află în interiorul sau în afara vehiculului.</p><p>Aceste surse sunt analizate împreună pentru a determina starea curentă a telefonului și pentru a controla în mod corespunzător detectarea automată a conducerii.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Moduri de funcționare a detectării",
+      "content": "<p>Acestea sunt cele patru moduri de operare de detectare:</p><h3>⛔ OFF — dezactivat</h3><p>Detectarea automată a conducerii este complet dezactivată.</p><ul><li>GPS nu este utilizat pentru detectare.</li><li>Recunoașterea activității Google nu este utilizată pentru detectare.</li><li>Activitățile sunt introduse numai manual.</li></ul><p>OFF înseamnă gestionarea complet manuală a activității.</p><h3>✋ MANUAL — manual</h3><p>Activitățile sunt introduse numai manual.</p><p>În timpul următoarelor activități, GPS-ul este utilizat pentru a urmări traseul și a număra kilometri:</p><ul><li>Conducere</li><li>Disponibilitate într-un echipaj</li></ul><p><strong>Important:</strong> MANUAL nu înseamnă că GPS-ul este complet dezactivat. GPS-ul funcționează atunci când este necesar pentru a urmări conducerea sau disponibilitatea într-un echipaj.</p><h3>STANDBY — standby</h3><p>Standby este un mod special destinat în principal situațiilor în care șoferul ia o pauză. În condiții neobișnuite, cum ar fi un semnal GPS slab sau instabil, aplicația poate detecta conducerea chiar dacă vehiculul este staționat.</p><ol><li>Aplicația poate detecta posibila conducere.</li><li>Un mesaj vă informează că conducerea a fost detectată.</li><li>Aplicația așteaptă 30 de secunde pentru confirmare.</li><li>Dacă conducerea nu este confirmată, detectarea este anulată.</li><li>Dacă conducerea este confirmată, înregistrarea de conducere este păstrată.</li><li>Modul de operare se schimbă în AUTO.</li></ol><p>Standby-ul este recomandat în timpul unei pauze.</p><h3>AUTO — automat</h3><p>AUTO este modul complet automat de detectare a conducerii.</p><ul><li>Activitățile driverului sunt modificate automat pe baza algoritmului.</li><li>GPS-ul funcționează în timpul lucrului.</li><li>Detectarea automată funcționează în timpul lucrului.</li></ul><p>După încheierea lucrărilor și scoaterea cardului de șofer, detectarea automată a conducerii este suspendată.</p><p>În timpul odihnei după terminarea lucrărilor, GPS nu este utilizat pentru detectarea automată a conducerii.</p>"
+    },
+    "vehicleStates": {
+      "title": "Stările de recunoaștere a vehiculului",
+      "content": "<p>TachoMobile arată starea curentă de recunoaștere cu o pictogramă în Stare aplicație.</p><p><strong>Important:</strong> Starea de recunoaștere a vehiculului nu este aceeași cu activitatea șoferului. Este unul dintre elementele folosite de motorul de detectare atunci când decide dacă se schimbă activitatea.</p><h3>⏸️ Cu siguranță în afara vehiculului</h3><p>Aplicația este foarte sigură că telefonul se află în afara vehiculului. În modurile de economisire a bateriei, GPS-ul poate fi folosit foarte rar în această stare – chiar și o mostră la fiecare 60 de secunde.</p><h3>În afara vehiculului</h3><p>Telefonul a fost recunoscut ca fiind în afara vehiculului.</p><h3>Cu siguranță în vehicul</h3><p>Aplicația este foarte sigură că telefonul se află în interiorul vehiculului. În această stare poate fi utilizat un prag mai mic al vitezei de activare a conducerii.</p><h3>În vehicul</h3><p>Aplicația a recunoscut că telefonul se află în interiorul vehiculului.</p><h3>Blocare pentru mașină</h3><p><strong>Blocarea în mașină nu este o setare disponibilă utilizatorului.</strong> Este un mecanism automat care protejează operația de detectare.</p><p>Dacă aplicația este foarte sigură că telefonul se află în vehicul și este conectat la un încărcător, poate activa In-Car Lock.</p><p>În această stare, aplicația presupune că telefonul rămâne în vehicul și nu trece la alte stări de recunoaștere din cauza schimbărilor scurte sau temporare ale semnalului.</p><p>Blocarea în mașină este eliberată după:</p><ul><li>încărcătorul este deconectat,\nEste detectată</li><li>sau o oprire care durează cel puțin 2 minute.</li></ul><p>Cel mai mic prag al vitezei de activare a condusului este utilizat în Blocarea în mașină.</p><p>Blocarea în mașină este automată. Utilizatorul nu îl pornește manual.</p>"
+    },
+    "power": {
+      "title": "Comutarea la odihnă după pierderea alimentării",
+      "content": "<p>Aceasta este o opțiune disponibilă în setările de detectare a conducerii.</p><p>Când este activată, după oprire sau la o viteză foarte mică, pierderea puterii poate trece automat activitatea în repaus.</p><p>De exemplu:</p><p><strong>conducere → oprire → contact decuplat → odihnă</strong></p><p>Această funcție este separată de Blocarea în mașină.</p>"
+    },
+    "detectionModes": {
+      "title": "Moduri de detectare",
+      "content": "<p>Aceasta este o setare separată de cele patru moduri de operare: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Dezactivat</h3><p>Eșantionarea automată prin GPS pentru detectare este dezactivată.</p><h3>Precizie ridicată</h3><ul><li>Eșantionare rapidă prin GPS.</li><li>Răspuns rapid de detectare.</li><li>Eșantionare rapidă și în timpul unei opriri detectate.</li><li>Precizie și capacitate de răspuns ridicate.</li><li>Consum crescut de baterie.</li></ul><h3>⚖️ Echilibrat</h3><ul><li>Un compromis între viteză și consumul bateriei.</li><li>După ce este detectată o oprire, este utilizată eșantionarea în loturi.</li><li>Acesta este modul implicit.</li></ul><h3>Economisirea bateriei</h3><p>Acesta este un mod economic recomandat pentru munca de zi cu zi.</p><ul><li>După detectarea unei opriri, GPS-ul este folosit foarte rar: o probă la fiecare 60 de secunde.</li><li>Peste 50 km/h, eșantionarea este grupată la fiecare 8 secunde.</li></ul><p>Economisirea bateriei permite încă detectarea automată a conducerii. Schimbă în principal modul în care este utilizat GPS-ul.</p><p>Precizia ridicată, Echilibrat și Economisirea bateriei sunt moduri de detectare implicite și fiecare dintre ele are propriile viteze de activare și dezactivare a condusului.</p>"
+    },
+    "custom": {
+      "title": "Mod personalizat",
+      "content": "<p>Modul personalizat este o caracteristică Premium. Acesta permite utilizatorului să adapteze detectarea la propriile nevoi.</p><p>Această secțiune conține, de asemenea, vitezele reglabile de activare și dezactivare a condusului ale utilizatorului și modul de urmărire utilizat în timp ce este oprit.</p><h3>Sensibilitatea eșantionării</h3><p>Aceasta determină numărul de mostre GPS utilizate pentru a calcula o medie.</p><p>Valoare implicită: 3 mostre.</p><h3>Interval între probe</h3><p>Aceasta determină timpul dintre probe GPS consecutive.</p><p>Valoare implicită: 4 secunde.</p><p>Configurația implicită înseamnă 3 mostre prelevate la fiecare 4 secunde. O medie este calculată din aceste eșantioane și apoi utilizată de algoritm la determinarea vitezei de activare și dezactivare a condusului.</p>"
+    },
+    "thresholds": {
+      "title": "Viteze de activare și dezactivare",
+      "content": "<p>În modul Personalizat, utilizatorul poate regla pragurile de viteză.</p><p>Algoritmul utilizează informațiile de recunoaștere a vehiculului împreună cu viteza medie GPS.</p><p>Niveluri implicite de recunoaștere:</p><ul><li>Cu siguranță în vehicul — 3 km/h</li><li>Probabil în vehicul — 6 km/h</li><li>Probabil în afara vehiculului — 12 km/h</li><li>În afara vehiculului — 15 km/h</li></ul><p>Aceste valori nu sunt un simplu sistem „peste X km/h = conducere”. Sunt parametri utilizați de algoritm împreună cu starea de recunoaștere a vehiculului.</p><p>Modurile implicite de detectare au, de asemenea, propriile viteze de activare și dezactivare. Modul personalizat permite utilizatorului să ajusteze aceste praguri.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Mod de urmărire în timpul opririi",
+      "content": "<p>După ce este detectată o oprire, utilizatorul poate alege cum ar trebui să continue urmărirea GPS.</p><h3>Timp real</h3><p>Eșantioanele GPS sunt prelevate conform schemei configurate. De exemplu, cu un interval de 4 secunde, probele sunt prelevate la fiecare 4 secunde. Aceasta corespunde cu precizie ridicată.</p><h3>Loturi</h3><p>Probele sunt grupate în intervale mai mari. De exemplu: 16 secunde. Aceasta corespunde Echilibrat.</p><h3>Eco</h3><p>GPS este folosit mult mai rar. De exemplu: 60 de secunde. Aceasta corespunde economisirii bateriei.</p><p>Aceasta este o modalitate de a reduce consumul bateriei când este oprit.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Logica comutării",
+      "content": "<p>Această opțiune determină cât timp așteaptă aplicația după detectarea unei opriri înainte de a schimba activitatea.</p><p>Valori disponibile:</p><ul><li>Imediat</li><li>10 secunde</li><li>30 de secunde</li><li>1 minut</li><li>2 minute</li><li>5 minute</li></ul><p>De exemplu, dacă este selectat 1 minut și vehiculul se mișcă din nou în acel minut, activitatea de oprire este anulată și conducerea continuă. Cu Imediat, comutatorul are loc imediat ce este detectată o oprire.</p>"
+    },
+    "defaultActivity": {
+      "title": "Activitatea implicită după oprire",
+      "content": "<p>Această opțiune determină ce activitate este salvată după detectarea unei opriri.</p><p>Activitățile disponibile ale programului includ, de exemplu:</p><ul><li>Rest</li><li>Lucru</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Distincție importantă",
+      "content": "<p>Nu confundați aceste trei concepte separate:</p><h3>Modul de operare Detectie</h3><ul><li>DEZACTIVAT</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Mod de detectare / metoda de eșantionare</h3><ul><li>Dezactivat</li><li>Precizie ridicată</li><li>Echilibrat</li><li>Economisirea bateriei</li><li>Personalizat</li></ul><h3>Starea de recunoaștere a vehiculului</h3><ul><li>În afara vehiculului</li><li>Cu siguranță în afara vehiculului</li><li>În vehicul</li><li>Cu siguranță în vehicul</li><li>Blocare pentru mașină</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la pagina principală"
+  },
+  "footer": "© TachoMobile 2"
+}

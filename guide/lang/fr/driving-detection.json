@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Détection de conduite",
+    "heading": "Détection de conduite"
+  },
+  "intro": {
+    "1": "TachoMobile utilise plusieurs sources d'informations pour détecter automatiquement la conduite.",
+    "2": "Le GPS du téléphone fournit des informations sur le mouvement et la vitesse du véhicule. La reconnaissance d'activité Google permet de déterminer si le téléphone se trouve à l'intérieur ou à l'extérieur du véhicule.",
+    "3": "Ces sources sont analysées ensemble pour déterminer l'état actuel du téléphone et contrôler la détection automatique de conduite de manière appropriée."
+  },
+  "sections": {
+    "how": {
+      "title": "Comment fonctionne la détection de conduite ?",
+      "content": "<p>TachoMobile n'a pas de connexion directe avec un tachygraphe. Il utilise le GPS du téléphone et la reconnaissance d'activité Google pour détecter automatiquement l'activité de conduite.</p><p>Le GPS du téléphone fournit des informations sur le mouvement et la vitesse du véhicule. La reconnaissance d'activité Google permet de déterminer si le téléphone se trouve à l'intérieur ou à l'extérieur du véhicule.</p><p>Ces sources sont analysées ensemble pour déterminer l'état actuel du téléphone et contrôler la détection automatique de conduite de manière appropriée.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Modes de fonctionnement de la détection",
+      "content": "<p>Voici les quatre modes de fonctionnement de la détection :</p><h3>⛔ OFF — désactivé</h3><p>La détection automatique de conduite est complètement désactivée.</p><ul><li>Le GPS n'est pas utilisé pour la détection.</li><li>La reconnaissance d'activité Google n'est pas utilisée pour la détection.</li><li>Les activités sont saisies manuellement uniquement.</li></ul><p>OFF signifie une gestion d'activité entièrement manuelle.</p><h3>✋ MANUEL — manuel</h3><p>Les activités sont saisies manuellement uniquement.</p><p>Lors des activités suivantes, le GPS est utilisé pour suivre l'itinéraire et compter les kilomètres :</p><ul><li>Conduite</li><li>Disponibilité en équipage</li></ul><p><strong>Important :\nLe MANUEL</strong> ne signifie pas que le GPS est complètement désactivé. Le GPS fonctionne lorsqu'il est nécessaire de suivre la conduite ou la disponibilité d'un équipage.</p><h3>STANDBY — veille</h3><p>Standby est un mode spécial destiné principalement aux situations dans lesquelles le conducteur fait une pause. Dans des conditions inhabituelles, comme un signal GPS faible ou instable, l'application peut détecter la conduite même si le véhicule est à l'arrêt.</p><ol><li>L'application peut détecter une conduite possible.</li><li>Un message vous informe qu'une conduite a été détectée.</li><li>L'application attend 30 secondes pour confirmation.</li><li>Si la conduite n'est pas confirmée, la détection est annulée.</li><li>Si la conduite est confirmée, l'entrée de conduite est conservée.</li><li>Le mode de fonctionnement passe à AUTO.</li></ol><p>La veille est recommandée pendant une pause.</p><h3>AUTO — automatique</h3><p>AUTO est le mode de détection de conduite entièrement automatique.</p><ul><li>Les activités du pilote sont modifiées automatiquement en fonction de l'algorithme.\nLe GPS</li><li>fonctionne pendant le travail.</li><li>La détection automatique fonctionne pendant le travail.</li></ul><p>Une fois le travail terminé et la carte de conducteur retirée, la détection automatique de conduite est suspendue.</p><p>Pendant le repos après la fin du travail, le GPS n'est pas utilisé pour la détection automatique de la conduite.</p>"
+    },
+    "vehicleStates": {
+      "title": "États de reconnaissance du véhicule",
+      "content": "<p>TachoMobile affiche l'état de reconnaissance actuel avec une icône dans l'état de l'application.</p><p><strong>Important :</strong> L'état de reconnaissance du véhicule n'est pas le même que l'activité du conducteur. C'est l'un des éléments utilisés par le moteur de détection pour décider de modifier ou non l'activité.</p><h3>⏸️ Certainement à l'extérieur du véhicule</h3><p>L'application est hautement sûre que le téléphone se trouve à l'extérieur du véhicule. Dans les modes d'économie de batterie, le GPS peut être utilisé très rarement dans cet état, même un échantillon toutes les 60 secondes.</p><h3>À l'extérieur du véhicule</h3><p>Le téléphone a été reconnu comme se trouvant à l'extérieur du véhicule.</p><h3>Certainement dans le véhicule</h3><p>L'application est hautement sûre que le téléphone se trouve à l'intérieur du véhicule. Un seuil de vitesse d'activation de conduite inférieur peut être utilisé dans cet état.</p><h3>Dans le véhicule</h3><p>L'application a reconnu que le téléphone se trouve à l'intérieur du véhicule.</p><h3>Serrure embarquée</h3><p><strong>In-Car Lock n’est pas un paramètre disponible pour l’utilisateur.</strong> C'est un mécanisme automatique qui protège le fonctionnement de la détection.</p><p>Si l'application est hautement sûre que le téléphone se trouve dans le véhicule et qu'il est connecté à un chargeur, elle peut activer le verrouillage embarqué.</p><p>Dans cet état, l'application suppose que le téléphone reste dans le véhicule et ne passe pas à d'autres états de reconnaissance en raison de changements de signal brefs ou temporaires.\nLe verrou embarqué</p><p>est lancé après :</p><ul><li>le chargeur est débranché,</li><li>ou un arrêt d'au moins 2 minutes est détecté.</li></ul><p>Le seuil de vitesse d'activation de conduite le plus bas est utilisé dans In-Car Lock.\nLe verrouillage embarqué</p><p>est automatique. L'utilisateur ne l'allume pas manuellement.</p>"
+    },
+    "power": {
+      "title": "Passer au repos après une perte d'alimentation",
+      "content": "<p>Il s'agit d'une option disponible dans les paramètres de détection de conduite.</p><p>Lorsqu'elle est activée, après un arrêt ou à une vitesse très faible, la perte de puissance peut automatiquement faire passer l'activité au repos.</p><p>Par exemple :</p><p><strong>conduite → arrêt → contact coupé → repos</strong></p><p>Cette fonction est distincte du verrouillage embarqué.</p>"
+    },
+    "detectionModes": {
+      "title": "Modes de détection",
+      "content": "<p>Il s'agit d'un réglage distinct des quatre modes de fonctionnement : OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Désactivé</h3><p>L'échantillonnage GPS automatique pour la détection est désactivé.</p><h3>Haute précision</h3><ul><li>Échantillonnage GPS rapide.</li><li>Réponse de détection rapide.</li><li>Échantillonnage rapide également lors d'un arrêt détecté.</li><li>Haute précision et réactivité.</li><li>Augmentation de la consommation de la batterie.</li></ul><h3>⚖️ Équilibré</h3><ul><li>Un compromis entre vitesse et consommation de batterie.</li><li>Après la détection d'un arrêt, un échantillonnage par lots est utilisé.</li><li>Il s'agit du mode par défaut.</li></ul><h3>Économie de batterie</h3><p>Il s'agit d'un mode économique recommandé pour le travail quotidien.</p><ul><li>Après la détection d'un arrêt, le GPS est utilisé très rarement : un échantillon toutes les 60 secondes.</li><li>Au-dessus de 50 km/h, l'échantillonnage est groupé toutes les 8 secondes.</li></ul><p>L'économie de batterie permet toujours la détection automatique de la conduite. Cela change principalement la façon dont le GPS est utilisé.</p><p>Haute précision, Équilibré et Économie de batterie sont les modes de détection par défaut, et chacun d'eux a ses propres vitesses d'activation et de désactivation de conduite.</p>"
+    },
+    "custom": {
+      "title": "Mode personnalisé",
+      "content": "<p>Le mode personnalisé est une fonctionnalité Premium. Il permet à l'utilisateur d'adapter la détection à ses propres besoins.</p><p>Cette section contient également les vitesses d'activation et de désactivation de conduite réglables par l'utilisateur ainsi que le mode de suivi utilisé à l'arrêt.</p><h3>Sensibilité d'échantillonnage</h3><p>Ceci détermine le nombre d'échantillons GPS utilisés pour calculer une moyenne.</p><p>Valeur par défaut : 3 échantillons.</p><h3>Intervalle entre les échantillons</h3><p>Ceci détermine le temps entre les échantillons GPS consécutifs.</p><p>Valeur par défaut : 4 secondes.</p><p>La configuration par défaut signifie 3 échantillons prélevés toutes les 4 secondes. Une moyenne est calculée à partir de ces échantillons, puis utilisée par l'algorithme pour déterminer la vitesse d'activation et de désactivation de la conduite.</p>"
+    },
+    "thresholds": {
+      "title": "Vitesses d'activation et de désactivation",
+      "content": "<p>En mode personnalisé, l'utilisateur peut ajuster les seuils de vitesse.</p><p>L'algorithme utilise les informations de reconnaissance du véhicule ainsi que la vitesse GPS moyenne.</p><p>Niveaux de reconnaissance par défaut :</p><ul><li>Certainement dans le véhicule — 3 km/h</li><li>Probablement dans le véhicule — 6 km/h</li><li>Probablement à l’extérieur du véhicule — 12 km/h</li><li>À l’extérieur du véhicule — 15 km/h</li></ul><p>Ces valeurs ne constituent pas un simple système « au-dessus de X km/h = conduite ». Ce sont des paramètres utilisés par l'algorithme avec l'état de reconnaissance du véhicule.</p><p>Les modes de détection par défaut ont également leurs propres vitesses d'activation et de désactivation. Le mode personnalisé permet à l'utilisateur d'ajuster ces seuils.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Mode de suivi à l'arrêt",
+      "content": "<p>Une fois qu'un arrêt est détecté, l'utilisateur peut choisir comment le suivi GPS doit continuer.</p><h3>Temps réel</h3><p>Les échantillons GPS sont prélevés selon le schéma configuré. Par exemple, avec un intervalle de 4 secondes, des échantillons sont prélevés toutes les 4 secondes. Cela correspond à une haute précision.</p><h3>Traitement par lots</h3><p>Les échantillons sont regroupés en intervalles plus grands. Par exemple : 16 secondes. Cela correspond à Équilibré.</p><h3>Écologique</h3><p>Le GPS est beaucoup moins utilisé. Par exemple : 60 secondes. Cela correspond à l’économie de batterie.</p><p>C'est un moyen de réduire la consommation de la batterie à l'arrêt.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Logique de basculement",
+      "content": "<p>Cette option détermine combien de temps l'application attend après avoir détecté un arrêt avant de modifier l'activité.</p><p>Valeurs disponibles :</p><ul><li>Immédiatement</li><li>10 secondes</li><li>30 secondes</li><li>1 minute</li><li>2 minutes</li><li>5 minutes</li></ul><p>Par exemple, si 1 minute est sélectionnée et que le véhicule bouge à nouveau pendant cette minute, l'activité d'arrêt est annulée et la conduite continue. Avec Immédiatement, la commutation se produit dès qu'un arrêt est détecté.</p>"
+    },
+    "defaultActivity": {
+      "title": "Activité par défaut après l'arrêt",
+      "content": "<p>Cette option détermine quelle activité est enregistrée après la détection d'un arrêt.</p><p>Les activités de programme disponibles comprennent, par exemple :</p><ul><li>Repos</li><li>Travail</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Distinction importante",
+      "content": "<p>Ne confondez pas ces trois concepts distincts :</p><h3>Mode de fonctionnement détection</h3><ul><li>DÉSACTIVÉ</li><li>MANUEL</li><li>ATTENDRE</li><li>AUTO</li></ul><h3>Mode de détection / méthode d'échantillonnage</h3><ul><li>Désactivé</li><li>Haute précision</li><li>Équilibré</li><li>Économie de batterie</li><li>Coutume</li></ul><h3>État de reconnaissance du véhicule</h3><ul><li>À l'extérieur du véhicule</li><li>Certainement à l'extérieur du véhicule</li><li>Dans le véhicule</li><li>Certainement dans le véhicule</li><li>Serrure embarquée</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page d'accueil"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Deteção de condução",
+    "heading": "Deteção de condução"
+  },
+  "intro": {
+    "1": "TachoMobile usa várias fontes de informação para detectar automaticamente a direção.",
+    "2": "O GPS do telefone fornece informações sobre o movimento e a velocidade do veículo. O reconhecimento de atividades do Google ajuda a determinar se o telefone está dentro ou fora do veículo.",
+    "3": "Essas fontes são analisadas em conjunto para determinar o estado atual do telefone e controlar adequadamente a detecção automática de direção."
+  },
+  "sections": {
+    "how": {
+      "title": "Como funciona a deteção de condução?",
+      "content": "<p>TachoMobile não tem conexão direta com um tacógrafo. Ele usa o GPS do telefone e o reconhecimento de atividades do Google para detectar automaticamente a atividade de direção.</p><p>O GPS do telefone fornece informações sobre o movimento e a velocidade do veículo. O reconhecimento de atividades do Google ajuda a determinar se o telefone está dentro ou fora do veículo.</p><p>Essas fontes são analisadas em conjunto para determinar o estado atual do telefone e controlar adequadamente a detecção automática de direção.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Modos de funcionamento da deteção",
+      "content": "<p>Estes são os quatro modos operacionais de detecção:</p><h3>⛔ DESLIGADO — desativado</h3><p>A detecção automática de direção está completamente desativada.</p><ul><li>GPS não é usado para detecção.</li><li>O reconhecimento de atividades do Google não é usado para detecção.</li><li>As atividades são inseridas apenas manualmente.</li></ul><p>OFF significa gerenciamento de atividades totalmente manual.</p><h3>✋ MANUAL — manual</h3><p>As atividades são inseridas apenas manualmente.</p><p>Durante as seguintes atividades, o GPS é usado para rastrear a rota e contar quilômetros:</p><ul><li>Condução</li><li>Disponibilidade em tripulação</li></ul><p><strong>Importante:</strong> MANUAL não significa que o GPS esteja completamente desativado. O GPS funciona quando é necessário rastrear a direção ou a disponibilidade de uma tripulação.</p><h3>ESPERA - espera</h3><p>Standby é um modo especial destinado principalmente a situações em que o motorista está fazendo uma pausa. Em condições incomuns, como sinal de GPS fraco ou instável, o aplicativo poderá detectar a direção mesmo que o veículo esteja parado.</p><ol><li>O aplicativo pode detectar uma possível direção.</li><li>Uma mensagem informa que a condução foi detectada.</li><li>O aplicativo aguarda 30 segundos pela confirmação.</li><li>Se a condução não for confirmada, a detecção é cancelada.</li><li>Se a condução for confirmada, a entrada de condução é mantida.</li><li>O modo de operação muda para AUTO.</li></ol><p>O modo de espera é recomendado durante um intervalo.</p><h3>AUTO – automático</h3><p>AUTO é o modo de detecção de direção totalmente automático.</p><ul><li>As atividades do motorista são alteradas automaticamente com base no algoritmo.</li><li>O GPS funciona durante o trabalho.</li><li>A detecção automática funciona durante o trabalho.</li></ul><p>Após o término do trabalho e a retirada do cartão de motorista, a detecção automática de direção é suspensa.</p><p>Durante o descanso após o término do trabalho, o GPS não é usado para detecção automática de direção.</p>"
+    },
+    "vehicleStates": {
+      "title": "Estados de reconhecimento do veículo",
+      "content": "<p>TachoMobile mostra o estado de reconhecimento atual com um ícone no Status do Aplicativo.</p><p><strong>Importante:</strong> O estado de reconhecimento do veículo não é igual à atividade do motorista. É um dos elementos utilizados pelo mecanismo de detecção ao decidir se deve alterar a atividade.</p><h3>⏸️ Definitivamente fora do veículo</h3><p>O aplicativo tem alta certeza de que o telefone está fora do veículo. Nos modos de economia de bateria, o GPS pode ser usado muito raramente neste estado – até mesmo uma amostra a cada 60 segundos.</p><h3>Fora do veículo</h3><p>O telefone foi reconhecido como estando fora do veículo.</p><h3>Definitivamente no veículo</h3><p>O aplicativo tem alta certeza de que o telefone está dentro do veículo. Um limite de velocidade de ativação de condução mais baixo pode ser usado neste estado.</p><h3>No veículo</h3><p>O aplicativo reconheceu que o telefone está dentro do veículo.</p><h3>Fechadura para carro</h3><p><strong>In-Car Lock não é uma configuração disponível para o usuário.</strong> É um mecanismo automático que protege a operação de detecção.</p><p>Se o aplicativo tiver muita certeza de que o telefone está no veículo e conectado a um carregador, ele poderá ativar o In-Car Lock.</p><p>Neste estado, o aplicativo assume que o telefone permanece no veículo e não muda para outros estados de reconhecimento devido a alterações de sinal curtas ou temporárias.</p><p>In-Car Lock é lançado após:</p><ul><li>o carregador está desconectado,</li><li>ou uma parada com duração de pelo menos 2 minutos é detectada.</li></ul><p>O limite mais baixo de velocidade de ativação de condução é usado no In-Car Lock.\nO bloqueio do carro</p><p>é automático. O usuário não o liga manualmente.</p>"
+    },
+    "power": {
+      "title": "Mudar para descanso após perda de alimentação",
+      "content": "<p>Esta é uma opção disponível nas configurações de detecção de direção.</p><p>Quando ativado, após parar ou em velocidade muito baixa, a perda de energia pode mudar automaticamente a atividade para repouso.</p><p>Por exemplo:</p><p><strong>condução → parada → ignição desligada → descanso</strong></p><p>Esta função é separada do In-Car Lock.</p>"
+    },
+    "detectionModes": {
+      "title": "Modos de deteção",
+      "content": "<p>Esta é uma configuração separada dos quatro modos de operação: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Desativado</h3><p>A amostragem GPS automática para detecção está desativada.</p><h3>Alta precisão</h3><ul><li>Amostragem GPS rápida.</li><li>Resposta de detecção rápida.</li><li>Amostragem rápida também durante uma parada detectada.</li><li>Alta precisão e capacidade de resposta.</li><li>Maior consumo de bateria.</li></ul><h3>⚖️ Balanceado</h3><ul><li>Um compromisso entre velocidade e consumo de bateria.</li><li>Depois que uma parada é detectada, a amostragem em lote é usada.</li><li>Este é o modo padrão.</li></ul><h3>Economia de bateria</h3><p>Este é um modo econômico recomendado para o trabalho diário.</p><ul><li>Após a detecção de uma parada, o GPS é usado muito raramente: uma amostra a cada 60 segundos.</li><li>Acima de 50 km/h, a amostragem é realizada em lote a cada 8 segundos.</li></ul><p>A economia de bateria ainda permite a detecção automática de direção. Isso muda principalmente a forma como o GPS é usado.</p><p>Alta precisão, Equilibrado e Economia de bateria são modos de detecção padrão, e cada um deles tem suas próprias velocidades de ativação e desativação de direção.</p>"
+    },
+    "custom": {
+      "title": "Modo personalizado",
+      "content": "<p>O modo personalizado é um recurso Premium. Ele permite que o usuário adapte a detecção às suas próprias necessidades.</p><p>Esta seção também contém as velocidades ajustáveis ​​de ativação e desativação da direção do usuário e o modo de rastreamento usado quando parado.</p><h3>Sensibilidade de amostragem</h3><p>Isso determina o número de amostras de GPS usadas para calcular uma média.</p><p>Valor padrão: 3 amostras.</p><h3>Intervalo entre amostras</h3><p>Isso determina o tempo entre amostras GPS consecutivas.</p><p>Valor padrão: 4 segundos.</p><p>A configuração padrão significa 3 amostras colhidas a cada 4 segundos. Uma média é calculada a partir dessas amostras e então usada pelo algoritmo ao determinar a velocidade de ativação e desativação da direção.</p>"
+    },
+    "thresholds": {
+      "title": "Velocidades de ativação e desativação",
+      "content": "<p>No modo Personalizado, o usuário pode ajustar os limites de velocidade.</p><p>O algoritmo usa informações de reconhecimento do veículo juntamente com a velocidade média do GPS.</p><p>Níveis de reconhecimento padrão:</p><ul><li>Definitivamente no veículo – 3 km/h</li><li>Provavelmente no veículo — 6 km/h</li><li>Provavelmente fora do veículo — 12 km/h</li><li>Fora do veículo — 15 km/h</li></ul><p>Esses valores não são um simples sistema “acima de X km/h = dirigindo”. São parâmetros utilizados pelo algoritmo em conjunto com o estado de reconhecimento do veículo.</p><p>Os modos de detecção padrão também possuem suas próprias velocidades de ativação e desativação. O modo personalizado permite ao usuário ajustar esses limites.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Modo de acompanhamento durante uma paragem",
+      "content": "<p>Após a detecção de uma parada, o usuário pode escolher como o rastreamento GPS deve continuar.</p><h3>Tempo real</h3><p>As amostras de GPS são coletadas de acordo com o esquema configurado. Por exemplo, com um intervalo de 4 segundos, as amostras são coletadas a cada 4 segundos. Isso corresponde a alta precisão.</p><h3>Lote</h3><p>As amostras são agrupadas em intervalos maiores. Por exemplo: 16 segundos. Isso corresponde a Equilibrado.</p><h3>Ecológico</h3><p>O GPS é usado com muito menos frequência. Por exemplo: 60 segundos. Isto corresponde à economia de bateria.</p><p>Esta é uma forma de reduzir o consumo da bateria enquanto está parado.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Lógica de mudança",
+      "content": "<p>Esta opção determina quanto tempo a aplicação aguarda após detectar uma parada antes de alterar a atividade.</p><p>Valores disponíveis:</p><ul><li>Imediatamente</li><li>10 segundos</li><li>30 segundos</li><li>1 minuto</li><li>2 minutos</li><li>5 minutos</li></ul><p>Por exemplo, se 1 minuto for selecionado e o veículo se mover novamente durante esse minuto, a atividade de parada será cancelada e a condução continuará. Com Imediatamente, a mudança ocorre assim que uma parada é detectada.</p>"
+    },
+    "defaultActivity": {
+      "title": "Atividade predefinida após parar",
+      "content": "<p>Esta opção determina qual atividade será salva após a detecção de uma parada.</p><p>As atividades do programa disponíveis incluem, por exemplo:</p><ul><li>Descansar</li><li>Trabalhar</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Distinção importante",
+      "content": "<p>Não confunda estes três conceitos separados:</p><h3>Modo de operação de detecção</h3><ul><li>DESLIGADO</li><li>MANUAL</li><li>ESPERA</li><li>AUTO</li></ul><h3>Modo de detecção/método de amostragem</h3><ul><li>Desabilitado</li><li>Alta precisão</li><li>Equilibrado</li><li>Economia de bateria</li><li>Personalizado</li></ul><h3>Estado de reconhecimento do veículo</h3><ul><li>Fora do veículo</li><li>Definitivamente fora do veículo</li><li>No veículo</li><li>Definitivamente no veículo</li><li>Fechadura no carro</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Voltar à página inicial"
+  },
+  "footer": "© TachoMobile 2"
+}

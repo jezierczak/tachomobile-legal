@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Driving Detection",
+    "heading": "Driving Detection"
+  },
+  "intro": {
+    "1": "TachoMobile uses several sources of information to automatically detect driving.",
+    "2": "The phone's GPS provides information about the vehicle's movement and speed. Google Activity Recognition helps determine whether the phone is inside or outside the vehicle.",
+    "3": "These sources are analyzed together to determine the current state of the phone and control automatic driving detection appropriately."
+  },
+  "sections": {
+    "how": {
+      "title": "How does driving detection work?",
+      "content": "<p>TachoMobile has no direct connection to a tachograph. It uses the phone's GPS and Google Activity Recognition to automatically detect driving activity.</p><p>The phone's GPS provides information about the vehicle's movement and speed. Google Activity Recognition helps determine whether the phone is inside or outside the vehicle.</p><p>These sources are analyzed together to determine the current state of the phone and control automatic driving detection appropriately.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Detection operating modes",
+      "content": "<p>These are the four operating modes of detection:</p><h3>⛔ OFF — disabled</h3><p>Automatic driving detection is completely disabled.</p><ul><li>GPS is not used for detection.</li><li>Google Activity Recognition is not used for detection.</li><li>Activities are entered manually only.</li></ul><p>OFF means completely manual activity management.</p><h3>✋ MANUAL — manual</h3><p>Activities are entered manually only.</p><p>During the following activities, GPS is used to track the route and count kilometres:</p><ul><li>Driving</li><li>Availability in a crew</li></ul><p><strong>Important:</strong> MANUAL does not mean that GPS is completely disabled. GPS works when it is needed to track Driving or Availability in a crew.</p><h3>STANDBY — standby</h3><p>Standby is a special mode intended mainly for situations in which the driver is taking a break. In unusual conditions, such as a poor or unstable GPS signal, the application may detect driving even though the vehicle is stationary.</p><ol><li>The application may detect possible driving.</li><li>A message informs you that driving was detected.</li><li>The application waits 30 seconds for confirmation.</li><li>If driving is not confirmed, the detection is cancelled.</li><li>If driving is confirmed, the driving entry is kept.</li><li>The operating mode changes to AUTO.</li></ol><p>Standby is recommended during a break.</p><h3>AUTO — automatic</h3><p>AUTO is the full automatic driving detection mode.</p><ul><li>Driver activities are changed automatically based on the algorithm.</li><li>GPS works during work.</li><li>Automatic detection works during work.</li></ul><p>After work ends and the driver card is removed, automatic driving detection is suspended.</p><p>During rest after work ends, GPS is not used for automatic driving detection.</p>"
+    },
+    "vehicleStates": {
+      "title": "Vehicle recognition states",
+      "content": "<p>TachoMobile shows the current recognition state with an icon in Application Status.</p><p><strong>Important:</strong> The vehicle recognition state is not the same as the driver's activity. It is one of the elements used by the detection engine when deciding whether to change the activity.</p><h3>⏸️ Definitely outside the vehicle</h3><p>The application is highly confident that the phone is outside the vehicle. In battery-saving modes GPS may be used very rarely in this state — even one sample every 60 seconds.</p><h3>Outside the vehicle</h3><p>The phone has been recognized as being outside the vehicle.</p><h3>Definitely in the vehicle</h3><p>The application is highly confident that the phone is inside the vehicle. A lower driving activation speed threshold may be used in this state.</p><h3>In the vehicle</h3><p>The application has recognized that the phone is inside the vehicle.</p><h3>In-Car Lock</h3><p><strong>In-Car Lock is not a setting available to the user.</strong> It is an automatic mechanism that protects detection operation.</p><p>If the application is highly confident that the phone is in the vehicle and it is connected to a charger, it may activate In-Car Lock.</p><p>In this state the application assumes that the phone remains in the vehicle and does not switch to other recognition states because of short or temporary signal changes.</p><p>In-Car Lock is released after:</p><ul><li>the charger is disconnected,</li><li>or a stop lasting at least 2 minutes is detected.</li></ul><p>The lowest driving activation speed threshold is used in In-Car Lock.</p><p>In-Car Lock is automatic. The user does not turn it on manually.</p>"
+    },
+    "power": {
+      "title": "Switch to rest after power loss",
+      "content": "<p>This is an option available in the driving detection settings.</p><p>When enabled, after stopping or at a very low speed, loss of power may automatically switch the activity to rest.</p><p>For example:</p><p><strong>driving → stopping → ignition switched off → rest</strong></p><p>This function is separate from In-Car Lock.</p>"
+    },
+    "detectionModes": {
+      "title": "Detection modes",
+      "content": "<p>This is a separate setting from the four operating modes: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Disabled</h3><p>Automatic GPS sampling for detection is disabled.</p><h3>High accuracy</h3><ul><li>Fast GPS sampling.</li><li>Fast detection response.</li><li>Fast sampling also during a detected stop.</li><li>High accuracy and responsiveness.</li><li>Increased battery consumption.</li></ul><h3>⚖️ Balanced</h3><ul><li>A compromise between speed and battery consumption.</li><li>After a stop is detected, batched sampling is used.</li><li>This is the default mode.</li></ul><h3>Battery saving</h3><p>This is an economical mode recommended for everyday work.</p><ul><li>After a stop is detected, GPS is used very rarely: one sample every 60 seconds.</li><li>Above 50 km/h, sampling is batched every 8 seconds.</li></ul><p>Battery saving still allows automatic driving detection. It mainly changes how GPS is used.</p><p>High accuracy, Balanced and Battery saving are default detection modes, and each of them has its own driving activation and deactivation speeds.</p>"
+    },
+    "custom": {
+      "title": "Custom mode",
+      "content": "<p>Custom mode is a Premium feature. It lets the user adapt detection to their own needs.</p><p>This section also contains the user's adjustable driving activation and deactivation speeds and the tracking mode used while stopped.</p><h3>Sampling sensitivity</h3><p>This determines the number of GPS samples used to calculate an average.</p><p>Default value: 3 samples.</p><h3>Interval between samples</h3><p>This determines the time between consecutive GPS samples.</p><p>Default value: 4 seconds.</p><p>The default configuration means 3 samples taken every 4 seconds. An average is calculated from these samples and then used by the algorithm when determining driving activation and deactivation speed.</p>"
+    },
+    "thresholds": {
+      "title": "Activation and deactivation speeds",
+      "content": "<p>In Custom mode, the user can adjust speed thresholds.</p><p>The algorithm uses vehicle recognition information together with the average GPS speed.</p><p>Default recognition levels:</p><ul><li>Definitely in the vehicle — 3 km/h</li><li>Probably in the vehicle — 6 km/h</li><li>Probably outside the vehicle — 12 km/h</li><li>Outside the vehicle — 15 km/h</li></ul><p>These values are not a simple “above X km/h = driving” system. They are parameters used by the algorithm together with the vehicle recognition state.</p><p>The default detection modes also have their own activation and deactivation speeds. Custom mode allows the user to adjust these thresholds.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Tracking mode during a stop",
+      "content": "<p>After a stop is detected, the user can choose how GPS tracking should continue.</p><h3>Real time</h3><p>GPS samples are taken according to the configured scheme. For example, with a 4-second interval, samples are taken every 4 seconds. This corresponds to High accuracy.</p><h3>Batching</h3><p>Samples are grouped into larger intervals. For example: 16 seconds. This corresponds to Balanced.</p><h3>Eco</h3><p>GPS is used much less often. For example: 60 seconds. This corresponds to Battery saving.</p><p>This is a way to reduce battery consumption while stopped.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Switching logic",
+      "content": "<p>This option determines how long the application waits after detecting a stop before changing the activity.</p><p>Available values:</p><ul><li>Immediately</li><li>10 seconds</li><li>30 seconds</li><li>1 minute</li><li>2 minutes</li><li>5 minutes</li></ul><p>For example, if 1 minute is selected and the vehicle moves again during that minute, the stop activity is cancelled and driving continues. With Immediately, the switch occurs as soon as a stop is detected.</p>"
+    },
+    "defaultActivity": {
+      "title": "Default activity after stopping",
+      "content": "<p>This option determines which activity is saved after a stop is detected.</p><p>Available program activities include, for example:</p><ul><li>Rest</li><li>Work</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Important distinction",
+      "content": "<p>Do not confuse these three separate concepts:</p><h3>Detection operating mode</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Detection mode / sampling method</h3><ul><li>Disabled</li><li>High accuracy</li><li>Balanced</li><li>Battery saving</li><li>Custom</li></ul><h3>Vehicle recognition state</h3><ul><li>Outside the vehicle</li><li>Definitely outside the vehicle</li><li>In the vehicle</li><li>Definitely in the vehicle</li><li>In-Car Lock</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Back to Home Page"
+  },
+  "footer": "© TachoMobile 2"
+}

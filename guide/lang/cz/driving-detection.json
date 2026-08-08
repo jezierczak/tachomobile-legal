@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Rozpoznávání jízdy",
+    "heading": "Rozpoznávání jízdy"
+  },
+  "intro": {
+    "1": "TachoMobile využívá několik zdrojů informací k automatické detekci jízdy.",
+    "2": "GPS telefonu poskytuje informace o pohybu a rychlosti vozidla. Funkce Google Activity Recognition pomáhá určit, zda je telefon uvnitř nebo vně vozidla.",
+    "3": "Tyto zdroje jsou společně analyzovány, aby bylo možné určit aktuální stav telefonu a vhodně ovládat automatickou detekci jízdy."
+  },
+  "sections": {
+    "how": {
+      "title": "Jak funguje rozpoznávání jízdy?",
+      "content": "<p>TachoMobile nemá přímé spojení s tachografem. Využívá GPS telefonu a Google Activity Recognition k automatické detekci aktivity při řízení.</p><p>GPS telefonu poskytuje informace o pohybu a rychlosti vozidla. Funkce Google Activity Recognition pomáhá určit, zda je telefon uvnitř nebo vně vozidla.</p><p>Tyto zdroje jsou společně analyzovány, aby bylo možné určit aktuální stav telefonu a vhodně ovládat automatickou detekci jízdy.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Provozní režimy detekce",
+      "content": "<p>Toto jsou čtyři provozní režimy detekce:</p><h3>⛔ OFF – vypnuto</h3><p>Automatická detekce jízdy je zcela zakázána.</p><ul><li>GPS se nepoužívá k detekci.</li><li>Google Activity Recognition se nepoužívá k detekci.</li><li>Činnosti se zadávají pouze ručně.</li></ul><p>OFF znamená zcela manuální řízení činnosti.</p><h3>✋ MANUAL — manuál</h3><p>Činnosti se zadávají pouze ručně.</p><p>Během následujících činností se GPS používá ke sledování trasy a počítání kilometrů:</p><ul><li>Řízení</li><li>Dostupnost v posádce</li></ul><p><strong>Důležité:</strong> MANUAL neznamená, že je GPS zcela deaktivováno. GPS funguje, když je potřeba sledovat jízdu nebo dostupnost v posádce.</p><h3>STANDBY — pohotovostní režim</h3><p>Standby je speciální režim určený zejména pro situace, kdy si řidič dává pauzu. Za neobvyklých podmínek, jako je špatný nebo nestabilní signál GPS, může aplikace detekovat jízdu, i když vozidlo stojí.</p><ol><li>Aplikace může detekovat možnou jízdu.</li><li>Zpráva vás informuje, že bylo zjištěno řízení.</li><li>Aplikace čeká 30 sekund na potvrzení.</li><li>Pokud jízda není potvrzena, detekce je zrušena.</li><li>Pokud je jízda potvrzena, záznam jízdy zůstane zachován.</li><li>Provozní režim se změní na AUTO.</li></ol><p>Pohotovostní režim se doporučuje během přestávky.</p><h3>AUTO — automaticky</h3><p>AUTO je plně automatický režim detekce jízdy.</p><ul><li>Aktivity ovladače se mění automaticky na základě algoritmu.</li><li>GPS funguje během práce.</li><li>Automatická detekce funguje během práce.</li></ul><p>Po skončení práce a vyjmutí karty řidiče je automatická detekce jízdy pozastavena.</p><p>Během odpočinku po skončení práce se GPS nepoužívá k automatické detekci jízdy.</p>"
+    },
+    "vehicleStates": {
+      "title": "Stavy rozpoznání vozidla",
+      "content": "<p>TachoMobile zobrazuje aktuální stav rozpoznávání pomocí ikony ve Stavu aplikace.</p><p><strong>Důležité:</strong> Stav rozpoznání vozidla není totožný s činností řidiče. Je to jeden z prvků používaných detekčním jádrem při rozhodování o změně aktivity.</p><h3>⏸️ Rozhodně mimo vozidlo</h3><p>Aplikace je vysoce jistá, že telefon je mimo vozidlo. V úsporných režimech lze GPS v tomto stavu používat velmi zřídka – dokonce jeden vzorek každých 60 sekund.</p><h3>Mimo vozidlo</h3><p>Telefon byl rozpoznán jako mimo vozidlo.</p><h3>Určitě ve vozidle</h3><p>Aplikace má vysokou jistotu, že je telefon uvnitř vozidla. V tomto stavu lze použít nižší práh rychlosti aktivace jízdy.</p><h3>Ve vozidle</h3><p>Aplikace rozpoznala, že je telefon uvnitř vozidla.</p><h3>Zámek do auta</h3><p><strong>In-Car Lock není nastavení dostupné uživateli.</strong> Jedná se o automatický mechanismus, který chrání provoz detekce.</p><p>Pokud je aplikace vysoce přesvědčena, že telefon je ve vozidle a je připojen k nabíječce, může aktivovat zámek v autě.</p><p>V tomto stavu aplikace předpokládá, že telefon zůstává ve vozidle a nepřepne se do jiných stavů rozpoznávání z důvodu krátkých nebo dočasných změn signálu.</p><p>Zámek v autě se uvolní poté, co:</p><ul><li>nabíječka je odpojená,</li><li>nebo je detekováno zastavení trvající alespoň 2 minuty.</li></ul><p>Nejnižší práh rychlosti aktivace jízdy se používá v zámku In-Car Lock.</p><p>Zámek v autě je automatický. Uživatel jej nezapne ručně.</p>"
+    },
+    "power": {
+      "title": "Přepnutí na odpočinek po ztrátě napájení",
+      "content": "<p>Toto je možnost dostupná v nastavení detekce jízdy.</p><p>Je-li povoleno, po zastavení nebo při velmi nízké rychlosti může ztráta napájení automaticky přepnout činnost do klidového stavu.</p><p>Například:</p><p><strong>jízda → zastavení → zapalování vypnuto → klid</strong></p><p>Tato funkce je oddělená od zámku v autě.</p>"
+    },
+    "detectionModes": {
+      "title": "Režimy detekce",
+      "content": "<p>Toto je nastavení oddělené od čtyř provozních režimů: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Vypnuto</h3><p>Automatické vzorkování GPS pro detekci je zakázáno.</p><h3>Vysoká přesnost</h3><ul><li>Rychlé vzorkování GPS.</li><li>Rychlá odezva detekce.</li><li>Rychlé vzorkování také během detekovaného zastavení.</li><li>Vysoká přesnost a odezva.</li><li>Zvýšená spotřeba baterie.</li></ul><h3>⚖️ Vyvážený</h3><ul><li>Kompromis mezi rychlostí a spotřebou baterie.</li><li>Po zjištění zastavení se použije dávkové vzorkování.</li><li>Toto je výchozí režim.</li></ul><h3>Úspora baterie</h3><p>Toto je ekonomický režim doporučený pro každodenní práci.</p><ul><li>Po zjištění zastávky se GPS používá velmi zřídka: jeden vzorek každých 60 sekund.</li><li>Při rychlostech nad 50 km/h je odběr vzorků dávkován každých 8 sekund.</li></ul><p>Úspora baterie stále umožňuje automatickou detekci jízdy. Mění hlavně způsob používání GPS.</p><p>Vysoká přesnost, Vyvážený a Úspora baterie jsou výchozí detekční režimy a každý z nich má vlastní rychlost aktivace a deaktivace jízdy.</p>"
+    },
+    "custom": {
+      "title": "Vlastní režim",
+      "content": "<p>je prémiová funkce. Umožňuje uživateli přizpůsobit detekci svým vlastním potřebám.</p><p>Tato část také obsahuje uživatelsky nastavitelné rychlosti aktivace a deaktivace jízdy a režim sledování používaný při zastavení.</p><h3>Citlivost vzorkování</h3><p>Určuje počet vzorků GPS použitých k výpočtu průměru.</p><p>Výchozí hodnota: 3 vzorky.</p><h3>Interval mezi vzorky</h3><p>Určuje dobu mezi po sobě jdoucími vzorky GPS.</p><p>Výchozí hodnota: 4 sekundy.</p><p>Výchozí konfigurace znamená 3 vzorky odebrané každé 4 sekundy. Z těchto vzorků se vypočítá průměr a algoritmus jej pak použije při určování rychlosti aktivace a deaktivace jízdy.</p>"
+    },
+    "thresholds": {
+      "title": "Rychlosti aktivace a deaktivace",
+      "content": "<p>V uživatelském režimu může uživatel upravit prahové hodnoty rychlosti.</p><p>Algoritmus používá informace o rozpoznání vozidla spolu s průměrnou rychlostí GPS.</p><p>Výchozí úrovně rozpoznávání:</p><ul><li>Určitě ve vozidle — 3 km/h</li><li>Pravděpodobně ve vozidle — 6 km/h</li><li>Pravděpodobně mimo vozidlo — 12 km/h</li><li>Mimo vozidlo — 15 km/h</li></ul><p>Tyto hodnoty nejsou jednoduchým systémem „nad X km/h = jízda“. Jsou to parametry používané algoritmem spolu se stavem rozpoznání vozidla.</p><p>Výchozí režimy detekce mají také vlastní rychlost aktivace a deaktivace. Vlastní režim umožňuje uživateli upravit tyto prahové hodnoty.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Režim sledování během zastavení",
+      "content": "<p>Po zjištění zastávky si uživatel může vybrat, jak má sledování GPS pokračovat.</p><h3>V reálném čase\nVzorky GPS</h3><p>se odebírají podle nakonfigurovaného schématu. Například při 4sekundovém intervalu se vzorky odebírají každé 4 sekundy. To odpovídá vysoké přesnosti.</p><h3>Dávkování</h3><p>Vzorky jsou seskupeny do větších intervalů. Například: 16 sekund. To odpovídá Balanced.</p><h3>Eco</h3><p>GPS se používá mnohem méně často. Například: 60 sekund. Tomu odpovídá úspora baterie.</p><p>Toto je způsob, jak snížit spotřebu baterie při zastavení.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Logika přepínání",
+      "content": "<p>Tato možnost určuje, jak dlouho aplikace čeká po zjištění zastavení, než změní aktivitu.</p><p>Dostupné hodnoty:</p><ul><li>Okamžitě</li><li>10 sekund</li><li>30 sekund</li><li>1 minuta</li><li>2 minuty</li><li>5 minut</li></ul><p>Pokud je například zvolena 1 minuta a vozidlo se během této minuty znovu pohne, činnost zastavení se zruší a jízda pokračuje. S Okamžitě dojde k přepnutí, jakmile je detekováno zastavení.</p>"
+    },
+    "defaultActivity": {
+      "title": "Výchozí aktivita po zastavení",
+      "content": "<p>Tato možnost určuje, která aktivita se uloží po zjištění zastavení.</p><p>Mezi dostupné aktivity programu patří například:</p><ul><li>Ost</li><li>Práce</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Důležité rozlišení",
+      "content": "<p>Nezaměňujte tyto tři samostatné pojmy:</p><h3>Provozní režim detekce</h3><ul><li>VYPNUTO</li><li>MANUÁL</li><li>POHOTOVOSTNÍ</li><li>AUTO</li></ul><h3>Režim detekce / metoda vzorkování</h3><ul><li>Zakázáno</li><li>Vysoká přesnost</li><li>Vyrovnaný</li><li>Úspora baterie</li><li>Zvyk</li></ul><h3>Stav rozpoznání vozidla</h3><ul><li>Mimo vozidlo</li><li>Určitě mimo vozidlo</li><li>Ve vozidle</li><li>Určitě ve vozidle</li><li>Zámek do auta</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na hlavní stránku"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Rozpoznawanie jazdy",
+    "heading": "Rozpoznawanie jazdy"
+  },
+  "intro": {
+    "1": "TachoMobile wykorzystuje kilka informacji do automatycznego rozpoznawania jazdy.",
+    "2": "GPS telefonu dostarcza informacji o przemieszczaniu się pojazdu oraz prędkości. Google Activity Recognition pomaga określić, czy telefon znajduje się w pojeździe czy poza nim.",
+    "3": "Informacje te są analizowane razem, aby określić aktualny stan telefonu i odpowiednio sterować automatycznym rozpoznawaniem jazdy."
+  },
+  "sections": {
+    "how": {
+      "title": "Jak działa rozpoznawanie jazdy?",
+      "content": "<p>TachoMobile nie ma bezpośredniego połączenia z tachografem. Do automatycznego rozpoznawania aktywności wykorzystuje GPS telefonu oraz Google Activity Recognition.</p><p>GPS telefonu dostarcza informacji o przemieszczaniu się pojazdu oraz prędkości. Google Activity Recognition pomaga określić, czy telefon znajduje się w pojeździe czy poza nim.</p><p>Informacje te są analizowane razem, aby określić aktualny stan telefonu i odpowiednio sterować automatycznym rozpoznawaniem jazdy.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Tryby pracy detekcji",
+      "content": "<p>Istnieją cztery tryby pracy detekcji:</p><h3>⛔ OFF — wyłączona</h3><p>Automatyczne rozpoznawanie jazdy jest całkowicie wyłączone.</p><ul><li>GPS nie działa dla detekcji.</li><li>Google Activity Recognition nie działa dla detekcji.</li><li>Aktywności są wprowadzane wyłącznie ręcznie.</li></ul><p>OFF oznacza całkowicie ręczne prowadzenie aktywności.</p><h3>✋ MANUAL — ręczna</h3><p>Aktywności są wprowadzane wyłącznie ręcznie.</p><p>Podczas aktywności Jazda oraz Dostępność w załodze GPS jest uruchamiany w celu śledzenia trasy i naliczania kilometrów.</p><p><strong>Ważne:</strong> MANUAL nie oznacza całkowitego wyłączenia GPS. GPS działa wtedy, gdy jest potrzebny do śledzenia aktywności Jazda lub Dostępność w załodze.</p><h3>STANDBY — czuwanie</h3><p>Standby jest specjalnym trybem przeznaczonym przede wszystkim do sytuacji, w których kierowca wykonuje przerwę. W specyficznych warunkach, np. przy złym lub niestabilnym sygnale GPS, aplikacja może wykryć jazdę mimo że pojazd faktycznie stoi.</p><ol><li>aplikacja może wykryć możliwą jazdę,</li><li>pojawia się komunikat z informacją o wykryciu jazdy,</li><li>aplikacja czeka 30 sekund na potwierdzenie,</li><li>jeżeli jazda nie zostanie potwierdzona, wykrycie zostaje anulowane,</li><li>jeżeli jazda zostanie potwierdzona, wpis jazdy zostaje zachowany,</li><li>tryb pracy zostaje przełączony na AUTO.</li></ol><p>Standby jest zalecany podczas wykonywania przerwy.</p><h3>AUTO — automatyczna</h3><p>AUTO jest pełnym trybem automatycznego rozpoznawania jazdy.</p><ul><li>aktywności kierowcy są automatycznie zmieniane na podstawie działania algorytmu,</li><li>GPS działa podczas pracy,</li><li>automatyczne rozpoznawanie działa podczas pracy.</li></ul><p>Po zakończeniu pracy i wyjęciu karty kierowcy automatyczne rozpoznawanie jazdy zostaje wstrzymane.</p><p>Podczas odpoczynku po zakończeniu pracy GPS nie działa dla automatycznego rozpoznawania jazdy.</p>"
+    },
+    "vehicleStates": {
+      "title": "Stany rozpoznawania pojazdu",
+      "content": "<p>TachoMobile pokazuje aktualny stan rozpoznawania za pomocą ikony w Statusie aplikacji.</p><p><strong>Ważne:</strong> Stan rozpoznawania pojazdu nie jest tym samym co aktywność kierowcy. Stan rozpoznawania jest jednym z elementów, na podstawie których silnik detekcji podejmuje decyzję o zmianie aktywności.</p><h3>⏸️ Na pewno poza pojazdem</h3><p>Aplikacja ma wysoką pewność, że telefon znajduje się poza pojazdem. W trybach oszczędzających baterię GPS może być w tym stanie wykorzystywany bardzo rzadko — nawet jedna próbka na 60 sekund.</p><h3>Poza pojazdem</h3><p>Telefon został rozpoznany jako znajdujący się poza pojazdem.</p><h3>Na pewno w pojeździe</h3><p>Aplikacja ma wysoką pewność, że telefon znajduje się w pojeździe. W tym stanie może być używany niższy próg prędkości aktywacji jazdy.</p><h3>W pojeździe</h3><p>Aplikacja rozpoznała, że telefon znajduje się w pojeździe.</p><h3>In-Car Lock</h3><p><strong>In-Car Lock NIE jest ustawieniem dostępnym dla użytkownika.</strong> Jest to automatyczny mechanizm zabezpieczający działanie detekcji.</p><p>Jeżeli aplikacja wykryje z wysoką pewnością, że telefon znajduje się w pojeździe i jednocześnie jest podłączony do ładowania, może aktywować In-Car Lock.</p><p>W tym stanie aplikacja zakłada, że telefon pozostaje w pojeździe i nie przełącza się na inne stany detekcji przy krótkich lub chwilowych zmianach sygnałów.</p><p>In-Car Lock zostaje zwolniony po:</p><ul><li>odłączeniu ładowarki,</li><li>albo wykryciu postoju trwającego co najmniej 2 minuty.</li></ul><p>W stanie In-Car Lock używany jest najniższy próg prędkości aktywacji jazdy.</p><p>In-Car Lock jest mechanizmem automatycznym i użytkownik nie włącza go ręcznie.</p>"
+    },
+    "power": {
+      "title": "Przełącz na odpoczynek po utracie zasilania",
+      "content": "<p>Jest to opcja dostępna w ustawieniach detekcji jazdy.</p><p>Jeżeli opcja jest włączona, po zatrzymaniu lub przy bardzo małej prędkości utrata zasilania może spowodować automatyczne przełączenie aktywności na odpoczynek.</p><p>Przykładowo:</p><p><strong>jazda → zatrzymanie → wyłączenie zapłonu → odpoczynek</strong></p><p>Ta funkcja jest niezależna od In-Car Lock.</p>"
+    },
+    "detectionModes": {
+      "title": "Tryby wykrywania",
+      "content": "<p>To jest osobne ustawienie od czterech trybów pracy: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Wyłączone</h3><p>Automatyczne próbkowanie GPS dla detekcji jest wyłączone.</p><h3>Wysoka dokładność</h3><ul><li>szybkie próbkowanie GPS,</li><li>szybka reakcja detekcji,</li><li>szybkie próbkowanie również podczas wykrytego postoju,</li><li>wysoka dokładność i responsywność,</li><li>zwiększone zużycie baterii.</li></ul><h3>⚖️ Zrównoważony</h3><ul><li>kompromis pomiędzy szybkością działania a zużyciem baterii,</li><li>po wykryciu postoju wykorzystywane jest próbkowanie batchowane,</li><li>jest to tryb domyślny.</li></ul><h3>Oszczędzanie baterii</h3><p>Tryb oszczędny i zalecany do codziennej pracy.</p><ul><li>po wykryciu postoju GPS jest używany bardzo rzadko: jedna próbka co 60 sekund,</li><li>po przekroczeniu 50 km/h próbkowanie jest batchowane co 8 sekund.</li></ul><p>Tryb oszczędzania baterii nadal umożliwia automatyczne rozpoznawanie jazdy — zmienia przede wszystkim sposób wykorzystania GPS.</p><p>Wysoka dokładność, Zrównoważony i Oszczędzanie baterii to domyślne tryby wykrywania. Każdy z nich ma własne prędkości aktywacji i dezaktywacji jazdy.</p>"
+    },
+    "custom": {
+      "title": "Tryb indywidualny",
+      "content": "<p>Tryb indywidualny jest funkcją Premium i pozwala dostosować sposób działania detekcji do własnych potrzeb.</p><p>W tej sekcji znajdują się również ustawiane przez użytkownika prędkości aktywacji i dezaktywacji jazdy oraz tryb śledzenia wykorzystywany podczas postoju.</p><h3>Czułość próbkowania</h3><p>Określa liczbę próbek GPS wykorzystywanych do wyliczenia średniej.</p><p>Wartość domyślna: 3 próbki.</p><h3>Interwał pomiędzy próbkami</h3><p>Określa czas pomiędzy kolejnymi próbkami GPS.</p><p>Wartość domyślna: 4 sekundy.</p><p>Domyślna konfiguracja oznacza: 3 próbki pobierane co 4 sekundy. Z tych próbek wyliczana jest średnia, która jest następnie wykorzystywana przez algorytm przy określaniu prędkości aktywacji i dezaktywacji.</p>"
+    },
+    "thresholds": {
+      "title": "Prędkości aktywacji i dezaktywacji",
+      "content": "<p>W trybie indywidualnym użytkownik może dostosować progi prędkości.</p><p>Algorytm wykorzystuje informacje o rozpoznaniu pojazdu oraz średnią prędkość GPS.</p><p>Domyślne poziomy rozpoznania:</p><ul><li>Na pewno w pojeździe — 3 km/h</li><li>Raczej w pojeździe — 6 km/h</li><li>Prawdopodobnie poza pojazdem — 12 km/h</li><li>Poza pojazdem — 15 km/h</li></ul><p>Nie są to wartości prostego systemu „powyżej X km/h = jazda”. Są to parametry wykorzystywane przez algorytm razem z informacją o stanie rozpoznania pojazdu.</p><p>Również domyślne tryby wykrywania mają własne prędkości aktywacji i dezaktywacji. Tryb indywidualny pozwala użytkownikowi dostosować te progi.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Tryb śledzenia podczas postoju",
+      "content": "<p>Po wykryciu postoju użytkownik może określić sposób dalszego śledzenia GPS.</p><h3>Czas rzeczywisty</h3><p>Próbki GPS są pobierane zgodnie z ustawionym schematem. Przykładowo przy interwale 4 sekundy próbki są pobierane co 4 sekundy. Jest to odpowiednik trybu Wysoka dokładność.</p><h3>Grupowanie</h3><p>Próbki są grupowane w większe odstępy. Przykładowo: 16 sekund. Jest to odpowiednik trybu Zrównoważony.</p><h3>Eko</h3><p>GPS jest używany znacznie rzadziej. Przykładowo: 60 sekund. Jest to odpowiednik trybu Oszczędzanie baterii.</p><p>Jest to sposób ograniczenia zużycia baterii podczas postoju.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Logika przełączania",
+      "content": "<p>Opcja określa, jak długo aplikacja ma oczekiwać po wykryciu zatrzymania przed zmianą aktywności.</p><p>Dostępne wartości:</p><ul><li>Natychmiast</li><li>10 sekund</li><li>30 sekund</li><li>1 minuta</li><li>2 minuty</li><li>5 minut</li></ul><p>Jeżeli ustawiono 1 minutę, a w ciągu tej minuty pojazd ponownie ruszy, aktywność postoju zostanie anulowana, a jazda będzie kontynuowana. Przy ustawieniu Natychmiast przełączenie następuje od razu po wykryciu zatrzymania.</p>"
+    },
+    "defaultActivity": {
+      "title": "Domyślna aktywność po zatrzymaniu",
+      "content": "<p>Opcja określa, jaka aktywność zostanie zapisana po wykryciu zatrzymania.</p><p>Dostępne są odpowiednie aktywności programu, np.:</p><ul><li>Odpoczynek</li><li>Praca</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Ważne rozróżnienie",
+      "content": "<p>Nie należy mieszać trzech osobnych pojęć:</p><h3>Tryb pracy detekcji</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Tryb wykrywania / sposób próbkowania</h3><ul><li>Wyłączone</li><li>Wysoka dokładność</li><li>Zrównoważony</li><li>Oszczędzanie baterii</li><li>Indywidualne</li></ul><h3>Stan rozpoznania pojazdu</h3><ul><li>Poza pojazdem</li><li>Na pewno poza pojazdem</li><li>W pojeździe</li><li>Na pewno w pojeździe</li><li>In-Car Lock</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do strony głównej"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Važiavimo aptikimas",
+    "heading": "Važiavimo aptikimas"
+  },
+  "intro": {
+    "1": "TachoMobile naudoja kelis informacijos šaltinius, kad automatiškai aptiktų vairavimą.",
+    "2": "Telefono GPS suteikia informaciją apie transporto priemonės judėjimą ir greitį. „Google“ veiklos atpažinimas padeda nustatyti, ar telefonas yra transporto priemonėje, ar išorėje.",
+    "3": "Šie šaltiniai analizuojami kartu, siekiant nustatyti esamą telefono būseną ir tinkamai valdyti automatinį vairavimo aptikimą."
+  },
+  "sections": {
+    "how": {
+      "title": "Kaip veikia važiavimo aptikimas?",
+      "content": "<p>TachoMobile neturi tiesioginio ryšio su tachografu. Jis naudoja telefono GPS ir Google veiklos atpažinimo funkciją, kad automatiškai aptiktų vairavimo veiklą.</p><p>Telefono GPS suteikia informaciją apie transporto priemonės judėjimą ir greitį. „Google“ veiklos atpažinimas padeda nustatyti, ar telefonas yra transporto priemonėje, ar išorėje.</p><p>Šie šaltiniai analizuojami kartu, siekiant nustatyti esamą telefono būseną ir tinkamai valdyti automatinį vairavimo aptikimą.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Aptikimo veikimo režimai",
+      "content": "<p>Tai yra keturi aptikimo režimai:</p><h3>⛔ IŠJUNGTA – išjungta</h3><p>Automatinis vairavimo aptikimas visiškai išjungtas.</p><ul><li>GPS aptikimui nenaudojamas.</li><li>„Google“ veiklos atpažinimas nenaudojamas aptikimui.</li><li>Veikla įvedama tik rankiniu būdu.</li></ul><p>OFF reiškia visiškai rankinį veiklos valdymą.</p><h3>✋ MANUAL — rankinis</h3><p>Veikla įvedama tik rankiniu būdu.</p><p>Vykdant šias veiklas, GPS naudojamas maršrutui sekti ir kilometrams skaičiuoti:</p><ul><li>Vairavimas</li><li>Galimybė įguloje</li></ul><p><strong>Svarbu:</strong> MANUAL nereiškia, kad GPS visiškai išjungtas. GPS veikia, kai reikia sekti važiavimą arba ekipažo pasiekiamumą.</p><h3>STANDBY — budėjimo režimas</h3><p>Budėjimo režimas yra specialus režimas, daugiausia skirtas situacijoms, kai vairuotojas daro pertrauką. Esant neįprastoms sąlygoms, pvz., prastam arba nestabiliam GPS signalui, programa gali aptikti vairavimą, net jei transporto priemonė stovi.</p><ol><li>Programa gali aptikti galimą vairavimą.</li><li>Pranešimas informuoja, kad buvo aptiktas vairavimas.</li><li>Programa laukia patvirtinimo 30 sekundžių.</li><li>Jei vairavimas nepatvirtintas, aptikimas atšaukiamas.</li><li>Jei važiavimas patvirtinamas, vairavimo įrašas išsaugomas.</li><li>Veikimo režimas pakeičiamas į AUTO.</li></ol><p>Pertraukos metu rekomenduojamas budėjimo režimas.</p><h3>AUTO — automatinis</h3><p>AUTO yra visiškai automatinis vairavimo aptikimo režimas.</p><ul><li>Vairuotojo veikla keičiama automatiškai, atsižvelgiant į algoritmą.</li><li>GPS veikia darbo metu.</li><li>Automatinis aptikimas veikia darbo metu.</li></ul><p>Pasibaigus darbui ir išėmus vairuotojo kortelę, automatinis vairavimo aptikimas sustabdomas.</p><p>Poilsio metu po darbo GPS nenaudojamas automatiniam vairavimo aptikimui.</p>"
+    },
+    "vehicleStates": {
+      "title": "Transporto priemonės atpažinimo būsenos",
+      "content": "<p>TachoMobile rodo esamą atpažinimo būseną su piktograma, esančia skiltyje Programos būsena.</p><p><strong>Svarbu:</strong> Transporto priemonės atpažinimo būsena nėra tokia pati kaip vairuotojo veikla. Tai vienas iš elementų, kuriuos naudoja aptikimo variklis, spręsdamas, ar keisti veiklą.</p><h3>⏸️ Tikrai ne transporto priemonėje</h3><p>Programa yra labai įsitikinusi, kad telefonas yra už transporto priemonės. Akumuliatoriaus taupymo režimais GPS gali būti naudojamas labai retai – net vienas pavyzdys kas 60 sekundžių.</p><h3>Už transporto priemonės ribų</h3><p>Telefonas buvo atpažintas kaip už transporto priemonės ribų.</p><h3>Būtinai transporto priemonėje</h3><p>Programa yra labai įsitikinusi, kad telefonas yra transporto priemonės viduje. Šioje būsenoje gali būti naudojamas mažesnis važiavimo aktyvinimo greičio slenkstis.</p><h3>Transporto priemonėje</h3><p>Programa atpažino, kad telefonas yra transporto priemonės viduje.</p><h3>automobilio užraktas</h3><p><strong>automobilio užraktas nėra vartotojui pasiekiamas nustatymas.</strong> Tai automatinis mechanizmas, apsaugantis aptikimo veikimą.</p><p>Jei programa yra labai įsitikinusi, kad telefonas yra transporto priemonėje ir prijungtas prie įkroviklio, ji gali suaktyvinti automobilio užraktą.</p><p>Šioje būsenoje programa daro prielaidą, kad telefonas lieka transporto priemonėje ir nepersijungia į kitas atpažinimo būsenas dėl trumpų ar laikinų signalų pasikeitimų.</p><p>automobilio užraktas atleidžiamas po:</p><ul><li>įkroviklis atjungtas,\nAptinkamas</li><li>arba sustojimas, trunkantis mažiausiai 2 minutes.</li></ul><p>Mažiausias važiavimo aktyvavimo greičio slenkstis naudojamas automobilio užrakte.</p><p>automobilio užraktas yra automatinis. Vartotojas jo neįjungia rankiniu būdu.</p>"
+    },
+    "power": {
+      "title": "Perjungti į poilsį praradus maitinimą",
+      "content": "<p>Ši parinktis galima vairavimo aptikimo nustatymuose.</p><p>Kai įjungta, sustojus arba esant labai mažam greičiui, energijos praradimas gali automatiškai perjungti veiklą į poilsį.</p><p>Pavyzdžiui:</p><p><strong>vairavimas → sustojimas → išjungtas degimas → poilsis</strong></p><p>Ši funkcija yra atskirta nuo automobilio užrakto.</p>"
+    },
+    "detectionModes": {
+      "title": "Aptikimo režimai",
+      "content": "<p>Tai yra atskiras nustatymas iš keturių darbo režimų: IŠJUNGTA / MANUAL / STANDBY / AUTO.</p><h3>⛔ Išjungta</h3><p>Automatinis GPS mėginių ėmimas aptikimui išjungtas.</p><h3>Didelis tikslumas</h3><ul><li>Greitas GPS mėginių ėmimas.</li><li>Greitas aptikimo atsakas.</li><li>Greitas mėginių ėmimas taip pat ir aptikto sustabdymo metu.</li><li>Didelis tikslumas ir jautrumas.</li><li>Padidėjęs akumuliatoriaus suvartojimas.</li></ul><h3>⚖️ Subalansuotas</h3><ul><li>Kompromisas tarp greičio ir akumuliatoriaus suvartojimo.</li><li>Aptikus sustabdymą, naudojamas paketinis mėginių ėmimas.</li><li>Tai numatytasis režimas.</li></ul><h3>Baterijos taupymas</h3><p>Tai ekonomiškas režimas, rekomenduojamas kasdieniam darbui.</p><ul><li>Aptikus sustojimą, GPS naudojamas labai retai: vienas mėginys kas 60 sekundžių.</li><li>Jei greitis viršija 50 km/h, mėginiai imami kas 8 sekundes.</li></ul><p>Akumuliatoriaus taupymas vis tiek leidžia automatiškai aptikti vairavimą. Tai daugiausia keičia GPS naudojimą.</p><p>Didelis tikslumas, subalansuotas ir akumuliatoriaus taupymas yra numatytieji aptikimo režimai, ir kiekvienas iš jų turi savo vairavimo įjungimo ir išjungimo greitį.</p>"
+    },
+    "custom": {
+      "title": "Individualus režimas",
+      "content": "<p>Pasirinktinis režimas yra aukščiausios kokybės funkcija. Tai leidžia vartotojui pritaikyti aptikimą pagal savo poreikius.</p><p>Šiame skyriuje taip pat pateikiami naudotojo reguliuojami važiavimo įjungimo ir išjungimo greičiai bei sustojus naudojamas sekimo režimas.</p><h3>Mėginių ėmimo jautrumas</h3><p>Tai nustato GPS pavyzdžių, naudojamų vidurkiui apskaičiuoti, skaičių.</p><p>Numatytoji reikšmė: 3 pavyzdžiai.</p><h3>Intervalas tarp mėginių</h3><p>Tai nustato laiką tarp nuoseklių GPS pavyzdžių.</p><p>Numatytoji reikšmė: 4 sekundės.</p><p>Numatytoji konfigūracija reiškia 3 mėginius, paimamus kas 4 sekundes. Iš šių pavyzdžių apskaičiuojamas vidurkis, o tada algoritmas naudojamas nustatant važiavimo įjungimo ir išjungimo greitį.</p>"
+    },
+    "thresholds": {
+      "title": "Aktyvavimo ir išjungimo greičiai",
+      "content": "<p>Pasirinktiniame režime vartotojas gali reguliuoti greičio slenksčius.</p><p>Algoritmas naudoja transporto priemonės atpažinimo informaciją kartu su vidutiniu GPS greičiu.</p><p>Numatytieji atpažinimo lygiai:</p><ul><li>Būtinai transporto priemonėje – 3 km/val</li><li>Tikriausiai transporto priemonėje — 6 km/val</li><li>Tikriausiai už transporto priemonės ribų – 12 km/val</li><li>Už transporto priemonės ribų – 15 km/val</li></ul><p>Šios reikšmės nėra paprasta sistema „virš X km/h = važiavimas“. Tai parametrai, kuriuos algoritmas naudoja kartu su transporto priemonės atpažinimo būsena.</p><p>Numatytieji aptikimo režimai taip pat turi savo įjungimo ir išjungimo greitį. Pasirinktinis režimas leidžia vartotojui reguliuoti šias ribas.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Stebėjimo režimas sustojus",
+      "content": "<p>Aptikus sustojimą, vartotojas gali pasirinkti, kaip GPS sekimas turėtų būti tęsiamas.</p><h3>Realiu laiku</h3><p>GPS pavyzdžiai imami pagal sukonfigūruotą schemą. Pavyzdžiui, su 4 sekundžių intervalu mėginiai imami kas 4 sekundes. Tai atitinka aukštą tikslumą.</p><h3>Pakavimas</h3><p>Mėginiai grupuojami į didesnius intervalus. Pavyzdžiui: 16 sekundžių. Tai atitinka Balanced.</p><h3>Eco</h3><p>GPS naudojamas daug rečiau. Pavyzdžiui: 60 sekundžių. Tai atitinka akumuliatoriaus taupymą.</p><p>Tai būdas sumažinti akumuliatoriaus eikvojimą, kai sustota.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Perjungimo logika",
+      "content": "<p>Ši parinktis nustato, kiek laiko programa laukia, kai aptinka sustojimą, prieš pakeisdama veiklą.</p><p>Galimos vertės:</p><ul><li>Iš karto</li><li>10 sekundžių</li><li>30 sekundžių</li><li>1 minutė</li><li>2 minutės</li><li>5 minutės</li></ul><p>Pavyzdžiui, jei pasirenkama 1 minutė ir transporto priemonė per tą minutę vėl pajuda, stabdymo veikla atšaukiama ir važiavimas tęsiamas. Su Nedelsiant, perjungimas įvyksta iš karto, kai tik aptinkamas sustojimas.</p>"
+    },
+    "defaultActivity": {
+      "title": "Numatytoji veikla sustojus",
+      "content": "<p>Ši parinktis nustato, kuri veikla išsaugoma aptikus sustojimą.</p><p>Galimos programos veiklos apima, pavyzdžiui:</p><ul><li>Poilsis</li><li>Darbas</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Svarbus skirtumas",
+      "content": "<p>Nepainiokite šių trijų atskirų sąvokų:</p><h3>Aptikimo darbo režimas</h3><ul><li>IŠJUNGTA</li><li>VADOVAS</li><li>BUDĖJIMO REŽIMAS</li><li>AUTO</li></ul><h3>Aptikimo režimas / mėginių ėmimo metodas</h3><ul><li>Išjungta</li><li>Didelis tikslumas</li><li>Subalansuotas</li><li>Baterijos taupymas</li><li>Custom</li></ul><h3>Transporto priemonės atpažinimo būsena</h3><ul><li>Už transporto priemonės ribų</li><li>Tikrai ne transporto priemonėje</li><li>Transporto priemonėje</li><li>Būtinai transporto priemonėje</li><li>automobilio užraktas</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į pagrindinį puslapį"
+  },
+  "footer": "© TachoMobile 2"
+}

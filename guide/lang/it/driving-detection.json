@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Rilevamento della guida",
+    "heading": "Rilevamento della guida"
+  },
+  "intro": {
+    "1": "TachoMobile utilizza diverse fonti di informazioni per rilevare automaticamente la guida.",
+    "2": "Il GPS del telefono fornisce informazioni sul movimento e sulla velocità del veicolo. Il riconoscimento dell'attività di Google aiuta a determinare se il telefono è all'interno o all'esterno del veicolo.",
+    "3": "Queste fonti vengono analizzate insieme per determinare lo stato attuale del telefono e controllare in modo appropriato il rilevamento automatico della guida."
+  },
+  "sections": {
+    "how": {
+      "title": "Come funziona il rilevamento della guida?",
+      "content": "<p>TachoMobile non ha un collegamento diretto con un tachigrafo. Utilizza il GPS del telefono e il riconoscimento dell'attività di Google per rilevare automaticamente l'attività di guida.</p><p>Il GPS del telefono fornisce informazioni sul movimento e sulla velocità del veicolo. Il riconoscimento dell'attività di Google aiuta a determinare se il telefono è all'interno o all'esterno del veicolo.</p><p>Queste fonti vengono analizzate insieme per determinare lo stato attuale del telefono e controllare in modo appropriato il rilevamento automatico della guida.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Modalità operative del rilevamento",
+      "content": "<p>Queste sono le quattro modalità operative di rilevamento:</p><h3>⛔ SPENTO: disabilitato</h3><p>Il rilevamento automatico della guida è completamente disabilitato.</p><ul><li>Il GPS non viene utilizzato per il rilevamento.</li><li>Il riconoscimento dell'attività di Google non viene utilizzato per il rilevamento.</li><li>Le attività vengono immesse solo manualmente.</li></ul><p>OFF significa gestione dell'attività completamente manuale.</p><h3>✋ MANUALE — manuale</h3><p>Le attività vengono immesse solo manualmente.</p><p>Durante le seguenti attività, il GPS viene utilizzato per tracciare il percorso e contare i chilometri:</p><ul><li>Guida</li><li>Disponibilità in equipaggio</li></ul><p><strong>Importante:</strong> MANUAL non significa che il GPS è completamente disabilitato. Il GPS funziona quando è necessario monitorare la guida o la disponibilità di un equipaggio.</p><h3>STANDBY — standby</h3><p>Standby è una modalità speciale destinata principalmente alle situazioni in cui il conducente fa una pausa. In condizioni insolite, come un segnale GPS debole o instabile, l'applicazione potrebbe rilevare la guida anche se il veicolo è fermo.</p><ol><li>L'applicazione potrebbe rilevare la possibile guida.</li><li>Un messaggio informa che è stata rilevata la guida.</li><li>L'applicazione attende 30 secondi per la conferma.</li><li>Se la guida non viene confermata, il rilevamento viene annullato.</li><li>Se la guida viene confermata, la voce di guida viene mantenuta.</li><li>La modalità operativa cambia in AUTO.</li></ol><p>Si consiglia lo standby durante una pausa.</p><h3>AUTO — automatico</h3><p>AUTO è la modalità di rilevamento della guida completamente automatica.</p><ul><li>Le attività del conducente vengono modificate automaticamente in base all'algoritmo.</li><li>Il GPS funziona durante il lavoro.</li><li>Il rilevamento automatico funziona durante il lavoro.</li></ul><p>Una volta terminato il lavoro e rimossa la carta del conducente, il rilevamento automatico della guida viene sospeso.</p><p>Durante il riposo al termine del lavoro, il GPS non viene utilizzato per il rilevamento automatico della guida.</p>"
+    },
+    "vehicleStates": {
+      "title": "Stati di riconoscimento del veicolo",
+      "content": "<p>TachoMobile mostra lo stato di riconoscimento corrente con un'icona in Stato dell'applicazione.</p><p><strong>Importante:</strong> Lo stato di riconoscimento del veicolo non è lo stesso dell'attività del conducente. È uno degli elementi utilizzati dal motore di rilevamento al momento di decidere se modificare l'attività.</p><h3>⏸️ Sicuramente fuori dal veicolo</h3><p>L'applicazione è altamente sicura che il telefono sia all'esterno del veicolo. Nelle modalità di risparmio della batteria il GPS può essere utilizzato molto raramente in questo stato, anche un campionamento ogni 60 secondi.</p><h3>All'esterno del veicolo</h3><p>Il telefono è stato riconosciuto come esterno al veicolo.</p><h3>Sicuramente nel veicolo</h3><p>L'applicazione è altamente sicura che il telefono sia all'interno del veicolo. In questo stato è possibile utilizzare una soglia di velocità di attivazione della guida più bassa.</p><h3>Nel veicolo</h3><p>L'applicazione ha riconosciuto che il telefono si trova all'interno del veicolo.</p><h3>Serratura per auto</h3><p><strong>Blocco auto non è un'impostazione disponibile per l'utente.</strong> È un meccanismo automatico che protegge l'operazione di rilevamento.</p><p>Se l'applicazione ha la certezza assoluta che il telefono si trova nel veicolo ed è collegato a un caricabatterie, potrebbe attivare il blocco dell'auto.</p><p>In questo stato l'applicazione presuppone che il telefono rimanga nel veicolo e non passi ad altri stati di riconoscimento a causa di cambiamenti di segnale brevi o temporanei.\nIl blocco per auto</p><p>viene rilasciato dopo:</p><ul><li>il caricabatterie è scollegato,\nViene rilevato</li><li>oppure uno stop della durata di almeno 2 minuti.</li></ul><p>La soglia di velocità di attivazione di guida più bassa viene utilizzata in In-Car Lock.</p><p>Il blocco per auto è automatico. L'utente non lo accende manualmente.</p>"
+    },
+    "power": {
+      "title": "Passa al riposo dopo la perdita di alimentazione",
+      "content": "<p>Questa è un'opzione disponibile nelle impostazioni di rilevamento della guida.</p><p>Se abilitato, dopo l'arresto o a una velocità molto bassa, la perdita di potenza può far passare automaticamente l'attività alla modalità di riposo.</p><p>Ad esempio:</p><p><strong>guida → arresto → accensione disinserita → riposo</strong></p><p>Questa funzione è separata dal blocco dell'auto.</p>"
+    },
+    "detectionModes": {
+      "title": "Modalità di rilevamento",
+      "content": "<p>Si tratta di un'impostazione separata dalle quattro modalità operative: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Disabilitato</h3><p>Il campionamento GPS automatico per il rilevamento è disabilitato.</p><h3>Elevata precisione</h3><ul><li>Campionamento GPS veloce.</li><li>Risposta di rilevamento rapida.</li><li>Campionamento veloce anche durante un arresto rilevato.</li><li>Elevata precisione e reattività.</li><li>Maggiore consumo della batteria.</li></ul><h3>⚖️ Equilibrato</h3><ul><li>Un compromesso tra velocità e consumo della batteria.</li><li>Dopo il rilevamento di un arresto, viene utilizzato il campionamento batch.</li><li>Questa è la modalità predefinita.</li></ul><h3>Risparmio batteria</h3><p>Questa è una modalità economica consigliata per il lavoro quotidiano.</p><ul><li>Dopo il rilevamento di una sosta, il GPS viene utilizzato molto raramente: un campionamento ogni 60 secondi.</li><li>Al di sopra di 50 km/h, il campionamento viene effettuato in batch ogni 8 secondi.</li></ul><p>Il risparmio della batteria consente comunque il rilevamento automatico della guida. Cambia principalmente il modo in cui viene utilizzato il GPS.</p><p>Alta precisione, Bilanciato e Risparmio batteria sono modalità di rilevamento predefinite e ciascuna di esse ha le proprie velocità di attivazione e disattivazione della guida.</p>"
+    },
+    "custom": {
+      "title": "Modalità personalizzata",
+      "content": "<p>La modalità personalizzata è una funzionalità Premium. Consente all'utente di adattare il rilevamento alle proprie esigenze.</p><p>Questa sezione contiene anche le velocità di attivazione e disattivazione della guida regolabili dall'utente e la modalità di tracciamento utilizzata quando si è fermi.</p><h3>Sensibilità di campionamento</h3><p>Determina il numero di campioni GPS utilizzati per calcolare una media.</p><p>Valore predefinito: 3 campioni.</p><h3>Intervallo tra i campioni</h3><p>Determina il tempo tra campioni GPS consecutivi.</p><p>Valore predefinito: 4 secondi.</p><p>La configurazione predefinita prevede 3 campioni prelevati ogni 4 secondi. Da questi campioni viene calcolata una media che viene poi utilizzata dall'algoritmo per determinare la velocità di attivazione e disattivazione della guida.</p>"
+    },
+    "thresholds": {
+      "title": "Velocità di attivazione e disattivazione",
+      "content": "<p>In modalità Personalizzata, l'utente può regolare le soglie di velocità.</p><p>L'algoritmo utilizza le informazioni di riconoscimento del veicolo insieme alla velocità media del GPS.</p><p>Livelli di riconoscimento predefiniti:</p><ul><li>Sicuramente nel veicolo: 3 km/h</li><li>Probabilmente nel veicolo — 6 km/h</li><li>Probabilmente fuori dal veicolo — 12 km/h</li><li>All'esterno del veicolo — 15 km/h</li></ul><p>Questi valori non sono un semplice sistema “sopra X km/h = guida”. Sono parametri utilizzati dall'algoritmo insieme allo stato di riconoscimento del veicolo.</p><p>Le modalità di rilevamento predefinite hanno anche le proprie velocità di attivazione e disattivazione. La modalità personalizzata consente all'utente di regolare queste soglie.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Modalità di tracciamento durante la sosta",
+      "content": "<p>Dopo aver rilevato una fermata, l'utente può scegliere come continuare il tracciamento GPS.</p><h3>Tempo reale</h3><p>I campioni GPS vengono prelevati secondo lo schema configurato. Ad esempio, con un intervallo di 4 secondi, i campioni vengono prelevati ogni 4 secondi. Ciò corrisponde ad Alta precisione.</p><h3>Dosaggio</h3><p>I campioni sono raggruppati in intervalli più ampi. Ad esempio: 16 secondi. Ciò corrisponde a Bilanciato.</p><h3>Eco</h3><p>Il GPS viene utilizzato molto meno spesso. Ad esempio: 60 secondi. Ciò corrisponde al risparmio della batteria.</p><p>Questo è un modo per ridurre il consumo della batteria quando il veicolo è fermo.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Logica di commutazione",
+      "content": "<p>Questa opzione determina quanto tempo l'applicazione attende dopo aver rilevato un arresto prima di modificare l'attività.</p><p>Valori disponibili:</p><ul><li>Immediatamente</li><li>10 secondi</li><li>30 secondi</li><li>1 minuto</li><li>2 minuti</li><li>5 minuti</li></ul><p>Ad esempio, se viene selezionato 1 minuto e il veicolo si muove nuovamente durante quel minuto, l'attività di arresto viene annullata e la guida continua. Con Immediatamente il cambio avviene non appena viene rilevato un arresto.</p>"
+    },
+    "defaultActivity": {
+      "title": "Attività predefinita dopo l'arresto",
+      "content": "<p>Questa opzione determina quale attività viene salvata dopo il rilevamento di una sosta.</p><p>Le attività del programma disponibili includono, ad esempio:</p><ul><li>Resto</li><li>Lavoro</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Distinzione importante",
+      "content": "<p>Non confondere questi tre concetti separati:</p><h3>Modalità operativa rilevamento</h3><ul><li>SPENTO</li><li>MANUALE</li><li>STANDBY</li><li>AUTO</li></ul><h3>Modalità di rilevamento/metodo di campionamento</h3><ul><li>Disabilitato</li><li>Elevata precisione</li><li>Bilanciato</li><li>Risparmio batteria</li><li>Personalizzato</li></ul><h3>Stato riconoscimento veicolo</h3><ul><li>All'esterno del veicolo</li><li>Decisamente all'esterno del veicolo</li><li>Nel veicolo</li><li>Sicuramente nel veicolo</li><li>Serratura per auto</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Torna alla pagina principale"
+  },
+  "footer": "© TachoMobile 2"
+}

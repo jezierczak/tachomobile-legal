@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Fahrerkennung",
+    "heading": "Fahrerkennung"
+  },
+  "intro": {
+    "1": "TachoMobile nutzt mehrere Informationsquellen, um das Fahren automatisch zu erkennen.",
+    "2": "Das GPS des Telefons liefert Informationen über die Bewegung und Geschwindigkeit des Fahrzeugs. Mithilfe der Google-Aktivitätserkennung lässt sich feststellen, ob sich das Telefon innerhalb oder außerhalb des Fahrzeugs befindet.",
+    "3": "Diese Quellen werden gemeinsam analysiert, um den aktuellen Zustand des Telefons zu ermitteln und die automatische Fahrerkennung entsprechend zu steuern."
+  },
+  "sections": {
+    "how": {
+      "title": "Wie funktioniert die Fahrerkennung?",
+      "content": "<p>TachoMobile hat keine direkte Verbindung zu einem Fahrtenschreiber. Es nutzt das GPS des Telefons und die Google-Aktivitätserkennung, um Fahraktivitäten automatisch zu erkennen.</p><p>Das GPS des Telefons liefert Informationen über die Bewegung und Geschwindigkeit des Fahrzeugs. Mithilfe der Google-Aktivitätserkennung lässt sich feststellen, ob sich das Telefon innerhalb oder außerhalb des Fahrzeugs befindet.</p><p>Diese Quellen werden gemeinsam analysiert, um den aktuellen Zustand des Telefons zu ermitteln und die automatische Fahrerkennung entsprechend zu steuern.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Erkennungsbetriebsarten",
+      "content": "<p>Dies sind die vier Betriebsmodi der Erkennung:</p><h3>⛔ OFF – deaktiviert</h3><p>Die automatische Fahrerkennung ist vollständig deaktiviert.</p><ul><li>GPS wird nicht zur Erkennung verwendet.</li><li>Die Google-Aktivitätserkennung wird nicht zur Erkennung verwendet.</li><li>Aktivitäten werden nur manuell eingegeben.</li></ul><p>OFF bedeutet vollständig manuelle Aktivitätsverwaltung.</p><h3>✋ HANDBUCH – Handbuch</h3><p>Aktivitäten werden nur manuell eingegeben.</p><p>Bei folgenden Aktivitäten wird GPS verwendet, um die Route zu verfolgen und Kilometer zu zählen:</p><ul><li>Fahren</li><li>Verfügbarkeit in einer Crew</li></ul><p><strong>Wichtig:</strong> MANUAL bedeutet nicht, dass GPS vollständig deaktiviert ist. GPS funktioniert, wenn es benötigt wird, um die Fahrweise oder Verfügbarkeit einer Mannschaft zu verfolgen.</p><h3>STANDBY – Standby</h3><p>Standby ist ein spezieller Modus, der hauptsächlich für Situationen gedacht ist, in denen der Fahrer eine Pause einlegt. Unter ungewöhnlichen Bedingungen, wie etwa einem schlechten oder instabilen GPS-Signal, erkennt die Anwendung möglicherweise das Fahren, obwohl das Fahrzeug stillsteht.</p><ol><li>Die Anwendung erkennt möglicherweise mögliches Fahren.</li><li>Eine Meldung informiert Sie darüber, dass Fahren erkannt wurde.</li><li>Die Anwendung wartet 30 Sekunden auf die Bestätigung.</li><li>Wenn die Fahrt nicht bestätigt wird, wird die Erkennung abgebrochen.</li><li>Bei bestätigter Fahrt bleibt der Fahreintrag erhalten.</li><li>Der Betriebsmodus wechselt zu AUTO.</li></ol><p>Standby wird während einer Pause empfohlen.</p><h3>AUTO – automatisch</h3><p>AUTO ist der vollautomatische Fahrerkennungsmodus.</p><ul><li>Treiberaktivitäten werden basierend auf dem Algorithmus automatisch geändert.</li><li>GPS funktioniert während der Arbeit.</li><li>Automatische Erkennung funktioniert während der Arbeit.</li></ul><p>Nach Arbeitsende und Entnahme der Fahrerkarte wird die automatische Fahrerkennung ausgesetzt.</p><p>Während der Ruhezeit nach Arbeitsende wird GPS nicht zur automatischen Fahrerkennung verwendet.</p>"
+    },
+    "vehicleStates": {
+      "title": "Fahrzeugerkennungsstatus",
+      "content": "<p>TachoMobile zeigt den aktuellen Erkennungsstatus mit einem Symbol im Anwendungsstatus an.</p><p><strong>Wichtig:</strong> Der Fahrzeugerkennungsstatus stimmt nicht mit der Aktivität des Fahrers überein. Dies ist eines der Elemente, die von der Erkennungs-Engine verwendet werden, wenn sie entscheidet, ob die Aktivität geändert werden soll.</p><h3>⏸️ Auf jeden Fall außerhalb des Fahrzeugs</h3><p>Die Anwendung ist sehr sicher, dass sich das Telefon außerhalb des Fahrzeugs befindet. Im Batteriesparmodus wird GPS in diesem Zustand möglicherweise nur sehr selten verwendet – sogar eine Probe alle 60 Sekunden.</p><h3>Außerhalb des Fahrzeugs</h3><p>Es wurde erkannt, dass sich das Telefon außerhalb des Fahrzeugs befindet.</p><h3>Auf jeden Fall im Fahrzeug</h3><p>Die Anwendung ist sehr sicher, dass sich das Telefon im Fahrzeug befindet. In diesem Zustand kann ein niedrigerer Schwellenwert für die Fahraktivierungsgeschwindigkeit verwendet werden.</p><h3>Im Fahrzeug</h3><p>Die Anwendung hat erkannt, dass sich das Telefon im Fahrzeug befindet.</p><h3>Autoschloss</h3><p><strong>In-Car Lock ist keine für den Benutzer verfügbare Einstellung.</strong> Es handelt sich um einen automatischen Mechanismus, der den Erkennungsvorgang schützt.</p><p>Wenn die Anwendung sehr sicher ist, dass sich das Telefon im Fahrzeug befindet und an ein Ladegerät angeschlossen ist, kann sie die In-Car-Sperre aktivieren.</p><p>In diesem Zustand geht die Anwendung davon aus, dass das Telefon im Fahrzeug verbleibt und nicht aufgrund kurzer oder vorübergehender Signaländerungen in andere Erkennungszustände wechselt.</p><p>In-Car Lock wird freigegeben nach:</p><ul><li>das Ladegerät ist nicht angeschlossen,</li><li>oder ein Stopp von mindestens 2 Minuten Dauer wurde erkannt.</li></ul><p>Der niedrigste Schwellenwert für die Fahraktivierungsgeschwindigkeit wird beim In-Car Lock verwendet.\nDas</p><p>-In-Car-Schloss ist automatisch. Der Benutzer schaltet es nicht manuell ein.</p>"
+    },
+    "power": {
+      "title": "Nach Stromverlust auf Ruhe umschalten",
+      "content": "<p>Dies ist eine Option, die in den Fahrerkennungseinstellungen verfügbar ist.</p><p>Wenn diese Funktion aktiviert ist, kann die Aktivität nach dem Anhalten oder bei einer sehr niedrigen Geschwindigkeit aufgrund eines Stromausfalls automatisch in den Ruhemodus wechseln.</p><p>Zum Beispiel:</p><p><strong>Fahren → Anhalten → Zündung aus → Ruhe</strong></p><p>Diese Funktion ist unabhängig von der In-Car-Sperre.</p>"
+    },
+    "detectionModes": {
+      "title": "Erkennungsmodi",
+      "content": "<p>Dies ist eine separate Einstellung zu den vier Betriebsmodi: AUS / MANUELL / STANDBY / AUTO.</p><h3>⛔ Deaktiviert</h3><p>Die automatische GPS-Abtastung zur Erkennung ist deaktiviert.</p><h3>Hohe Genauigkeit</h3><ul><li>Schnelle GPS-Erfassung.</li><li>Schnelle Erkennungsreaktion.</li><li>Schnelle Abtastung auch während eines erkannten Stopps.</li><li>Hohe Genauigkeit und Reaktionsfähigkeit.</li><li>Erhöhter Batterieverbrauch.</li></ul><h3>⚖️ Ausgewogen</h3><ul><li>Ein Kompromiss zwischen Geschwindigkeit und Batterieverbrauch.</li><li>Nachdem ein Stopp erkannt wurde, wird eine gestapelte Probenahme verwendet.</li><li>Dies ist der Standardmodus.</li></ul><h3>Batteriesparen</h3><p>Dies ist ein sparsamer Modus, der für die tägliche Arbeit empfohlen wird.</p><ul><li>Nachdem ein Stopp erkannt wurde, wird GPS nur sehr selten verwendet: alle 60 Sekunden eine Messung.</li><li>Über 50 km/h erfolgt die Probenahme alle 8 Sekunden.</li></ul><p>Der Batteriesparmodus ermöglicht weiterhin eine automatische Fahrerkennung. Es ändert hauptsächlich die Art und Weise, wie GPS verwendet wird.</p><p>Hohe Genauigkeit, Ausgeglichen und Batteriesparen sind die Standarderkennungsmodi, und jeder von ihnen hat seine eigenen Fahraktivierungs- und -deaktivierungsgeschwindigkeiten.</p>"
+    },
+    "custom": {
+      "title": "Benutzerdefinierter Modus",
+      "content": "<p>Der benutzerdefinierte Modus ist eine Premium-Funktion. Dadurch kann der Benutzer die Erkennung an seine eigenen Bedürfnisse anpassen.</p><p>Dieser Abschnitt enthält auch die vom Benutzer einstellbaren Fahraktivierungs- und -deaktivierungsgeschwindigkeiten sowie den Tracking-Modus, der im Stillstand verwendet wird.</p><h3>Abtastempfindlichkeit</h3><p>Dies bestimmt die Anzahl der GPS-Samples, die zur Berechnung eines Durchschnitts verwendet werden.</p><p>Standardwert: 3 Proben.</p><h3>Intervall zwischen Proben</h3><p>Dies bestimmt die Zeit zwischen aufeinanderfolgenden GPS-Samples.</p><p>Standardwert: 4 Sekunden.</p><p>Die Standardkonfiguration bedeutet, dass alle 4 Sekunden 3 Proben entnommen werden. Aus diesen Stichproben wird ein Durchschnitt berechnet und dann vom Algorithmus zur Bestimmung der Fahraktivierungs- und -deaktivierungsgeschwindigkeit verwendet.</p>"
+    },
+    "thresholds": {
+      "title": "Aktivierungs- und Deaktivierungsgeschwindigkeiten",
+      "content": "<p>Im benutzerdefinierten Modus kann der Benutzer Geschwindigkeitsschwellenwerte anpassen.</p><p>Der Algorithmus nutzt Fahrzeugerkennungsinformationen zusammen mit der durchschnittlichen GPS-Geschwindigkeit.</p><p>Standarderkennungsstufen:</p><ul><li>Auf jeden Fall im Fahrzeug – 3 km/h</li><li>Wahrscheinlich im Fahrzeug – 6 km/h</li><li>Wahrscheinlich außerhalb des Fahrzeugs – 12 km/h</li><li>Außerhalb des Fahrzeugs – 15 km/h</li></ul><p>Diese Werte sind kein einfaches „über X km/h = Fahren“-System. Dabei handelt es sich um Parameter, die der Algorithmus zusammen mit dem Fahrzeugerkennungsstatus verwendet.</p><p>Die Standarderkennungsmodi haben auch ihre eigenen Aktivierungs- und Deaktivierungsgeschwindigkeiten. Im benutzerdefinierten Modus kann der Benutzer diese Schwellenwerte anpassen.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Ortungsmodus während des Stillstands",
+      "content": "<p>Nachdem ein Stopp erkannt wurde, kann der Benutzer auswählen, wie das GPS-Tracking fortgesetzt werden soll.</p><h3>Echtzeit</h3><p>GPS-Proben werden gemäß dem konfigurierten Schema erfasst. Bei einem 4-Sekunden-Intervall werden beispielsweise alle 4 Sekunden Proben entnommen. Dies entspricht einer hohen Genauigkeit.</p><h3>Batchverarbeitung</h3><p>Stichproben werden in größere Intervalle gruppiert. Beispiel: 16 Sekunden. Dies entspricht Balanced.</p><h3>Eco</h3><p>GPS wird viel seltener verwendet. Beispiel: 60 Sekunden. Dies entspricht dem Batteriesparen.</p><p>Dies ist eine Möglichkeit, den Batterieverbrauch im Stillstand zu reduzieren.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Umschaltlogik",
+      "content": "<p>Diese Option bestimmt, wie lange die Anwendung nach der Erkennung eines Stopps wartet, bevor sie die Aktivität ändert.</p><p>Verfügbare Werte:</p><ul><li>Sofort</li><li>10 Sekunden</li><li>30 Sekunden</li><li>1 Minute</li><li>2 Minuten</li><li>5 Minuten</li></ul><p>Wenn beispielsweise 1 Minute ausgewählt ist und sich das Fahrzeug in dieser Minute erneut bewegt, wird die Stoppaktivität abgebrochen und die Fahrt fortgesetzt. Bei Sofort erfolgt die Umschaltung, sobald ein Stopp erkannt wird.</p>"
+    },
+    "defaultActivity": {
+      "title": "Standardaktivität nach dem Anhalten",
+      "content": "<p>Diese Option bestimmt, welche Aktivität gespeichert wird, nachdem ein Stopp erkannt wurde.</p><p>Zu den verfügbaren Programmaktivitäten gehören beispielsweise:</p><ul><li>Rest</li><li>Arbeit</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Wichtige Unterscheidung",
+      "content": "<p>Verwechseln Sie diese drei separaten Konzepte nicht:</p><h3>Erkennungsbetriebsmodus</h3><ul><li>AUS</li><li>HANDBUCH</li><li>STANDBY</li><li>AUTO</li></ul><h3>Erkennungsmodus/Probenahmemethode</h3><ul><li>Deaktiviert</li><li>Hohe Genauigkeit</li><li>Ausgewogen</li><li>Batteriesparen</li><li>Benutzerdefiniert</li></ul><h3>Fahrzeugerkennungsstatus</h3><ul><li>Außerhalb des Fahrzeugs</li><li>Auf jeden Fall außerhalb des Fahrzeugs</li><li>Im Fahrzeug</li><li>Auf jeden Fall im Fahrzeug</li><li>Autoschloss</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Startseite"
+  },
+  "footer": "© TachoMobile 2"
+}
