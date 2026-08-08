@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Průvodce",
+    "heading": "TachoMobile 2 — Průvodce",
+    "description": "Tento průvodce obsahuje informace, které vám pomohou správně nastavit a používat TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "První kroky",
+      "description": "Rychlý úvod do začátků s aplikací TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Oprávnění a stav aplikace",
+      "description": "Zjistěte, jaká oprávnění a nastavení telefonu jsou potřebná pro správné fungování TachoMobile 2.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Rozpoznávání jízdy",
+      "description": "Zjistěte, jak funguje automatické rozpoznávání jízdy a jak jej přizpůsobit svým potřebám.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na hlavní stránku",
+    "backUrl": "/cz/"
+  },
+  "footer": "© TachoMobile 2"
+}

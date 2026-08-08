@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Útmutató",
+    "heading": "TachoMobile 2 — Útmutató",
+    "description": "Ez az útmutató segítséget nyújt a TachoMobile 2 megfelelő beállításához és használatához."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Első lépések",
+      "description": "Rövid bevezetés a TachoMobile 2 használatának megkezdéséhez.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Engedélyek és az alkalmazás állapota",
+      "description": "Tudja meg, milyen engedélyekre és telefonbeállításokra van szükség a TachoMobile 2 megfelelő működéséhez.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Vezetésfelismerés",
+      "description": "Ismerje meg az automatikus vezetésfelismerés működését és testreszabási lehetőségeit.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a főoldalra",
+    "backUrl": "/hu/"
+  },
+  "footer": "© TachoMobile 2"
+}

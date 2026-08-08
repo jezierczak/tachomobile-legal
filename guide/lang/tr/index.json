@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Kılavuz",
+    "heading": "TachoMobile 2 — Kılavuz",
+    "description": "Bu kılavuz, TachoMobile 2'yi doğru şekilde yapılandırmanıza ve kullanmanıza yardımcı olacak bilgiler içerir."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "İlk adımlar",
+      "description": "TachoMobile 2'yi kullanmaya başlamak için kısa bir giriş.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "İzinler ve Uygulama Durumu",
+      "description": "TachoMobile 2'nin düzgün çalışması için hangi izinlerin ve telefon ayarlarının gerekli olduğunu öğrenin.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Sürüş algılama",
+      "description": "Otomatik sürüş algılamanın nasıl çalıştığını ve ihtiyaçlarınıza göre nasıl ayarlanacağını öğrenin.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Ana sayfaya dön",
+    "backUrl": "/tr/"
+  },
+  "footer": "© TachoMobile 2"
+}

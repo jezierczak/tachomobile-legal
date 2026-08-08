@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "ru"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Руководство",
+    "heading": "TachoMobile 2 — Руководство",
+    "description": "В этом руководстве собрана информация, которая поможет правильно настроить и использовать TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Первые шаги",
+      "description": "Краткое введение в начало работы с TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Разрешения и статус приложения",
+      "description": "Узнайте, какие разрешения и настройки телефона необходимы для правильной работы TachoMobile 2.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Определение движения",
+      "description": "Узнайте, как работает автоматическое определение движения и как настроить его под свои потребности.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Вернуться на главную страницу",
+    "backUrl": "/ru/"
+  },
+  "footer": "© TachoMobile 2"
+}

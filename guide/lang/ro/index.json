@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Ghid",
+    "heading": "TachoMobile 2 — Ghid",
+    "description": "Acest ghid conține informații care vă ajută să configurați și să utilizați corect TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Primii pași",
+      "description": "O introducere rapidă pentru a începe să utilizați TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Permisiuni și starea aplicației",
+      "description": "Aflați de ce permisiuni și setări ale telefonului are nevoie TachoMobile 2 pentru a funcționa corect.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Detectarea condusului",
+      "description": "Aflați cum funcționează detectarea automată a condusului și cum o puteți adapta nevoilor dumneavoastră.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la pagina principală",
+    "backUrl": "/ro/"
+  },
+  "footer": "© TachoMobile 2"
+}

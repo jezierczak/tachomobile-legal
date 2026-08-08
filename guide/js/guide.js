@@ -9,7 +9,7 @@
     var parts = getPathParts();
     var guideIndex = parts.indexOf("guide");
     var language = parts[0] || "en";
-    var module = guideIndex >= 0 && parts[guideIndex + 1] ? parts[guideIndex + 1] : "first-steps";
+    var module = guideIndex >= 0 && parts[guideIndex + 1] ? parts[guideIndex + 1] : "index";
     return { language: language, module: module };
   }
 
@@ -46,6 +46,10 @@
     });
     document.querySelectorAll("[data-i18n-list]").forEach(function (element) {
       populateList(element, getValue(data, element.dataset.i18nList));
+    });
+    document.querySelectorAll("[data-i18n-href]").forEach(function (element) {
+      var href = getValue(data, element.dataset.i18nHref);
+      if (href != null) element.setAttribute("href", String(href));
     });
     document.querySelectorAll("[data-i18n-optional]").forEach(function (element) {
       var key = element.dataset.i18n || element.dataset.i18nHtml;

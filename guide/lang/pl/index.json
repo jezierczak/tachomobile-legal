@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Przewodnik",
+    "heading": "TachoMobile 2 — Przewodnik",
+    "description": "Przewodnik zawiera informacje pomagające prawidłowo skonfigurować i korzystać z TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Pierwsze kroki",
+      "description": "Szybkie wprowadzenie do rozpoczęcia pracy z TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Uprawnienia i Status aplikacji",
+      "description": "Dowiedz się, jakie uprawnienia i ustawienia telefonu są potrzebne do prawidłowego działania TachoMobile 2.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Rozpoznawanie jazdy",
+      "description": "Dowiedz się, jak działa automatyczne rozpoznawanie jazdy oraz jak dostosować jego działanie do własnych potrzeb.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do strony głównej",
+    "backUrl": "/pl/"
+  },
+  "footer": "© TachoMobile 2"
+}

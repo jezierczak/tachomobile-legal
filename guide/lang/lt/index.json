@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Vadovas",
+    "heading": "TachoMobile 2 — Vadovas",
+    "description": "Šiame vadove pateikiama informacija, padedanti tinkamai sukonfigūruoti ir naudoti „TachoMobile 2“."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Pirmieji žingsniai",
+      "description": "Trumpa įžanga, padėsianti pradėti naudoti „TachoMobile 2“.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Leidimai ir programos būsena",
+      "description": "Sužinokite, kokių leidimų ir telefono nustatymų reikia, kad „TachoMobile 2“ veiktų tinkamai.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Važiavimo aptikimas",
+      "description": "Sužinokite, kaip veikia automatinis važiavimo aptikimas ir kaip jį pritaikyti savo poreikiams.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į pagrindinį puslapį",
+    "backUrl": "/lt/"
+  },
+  "footer": "© TachoMobile 2"
+}

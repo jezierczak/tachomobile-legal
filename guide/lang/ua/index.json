@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "ua"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Посібник",
+    "heading": "TachoMobile 2 — Посібник",
+    "description": "Цей посібник містить інформацію, яка допоможе правильно налаштувати та використовувати TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Перші кроки",
+      "description": "Короткий вступ до початку роботи з TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Дозволи та стан додатка",
+      "description": "Дізнайтеся, які дозволи та налаштування телефону потрібні для правильної роботи TachoMobile 2.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Визначення руху",
+      "description": "Дізнайтеся, як працює автоматичне визначення руху та як налаштувати його відповідно до власних потреб.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Повернутися на головну сторінку",
+    "backUrl": "/ua/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Leitfaden",
+    "heading": "TachoMobile 2 — Leitfaden",
+    "description": "Dieser Leitfaden enthält Informationen zur richtigen Einrichtung und Nutzung von TachoMobile 2."
+  },
+  "modules": {
+    "firstSteps": {
+      "title": "Erste Schritte",
+      "description": "Eine kurze Einführung in den Start mit TachoMobile 2.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Berechtigungen und App-Status",
+      "description": "Erfahren Sie, welche Berechtigungen und Telefoneinstellungen für den korrekten Betrieb von TachoMobile 2 erforderlich sind.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Fahrerkennung",
+      "description": "Erfahren Sie, wie die automatische Fahrerkennung funktioniert und an Ihre Bedürfnisse angepasst werden kann.",
+      "url": "driving-detection/"
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Startseite",
+    "backUrl": "/de/"
+  },
+  "footer": "© TachoMobile 2"
+}
