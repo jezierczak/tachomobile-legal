@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Ana ekran",
+    "heading": "TachoMobile 2 — Ana ekran",
+    "intro": "Uygulamanın ana ekranında bulunan bilgiler, kartlar, sayaçlar ve işlemler için bir rehber."
+  },
+  "sections": {
+    "header": {
+      "title": "Uygulama başlığı",
+      "content": "<p>Başlıkta TachoMobile logosu, uygulama sürümü, Standard veya Premium durumu ve program seçeneklerine erişim bulunur.Temel bilgiler ve ayarlar için sürekli bir erişim noktasıdır.</p>"
+    },
+    "dataSource": {
+      "title": "Veri kaynağı",
+      "content": "<p>Bu bölüm sürücü kartı verileri yüklendikten sonra görünür.</p><ul><li><strong>GPS</strong>, mevcut <strong>GPS</strong> takibini ve uygulamanın kaydettiği aktiviteleri gösterir.</li><li><strong>MIX</strong> kart ve <strong>GPS</strong> verilerini birleştirir; eksik bilgileri <strong>GPS</strong> tamamlar.</li><li><strong>KARTA</strong> yalnızca kartın DDD dosyasını kullanır.<strong>GPS</strong>, <strong>MIX</strong> ve <strong>KARTA</strong> veri kaynaklarıdır, algılama modu değildir.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ve <strong>AUTO</strong> Sürüş algılama modülünde açıklanır.Bu bölüm sürücü kartı verileri yüklendikten sonra görünür.<strong>GPS</strong>, mevcut <strong>GPS</strong> takibini ve uygulamanın kaydettiği aktiviteleri gösterir.<strong>MIX</strong> kart ve <strong>GPS</strong> verilerini birleştirir; eksik bilgileri</li></ul><p>GPS tamamlar.KARTA yalnızca kartın DDD dosyasını kullanır.GPS, MIX ve KARTA veri kaynaklarıdır, algılama modu değildir.OFF, MANUAL, STANDBY ve AUTO Sürüş algılama modülünde açıklanır.</p>"
+    },
+    "detection": {
+      "title": "Algılama durumu",
+      "content": "<p>Algılama durumu otomatik sürüş algılamanın mevcut durumunu gösterir ve modu değiştirmeye izin verir.Kart verileri yüklenmediyse <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> seçimi gösterilmez.Ayrıntılar Sürüş algılama modülündedir.</p>"
+    },
+    "work": {
+      "title": "▶️ Çalışmayı başlatma ve bitirme",
+      "content": "<p>Düğme mevcut duruma göre çalışmayı başlatıp kartı takma veya çalışmayı bitirip kartı çıkarma işlemlerinde kullanıcıya yol gösterir. İki ayrı işlem gerekmez.</p>"
+    },
+    "currentActivity": {
+      "title": "Mevcut aktivite",
+      "content": "<p>Kart mevcut aktiviteyi <strong>Sürüş</strong>, <strong>Çalışma</strong>, <strong>Kullanılabilirlik</strong> veya <strong>Dinlenme</strong> olarak gösterir.Dokunarak aktivite değiştirilebilir. Çalışma dışında dokunmak dinlenme hedefleri hakkında bilgi açar; bu işlev ayrı bir GUIDE modülünde açıklanacaktır.</p>"
+    },
+    "breaks": {
+      "title": "☕ Mola ve dinlenme kontrolü",
+      "content": "<p>Ana kart, tam 45 dakikalık mola için gereken ilk 15 dakikalık molanın ve limiti düşürmeden 9 saatlik dinlenmeyi mümkün kılan 3 saatlik dinlenmenin sayılıp sayılmadığını gösterir.Burada yalnızca işlev açıklanır.Ana kart, tam 45 dakikalık mola için gereken ilk 15 dakikalık molanın ve limiti düşürmeden 9 saatlik dinlenmeyi mümkün kılan 3 saatlik dinlenmenin sayılıp sayılmadığını gösterir.Burada yalnızca işlev açıklanır.</p><ul></ul><p>Ana kart, tam 45 dakikalık mola için gereken ilk 15 dakikalık molanın ve limiti düşürmeden 9 saatlik dinlenmeyi mümkün kılan 3 saatlik dinlenmenin sayılıp sayılmadığını gösterir.Burada yalnızca işlev açıklanır.Ana kart, tam 45 dakikalık mola için gereken ilk 15 dakikalık molanın ve limiti düşürmeden 9 saatlik dinlenmeyi mümkün kılan 3 saatlik dinlenmenin sayılıp sayılmadığını gösterir.Burada yalnızca işlev açıklanır.</p>"
+    },
+    "drivingCounter": {
+      "title": "Sürüş süresi sayacı",
+      "content": "<p>Sayaç mevcut vardiyada kullanılan sürüş süresini gösterir.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Toplam vardiya süresi",
+      "content": "<p>İkinci sayaç mevcut vardiyanın toplam süresini gösterir.Sürüş sayacıyla birlikte vardiyanın ve sürüşün ne kadar sürdüğünü hızlıca gösterir.</p>"
+    },
+    "progress": {
+      "title": "İlerleme çubukları",
+      "content": "<p>İlerleme çubukları ilgili sayaçlar için en fazla kullanılabilir süreyi gösterir.Sayaca dokunmak açıklamasını açar; basılı tutmak kullanılan ve kalan süre arasında geçiş yapar. Örneğin 2 saat kullanılmış veya 8 saat kalmış olarak görülebilir.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>WDT bölümü isteğe bağlıdır ve program seçeneklerinden açılır.WDT sınırları aşılmadan önce uyarılar da etkinleştirilebilir.WDT kapalıysa bölüm gösterilmez.</p>"
+    },
+    "rests": {
+      "title": "Dinlenmeler",
+      "content": "<p>Ana ekran daha önce sayılan ve o anda gereken dinlenme sayısını gösterir.Bu hızlı bir durum özetidir; ayrıntılı kurallar ayrı olarak açıklanacaktır.</p>"
+    },
+    "workAndDriving": {
+      "title": "Çalışma + sürüş",
+      "content": "<p><strong>Çalışma + sürüş</strong> sayacı mevcut vardiyadaki toplam çalışma ve sürüş süresini gösterir.</p>"
+    },
+    "continuous": {
+      "title": "Kesintisiz çalışma + sürüş",
+      "content": "<p>Bu sayaç kesintisiz çalışma ve sürüş süresini, yani altı saat dolmadan 15 dakikalık dinlenmeyle bölünmemiş dönemi gösterir.Tüm kurallar değil, sayacın işlevi açıklanır.</p>"
+    },
+    "weekly": {
+      "title": "Haftalık kullanım",
+      "content": "<p>Haftalık sayaç 9 saat dinlenme ve 10 saat sürüş kullanımını gösterir.Dokunulduğunda iki haftalık sürüş süresi ile hafta sonu veya haftalık dinlenme durumu açılır.</p>"
+    },
+    "vehicle": {
+      "title": "Mevcut araç",
+      "content": "<p>Ekranda mevcut araç, kilometre göstergesi ve gidilen mesafe gösterilir.Araç değişirse Araç A ve ardından Araç B gibi yeni kayıtlar görünür.Bir vardiyada birden fazla araç olabilir.Ekranda mevcut araç, kilometre göstergesi ve gidilen mesafe gösterilir.Araç değişirse Araç A ve ardından Araç B gibi yeni kayıtlar görünür.Bir vardiyada birden fazla araç olabilir.</p><ul></ul><p>Ekranda mevcut araç, kilometre göstergesi ve gidilen mesafe gösterilir.Araç değişirse Araç A ve ardından Araç B gibi yeni kayıtlar görünür.Bir vardiyada birden fazla araç olabilir.Ekranda mevcut araç, kilometre göstergesi ve gidilen mesafe gösterilir.Araç değişirse Araç A ve ardından Araç B gibi yeni kayıtlar görünür.Bir vardiyada birden fazla araç olabilir.</p>"
+    },
+    "timeline": {
+      "title": "Mevcut vardiya aktiviteleri",
+      "content": "<p>Liste mevcut vardiyanın aktivitelerini içerir.Dokunarak veya yukarı kaydırarak diğer kayıtlar görülebilir.Seçeneklerden mevcut aktivitenin burada gösterilmesi açılabilir; düzenleme ayrı anlatılacaktır.</p>"
+    },
+    "bottomMenu": {
+      "title": "Alt menü",
+      "content": "<ul><li><strong>Main</strong> — uygulamanın ana ekranını açar.</li><li><strong>Kurallar</strong> — mevcut durumu sınırlar ve gerekliliklere göre kontrol eder.</li><li><strong>Analiz</strong> — çalışma süresini, vardiyaları ve kaydedilen dönemleri incelemeyi sağlar.</li><li><strong>Log</strong> — aktivitelerin kronolojik listesini gösterir. Log içinde aktiviteler değiştirilebilir ve yeni kayıtlar eklenebilir.</li></ul><p>Log düzenlemeyle ilgili ayrıntılı talimatlar ayrı bir modülde açıklanacaktır.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Önemli ayrımlar",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> ve <strong>KARTA</strong> veri kaynaklarıdır.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ve <strong>AUTO</strong> algılama modlarıdır.Sürüş, Çalışma, Kullanılabilirlik ve Dinlenme mevcut aktivitelerdir.Bu gruplar birbirine karıştırılmamalıdır.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> ve <strong>KARTA</strong> veri kaynaklarıdır.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ve <strong>AUTO</strong> algılama modlarıdır.Sürüş, Çalışma, Kullanılabilirlik ve Dinlenme mevcut aktivitelerdir.Bu gruplar birbirine karıştırılmamalıdır.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Kılavuza dön"
+  },
+  "footer": "© TachoMobile 2"
+}

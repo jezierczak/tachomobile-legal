@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "„TachoMobile 2“ — Pagrindinis ekranas",
+    "heading": "„TachoMobile 2“ — Pagrindinis ekranas",
+    "intro": "Informacija apie programos pagrindiniame ekrane rodomus duomenis, korteles, skaitiklius ir veiksmus."
+  },
+  "sections": {
+    "header": {
+      "title": "Programos antraštė",
+      "content": "<p>Antraštėje pateikiamas „TachoMobile“ logotipas, programos versija, „Standard“ arba „Premium“ būsena ir prieiga prie parinkčių.Tai nuolatinė prieiga prie pagrindinės informacijos ir nustatymų.</p>"
+    },
+    "dataSource": {
+      "title": "Duomenų šaltinis",
+      "content": "<p>Šis elementas rodomas įkėlus vairuotojo kortelės duomenis.</p><ul><li><strong>GPS</strong> rodo dabartinį <strong>GPS</strong> stebėjimą ir programos įrašytas veiklas.</li><li><strong>MIX</strong> sujungia kortelės ir <strong>GPS</strong> duomenis, o trūkstamus duomenis papildo <strong>GPS</strong>.</li><li><strong>KARTA</strong> naudoja tik kortelės DDD failą.<strong>GPS</strong>, <strong>MIX</strong> ir <strong>KARTA</strong> yra duomenų šaltiniai, ne aptikimo režimai.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ir <strong>AUTO</strong> paaiškinti važiavimo aptikimo modulyje.Šis elementas rodomas įkėlus vairuotojo kortelės duomenis.<strong>GPS</strong> rodo dabartinį <strong>GPS</strong> stebėjimą ir programos įrašytas veiklas.<strong>MIX</strong> sujungia kortelės ir <strong>GPS</strong> duomenis, o trūkstamus duomenis papildo</li></ul><p>GPS.KARTA naudoja tik kortelės DDD failą.GPS, MIX ir KARTA yra duomenų šaltiniai, ne aptikimo režimai.OFF, MANUAL, STANDBY ir AUTO paaiškinti važiavimo aptikimo modulyje.</p>"
+    },
+    "detection": {
+      "title": "Aptikimo būsena",
+      "content": "<p>Aptikimo būsena rodo dabartinę automatinio važiavimo atpažinimo būseną ir leidžia pakeisti režimą.Jei kortelės duomenys neįkelti, <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> pasirinkimas nerodomas.Režimai paaiškinti važiavimo aptikimo modulyje.</p>"
+    },
+    "work": {
+      "title": "▶️ Darbo pradžia ir pabaiga",
+      "content": "<p>Mygtukas pagal dabartinę būseną padeda pradėti darbą ir įdėti kortelę arba baigti darbą ir išimti kortelę.Dviejų atskirų veiksmų nereikia.</p>"
+    },
+    "currentActivity": {
+      "title": "Dabartinė veikla",
+      "content": "<p>Kortelėje rodoma <strong>Važiavimo</strong>, <strong>Darbo</strong>, <strong>Prieinamumo</strong> arba <strong>Poilsio</strong> veikla.Spustelėjus ją galima pakeisti.Ne darbo metu paspaudimas atveria informaciją apie poilsio tikslus, kurie bus aprašyti kitame GUIDE modulyje.</p>"
+    },
+    "breaks": {
+      "title": "☕ Pertraukų ir poilsio kontrolė",
+      "content": "<p>Pagrindinėje kortelėje rodoma, ar įskaityta pirmoji 15 minučių pertrauka, reikalinga pilnai 45 minučių pertraukai, ir 3 valandų poilsis, leidžiantis pasinaudoti 9 valandų poilsiu nesumažinant limito.Čia aprašoma tik informacinė funkcija.Pagrindinėje kortelėje rodoma, ar įskaityta pirmoji 15 minučių pertrauka, reikalinga pilnai 45 minučių pertraukai, ir 3 valandų poilsis, leidžiantis pasinaudoti 9 valandų poilsiu nesumažinant limito.Čia aprašoma tik informacinė funkcija.</p><ul></ul><p>Pagrindinėje kortelėje rodoma, ar įskaityta pirmoji 15 minučių pertrauka, reikalinga pilnai 45 minučių pertraukai, ir 3 valandų poilsis, leidžiantis pasinaudoti 9 valandų poilsiu nesumažinant limito.Čia aprašoma tik informacinė funkcija.Pagrindinėje kortelėje rodoma, ar įskaityta pirmoji 15 minučių pertrauka, reikalinga pilnai 45 minučių pertraukai, ir 3 valandų poilsis, leidžiantis pasinaudoti 9 valandų poilsiu nesumažinant limito.Čia aprašoma tik informacinė funkcija.</p>"
+    },
+    "drivingCounter": {
+      "title": "Vairavimo laiko skaitiklis",
+      "content": "<p>Skaitiklis rodo einamojoje pamainoje panaudotą vairavimo laiką.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Bendra pamainos trukmė",
+      "content": "<p>Antrasis skaitiklis rodo bendrą einamosios pamainos trukmę.Kartu su vairavimo skaitikliu leidžia greitai įvertinti pamainos trukmę ir vairavimo laiką.</p>"
+    },
+    "progress": {
+      "title": "Eigos juostos",
+      "content": "<p>Eigos juostos rodo didžiausią galimą laiką.Paspaudus skaitiklį rodoma, ką jis matuoja; palaikius galima perjungti panaudotą ir likusį laiką.Pavyzdžiui, galima rodyti 2 panaudotas arba 8 likusias valandas.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>WDT skiltis yra pasirenkama ir įjungiama programos parinktyse.Ten galima įjungti įspėjimus prieš viršijant WDT ribas.Išjungus WDT skiltis nerodoma.</p>"
+    },
+    "rests": {
+      "title": "Poilsiai",
+      "content": "<p>Pagrindiniame ekrane rodoma jau įskaitytų ir tuo metu reikalingų poilsio laikotarpių suma.Tai greita vairuotojo situacijos apžvalga; išsamios taisyklės bus aprašytos atskirai.</p>"
+    },
+    "workAndDriving": {
+      "title": "Darbas + vairavimas",
+      "content": "<p>Darbo + vairavimo skaitiklis rodo bendrą darbo ir vairavimo laiką einamojoje pamainoje.</p>"
+    },
+    "continuous": {
+      "title": "Nepertraukiamas darbas + vairavimas",
+      "content": "<p>Šis skaitiklis rodo nepertraukiamą darbo ir vairavimo laiką — laikotarpį, kurio iki šešių valandų neperskyrė 15 minučių poilsis.Tai skaitiklio funkcijos paaiškinimas, o ne visos taisyklės.</p>"
+    },
+    "weekly": {
+      "title": "Savaitės naudojimas",
+      "content": "<p>Savaitinis skaitiklis rodo 9 valandų poilsio ir 10 valandų vairavimo panaudojimą.Paspaudus atveriama dviejų savaičių vairavimo bei savaitgalio ar savaitinio poilsio būsena.</p>"
+    },
+    "vehicle": {
+      "title": "Dabartinė transporto priemonė",
+      "content": "<p>Rodoma dabartinė transporto priemonė, odometro rodmuo ir nuvažiuotas atstumas.Pakeitus transporto priemonę atsiranda nauji įrašai, pavyzdžiui, A ir B transporto priemonės.Vienoje pamainoje gali būti keli automobiliai.Rodoma dabartinė transporto priemonė, odometro rodmuo ir nuvažiuotas atstumas.Pakeitus transporto priemonę atsiranda nauji įrašai, pavyzdžiui, A ir B transporto priemonės.Vienoje pamainoje gali būti keli automobiliai.</p><ul></ul><p>Rodoma dabartinė transporto priemonė, odometro rodmuo ir nuvažiuotas atstumas.Pakeitus transporto priemonę atsiranda nauji įrašai, pavyzdžiui, A ir B transporto priemonės.Vienoje pamainoje gali būti keli automobiliai.Rodoma dabartinė transporto priemonė, odometro rodmuo ir nuvažiuotas atstumas.Pakeitus transporto priemonę atsiranda nauji įrašai, pavyzdžiui, A ir B transporto priemonės.Vienoje pamainoje gali būti keli automobiliai.</p>"
+    },
+    "timeline": {
+      "title": "Dabartinės pamainos veiklos",
+      "content": "<p>Sąraše pateikiamos dabartinės pamainos veiklos.Paspaudus arba slenkant vaizdą aukštyn rodomos kitos veiklos.Parinktyse galima įjungti dabartinės veiklos rodymą šioje vietoje; redagavimas bus aprašytas atskirai.</p>"
+    },
+    "bottomMenu": {
+      "title": "Apatinis meniu",
+      "content": "<ul><li><strong>Main</strong> — atveria pagrindinį programos ekraną.</li><li><strong>Taisyklės</strong> — tikrina dabartinę situaciją pagal ribas ir reikalavimus.</li><li><strong>Analizė</strong> — leidžia analizuoti darbo laiką, pamainas ir įrašytus darbo laikotarpius.</li><li><strong>Žurnalas</strong> — rodo chronologinį veiklų sąrašą. Žurnale galima keisti veiklas ir pridėti naujų įrašų.</li></ul><p>Išsamios Žurnalo redagavimo instrukcijos bus aprašytos atskirame modulyje.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Svarbūs skirtumai",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> ir <strong>KARTA</strong> yra duomenų šaltiniai.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ir <strong>AUTO</strong> yra aptikimo režimai.Važiavimas, Darbas, Prieinamumas ir Poilsis yra veiklos.Šių grupių negalima painioti.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> ir <strong>KARTA</strong> yra duomenų šaltiniai.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> ir <strong>AUTO</strong> yra aptikimo režimai.Važiavimas, Darbas, Prieinamumas ir Poilsis yra veiklos.Šių grupių negalima painioti.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į vadovą"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Hauptbildschirm",
+    "heading": "TachoMobile 2 — Hauptbildschirm",
+    "intro": "Eine Übersicht über Informationen, Karten, Zähler und Aktionen auf dem Hauptbildschirm der App."
+  },
+  "sections": {
+    "header": {
+      "title": "Anwendungs-Kopfzeile",
+      "content": "<p>Die Kopfzeile enthält das TachoMobile-Logo, die App-Version, den Status Standard oder Premium sowie den Zugang zu den Programmoptionen.Sie bietet jederzeit Zugriff auf grundlegende Informationen und Einstellungen.</p>"
+    },
+    "dataSource": {
+      "title": "Datenquelle",
+      "content": "<p>Dieser Bereich erscheint nach dem Einlesen der Fahrerkartendaten.</p><ul><li><strong>GPS</strong> zeigt die laufende <strong>GPS</strong>-Überwachung und die von der App aufgezeichneten Aktivitäten.</li><li><strong>MIX</strong> verbindet Kartendaten und <strong>GPS</strong>; fehlende Kartendaten werden durch <strong>GPS</strong> ergänzt.</li><li><strong>KARTA</strong> verwendet ausschließlich die DDD-Datei der Fahrerkarte.<strong>GPS</strong>, <strong>MIX</strong> und <strong>KARTA</strong> sind Datenquellen, keine Erkennungsmodi.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> und <strong>AUTO</strong> werden im Modul Fahrerkennung erklärt.Dieser Bereich erscheint nach dem Einlesen der Fahrerkartendaten.<strong>GPS</strong> zeigt die laufende <strong>GPS</strong>-Überwachung und die von der App aufgezeichneten Aktivitäten.<strong>MIX</strong> verbindet Kartendaten und <strong>GPS</strong>; fehlende Kartendaten werden durch</li></ul><p>GPS ergänzt.KARTA verwendet ausschließlich die DDD-Datei der Fahrerkarte.GPS, MIX und KARTA sind Datenquellen, keine Erkennungsmodi.OFF, MANUAL, STANDBY und AUTO werden im Modul Fahrerkennung erklärt.</p>"
+    },
+    "detection": {
+      "title": "Erkennungsstatus",
+      "content": "<p>Der Erkennungsstatus zeigt den aktuellen Zustand der automatischen Fahrerkennung und ermöglicht die Änderung des Erkennungsmodus.Ohne eingelesene Kartendaten wird die Auswahl <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> nicht angezeigt.Details zu <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> und <strong>AUTO</strong> stehen im Modul Fahrerkennung.</p>"
+    },
+    "work": {
+      "title": "▶️ Arbeit beginnen und beenden",
+      "content": "<p>Die Schaltfläche führt abhängig vom aktuellen Zustand durch den Arbeitsbeginn und das Einlegen der Karte oder durch das Arbeitsende und die Entnahme der Karte.Zwei getrennte Vorgänge sind nicht erforderlich.</p>"
+    },
+    "currentActivity": {
+      "title": "Aktuelle Aktivität",
+      "content": "<p>Die Karte zeigt <strong>Fahren</strong>, <strong>Arbeit</strong>, <strong>Verfügbarkeit</strong> oder <strong>Ruhe</strong>.Durch Antippen kann die Aktivität geändert werden.Außerhalb der Arbeit öffnet das Antippen Informationen zu Ruhezeitenzielen; diese Funktion wird in einem eigenen GUIDE-Modul erklärt.</p>"
+    },
+    "breaks": {
+      "title": "☕ Pausen und Ruhezeiten",
+      "content": "<p>Die Hauptkarte zeigt unter anderem, ob die erste 15-minütige Pause für eine vollständige 45-minütige Pause und die 3-stündige Ruhe für eine 9-stündige Ruhe ohne Abzug des Limits angerechnet wurden.Hier wird nur die Funktion erklärt, nicht das gesamte Ruhezeitrecht.Die Hauptkarte zeigt unter anderem, ob die erste 15-minütige Pause für eine vollständige 45-minütige Pause und die 3-stündige Ruhe für eine 9-stündige Ruhe ohne Abzug des Limits angerechnet wurden.Hier wird nur die Funktion erklärt, nicht das gesamte Ruhezeitrecht.</p><ul></ul><p>Die Hauptkarte zeigt unter anderem, ob die erste 15-minütige Pause für eine vollständige 45-minütige Pause und die 3-stündige Ruhe für eine 9-stündige Ruhe ohne Abzug des Limits angerechnet wurden.Hier wird nur die Funktion erklärt, nicht das gesamte Ruhezeitrecht.Die Hauptkarte zeigt unter anderem, ob die erste 15-minütige Pause für eine vollständige 45-minütige Pause und die 3-stündige Ruhe für eine 9-stündige Ruhe ohne Abzug des Limits angerechnet wurden.Hier wird nur die Funktion erklärt, nicht das gesamte Ruhezeitrecht.</p>"
+    },
+    "drivingCounter": {
+      "title": "Fahrzeit-Zähler",
+      "content": "<p>Der Zähler zeigt die in der aktuellen Schicht verwendete Fahrzeit.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Gesamtdauer der Schicht",
+      "content": "<p>Der zweite Zähler zeigt die gesamte Dauer der aktuellen Schicht.Zusammen mit dem Fahrzeit-Zähler zeigt er schnell, wie lange die Schicht dauert und wie viel davon gefahren wurde.</p>"
+    },
+    "progress": {
+      "title": "Fortschrittsbalken",
+      "content": "<p>Die Fortschrittsbalken zeigen die maximal verfügbare Zeit.Antippen erklärt den Zweck des Zählers; Gedrückthalten wechselt zwischen bereits verwendeter und verbleibender Zeit.Ein Zähler kann beispielsweise 2 verwendete oder 8 verbleibende Stunden anzeigen.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>Der optionale WDT-Bereich kann in den Programmoptionen aktiviert werden.Dort können auch Warnungen vor dem Überschreiten von WDT-Limits aktiviert werden.Wenn WDT ausgeschaltet ist, wird der Bereich nicht angezeigt.</p>"
+    },
+    "rests": {
+      "title": "Ruhezeiten",
+      "content": "<p>Der Hauptbildschirm zeigt die Anzahl der bereits angerechneten und der derzeit erforderlichen Ruhezeiten.Dies ist ein schneller Status der aktuellen Situation; die detaillierten Regeln werden separat erklärt.</p>"
+    },
+    "workAndDriving": {
+      "title": "Arbeit + Fahren",
+      "content": "<p>Der Zähler <strong>Arbeit + Fahren</strong> zeigt die gesamte Arbeits- und Fahrzeit der aktuellen Schicht.</p>"
+    },
+    "continuous": {
+      "title": "Kontinuierliche Arbeit + Fahren",
+      "content": "<p>Dieser Zähler zeigt die ununterbrochene Arbeits- und Fahrzeit: einen Zeitraum, der vor Ablauf von sechs Stunden nicht durch eine 15-minütige Ruhe unterbrochen wurde.Er erklärt die Funktion des Zählers, nicht alle Vorschriften.</p>"
+    },
+    "weekly": {
+      "title": "Wöchentliche Nutzung",
+      "content": "<p>Der Wochenzähler zeigt die Nutzung von 9 Stunden Ruhe und 10 Stunden Fahrzeit.Durch Antippen öffnet sich eine Übersicht der Fahrzeit über zwei Wochen sowie des Wochenend- oder Wochenruhezustands.</p>"
+    },
+    "vehicle": {
+      "title": "Aktuelles Fahrzeug",
+      "content": "<p>Angezeigt werden das aktuelle Fahrzeug, der Kilometerstand und die gefahrene Strecke.Bei einem Fahrzeugwechsel erscheinen weitere Einträge, zum Beispiel Fahrzeug A und danach Fahrzeug B.Eine Schicht kann mehrere Fahrzeuge umfassen.Angezeigt werden das aktuelle Fahrzeug, der Kilometerstand und die gefahrene Strecke.Bei einem Fahrzeugwechsel erscheinen weitere Einträge, zum Beispiel Fahrzeug A und danach Fahrzeug B.Eine Schicht kann mehrere Fahrzeuge umfassen.</p><ul></ul><p>Angezeigt werden das aktuelle Fahrzeug, der Kilometerstand und die gefahrene Strecke.Bei einem Fahrzeugwechsel erscheinen weitere Einträge, zum Beispiel Fahrzeug A und danach Fahrzeug B.Eine Schicht kann mehrere Fahrzeuge umfassen.Angezeigt werden das aktuelle Fahrzeug, der Kilometerstand und die gefahrene Strecke.Bei einem Fahrzeugwechsel erscheinen weitere Einträge, zum Beispiel Fahrzeug A und danach Fahrzeug B.Eine Schicht kann mehrere Fahrzeuge umfassen.</p>"
+    },
+    "timeline": {
+      "title": "Aktivitäten der aktuellen Schicht",
+      "content": "<p>Die Liste enthält die Aktivitäten der aktuellen Schicht.Durch Antippen oder Hochwischen werden weitere gespeicherte Aktivitäten angezeigt.In den Optionen kann die aktuelle Aktivität an dieser Stelle eingeblendet werden; die Bearbeitung wird separat erklärt.</p>"
+    },
+    "bottomMenu": {
+      "title": "Unteres Menü",
+      "content": "<ul><li><strong>Main</strong> — öffnet den Hauptbildschirm.</li><li><strong>Vorschriften</strong> — prüft die aktuelle Situation anhand von Limits und Anforderungen.</li><li><strong>Analyse</strong> — untersucht Arbeitszeit, Schichten und aufgezeichnete Arbeitszeiten.</li><li><strong>Log</strong> — zeigt die chronologische Liste der Aktivitäten. Dort können Aktivitäten geändert und neue Einträge hinzugefügt werden.</li></ul><p>Detaillierte Anweisungen zur Bearbeitung des Logs werden in einem eigenen Modul beschrieben.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Wichtige Unterscheidungen",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> und <strong>KARTA</strong> sind Datenquellen.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> und <strong>AUTO</strong> sind Erkennungsmodi.Fahren, Arbeit, Verfügbarkeit und Ruhe sind aktuelle Aktivitäten.Diese drei Gruppen dürfen nicht verwechselt werden.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> und <strong>KARTA</strong> sind Datenquellen.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> und <strong>AUTO</strong> sind Erkennungsmodi.Fahren, Arbeit, Verfügbarkeit und Ruhe sind aktuelle Aktivitäten.Diese drei Gruppen dürfen nicht verwechselt werden.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zum Leitfaden"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Pantalla principal",
+    "heading": "TachoMobile 2 — Pantalla principal",
+    "intro": "Una guía de la información, tarjetas, contadores y acciones disponibles en la pantalla principal de la aplicación."
+  },
+  "sections": {
+    "header": {
+      "title": "Encabezado de la aplicación",
+      "content": "<p>El encabezado contiene el logotipo de TachoMobile, la versión de la aplicación, el estado Standard o Premium y el acceso a las opciones.Es un punto permanente de acceso a la información y los ajustes básicos.</p>"
+    },
+    "dataSource": {
+      "title": "Fuente de datos",
+      "content": "<p>Este elemento aparece después de descargar los datos de la tarjeta del conductor.</p><ul><li><strong>GPS</strong> muestra el seguimiento <strong>GPS</strong> actual y las actividades registradas por la aplicación.</li><li><strong>MIX</strong> combina los datos de la tarjeta y <strong>GPS</strong>, y utiliza <strong>GPS</strong> cuando faltan datos de la tarjeta.</li><li><strong>KARTA</strong> usa únicamente el archivo DDD de la tarjeta.<strong>GPS</strong>, <strong>MIX</strong> y <strong>KARTA</strong> son fuentes de datos, no modos de detección.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> y <strong>AUTO</strong> se explican en el módulo Detección de conducción.Este elemento aparece después de descargar los datos de la tarjeta del conductor.<strong>GPS</strong> muestra el seguimiento <strong>GPS</strong> actual y las actividades registradas por la aplicación.<strong>MIX</strong> combina los datos de la tarjeta y <strong>GPS</strong>, y utiliza</li></ul><p>GPS cuando faltan datos de la tarjeta.KARTA usa únicamente el archivo DDD de la tarjeta.GPS, MIX y KARTA son fuentes de datos, no modos de detección.OFF, MANUAL, STANDBY y AUTO se explican en el módulo Detección de conducción.</p>"
+    },
+    "detection": {
+      "title": "Estado de detección",
+      "content": "<p>El estado de detección muestra el estado actual del reconocimiento automático y permite cambiar el modo.Si no se han descargado datos de la tarjeta, no aparece el selector <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong>.Los detalles de <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> y <strong>AUTO</strong> están en el módulo Detección de conducción.</p>"
+    },
+    "work": {
+      "title": "▶️ Iniciar y finalizar el trabajo",
+      "content": "<p>El botón guía al usuario según el estado actual: iniciar el trabajo e insertar la tarjeta, o finalizar el trabajo y retirarla.No son necesarias dos operaciones separadas.</p>"
+    },
+    "currentActivity": {
+      "title": "Actividad actual",
+      "content": "<p>La tarjeta muestra <strong>Conducción</strong>, <strong>Trabajo</strong>, <strong>Disponibilidad</strong> o <strong>Descanso</strong>.Al pulsarla se puede cambiar la actividad.Fuera del trabajo, pulsarla abre información sobre los objetivos de descanso; esta función se describirá en otro módulo GUIDE.</p>"
+    },
+    "breaks": {
+      "title": "☕ Control de pausas y descansos",
+      "content": "<p>La tarjeta principal muestra, entre otros datos, si se ha contado la primera pausa de 15 minutos necesaria para una pausa completa de 45 minutos y el descanso de 3 horas que permite usar un descanso de 9 horas sin descontar el límite.Aquí solo se explica la función.La tarjeta principal muestra, entre otros datos, si se ha contado la primera pausa de 15 minutos necesaria para una pausa completa de 45 minutos y el descanso de 3 horas que permite usar un descanso de 9 horas sin descontar el límite.Aquí solo se explica la función.</p><ul></ul><p>La tarjeta principal muestra, entre otros datos, si se ha contado la primera pausa de 15 minutos necesaria para una pausa completa de 45 minutos y el descanso de 3 horas que permite usar un descanso de 9 horas sin descontar el límite.Aquí solo se explica la función.La tarjeta principal muestra, entre otros datos, si se ha contado la primera pausa de 15 minutos necesaria para una pausa completa de 45 minutos y el descanso de 3 horas que permite usar un descanso de 9 horas sin descontar el límite.Aquí solo se explica la función.</p>"
+    },
+    "drivingCounter": {
+      "title": "Contador de tiempo de conducción",
+      "content": "<p>El contador muestra el tiempo de conducción utilizado en el turno actual.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Duración total del turno",
+      "content": "<p>El segundo contador muestra la duración total del turno actual.Junto con el contador de conducción permite valorar rápidamente la duración del turno y el tiempo conducido.</p>"
+    },
+    "progress": {
+      "title": "Barras de progreso",
+      "content": "<p>Las barras de progreso muestran el tiempo máximo disponible.Al pulsar un contador se explica su función; al mantenerlo pulsado se cambia entre tiempo utilizado y tiempo restante.Por ejemplo, puede mostrar 2 horas utilizadas u 8 restantes.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>La sección WDT es opcional y se activa en las opciones del programa.Allí también se pueden activar avisos antes de superar los límites WDT.Si WDT está desactivada, la sección no se muestra.</p>"
+    },
+    "rests": {
+      "title": "Descansos",
+      "content": "<p>La pantalla muestra el número de descansos ya contabilizados y el número requerido en ese momento.Es un resumen rápido de la situación del conductor; las reglas detalladas se explicarán aparte.</p>"
+    },
+    "workAndDriving": {
+      "title": "Trabajo + conducción",
+      "content": "<p>El contador <strong>Trabajo + conducción</strong> muestra el tiempo total de trabajo y conducción del turno actual.</p>"
+    },
+    "continuous": {
+      "title": "Trabajo + conducción continuo",
+      "content": "<p>Este contador muestra el tiempo continuo de trabajo y conducción: un periodo que no ha sido interrumpido por una pausa de 15 minutos antes de que transcurran seis horas.Explica la función del contador, no todas las normas.</p>"
+    },
+    "weekly": {
+      "title": "Uso semanal",
+      "content": "<p>El contador semanal muestra el uso de 9 horas de descanso y 10 horas de conducción.Al pulsarlo se abre una vista rápida de la conducción durante dos semanas y del estado del descanso de fin de semana o semanal.</p>"
+    },
+    "vehicle": {
+      "title": "Vehículo actual",
+      "content": "<p>Se muestran el vehículo actual, el estado del cuentakilómetros y la distancia recorrida.Si cambia el vehículo aparecen nuevas entradas, por ejemplo Vehículo A y después Vehículo B.Un turno puede incluir varios vehículos.Se muestran el vehículo actual, el estado del cuentakilómetros y la distancia recorrida.Si cambia el vehículo aparecen nuevas entradas, por ejemplo Vehículo A y después Vehículo B.Un turno puede incluir varios vehículos.</p><ul></ul><p>Se muestran el vehículo actual, el estado del cuentakilómetros y la distancia recorrida.Si cambia el vehículo aparecen nuevas entradas, por ejemplo Vehículo A y después Vehículo B.Un turno puede incluir varios vehículos.Se muestran el vehículo actual, el estado del cuentakilómetros y la distancia recorrida.Si cambia el vehículo aparecen nuevas entradas, por ejemplo Vehículo A y después Vehículo B.Un turno puede incluir varios vehículos.</p>"
+    },
+    "timeline": {
+      "title": "Actividades del turno actual",
+      "content": "<p>La lista contiene las actividades del turno actual.Al pulsarla o deslizar la vista hacia arriba se ven más actividades guardadas.En las opciones se puede mostrar aquí la actividad actual; la edición se explicará por separado.</p>"
+    },
+    "bottomMenu": {
+      "title": "Menú inferior",
+      "content": "<ul><li><strong>Main</strong> — abre la pantalla principal de la aplicación.</li><li><strong>Normas</strong> — comprueba la situación actual según los límites y requisitos.</li><li><strong>Análisis</strong> — permite analizar el tiempo de trabajo, los turnos y los periodos registrados.</li><li><strong>Log</strong> — muestra la lista cronológica de actividades. En Log se pueden modificar actividades y añadir nuevas entradas.</li></ul><p>Las instrucciones detalladas para editar Log se describirán en un módulo independiente.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Distinciones importantes",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> y <strong>KARTA</strong> son fuentes de datos.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> y <strong>AUTO</strong> son modos de detección.Conducción, Trabajo, Disponibilidad y Descanso son actividades actuales.Estos tres grupos no deben confundirse.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> y <strong>KARTA</strong> son fuentes de datos.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> y <strong>AUTO</strong> son modos de detección.Conducción, Trabajo, Disponibilidad y Descanso son actividades actuales.Estos tres grupos no deben confundirse.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Volver a la guía"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "TachoMobile 2 main screen",
+    "heading": "TachoMobile 2 main screen",
+    "intro": "A guide to the information, cards, counters and actions available on the application’s main screen."
+  },
+  "sections": {
+    "header": {
+      "title": "Application header",
+      "content": "<p>The header contains the TachoMobile logo, app version, Standard or Premium status, and access to program options. It is a permanent access point to basic app information and settings.</p>"
+    },
+    "dataSource": {
+      "title": "Data source",
+      "content": "<p>This element appears after driver-card data has been downloaded. Above detection status you can choose:</p><ul><li><strong>GPS</strong> — the basic TachoMobile view, using current GPS monitoring and activities recorded by the app.</li><li><strong>MIX</strong> — combines driver-card and GPS data. Card data is used where available and GPS fills missing information.</li><li><strong>CARD</strong> — uses only data from the driver-card DDD file, mainly for analysing card data.</li></ul><p><strong>Important:</strong> GPS, MIX and CARD are data sources, not driving-detection modes. OFF, MANUAL, STANDBY and AUTO are explained in the Driving detection module.</p>"
+    },
+    "detection": {
+      "title": "Detection status",
+      "content": "<p>Detection status is shown below the data-source selector. It displays the current automatic driving-detection state and allows the detection mode to be changed. If card data has not been downloaded, the GPS/MIX/CARD selector is not displayed.</p><p>Details of OFF, MANUAL, STANDBY and AUTO are available in the <strong>Driving detection</strong> module.</p>"
+    },
+    "work": {
+      "title": "▶️ Starting and ending work",
+      "content": "<p>The start/end-work button handles the appropriate action depending on the current work state. It guides the user through starting work and inserting the card, or ending work and removing the card. Two separate operations are not required.</p>"
+    },
+    "currentActivity": {
+      "title": "Current activity",
+      "content": "<p>The current-activity card shows <strong>Driving</strong>, <strong>Work</strong>, <strong>Availability</strong> or <strong>Rest</strong>. Tap the card to change the activity.</p><p>Outside work, tapping the current activity has a different meaning and opens information about rest goals. That function will be described in a separate GUIDE module.</p>"
+    },
+    "breaks": {
+      "title": "☕ Break and rest control",
+      "content": "<p>The main card shows information useful for checking rest conditions, including:</p><ul><li>whether the first 15-minute break needed for a full 45-minute break has been counted;</li><li>whether the 3-hour rest allowing a 9-hour rest without deducting the limit has been counted.</li></ul><p>This describes the function of the information, not the complete rest regulations.</p>"
+    },
+    "drivingCounter": {
+      "title": "Driving time counter",
+      "content": "<p>The counter shows driving time used in the current shift.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Total shift length",
+      "content": "<p>The second basic counter shows the total length of the current shift. Together with the driving counter, it gives a quick view of shift duration and time spent driving.</p>"
+    },
+    "progress": {
+      "title": "Progress bars",
+      "content": "<p>Progress bars show the maximum available time for the relevant counters. Tap a counter to see what it measures. Press and hold it to switch between elapsed/measured time and remaining time.</p><p>For example, a counter may show 2 hours used or 8 hours remaining, depending on the selected display mode. This module does not provide a full legal interpretation.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>The WDT section is optional and can be enabled in program options. WDT settings also allow warnings before WDT limits are exceeded. When WDT is disabled, the section is not displayed.</p>"
+    },
+    "rests": {
+      "title": "Rests",
+      "content": "<p>The main screen shows the number of rests already counted and the number currently required. It is a quick status of the driver’s current situation. Detailed rest rules will be covered separately.</p>"
+    },
+    "workAndDriving": {
+      "title": "Work + driving",
+      "content": "<p>The <strong>Work + driving</strong> counter shows total work and driving time in the current shift.</p>"
+    },
+    "continuous": {
+      "title": "Continuous work + driving",
+      "content": "<p>This counter shows continuous work and driving time: a work-and-driving period not interrupted by a 15-minute rest before six hours have elapsed. This explains the counter’s function without detailing all regulations.</p>"
+    },
+    "weekly": {
+      "title": "Weekly usage",
+      "content": "<p>Below the current-shift counters is the weekly-usage counter. It shows use of 9 hours of rest and 10 hours of driving.</p><p>Tap the card for a quick view of driving time over two weeks and weekend/weekly-rest status. It covers a wider period than the current shift.</p>"
+    },
+    "vehicle": {
+      "title": "Current vehicle",
+      "content": "<p>The screen shows the current vehicle, its odometer reading and distance travelled. If the vehicle changes during work, additional entries appear:</p><ul><li><strong>Vehicle A</strong> — odometer and distance;</li><li><strong>Vehicle B</strong> — odometer and distance after the change.</li></ul><p>A single shift may therefore include more than one vehicle.</p>"
+    },
+    "timeline": {
+      "title": "Current shift activities",
+      "content": "<p>Below is a list of activities from the current shift. Tap or scroll the view upward to see further recorded activities. Program options can also enable showing the current activity here. Detailed activity editing will be covered separately.</p>"
+    },
+    "bottomMenu": {
+      "title": "Bottom menu",
+      "content": "<ul><li><strong>Main</strong> — the application’s main screen.</li><li><strong>Regulations</strong> — compliance screen for checking the driver’s current situation against limits and requirements.</li><li><strong>Analysis</strong> — analysis of work time, shifts and recorded work periods.</li><li><strong>Log</strong> — chronological list of activities stored in the database; existing activities can be modified and new entries added.</li></ul><p>Detailed Log editing instructions will be covered in a separate module.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Important distinctions",
+      "content": "<p>These terms must not be used interchangeably:</p><h3>Data source</h3><ul><li>GPS</li><li>MIX</li><li>CARD</li></ul><h3>Detection mode</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Current activity</h3><ul><li>Driving</li><li>Work</li><li>Availability</li><li>Rest</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Back to the guide"
+  },
+  "footer": "© TachoMobile 2"
+}

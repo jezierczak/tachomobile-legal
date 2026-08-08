@@ -22,6 +22,11 @@
       "title": "Vezetésfelismerés",
       "description": "Ismerje meg az automatikus vezetésfelismerés működését és testreszabási lehetőségeit.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Főképernyő",
+      "description": "Ismerje meg a TachoMobile 2 főképernyőjén elérhető elemeket, információkat és műveleteket.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

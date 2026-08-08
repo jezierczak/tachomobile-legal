@@ -22,6 +22,11 @@
       "title": "Detección de conducción",
       "description": "Descubre cómo funciona la detección automática de conducción y cómo adaptarla a tus necesidades.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Pantalla principal",
+      "description": "Conoce los elementos, la información y las acciones disponibles en la pantalla principal de TachoMobile 2.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

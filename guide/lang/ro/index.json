@@ -22,6 +22,11 @@
       "title": "Detectarea condusului",
       "description": "Aflați cum funcționează detectarea automată a condusului și cum o puteți adapta nevoilor dumneavoastră.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Ecran principal",
+      "description": "Aflați despre elementele, informațiile și acțiunile disponibile pe ecranul principal TachoMobile 2.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

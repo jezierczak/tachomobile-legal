@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Ecran principal",
+    "heading": "TachoMobile 2 — Ecran principal",
+    "intro": "Un ghid al informațiilor, cardurilor, contoarelor și acțiunilor disponibile pe ecranul principal al aplicației."
+  },
+  "sections": {
+    "header": {
+      "title": "Antetul aplicației",
+      "content": "<p>Antetul conține logo-ul TachoMobile, versiunea aplicației, starea Standard sau Premium și accesul la opțiuni.Oferă acces permanent la informațiile și setările de bază.</p>"
+    },
+    "dataSource": {
+      "title": "Sursa datelor",
+      "content": "<p>Acest element apare după încărcarea datelor cardului șoferului.</p><ul><li><strong>GPS</strong> arată monitorizarea <strong>GPS</strong> curentă și activitățile înregistrate de aplicație.</li><li><strong>MIX</strong> combină datele cardului și <strong>GPS</strong>, iar <strong>GPS</strong> completează informațiile lipsă.</li><li><strong>KARTA</strong> folosește numai fișierul DDD al cardului.<strong>GPS</strong>, <strong>MIX</strong> și <strong>KARTA</strong> sunt surse de date, nu moduri de detecție.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> și <strong>AUTO</strong> sunt explicate în modulul Detectarea condusului.Acest element apare după încărcarea datelor cardului șoferului.<strong>GPS</strong> arată monitorizarea <strong>GPS</strong> curentă și activitățile înregistrate de aplicație.<strong>MIX</strong> combină datele cardului și <strong>GPS</strong>, iar</li></ul><p>GPS completează informațiile lipsă.KARTA folosește numai fișierul DDD al cardului.GPS, MIX și KARTA sunt surse de date, nu moduri de detecție.OFF, MANUAL, STANDBY și AUTO sunt explicate în modulul Detectarea condusului.</p>"
+    },
+    "detection": {
+      "title": "Starea detecției",
+      "content": "<p>Starea detecției arată starea actuală a recunoașterii automate și permite schimbarea modului.Fără date încărcate de pe card, selectorul <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> nu este afișat.Detaliile se află în modulul Detectarea condusului.</p>"
+    },
+    "work": {
+      "title": "▶️ Începerea și încheierea lucrului",
+      "content": "<p>Butonul ghidează utilizatorul, în funcție de stare, prin începerea lucrului și introducerea cardului sau prin încheierea lucrului și scoaterea cardului.Nu sunt necesare două operații separate.</p>"
+    },
+    "currentActivity": {
+      "title": "Activitatea curentă",
+      "content": "<p>Cardul arată <strong>Conducere</strong>, <strong>Muncă</strong>, <strong>Disponibilitate</strong> sau <strong>Odihnă</strong>.Atingerea lui permite schimbarea activității. În afara programului de lucru, atingerea deschide informații despre obiectivele odihnei, descrise într-un modul GUIDE separat.</p>"
+    },
+    "breaks": {
+      "title": "☕ Controlul pauzelor și odihnei",
+      "content": "<p>Cardul principal indică dacă a fost contabilizată prima pauză de 15 minute necesară pentru o pauză completă de 45 de minute și odihna de 3 ore care permite o odihnă de 9 ore fără scăderea limitei.Aici este explicată doar funcția.Cardul principal indică dacă a fost contabilizată prima pauză de 15 minute necesară pentru o pauză completă de 45 de minute și odihna de 3 ore care permite o odihnă de 9 ore fără scăderea limitei.Aici este explicată doar funcția.</p><ul></ul><p>Cardul principal indică dacă a fost contabilizată prima pauză de 15 minute necesară pentru o pauză completă de 45 de minute și odihna de 3 ore care permite o odihnă de 9 ore fără scăderea limitei.Aici este explicată doar funcția.Cardul principal indică dacă a fost contabilizată prima pauză de 15 minute necesară pentru o pauză completă de 45 de minute și odihna de 3 ore care permite o odihnă de 9 ore fără scăderea limitei.Aici este explicată doar funcția.</p>"
+    },
+    "drivingCounter": {
+      "title": "Contorul timpului de conducere",
+      "content": "<p>Contorul arată timpul de conducere utilizat în tura curentă.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Durata totală a turei",
+      "content": "<p>Al doilea contor arată durata totală a turei curente. Împreună cu timpul de conducere oferă o imagine rapidă asupra duratei turei și a timpului condus.</p>"
+    },
+    "progress": {
+      "title": "Bare de progres",
+      "content": "<p>Barele de progres arată timpul maxim disponibil.Atingeți contorul pentru explicații; țineți-l apăsat pentru a comuta între timpul utilizat și cel rămas.De exemplu, poate afișa 2 ore utilizate sau 8 ore rămase.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>Secțiunea WDT este opțională și poate fi activată în opțiuni.Acolo pot fi activate și avertismentele înainte de depășirea limitelor WDT.Dacă WDT este dezactivat, secțiunea nu apare.</p>"
+    },
+    "rests": {
+      "title": "Odihnă",
+      "content": "<p>Ecranul principal arată numărul de odihne deja contabilizate și numărul necesar în acel moment.Este un rezumat rapid; regulile detaliate vor fi explicate separat.</p>"
+    },
+    "workAndDriving": {
+      "title": "Muncă + conducere",
+      "content": "<p>Contorul <strong>Muncă + conducere</strong> arată timpul total de muncă și conducere din tura curentă.</p>"
+    },
+    "continuous": {
+      "title": "Muncă + conducere continuă",
+      "content": "<p>Acest contor arată timpul continuu de muncă și conducere: o perioadă fără o odihnă de 15 minute înainte de trecerea a șase ore.Este explicată funcția contorului, nu toate regulile.</p>"
+    },
+    "weekly": {
+      "title": "Utilizare săptămânală",
+      "content": "<p>Contorul săptămânal arată utilizarea a 9 ore de odihnă și 10 ore de conducere.Atingerea lui deschide o vizualizare rapidă a conducerii din două săptămâni și a stării odihnei de weekend sau săptămânale.</p>"
+    },
+    "vehicle": {
+      "title": "Vehiculul curent",
+      "content": "<p>Sunt afișate vehiculul curent, kilometrajul și distanța parcursă.La schimbarea vehiculului apar înregistrări noi, de exemplu Vehiculul A și apoi Vehiculul B.O tură poate include mai multe vehicule.Sunt afișate vehiculul curent, kilometrajul și distanța parcursă.La schimbarea vehiculului apar înregistrări noi, de exemplu Vehiculul A și apoi Vehiculul B.O tură poate include mai multe vehicule.</p><ul></ul><p>Sunt afișate vehiculul curent, kilometrajul și distanța parcursă.La schimbarea vehiculului apar înregistrări noi, de exemplu Vehiculul A și apoi Vehiculul B.O tură poate include mai multe vehicule.Sunt afișate vehiculul curent, kilometrajul și distanța parcursă.La schimbarea vehiculului apar înregistrări noi, de exemplu Vehiculul A și apoi Vehiculul B.O tură poate include mai multe vehicule.</p>"
+    },
+    "timeline": {
+      "title": "Activitățile turei curente",
+      "content": "<p>Lista conține activitățile turei curente.Atingeți-o sau glisați în sus pentru a vedea alte activități. În opțiuni poate fi activată afișarea activității curente; editarea va fi explicată separat.</p>"
+    },
+    "bottomMenu": {
+      "title": "Meniul inferior",
+      "content": "<ul><li><strong>Main</strong> — deschide ecranul principal al aplicației.</li><li><strong>Reguli</strong> — verifică situația actuală în raport cu limitele și cerințele.</li><li><strong>Analiză</strong> — permite analizarea timpului de lucru, a turelor și a perioadelor înregistrate.</li><li><strong>Jurnal</strong> — afișează lista cronologică a activităților. În Jurnal se pot modifica activități și adăuga înregistrări noi.</li></ul><p>Instrucțiunile detaliate pentru editarea Jurnalului vor fi descrise într-un modul separat.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Diferențe importante",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> și <strong>KARTA</strong> sunt surse de date.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> și <strong>AUTO</strong> sunt moduri de detecție.Conducere, Muncă, Disponibilitate și Odihnă sunt activități.Aceste grupuri nu trebuie confundate.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> și <strong>KARTA</strong> sunt surse de date.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> și <strong>AUTO</strong> sunt moduri de detecție.Conducere, Muncă, Disponibilitate și Odihnă sunt activități.Aceste grupuri nu trebuie confundate.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la ghid"
+  },
+  "footer": "© TachoMobile 2"
+}

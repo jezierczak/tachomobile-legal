@@ -22,6 +22,11 @@
       "title": "Rozpoznávanie jazdy",
       "description": "Zistite, ako funguje automatické rozpoznávanie jazdy a ako ho prispôsobiť svojim potrebám.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Hlavná obrazovka",
+      "description": "Spoznajte prvky, informácie a akcie dostupné na hlavnej obrazovke TachoMobile 2.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

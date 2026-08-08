@@ -22,6 +22,11 @@
       "title": "Fahrerkennung",
       "description": "Erfahren Sie, wie die automatische Fahrerkennung funktioniert und an Ihre Bedürfnisse angepasst werden kann.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Hauptbildschirm",
+      "description": "Die Elemente, Informationen und Aktionen des TachoMobile-2-Hauptbildschirms kennenlernen.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

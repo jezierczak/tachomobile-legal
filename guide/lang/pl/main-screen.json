@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Ekran główny TachoMobile 2",
+    "heading": "Ekran główny TachoMobile 2",
+    "intro": "Przewodnik po informacjach, kartach, licznikach i akcjach dostępnych na głównym ekranie aplikacji."
+  },
+  "sections": {
+    "header": {
+      "title": "Nagłówek aplikacji",
+      "content": "<p>Nagłówek zawiera logo TachoMobile, wersję aplikacji, informację o wersji Standard lub Premium oraz wejście do opcji programu. Jest stałym punktem dostępu do podstawowych informacji o aplikacji i ustawień.</p>"
+    },
+    "dataSource": {
+      "title": "Źródło danych",
+      "content": "<p>Ten element pojawia się po zgraniu danych z karty kierowcy. Nad statusem detekcji można wtedy wybrać źródło danych:</p><ul><li><strong>GPS</strong> — podstawowy widok TachoMobile. Dane pochodzą z bieżącego monitorowania GPS oraz aktywności zarejestrowanych przez aplikację.</li><li><strong>MIX</strong> — łączy dane z karty kierowcy i GPS. Dane z karty są używane tam, gdzie są dostępne, a brakujące informacje uzupełnia GPS.</li><li><strong>KARTA</strong> — wykorzystuje wyłącznie dane z pliku DDD karty kierowcy i służy przede wszystkim do analizy zapisanych danych.</li></ul><p><strong>Ważne:</strong> GPS, MIX i KARTA oznaczają źródło danych. Nie są trybami detekcji jazdy. Tryby OFF, MANUAL, STANDBY i AUTO opisano w module Rozpoznawanie jazdy.</p>"
+    },
+    "detection": {
+      "title": "Status detekcji",
+      "content": "<p>Pod wyborem źródła danych znajduje się status detekcji. Pokazuje aktualny stan automatycznego rozpoznawania jazdy i pozwala zmienić tryb detekcji. Jeżeli dane z karty nie zostały zgrane, wybór GPS/MIX/KARTA nie jest wyświetlany.</p><p>Szczegóły trybów OFF, MANUAL, STANDBY i AUTO znajdują się w module <strong>Rozpoznawanie jazdy</strong>.</p>"
+    },
+    "work": {
+      "title": "▶️ Rozpoczęcie i zakończenie pracy",
+      "content": "<p>Przycisk rozpoczęcia lub zakończenia pracy obsługuje odpowiednią akcję zależnie od aktualnego stanu. Prowadzi przez rozpoczęcie pracy i włożenie karty albo zakończenie pracy i wyjęcie karty. Nie trzeba wykonywać dwóch osobnych operacji.</p>"
+    },
+    "currentActivity": {
+      "title": "Aktualna aktywność",
+      "content": "<p>Karta aktualnej aktywności pokazuje bieżącą aktywność kierowcy: <strong>Jazda</strong>, <strong>Praca</strong>, <strong>Dostępność</strong> lub <strong>Odpoczynek</strong>. Kliknięcie karty pozwala zmienić aktywność.</p><p>Poza pracą kliknięcie aktualnej aktywności ma inne znaczenie i prowadzi do informacji o celach odpoczynku. Szczegóły tej funkcji zostaną opisane w osobnym module GUIDE.</p>"
+    },
+    "breaks": {
+      "title": "☕ Kontrola przerw i odpoczynku",
+      "content": "<p>Karta główna pokazuje informacje pomocne przy kontroli warunków odpoczynku, między innymi:</p><ul><li>czy zaliczono pierwszą 15-minutową przerwę potrzebną do pełnej 45-minutowej przerwy;</li><li>czy zaliczono 3-godzinny odpoczynek pozwalający skorzystać z 9-godzinnego odpoczynku bez odjęcia limitu.</li></ul><p>Są to informacje o stanie funkcji, a nie pełne wyjaśnienie przepisów dotyczących odpoczynku.</p>"
+    },
+    "drivingCounter": {
+      "title": "Licznik czasu jazdy",
+      "content": "<p>Licznik pokazuje wykorzystany czas jazdy w bieżącej zmianie.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Całkowita długość zmiany",
+      "content": "<p>Drugi podstawowy licznik pokazuje całkowitą długość bieżącej zmiany. Razem z licznikiem jazdy pozwala szybko ocenić czas trwania zmiany i czas przeznaczony na jazdę.</p>"
+    },
+    "progress": {
+      "title": "Paski postępu",
+      "content": "<p>Paski postępu pokazują maksymalny dostępny czas dla odpowiednich liczników. Kliknięcie licznika wyświetla wyjaśnienie, czego dotyczy. Przytrzymanie licznika przełącza prezentację pomiędzy czasem już wykorzystanym lub odmierzanym a czasem pozostałym.</p><p>Przykładowo licznik może pokazywać wykorzystane 2 godziny albo pozostałe 8 godzin — zależnie od wybranego sposobu prezentacji. Nie jest to tutaj pełna interpretacja przepisów.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>Sekcja WDT jest opcjonalna i można ją włączyć w opcjach programu. W ustawieniach WDT można także włączyć ostrzeżenia przed przekroczeniem limitów. Gdy WDT jest wyłączone, sekcja nie jest wyświetlana.</p>"
+    },
+    "rests": {
+      "title": "Odpoczynki",
+      "content": "<p>Główne ekran pokazuje liczbę odpoczynków już zaliczonych oraz liczbę odpoczynków wymaganych w danym momencie. Jest to szybki status bieżącej sytuacji kierowcy. Szczegółowe zasady odpoczynków będą opisane osobno.</p>"
+    },
+    "workAndDriving": {
+      "title": "Praca + jazda",
+      "content": "<p>Licznik <strong>Praca + jazda</strong> pokazuje łączny czas pracy oraz jazdy w bieżącej zmianie.</p>"
+    },
+    "continuous": {
+      "title": "Praca + jazda ciągła",
+      "content": "<p>Ten licznik pokazuje czas ciągłej pracy i jazdy. Oznacza okres, który nie został przedzielony 15-minutowym odpoczynkiem przed upływem 6 godzin. Jest to wyjaśnienie funkcji licznika, bez pełnego omawiania przepisów.</p>"
+    },
+    "weekly": {
+      "title": "Wykorzystanie tygodniowe",
+      "content": "<p>Pod licznikami bieżącej zmiany znajduje się licznik tygodniowego wykorzystania. Pokazuje wykorzystanie 9 godzin odpoczynku oraz 10 godzin jazdy.</p><p>Kliknięcie karty otwiera szybki podgląd czasu jazdy w okresie dwóch tygodni oraz statusu odpoczynku weekendowego lub tygodniowego. Karta pokazuje szerszy okres niż bieżąca zmiana.</p>"
+    },
+    "vehicle": {
+      "title": "Aktualny pojazd",
+      "content": "<p>Na ekranie widoczny jest aktualnie używany pojazd, jego stan licznika i przebyty dystans. Jeżeli podczas pracy pojazd zostanie zmieniony, pojawiają się kolejne wpisy:</p><ul><li><strong>Pojazd A</strong> — stan licznika i przebyty dystans;</li><li><strong>Pojazd B</strong> — stan licznika i przebyty dystans po zmianie.</li></ul><p>Jedna zmiana może więc obejmować więcej niż jeden pojazd.</p>"
+    },
+    "timeline": {
+      "title": "Aktywności bieżącej zmiany",
+      "content": "<p>Niżej znajduje się lista aktywności z obecnej zmiany. Można ją kliknąć albo przewinąć i przesunąć widok do góry, aby zobaczyć kolejne zapisane aktywności. W opcjach programu można także włączyć wyświetlanie bieżącej aktywności w tym miejscu. Szczegółowa edycja aktywności będzie opisana osobno.</p>"
+    },
+    "bottomMenu": {
+      "title": "Dolne menu",
+      "content": "<ul><li><strong>Main</strong> — główny ekran aplikacji.</li><li><strong>Przepisy</strong> — ekran zgodności z przepisami, służący do sprawdzania aktualnej sytuacji kierowcy pod kątem limitów i wymagań.</li><li><strong>Analiza</strong> — ekran analizy czasu pracy i zmian oraz zarejestrowanych okresów pracy.</li><li><strong>Log</strong> — chronologiczna lista aktywności zapisanych w bazie danych. W Logu można modyfikować istniejące aktywności i dodawać nowe wpisy.</li></ul><p>Szczegółowe instrukcje edycji Logu będą opisane w osobnym module.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Ważne rozróżnienia",
+      "content": "<p>Nie należy używać tych pojęć zamiennie:</p><h3>Źródło danych</h3><ul><li>GPS</li><li>MIX</li><li>KARTA</li></ul><h3>Tryb detekcji</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Aktualna aktywność</h3><ul><li>Jazda</li><li>Praca</li><li>Dostępność</li><li>Odpoczynek</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do przewodnika"
+  },
+  "footer": "© TachoMobile 2"
+}

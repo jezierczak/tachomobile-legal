@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Főképernyő",
+    "heading": "TachoMobile 2 — Főképernyő",
+    "intro": "Útmutató az alkalmazás főképernyőjén elérhető információkhoz, kártyákhoz, számlálókhoz és műveletekhez."
+  },
+  "sections": {
+    "header": {
+      "title": "Alkalmazás fejléc",
+      "content": "<p>A fejléc tartalmazza a TachoMobile logóját, az alkalmazás verzióját, a Standard vagy Premium állapotot és a programbeállítások elérését.Állandó hozzáférést ad az alapvető információkhoz és beállításokhoz.</p>"
+    },
+    "dataSource": {
+      "title": "Adatforrás",
+      "content": "<p>Ez az elem a vezetőkártya adatainak betöltése után jelenik meg.A</p><ul><li><strong>GPS</strong> az aktuális <strong>GPS</strong>-követést és az alkalmazás által rögzített tevékenységeket mutatja.A</li><li><strong>MIX</strong> a kártya- és <strong>GPS</strong>-adatokat egyesíti, a hiányzó adatokat <strong>GPS</strong>-szel pótolja.A</li><li><strong>KARTA</strong> kizárólag a kártya DDD-fájlját használja.A <strong>GPS</strong>, <strong>MIX</strong> és <strong>KARTA</strong> adatforrások, nem detektálási módok.Az <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> és <strong>AUTO</strong> módokat a Vezetésfelismerés modul ismerteti.Ez az elem a vezetőkártya adatainak betöltése után jelenik meg.A <strong>GPS</strong> az aktuális <strong>GPS</strong>-követést és az alkalmazás által rögzített tevékenységeket mutatja.A <strong>MIX</strong> a kártya- és <strong>GPS</strong>-adatokat egyesíti, a hiányzó adatokat <strong>GPS</strong>-szel pótolja.A <strong>KARTA</strong> kizárólag a kártya DDD-fájlját használja.A</li></ul><p>GPS, MIX és KARTA adatforrások, nem detektálási módok.Az OFF, MANUAL, STANDBY és AUTO módokat a Vezetésfelismerés modul ismerteti.</p>"
+    },
+    "detection": {
+      "title": "Észlelési állapot",
+      "content": "<p>A detektálási állapot az automatikus vezetésfelismerés aktuális állapotát mutatja, és innen módosítható a detektálási mód.Kártyaadatok nélkül a <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> választó nem jelenik meg.A részletek a Vezetésfelismerés modulban találhatók.</p>"
+    },
+    "work": {
+      "title": "▶️ Munka kezdése és befejezése",
+      "content": "<p>A gomb az aktuális állapottól függően a munka megkezdésén és a kártya behelyezésén, vagy a munka befejezésén és a kártya kivételén vezeti végig a felhasználót.Két külön műveletre nincs szükség.</p>"
+    },
+    "currentActivity": {
+      "title": "Aktuális tevékenység",
+      "content": "<p>A kártya a <strong>Vezetés</strong>, <strong>Munka</strong>, <strong>Rendelkezésre állás</strong> vagy <strong>Pihenés</strong> tevékenységet mutatja.Megérintve módosítható.Munkaidőn kívül a megérintés a pihenési célokról szóló információkhoz vezet; ezt külön GUIDE-modul ismerteti.</p>"
+    },
+    "breaks": {
+      "title": "☕ Szünetek és pihenők ellenőrzése",
+      "content": "<p>A fő kártya többek között jelzi, hogy elszámolták-e a teljes 45 perces szünethez szükséges első 15 perces szünetet, valamint a 9 órás pihenés limitlevonás nélküli alkalmazását lehetővé tevő 3 órás pihenést.Itt csak a funkció szerepel.A fő kártya többek között jelzi, hogy elszámolták-e a teljes 45 perces szünethez szükséges első 15 perces szünetet, valamint a 9 órás pihenés limitlevonás nélküli alkalmazását lehetővé tevő 3 órás pihenést.Itt csak a funkció szerepel.</p><ul></ul><p>A fő kártya többek között jelzi, hogy elszámolták-e a teljes 45 perces szünethez szükséges első 15 perces szünetet, valamint a 9 órás pihenés limitlevonás nélküli alkalmazását lehetővé tevő 3 órás pihenést.Itt csak a funkció szerepel.A fő kártya többek között jelzi, hogy elszámolták-e a teljes 45 perces szünethez szükséges első 15 perces szünetet, valamint a 9 órás pihenés limitlevonás nélküli alkalmazását lehetővé tevő 3 órás pihenést.Itt csak a funkció szerepel.</p>"
+    },
+    "drivingCounter": {
+      "title": "Vezetési idő számláló",
+      "content": "<p>A számláló az aktuális műszakban felhasznált vezetési időt mutatja.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ A műszak teljes hossza",
+      "content": "<p>A második számláló az aktuális műszak teljes hosszát mutatja.A vezetési idő számlálójával együtt gyorsan megmutatja a műszak és a vezetés időtartamát.</p>"
+    },
+    "progress": {
+      "title": "Folyamatjelzők",
+      "content": "<p>A folyamatjelzők a megfelelő számlálók maximálisan rendelkezésre álló idejét mutatják.A számláló megérintése magyarázatot ad, hosszan nyomva pedig a felhasznált és a hátralévő idő között lehet váltani.Például 2 felhasznált vagy 8 hátralévő órát láthat.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>A WDT-szakasz opcionális, a programbeállításokban kapcsolható be.Itt a WDT-határok túllépése előtti figyelmeztetések is engedélyezhetők.Kikapcsolt WDT esetén a szakasz nem látható.</p>"
+    },
+    "rests": {
+      "title": "Pihenők",
+      "content": "<p>A főképernyő a már elszámolt és az adott pillanatban szükséges pihenések számát mutatja.Ez gyors állapotjelzés; a részletes szabályokat külön ismertetjük.</p>"
+    },
+    "workAndDriving": {
+      "title": "Munka + vezetés",
+      "content": "<p>A <strong>Munka + vezetés</strong> számláló az aktuális műszak teljes munka- és vezetési idejét mutatja.</p>"
+    },
+    "continuous": {
+      "title": "Folyamatos munka + vezetés",
+      "content": "<p>Ez a számláló a megszakítás nélküli munka- és vezetési időt mutatja: azt az időszakot, amelyet hat óra letelte előtt nem szakított meg 15 perces pihenés.A számláló funkcióját magyarázza, nem az összes szabályt.</p>"
+    },
+    "weekly": {
+      "title": "Heti felhasználás",
+      "content": "<p>A heti számláló a 9 órás pihenés és a 10 órás vezetés felhasználását mutatja.Megérintve gyors áttekintést nyit a két heti vezetési időről és a hétvégi vagy heti pihenés állapotáról.</p>"
+    },
+    "vehicle": {
+      "title": "Aktuális jármű",
+      "content": "<p>A képernyő az aktuális járművet, a kilométeróra állását és a megtett távolságot mutatja.Járműváltáskor új bejegyzések jelennek meg, például A jármű, majd B jármű.Egy műszak több járművet is tartalmazhat.A képernyő az aktuális járművet, a kilométeróra állását és a megtett távolságot mutatja.Járműváltáskor új bejegyzések jelennek meg, például A jármű, majd B jármű.Egy műszak több járművet is tartalmazhat.</p><ul></ul><p>A képernyő az aktuális járművet, a kilométeróra állását és a megtett távolságot mutatja.Járműváltáskor új bejegyzések jelennek meg, például A jármű, majd B jármű.Egy műszak több járművet is tartalmazhat.A képernyő az aktuális járművet, a kilométeróra állását és a megtett távolságot mutatja.Járműváltáskor új bejegyzések jelennek meg, például A jármű, majd B jármű.Egy műszak több járművet is tartalmazhat.</p>"
+    },
+    "timeline": {
+      "title": "Az aktuális műszak tevékenységei",
+      "content": "<p>A lista az aktuális műszak tevékenységeit tartalmazza.Megérintve vagy felfelé görgetve további bejegyzések láthatók.A beállításokban az aktuális tevékenység megjelenítése is bekapcsolható; a szerkesztést külön ismertetjük.</p>"
+    },
+    "bottomMenu": {
+      "title": "Alsó menü",
+      "content": "<ul><li><strong>Main</strong> — megnyitja az alkalmazás főképernyőjét.</li><li><strong>Szabályok</strong> — az aktuális helyzetet a limitek és követelmények alapján ellenőrzi.</li><li><strong>Elemzés</strong> — a munkaidő, a műszakok és a rögzített időszakok elemzésére szolgál.</li><li><strong>Napló</strong> — az aktivitások időrendi listáját mutatja. Az aktivitások módosíthatók és új bejegyzések adhatók hozzá.</li></ul><p>A Napló részletes szerkesztését külön modul ismerteti.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Fontos különbségek",
+      "content": "<p>A <strong>GPS</strong>, <strong>MIX</strong> és <strong>KARTA</strong> adatforrások.Az <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> és <strong>AUTO</strong> detektálási módok.A Vezetés, Munka, Rendelkezésre állás és Pihenés aktuális tevékenységek.A három fogalomcsoportot nem szabad összekeverni.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3>A <strong>GPS</strong>, <strong>MIX</strong> és <strong>KARTA</strong> adatforrások.Az <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> és <strong>AUTO</strong> detektálási módok.A Vezetés, Munka, Rendelkezésre állás és Pihenés aktuális tevékenységek.A három fogalomcsoportot nem szabad összekeverni.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Vissza az útmutatóhoz"
+  },
+  "footer": "© TachoMobile 2"
+}

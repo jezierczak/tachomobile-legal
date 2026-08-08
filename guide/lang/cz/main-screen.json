@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Hlavní obrazovka",
+    "heading": "TachoMobile 2 — Hlavní obrazovka",
+    "intro": "Přehled informací, karet, čítačů a akcí dostupných na hlavní obrazovce aplikace."
+  },
+  "sections": {
+    "header": {
+      "title": "Záhlaví aplikace",
+      "content": "<p>Záhlaví obsahuje logo TachoMobile, verzi aplikace, informaci o verzi Standard nebo Premium a vstup do možností programu.Je stálým místem pro přístup k základním informacím a nastavením.</p>"
+    },
+    "dataSource": {
+      "title": "Zdroj dat",
+      "content": "<p>Tato část se zobrazí po načtení údajů z karty řidiče.</p><ul><li><strong>GPS</strong> zobrazuje aktuální sledování <strong>GPS</strong> a aktivity zaznamenané aplikací.</li><li><strong>MIX</strong> kombinuje údaje z karty a <strong>GPS</strong> a chybějící údaje doplňuje z <strong>GPS</strong>.</li><li><strong>KARTA</strong> používá pouze data ze souboru DDD karty řidiče.<strong>GPS</strong>, <strong>MIX</strong> a <strong>KARTA</strong> jsou zdroje dat, nikoli režimy detekce.Režimy <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> a <strong>AUTO</strong> jsou vysvětleny v modulu Rozpoznávání jízdy.Tato část se zobrazí po načtení údajů z karty řidiče.<strong>GPS</strong> zobrazuje aktuální sledování <strong>GPS</strong> a aktivity zaznamenané aplikací.<strong>MIX</strong> kombinuje údaje z karty a <strong>GPS</strong> a chybějící údaje doplňuje z</li></ul><p>GPS.KARTA používá pouze data ze souboru DDD karty řidiče.GPS, MIX a KARTA jsou zdroje dat, nikoli režimy detekce.Režimy OFF, MANUAL, STANDBY a AUTO jsou vysvětleny v modulu Rozpoznávání jízdy.</p>"
+    },
+    "detection": {
+      "title": "Stav detekce",
+      "content": "<p>Stav detekce zobrazuje aktuální stav automatického rozpoznávání jízdy a umožňuje změnit režim detekce.Pokud nebyla načtena data z karty, volba <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> se nezobrazí.Podrobnosti režimů <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> a <strong>AUTO</strong> jsou v modulu Rozpoznávání jízdy.</p>"
+    },
+    "work": {
+      "title": "▶️ Zahájení a ukončení práce",
+      "content": "<p>Tlačítko podle aktuálního stavu provede uživatele zahájením práce a vložením karty nebo ukončením práce a vyjmutím karty.Nejsou potřeba dvě samostatné operace.</p>"
+    },
+    "currentActivity": {
+      "title": "Aktuální aktivita",
+      "content": "<p>Karta zobrazuje aktivitu <strong>Jízda</strong>, <strong>Práce</strong>, <strong>Dostupnost</strong> nebo <strong>Odpočinek</strong>.Klepnutím lze aktivitu změnit.Mimo práci vede klepnutí na informace o cílech odpočinku; tato funkce bude popsána v samostatném modulu GUIDE.</p>"
+    },
+    "breaks": {
+      "title": "☕ Kontrola přestávek a odpočinku",
+      "content": "<p>Hlavní karta mimo jiné ukazuje, zda byla započtena první 15minutová přestávka potřebná pro úplnou 45minutovou přestávku a tříhodinový odpočinek umožňující využít devítihodinový odpočinek bez odečtení limitu.Zde je popsána pouze funkce informace, nikoli celé předpisy.Hlavní karta mimo jiné ukazuje, zda byla započtena první 15minutová přestávka potřebná pro úplnou 45minutovou přestávku a tříhodinový odpočinek umožňující využít devítihodinový odpočinek bez odečtení limitu.Zde je popsána pouze funkce informace, nikoli celé předpisy.</p><ul></ul><p>Hlavní karta mimo jiné ukazuje, zda byla započtena první 15minutová přestávka potřebná pro úplnou 45minutovou přestávku a tříhodinový odpočinek umožňující využít devítihodinový odpočinek bez odečtení limitu.Zde je popsána pouze funkce informace, nikoli celé předpisy.Hlavní karta mimo jiné ukazuje, zda byla započtena první 15minutová přestávka potřebná pro úplnou 45minutovou přestávku a tříhodinový odpočinek umožňující využít devítihodinový odpočinek bez odečtení limitu.Zde je popsána pouze funkce informace, nikoli celé předpisy.</p>"
+    },
+    "drivingCounter": {
+      "title": "Počítadlo doby jízdy",
+      "content": "<p>Počítadlo ukazuje dobu jízdy využitou v aktuální směně.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Celková délka směny",
+      "content": "<p>Druhé základní počítadlo ukazuje celkovou délku aktuální směny.Spolu s počítadlem jízdy umožňuje rychle posoudit délku směny a dobu věnovanou jízdě.</p>"
+    },
+    "progress": {
+      "title": "Ukazatele průběhu",
+      "content": "<p>Ukazatele průběhu zobrazují maximální dostupný čas.Klepnutím na počítadlo zobrazíte, čeho se týká; podržením přepnete mezi využitým a zbývajícím časem.Počítadlo tak může zobrazit například 2 využité nebo 8 zbývajících hodin.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>Sekce WDT je volitelná a lze ji zapnout v možnostech programu.V nastavení WDT lze také aktivovat upozornění před překročením limitů WDT.Je-li WDT vypnuto, sekce se nezobrazuje.</p>"
+    },
+    "rests": {
+      "title": "Odpočinky",
+      "content": "<p>Hlavní obrazovka ukazuje počet již započtených odpočinků a počet odpočinků aktuálně požadovaných.Jde o rychlý přehled situace řidiče; podrobná pravidla budou vysvětlena samostatně.</p>"
+    },
+    "workAndDriving": {
+      "title": "Práce + jízda",
+      "content": "<p>Počítadlo <strong>Práce + jízda</strong> ukazuje součet doby práce a jízdy v aktuální směně.</p>"
+    },
+    "continuous": {
+      "title": "Souvislá práce + jízda",
+      "content": "<p>Toto počítadlo zobrazuje souvislou dobu práce a jízdy: období, které nebylo před uplynutím šesti hodin přerušeno 15minutovým odpočinkem.Vysvětluje funkci počítadla, nikoli celý systém předpisů.</p>"
+    },
+    "weekly": {
+      "title": "Týdenní využití",
+      "content": "<p>Týdenní počítadlo ukazuje využití 9 hodin odpočinku a 10 hodin jízdy.Klepnutím otevřete rychlý přehled doby jízdy za dva týdny a stavu víkendového nebo týdenního odpočinku.</p>"
+    },
+    "vehicle": {
+      "title": "Aktuální vozidlo",
+      "content": "<p>Na obrazovce se zobrazuje aktuální vozidlo, stav tachometru a ujetá vzdálenost.Po změně vozidla se zobrazí další položky, například Vozidlo A a poté Vozidlo B.Jedna směna může zahrnovat více vozidel.Na obrazovce se zobrazuje aktuální vozidlo, stav tachometru a ujetá vzdálenost.Po změně vozidla se zobrazí další položky, například Vozidlo A a poté Vozidlo B.Jedna směna může zahrnovat více vozidel.</p><ul></ul><p>Na obrazovce se zobrazuje aktuální vozidlo, stav tachometru a ujetá vzdálenost.Po změně vozidla se zobrazí další položky, například Vozidlo A a poté Vozidlo B.Jedna směna může zahrnovat více vozidel.Na obrazovce se zobrazuje aktuální vozidlo, stav tachometru a ujetá vzdálenost.Po změně vozidla se zobrazí další položky, například Vozidlo A a poté Vozidlo B.Jedna směna může zahrnovat více vozidel.</p>"
+    },
+    "timeline": {
+      "title": "Aktivity aktuální směny",
+      "content": "<p>Seznam obsahuje aktivity z aktuální směny.Klepnutím nebo posunutím zobrazení nahoru zobrazíte další uložené aktivity.V možnostech programu lze na tomto místě zapnout zobrazení aktuální aktivity; úpravy budou popsány samostatně.</p>"
+    },
+    "bottomMenu": {
+      "title": "Spodní nabídka",
+      "content": "<ul><li><strong>Main</strong> — otevře hlavní obrazovku aplikace.</li><li><strong>Předpisy</strong> — slouží ke kontrole aktuální situace podle limitů a požadavků.</li><li><strong>Analýza</strong> — umožňuje analyzovat pracovní dobu, směny a zaznamenaná pracovní období.</li><li><strong>Log</strong> — zobrazuje chronologický seznam aktivit. V Logu lze aktivity upravovat a přidávat nové záznamy.</li></ul><p>Podrobné pokyny k úpravám Logu budou popsány v samostatném modulu.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Důležitá rozlišení",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> a <strong>KARTA</strong> jsou zdroje dat.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> a <strong>AUTO</strong> jsou režimy detekce.Jízda, Práce, Dostupnost a Odpočinek jsou aktuální aktivity.Tyto tři skupiny se nesmí zaměňovat.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> a <strong>KARTA</strong> jsou zdroje dat.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> a <strong>AUTO</strong> jsou režimy detekce.Jízda, Práce, Dostupnost a Odpočinek jsou aktuální aktivity.Tyto tři skupiny se nesmí zaměňovat.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na průvodce"
+  },
+  "footer": "© TachoMobile 2"
+}

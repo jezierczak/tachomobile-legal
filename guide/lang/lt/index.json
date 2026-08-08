@@ -22,6 +22,11 @@
       "title": "Važiavimo aptikimas",
       "description": "Sužinokite, kaip veikia automatinis važiavimo aptikimas ir kaip jį pritaikyti savo poreikiams.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Pagrindinis ekranas",
+      "description": "Sužinokite apie „TachoMobile 2“ pagrindiniame ekrane pateikiamus elementus, informaciją ir veiksmus.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

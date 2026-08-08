@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Écran principal",
+    "heading": "TachoMobile 2 — Écran principal",
+    "intro": "Guide des informations, cartes, compteurs et actions disponibles sur l’écran principal de l’application."
+  },
+  "sections": {
+    "header": {
+      "title": "En-tête de l’application",
+      "content": "<p>L’en-tête contient le logo TachoMobile, la version de l’application, le statut Standard ou Premium et l’accès aux options.Il donne un accès permanent aux informations et réglages essentiels.</p>"
+    },
+    "dataSource": {
+      "title": "Source des données",
+      "content": "<p>Cet élément apparaît après le téléchargement des données de la carte.</p><ul><li><strong>GPS</strong> affiche le suivi <strong>GPS</strong> et les activités enregistrées par l’application.</li><li><strong>MIX</strong> combine les données de la carte et du <strong>GPS</strong>, ce dernier complétant les informations absentes.</li><li><strong>KARTA</strong> utilise uniquement le fichier DDD de la carte.<strong>GPS</strong>, <strong>MIX</strong> et <strong>KARTA</strong> sont des sources de données, pas des modes de détection.<strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> et <strong>AUTO</strong> sont expliqués dans le module Détection de conduite.Cet élément apparaît après le téléchargement des données de la carte.<strong>GPS</strong> affiche le suivi <strong>GPS</strong> et les activités enregistrées par l’application.<strong>MIX</strong> combine les données de la carte et du</li></ul><p>GPS, ce dernier complétant les informations absentes.KARTA utilise uniquement le fichier DDD de la carte.GPS, MIX et KARTA sont des sources de données, pas des modes de détection.OFF, MANUAL, STANDBY et AUTO sont expliqués dans le module Détection de conduite.</p>"
+    },
+    "detection": {
+      "title": "État de la détection",
+      "content": "<p>L’état de détection indique l’état actuel de la reconnaissance automatique et permet de changer de mode.Sans données de carte téléchargées, le sélecteur <strong>GPS</strong>/<strong>MIX</strong>/<strong>KARTA</strong> n’est pas affiché.Les détails sont dans le module Détection de conduite.</p>"
+    },
+    "work": {
+      "title": "▶️ Début et fin du travail",
+      "content": "<p>Le bouton guide l’action appropriée selon l’état : commencer le travail et insérer la carte, ou terminer le travail et la retirer.Deux opérations distinctes ne sont pas nécessaires.</p>"
+    },
+    "currentActivity": {
+      "title": "Activité actuelle",
+      "content": "<p>La carte affiche <strong>Conduite</strong>, <strong>Travail</strong>, <strong>Disponibilité</strong> ou <strong>Repos</strong>.Touchez-la pour modifier l’activité.Hors travail, le toucher ouvre les informations sur les objectifs de repos, qui seront décrites dans un autre module GUIDE.</p>"
+    },
+    "breaks": {
+      "title": "☕ Contrôle des pauses et repos",
+      "content": "<p>La carte indique notamment si la première pause de 15 minutes nécessaire à une pause complète de 45 minutes et le repos de 3 heures permettant un repos de 9 heures sans déduction ont été comptés.Ici, seule la fonction est expliquée.La carte indique notamment si la première pause de 15 minutes nécessaire à une pause complète de 45 minutes et le repos de 3 heures permettant un repos de 9 heures sans déduction ont été comptés.Ici, seule la fonction est expliquée.</p><ul></ul><p>La carte indique notamment si la première pause de 15 minutes nécessaire à une pause complète de 45 minutes et le repos de 3 heures permettant un repos de 9 heures sans déduction ont été comptés.Ici, seule la fonction est expliquée.La carte indique notamment si la première pause de 15 minutes nécessaire à une pause complète de 45 minutes et le repos de 3 heures permettant un repos de 9 heures sans déduction ont été comptés.Ici, seule la fonction est expliquée.</p>"
+    },
+    "drivingCounter": {
+      "title": "Compteur du temps de conduite",
+      "content": "<p>Le compteur indique le temps de conduite utilisé pendant le poste actuel.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Durée totale du poste",
+      "content": "<p>Le deuxième compteur indique la durée totale du poste actuel.Avec le compteur de conduite, il permet d’évaluer rapidement la durée du poste et le temps conduit.</p>"
+    },
+    "progress": {
+      "title": "Barres de progression",
+      "content": "<p>Les barres indiquent le temps maximal disponible.Touchez un compteur pour voir son objet ; maintenez-le pour passer du temps utilisé au temps restant.Par exemple, il peut afficher 2 heures utilisées ou 8 heures restantes.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>La section WDT est optionnelle et s’active dans les options.Les réglages WDT permettent aussi d’activer des avertissements avant le dépassement des limites.Si WDT est désactivé, la section est masquée.</p>"
+    },
+    "rests": {
+      "title": "Repos",
+      "content": "<p>L’écran principal indique le nombre de repos déjà comptés et celui requis à ce moment.C’est un résumé rapide ; les règles détaillées seront expliquées séparément.</p>"
+    },
+    "workAndDriving": {
+      "title": "Travail + conduite",
+      "content": "<p>Le compteur <strong>Travail + conduite</strong> indique le temps total de travail et de conduite du poste actuel.</p>"
+    },
+    "continuous": {
+      "title": "Travail + conduite continu",
+      "content": "<p>Ce compteur indique la durée continue de travail et de conduite, sans pause de 15 minutes avant six heures.Il explique la fonction du compteur sans détailler toutes les règles.</p>"
+    },
+    "weekly": {
+      "title": "Utilisation hebdomadaire",
+      "content": "<p>Le compteur hebdomadaire montre l’utilisation de 9 heures de repos et de 10 heures de conduite.Touchez-le pour voir rapidement la conduite sur deux semaines et l’état du repos hebdomadaire.</p>"
+    },
+    "vehicle": {
+      "title": "Véhicule actuel",
+      "content": "<p>L’écran indique le véhicule actuel, son kilométrage et la distance parcourue.Après un changement, d’autres entrées apparaissent, par exemple Véhicule A puis Véhicule B.Un poste peut comprendre plusieurs véhicules.L’écran indique le véhicule actuel, son kilométrage et la distance parcourue.Après un changement, d’autres entrées apparaissent, par exemple Véhicule A puis Véhicule B.Un poste peut comprendre plusieurs véhicules.</p><ul></ul><p>L’écran indique le véhicule actuel, son kilométrage et la distance parcourue.Après un changement, d’autres entrées apparaissent, par exemple Véhicule A puis Véhicule B.Un poste peut comprendre plusieurs véhicules.L’écran indique le véhicule actuel, son kilométrage et la distance parcourue.Après un changement, d’autres entrées apparaissent, par exemple Véhicule A puis Véhicule B.Un poste peut comprendre plusieurs véhicules.</p>"
+    },
+    "timeline": {
+      "title": "Activités du poste actuel",
+      "content": "<p>La liste contient les activités du poste actuel.Touchez-la ou faites glisser la vue vers le haut pour voir les suivantes.Une option peut aussi afficher l’activité actuelle ici ; sa modification sera traitée séparément.</p>"
+    },
+    "bottomMenu": {
+      "title": "Menu inférieur",
+      "content": "<ul><li><strong>Main</strong> — ouvre l’écran principal de l’application.</li><li><strong>Règles</strong> — vérifie la situation actuelle selon les limites et exigences.</li><li><strong>Analyse</strong> — permet d’examiner les temps de travail, les postes et les périodes enregistrées.</li><li><strong>Log</strong> — affiche la liste chronologique des activités. Les activités peuvent y être modifiées et de nouvelles entrées ajoutées.</li></ul><p>Les instructions détaillées de modification du Log seront décrites dans un module séparé.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Distinctions importantes",
+      "content": "<p><strong>GPS</strong>, <strong>MIX</strong> et <strong>KARTA</strong> sont des sources de données ; <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> et <strong>AUTO</strong> sont des modes de détection ; Conduite, Travail, Disponibilité et Repos sont des activités.Ces notions ne doivent pas être confondues.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</p><h3>GPS / MIX / KARTA</h3><ul><li><strong>GPS</strong></li><li><strong>MIX</strong></li><li><strong>KARTA</strong></li></ul><h3>OFF / MANUAL / STANDBY / AUTO</h3><ul><li><strong>OFF</strong></li><li><strong>MANUAL</strong></li><li><strong>STANDBY</strong></li><li><strong>AUTO</strong></li></ul><h3><strong>GPS</strong>, <strong>MIX</strong> et <strong>KARTA</strong> sont des sources de données ; <strong>OFF</strong>, <strong>MANUAL</strong>, <strong>STANDBY</strong> et <strong>AUTO</strong> sont des modes de détection ; Conduite, Travail, Disponibilité et Repos sont des activités.Ces notions ne doivent pas être confondues.<strong>GPS</strong> / <strong>MIX</strong> / KARTAGPSMIXKARTAOFF / <strong>MANUAL</strong> / <strong>STANDBY</strong> / AUTOOFFMANUALSTANDBYAUTO</h3>"
+    }
+  },
+  "navigation": {
+    "back": "← Retour au guide"
+  },
+  "footer": "© TachoMobile 2"
+}

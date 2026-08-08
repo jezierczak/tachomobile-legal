@@ -22,6 +22,11 @@
       "title": "Sürüş algılama",
       "description": "Otomatik sürüş algılamanın nasıl çalıştığını ve ihtiyaçlarınıza göre nasıl ayarlanacağını öğrenin.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Ana ekran",
+      "description": "TachoMobile 2 ana ekranında bulunan öğeleri, bilgileri ve işlemleri öğrenin.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

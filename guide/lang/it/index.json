@@ -22,6 +22,11 @@
       "title": "Rilevamento della guida",
       "description": "Scopri come funziona il rilevamento automatico della guida e come adattarlo alle tue esigenze.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Schermata principale",
+      "description": "Scopri gli elementi, le informazioni e le azioni disponibili nella schermata principale di TachoMobile 2.",
+      "url": "main-screen/"
     }
   },
   "navigation": {

@@ -22,6 +22,11 @@
       "title": "Driving Detection",
       "description": "Learn how automatic driving detection works and how to adjust it to your needs.",
       "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Main screen",
+      "description": "Learn about the elements, information and actions available on the TachoMobile 2 main screen.",
+      "url": "main-screen/"
     }
   },
   "navigation": {
