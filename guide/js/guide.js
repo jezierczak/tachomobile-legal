@@ -59,6 +59,15 @@
     document.documentElement.lang = data.meta && data.meta.htmlLang ? data.meta.htmlLang : getGuideContext().language;
   }
 
+  function setArticleBackLink(context) {
+    if (context.module === "index") return;
+
+    var guideUrl = "/" + encodeURIComponent(context.language) + "/guide/";
+    document.querySelectorAll("a.back").forEach(function (element) {
+      element.setAttribute("href", guideUrl);
+    });
+  }
+
   function showError(context, error) {
     var message = document.createElement("p");
     message.className = "guide-error";
@@ -71,6 +80,7 @@
 
   var context = getGuideContext();
   document.documentElement.lang = context.language;
+  setArticleBackLink(context);
   function loadJson(language) {
     return fetch("/guide/lang/" + encodeURIComponent(language) + "/" + encodeURIComponent(context.module) + ".json")
       .then(function (response) {
