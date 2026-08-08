@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Berechtigungen und App-Status",
+    "heading": "Berechtigungen und App-Status"
+  },
+  "intro": {
+    "1": "TachoMobile verwendet das GPS des Telefons und Google Activity Recognition, um Fahrten automatisch zu erkennen.",
+    "2": "GPS ermöglicht es, die Bewegung, Geschwindigkeit und Route des Fahrzeugs zu bestimmen, während die Aktivitätserkennung dabei hilft festzustellen, ob sich das Telefon im Fahrzeug oder außerhalb befindet. Dadurch kann die App die GPS-Abfrage außerdem an die aktuellen Bedingungen anpassen.",
+    "3": "Damit die Überwachung auch funktioniert, wenn TachoMobile nicht auf dem Bildschirm angezeigt wird, sind entsprechende Berechtigungen und Telefoneinstellungen erforderlich."
+  },
+  "sections": {
+    "status": {
+      "title": "App-Status",
+      "text1": "Den Status aller erforderlichen Berechtigungen und Einstellungen können Sie in der App überprüfen:",
+      "text2": "Im Bereich App-Status finden Sie folgende Elemente:",
+      "items": [
+        "Genauer Standort",
+        "Standort im Hintergrund",
+        "Aktivitätserkennung",
+        "Benachrichtigungen",
+        "Akkuoptimierung",
+        "GPS-Signal"
+      ]
+    },
+    "location": {
+      "title": "Genauer Standort",
+      "text": "TachoMobile verwendet den genauen Standort, um die Geschwindigkeit und Route des Fahrzeugs zu bestimmen und die GPS-Überwachung ordnungsgemäß zu betreiben."
+    },
+    "backgroundLocation": {
+      "title": "Standort im Hintergrund",
+      "text1": "Der Standort im Hintergrund ermöglicht es der App, die GPS-Ortung fortzusetzen, wenn TachoMobile im Hintergrund ausgeführt wird.",
+      "text2": "Ohne diese Berechtigung kann die Ortung beendet werden, wenn die App nicht auf dem Hauptbildschirm angezeigt wird."
+    },
+    "activityRecognition": {
+      "title": "Aktivitätserkennung",
+      "text1": "TachoMobile verwendet Google Activity Recognition, um festzustellen, ob sich das Telefon im Fahrzeug oder außerhalb befindet.",
+      "text2": "Diese Information hilft der App, die Häufigkeit der GPS-Abfragen passend anzupassen."
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "text": "Benachrichtigungen sind erforderlich, damit der im Hintergrund ausgeführte Standortdienst ordnungsgemäß funktioniert."
+    },
+    "battery": {
+      "title": "Akkuoptimierung",
+      "text1": "Einige Geräte können Hintergrund-Apps zur Energieeinsparung einschränken. Dadurch kann die GPS-Funktion eingeschränkt oder beendet werden, was zum Verlust der Ortung führen kann.",
+      "text2": "Stellen Sie daher sicher, dass TachoMobile nicht durch die Akkuoptimierung eingeschränkt wird."
+    },
+    "gps": {
+      "title": "GPS-Signal",
+      "text": "Der Status des GPS-Signals ermöglicht eine schnelle Prüfung, ob das Telefon derzeit gültige Standortdaten empfängt."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Was tun, wenn etwas nicht funktioniert?",
+      "text1": "Wenn eine erforderliche Einstellung nicht korrekt konfiguriert ist, zeigt der App-Status den entsprechenden Zustand an.",
+      "text2": "Durch Anklicken des Elements gelangen Sie zu den passenden Telefoneinstellungen, in denen Sie die erforderliche Einstellung prüfen oder ändern können."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Startseite"
+  },
+  "footer": "© TachoMobile 2"
+}

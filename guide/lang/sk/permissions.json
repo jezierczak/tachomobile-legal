@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Povolenia a stav aplikácie",
+    "heading": "Povolenia a stav aplikácie"
+  },
+  "intro": {
+    "1": "TachoMobile využíva GPS telefónu a Google Activity Recognition na automatické rozpoznávanie jazdy.",
+    "2": "GPS umožňuje určiť pohyb vozidla, rýchlosť a trasu, zatiaľ čo rozpoznávanie aktivity pomáha určiť, či sa telefón nachádza vo vozidle alebo mimo neho. Vďaka tomu môže aplikácia prispôsobiť aj vzorkovanie GPS aktuálnym podmienkam.",
+    "3": "Aby monitorovanie správne fungovalo aj vtedy, keď TachoMobile nie je zobrazené na obrazovke, sú potrebné príslušné povolenia a nastavenia telefónu."
+  },
+  "sections": {
+    "status": {
+      "title": "Stav aplikácie",
+      "text1": "Stav všetkých požadovaných povolení a nastavení môžete skontrolovať v aplikácii:",
+      "text2": "V časti Stav aplikácie sa nachádzajú tieto položky:",
+      "items": [
+        "Presná poloha",
+        "Poloha na pozadí",
+        "Rozpoznávanie aktivity",
+        "Oznámenia",
+        "Optimalizácia batérie",
+        "Signál GPS"
+      ]
+    },
+    "location": {
+      "title": "Presná poloha",
+      "text": "TachoMobile využíva presnú polohu na určenie rýchlosti a trasy vozidla a na správne fungovanie monitorovania GPS."
+    },
+    "backgroundLocation": {
+      "title": "Poloha na pozadí",
+      "text1": "Poloha na pozadí umožňuje aplikácii pokračovať v sledovaní GPS, keď TachoMobile beží na pozadí.",
+      "text2": "Bez tohto povolenia sa môže sledovanie zastaviť, keď aplikácia nie je na hlavnej obrazovke."
+    },
+    "activityRecognition": {
+      "title": "Rozpoznávanie aktivity",
+      "text1": "TachoMobile používa Google Activity Recognition na určenie, či sa telefón nachádza vo vozidle alebo mimo neho.",
+      "text2": "Táto informácia pomáha aplikácii vhodne prispôsobiť frekvenciu vzorkovania GPS."
+    },
+    "notifications": {
+      "title": "Oznámenia",
+      "text": "Oznámenia sú potrebné na správne fungovanie služby určovania polohy spustenej na pozadí."
+    },
+    "battery": {
+      "title": "Optimalizácia batérie",
+      "text1": "Niektoré zariadenia môžu z dôvodu šetrenia batérie obmedzovať aplikácie spustené na pozadí. To môže obmedziť alebo zastaviť fungovanie GPS a následne spôsobiť stratu sledovania.",
+      "text2": "Preto sa uistite, že TachoMobile nie je obmedzené optimalizáciou batérie."
+    },
+    "gps": {
+      "title": "Signál GPS",
+      "text": "Stav signálu GPS umožňuje rýchlo skontrolovať, či telefón práve prijíma správne lokalizačné údaje."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Čo robiť, ak niečo nefunguje?",
+      "text1": "Ak niektoré z požadovaných nastavení nie je správne nakonfigurované, Stav aplikácie zobrazí príslušný stav.",
+      "text2": "Kliknutím na danú položku sa dostanete do príslušných nastavení telefónu, kde môžete požadované nastavenie skontrolovať alebo zmeniť."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na hlavnú stránku"
+  },
+  "footer": "© TachoMobile 2"
+}

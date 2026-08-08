@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Leidimai ir programos būsena",
+    "heading": "Leidimai ir programos būsena"
+  },
+  "intro": {
+    "1": "„TachoMobile“ naudoja telefono GPS ir „Google Activity Recognition“, kad automatiškai atpažintų vairavimą.",
+    "2": "GPS leidžia nustatyti transporto priemonės judėjimą, greitį ir maršrutą, o veiklos atpažinimas padeda nustatyti, ar telefonas yra transporto priemonėje, ar už jos ribų. Dėl to programa taip pat gali pritaikyti GPS mėginių ėmimą prie esamų sąlygų.",
+    "3": "Kad stebėjimas tinkamai veiktų ir tada, kai „TachoMobile“ nerodoma ekrane, reikalingi atitinkami leidimai ir telefono nustatymai."
+  },
+  "sections": {
+    "status": {
+      "title": "Programos būsena",
+      "text1": "Visų reikalingų leidimų ir nustatymų būseną galite patikrinti programoje:",
+      "text2": "Programos būsenos skiltyje yra šie elementai:",
+      "items": [
+        "Tiksli vieta",
+        "Vieta fone",
+        "Veiklos atpažinimas",
+        "Pranešimai",
+        "Baterijos optimizavimas",
+        "GPS signalas"
+      ]
+    },
+    "location": {
+      "title": "Tiksli vieta",
+      "text": "„TachoMobile“ naudoja tikslią vietą transporto priemonės greičiui ir maršrutui nustatyti bei tinkamam GPS stebėjimui užtikrinti."
+    },
+    "backgroundLocation": {
+      "title": "Vieta fone",
+      "text1": "Vieta fone leidžia programai tęsti GPS stebėjimą, kai „TachoMobile“ veikia fone.",
+      "text2": "Neturint šio leidimo stebėjimas gali sustoti, kai programa nerodoma pagrindiniame ekrane."
+    },
+    "activityRecognition": {
+      "title": "Veiklos atpažinimas",
+      "text1": "„TachoMobile“ naudoja „Google Activity Recognition“, kad nustatytų, ar telefonas yra transporto priemonėje, ar už jos ribų.",
+      "text2": "Ši informacija padeda programai tinkamai pritaikyti GPS mėginių ėmimo dažnį."
+    },
+    "notifications": {
+      "title": "Pranešimai",
+      "text": "Pranešimai reikalingi, kad fone veikianti vietos nustatymo paslauga tinkamai veiktų."
+    },
+    "battery": {
+      "title": "Baterijos optimizavimas",
+      "text1": "Kai kurie įrenginiai gali riboti fone veikiančias programas, kad taupytų bateriją. Dėl to GPS veikimas gali būti apribotas arba sustabdytas, todėl galite prarasti stebėjimą.",
+      "text2": "Todėl įsitikinkite, kad baterijos optimizavimas neriboja „TachoMobile“."
+    },
+    "gps": {
+      "title": "GPS signalas",
+      "text": "GPS signalo būsena leidžia greitai patikrinti, ar telefonas šiuo metu gauna tinkamus vietos duomenis."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Ką daryti, jei kažkas neveikia?",
+      "text1": "Jei kuris nors reikalingas nustatymas sukonfigūruotas netinkamai, programos būsena parodys atitinkamą būseną.",
+      "text2": "Spustelėjus elementą atidaromi atitinkami telefono nustatymai, kuriuose galima patikrinti arba pakeisti reikalingą nustatymą."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į pagrindinį puslapį"
+  },
+  "footer": "© TachoMobile 2"
+}

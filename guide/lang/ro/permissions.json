@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Permisiuni și starea aplicației",
+    "heading": "Permisiuni și starea aplicației"
+  },
+  "intro": {
+    "1": "TachoMobile utilizează GPS-ul telefonului și Google Activity Recognition pentru a detecta automat condusul.",
+    "2": "GPS-ul permite determinarea deplasării, vitezei și traseului vehiculului, în timp ce recunoașterea activității ajută la stabilirea faptului că telefonul se află în vehicul sau în afara acestuia. Astfel, aplicația poate adapta și eșantionarea GPS la condițiile actuale.",
+    "3": "Pentru ca monitorizarea să funcționeze corect și atunci când TachoMobile nu este afișat pe ecran, sunt necesare permisiunile și setările corespunzătoare ale telefonului."
+  },
+  "sections": {
+    "status": {
+      "title": "Starea aplicației",
+      "text1": "Puteți verifica starea tuturor permisiunilor și setărilor necesare în aplicație:",
+      "text2": "În secțiunea Starea aplicației se află următoarele elemente:",
+      "items": [
+        "Locație precisă",
+        "Locație în fundal",
+        "Recunoașterea activității",
+        "Notificări",
+        "Optimizarea bateriei",
+        "Semnal GPS"
+      ]
+    },
+    "location": {
+      "title": "Locație precisă",
+      "text": "TachoMobile utilizează locația precisă pentru a determina viteza și traseul vehiculului și pentru funcționarea corectă a monitorizării GPS."
+    },
+    "backgroundLocation": {
+      "title": "Locație în fundal",
+      "text1": "Locația în fundal permite aplicației să continue urmărirea GPS atunci când TachoMobile rulează în fundal.",
+      "text2": "Fără această permisiune, urmărirea se poate opri atunci când aplicația nu se află pe ecranul principal."
+    },
+    "activityRecognition": {
+      "title": "Recunoașterea activității",
+      "text1": "TachoMobile folosește Google Activity Recognition pentru a determina dacă telefonul se află în vehicul sau în afara acestuia.",
+      "text2": "Aceste informații ajută aplicația să ajusteze corespunzător frecvența eșantionării GPS."
+    },
+    "notifications": {
+      "title": "Notificări",
+      "text": "Notificările sunt necesare pentru funcționarea corectă a serviciului de localizare care rulează în fundal."
+    },
+    "battery": {
+      "title": "Optimizarea bateriei",
+      "text1": "Unele dispozitive pot limita aplicațiile care rulează în fundal pentru a economisi bateria. Acest lucru poate limita sau opri funcționarea GPS-ului și, în consecință, poate duce la pierderea urmăririi.",
+      "text2": "De aceea, asigurați-vă că TachoMobile nu este restricționat de optimizarea bateriei."
+    },
+    "gps": {
+      "title": "Semnal GPS",
+      "text": "Starea semnalului GPS vă permite să verificați rapid dacă telefonul primește în prezent date corecte de localizare."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Ce trebuie făcut dacă ceva nu funcționează?",
+      "text1": "Dacă oricare dintre setările necesare nu este configurată corect, Starea aplicației va afișa starea corespunzătoare.",
+      "text2": "Atingerea elementului vă duce la setările corespunzătoare ale telefonului, unde puteți verifica sau modifica setarea necesară."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la pagina principală"
+  },
+  "footer": "© TachoMobile 2"
+}

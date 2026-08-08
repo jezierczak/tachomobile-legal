@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Permissions and Application Status",
+    "heading": "Permissions and Application Status"
+  },
+  "intro": {
+    "1": "TachoMobile uses the phone's GPS and Google Activity Recognition to automatically detect driving.",
+    "2": "GPS helps determine the vehicle's movement, speed and route, while activity recognition helps determine whether the phone is inside or outside the vehicle. This also allows the application to adjust GPS sampling to the current conditions.",
+    "3": "For monitoring to work correctly when TachoMobile is not displayed on the screen, the appropriate permissions and phone settings are required."
+  },
+  "sections": {
+    "status": {
+      "title": "Application Status",
+      "text1": "You can check the state of all required permissions and settings in the application:",
+      "text2": "The Application Status section contains the following items:",
+      "items": [
+        "Precise location",
+        "Background location",
+        "Activity recognition",
+        "Notifications",
+        "Battery optimization",
+        "GPS signal"
+      ]
+    },
+    "location": {
+      "title": "Precise Location",
+      "text": "TachoMobile uses precise location to determine the vehicle's speed and route and to ensure GPS monitoring works correctly."
+    },
+    "backgroundLocation": {
+      "title": "Background Location",
+      "text1": "Background location allows the application to continue tracking GPS when TachoMobile is running in the background.",
+      "text2": "Without this permission, tracking may stop when the application is not on the main screen."
+    },
+    "activityRecognition": {
+      "title": "Activity Recognition",
+      "text1": "TachoMobile uses Google Activity Recognition to determine whether the phone is inside or outside the vehicle.",
+      "text2": "This information helps the application adjust the GPS sampling frequency appropriately."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "text": "Notifications are required for the location service running in the background to work correctly."
+    },
+    "battery": {
+      "title": "Battery Optimization",
+      "text1": "Some devices may restrict background applications to save battery power. This may limit or stop GPS operation and consequently cause tracking to be lost.",
+      "text2": "Therefore, make sure that TachoMobile is not restricted by battery optimization."
+    },
+    "gps": {
+      "title": "GPS Signal",
+      "text": "The GPS signal status lets you quickly check whether the phone is currently receiving valid location data."
+    },
+    "troubleshooting": {
+      "title": "⚠️ What to do if something does not work?",
+      "text1": "If any required setting is not configured correctly, Application Status will show the relevant state.",
+      "text2": "Clicking the item takes you to the appropriate phone settings, where you can check or change the required setting."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Home Page"
+  },
+  "footer": "© TachoMobile 2"
+}

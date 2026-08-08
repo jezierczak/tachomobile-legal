@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "İzinler ve Uygulama Durumu",
+    "heading": "İzinler ve Uygulama Durumu"
+  },
+  "intro": {
+    "1": "TachoMobile, sürüşü otomatik olarak algılamak için telefonun GPS'ini ve Google Activity Recognition'ı kullanır.",
+    "2": "GPS aracın hareketini, hızını ve rotasını belirlemeyi sağlarken faaliyet algılama, telefonun aracın içinde mi yoksa dışında mı olduğunu belirlemeye yardımcı olur. Bu sayede uygulama GPS örnekleme sıklığını mevcut koşullara göre de ayarlayabilir.",
+    "3": "İzlemenin TachoMobile ekranda görüntülenmiyorken de düzgün çalışması için uygun izinler ve telefon ayarları gereklidir."
+  },
+  "sections": {
+    "status": {
+      "title": "Uygulama Durumu",
+      "text1": "Gerekli tüm izinlerin ve ayarların durumunu uygulama içinde kontrol edebilirsiniz:",
+      "text2": "Uygulama Durumu bölümünde şu öğeler bulunur:",
+      "items": [
+        "Kesin konum",
+        "Arka planda konum",
+        "Faaliyet algılama",
+        "Bildirimler",
+        "Pil optimizasyonu",
+        "GPS sinyali"
+      ]
+    },
+    "location": {
+      "title": "Kesin Konum",
+      "text": "TachoMobile, aracın hızını ve rotasını belirlemek ve GPS izlemenin düzgün çalışmasını sağlamak için kesin konumu kullanır."
+    },
+    "backgroundLocation": {
+      "title": "Arka Planda Konum",
+      "text1": "Arka planda konum, TachoMobile arka planda çalışırken uygulamanın GPS izlemeye devam etmesini sağlar.",
+      "text2": "Bu izin olmadan uygulama ana ekranda değilken izleme durabilir."
+    },
+    "activityRecognition": {
+      "title": "Faaliyet Algılama",
+      "text1": "TachoMobile, telefonun aracın içinde mi yoksa dışında mı olduğunu belirlemek için Google Activity Recognition'ı kullanır.",
+      "text2": "Bu bilgi, uygulamanın GPS örnekleme sıklığını uygun şekilde ayarlamasına yardımcı olur."
+    },
+    "notifications": {
+      "title": "Bildirimler",
+      "text": "Bildirimler, arka planda çalışan konum hizmetinin düzgün çalışması için gereklidir."
+    },
+    "battery": {
+      "title": "Pil Optimizasyonu",
+      "text1": "Bazı cihazlar pil tasarrufu amacıyla arka plandaki uygulamaları kısıtlayabilir. Bu durum GPS'in çalışmasını sınırlayabilir veya durdurabilir ve bunun sonucunda izleme kaybolabilir.",
+      "text2": "Bu nedenle TachoMobile'ın pil optimizasyonu tarafından kısıtlanmadığından emin olun."
+    },
+    "gps": {
+      "title": "GPS Sinyali",
+      "text": "GPS sinyali durumu, telefonun o anda doğru konum verilerini alıp almadığını hızlıca kontrol etmenizi sağlar."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Bir şey çalışmıyorsa ne yapmalı?",
+      "text1": "Gerekli ayarlardan herhangi biri doğru yapılandırılmamışsa Uygulama Durumu ilgili durumu gösterir.",
+      "text2": "Öğeye dokunduğunuzda gerekli ayarı kontrol edebileceğiniz veya değiştirebileceğiniz uygun telefon ayarlarına yönlendirilirsiniz."
+    }
+  },
+  "navigation": {
+    "back": "← Ana sayfaya dön"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Permissões e estado da aplicação",
+    "heading": "Permissões e estado da aplicação"
+  },
+  "intro": {
+    "1": "O TachoMobile utiliza o GPS do telemóvel e o Google Activity Recognition para detetar automaticamente a condução.",
+    "2": "O GPS permite determinar o movimento, a velocidade e o percurso do veículo, enquanto o reconhecimento de atividade ajuda a determinar se o telemóvel está dentro ou fora do veículo. Desta forma, a aplicação também pode adaptar a amostragem do GPS às condições atuais.",
+    "3": "Para que a monitorização funcione corretamente quando o TachoMobile não está apresentado no ecrã, são necessárias as permissões e definições adequadas do telemóvel."
+  },
+  "sections": {
+    "status": {
+      "title": "Estado da aplicação",
+      "text1": "Pode verificar o estado de todas as permissões e definições necessárias na aplicação:",
+      "text2": "A secção Estado da aplicação contém os seguintes elementos:",
+      "items": [
+        "Localização precisa",
+        "Localização em segundo plano",
+        "Reconhecimento de atividade",
+        "Notificações",
+        "Otimização da bateria",
+        "Sinal GPS"
+      ]
+    },
+    "location": {
+      "title": "Localização precisa",
+      "text": "O TachoMobile utiliza a localização precisa para determinar a velocidade e o percurso do veículo e para garantir o funcionamento correto da monitorização GPS."
+    },
+    "backgroundLocation": {
+      "title": "Localização em segundo plano",
+      "text1": "A localização em segundo plano permite que a aplicação continue a acompanhar o GPS quando o TachoMobile está a funcionar em segundo plano.",
+      "text2": "Sem esta permissão, o acompanhamento pode parar quando a aplicação não está no ecrã principal."
+    },
+    "activityRecognition": {
+      "title": "Reconhecimento de atividade",
+      "text1": "O TachoMobile utiliza o Google Activity Recognition para determinar se o telemóvel está dentro ou fora do veículo.",
+      "text2": "Esta informação ajuda a aplicação a adaptar corretamente a frequência de amostragem do GPS."
+    },
+    "notifications": {
+      "title": "Notificações",
+      "text": "As notificações são necessárias para o funcionamento correto do serviço de localização em segundo plano."
+    },
+    "battery": {
+      "title": "Otimização da bateria",
+      "text1": "Alguns dispositivos podem limitar as aplicações em segundo plano para poupar bateria. Isto pode limitar ou interromper o funcionamento do GPS e, consequentemente, causar a perda do acompanhamento.",
+      "text2": "Por isso, certifique-se de que o TachoMobile não é limitado pela otimização da bateria."
+    },
+    "gps": {
+      "title": "Sinal GPS",
+      "text": "O estado do sinal GPS permite verificar rapidamente se o telemóvel está atualmente a receber dados de localização corretos."
+    },
+    "troubleshooting": {
+      "title": "⚠️ O que fazer se algo não funcionar?",
+      "text1": "Se alguma das definições necessárias não estiver configurada corretamente, o Estado da aplicação apresentará o estado correspondente.",
+      "text2": "Ao tocar no elemento, acede às definições adequadas do telemóvel, onde pode verificar ou alterar a definição necessária."
+    }
+  },
+  "navigation": {
+    "back": "← Voltar à página inicial"
+  },
+  "footer": "© TachoMobile 2"
+}

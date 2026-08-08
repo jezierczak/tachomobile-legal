@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Autorizzazioni e stato dell'applicazione",
+    "heading": "Autorizzazioni e stato dell'applicazione"
+  },
+  "intro": {
+    "1": "TachoMobile utilizza il GPS del telefono e Google Activity Recognition per riconoscere automaticamente la guida.",
+    "2": "Il GPS consente di determinare lo spostamento, la velocità e il percorso del veicolo, mentre il riconoscimento dell'attività aiuta a stabilire se il telefono si trova dentro o fuori dal veicolo. In questo modo l'applicazione può anche adattare il campionamento GPS alle condizioni attuali.",
+    "3": "Affinché il monitoraggio funzioni correttamente anche quando TachoMobile non è visualizzato sullo schermo, sono necessarie le autorizzazioni e le impostazioni appropriate del telefono."
+  },
+  "sections": {
+    "status": {
+      "title": "Stato dell'applicazione",
+      "text1": "Puoi verificare lo stato di tutte le autorizzazioni e impostazioni richieste nell'applicazione:",
+      "text2": "Nella sezione Stato dell'applicazione sono presenti i seguenti elementi:",
+      "items": [
+        "Posizione precisa",
+        "Posizione in background",
+        "Riconoscimento dell'attività",
+        "Notifiche",
+        "Ottimizzazione della batteria",
+        "Segnale GPS"
+      ]
+    },
+    "location": {
+      "title": "Posizione precisa",
+      "text": "TachoMobile utilizza la posizione precisa per determinare la velocità e il percorso del veicolo e per garantire il corretto funzionamento del monitoraggio GPS."
+    },
+    "backgroundLocation": {
+      "title": "Posizione in background",
+      "text1": "La posizione in background permette all'applicazione di continuare a seguire il GPS quando TachoMobile funziona in background.",
+      "text2": "Senza questa autorizzazione, il monitoraggio può interrompersi quando l'applicazione non si trova nella schermata principale."
+    },
+    "activityRecognition": {
+      "title": "Riconoscimento dell'attività",
+      "text1": "TachoMobile utilizza Google Activity Recognition per determinare se il telefono si trova dentro o fuori dal veicolo.",
+      "text2": "Questa informazione aiuta l'applicazione ad adattare correttamente la frequenza di campionamento del GPS."
+    },
+    "notifications": {
+      "title": "Notifiche",
+      "text": "Le notifiche sono necessarie per il corretto funzionamento del servizio di localizzazione in background."
+    },
+    "battery": {
+      "title": "Ottimizzazione della batteria",
+      "text1": "Alcuni dispositivi possono limitare le applicazioni in background per risparmiare batteria. Ciò può limitare o interrompere il funzionamento del GPS e di conseguenza causare la perdita del monitoraggio.",
+      "text2": "Assicurati quindi che TachoMobile non sia limitato dall'ottimizzazione della batteria."
+    },
+    "gps": {
+      "title": "Segnale GPS",
+      "text": "Lo stato del segnale GPS permette di verificare rapidamente se il telefono sta attualmente ricevendo dati di posizione corretti."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Cosa fare se qualcosa non funziona?",
+      "text1": "Se una delle impostazioni richieste non è configurata correttamente, lo Stato dell'applicazione mostrerà lo stato corrispondente.",
+      "text2": "Toccando l'elemento si accede alle impostazioni appropriate del telefono, dove è possibile controllare o modificare l'impostazione richiesta."
+    }
+  },
+  "navigation": {
+    "back": "← Torna alla pagina principale"
+  },
+  "footer": "© TachoMobile 2"
+}

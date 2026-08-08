@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Engedélyek és az alkalmazás állapota",
+    "heading": "Engedélyek és az alkalmazás állapota"
+  },
+  "intro": {
+    "1": "A TachoMobile a telefon GPS-ét és a Google Activity Recognition szolgáltatást használja a vezetés automatikus felismeréséhez.",
+    "2": "A GPS segítségével meghatározható a jármű mozgása, sebessége és útvonala, míg a tevékenységfelismerés segít megállapítani, hogy a telefon a járműben vagy azon kívül található-e. Ennek köszönhetően az alkalmazás a GPS-mintavételezést is az aktuális körülményekhez igazíthatja.",
+    "3": "Ahhoz, hogy a monitorozás akkor is megfelelően működjön, amikor a TachoMobile nem látható a képernyőn, a megfelelő engedélyekre és telefonbeállításokra van szükség."
+  },
+  "sections": {
+    "status": {
+      "title": "Az alkalmazás állapota",
+      "text1": "Az összes szükséges engedély és beállítás állapotát az alkalmazásban ellenőrizheti:",
+      "text2": "Az alkalmazás állapota részben a következő elemek találhatók:",
+      "items": [
+        "Pontos helymeghatározás",
+        "Háttérben történő helymeghatározás",
+        "Tevékenységfelismerés",
+        "Értesítések",
+        "Akkumulátor-optimalizálás",
+        "GPS-jel"
+      ]
+    },
+    "location": {
+      "title": "Pontos helymeghatározás",
+      "text": "A TachoMobile a pontos helymeghatározást használja a jármű sebességének és útvonalának meghatározásához, valamint a GPS-monitorozás megfelelő működéséhez."
+    },
+    "backgroundLocation": {
+      "title": "Háttérben történő helymeghatározás",
+      "text1": "A háttérben történő helymeghatározás lehetővé teszi, hogy az alkalmazás folytassa a GPS-követést, amikor a TachoMobile a háttérben fut.",
+      "text2": "Ennek az engedélynek a hiányában a követés leállhat, amikor az alkalmazás nincs a főképernyőn."
+    },
+    "activityRecognition": {
+      "title": "Tevékenységfelismerés",
+      "text1": "A TachoMobile a Google Activity Recognition szolgáltatást használja annak megállapítására, hogy a telefon a járműben vagy azon kívül van-e.",
+      "text2": "Ez az információ segít az alkalmazásnak a GPS-mintavételezés gyakoriságának megfelelő beállításában."
+    },
+    "notifications": {
+      "title": "Értesítések",
+      "text": "Az értesítések szükségesek a háttérben működő helymeghatározási szolgáltatás megfelelő működéséhez."
+    },
+    "battery": {
+      "title": "Akkumulátor-optimalizálás",
+      "text1": "Egyes készülékek az akkumulátor megtakarítása érdekében korlátozhatják a háttérben működő alkalmazásokat. Ez korlátozhatja vagy leállíthatja a GPS működését, és ezáltal a követés elvesztését okozhatja.",
+      "text2": "Ezért győződjön meg arról, hogy az akkumulátor-optimalizálás nem korlátozza a TachoMobile működését."
+    },
+    "gps": {
+      "title": "GPS-jel",
+      "text": "A GPS-jel állapota gyorsan megmutatja, hogy a telefon jelenleg megfelelő helymeghatározási adatokat kap-e."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Mi a teendő, ha valami nem működik?",
+      "text1": "Ha valamelyik szükséges beállítás nincs megfelelően konfigurálva, az alkalmazás állapota megjeleníti a megfelelő állapotot.",
+      "text2": "Az elemre koppintva a megfelelő telefonbeállításokhoz jut, ahol ellenőrizheti vagy módosíthatja a szükséges beállítást."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a főoldalra"
+  },
+  "footer": "© TachoMobile 2"
+}

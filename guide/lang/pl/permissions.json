@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Uprawnienia i Status aplikacji",
+    "heading": "Uprawnienia i Status aplikacji"
+  },
+  "intro": {
+    "1": "TachoMobile wykorzystuje GPS telefonu oraz Google Activity Recognition do automatycznego rozpoznawania jazdy.",
+    "2": "GPS pozwala określić przemieszczanie się pojazdu, prędkość i trasę, natomiast rozpoznawanie aktywności pomaga określić, czy telefon znajduje się w pojeździe czy poza nim. Dzięki temu aplikacja może również dostosować sposób próbkowania GPS do aktualnych warunków.",
+    "3": "Aby monitoring działał prawidłowo również wtedy, gdy TachoMobile nie jest wyświetlany na ekranie, wymagane są odpowiednie uprawnienia i ustawienia telefonu."
+  },
+  "sections": {
+    "status": {
+      "title": "Status aplikacji",
+      "text1": "Stan wszystkich wymaganych uprawnień i ustawień możesz sprawdzić w aplikacji:",
+      "text2": "W sekcji Status aplikacji znajdują się następujące elementy:",
+      "items": [
+        "Dokładna lokalizacja",
+        "Lokalizacja w tle",
+        "Rozpoznawanie aktywności",
+        "Powiadomienia",
+        "Optymalizacja baterii",
+        "Sygnał GPS"
+      ]
+    },
+    "location": {
+      "title": "Dokładna lokalizacja",
+      "text": "TachoMobile wykorzystuje dokładną lokalizację do określania prędkości i trasy pojazdu oraz prawidłowego działania monitorowania GPS."
+    },
+    "backgroundLocation": {
+      "title": "Lokalizacja w tle",
+      "text1": "Lokalizacja w tle pozwala aplikacji kontynuować śledzenie GPS, gdy TachoMobile działa w tle.",
+      "text2": "Brak tego uprawnienia może spowodować zatrzymanie śledzenia, gdy aplikacja nie znajduje się na głównym ekranie."
+    },
+    "activityRecognition": {
+      "title": "Rozpoznawanie aktywności",
+      "text1": "TachoMobile korzysta z Google Activity Recognition, aby określić, czy telefon znajduje się w pojeździe czy poza nim.",
+      "text2": "Informacja ta pomaga aplikacji odpowiednio dostosować częstotliwość próbkowania GPS."
+    },
+    "notifications": {
+      "title": "Powiadomienia",
+      "text": "Powiadomienia są wymagane do prawidłowego działania usługi lokalizacji działającej w tle."
+    },
+    "battery": {
+      "title": "Optymalizacja baterii",
+      "text1": "Niektóre urządzenia mogą ograniczać działanie aplikacji w tle w celu oszczędzania baterii. Może to spowodować ograniczenie lub zatrzymanie działania GPS i w konsekwencji utratę śledzenia.",
+      "text2": "Dlatego warto upewnić się, że TachoMobile nie jest ograniczany przez optymalizację baterii."
+    },
+    "gps": {
+      "title": "Sygnał GPS",
+      "text": "Status sygnału GPS pozwala szybko sprawdzić, czy telefon aktualnie otrzymuje prawidłowe dane lokalizacyjne."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Co zrobić, jeśli coś nie działa?",
+      "text1": "Jeżeli którekolwiek z wymaganych ustawień nie jest prawidłowo skonfigurowane, Status aplikacji pokaże odpowiedni stan.",
+      "text2": "Kliknięcie danego elementu prowadzi do odpowiednich ustawień telefonu, gdzie można sprawdzić lub zmienić wymagane ustawienie."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do strony głównej"
+  },
+  "footer": "© TachoMobile 2"
+}
