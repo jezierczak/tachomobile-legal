@@ -8,6 +8,7 @@
     "description": "Acest ghid conține informații care vă ajută să configurați și să utilizați corect TachoMobile 2."
   },
   "modules": {
+    "activityEntry": { "title": "Introducerea activităților șoferului", "description": "Află cum să începi și să închei lucrul și să introduci rapid activitățile șoferului.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Primii pași",
       "description": "O introducere rapidă pentru a începe să utilizați TachoMobile 2.",

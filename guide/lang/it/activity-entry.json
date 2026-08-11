@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Immissione dell'attività del conducente - TachoMobile 2",
+    "heading": "Immissione dell'attività del conducente",
+    "intro": "All'inizio e alla fine del lavoro, TachoMobile 2 visualizza un modulo in cui è possibile inserire le informazioni più importanti relative al turno.<br><br>L'applicazione può completare la maggior parte dei dati automaticamente, ma è sempre possibile verificarli e correggerli prima di salvare la voce."
+  },
+  "sections": {
+    "start": {
+      "title": "Iniziare",
+      "intro": "Dopo aver selezionato<strong>\"Inizia / Inserisci la carta del conducente\"</strong>apparirà un modulo di avvio.",
+      "initialActivity": {
+        "title": "Attività iniziale",
+        "text": "Scegli un'attività con cui iniziare la giornata. L'impostazione predefinita è questa<strong>Lavoro</strong>, ma puoi scegliere un'attività diversa se la tua giornata inizia diversamente."
+      },
+      "vehicle": {
+        "title": "Numero di registrazione",
+        "text": "Seleziona il veicolo con cui inizi a lavorare.<br><br>Dopo il primo utilizzo la targa verrà ricordata nell'elenco dei veicoli, così non dovrai reinserirla nei giorni successivi."
+      },
+      "location": {
+        "title": "Paese e città di partenza",
+        "text": "Il Paese e la città vengono determinati automaticamente in base alla posizione attuale del telefono.<br><br>Se i dati non sono corretti è possibile correggerli prima di salvare la voce."
+      },
+      "odometer": {
+        "title": "Stato del contatore",
+        "text": "Immettere la lettura attuale del contachilometri del veicolo.<br><br>Il valore inserito verrà quindi utilizzato come punto di riferimento per le attività successive e potrà essere completato automaticamente in base all'ultimo stato salvato."
+      },
+      "dateTime": {
+        "title": "Data e ora di inizio",
+        "text": "Per impostazione predefinita, sono impostate la data e l'ora correnti.<br><br>Puoi cambiarlo se hai iniziato a lavorare prima, ad es. qualche o una dozzina di minuti prima di aprire l'applicazione."
+      },
+      "notes": {
+        "title": "Commenti",
+        "text": "Qui puoi aggiungere ulteriori informazioni su come iniziare.<br><br>Il campo è facoltativo."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Impostazioni relative alla modalità di esecuzione del trasporto",
+      "intro": "Il modulo di inizio lavoro include anche tre opzioni che influiscono sul modo in cui vengono interpretate le voci e vengono applicate le regole appropriate.",
+      "crew": {
+        "title": "Guidare in equipaggio",
+        "text": "Abilitare questa opzione significa che l'intero turno verrà interpretato come lavoro di squadra.<br><br>Ciò influisce sulle modalità di calcolo dell'orario di lavoro, del tempo di guida, dei periodi di riposo e di altri limiti derivanti dalla normativa relativa alla guida dell'equipaggio."
+      },
+      "international": {
+        "title": "Trasporto internazionale",
+        "text": "L'abilitazione di questa opzione ti consente di applicare le regole di spedizione internazionali appropriate.<br><br>Ciò è importante, tra l'altro, per l'interpretazione dei periodi di riposo settimanale e del ritorno alla base del conducente."
+      },
+      "passenger": {
+        "title": "Trasporto passeggeri occasionale",
+        "text": "L'opzione deve essere attivata quando si effettua un trasporto occasionale di passeggeri, ad es. trasporto in pullman.<br><br>Ciò consente di applicare norme adeguate in materia di tempi di guida e di riposo per questo tipo di trasporto."
+      },
+      "warning": {
+        "title": "Importante",
+        "text": "Queste opzioni dovrebbero corrispondere alla natura effettiva del trasporto effettuato. Influiscono sul modo in cui il modulo di conformità interpreta i dati."
+      },
+      "actions": {
+        "title": "✅ Conferma/Annulla",
+        "text": "<strong>Confermare</strong>salva l'inizio del lavoro.<br><br><strong>Cancellare</strong>chiude il modulo senza salvare le modifiche."
+      }
+    },
+    "finish": {
+      "title": "Completamento del lavoro",
+      "intro": "Dopo aver selezionato<strong>\"Rimuovi scheda/Termina lavoro\"</strong>verrà visualizzato un modulo di completamento del lavoro.<br><br>Il suo funzionamento è simile al modulo di avvio.",
+      "vehicle": {
+        "title": "Veicolo",
+        "text": "Il numero di registrazione verrà completato automaticamente in base alla modifica avviata."
+      },
+      "location": {
+        "title": "Paese e città",
+        "text": "I dati vengono completati automaticamente in base alla tua posizione attuale.<br><br>Puoi correggerli se necessario."
+      },
+      "odometer": {
+        "title": "Stato del contatore",
+        "text": "L'applicazione utilizza l'ultima lettura del contatore conosciuta. Puoi controllarlo e correggerlo prima di salvare."
+      },
+      "dateTime": {
+        "title": "Data e ora di fine",
+        "text": "Per impostazione predefinita, sono impostate la data e l'ora correnti.<br><br>Puoi modificarlo se il lavoro effettivo è stato terminato prima o se desideri correggere il record."
+      },
+      "notes": {
+        "title": "Commenti",
+        "text": "Campo facoltativo per informazioni aggiuntive relative al completamento del lavoro."
+      },
+      "actions": {
+        "title": "✅ Conferma/Annulla",
+        "text": "<strong>Confermare</strong>termina la modifica e salva i dati.<br><br><strong>Cancellare</strong>chiude il modulo senza salvare le modifiche.<br><br>Una volta terminato, anche TachoMobile 2 inizierà a funzionare<strong>maturazione del resto</strong>. A questo punto puoi determinare o verificare<strong>lo scopo del riposo</strong>, se usi questa funzione."
+      }
+    },
+    "quickChange": {
+      "title": "Cambio rapido di attività",
+      "intro": "Mentre lavori, non devi aprire il modulo completo ogni volta.<br><br>Nella schermata iniziale puoi toccare l'attività corrente per selezionare rapidamente quella successiva.",
+      "available": {
+        "title": "Attività disponibili",
+        "items": [
+          "🚗 Guidare",
+          "Lavoro",
+          "⏱️Disponibilità",
+          "Riposo"
+        ]
+      },
+      "special": {
+        "title": "Voci speciali",
+        "items": [
+          "⛴️ Entrata nel traghetto/Uscita dal traghetto",
+          "Carico/Scarico"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Salvataggio rapido",
+        "text": "Se è abilitato<strong>salvataggio rapido</strong>, l'attività selezionata verrà salvata immediatamente.<br><br>Se il salvataggio rapido è disattivato, dopo aver selezionato un'attività, verrà visualizzato un modulo in cui è possibile verificare o completare i dettagli della voce.",
+        "fields": "Il modulo contiene le stesse informazioni di base:",
+        "summary": "<strong>veicolo → paese → città → contachilometri → data e ora → commenti</strong><br><br>Grazie a questo, puoi sia modificare rapidamente la tua attività sia determinare con precisione il momento e il luogo del suo inizio."
+      }
+    },
+    "important": {
+      "title": "Vale la pena saperlo",
+      "text1": "TachoMobile 2 tenta di completare automaticamente i dati già noti dai record precedenti. Ma ciò non significa che non puoi migliorarli.",
+      "text2": "<strong>Se la registrazione non corrisponde alla realtà, controlla i dati e correggili prima dell'approvazione.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Torna alla guida"
+  },
+  "footer": "© Tacho Mobile 2"
+}

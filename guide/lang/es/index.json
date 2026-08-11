@@ -8,6 +8,7 @@
     "description": "Esta guía contiene información para ayudarte a configurar y utilizar TachoMobile 2 correctamente."
   },
   "modules": {
+    "activityEntry": { "title": "Introducción de actividades del conductor", "description": "Aprende a iniciar y finalizar el trabajo y a introducir rápidamente las actividades del conductor.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Primeros pasos",
       "description": "Una introducción rápida para empezar a utilizar TachoMobile 2.",

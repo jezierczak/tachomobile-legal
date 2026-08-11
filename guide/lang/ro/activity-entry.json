@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Introducerea activității șoferului - TachoMobile 2",
+    "heading": "Intrarea în activitatea șoferului",
+    "intro": "La începerea și încheierea lucrului, TachoMobile 2 afișează un formular în care puteți completa cele mai importante informații referitoare la tură.<br><br>Aplicația poate completa majoritatea datelor automat, dar puteți oricând să le verificați și să le corectați înainte de a salva intrarea."
+  },
+  "sections": {
+    "start": {
+      "title": "Noțiuni de bază",
+      "intro": "După selectare<strong>„Începeți / Introduceți cardul șoferului”</strong>va apărea un formular de pornire.",
+      "initialActivity": {
+        "title": "Activitate inițială",
+        "text": "Alegeți o activitate cu care să vă începeți ziua. Valoarea implicită este aceasta<strong>Lucru</strong>, dar poți alege o activitate diferită dacă ziua ta începe altfel."
+      },
+      "vehicle": {
+        "title": "Număr de înregistrare",
+        "text": "Selectați vehiculul cu care începeți lucrul.<br><br>După prima utilizare, numărul de înmatriculare va fi reținut în lista de vehicule, astfel încât nu va trebui să îl introduceți din nou în zilele următoare."
+      },
+      "location": {
+        "title": "Țara și orașul de început",
+        "text": "Țara și orașul sunt determinate automat pe baza locației curente a telefonului.<br><br>Dacă datele sunt incorecte, le puteți corecta înainte de a salva intrarea."
+      },
+      "odometer": {
+        "title": "Starea contorului",
+        "text": "Introduceți valoarea curentă a contorului de parcurs al vehiculului.<br><br>Valoarea introdusă va fi apoi folosită ca punct de referință pentru activitățile ulterioare și poate fi completată automat pe baza ultimei stări salvate."
+      },
+      "dateTime": {
+        "title": "Data și ora de începere",
+        "text": "În mod implicit, data și ora curente sunt setate.<br><br>O puteți schimba dacă ați început să lucrați mai devreme, de ex. cu câteva sau cu o duzină de minute înainte de a deschide aplicația."
+      },
+      "notes": {
+        "title": "Comentarii",
+        "text": "Aici puteți adăuga informații suplimentare despre începerea.<br><br>Câmpul este opțional."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Setări privind modul în care se efectuează transportul",
+      "intro": "Formularul de începere a postului include, de asemenea, trei opțiuni care afectează modul în care sunt interpretate intrările și sunt aplicate regulile corespunzătoare.",
+      "crew": {
+        "title": "Călărit într-un echipaj",
+        "text": "Activarea acestei opțiuni înseamnă că întregul schimb va fi interpretat ca lucru al echipajului.<br><br>Aceasta afectează modul de calcul al timpului de lucru, al timpului de conducere, al perioadelor de odihnă și al altor limite rezultate din reglementările privind conducerea echipajului."
+      },
+      "international": {
+        "title": "Transport international",
+        "text": "Activarea acestei opțiuni vă permite să aplicați regulile corespunzătoare de transport internațional.<br><br>Acest lucru este important, printre altele, pentru interpretarea perioadelor de odihnă săptămânală și întoarcerea șoferului la bază."
+      },
+      "passenger": {
+        "title": "Transport ocazional de persoane",
+        "text": "Opțiunea ar trebui să fie activată atunci când se efectuează transport ocazional de pasageri, de ex. transport cu autocar.<br><br>Acest lucru vă permite să aplicați reguli adecvate privind timpul de conducere și odihnă pentru acest tip de transport."
+      },
+      "warning": {
+        "title": "Important",
+        "text": "Aceste opțiuni ar trebui să corespundă naturii efective a transportului efectuat. Acestea afectează modul în care modulul de conformitate interpretează datele."
+      },
+      "actions": {
+        "title": "✅ Confirmați/Anulați",
+        "text": "<strong>Confirma</strong>salvează începutul lucrului.<br><br><strong>Anula</strong>închide formularul fără a salva modificările."
+      }
+    },
+    "finish": {
+      "title": "Finalizarea lucrării",
+      "intro": "După selectare<strong>„Eliminați cardul/Încheierea lucrării”</strong>va apărea un formular de finalizare a postului.<br><br>Funcționarea sa este similară cu forma de pornire.",
+      "vehicle": {
+        "title": "Vehicul",
+        "text": "Numărul de înregistrare va fi completat automat pe baza modificării inițiate."
+      },
+      "location": {
+        "title": "Țara și orașul",
+        "text": "Datele sunt completate automat pe baza locației dvs. actuale.<br><br>Le puteți corecta dacă este necesar."
+      },
+      "odometer": {
+        "title": "Starea contorului",
+        "text": "Aplicația folosește ultima citire cunoscută a contorului. Îl puteți verifica și corecta înainte de a salva."
+      },
+      "dateTime": {
+        "title": "Data și ora de încheiere",
+        "text": "În mod implicit, data și ora curente sunt setate.<br><br>O puteți schimba dacă lucrarea efectivă a fost terminată mai devreme sau doriți să corectați înregistrarea."
+      },
+      "notes": {
+        "title": "Comentarii",
+        "text": "Câmp opțional pentru informații suplimentare privind finalizarea jobului."
+      },
+      "actions": {
+        "title": "✅ Confirmați/Anulați",
+        "text": "<strong>Confirma</strong>încheie modificarea și salvează datele.<br><br><strong>Anula</strong>închide formularul fără a salva modificările.<br><br>Odată terminat, TachoMobile 2 începe să funcționeze și el<strong>acumularea restului</strong>. În acest moment puteți determina sau verifica<strong>scopul odihnei</strong>, dacă utilizați această funcție."
+      }
+    },
+    "quickChange": {
+      "title": "Schimbarea rapidă a activității",
+      "intro": "În timp ce lucrați, nu trebuie să deschideți formularul complet de fiecare dată.<br><br>Pe ecranul de pornire, puteți atinge activitatea curentă pentru a o selecta rapid pe următoarea.",
+      "available": {
+        "title": "Activitati disponibile",
+        "items": [
+          "🚗 Condus",
+          "Lucru",
+          "⏱️ Disponibilitate",
+          "Odihnă"
+        ]
+      },
+      "special": {
+        "title": "Intrări speciale",
+        "items": [
+          "⛴️ Intrarea în feribot / Ieșirea din feribot",
+          "Încărcare/Descărcare"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Salvare rapidă",
+        "text": "Dacă este activat<strong>salvare rapidă</strong>, activitatea selectată va fi salvată imediat.<br><br>Dacă salvarea rapidă este dezactivată, după selectarea unei activități, va apărea un formular în care puteți verifica sau completa detaliile înregistrării.",
+        "fields": "Formularul conține aceleași informații de bază:",
+        "summary": "<strong>vehicul → țară → oraș → contorul de parcurs → data și ora → comentarii</strong><br><br>Datorită acestui fapt, puteți să vă schimbați rapid activitatea și să determinați cu precizie momentul și locul începerii acesteia."
+      }
+    },
+    "important": {
+      "title": "Merită să știți",
+      "text1": "TachoMobile 2 încearcă să completeze automat datele care sunt deja cunoscute din înregistrările anterioare. Dar asta nu înseamnă că nu le poți îmbunătăți.",
+      "text2": "<strong>Dacă înregistrarea nu corespunde realității, verificați datele și corectați-le înainte de aprobare.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la ghid"
+  },
+  "footer": "© TachoMobile 2"
+}

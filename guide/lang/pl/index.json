@@ -27,6 +27,11 @@
       "title": "Ekran główny",
       "description": "Poznaj elementy, informacje i akcje dostępne na głównym ekranie TachoMobile 2.",
       "url": "main-screen/"
+    },
+    "activityEntry": {
+      "title": "Wprowadzanie aktywności kierowcy",
+      "description": "Dowiedz się, jak rozpoczynać i kończyć pracę oraz szybko wprowadzać kolejne aktywności kierowcy.",
+      "url": "activity-entry/"
     }
   },
   "navigation": {

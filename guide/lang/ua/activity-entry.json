@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "ua"
+  },
+  "page": {
+    "title": "Entering driver activity - TachoMobile 2",
+    "heading": "Entering driver activity",
+    "intro": "When starting and ending work, TachoMobile 2 displays a form in which you can complete the most important information regarding the shift.<br><br>The application can complete most of the data automatically, but you can always check and correct it before saving the entry."
+  },
+  "sections": {
+    "start": {
+      "title": "Getting started",
+      "intro": "After selecting<strong>\"Get started / Insert driver card\"</strong>a start-up form will appear.",
+      "initialActivity": {
+        "title": "Initial activity",
+        "text": "Choose an activity to start your day with. The default is this<strong>Work</strong>, but you can choose a different activity if your day starts differently."
+      },
+      "vehicle": {
+        "title": "Registration number",
+        "text": "Select the vehicle with which you start work.<br><br>After the first use, the registration number will be remembered in the vehicle list, so you will not have to enter it again on subsequent days."
+      },
+      "location": {
+        "title": "Country and city of start",
+        "text": "The country and city are automatically determined based on the current location of the phone.<br><br>If the data is incorrect, you can correct it before saving the entry."
+      },
+      "odometer": {
+        "title": "Meter status",
+        "text": "Enter the current vehicle odometer reading.<br><br>The entered value will then be used as a reference point for subsequent activities and may be automatically completed based on the last saved state."
+      },
+      "dateTime": {
+        "title": "Start date and time",
+        "text": "By default, the current date and time are set.<br><br>You can change it if you started working earlier, e.g. a few or a dozen or so minutes before opening the application."
+      },
+      "notes": {
+        "title": "Comments",
+        "text": "Here you can add additional information about getting started.<br><br>The field is optional."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Settings regarding how transport is performed",
+      "intro": "The job start form also includes three options that affect how the entries are interpreted and the appropriate rules are applied.",
+      "crew": {
+        "title": "Riding in a crew",
+        "text": "Enabling this option means that the entire shift will be interpreted as crew work.<br><br>This affects the method of calculating working time, driving time, rest periods and other limits resulting from the regulations regarding crew driving."
+      },
+      "international": {
+        "title": "International transport",
+        "text": "Enabling this option allows you to apply the appropriate international shipping rules.<br><br>This is important, among other things, for the interpretation of weekly rest periods and the driver's return to base."
+      },
+      "passenger": {
+        "title": "Occasional passenger transport",
+        "text": "The option should be turned on when performing occasional passenger transport, e.g. coach transport.<br><br>This allows you to apply appropriate rules regarding driving and rest times for this type of transport."
+      },
+      "warning": {
+        "title": "Important",
+        "text": "These options should correspond to the actual nature of the transport performed. They affect how the compliance module interprets data."
+      },
+      "actions": {
+        "title": "✅ Confirm/Cancel",
+        "text": "<strong>Confirm</strong>saves the start of work.<br><br><strong>Cancel</strong>closes the form without saving changes."
+      }
+    },
+    "finish": {
+      "title": "Completion of work",
+      "intro": "After selecting<strong>\"Remove Card/End Job\"</strong>a job completion form will appear.<br><br>Its operation is similar to the start form.",
+      "vehicle": {
+        "title": "Vehicle",
+        "text": "The registration number will be automatically completed based on the initiated change."
+      },
+      "location": {
+        "title": "Country and city",
+        "text": "Data is automatically completed based on your current location.<br><br>You can correct them if necessary."
+      },
+      "odometer": {
+        "title": "Meter status",
+        "text": "The application uses the last known counter reading. You can check and correct it before saving."
+      },
+      "dateTime": {
+        "title": "End date and time",
+        "text": "By default, the current date and time are set.<br><br>You can change it if the actual work was finished earlier or you want to correct the record."
+      },
+      "notes": {
+        "title": "Comments",
+        "text": "Optional field for additional information regarding the completion of the job."
+      },
+      "actions": {
+        "title": "✅ Confirm/Cancel",
+        "text": "<strong>Confirm</strong>ends the change and saves the data.<br><br><strong>Cancel</strong>closes the form without saving changes.<br><br>Once finished, TachoMobile 2 starts working as well<strong>rest accrual</strong>. At this point you can determine or check<strong>the purpose of rest</strong>, if you use this feature."
+      }
+    },
+    "quickChange": {
+      "title": "Quick change of activity",
+      "intro": "While working, you don't have to open the full form every time.<br><br>On the home screen, you can tap your current activity to quickly select the next one.",
+      "available": {
+        "title": "Available activities",
+        "items": [
+          "🚗 Driving",
+          "Work",
+          "⏱️ Availability",
+          "Rest"
+        ]
+      },
+      "special": {
+        "title": "Special entries",
+        "items": [
+          "⛴️ Entering the ferry / Exiting the ferry",
+          "Loading / Unloading"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Quick save",
+        "text": "If it is enabled<strong>quick save</strong>, the selected activity will be saved immediately.<br><br>If quick saving is turned off, after selecting an activity, a form will appear in which you can check or complete the details of the entry.",
+        "fields": "The form contains the same basic information:",
+        "summary": "<strong>vehicle → country → city → odometer → date and time → comments</strong><br><br>Thanks to this, you can both quickly change your activity and precisely determine the moment and place of its start."
+      }
+    },
+    "important": {
+      "title": "It's worth knowing",
+      "text1": "TachoMobile 2 tries to automatically complete data that is already known from previous records. But that doesn't mean you can't improve them.",
+      "text2": "<strong>If the record does not correspond to reality, check the data and correct it before approval.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Back to guide"
+  },
+  "footer": "© TachoMobile 2"
+}

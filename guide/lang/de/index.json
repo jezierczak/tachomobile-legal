@@ -8,6 +8,7 @@
     "description": "Dieser Leitfaden enthält Informationen zur richtigen Einrichtung und Nutzung von TachoMobile 2."
   },
   "modules": {
+    "activityEntry": { "title": "Eingabe der Fahreraktivitäten", "description": "Erfahre, wie du die Arbeit beginnst und beendest und Fahreraktivitäten schnell eingibst.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Erste Schritte",
       "description": "Eine kurze Einführung in den Start mit TachoMobile 2.",

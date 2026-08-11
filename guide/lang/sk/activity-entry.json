@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Zadanie aktivity vodiča - TachoMobile 2",
+    "heading": "Zadanie aktivity vodiča",
+    "intro": "Pri začatí a ukončení práce zobrazí TachoMobile 2 formulár, v ktorom môžete vyplniť najdôležitejšie informácie týkajúce sa zmeny.<br><br>Aplikácia dokáže väčšinu údajov doplniť automaticky, no vždy si ich pred uložením zadania môžete skontrolovať a opraviť."
+  },
+  "sections": {
+    "start": {
+      "title": "Začíname",
+      "intro": "Po výbere<strong>\"Začíname / Vložte kartu vodiča\"</strong>objaví sa štartovací formulár.",
+      "initialActivity": {
+        "title": "Počiatočná činnosť",
+        "text": "Vyberte si aktivitu, ktorou začnete deň. Predvolená hodnota je toto<strong>Práca</strong>, ale môžete si vybrať inú aktivitu, ak váš deň začína inak."
+      },
+      "vehicle": {
+        "title": "Registračné číslo",
+        "text": "Vyberte vozidlo, s ktorým začnete pracovať.<br><br>Po prvom použití sa evidenčné číslo zapamätá v zozname vozidiel, takže ho nebudete musieť v nasledujúcich dňoch znova zadávať."
+      },
+      "location": {
+        "title": "Krajina a mesto štartu",
+        "text": "Krajina a mesto sa určia automaticky na základe aktuálnej polohy telefónu.<br><br>Ak sú údaje nesprávne, môžete ich pred uložením záznamu opraviť."
+      },
+      "odometer": {
+        "title": "Stav merača",
+        "text": "Zadajte aktuálny stav počítadla kilometrov vozidla.<br><br>Zadaná hodnota sa potom použije ako referenčný bod pre ďalšie aktivity a môže sa automaticky doplniť na základe posledného uloženého stavu."
+      },
+      "dateTime": {
+        "title": "Dátum a čas začiatku",
+        "text": "V predvolenom nastavení je nastavený aktuálny dátum a čas.<br><br>Môžete to zmeniť, ak ste začali pracovať skôr, napr. niekoľko minút alebo niekoľko minút pred otvorením aplikácie."
+      },
+      "notes": {
+        "title": "Komentáre",
+        "text": "Tu môžete pridať ďalšie informácie o tom, ako začať.<br><br>Pole je voliteľné."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Nastavenia týkajúce sa spôsobu vykonávania prepravy",
+      "intro": "Formulár spustenia úlohy tiež obsahuje tri možnosti, ktoré ovplyvňujú spôsob interpretácie záznamov a aplikovanie príslušných pravidiel.",
+      "crew": {
+        "title": "Jazda v posádke",
+        "text": "Povolenie tejto možnosti znamená, že celá zmena bude interpretovaná ako práca posádky.<br><br>To má vplyv na spôsob výpočtu pracovného času, času jazdy, dôb odpočinku a ďalších limitov vyplývajúcich z predpisov o riadení posádky."
+      },
+      "international": {
+        "title": "Medzinárodná doprava",
+        "text": "Povolenie tejto možnosti vám umožní použiť príslušné medzinárodné pravidlá prepravy.<br><br>Je to dôležité okrem iného pre interpretáciu týždenných dôb odpočinku a návratu vodiča na základňu."
+      },
+      "passenger": {
+        "title": "Príležitostná osobná doprava",
+        "text": "Voľba by mala byť zapnutá pri vykonávaní príležitostnej prepravy osôb, napr. autokarovú dopravu.<br><br>To vám umožňuje uplatniť príslušné pravidlá týkajúce sa doby jazdy a odpočinku pre tento typ dopravy."
+      },
+      "warning": {
+        "title": "Dôležité",
+        "text": "Tieto možnosti by mali zodpovedať skutočnému charakteru vykonávanej prepravy. Ovplyvňujú spôsob, akým modul zhody interpretuje údaje."
+      },
+      "actions": {
+        "title": "✅Potvrdiť/Zrušiť",
+        "text": "<strong>Potvrďte</strong>šetrí začiatok práce.<br><br><strong>Zrušiť</strong>zatvorí formulár bez uloženia zmien."
+      }
+    },
+    "finish": {
+      "title": "Dokončenie práce",
+      "intro": "Po výbere<strong>\"Odstrániť kartu/ukončiť úlohu\"</strong>zobrazí sa formulár na dokončenie úlohy.<br><br>Jeho fungovanie je podobné ako pri štartovacom formulári.",
+      "vehicle": {
+        "title": "Vozidlo",
+        "text": "Registračné číslo sa doplní automaticky na základe iniciovanej zmeny."
+      },
+      "location": {
+        "title": "Krajina a mesto",
+        "text": "Údaje sa vypĺňajú automaticky na základe vašej aktuálnej polohy.<br><br>V prípade potreby ich môžete opraviť."
+      },
+      "odometer": {
+        "title": "Stav merača",
+        "text": "Aplikácia používa posledné známe čítanie počítadla. Pred uložením ho môžete skontrolovať a opraviť."
+      },
+      "dateTime": {
+        "title": "Dátum a čas ukončenia",
+        "text": "V predvolenom nastavení je nastavený aktuálny dátum a čas.<br><br>Môžete to zmeniť, ak bola skutočná práca dokončená skôr alebo chcete opraviť záznam."
+      },
+      "notes": {
+        "title": "Komentáre",
+        "text": "Nepovinné pole pre ďalšie informácie týkajúce sa dokončenia úlohy."
+      },
+      "actions": {
+        "title": "✅Potvrdiť/Zrušiť",
+        "text": "<strong>Potvrďte</strong>ukončí zmenu a uloží údaje.<br><br><strong>Zrušiť</strong>zatvorí formulár bez uloženia zmien.<br><br>Po dokončení začne fungovať aj TachoMobile 2<strong>zvyšok časového rozlíšenia</strong>. V tomto bode môžete určiť alebo skontrolovať<strong>účel odpočinku</strong>, ak používate túto funkciu."
+      }
+    },
+    "quickChange": {
+      "title": "Rýchla zmena aktivity",
+      "intro": "Počas práce nemusíte zakaždým otvárať celý formulár.<br><br>Na domovskej obrazovke môžete klepnutím na svoju aktuálnu aktivitu rýchlo vybrať ďalšiu.",
+      "available": {
+        "title": "Dostupné aktivity",
+        "items": [
+          "🚗 Šoférovanie",
+          "Práca",
+          "⏱️ Dostupnosť",
+          "Oddych"
+        ]
+      },
+      "special": {
+        "title": "Špeciálne záznamy",
+        "items": [
+          "⛴️ Vstup na trajekt / Výstup z trajektu",
+          "Nakladanie / vykladanie"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Rýchle uloženie",
+        "text": "Ak je povolená<strong>rýchle uloženie</strong>, zvolená aktivita sa okamžite uloží.<br><br>Ak je rýchle ukladanie vypnuté, po výbere aktivity sa zobrazí formulár, v ktorom si môžete skontrolovať alebo doplniť údaje o zadaní.",
+        "fields": "Formulár obsahuje rovnaké základné informácie:",
+        "summary": "<strong>vozidlo → krajina → mesto → počítadlo kilometrov → dátum a čas → komentáre</strong><br><br>Vďaka tomu môžete rýchlo zmeniť svoju aktivitu a presne určiť okamih a miesto jej začiatku."
+      }
+    },
+    "important": {
+      "title": "Stojí za to vedieť",
+      "text1": "TachoMobile 2 sa snaží automaticky doplniť údaje, ktoré sú už známe z predchádzajúcich záznamov. To však neznamená, že ich nemôžete vylepšiť.",
+      "text2": "<strong>Ak záznam nezodpovedá skutočnosti, pred schválením údaje skontrolujte a opravte.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Späť na sprievodcu"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Eingabe der Fahreraktivität – TachoMobile 2",
+    "heading": "Eingabe der Fahreraktivität",
+    "intro": "Bei Arbeitsbeginn und Arbeitsende zeigt TachoMobile 2 ein Formular an, in dem Sie die wichtigsten Informationen zur Schicht eintragen können.<br><br>Die Anwendung kann die meisten Daten automatisch vervollständigen, Sie haben jedoch jederzeit die Möglichkeit, diese vor dem Speichern der Eingabe zu überprüfen und zu korrigieren."
+  },
+  "sections": {
+    "start": {
+      "title": "Erste Schritte",
+      "intro": "Nach der Auswahl<strong>„Los geht’s / Fahrerkarte einstecken“</strong>Es erscheint ein Startformular.",
+      "initialActivity": {
+        "title": "Erste Aktivität",
+        "text": "Wählen Sie eine Aktivität, mit der Sie Ihren Tag beginnen möchten. Die Standardeinstellung ist diese<strong>Arbeiten</strong>, aber Sie können eine andere Aktivität wählen, wenn Ihr Tag anders beginnt."
+      },
+      "vehicle": {
+        "title": "Registrierungsnummer",
+        "text": "Wählen Sie das Fahrzeug aus, mit dem Sie Ihre Arbeit beginnen.<br><br>Nach der ersten Nutzung wird das Kennzeichen in der Fahrzeugliste gespeichert, so dass Sie es an den Folgetagen nicht erneut eingeben müssen."
+      },
+      "location": {
+        "title": "Land und Stadt des Starts",
+        "text": "Land und Stadt werden automatisch anhand des aktuellen Standorts des Telefons ermittelt.<br><br>Sollten die Daten fehlerhaft sein, können Sie diese vor dem Speichern des Eintrags korrigieren."
+      },
+      "odometer": {
+        "title": "Zählerstatus",
+        "text": "Geben Sie den aktuellen Kilometerstand des Fahrzeugs ein.<br><br>Der eingegebene Wert dient dann als Referenzpunkt für nachfolgende Aktivitäten und kann auf Basis des zuletzt gespeicherten Standes automatisch vervollständigt werden."
+      },
+      "dateTime": {
+        "title": "Startdatum und -uhrzeit",
+        "text": "Standardmäßig sind das aktuelle Datum und die aktuelle Uhrzeit eingestellt.<br><br>Sie können es ändern, wenn Sie früher mit der Arbeit begonnen haben, z.B. ein paar oder ein Dutzend Minuten, bevor Sie die Anwendung öffnen."
+      },
+      "notes": {
+        "title": "Kommentare",
+        "text": "Hier können Sie zusätzliche Informationen zum Einstieg hinzufügen.<br><br>Das Feld ist optional."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Einstellungen zur Durchführung des Transports",
+      "intro": "Das Jobstartformular enthält außerdem drei Optionen, die sich darauf auswirken, wie die Einträge interpretiert und die entsprechenden Regeln angewendet werden.",
+      "crew": {
+        "title": "Reiten in einer Crew",
+        "text": "Die Aktivierung dieser Option bedeutet, dass die gesamte Schicht als Mannschaftsarbeit interpretiert wird.<br><br>Dies betrifft die Art und Weise der Berechnung von Arbeitszeit, Lenkzeit, Ruhezeiten und anderen Grenzwerten, die sich aus den Regelungen zum Mannschaftsfahren ergeben."
+      },
+      "international": {
+        "title": "Internationaler Transport",
+        "text": "Wenn Sie diese Option aktivieren, können Sie die entsprechenden internationalen Versandregeln anwenden.<br><br>Dies ist unter anderem für die Auslegung wöchentlicher Ruhezeiten und die Rückkehr des Fahrers zum Stützpunkt wichtig."
+      },
+      "passenger": {
+        "title": "Gelegentlicher Personentransport",
+        "text": "Bei gelegentlicher Personenbeförderung, z. Bustransport.<br><br>Dadurch können Sie für diese Transportart entsprechende Regelungen zu Lenk- und Ruhezeiten anwenden."
+      },
+      "warning": {
+        "title": "Wichtig",
+        "text": "Diese Optionen sollten der tatsächlichen Art des durchgeführten Transports entsprechen. Sie wirken sich darauf aus, wie das Compliance-Modul Daten interpretiert."
+      },
+      "actions": {
+        "title": "✅ Bestätigen/Stornieren",
+        "text": "<strong>Bestätigen</strong>speichert den Arbeitsbeginn.<br><br><strong>Stornieren</strong>Schließt das Formular, ohne die Änderungen zu speichern."
+      }
+    },
+    "finish": {
+      "title": "Abschluss der Arbeiten",
+      "intro": "Nach der Auswahl<strong>„Karte entfernen/Auftrag beenden“</strong>Es erscheint ein Formular zum Abschluss des Auftrags.<br><br>Die Funktionsweise ähnelt der des Startformulars.",
+      "vehicle": {
+        "title": "Fahrzeug",
+        "text": "Die Registrierungsnummer wird aufgrund der veranlassten Änderung automatisch vervollständigt."
+      },
+      "location": {
+        "title": "Land und Stadt",
+        "text": "Die Daten werden basierend auf Ihrem aktuellen Standort automatisch vervollständigt.<br><br>Sie können sie bei Bedarf korrigieren."
+      },
+      "odometer": {
+        "title": "Zählerstatus",
+        "text": "Die Anwendung verwendet den letzten bekannten Zählerstand. Sie können es vor dem Speichern überprüfen und korrigieren."
+      },
+      "dateTime": {
+        "title": "Enddatum und -uhrzeit",
+        "text": "Standardmäßig sind das aktuelle Datum und die aktuelle Uhrzeit eingestellt.<br><br>Sie können es ändern, wenn die eigentliche Arbeit früher abgeschlossen wurde oder Sie den Datensatz korrigieren möchten."
+      },
+      "notes": {
+        "title": "Kommentare",
+        "text": "Optionales Feld für zusätzliche Informationen zum Abschluss des Auftrags."
+      },
+      "actions": {
+        "title": "✅ Bestätigen/Stornieren",
+        "text": "<strong>Bestätigen</strong>beendet die Änderung und speichert die Daten.<br><br><strong>Stornieren</strong>Schließt das Formular, ohne die Änderungen zu speichern.<br><br>Sobald es fertig ist, beginnt auch TachoMobile 2 zu arbeiten<strong>Restabgrenzung</strong>. An dieser Stelle können Sie feststellen bzw. prüfen<strong>der Zweck der Ruhe</strong>, wenn Sie diese Funktion nutzen."
+      }
+    },
+    "quickChange": {
+      "title": "Schneller Tätigkeitswechsel",
+      "intro": "Während der Arbeit müssen Sie nicht jedes Mal das vollständige Formular öffnen.<br><br>Auf dem Startbildschirm können Sie auf Ihre aktuelle Aktivität tippen, um schnell die nächste auszuwählen.",
+      "available": {
+        "title": "Verfügbare Aktivitäten",
+        "items": [
+          "🚗 Fahren",
+          "Arbeiten",
+          "⏱️ Verfügbarkeit",
+          "Ausruhen"
+        ]
+      },
+      "special": {
+        "title": "Sondereinträge",
+        "items": [
+          "⛴️ Einsteigen in die Fähre / Aussteigen aus der Fähre",
+          "Laden/Entladen"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Schnell speichern",
+        "text": "Wenn es aktiviert ist<strong>schnell speichern</strong>, wird die ausgewählte Aktivität sofort gespeichert.<br><br>Wenn das Schnellspeichern deaktiviert ist, erscheint nach der Auswahl einer Aktivität ein Formular, in dem Sie die Details des Eintrags überprüfen oder vervollständigen können.",
+        "fields": "Das Formular enthält die gleichen grundlegenden Informationen:",
+        "summary": "<strong>Fahrzeug → Land → Stadt → Kilometerzähler → Datum und Uhrzeit → Kommentare</strong><br><br>Dadurch können Sie Ihre Aktivität schnell ändern und den Zeitpunkt und Ort ihres Beginns genau bestimmen."
+      }
+    },
+    "important": {
+      "title": "Es ist wissenswert",
+      "text1": "TachoMobile 2 versucht, Daten, die bereits aus früheren Aufzeichnungen bekannt sind, automatisch zu vervollständigen. Das heißt aber nicht, dass Sie sie nicht verbessern können.",
+      "text2": "<strong>Sollte der Datensatz nicht der Realität entsprechen, überprüfen Sie die Daten und korrigieren Sie diese vor der Freigabe.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Anleitung"
+  },
+  "footer": "© TachoMobile 2"
+}

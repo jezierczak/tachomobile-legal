@@ -8,6 +8,7 @@
     "description": "This guide contains information to help you configure and use TachoMobile 2 correctly."
   },
   "modules": {
+    "activityEntry": { "title": "Entering driver activities", "description": "Learn how to start and finish work and quickly enter driver activities.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "First Steps",
       "description": "A quick introduction to getting started with TachoMobile 2.",

@@ -8,6 +8,7 @@
     "description": "Tento průvodce obsahuje informace, které vám pomohou správně nastavit a používat TachoMobile 2."
   },
   "modules": {
+    "activityEntry": { "title": "Vkládání aktivit řidiče", "description": "Zjistěte, jak zahájit a ukončit práci a rychle zadávat aktivity řidiče.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "První kroky",
       "description": "Rychlý úvod do začátků s aplikací TachoMobile 2.",

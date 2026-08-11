@@ -1,0 +1,49 @@
+{
+  "meta": { "htmlLang": "pl" },
+  "page": {
+    "title": "Wprowadzanie aktywności kierowcy — TachoMobile 2",
+    "heading": "Wprowadzanie aktywności kierowcy",
+    "intro": "Podczas rozpoczęcia i zakończenia pracy TachoMobile 2 wyświetla formularz, w którym można uzupełnić najważniejsze informacje dotyczące zmiany.<br><br>Większość danych aplikacja może uzupełnić automatycznie, ale przed zapisaniem wpisu zawsze możesz je sprawdzić i poprawić."
+  },
+  "sections": {
+    "start": {
+      "title": "Rozpoczęcie pracy",
+      "intro": "Po wybraniu <strong>„Rozpocznij pracę / Włóż kartę kierowcy”</strong> pojawi się formularz rozpoczęcia pracy.",
+      "initialActivity": { "title": "Aktywność początkowa", "text": "Wybierz aktywność, od której rozpoczynasz dzień. Domyślnie jest to <strong>Praca</strong>, ale możesz wybrać inną aktywność, jeśli Twój dzień rozpoczyna się w inny sposób." },
+      "vehicle": { "title": "Numer rejestracyjny", "text": "Wybierz pojazd, którym rozpoczynasz pracę.<br><br>Po pierwszym użyciu numer rejestracyjny zostanie zapamiętany na liście pojazdów, dzięki czemu przy kolejnych dniach nie trzeba będzie wpisywać go ponownie." },
+      "location": { "title": "Kraj i miasto rozpoczęcia", "text": "Kraj oraz miasto są automatycznie określane na podstawie aktualnej lokalizacji telefonu.<br><br>Jeżeli dane są nieprawidłowe, możesz je poprawić przed zapisaniem wpisu." },
+      "odometer": { "title": "Stan licznika", "text": "Wprowadź aktualny stan licznika pojazdu.<br><br>Podana wartość będzie następnie wykorzystywana jako punkt odniesienia przy kolejnych aktywnościach i może zostać automatycznie uzupełniona na podstawie ostatniego zapisanego stanu." },
+      "dateTime": { "title": "Data i czas rozpoczęcia", "text": "Domyślnie ustawiana jest aktualna data i godzina.<br><br>Możesz ją zmienić, jeżeli rozpoczęcie pracy nastąpiło wcześniej, np. kilka lub kilkanaście minut przed otwarciem aplikacji." },
+      "notes": { "title": "Uwagi", "text": "Tutaj możesz dodać dodatkową informację dotyczącą rozpoczęcia pracy.<br><br>Pole jest opcjonalne." }
+    },
+    "transport": {
+      "title": "⚙️ Ustawienia dotyczące sposobu wykonywania transportu",
+      "intro": "W formularzu rozpoczęcia pracy znajdują się również trzy opcje, które wpływają na sposób interpretowania zapisów i stosowania odpowiednich reguł.",
+      "crew": { "title": "Jazda w załodze", "text": "Włączenie tej opcji oznacza, że cała zmiana będzie interpretowana jako praca w załodze.<br><br>Ma to wpływ na sposób obliczania czasu pracy, jazdy, odpoczynków i pozostałych limitów wynikających z przepisów dotyczących jazdy w załodze." },
+      "international": { "title": "Transport międzynarodowy", "text": "Włączenie tej opcji pozwala zastosować odpowiednie zasady dotyczące transportu międzynarodowego.<br><br>Ma to znaczenie między innymi dla interpretacji odpoczynków tygodniowych oraz powrotu kierowcy do bazy." },
+      "passenger": { "title": "Przewóz okazjonalny osób", "text": "Opcję należy włączyć podczas wykonywania przewozu okazjonalnego osób, np. przewozu autokarowego.<br><br>Pozwala to zastosować odpowiednie zasady dotyczące czasu jazdy i odpoczynków dla tego rodzaju transportu." },
+      "warning": { "title": "Ważne", "text": "Opcje te powinny odpowiadać rzeczywistemu charakterowi wykonywanego transportu. Wpływają one na sposób interpretowania danych przez moduł zgodności." },
+      "actions": { "title": "✅ Zatwierdź / Anuluj", "text": "<strong>Zatwierdź</strong> zapisuje rozpoczęcie pracy.<br><br><strong>Anuluj</strong> zamyka formularz bez zapisywania zmian." }
+    },
+    "finish": {
+      "title": "Zakończenie pracy",
+      "intro": "Po wybraniu <strong>„Wyjmij kartę / Zakończ pracę”</strong> pojawi się formularz zakończenia pracy.<br><br>Jego działanie jest podobne do formularza rozpoczęcia.",
+      "vehicle": { "title": "Pojazd", "text": "Numer rejestracyjny zostanie automatycznie uzupełniony na podstawie rozpoczętej zmiany." },
+      "location": { "title": "Kraj i miasto", "text": "Dane są automatycznie uzupełniane na podstawie aktualnej lokalizacji.<br><br>W razie potrzeby możesz je poprawić." },
+      "odometer": { "title": "Stan licznika", "text": "Aplikacja wykorzystuje ostatni znany stan licznika. Możesz go sprawdzić i poprawić przed zapisaniem." },
+      "dateTime": { "title": "Data i czas zakończenia", "text": "Domyślnie ustawiana jest aktualna data i godzina.<br><br>Możesz ją zmienić, jeżeli rzeczywiste zakończenie pracy nastąpiło wcześniej lub chcesz skorygować zapis." },
+      "notes": { "title": "Uwagi", "text": "Opcjonalne pole na dodatkowe informacje dotyczące zakończenia pracy." },
+      "actions": { "title": "✅ Zatwierdź / Anuluj", "text": "<strong>Zatwierdź</strong> kończy zmianę i zapisuje dane.<br><br><strong>Anuluj</strong> zamyka formularz bez zapisywania zmian.<br><br>Po zakończeniu pracy TachoMobile 2 rozpoczyna również <strong>naliczanie odpoczynku</strong>. W tym momencie możesz określić lub sprawdzić <strong>cel odpoczynku</strong>, jeśli korzystasz z tej funkcji." }
+    },
+    "quickChange": {
+      "title": "Szybka zmiana aktywności",
+      "intro": "W czasie pracy nie musisz za każdym razem otwierać pełnego formularza.<br><br>Na ekranie głównym możesz dotknąć aktualnej aktywności, aby szybko wybrać kolejną.",
+      "available": { "title": "Dostępne aktywności", "items": ["🚗 Jazda", "Praca", "⏱️ Dyspozycyjność", "Odpoczynek"] },
+      "special": { "title": "Specjalne wpisy", "items": ["⛴️ Wjazd na prom / Zjazd z promu", "Załadunek / Rozładunek"] },
+      "quickSave": { "title": "⚡ Szybki zapis", "text": "Jeżeli włączony jest <strong>szybki zapis</strong>, wybrana aktywność zostanie zapisana natychmiast.<br><br>Jeżeli szybki zapis jest wyłączony, po wybraniu aktywności pojawi się formularz, w którym możesz sprawdzić lub uzupełnić szczegóły wpisu.", "fields": "Formularz zawiera te same podstawowe informacje:", "summary": "<strong>pojazd → kraj → miasto → licznik → data i czas → uwagi</strong><br><br>Dzięki temu możesz zarówno szybko zmienić aktywność, jak i dokładnie określić moment oraz miejsce jej rozpoczęcia." }
+    },
+    "important": { "title": "Warto wiedzieć", "text1": "TachoMobile 2 stara się automatycznie uzupełniać dane, które są już znane z wcześniejszych zapisów. Nie oznacza to jednak, że nie możesz ich poprawić.", "text2": "<strong>Jeżeli zapis nie odpowiada rzeczywistości, sprawdź dane i skoryguj je przed zatwierdzeniem.</strong>" }
+  },
+  "navigation": { "back": "← Powrót do przewodnika" },
+  "footer": "© TachoMobile 2"
+}

@@ -8,6 +8,7 @@
     "description": "Táto príručka obsahuje informácie, ktoré vám pomôžu správne nastaviť a používať TachoMobile 2."
   },
   "modules": {
+    "activityEntry": { "title": "Zadávanie aktivít vodiča", "description": "Zistite, ako začať a ukončiť prácu a rýchlo zadávať aktivity vodiča.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Prvé kroky",
       "description": "Rýchly úvod do začiatkov s aplikáciou TachoMobile 2.",

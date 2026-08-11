@@ -8,6 +8,7 @@
     "description": "Questa guida contiene informazioni utili per configurare e utilizzare correttamente TachoMobile 2."
   },
   "modules": {
+    "activityEntry": { "title": "Inserimento delle attività del conducente", "description": "Scopri come iniziare e terminare il lavoro e inserire rapidamente le attività del conducente.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Primi passi",
       "description": "Una breve introduzione per iniziare a utilizzare TachoMobile 2.",

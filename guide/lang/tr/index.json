@@ -8,6 +8,7 @@
     "description": "Bu kılavuz, TachoMobile 2'yi doğru şekilde yapılandırmanıza ve kullanmanıza yardımcı olacak bilgiler içerir."
   },
   "modules": {
+    "activityEntry": { "title": "Sürücü aktivitelerinin girilmesi", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "İlk adımlar",
       "description": "TachoMobile 2'yi kullanmaya başlamak için kısa bir giriş.",

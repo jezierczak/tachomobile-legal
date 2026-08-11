@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Vairuotojo veiklos įvedimas – „TachoMobile 2“.",
+    "heading": "Vairuotojo veiklos įvedimas",
+    "intro": "Pradedant ir baigiant darbą, TachoMobile 2 rodo formą, kurioje galite užpildyti svarbiausią informaciją apie pamainą.<br><br>Programa gali automatiškai užpildyti daugumą duomenų, tačiau prieš išsaugodami įrašą visada galite juos patikrinti ir pataisyti."
+  },
+  "sections": {
+    "start": {
+      "title": "Darbo pradžia",
+      "intro": "Pasirinkus<strong>„Pradėkite / Įdėkite vairuotojo kortelę“</strong>pasirodys paleidimo forma.",
+      "initialActivity": {
+        "title": "Pradinė veikla",
+        "text": "Pasirinkite veiklą, nuo kurios pradėsite savo dieną. Numatytasis yra šis<strong>Darbas</strong>, bet galite pasirinkti kitą veiklą, jei jūsų diena prasideda kitaip."
+      },
+      "vehicle": {
+        "title": "Registracijos numeris",
+        "text": "Pasirinkite transporto priemonę, su kuria pradėsite dirbti.<br><br>Pirmą kartą panaudojus, registracijos numeris bus įsimenamas transporto priemonių sąraše, todėl vėlesnėmis dienomis jo nebereikės įvesti."
+      },
+      "location": {
+        "title": "Pradžios šalis ir miestas",
+        "text": "Šalis ir miestas automatiškai nustatomi pagal dabartinę telefono vietą.<br><br>Jei duomenys neteisingi, prieš išsaugodami įrašą galite juos pataisyti."
+      },
+      "odometer": {
+        "title": "Skaitiklio būsena",
+        "text": "Įveskite esamą transporto priemonės odometro rodmenį.<br><br>Tada įvesta vertė bus naudojama kaip atskaitos taškas tolesnei veiklai ir gali būti automatiškai užbaigta pagal paskutinę išsaugotą būseną."
+      },
+      "dateTime": {
+        "title": "Pradžios data ir laikas",
+        "text": "Pagal numatytuosius nustatymus yra nustatyta dabartinė data ir laikas.<br><br>Jį galite pakeisti, jei pradėjote dirbti anksčiau, pvz. kelios ar keliolika minučių prieš atidarant programą."
+      },
+      "notes": {
+        "title": "Komentarai",
+        "text": "Čia galite pridėti papildomos informacijos apie pradžią.<br><br>Laukas yra neprivalomas."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Nustatymai, susiję su transportavimo vykdymu",
+      "intro": "Darbo pradžios formoje taip pat yra trys parinktys, kurios turi įtakos įrašų interpretavimui ir atitinkamų taisyklių taikymui.",
+      "crew": {
+        "title": "Važiavimas įguloje",
+        "text": "Šios parinkties įjungimas reiškia, kad visa pamaina bus suprantama kaip įgulos darbas.<br><br>Tai turi įtakos darbo laiko, vairavimo laiko, poilsio laiko ir kitų apribojimų apskaičiavimo metodui, nulemtam ekipažo vairavimo taisyklių."
+      },
+      "international": {
+        "title": "Tarptautinis transportas",
+        "text": "Įjungę šią parinktį galėsite taikyti atitinkamas tarptautines siuntimo taisykles.<br><br>Tai, be kita ko, svarbu aiškinant kassavaitinio poilsio laikotarpius ir vairuotojo grįžimą į bazę."
+      },
+      "passenger": {
+        "title": "Retkarčiais keleivių pervežimas",
+        "text": "Parinktis turėtų būti įjungta atliekant atsitiktinį keleivių vežimą, pvz. autobusų transportas.<br><br>Tai leidžia taikyti atitinkamas vairavimo ir poilsio laiko taisykles tokio tipo transportui."
+      },
+      "warning": {
+        "title": "Svarbu",
+        "text": "Šios parinktys turėtų atitikti faktinį atliekamo vežimo pobūdį. Jie turi įtakos tam, kaip atitikties modulis interpretuoja duomenis."
+      },
+      "actions": {
+        "title": "✅ Patvirtinti/atšaukti",
+        "text": "<strong>Patvirtinti</strong>išsaugo darbo pradžią.<br><br><strong>Atšaukti</strong>uždaro formą neišsaugodamas pakeitimų."
+      }
+    },
+    "finish": {
+      "title": "Darbo užbaigimas",
+      "intro": "Pasirinkus<strong>„Pašalinti kortelę / Baigti darbą“</strong>atsiras darbo užbaigimo forma.<br><br>Jo veikimas yra panašus į starto formą.",
+      "vehicle": {
+        "title": "Transporto priemonė",
+        "text": "Registracijos numeris bus automatiškai užpildytas pagal inicijuotą pakeitimą."
+      },
+      "location": {
+        "title": "Šalis ir miestas",
+        "text": "Duomenys automatiškai užpildomi atsižvelgiant į jūsų dabartinę vietą.<br><br>Jei reikia, galite juos pataisyti."
+      },
+      "odometer": {
+        "title": "Skaitiklio būsena",
+        "text": "Programa naudoja paskutinį žinomą skaitiklio rodmenį. Prieš išsaugodami galite jį patikrinti ir pataisyti."
+      },
+      "dateTime": {
+        "title": "Pabaigos data ir laikas",
+        "text": "Pagal numatytuosius nustatymus yra nustatyta dabartinė data ir laikas.<br><br>Galite jį pakeisti, jei faktinis darbas buvo baigtas anksčiau arba norite pataisyti įrašą."
+      },
+      "notes": {
+        "title": "Komentarai",
+        "text": "Neprivalomas laukas papildomai informacijai apie darbo atlikimą."
+      },
+      "actions": {
+        "title": "✅ Patvirtinti/atšaukti",
+        "text": "<strong>Patvirtinti</strong>baigia pakeitimą ir išsaugo duomenis.<br><br><strong>Atšaukti</strong>uždaro formą neišsaugodamas pakeitimų.<br><br>Baigęs TachoMobile 2 taip pat pradeda veikti<strong>poilsio kaupimas</strong>. Šiuo metu galite nustatyti arba patikrinti<strong>poilsio tikslas</strong>, jei naudojate šią funkciją."
+      }
+    },
+    "quickChange": {
+      "title": "Greitas veiklos pasikeitimas",
+      "intro": "Dirbant nereikia kaskart atsidaryti visos formos.<br><br>Pradiniame ekrane galite paliesti dabartinę veiklą, kad greitai pasirinktumėte kitą.",
+      "available": {
+        "title": "Galimos veiklos",
+        "items": [
+          "🚗 Vairavimas",
+          "Darbas",
+          "⏱️ Prieinamumas",
+          "Poilsis"
+        ]
+      },
+      "special": {
+        "title": "Specialūs įrašai",
+        "items": [
+          "⛴️ Įlipimas į keltą / Išlipimas iš kelto",
+          "Pakrovimas / iškrovimas"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Greitas išsaugojimas",
+        "text": "Jei jis įjungtas<strong>greitas išsaugojimas</strong>, pasirinkta veikla bus nedelsiant išsaugota.<br><br>Jei greitasis išsaugojimas išjungtas, pasirinkus veiklą, atsiras forma, kurioje galėsite patikrinti ar užpildyti įrašo duomenis.",
+        "fields": "Formoje yra ta pati pagrindinė informacija:",
+        "summary": "<strong>transporto priemonė → šalis → miestas → odometras → data ir laikas → komentarai</strong><br><br>Dėl to galite greitai pakeisti savo veiklą ir tiksliai nustatyti jos pradžios momentą ir vietą."
+      }
+    },
+    "important": {
+      "title": "Tai verta žinoti",
+      "text1": "TachoMobile 2 bando automatiškai užpildyti duomenis, kurie jau žinomi iš ankstesnių įrašų. Bet tai nereiškia, kad negalite jų patobulinti.",
+      "text2": "<strong>Jei įrašas neatitinka tikrovės, prieš patvirtinimą patikrinkite duomenis ir pataisykite.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Atgal į vadovą"
+  },
+  "footer": "© TachoMobile 2"
+}

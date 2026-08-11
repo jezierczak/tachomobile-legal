@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Sürücü etkinliğine girme - TachoMobile 2",
+    "heading": "Sürücü etkinliğine girme",
+    "intro": "İşe başlarken ve bitirirken TachoMobile 2, vardiyayla ilgili en önemli bilgileri doldurabileceğiniz bir form görüntüler.<br><br>Uygulama verilerin çoğunu otomatik olarak tamamlayabilir ancak girişi kaydetmeden önce her zaman kontrol edip düzeltebilirsiniz."
+  },
+  "sections": {
+    "start": {
+      "title": "Başlarken",
+      "intro": "Seçtikten sonra<strong>\"Başlayın / Sürücü kartını takın\"</strong>bir başlangıç ​​​​formu görünecektir.",
+      "initialActivity": {
+        "title": "İlk aktivite",
+        "text": "Güne başlamak için bir aktivite seçin. Varsayılan şudur<strong>İş</strong>, ancak gününüz farklı başlıyorsa farklı bir etkinlik seçebilirsiniz."
+      },
+      "vehicle": {
+        "title": "Kayıt numarası",
+        "text": "Çalışmaya başlayacağınız aracı seçin.<br><br>İlk kullanımdan sonra plaka numarası araç listesinde hatırlanacağından sonraki günlerde tekrar girmenize gerek kalmayacaktır."
+      },
+      "location": {
+        "title": "Başlangıç ​​ülkesi ve şehri",
+        "text": "Ülke ve şehir, telefonun mevcut konumuna göre otomatik olarak belirlenir.<br><br>Veriler hatalıysa girişi kaydetmeden önce düzeltebilirsiniz."
+      },
+      "odometer": {
+        "title": "Sayaç durumu",
+        "text": "Mevcut araç kilometre sayacı okumasını girin.<br><br>Girilen değer daha sonra sonraki aktiviteler için referans noktası olarak kullanılacak ve son kaydedilen duruma göre otomatik olarak tamamlanabilecektir."
+      },
+      "dateTime": {
+        "title": "Başlangıç ​​tarihi ve saati",
+        "text": "Varsayılan olarak geçerli tarih ve saat ayarlıdır.<br><br>Daha önce çalışmaya başladıysanız bunu değiştirebilirsiniz; uygulamayı açmadan birkaç veya bir düzine kadar dakika önce."
+      },
+      "notes": {
+        "title": "Yorumlar",
+        "text": "Buraya başlangıçla ilgili ek bilgiler ekleyebilirsiniz.<br><br>Alan isteğe bağlıdır."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Aktarımın nasıl gerçekleştirileceğine ilişkin ayarlar",
+      "intro": "İşe başlama formu ayrıca girişlerin nasıl yorumlanacağını ve uygun kuralların nasıl uygulanacağını etkileyen üç seçenek içerir.",
+      "crew": {
+        "title": "Ekip halinde sürüş",
+        "text": "Bu seçeneğin etkinleştirilmesi, tüm vardiyanın ekip işi olarak yorumlanacağı anlamına gelir.<br><br>Bu, ekip sürüşüne ilişkin düzenlemelerden kaynaklanan çalışma süresinin, sürüş süresinin, dinlenme sürelerinin ve diğer sınırların hesaplanması yöntemini etkiler."
+      },
+      "international": {
+        "title": "Uluslararası taşımacılık",
+        "text": "Bu seçeneğin etkinleştirilmesi, uygun uluslararası gönderi kurallarını uygulamanıza olanak tanır.<br><br>Bu, diğer şeylerin yanı sıra, haftalık dinlenme sürelerinin ve sürücünün üsse dönüşünün yorumlanması açısından önemlidir."
+      },
+      "passenger": {
+        "title": "Ara sıra yolcu taşımacılığı",
+        "text": "Ara sıra yolcu taşımacılığı yaparken bu seçenek açılmalıdır; otobüs taşımacılığı.<br><br>Bu, bu tür taşıma için sürüş ve dinlenme sürelerine ilişkin uygun kuralları uygulamanıza olanak tanır."
+      },
+      "warning": {
+        "title": "Önemli",
+        "text": "Bu seçenekler, gerçekleştirilen taşımanın gerçek niteliğine uygun olmalıdır. Uyumluluk modülünün verileri nasıl yorumladığını etkilerler."
+      },
+      "actions": {
+        "title": "✅ Onayla/İptal",
+        "text": "<strong>Onaylamak</strong>işin başlangıcını kaydeder.<br><br><strong>İptal etmek</strong>değişiklikleri kaydetmeden formu kapatır."
+      }
+    },
+    "finish": {
+      "title": "İşin tamamlanması",
+      "intro": "Seçtikten sonra<strong>\"Kartı Kaldır/İşi Sonlandır\"</strong>bir iş tamamlama formu görünecektir.<br><br>Çalışması başlangıç ​​formuna benzer.",
+      "vehicle": {
+        "title": "Araç",
+        "text": "Kayıt numarası, başlatılan değişikliğe göre otomatik olarak tamamlanacaktır."
+      },
+      "location": {
+        "title": "Ülke ve şehir",
+        "text": "Veriler mevcut konumunuza göre otomatik olarak tamamlanır.<br><br>Gerekirse bunları düzeltebilirsiniz."
+      },
+      "odometer": {
+        "title": "Sayaç durumu",
+        "text": "Uygulama bilinen son sayaç okumasını kullanır. Kaydetmeden önce kontrol edip düzeltebilirsiniz."
+      },
+      "dateTime": {
+        "title": "Bitiş tarihi ve saati",
+        "text": "Varsayılan olarak geçerli tarih ve saat ayarlıdır.<br><br>Fiili çalışma daha önce bittiyse veya kaydı düzeltmek istiyorsanız bunu değiştirebilirsiniz."
+      },
+      "notes": {
+        "title": "Yorumlar",
+        "text": "İşin tamamlanmasıyla ilgili ek bilgi için isteğe bağlı alan."
+      },
+      "actions": {
+        "title": "✅ Onayla/İptal",
+        "text": "<strong>Onaylamak</strong>değişikliği sonlandırır ve verileri kaydeder.<br><br><strong>İptal etmek</strong>değişiklikleri kaydetmeden formu kapatır.<br><br>Bittiğinde TachoMobile 2 de çalışmaya başlar<strong>dinlenme tahakkuku</strong>. Bu noktada belirleyebilir veya kontrol edebilirsiniz.<strong>dinlenmenin amacı</strong>, bu özelliği kullanırsanız."
+      }
+    },
+    "quickChange": {
+      "title": "Hızlı aktivite değişimi",
+      "intro": "Çalışırken her seferinde formun tamamını açmanıza gerek yok.<br><br>Ana ekranda, bir sonraki etkinliği hızlı bir şekilde seçmek için mevcut etkinliğinize dokunabilirsiniz.",
+      "available": {
+        "title": "Mevcut aktiviteler",
+        "items": [
+          "🚗 Sürüş",
+          "İş",
+          "⏱️ Kullanılabilirlik",
+          "Dinlenmek"
+        ]
+      },
+      "special": {
+        "title": "Özel girişler",
+        "items": [
+          "⛴️ Feribota giriş / Feribottan çıkış",
+          "Yükleme / Boşaltma"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Hızlı kaydetme",
+        "text": "Etkinleştirilmişse<strong>hızlı kaydet</strong>, seçilen aktivite hemen kaydedilecektir.<br><br>Hızlı kaydetme kapalıysa, bir aktiviteyi seçtikten sonra girişin ayrıntılarını kontrol edebileceğiniz veya tamamlayabileceğiniz bir form görünecektir.",
+        "fields": "Form aynı temel bilgileri içerir:",
+        "summary": "<strong>araç → ülke → şehir → kilometre sayacı → tarih ve saat → yorumlar</strong><br><br>Bu sayede hem aktivitenizi hızlı bir şekilde değiştirebilir hem de başlama anını ve yerini kesin olarak belirleyebilirsiniz."
+      }
+    },
+    "important": {
+      "title": "Bilmeye değer",
+      "text1": "TachoMobile 2, önceki kayıtlardan zaten bilinen verileri otomatik olarak tamamlamaya çalışır. Ancak bu onları geliştiremeyeceğiniz anlamına gelmez.",
+      "text2": "<strong>Kayıt gerçeğe uygun değilse, verileri kontrol edin ve onaylanmadan önce düzeltin.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Kılavuza geri dön"
+  },
+  "footer": "© TachoMobile 2"
+}

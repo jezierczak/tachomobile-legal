@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Belépés a járművezetői tevékenységbe - TachoMobile 2",
+    "heading": "Belépés a sofőr tevékenységébe",
+    "intro": "A munka megkezdésekor és befejezésekor a TachoMobile 2 megjelenít egy űrlapot, amelyben kitöltheti a műszakkal kapcsolatos legfontosabb információkat.<br><br>Az alkalmazás az adatok nagy részét automatikusan kitölti, de a bejegyzés mentése előtt bármikor ellenőrizheti és javíthatja azokat."
+  },
+  "sections": {
+    "start": {
+      "title": "Kezdő lépések",
+      "intro": "Kiválasztás után<strong>\"Kezdő lépések / Illessze be a járművezetői kártyát\"</strong>megjelenik egy indítási űrlap.",
+      "initialActivity": {
+        "title": "Kezdeti tevékenység",
+        "text": "Válasszon egy tevékenységet, amellyel kezdheti a napot. Az alapértelmezett ez<strong>Munka</strong>, de választhat más tevékenységet is, ha másképp indul a napod."
+      },
+      "vehicle": {
+        "title": "Regisztrációs szám",
+        "text": "Válassza ki a járművet, amellyel dolgozni kezd.<br><br>Az első használat után a rendszámot megjegyzi a járműlistában, így a következő napokon nem kell újra megadnia."
+      },
+      "location": {
+        "title": "Kezdő ország és város",
+        "text": "Az ország és a város automatikusan meghatározásra kerül a telefon aktuális helye alapján.<br><br>Ha az adatok hibásak, a bejegyzés mentése előtt kijavíthatja."
+      },
+      "odometer": {
+        "title": "A mérő állapota",
+        "text": "Adja meg a jármű kilométer-számlálójának aktuális állását.<br><br>A beírt érték ezután referenciapontként szolgál a további tevékenységekhez, és az utolsó mentett állapot alapján automatikusan befejeződik."
+      },
+      "dateTime": {
+        "title": "Kezdés dátuma és időpontja",
+        "text": "Alapértelmezés szerint az aktuális dátum és idő van beállítva.<br><br>Változtathatsz rajta, ha korábban elkezdtél dolgozni, pl. néhány vagy egy tucat perccel az alkalmazás megnyitása előtt."
+      },
+      "notes": {
+        "title": "Megjegyzések",
+        "text": "Itt további információkat adhat meg az induláshoz.<br><br>A mező kitöltése nem kötelező."
+      }
+    },
+    "transport": {
+      "title": "⚙️ A szállítás végrehajtására vonatkozó beállítások",
+      "intro": "A munkakezdési űrlap három lehetőséget is tartalmaz, amelyek befolyásolják a bejegyzések értelmezését és a megfelelő szabályok alkalmazását.",
+      "crew": {
+        "title": "Legénységben lovagolni",
+        "text": "Ennek az opciónak az engedélyezése azt jelenti, hogy a teljes műszak személyzeti munkaként lesz értelmezve.<br><br>Ez érinti a munkaidő számítási módját, a vezetési időt, a pihenőidőt és a személyzeti vezetésre vonatkozó előírásokból adódó egyéb korlátokat."
+      },
+      "international": {
+        "title": "Nemzetközi szállítás",
+        "text": "Ennek az opciónak az engedélyezése lehetővé teszi a megfelelő nemzetközi szállítási szabályok alkalmazását.<br><br>Ez többek között a heti pihenőidő értelmezése és a járművezető bázisra való visszatérése szempontjából is fontos."
+      },
+      "passenger": {
+        "title": "Alkalmi személyszállítás",
+        "text": "Az opciót eseti személyszállítás végzésekor kell bekapcsolni, pl. autóbusz szállítás.<br><br>Ez lehetővé teszi, hogy megfelelő szabályokat alkalmazzon a vezetési és pihenőidőre vonatkozóan az ilyen típusú szállítások esetében."
+      },
+      "warning": {
+        "title": "Fontos",
+        "text": "Ezeknek a lehetőségeknek meg kell felelniük az elvégzett szállítás tényleges természetének. Ezek befolyásolják, hogy a megfelelőségi modul hogyan értelmezi az adatokat."
+      },
+      "actions": {
+        "title": "✅ Megerősítés/Mégse",
+        "text": "<strong>Erősítse meg</strong>megmenti a munkakezdést.<br><br><strong>Mégse</strong>bezárja az űrlapot a változtatások mentése nélkül."
+      }
+    },
+    "finish": {
+      "title": "A munka befejezése",
+      "intro": "Kiválasztás után<strong>\"Kártya eltávolítása/Munka befejezése\"</strong>megjelenik egy munkabefejező űrlap.<br><br>Működése hasonló a rajtformához.",
+      "vehicle": {
+        "title": "Jármű",
+        "text": "A regisztrációs szám automatikusan kitöltésre kerül a kezdeményezett változtatás alapján."
+      },
+      "location": {
+        "title": "Ország és város",
+        "text": "Az adatok automatikusan kitöltődnek az Ön aktuális tartózkodási helye alapján.<br><br>Szükség esetén javíthatja őket."
+      },
+      "odometer": {
+        "title": "A mérő állapota",
+        "text": "Az alkalmazás az utolsó ismert számlálót használja. Mentés előtt ellenőrizheti és javíthatja."
+      },
+      "dateTime": {
+        "title": "Befejezés dátuma és időpontja",
+        "text": "Alapértelmezés szerint az aktuális dátum és idő van beállítva.<br><br>Módosíthatja, ha a tényleges munka korábban befejeződött, vagy javítani szeretné a rekordot."
+      },
+      "notes": {
+        "title": "Megjegyzések",
+        "text": "Opcionális mező a munka elvégzésével kapcsolatos további információkhoz."
+      },
+      "actions": {
+        "title": "✅ Megerősítés/Mégse",
+        "text": "<strong>Erősítse meg</strong>leállítja a módosítást és elmenti az adatokat.<br><br><strong>Mégse</strong>bezárja az űrlapot a változtatások mentése nélkül.<br><br>A befejezést követően a TachoMobile 2 is működni kezd<strong>pihenés elhatárolása</strong>. Ezen a ponton meghatározhatja vagy ellenőrizheti<strong>a pihenés célja</strong>, ha használja ezt a funkciót."
+      }
+    },
+    "quickChange": {
+      "title": "Gyors tevékenységváltás",
+      "intro": "Munka közben nem kell minden alkalommal kinyitni a teljes űrlapot.<br><br>A kezdőképernyőn megérintheti aktuális tevékenységét a következő gyors kiválasztásához.",
+      "available": {
+        "title": "Rendelkezésre álló tevékenységek",
+        "items": [
+          "🚗 Vezetés",
+          "Munka",
+          "⏱️ Elérhetőség",
+          "Pihenés"
+        ]
+      },
+      "special": {
+        "title": "Különleges bejegyzések",
+        "items": [
+          "⛴️ Beszállás a kompra / Kilépés a kompról",
+          "Be-/kirakodás"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Gyors mentés",
+        "text": "Ha engedélyezve van<strong>gyors mentés</strong>, a kiválasztott tevékenység azonnal mentésre kerül.<br><br>Ha a gyorsmentés ki van kapcsolva, egy tevékenység kiválasztása után megjelenik egy űrlap, amelyen ellenőrizheti vagy kiegészítheti a bejegyzés részleteit.",
+        "fields": "Az űrlap ugyanazokat az alapvető információkat tartalmazza:",
+        "summary": "<strong>jármű → ország → város → kilométerszámláló → dátum és idő → megjegyzések</strong><br><br>Ennek köszönhetően gyorsan megváltoztathatja tevékenységét, és pontosan meghatározhatja a kezdés időpontját és helyét."
+      }
+    },
+    "important": {
+      "title": "Érdemes tudni",
+      "text1": "A TachoMobile 2 megpróbálja automatikusan kiegészíteni a korábbi rekordokból már ismert adatokat. De ez nem jelenti azt, hogy ne tudnád javítani őket.",
+      "text2": "<strong>Ha a nyilvántartás nem felel meg a valóságnak, az adatokat ellenőrizze, és jóváhagyás előtt javítsa ki.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Vissza az útmutatóhoz"
+  },
+  "footer": "© TachoMobile 2"
+}

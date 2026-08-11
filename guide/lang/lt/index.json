@@ -8,6 +8,7 @@
     "description": "Šiame vadove pateikiama informacija, padedanti tinkamai sukonfigūruoti ir naudoti „TachoMobile 2“."
   },
   "modules": {
+    "activityEntry": { "title": "Vairuotojo veiklos įvedimas", "description": "Sužinokite, kaip pradėti ir baigti darbą bei greitai įvesti vairuotojo veiklą.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Pirmieji žingsniai",
       "description": "Trumpa įžanga, padėsianti pradėti naudoti „TachoMobile 2“.",
