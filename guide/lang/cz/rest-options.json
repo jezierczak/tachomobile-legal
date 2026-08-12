@@ -5,23 +5,23 @@
   "page": {
     "title": "List možností odpočinku - TachoMobile 2",
     "heading": "List možností odpočinku",
-    "intro": "Tabulka možností odpočinku se zobrazí, když jste <strong>Nepráci</strong> a vaše aktuální/hlavní aktivita je <strong>Rest</strong>. Umožňuje vám zobrazit dostupné cíle odpočinku a spravovat, jak jsou využívány."
+    "intro": "List možností odpočinku se zobrazí, když jste <strong>mimo práci</strong> a vaše aktuální/hlavní aktivita je <strong>Odpočinek</strong>. Umožňuje vám zobrazit dostupné cíle odpočinku a spravovat, jak jsou využívány."
   },
   "sections": {
     "when": {
       "title": "Když se list otevře",
-      "text": "List je k dispozici pouze tehdy, když nemáte práci. V této situaci se klepnutím na aktivitu Odpočinek neotevře normální okno Přidat aktivitu. Místo toho otevře list možností odpočinku."
+      "text": "List je k dispozici pouze tehdy, když nemáte práci. V této situaci se klepnutím na aktuální odpočinkovou aktivitu neotevře normální okno Přidat aktivitu. Místo toho otevře list možností odpočinku."
     },
     "contents": {
       "title": "Co ukazuje list",
-      "intro": "Nahoře je na listu zobrazeno aktuální <strong>Doba odpočinku</strong> a <strong>Čas začátku odpočinku</strong>. Dostupné cíle odpočinku jsou uvedeny pod těmito hodnotami.",
+      "intro": "Nahoře je na listu zobrazeno aktuální trvání <strong>odpočinku</strong> a <strong>počáteční čas odpočinku</strong>. Dostupné cíle odpočinku jsou uvedeny pod těmito hodnotami.",
       "header": {
-        "title": "Cíle denního odpočinku",
+        "title": "Výběr cíle odpočinku",
         "text": "V závislosti na aktuální situaci může být k dispozici cíl denního odpočinku <strong>9hodin</strong> nebo <strong>11hodin</strong>. Hlavní obrazovka aplikace normálně odpočítává k nejbližšímu nebo dalšímu cíli denního odpočinku."
       },
       "daily": {
         "title": "Cíle denního odpočinku",
-        "text": "Pomocí volitelné tečky vedle cíle denního odpočinku vyberte, který dostupný cíl bude použit odpočítáváním na hlavní obrazovce. Tento výběr pouze změní zobrazený cíl; nedokončí zbytek ani nemění svou klasifikaci."
+        "text": "Pomocí volitelné tečky vedle libovolného cíle odpočinku vyberte, který dostupný cíl bude použit odpočítáváním na hlavní obrazovce. Můžete si vybrat denní nebo týdenní cíl. Odpočítávání pak ukazuje čas zbývající do dosažení zvoleného cíle. Tento výběr pouze změní zobrazený cíl; nedokončí zbytek ani nemění svou klasifikaci."
       },
       "weekly": {
         "title": "Týdenní cíle odpočinku",
@@ -32,11 +32,11 @@
       "title": "Tři nezávislé interakce",
       "countdown": {
         "title": "1. Vyberte cíl pro odpočítávání na hlavní obrazovce",
-        "text": "Klepněte na volitelnou tečku vedle cíle odpočinku, aby se stal cílem používaným odpočítáváním odpočinku/časovačem na hlavní obrazovce aplikace. Ve výchozím nastavení se na hlavní obrazovce zobrazuje nejbližší cíl denního odpočinku, ale můžete jej změnit na jiný dostupný cíl. To <strong>neoznačí </strong> zbytek jako dokončený a nemění to jeho klasifikaci."
+        "text": "Klepněte na volitelnou tečku vedle libovolného cíle odpočinku, aby se stal cílem používaným odpočítáváním odpočinku/časovačem na hlavní obrazovce aplikace. Ve výchozím nastavení se na hlavní obrazovce zobrazuje nejbližší cíl denního odpočinku, ale můžete jej změnit na jakýkoli jiný dostupný denní nebo týdenní cíl. Tím se odpočinek <strong>neoznačí</strong> jako dokončený a jeho klasifikace se nezmění."
       },
       "weekly": {
         "title": "2. Zvolte týdenní odpočinek",
-        "text": "Týdenní cíle odpočinku mají akci <strong>Vyberte</strong>. Výběr jedné značky, která odpočívá jako zamýšlený týdenní odpočinek. Pokud výsledný odpočinek dosáhne požadované délky, například 24 hodin pro cíl 24 hodin, započítá se přímo jako týdenní odpočinek, místo aby zůstal pouze kandidátem čekajícím na konec 144hodinového okna. Další informace o kandidátech na týdenní odpočinek naleznete v části Související obsah."
+        "text": "Týdenní cíle odpočinku mají akci Select. Jeho zvolením označíte aktuální odpočinek jako zamýšlený týdenní odpočinek. Nevybírá si mezi 24hodinovým a 45hodinovým cílem. Doba dosažená během odpočinku určuje, zda splní požadavek na 24 nebo 45 hodin. Výběr jednoduše zachází se zbytkem jako s týdenním odpočinkem, pokud je splněna požadovaná doba, místo toho, aby jej nechal pouze jako kandidáta čekajícího na konec 144hodinového okna."
       },
       "alarm": {
         "title": "3. Nastavte budík",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Ruční zadávání mimo pracovní dobu",
-      "text": "Ruční záznamy mimo pracovní dobu jsou zpracovány v <strong>Deník</strong>. Otevřete <strong>Options</strong>, vyberte <strong>Shift skončil</strong> a přidejte tam nový posun nebo sekvenci. Tento proces patří do článku <strong>Zadání aktivity</strong>."
+      "text": "Ruční zápisy mimo pracovní dobu jsou řešeny v Deníku. Otevřete položku Shift dokončena v deníku, poté otevřete Další možnosti pro tuto položku a přidejte tam novou směnu nebo sekvenci. Tento proces patří do článku Aktivita."
     }
   },
   "related": {

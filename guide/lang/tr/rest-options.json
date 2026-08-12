@@ -5,23 +5,23 @@
   "page": {
     "title": "Dinlenme Seçenekleri Sayfası - TachoMobile 2",
     "heading": "Dinlenme Seçenekleri Sayfası",
-    "intro": "Dinlenme Seçenekleri Sayfası, <strong>İşten Çıktığınızda</strong> ve mevcut/ana etkinliğiniz <strong>Rest</strong> olduğunda görünür. Mevcut dinlenme hedeflerini görüntülemenize ve bunların nasıl kullanıldığını yönetmenize olanak tanır."
+    "intro": "Dinlenme Seçenekleri Sayfası, <strong>iş dışında</strong> olduğunuzda ve mevcut/ana etkinliğiniz <strong>Dinlenme</strong> olduğunda görünür. Mevcut dinlenme hedeflerini görüntülemenize ve bunların nasıl kullanıldığını yönetmenize olanak tanır."
   },
   "sections": {
     "when": {
       "title": "Sayfa açıldığında",
-      "text": "Bu sayfa yalnızca İş Dışında olduğunuzda kullanılabilir. Bu durumda Dinlenme etkinliğine dokunmak normal Etkinlik Ekle penceresini açmaz. Bunun yerine Dinlenme Seçenekleri Sayfasını açar."
+      "text": "Bu sayfa yalnızca İş Dışında olduğunuzda kullanılabilir. Bu durumda mevcut Dinlenme etkinliğine dokunulduğunda normal Etkinlik Ekle penceresi açılmaz. Bunun yerine Dinlenme Seçenekleri Sayfasını açar."
     },
     "contents": {
       "title": "Sayfada neler gösteriliyor?",
-      "intro": "Sayfanın üst kısmında mevcut <strong>dinlenme süresi</strong> ve <strong>dinlenme başlangıç ​​zamanı</strong> gösterilir. Mevcut dinlenme hedefleri bu değerlerin altında gösterilir.",
+      "intro": "Sayfanın üst kısmında geçerli <strong>dinlenme süresi</strong> ve <strong>dinlenme başlangıç ​​zamanı</strong> gösterilir. Mevcut dinlenme hedefleri bu değerlerin altında gösterilir.",
       "header": {
-        "title": "Günlük dinlenme hedefleri",
+        "title": "Dinlenme hedefi seçme",
         "text": "Mevcut duruma bağlı olarak <strong>9 saatlik</strong> veya <strong>11 saatlik</strong> günlük dinlenme hedefi mevcut olabilir. Ana uygulama ekranı normalde en yakın veya bir sonraki günlük dinlenme hedefine doğru geri sayım yapar."
       },
       "daily": {
         "title": "Günlük dinlenme hedefleri",
-        "text": "Ana ekrandaki geri sayım tarafından hangi mevcut hedefin kullanılacağını seçmek için günlük dinlenme hedefinin yanındaki seçilebilir noktayı kullanın. Bu seçim yalnızca görüntülenen hedefi değiştirir; geri kalanını tamamlamaz veya sınıflandırmasını değiştirmez."
+        "text": "Ana ekrandaki geri sayımda hangi mevcut hedefin kullanılacağını seçmek için herhangi bir dinlenme hedefinin yanındaki seçilebilir noktayı kullanın. Günlük veya haftalık bir hedef seçebilirsiniz. Geri sayım daha sonra seçilen hedefe ulaşılana kadar kalan süreyi gösterir. Bu seçim yalnızca görüntülenen hedefi değiştirir; geri kalanını tamamlamaz veya sınıflandırmasını değiştirmez."
       },
       "weekly": {
         "title": "Haftalık dinlenme hedefleri",
@@ -32,11 +32,11 @@
       "title": "Üç bağımsız etkileşim",
       "countdown": {
         "title": "1. Ana ekran geri sayımı için hedefi seçin",
-        "text": "Bir dinlenme hedefinin ana uygulama ekranındaki dinlenme geri sayımı/zamanlayıcısı tarafından kullanılan hedef olmasını sağlamak için yanındaki seçilebilir noktaya dokunun. Varsayılan olarak ana ekran en yakın günlük dinlenme hedefini gösterir ancak bunu mevcut başka bir hedefle değiştirebilirsiniz. Bu, <strong>not</strong> geri kalanını tamamlanmış olarak işaretlemez ve sınıflandırmasını değiştirmez."
+        "text": "Herhangi bir dinlenme hedefinin ana uygulama ekranındaki dinlenme geri sayımı veya zamanlayıcısı tarafından kullanılmasını sağlamak için yanındaki seçilebilir noktaya dokunun. Varsayılan olarak ana ekran en yakın günlük dinlenme hedefini gösterir, ancak bunu mevcut başka bir günlük veya haftalık hedefle değiştirebilirsiniz. Bu işlem dinlenmeyi tamamlanmış olarak <strong>işaretlemez</strong> ve sınıflandırmasını değiştirmez."
       },
       "weekly": {
         "title": "2. Haftalık bir dinlenme seçin",
-        "text": "Haftalık dinlenme hedeflerinde <strong>Seç</strong> işlemi bulunur. Amaçlanan haftalık dinlenme olarak kalan bir işaretin seçilmesi. Ortaya çıkan dinlenme gerekli süreye (örneğin 24 saatlik hedef için 24 saat) ulaşırsa, yalnızca 144 saatlik sürenin sonunu bekleyen bir aday olarak kalmak yerine doğrudan haftalık dinlenme olarak sayılır. Haftalık dinlenme adayları hakkında daha fazla bilgi için İlgili İçeriğe bakın."
+        "text": "Haftalık dinlenme hedeflerinde Seç işlemi bulunur. Bunu seçmek mevcut dinlenmeyi amaçlanan haftalık dinlenme olarak işaretler. 24 saatlik ve 45 saatlik hedef arasında seçim yapmaz. Dinlenme sırasında ulaşılan süre, 24 saat veya 45 saat şartını yerine getirip getirmediğini belirler. Seçim, geri kalanı yalnızca 144 saatlik pencerenin sonunu bekleyen bir aday olarak bırakmak yerine, gerekli sürenin karşılanması durumunda haftalık dinlenme olarak ele alır."
       },
       "alarm": {
         "title": "3. Bir alarm ayarlayın",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Çalışma süresi dışında manuel girişler",
-      "text": "Çalışma süresi dışındaki manuel girişler <strong>Journal</strong>'da işlenir. <strong>Seçenekler</strong>'i açın, <strong>Kaydırma tamamlandı</strong>'i seçin ve buraya yeni bir vardiya veya sıra ekleyin. Bu işlem <strong>Etkinlik Girişi</strong> makalesine aittir."
+      "text": "Çalışma süresi dışındaki manuel girişler Günlük'te işlenir. Günlük'te Vardiya tamamlandı girişini açın, ardından bu giriş için Diğer seçenekler'i açın ve buraya yeni bir vardiya veya sıra ekleyin. Bu işlem Etkinlik Girişi makalesine aittir."
     }
   },
   "related": {

@@ -5,23 +5,23 @@
   "page": {
     "title": "Poilsio parinkčių lapas – TachoMobile 2",
     "heading": "Poilsio parinkčių lapas",
-    "intro": "Poilsio parinkčių lapas rodomas, kai <strong>nedirbate</strong>, o dabartinė / pagrindinė veikla yra <strong>poilsis</strong>. Tai leidžia peržiūrėti galimus poilsio tikslus ir valdyti, kaip jie naudojami."
+    "intro": "Poilsio parinkčių lapas rodomas, kai esate <strong>ne darbo metu</strong> ir dabartinė / pagrindinė veikla yra <strong>Poilsis</strong>. Tai leidžia peržiūrėti galimus poilsio tikslus ir valdyti, kaip jie naudojami."
   },
   "sections": {
     "when": {
       "title": "Kai lapas atsidaro",
-      "text": "Lapas pasiekiamas tik tada, kai nedirbate. Esant tokiai situacijai, bakstelėjus Poilsio veiklą neatsidaro įprastas langas Pridėti veiklą. Vietoj to atidaromas poilsio parinkčių lapas."
+      "text": "Lapas pasiekiamas tik tada, kai nedirbate. Esant tokiai situacijai, palietus esamą poilsio veiklą neatsidaro įprastas langas Pridėti veiklą. Vietoj to atidaromas poilsio parinkčių lapas."
     },
     "contents": {
       "title": "Ką rodo lapas",
-      "intro": "Lapo viršuje rodoma dabartinė <strong>poilsio trukmė</strong> ir <strong>poilsio pradžios laikas</strong>. Galimi poilsio tikslai rodomi po šiomis vertėmis.",
+      "intro": "Lapo viršuje rodoma dabartinė <strong>poilsio trukmė</strong> ir <strong>Z</strong> poilsio pradžios laikas. Galimi poilsio tikslai rodomi po šiomis vertėmis.",
       "header": {
-        "title": "Kasdienio poilsio tikslai",
+        "title": "Renkantis poilsio tikslą",
         "text": "Atsižvelgiant į dabartinę situaciją, gali būti nustatytas <strong>9 valandų</strong> arba <strong>11 valandų</strong> kasdienio poilsio tikslas. Pagrindinis programos ekranas paprastai skaičiuojamas iki artimiausio arba kito kasdienio poilsio tikslo."
       },
       "daily": {
         "title": "Kasdienio poilsio tikslai",
-        "text": "Naudokite pasirenkamą tašką šalia kasdienio poilsio tikslo, kad pasirinktumėte, kuris pasiekiamas tikslas bus naudojamas pagrindiniame ekrane rodomam atgaliniam skaičiavimui. Šis pasirinkimas pakeičia tik rodomą tikslą; ji neužbaigia likusios dalies ir nepakeičia savo klasifikacijos."
+        "text": "Naudokite pasirenkamą tašką šalia bet kurio poilsio tikslo, kad pasirinktumėte, kuris pasiekiamas tikslas bus naudojamas pagrindiniame ekrane esantis atgalinis skaičiavimas. Galite pasirinkti dienos arba savaitės tikslą. Tada atgalinis skaičiavimas rodo laiką, likusį iki pasirinkto tikslo pasiekimo. Šis pasirinkimas pakeičia tik rodomą tikslą; ji neužbaigia likusios dalies ir nepakeičia savo klasifikacijos."
       },
       "weekly": {
         "title": "Savaitės poilsio tikslai",
@@ -32,11 +32,11 @@
       "title": "Trys nepriklausomos sąveikos",
       "countdown": {
         "title": "1. Pasirinkite pagrindinio ekrano atgalinio skaičiavimo tikslą",
-        "text": "Bakstelėkite pasirenkamą tašką šalia poilsio tikslo, kad jis būtų tikslas, naudojamas poilsio atgalinės atskaitos / laikmačio pagrindiniame programos ekrane. Pagal numatytuosius nustatymus pagrindiniame ekrane rodomas artimiausias dienos poilsio tikslas, tačiau galite jį pakeisti į kitą galimą tikslą. Tai <strong>ne</strong> pažymi likusią dalį kaip užbaigtą ir nekeičia klasifikacijos."
+        "text": "Bakstelėkite pasirenkamą tašką šalia bet kurio poilsio tikslo, kad jis būtų naudojamas poilsio atgalinės atskaitos / laikmačio pagrindiniame programos ekrane. Pagal numatytuosius nustatymus pagrindiniame ekrane rodomas artimiausias dienos poilsio tikslas, tačiau galite jį pakeisti į bet kurį kitą galimą dienos ar savaitės tikslą. Tai <strong>ne</strong> pažymi likusią dalį kaip užbaigtą ir nekeičia jo klasifikacijos."
       },
       "weekly": {
         "title": "2. Pasirinkite savaitinį poilsį",
-        "text": "Savaitės poilsio tikslai turi <strong>pasirinkite</strong> veiksmą. Pasirinkus vieną, kuris ilsisi, kaip numatomas savaitinis poilsis. Jei gautas poilsis pasiekia reikiamą trukmę, pavyzdžiui, 24 valandas pagal 24 valandų tikslą, jis skaičiuojamas tiesiogiai kaip savaitinis poilsis, o ne lieka tik kandidatas, laukiantis 144 valandų lango pabaigos. Norėdami sužinoti daugiau apie kandidatus kassavaitiniam poilsiui, žr. Susijusį turinį."
+        "text": "Savaitės poilsio tikslai turi veiksmą Select. Jį pasirinkus esamas poilsis pažymimas kaip numatytas savaitinis poilsis. Ji nesirenka tarp 24 valandų ir 45 valandų tikslo. Poilsio metu pasiekta trukmė lemia, ar ji atitinka 24 valandų ar 45 valandų reikalavimą. Atranka tiesiog traktuoja poilsį kaip savaitinį poilsį, jei yra įvykdyta reikalaujama trukmė, o ne palieka jį tik kaip kandidatą, laukiantį 144 valandų lango pabaigos."
       },
       "alarm": {
         "title": "3. Nustatykite žadintuvą",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Įvedimai rankiniu būdu ne darbo metu",
-      "text": "Rankiniai įrašai ne darbo metu tvarkomi <strong>Žurnale</strong>. Atidarykite <strong>Parinktys</strong>, pasirinkite <strong>Pamaina baigta</strong> ir ten pridėkite naują pamainą arba seką. Šis procesas priklauso straipsniui <strong>Activity Entry</strong>."
+      "text": "Rankiniai įrašai ne darbo metu tvarkomi žurnale. Atidarykite „Shift“ užbaigtą įrašą žurnale, tada atidarykite „Daugiau“ to įrašo parinkčių ir pridėkite ten naują pamainą arba seką. Šis procesas priklauso straipsniui „Veiklos įrašas“."
     }
   },
   "related": {

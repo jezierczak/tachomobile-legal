@@ -5,23 +5,23 @@
   "page": {
     "title": "Feuille d'options de repos - TachoMobile 2",
     "heading": "Feuille d'options de repos",
-    "intro": "La feuille d'options de repos apparaît lorsque vous êtes <strong>hors travail</strong> et que votre activité actuelle/principale est <strong>Rest</strong>. Il vous permet de visualiser les objectifs de repos disponibles et de gérer la façon dont ils sont utilisés."
+    "intro": "La feuille d'options de repos apparaît lorsque vous êtes <strong>hors service</strong> et que votre activité actuelle/principale est <strong>Repos</strong>. Elle vous permet de visualiser les objectifs de repos disponibles et de gérer leur utilisation."
   },
   "sections": {
     "when": {
       "title": "Quand la feuille s'ouvre",
-      "text": "La feuille est disponible uniquement lorsque vous êtes en congé. Dans cette situation, appuyer sur l’activité Repos n’ouvre pas la fenêtre normale Ajouter une activité. Il ouvre à la place la feuille d'options de repos."
+      "text": "La feuille est disponible uniquement lorsque vous êtes en congé. Dans cette situation, appuyer sur l'activité de repos en cours n'ouvre pas la fenêtre normale Ajouter une activité. Il ouvre à la place la feuille d'options de repos."
     },
     "contents": {
       "title": "Ce que montre la feuille",
-      "intro": "En haut, la feuille affiche la durée actuelle du <strong>Rest</strong> et l'heure de début du <strong>Rest</strong>. Les objectifs de repos disponibles sont affichés sous ces valeurs.",
+      "intro": "En haut, la feuille affiche la durée actuelle de repos <strong></strong> et l'heure de début de repos <strong></strong>. Les objectifs de repos disponibles sont affichés sous ces valeurs.",
       "header": {
-        "title": "Objectifs de repos quotidien",
+        "title": "Choisir un objectif de repos",
         "text": "En fonction de la situation actuelle, un objectif de repos quotidien <strong>9 heures</strong> ou <strong>11 heures</strong> peut être disponible. L’écran principal de l’application compte normalement jusqu’à l’objectif de repos quotidien le plus proche ou suivant."
       },
       "daily": {
         "title": "Objectifs de repos quotidien",
-        "text": "Utilisez le point sélectionnable à côté d'un objectif de repos quotidien pour choisir quel objectif disponible est utilisé par le compte à rebours sur l'écran principal. Cette sélection modifie uniquement l'objectif affiché ; il ne complète pas le reste et ne change pas son classement."
+        "text": "Utilisez le point sélectionnable à côté de n'importe quel objectif de repos pour choisir quel objectif disponible est utilisé par le compte à rebours sur l'écran principal. Vous pouvez sélectionner un objectif quotidien ou hebdomadaire. Le compte à rebours indique ensuite le temps restant jusqu'à ce que l'objectif sélectionné soit atteint. Cette sélection modifie uniquement l'objectif affiché ; il ne complète pas le reste et ne change pas son classement."
       },
       "weekly": {
         "title": "Objectifs de repos hebdomadaire",
@@ -32,11 +32,11 @@
       "title": "Trois interactions indépendantes",
       "countdown": {
         "title": "1. Choisissez l'objectif du compte à rebours sur l'écran principal",
-        "text": "Appuyez sur le point sélectionnable à côté d'un objectif de repos pour en faire l'objectif utilisé par le compte à rebours/minuterie de repos sur l'écran principal de l'application. Par défaut, l'écran principal affiche l'objectif de repos quotidien le plus proche, mais vous pouvez le remplacer par un autre objectif disponible. Cela fait que <strong>not</strong> marque le reste comme terminé et ne modifie pas sa classification."
+        "text": "Appuyez sur le point sélectionnable à côté de n'importe quel objectif de repos pour en faire l'objectif utilisé par le compte à rebours/minuterie de repos sur l'écran principal de l'application. Par défaut, l'écran principal affiche l'objectif de repos quotidien le plus proche, mais vous pouvez le remplacer par n'importe quel autre objectif quotidien ou hebdomadaire disponible. Cela <strong>ne</strong> marque pas le repos comme terminé et ne modifie pas sa classification."
       },
       "weekly": {
         "title": "2. Sélectionnez un repos hebdomadaire",
-        "text": "Les objectifs de repos hebdomadaires comportent une action <strong>Select</strong>. En sélectionner un marque ce repos comme étant le repos hebdomadaire prévu. Si le repos obtenu atteint la durée requise, par exemple 24 heures pour l'objectif de 24 heures, il est compté directement comme repos hebdomadaire au lieu de rester seulement un candidat en attente de la fin de la fenêtre de 144 heures. Voir le contenu connexe pour en savoir plus sur les candidats au repos hebdomadaire."
+        "text": "Les objectifs de repos hebdomadaire ont une action Sélectionner. En le sélectionnant, le repos actuel est marqué comme repos hebdomadaire prévu. Il ne choisit pas entre l’objectif de 24 heures et celui de 45 heures. La durée atteinte pendant le repos détermine s'il satisfait à l'exigence de 24 heures ou de 45 heures. La sélection traite simplement le repos comme un repos hebdomadaire si la durée requise est respectée, au lieu de le laisser uniquement comme un candidat attendant la fin de la fenêtre de 144 heures."
       },
       "alarm": {
         "title": "3. Définir une alarme",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Saisies manuelles en dehors du temps de travail",
-      "text": "Les saisies manuelles en dehors du temps de travail sont traitées dans <strong>Journal</strong>. Ouvrez <strong>Options</strong>, sélectionnez <strong>Shift terminé</strong> et ajoutez-y un nouveau décalage ou une nouvelle séquence. Ce processus appartient à l'article <strong>Activity Entry</strong>."
+      "text": "Les saisies manuelles en dehors du temps de travail sont traitées dans le Journal. Ouvrez l'entrée Equipe terminée dans le Journal, puis ouvrez Plus d'options pour cette entrée et ajoutez-y une nouvelle équipe ou une nouvelle séquence. Ce processus appartient à l’article Saisie d’activité."
     }
   },
   "related": {

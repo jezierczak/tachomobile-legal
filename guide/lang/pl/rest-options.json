@@ -5,23 +5,23 @@
   "page": {
     "title": "Arkusz opcji odpoczynku – TachoMobile 2",
     "heading": "Arkusz opcji odpoczynku",
-    "intro": "Arkusz opcji odpoczynku pojawia się, gdy <strong>jesteś poza pracą</strong>, a Twoja bieżąca/główna aktywność to <strong>Rest</strong>. Umożliwia przeglądanie dostępnych celów dotyczących odpoczynku i zarządzanie sposobem ich wykorzystania."
+    "intro": "Arkusz opcji odpoczynku pojawia się, gdy jesteś <strong>poza pracą</strong>, a Twoją bieżącą lub główną aktywnością jest <strong>Odpoczynek</strong>. Umożliwia przeglądanie dostępnych celów odpoczynku i zarządzanie sposobem ich wykorzystania."
   },
   "sections": {
     "when": {
       "title": "Kiedy arkusz się otworzy",
-      "text": "Arkusz jest dostępny tylko wtedy, gdy jesteś poza pracą. W tej sytuacji dotknięcie działania Odpoczynek nie powoduje otwarcia normalnego okna Dodaj działanie. Zamiast tego otwiera arkusz opcji odpoczynku."
+      "text": "Arkusz jest dostępny tylko wtedy, gdy jesteś poza pracą. W tej sytuacji dotknięcie bieżącej aktywności Odpoczynek nie powoduje otwarcia normalnego okna Dodaj aktywność. Zamiast tego otwiera arkusz opcji odpoczynku."
     },
     "contents": {
       "title": "Co wynika z arkusza",
-      "intro": "U góry arkusz pokazuje bieżący <strong>Rostatni czas trwania</strong> i <strong>najbliższy czas rozpoczęcia</strong>. Dostępne cele odpoczynku są pokazane poniżej tych wartości.",
+      "intro": "U góry arkusz pokazuje bieżący <strong>czas trwania odpoczynku</strong> i <strong>czas rozpoczęcia odpoczynku</strong>. Dostępne cele odpoczynku są pokazane poniżej tych wartości.",
       "header": {
         "title": "Cele dziennego odpoczynku",
         "text": "W zależności od aktualnej sytuacji dostępny może być <strong>9-godzinny</strong> lub <strong>11-godzinny</strong> dzienny cel odpoczynku. Główny ekran aplikacji zwykle odlicza czas do najbliższego lub kolejnego dziennego celu odpoczynku."
       },
       "daily": {
-        "title": "Cele dziennego odpoczynku",
-        "text": "Użyj wybieranej kropki obok celu dziennego odpoczynku, aby wybrać, który dostępny cel będzie używany podczas odliczania na ekranie głównym. Ten wybór zmienia jedynie wyświetlany cel; nie uzupełnia reszty i nie zmienia jej klasyfikacji."
+        "title": "Wybór celu odpoczynku",
+        "text": "Użyj wybieralnej kropki obok dowolnego celu odpoczynku, aby wybrać cel używany przez odliczanie na ekranie głównym. Możesz wybrać cel dzienny lub tygodniowy. Odliczanie pokaże wtedy czas pozostały do osiągnięcia wybranego celu. Ten wybór zmienia jedynie wyświetlany cel; nie kończy odpoczynku ani nie zmienia jego klasyfikacji."
       },
       "weekly": {
         "title": "Tygodniowe cele odpoczynku",
@@ -32,11 +32,11 @@
       "title": "Trzy niezależne interakcje",
       "countdown": {
         "title": "1. Wybierz cel odliczania na ekranie głównym",
-        "text": "Naciśnij wybraną kropkę obok celu odpoczynku, aby ustawić go jako cel używany przez odliczanie/minutnik do odpoczynku na głównym ekranie aplikacji. Domyślnie na ekranie głównym pokazany jest najbliższy cel dziennego odpoczynku, ale możesz go zmienić na inny dostępny cel. Spowoduje to <strong>not</strong> oznaczenie reszty jako ukończonej i nie zmienia jej klasyfikacji."
+        "text": "Dotknij wybieralnej kropki obok dowolnego celu odpoczynku, aby ustawić go jako cel używany przez odliczanie lub minutnik odpoczynku na głównym ekranie aplikacji. Domyślnie ekran główny pokazuje najbliższy dzienny cel odpoczynku, ale możesz zmienić go na dowolny inny dostępny cel dzienny lub tygodniowy. To <strong>nie</strong> oznacza odpoczynku jako ukończonego i nie zmienia jego klasyfikacji."
       },
       "weekly": {
         "title": "2. Wybierz odpoczynek tygodniowy",
-        "text": "Cele odpoczynku tygodniowego mają działanie <strong>Wybierz</strong>. Wybranie jednego oznacza odpoczynek jako zamierzony odpoczynek tygodniowy. Jeśli powstały odpoczynek osiągnie wymagany czas trwania, np. 24 godziny w przypadku celu 24-godzinnego, jest on liczony bezpośrednio jako odpoczynek tygodniowy, a nie pozostaje jedynie kandydatem oczekującym na koniec 144-godzinnego okna. Zobacz Powiązane treści, aby uzyskać więcej informacji na temat kandydatów do odpoczynku tygodniowego."
+        "text": "Cele odpoczynku tygodniowego mają akcję Wybierz. Wybranie tej opcji oznacza bieżący odpoczynek jako zamierzony odpoczynek tygodniowy. Nie wybiera ona celu 24-godzinnego ani 45-godzinnego. O tym, czy odpoczynek spełni wymaganie 24 lub 45 godzin, decyduje jego rzeczywisty czas trwania. Wybranie tej opcji powoduje traktowanie odpoczynku jako tygodniowego, jeśli wymagany czas zostanie spełniony, zamiast pozostawienia go jedynie jako kandydata oczekującego na koniec 144-godzinnego okna."
       },
       "alarm": {
         "title": "3. Ustaw alarm",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Ręczne wpisy poza godzinami pracy",
-      "text": "Wpisy ręczne poza godzinami pracy obsługiwane są w <strong>Dzienniku</strong>. Otwórz <strong>OOpcje</strong>, wybierz <strong>Przesunięcie zakończone</strong> i dodaj tam nową zmianę lub sekwencję. Ten proces należy do artykułu <strong>Wpis aktywności</strong>."
+      "text": "Wpisy ręczne poza czasem pracy obsługiwane są w Dzienniku. Otwórz wpis Zmiana zakończona w Dzienniku, następnie otwórz Więcej opcji dla tego wpisu i dodaj tam nową zmianę lub sekwencję. Ten proces należy do artykułu Wprowadzanie aktywności kierowcy."
     }
   },
   "related": {

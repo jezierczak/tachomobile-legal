@@ -5,23 +5,23 @@
   "page": {
     "title": "Hárok s možnosťami odpočinku – TachoMobile 2",
     "heading": "Hárok s možnosťami odpočinku",
-    "intro": "Tabuľka možností odpočinku sa zobrazí, keď ste <strong>Mimo prácu</strong> a vaša aktuálna/hlavná aktivita je <strong>Rest</strong>. Umožňuje vám zobraziť dostupné ciele odpočinku a spravovať, ako sa využívajú."
+    "intro": "Hárok možností odpočinku sa zobrazí, keď ste <strong>mimo práce</strong> a vaša aktuálna/hlavná aktivita je <strong>Odpočinok</strong>. Umožňuje vám zobraziť dostupné ciele odpočinku a spravovať, ako sa využívajú."
   },
   "sections": {
     "when": {
       "title": "Keď sa list otvorí",
-      "text": "Hárok je k dispozícii iba vtedy, keď nemáte prácu. V tejto situácii ťuknutie na Odpočinkovú aktivitu neotvorí normálne okno Pridať aktivitu. Namiesto toho otvorí hárok možností odpočinku."
+      "text": "Hárok je k dispozícii iba vtedy, keď nemáte prácu. V takejto situácii sa ťuknutím na aktuálnu oddychovú aktivitu neotvorí normálne okno Pridať aktivitu. Namiesto toho otvorí hárok možností odpočinku."
     },
     "contents": {
       "title": "Čo ukazuje hárok",
-      "intro": "V hornej časti hárku sa zobrazuje aktuálny <strong>Trvanie odpočinku</strong> a <strong>Čas začiatku odpočinku</strong>. Dostupné ciele odpočinku sú uvedené pod týmito hodnotami.",
+      "intro": "V hornej časti sa na hárku zobrazuje aktuálne trvanie odpočinku <strong></strong> a <strong> čas začiatku odpočinku</strong>. Dostupné ciele odpočinku sú uvedené pod týmito hodnotami.",
       "header": {
-        "title": "Ciele denného odpočinku",
+        "title": "Výber cieľa odpočinku",
         "text": "V závislosti od aktuálnej situácie môže byť k dispozícii <strong>9-hodinový</strong> alebo <strong>11-hodinový</strong> cieľ denného odpočinku. Hlavná obrazovka aplikácie zvyčajne odpočítava najbližší alebo ďalší denný cieľ odpočinku."
       },
       "daily": {
         "title": "Ciele denného odpočinku",
-        "text": "Pomocou voliteľnej bodky vedľa cieľa denného odpočinku vyberte, ktorý dostupný cieľ použije odpočítavanie na hlavnej obrazovke. Tento výber zmení iba zobrazený cieľ; nedokončí zvyšok ani nezmení svoju klasifikáciu."
+        "text": "Pomocou voliteľnej bodky vedľa ľubovoľného cieľa odpočinku vyberte, ktorý dostupný cieľ sa použije pri odpočítavaní na hlavnej obrazovke. Môžete si vybrať denný alebo týždenný cieľ. Odpočítavanie potom ukazuje čas zostávajúci do dosiahnutia zvoleného cieľa. Tento výber zmení iba zobrazený cieľ; nedokončí zvyšok ani nezmení svoju klasifikáciu."
       },
       "weekly": {
         "title": "Týždenné ciele odpočinku",
@@ -32,11 +32,11 @@
       "title": "Tri nezávislé interakcie",
       "countdown": {
         "title": "1. Vyberte cieľ pre odpočítavanie na hlavnej obrazovke",
-        "text": "Klepnite na voliteľnú bodku vedľa cieľa odpočinku, aby ste z neho urobili cieľ, ktorý používa odpočítavanie odpočinku/časovač na hlavnej obrazovke aplikácie. V predvolenom nastavení sa na hlavnej obrazovke zobrazuje najbližší cieľ denného odpočinku, ale môžete ho zmeniť na iný dostupný cieľ. Toto <strong>neoznačí </strong> zvyšok ako dokončený a nemení to jeho klasifikáciu."
+        "text": "Klepnite na voliteľnú bodku vedľa ľubovoľného cieľa odpočinku, aby ste z neho urobili cieľ, ktorý používa odpočítavanie odpočinku/časovač na hlavnej obrazovke aplikácie. V predvolenom nastavení sa na hlavnej obrazovke zobrazuje najbližší cieľ denného odpočinku, ale môžete ho zmeniť na akýkoľvek iný dostupný denný alebo týždenný cieľ. Týmto <strong>neoznačíte</strong> zvyšok ako dokončený a nemení to jeho klasifikáciu."
       },
       "weekly": {
         "title": "2. Zvoľte týždenný odpočinok",
-        "text": "Týždenné ciele odpočinku majú akciu <strong>Vyberte</strong>. Výber jednej značky, ktorá odpočíva ako zamýšľaný týždenný odpočinok. Ak výsledný odpočinok dosiahne požadované trvanie, napríklad 24 hodín pre 24-hodinový cieľ, počíta sa priamo ako týždenný odpočinok namiesto toho, aby zostal len kandidátom čakajúcim na koniec 144-hodinového okna. Viac o kandidátoch na týždenný odpočinok nájdete v časti Súvisiaci obsah."
+        "text": "Týždenné ciele odpočinku majú akciu Select. Jeho výber označí aktuálny odpočinok ako plánovaný týždenný odpočinok. Nevyberá si medzi 24-hodinovým a 45-hodinovým cieľom. Trvanie dosiahnuté počas odpočinku určuje, či spĺňa požiadavku 24 hodín alebo 45 hodín. Výber jednoducho zaobchádza so zvyškom ako s týždenným odpočinkom, ak je splnená požadovaná dĺžka, namiesto toho, aby ho nechal len ako kandidáta, ktorý čaká na koniec 144-hodinového okna."
       },
       "alarm": {
         "title": "3. Nastavte budík",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Manuálne zadávanie mimo pracovného času",
-      "text": "Manuálne záznamy mimo pracovného času sú spracované v <strong>časopise</strong>. Otvorte <strong>Options</strong>, vyberte <strong>Shift skončil</strong> a pridajte tam nový posun alebo sekvenciu. Tento proces patrí k článku <strong>Záznam aktivity</strong>."
+      "text": "Manuálne zápisy mimo pracovného času sú spracované v denníku. Otvorte položku Shift dokončená v denníku, potom otvorte Ďalšie možnosti pre túto položku a pridajte tam novú zmenu alebo sekvenciu. Tento proces patrí do článku Aktivita."
     }
   },
   "related": {

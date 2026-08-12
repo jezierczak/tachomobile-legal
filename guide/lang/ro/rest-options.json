@@ -5,23 +5,23 @@
   "page": {
     "title": "Fișa Opțiuni de odihnă - TachoMobile 2",
     "heading": "Fișa Opțiuni de odihnă",
-    "intro": "Foaia cu opțiuni de odihnă apare atunci când sunteți <strong>În afara serviciului</strong> și activitatea dvs. curentă/principală este <strong>Rest</strong>. Vă permite să vizualizați obiectivele de odihnă disponibile și să gestionați modul în care sunt utilizate."
+    "intro": "Foaia de opțiuni de odihnă apare când sunteți <strong>în afara programului de lucru</strong>, iar activitatea dvs. curentă/principală este <strong>Odihnă</strong>. Vă permite să vedeți obiectivele de odihnă disponibile și să gestionați modul în care sunt utilizate."
   },
   "sections": {
     "when": {
       "title": "Când foaia se deschide",
-      "text": "Fișa este disponibilă numai când sunteți în afara serviciului. În această situație, atingerea activității Rest nu deschide fereastra normală Adaugă activitate. În schimb, deschide foaia de opțiuni de odihnă."
+      "text": "Fișa este disponibilă numai când sunteți în afara serviciului. În această situație, atingerea activității de odihnă curentă nu deschide fereastra normală Adăugare activitate. În schimb, deschide foaia de opțiuni de odihnă."
     },
     "contents": {
       "title": "Ce arată foaia",
-      "intro": "În partea de sus, foaia arată <strong>Durata de odihnă </strong> și <strong>Ora de începere a odihnei</strong>. Obiectivele de odihnă disponibile sunt afișate sub aceste valori.",
+      "intro": "În partea de sus, foaia arată <strong>durata de repaus </strong> și <strong>ora de începere a repausului </strong>. Obiectivele de odihnă disponibile sunt afișate sub aceste valori.",
       "header": {
-        "title": "Obiective de odihnă zilnică",
+        "title": "Alegerea unui obiectiv de odihnă",
         "text": "În funcție de situația actuală, poate fi disponibil un obiectiv de odihnă zilnică <strong>9 ore</strong> sau <strong>11 ore</strong>. Ecranul principal al aplicației numără în mod normal până la cel mai apropiat sau următorul obiectiv de odihnă zilnică."
       },
       "daily": {
         "title": "Obiective de odihnă zilnică",
-        "text": "Utilizați punctul selectabil de lângă un obiectiv de odihnă zilnică pentru a alege care obiectiv disponibil este utilizat de numărătoarea inversă de pe ecranul principal. Această selecție schimbă doar obiectivul afișat; nu completează restul și nici nu își schimbă clasificarea."
+        "text": "Folosiți punctul selectabil de lângă orice obiectiv de odihnă pentru a alege care obiectiv disponibil este utilizat de numărătoarea inversă de pe ecranul principal. Puteți selecta un obiectiv zilnic sau săptămânal. Numărătoarea inversă arată apoi timpul rămas până la atingerea obiectivului selectat. Această selecție schimbă doar obiectivul afișat; nu completează restul și nici nu își schimbă clasificarea."
       },
       "weekly": {
         "title": "Obiective de odihnă săptămânală",
@@ -32,11 +32,11 @@
       "title": "Trei interacțiuni independente",
       "countdown": {
         "title": "1. Alegeți obiectivul pentru numărătoarea inversă de pe ecranul principal",
-        "text": "Atingeți punctul care poate fi selectat de lângă un obiectiv de odihnă pentru a face din acesta obiectivul utilizat de numărătoarea inversă/cronometrul de odihnă pe ecranul principal al aplicației. În mod implicit, ecranul principal arată cel mai apropiat obiectiv de odihnă zilnică, dar îl puteți schimba cu un alt obiectiv disponibil. Acest lucru <strong>nu</strong> marchează restul ca finalizat și nu îi schimbă clasificarea."
+        "text": "Atingeți punctul care poate fi selectat de lângă orice obiectiv de odihnă pentru a deveni obiectivul utilizat de numărătoarea inversă/cronometrul de odihnă din ecranul principal al aplicației. În mod implicit, ecranul principal arată cel mai apropiat obiectiv de odihnă zilnică, dar îl puteți schimba cu orice alt obiectiv zilnic sau săptămânal disponibil. Acest lucru <strong>nu </strong> marchează restul ca finalizat și nu îi schimbă clasificarea."
       },
       "weekly": {
         "title": "2. Selectați o repaus săptămânal",
-        "text": "Obiectivele de odihnă săptămânală au o acțiune <strong>Select</strong>. Selectarea uneia marchează odihna ca odihnă săptămânală dorită. Dacă odihna rezultată atinge durata necesară, de exemplu 24 de ore pentru obiectivul de 24 de ore, aceasta este socotită direct ca odihnă săptămânală în loc să rămână doar un candidat în așteptarea sfârșitului ferestrei de 144 de ore. Consultați Conținutul similar pentru mai multe despre candidații pentru odihnă săptămânală."
+        "text": "Obiectivele de odihnă săptămânală au o acțiune Selectare. Selectarea acesteia marchează odihna curentă ca odihnă săptămânală dorită. Nu alege între obiectivul de 24 de ore și 45 de ore. Durata atinsă în timpul repausului determină dacă îndeplinește cerința de 24 de ore sau 45 de ore. Selecția tratează pur și simplu restul ca repaus săptămânal dacă durata cerută este îndeplinită, în loc să o lase doar ca candidat în așteptarea sfârșitului ferestrei de 144 de ore."
       },
       "alarm": {
         "title": "3. Setați o alarmă",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Intrări manuale în afara orelor de lucru",
-      "text": "Înregistrările manuale în afara timpului de lucru sunt gestionate în <strong>Jurnal</strong>. Deschideți <strong>Opțiuni</strong>, selectați <strong>Shift finalizat</strong> și adăugați o nouă schimbare sau secvență acolo. Acest proces aparține articolului <strong>Intrare în activitate</strong>."
+      "text": "Înregistrările manuale în afara timpului de lucru sunt gestionate în Jurnal. Deschideți intrarea Shift finished în Jurnal, apoi deschideți Mai multe opțiuni pentru acea intrare și adăugați o nouă schimbare sau secvență acolo. Acest proces aparține articolului Intrare activitate."
     }
   },
   "related": {

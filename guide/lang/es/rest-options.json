@@ -5,23 +5,23 @@
   "page": {
     "title": "Hoja de Opciones de Descanso - TachoMobile 2",
     "heading": "Hoja de opciones de descanso",
-    "intro": "La hoja de opciones de descanso aparece cuando está <strong>Fuera del trabajo</strong> y su actividad actual/principal es <strong>Rest</strong>. Le permite ver los objetivos de descanso disponibles y administrar cómo se utilizan."
+    "intro": "La hoja de opciones de descanso aparece cuando estás <strong>fuera de servicio</strong> y tu actividad actual/principal es <strong>Descanso</strong>. Te permite ver los objetivos de descanso disponibles y gestionar cómo se utilizan."
   },
   "sections": {
     "when": {
       "title": "Cuando se abre la hoja",
-      "text": "La hoja está disponible solo cuando no está trabajando. En esta situación, tocar la actividad Descanso no abre la ventana normal Agregar actividad. En su lugar, abre la hoja de opciones de descanso."
+      "text": "La hoja está disponible solo cuando no está trabajando. En esta situación, al tocar la actividad Descanso actual no se abre la ventana Agregar actividad normal. En su lugar, abre la hoja de opciones de descanso."
     },
     "contents": {
       "title": "Lo que muestra la hoja",
-      "intro": "En la parte superior, la hoja muestra la <strong>duración del descanso</strong> y la hora de inicio del descanso<strong><strong> actuales. Los objetivos de descanso disponibles se muestran debajo de estos valores.",
+      "intro": "En la parte superior, la hoja muestra la duración actual del descanso <strong></strong> y la hora de inicio del descanso <strong></strong>. Los objetivos de descanso disponibles se muestran debajo de estos valores.",
       "header": {
-        "title": "Objetivos de descanso diario",
+        "title": "Elegir un objetivo de descanso",
         "text": "Dependiendo de la situación actual, es posible que haya disponible un objetivo de descanso diario <strong></strong> de 9 horas o <strong></strong> de 11 horas. La pantalla principal de la aplicación normalmente cuenta atrás hasta el objetivo de descanso diario más cercano o siguiente."
       },
       "daily": {
         "title": "Objetivos de descanso diario",
-        "text": "Utilice el punto seleccionable junto a un objetivo de descanso diario para elegir qué objetivo disponible se utilizará en la cuenta atrás en la pantalla principal. Esta selección sólo cambia el objetivo mostrado; no completa el resto ni cambia su clasificación."
+        "text": "Utilice el punto seleccionable junto a cualquier objetivo de descanso para elegir qué objetivo disponible se utilizará en la cuenta atrás en la pantalla principal. Puedes seleccionar un objetivo diario o semanal. Luego, la cuenta regresiva muestra el tiempo restante hasta alcanzar el objetivo seleccionado. Esta selección sólo cambia el objetivo mostrado; no completa el resto ni cambia su clasificación."
       },
       "weekly": {
         "title": "Objetivos de descanso semanal",
@@ -32,11 +32,11 @@
       "title": "Tres interacciones independientes",
       "countdown": {
         "title": "1. Elige el objetivo de la cuenta atrás en la pantalla principal.",
-        "text": "Toque el punto seleccionable junto a un objetivo de descanso para convertirlo en el objetivo utilizado por la cuenta regresiva/temporizador de descanso en la pantalla principal de la aplicación. De forma predeterminada, la pantalla principal muestra el objetivo de descanso diario más cercano, pero puedes cambiarlo a otro objetivo disponible. Esto <strong>no</strong> marca el resto como completado y no cambia su clasificación."
+        "text": "Toque el punto seleccionable junto a cualquier objetivo de descanso para convertirlo en el objetivo utilizado por la cuenta regresiva/temporizador de descanso en la pantalla principal de la aplicación. De forma predeterminada, la pantalla principal muestra el objetivo de descanso diario más cercano, pero puedes cambiarlo a cualquier otro objetivo diario o semanal disponible. Esto <strong>no</strong> marca el descanso como completado y no cambia su clasificación."
       },
       "weekly": {
         "title": "2. Selecciona un descanso semanal",
-        "text": "Los objetivos de descanso semanal tienen una acción <strong>Seleccione</strong>. Seleccionar uno marca ese descanso como descanso semanal previsto. Si el descanso resultante alcanza la duración requerida, por ejemplo 24 horas para el objetivo de 24 horas, se cuenta directamente como descanso semanal en lugar de quedar solo como un candidato esperando el final de la ventana de 144 horas. Consulte el contenido relacionado para obtener más información sobre los candidatos para el descanso semanal."
+        "text": "Los objetivos de descanso semanal tienen una acción Seleccionar. Al seleccionarlo, se marca el descanso actual como el descanso semanal previsto. No elige entre el objetivo de 24 horas y el de 45 horas. La duración alcanzada durante el descanso determina si se cumple el requisito de 24 horas o de 45 horas. La selección simplemente trata el resto como descanso semanal si se cumple la duración requerida, en lugar de dejarlo solo como candidato esperando el final de la ventana de 144 horas."
       },
       "alarm": {
         "title": "3. Poner una alarma",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Entradas manuales fuera del horario laboral",
-      "text": "Las entradas manuales fuera del horario laboral se gestionan en <strong>Journal</strong>. Abra <strong>Opciones</strong>, seleccione <strong>Cambio terminado</strong> y agregue un nuevo turno o secuencia allí. Este proceso pertenece al artículo <strong>Activity Entry</strong>."
+      "text": "Las entradas manuales fuera del horario laboral se manejan en el Diario. Abra la entrada Turno terminado en Diario, luego abra Más opciones para esa entrada y agregue un nuevo turno o secuencia allí. Este proceso pertenece al artículo Entrada de actividad."
     }
   },
   "related": {

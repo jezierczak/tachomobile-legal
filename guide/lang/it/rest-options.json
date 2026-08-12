@@ -5,23 +5,23 @@
   "page": {
     "title": "Scheda Opzioni riposo - TachoMobile 2",
     "heading": "Foglio delle opzioni di riposo",
-    "intro": "Il foglio Opzioni riposo viene visualizzato quando sei <strong>fuori lavoro</strong> e la tua attività corrente/principale è <strong>Riposo</strong>. Ti consente di visualizzare gli obiettivi di riposo disponibili e gestirne il modo in cui vengono utilizzati."
+    "intro": "Il foglio delle opzioni di riposo viene visualizzato quando sei <strong>Ofuori dal lavoro</strong> e la tua attività attuale/principale è <strong>Riposo</strong>. Ti consente di visualizzare gli obiettivi di riposo disponibili e gestirne il modo in cui vengono utilizzati."
   },
   "sections": {
     "when": {
       "title": "Quando il foglio si apre",
-      "text": "Il foglio è disponibile solo quando sei fuori lavoro. In questa situazione, toccando l'attività Riposo non si apre la normale finestra Aggiungi attività. Apre invece il foglio delle opzioni di riposo."
+      "text": "Il foglio è disponibile solo quando sei fuori lavoro. In questa situazione, toccando l'attività Riposo corrente non si apre la normale finestra Aggiungi attività. Apre invece il foglio delle opzioni di riposo."
     },
     "contents": {
       "title": "Cosa mostra il foglio",
-      "intro": "Nella parte superiore, il foglio mostra l'attuale <strong>Durata del riposo</strong> e <strong>Ora di inizio del riposo</strong>. Gli obiettivi di riposo disponibili vengono visualizzati sotto questi valori.",
+      "intro": "In alto, il foglio mostra l'attuale <strong>durata riposo</strong> e <strong>ora inizio riposo</strong>. Gli obiettivi di riposo disponibili vengono visualizzati sotto questi valori.",
       "header": {
-        "title": "Obiettivi di riposo giornaliero",
+        "title": "Scegliere un obiettivo di riposo",
         "text": "A seconda della situazione attuale, potrebbe essere disponibile un obiettivo di riposo giornaliero <strong> di 9 ore</strong> o <strong> di 11 ore</strong>. La schermata principale dell'applicazione normalmente esegue il conto alla rovescia fino all'obiettivo di riposo giornaliero più vicino o successivo."
       },
       "daily": {
         "title": "Obiettivi di riposo giornaliero",
-        "text": "Utilizza il punto selezionabile accanto a un obiettivo di riposo giornaliero per scegliere quale obiettivo disponibile verrà utilizzato dal conto alla rovescia nella schermata principale. Questa selezione modifica solo l'obiettivo visualizzato; non completa il resto né cambia la sua classificazione."
+        "text": "Utilizza il punto selezionabile accanto a qualsiasi obiettivo di riposo per scegliere quale obiettivo disponibile verrà utilizzato dal conto alla rovescia nella schermata principale. Puoi selezionare un obiettivo giornaliero o settimanale. Il conto alla rovescia mostra quindi il tempo rimanente fino al raggiungimento dell'obiettivo selezionato. Questa selezione modifica solo l'obiettivo visualizzato; non completa il resto né cambia la sua classificazione."
       },
       "weekly": {
         "title": "Obiettivi di riposo settimanale",
@@ -32,11 +32,11 @@
       "title": "Tre interazioni indipendenti",
       "countdown": {
         "title": "1. Scegli l'obiettivo per il conto alla rovescia nella schermata principale",
-        "text": "Tocca il punto selezionabile accanto a un obiettivo di riposo per renderlo l'obiettivo utilizzato dal conto alla rovescia/timer di riposo nella schermata principale dell'applicazione. Per impostazione predefinita, la schermata principale mostra l'obiettivo di riposo giornaliero più vicino, ma puoi modificarlo con un altro obiettivo disponibile. Ciò <strong>non</strong> contrassegna il resto come completato e non ne modifica la classificazione."
+        "text": "Tocca il punto selezionabile accanto a qualsiasi obiettivo di riposo per renderlo l'obiettivo utilizzato dal conto alla rovescia/timer di riposo nella schermata principale dell'applicazione. Per impostazione predefinita, la schermata principale mostra l'obiettivo di riposo giornaliero più vicino, ma puoi modificarlo con qualsiasi altro obiettivo giornaliero o settimanale disponibile. Questo <strong>non</strong> contrassegna il riposo come completato e non ne modifica la classificazione."
       },
       "weekly": {
         "title": "2. Selezionare un riposo settimanale",
-        "text": "Gli obiettivi di riposo settimanale hanno un'azione <strong>Seleziona</strong>. Selezionandone uno si contrassegna il riposo come riposo settimanale previsto. Se il riposo risultante raggiunge la durata richiesta, ad esempio 24 ore per l'obiettivo di 24 ore, viene conteggiato direttamente come riposo settimanale invece di rimanere solo un candidato in attesa della fine della finestra di 144 ore. Consulta i contenuti correlati per ulteriori informazioni sui candidati al riposo settimanale."
+        "text": "Gli obiettivi di riposo settimanale hanno un'azione Seleziona. Selezionandolo si contrassegna il riposo corrente come riposo settimanale previsto. Non sceglie tra l'obiettivo di 24 ore e quello di 45 ore. La durata raggiunta durante il riposo determina se soddisfa il requisito di 24 ore o 45 ore. La selezione tratta semplicemente il riposo come riposo settimanale se la durata richiesta viene soddisfatta, invece di lasciarlo solo come candidato in attesa della fine della finestra di 144 ore."
       },
       "alarm": {
         "title": "3. Imposta una sveglia",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Inserimento manuale al di fuori dell'orario di lavoro",
-      "text": "Gli inserimenti manuali al di fuori dell'orario di lavoro vengono gestiti in <strong>Journal</strong>. Apri <strong>Opzioni</strong>, seleziona <strong>Turno terminato</strong> e aggiungi un nuovo turno o sequenza lì. Questo processo appartiene all'articolo <strong>Voce attività</strong>."
+      "text": "Le registrazioni manuali al di fuori dell'orario di lavoro vengono gestite nel Giornale. Apri la voce Turno terminato nel Diario, quindi apri Altre opzioni per quella voce e aggiungi un nuovo turno o sequenza lì. Questo processo appartiene all'articolo Immissione attività."
     }
   },
   "related": {

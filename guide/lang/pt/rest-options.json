@@ -5,23 +5,23 @@
   "page": {
     "title": "Folha de opções de descanso - TachoMobile 2",
     "heading": "Folha de opções de descanso",
-    "intro": "A Folha de Opções de Descanso aparece quando você está <strong>Fora do Trabalho</strong> e sua atividade atual/principal é <strong>Rest</strong>. Ele permite visualizar as metas de descanso disponíveis e gerenciar como elas são usadas."
+    "intro": "A Folha de Opções de Descanso aparece quando você está <strong>fora do trabalho</strong> e sua atividade atual/principal é <strong>Descanso</strong>. Ela permite visualizar as metas de descanso disponíveis e gerenciar como são usadas."
   },
   "sections": {
     "when": {
       "title": "Quando a planilha abre",
-      "text": "A planilha está disponível somente quando você está fora do trabalho. Nessa situação, tocar na atividade Rest não abre a janela normal Adicionar atividade. Em vez disso, ele abre a Folha de opções de descanso."
+      "text": "A planilha está disponível somente quando você está fora do trabalho. Nessa situação, tocar na atividade Rest atual não abre a janela normal Adicionar atividade. Em vez disso, ele abre a planilha de opções de descanso."
     },
     "contents": {
       "title": "O que a planilha mostra",
-      "intro": "Na parte superior, a planilha mostra a duração atual do <strong>Rest</strong> e <strong>Rhorário de início do descanso</strong>. As metas de descanso disponíveis são mostradas abaixo desses valores.",
+      "intro": "Na parte superior, a planilha mostra a duração atual do descanso <strong></strong> e o horário de início do descanso <strong></strong>. As metas de descanso disponíveis são mostradas abaixo desses valores.",
       "header": {
-        "title": "Metas de descanso diário",
+        "title": "Escolhendo uma meta de descanso",
         "text": "Dependendo da situação atual, uma meta de descanso diário <strong>9 horas</strong> ou <strong>11 horas</strong> pode estar disponível. A tela principal do aplicativo normalmente faz a contagem regressiva até a meta de descanso diário mais próxima ou seguinte."
       },
       "daily": {
         "title": "Metas de descanso diário",
-        "text": "Use o ponto selecionável ao lado de uma meta de descanso diário para escolher qual meta disponível será usada pela contagem regressiva na tela principal. Esta seleção altera apenas a meta exibida; não completa o resto nem altera sua classificação."
+        "text": "Use o ponto selecionável próximo a qualquer meta de descanso para escolher qual meta disponível será usada pela contagem regressiva na tela principal. Você pode selecionar uma meta diária ou semanal. A contagem regressiva mostra o tempo restante até que a meta selecionada seja alcançada. Esta seleção altera apenas a meta exibida; não completa o resto nem altera sua classificação."
       },
       "weekly": {
         "title": "Metas de descanso semanal",
@@ -32,11 +32,11 @@
       "title": "Três interações independentes",
       "countdown": {
         "title": "1. Escolha a meta para a contagem regressiva da tela principal",
-        "text": "Toque no ponto selecionável próximo a uma meta de descanso para torná-la a meta usada pela contagem regressiva/cronômetro de descanso na tela principal do aplicativo. Por padrão, a tela principal mostra a meta de descanso diário mais próxima, mas você pode alterá-la para outra meta disponível. Isso <strong>not</strong> marca o restante como concluído e não altera sua classificação."
+        "text": "Toque no ponto selecionável próximo a qualquer meta de descanso para torná-la a meta usada pela contagem regressiva/cronômetro de descanso na tela principal do aplicativo. Por padrão, a tela principal mostra a meta de descanso diário mais próxima, mas você pode alterá-la para qualquer outra meta diária ou semanal disponível. Isso <strong>não</strong> marca o descanso como concluído e não altera sua classificação."
       },
       "weekly": {
         "title": "2. Selecione um descanso semanal",
-        "text": "As metas de descanso semanal têm uma ação <strong>Select</strong>. Selecionar um marca esse descanso como o descanso semanal pretendido. Se o descanso resultante atingir a duração exigida, por exemplo 24 horas para a meta de 24 horas, ele será contado diretamente como descanso semanal em vez de permanecer apenas como candidato aguardando o final da janela de 144 horas. Consulte o Conteúdo Relacionado para saber mais sobre os candidatos ao descanso semanal."
+        "text": "As metas de descanso semanal têm uma ação Selecionar. Selecioná-lo marca o descanso atual como o descanso semanal pretendido. Não escolhe entre a meta de 24 horas e de 45 horas. A duração alcançada durante o descanso determina se cumpre o requisito de 24 ou 45 horas. A seleção simplesmente trata o descanso como descanso semanal caso a duração exigida seja cumprida, ao invés de deixá-lo apenas como candidato aguardando o término da janela de 144 horas."
       },
       "alarm": {
         "title": "3. Defina um alarme",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Entradas manuais fora do horário de trabalho",
-      "text": "As entradas manuais fora do horário de trabalho são tratadas em <strong>Journal</strong>. Abra <strong>Options</strong>, selecione <strong>Shift finalizado</strong> e adicione um novo turno ou sequência lá. Este processo pertence ao artigo <strong>Activity Entry</strong>."
+      "text": "As entradas manuais fora do horário de trabalho são tratadas no Diário. Abra a entrada Turno concluído no Diário, abra Mais opções para essa entrada e adicione um novo turno ou sequência lá. Este processo pertence ao artigo Entrada de Atividades."
     }
   },
   "related": {

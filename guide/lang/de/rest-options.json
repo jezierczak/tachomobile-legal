@@ -5,23 +5,23 @@
   "page": {
     "title": "Ruheoptionsblatt – TachoMobile 2",
     "heading": "Ruheoptionen-Blatt",
-    "intro": "Das Ruheoptionen-Blatt wird angezeigt, wenn Sie <strong> arbeitsfrei</strong> sind und Ihre aktuelle/Hauptaktivität <strong>Rest</strong> ist. Damit können Sie verfügbare Ruheziele anzeigen und verwalten, wie diese genutzt werden."
+    "intro": "Das Ruheoptionen-Blatt wird angezeigt, wenn Sie <strong>außer Dienst</strong> sind und Ihre aktuelle/Hauptaktivität <strong>Ruhe</strong> ist. Damit können Sie verfügbare Ruheziele anzeigen und verwalten, wie diese genutzt werden."
   },
   "sections": {
     "when": {
       "title": "Wenn das Blatt geöffnet wird",
-      "text": "Das Blatt ist nur verfügbar, wenn Sie arbeitslos sind. In dieser Situation wird durch Tippen auf die Aktivität „Ausruhen“ nicht das normale Fenster „Aktivität hinzufügen“ geöffnet. Stattdessen wird das Ruheoptionen-Blatt geöffnet."
+      "text": "Das Blatt ist nur verfügbar, wenn Sie arbeitslos sind. In dieser Situation wird durch Tippen auf die aktuelle Ruheaktivität nicht das normale Fenster „Aktivität hinzufügen“ geöffnet. Stattdessen wird das Ruheoptionen-Blatt geöffnet."
     },
     "contents": {
       "title": "Was das Blatt zeigt",
       "intro": "Oben zeigt das Blatt die aktuelle <strong>Ruhedauer</strong> und <strong>Ruhestartzeit</strong>. Die verfügbaren Ruheziele werden unterhalb dieser Werte angezeigt.",
       "header": {
-        "title": "Tägliche Ruheziele",
+        "title": "Ein Ruheziel wählen",
         "text": "Abhängig von der aktuellen Situation kann ein <strong>9-Stunden-</strong> oder <strong>11-Stunden</strong> tägliches Ruheziel verfügbar sein. Der Hauptbildschirm der Anwendung zählt normalerweise bis zum nächsten oder nächsten täglichen Ruheziel herunter."
       },
       "daily": {
         "title": "Tägliche Ruheziele",
-        "text": "Verwenden Sie den auswählbaren Punkt neben einem täglichen Ruheziel, um auszuwählen, welches verfügbare Ziel vom Countdown auf dem Hauptbildschirm verwendet wird. Diese Auswahl ändert nur das angezeigte Ziel; Es vervollständigt den Rest nicht und ändert auch nicht seine Klassifizierung."
+        "text": "Verwenden Sie den auswählbaren Punkt neben einem Ruheziel, um auszuwählen, welches verfügbare Ziel für den Countdown auf dem Hauptbildschirm verwendet wird. Sie können ein tägliches oder wöchentliches Ziel auswählen. Der Countdown zeigt dann die verbleibende Zeit bis zum Erreichen des ausgewählten Ziels an. Diese Auswahl ändert nur das angezeigte Ziel; Es vervollständigt den Rest nicht und ändert auch nicht seine Klassifizierung."
       },
       "weekly": {
         "title": "Wöchentliche Ruheziele",
@@ -32,11 +32,11 @@
       "title": "Drei unabhängige Interaktionen",
       "countdown": {
         "title": "1. Wählen Sie das Ziel für den Countdown auf dem Hauptbildschirm",
-        "text": "Tippen Sie auf den auswählbaren Punkt neben einem Ruheziel, um es zum Ziel für den Ruhe-Countdown/Timer auf dem Hauptbildschirm der Anwendung zu machen. Standardmäßig wird auf dem Hauptbildschirm das nächstgelegene tägliche Ruheziel angezeigt. Sie können es jedoch in ein anderes verfügbares Ziel ändern. Dadurch markiert <strong>not</strong> den Rest als abgeschlossen und ändert seine Klassifizierung nicht."
+        "text": "Tippen Sie auf den auswählbaren Punkt neben einem Ruheziel, um es zum Ziel für den Ruhe-Countdown/Timer auf dem Hauptbildschirm der Anwendung zu machen. Standardmäßig wird auf dem Hauptbildschirm das nächstgelegene tägliche Ruheziel angezeigt. Sie können es jedoch in jedes andere verfügbare tägliche oder wöchentliche Ziel ändern. Dadurch wird der Rest als abgeschlossen markiert und seine Klassifizierung wird nicht geändert."
       },
       "weekly": {
         "title": "2. Wählen Sie eine wöchentliche Ruhezeit",
-        "text": "Wöchentliche Ruheziele haben eine Aktion <strong>Select</strong>. Wenn Sie eine Ruhezeit auswählen, wird diese Ruhezeit als geplante wöchentliche Ruhezeit markiert. Wenn die resultierende Ruhezeit die erforderliche Dauer erreicht, beispielsweise 24 Stunden für das 24-Stunden-Ziel, wird sie direkt als wöchentliche Ruhezeit gezählt, anstatt nur auf das Ende des 144-Stunden-Fensters zu warten. Weitere Informationen zu Kandidaten für wöchentliche Ruhezeiten finden Sie in den verwandten Inhalten."
+        "text": "Wöchentliche Ruheziele verfügen über eine Auswahlaktion. Wenn Sie es auswählen, wird die aktuelle Ruhezeit als geplante wöchentliche Ruhezeit markiert. Es wird nicht zwischen dem 24-Stunden- und dem 45-Stunden-Ziel gewählt. Die während der Ruhezeit erreichte Dauer entscheidet darüber, ob die 24-Stunden- oder 45-Stunden-Anforderung erfüllt wird. Die Auswahl behandelt die Ruhezeit einfach als wöchentliche Ruhezeit, wenn die erforderliche Dauer erfüllt ist, anstatt sie nur als Kandidaten zu belassen, der auf das Ende des 144-Stunden-Fensters wartet."
       },
       "alarm": {
         "title": "3. Stellen Sie einen Alarm ein",
@@ -45,7 +45,7 @@
     },
     "manual": {
       "title": "Manuelle Eingaben außerhalb der Arbeitszeit",
-      "text": "Manuelle Eingaben außerhalb der Arbeitszeit werden im <strong>Journal</strong> abgewickelt. Öffnen Sie <strong>Optionen</strong>, wählen Sie <strong>Schicht beendet</strong> und fügen Sie dort eine neue Schicht oder Sequenz hinzu. Dieser Prozess gehört zum Artikel <strong>Activity Entry</strong>."
+      "text": "Manuelle Einträge außerhalb der Arbeitszeit werden im Journal verarbeitet. Öffnen Sie den Eintrag „Schicht beendet“ im Journal, öffnen Sie dann „Weitere Optionen“ für diesen Eintrag und fügen Sie dort eine neue Schicht oder Sequenz hinzu. Dieser Prozess gehört zum Artikel Aktivitätseintrag."
     }
   },
   "related": {
