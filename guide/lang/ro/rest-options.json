@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Fișa Opțiuni de odihnă - TachoMobile 2",
+    "heading": "Fișa Opțiuni de odihnă",
+    "intro": "Foaia cu opțiuni de odihnă apare atunci când sunteți <strong>În afara serviciului</strong> și activitatea dvs. curentă/principală este <strong>Rest</strong>. Vă permite să vizualizați obiectivele de odihnă disponibile și să gestionați modul în care sunt utilizate."
+  },
+  "sections": {
+    "when": {
+      "title": "Când foaia se deschide",
+      "text": "Fișa este disponibilă numai când sunteți în afara serviciului. În această situație, atingerea activității Rest nu deschide fereastra normală Adaugă activitate. În schimb, deschide foaia de opțiuni de odihnă."
+    },
+    "contents": {
+      "title": "Ce arată foaia",
+      "intro": "În partea de sus, foaia arată <strong>Durata de odihnă </strong> și <strong>Ora de începere a odihnei</strong>. Obiectivele de odihnă disponibile sunt afișate sub aceste valori.",
+      "header": {
+        "title": "Obiective de odihnă zilnică",
+        "text": "În funcție de situația actuală, poate fi disponibil un obiectiv de odihnă zilnică <strong>9 ore</strong> sau <strong>11 ore</strong>. Ecranul principal al aplicației numără în mod normal până la cel mai apropiat sau următorul obiectiv de odihnă zilnică."
+      },
+      "daily": {
+        "title": "Obiective de odihnă zilnică",
+        "text": "Utilizați punctul selectabil de lângă un obiectiv de odihnă zilnică pentru a alege care obiectiv disponibil este utilizat de numărătoarea inversă de pe ecranul principal. Această selecție schimbă doar obiectivul afișat; nu completează restul și nici nu își schimbă clasificarea."
+      },
+      "weekly": {
+        "title": "Obiective de odihnă săptămânală",
+        "text": "Obiectivele săptămânale de odihnă sunt afișate sub obiectivele zilnice: <strong>24 de ore</strong> și <strong>45 de ore</strong>. Fiecare obiectiv arată cât timp rămâne, termenul limită și ziua și ora la care obiectivul va fi atins sau expiră."
+      }
+    },
+    "interactions": {
+      "title": "Trei interacțiuni independente",
+      "countdown": {
+        "title": "1. Alegeți obiectivul pentru numărătoarea inversă de pe ecranul principal",
+        "text": "Atingeți punctul care poate fi selectat de lângă un obiectiv de odihnă pentru a face din acesta obiectivul utilizat de numărătoarea inversă/cronometrul de odihnă pe ecranul principal al aplicației. În mod implicit, ecranul principal arată cel mai apropiat obiectiv de odihnă zilnică, dar îl puteți schimba cu un alt obiectiv disponibil. Acest lucru <strong>nu</strong> marchează restul ca finalizat și nu îi schimbă clasificarea."
+      },
+      "weekly": {
+        "title": "2. Selectați o repaus săptămânal",
+        "text": "Obiectivele de odihnă săptămânală au o acțiune <strong>Select</strong>. Selectarea uneia marchează odihna ca odihnă săptămânală dorită. Dacă odihna rezultată atinge durata necesară, de exemplu 24 de ore pentru obiectivul de 24 de ore, aceasta este socotită direct ca odihnă săptămânală în loc să rămână doar un candidat în așteptarea sfârșitului ferestrei de 144 de ore. Consultați Conținutul similar pentru mai multe despre candidații pentru odihnă săptămânală."
+      },
+      "alarm": {
+        "title": "3. Setați o alarmă",
+        "text": "O pictogramă cu ceas cu alarmă apare lângă fiecare termen de odihnă. Atingeți-l pentru a deschide aplicația de alarmă/ceas de sistem și pentru a seta o alarmă pentru momentul în care obiectivul de odihnă selectat va fi îndeplinit sau va ajunge la termenul limită. TachoMobile deschide funcționalitatea de alarmă a sistemului; nu creează o alarmă personalizată în aplicație."
+      }
+    },
+    "manual": {
+      "title": "Intrări manuale în afara orelor de lucru",
+      "text": "Înregistrările manuale în afara timpului de lucru sunt gestionate în <strong>Jurnal</strong>. Deschideți <strong>Opțiuni</strong>, selectați <strong>Shift finalizat</strong> și adăugați o nouă schimbare sau secvență acolo. Acest proces aparține articolului <strong>Intrare în activitate</strong>."
+    }
+  },
+  "related": {
+    "title": "Conținut înrudit",
+    "activityEntry": "Intrarea în activitate",
+    "mainScreen": "Ecranul principal și activitatea curentă"
+  },
+  "navigation": {
+    "back": "← Înapoi la ghid"
+  },
+  "footer": "© TachoMobile 2"
+}

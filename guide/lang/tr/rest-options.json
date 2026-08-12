@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Dinlenme Seçenekleri Sayfası - TachoMobile 2",
+    "heading": "Dinlenme Seçenekleri Sayfası",
+    "intro": "Dinlenme Seçenekleri Sayfası, <strong>İşten Çıktığınızda</strong> ve mevcut/ana etkinliğiniz <strong>Rest</strong> olduğunda görünür. Mevcut dinlenme hedeflerini görüntülemenize ve bunların nasıl kullanıldığını yönetmenize olanak tanır."
+  },
+  "sections": {
+    "when": {
+      "title": "Sayfa açıldığında",
+      "text": "Bu sayfa yalnızca İş Dışında olduğunuzda kullanılabilir. Bu durumda Dinlenme etkinliğine dokunmak normal Etkinlik Ekle penceresini açmaz. Bunun yerine Dinlenme Seçenekleri Sayfasını açar."
+    },
+    "contents": {
+      "title": "Sayfada neler gösteriliyor?",
+      "intro": "Sayfanın üst kısmında mevcut <strong>dinlenme süresi</strong> ve <strong>dinlenme başlangıç ​​zamanı</strong> gösterilir. Mevcut dinlenme hedefleri bu değerlerin altında gösterilir.",
+      "header": {
+        "title": "Günlük dinlenme hedefleri",
+        "text": "Mevcut duruma bağlı olarak <strong>9 saatlik</strong> veya <strong>11 saatlik</strong> günlük dinlenme hedefi mevcut olabilir. Ana uygulama ekranı normalde en yakın veya bir sonraki günlük dinlenme hedefine doğru geri sayım yapar."
+      },
+      "daily": {
+        "title": "Günlük dinlenme hedefleri",
+        "text": "Ana ekrandaki geri sayım tarafından hangi mevcut hedefin kullanılacağını seçmek için günlük dinlenme hedefinin yanındaki seçilebilir noktayı kullanın. Bu seçim yalnızca görüntülenen hedefi değiştirir; geri kalanını tamamlamaz veya sınıflandırmasını değiştirmez."
+      },
+      "weekly": {
+        "title": "Haftalık dinlenme hedefleri",
+        "text": "Haftalık dinlenme hedefleri, günlük hedeflerin altında gösterilir: <strong>24 saat</strong> ve <strong>45 saat</strong>. Her hedef, ne kadar süre kaldığını, son tarihini ve hedefe ulaşılacağı veya sona ereceği gün ve saati gösterir."
+      }
+    },
+    "interactions": {
+      "title": "Üç bağımsız etkileşim",
+      "countdown": {
+        "title": "1. Ana ekran geri sayımı için hedefi seçin",
+        "text": "Bir dinlenme hedefinin ana uygulama ekranındaki dinlenme geri sayımı/zamanlayıcısı tarafından kullanılan hedef olmasını sağlamak için yanındaki seçilebilir noktaya dokunun. Varsayılan olarak ana ekran en yakın günlük dinlenme hedefini gösterir ancak bunu mevcut başka bir hedefle değiştirebilirsiniz. Bu, <strong>not</strong> geri kalanını tamamlanmış olarak işaretlemez ve sınıflandırmasını değiştirmez."
+      },
+      "weekly": {
+        "title": "2. Haftalık bir dinlenme seçin",
+        "text": "Haftalık dinlenme hedeflerinde <strong>Seç</strong> işlemi bulunur. Amaçlanan haftalık dinlenme olarak kalan bir işaretin seçilmesi. Ortaya çıkan dinlenme gerekli süreye (örneğin 24 saatlik hedef için 24 saat) ulaşırsa, yalnızca 144 saatlik sürenin sonunu bekleyen bir aday olarak kalmak yerine doğrudan haftalık dinlenme olarak sayılır. Haftalık dinlenme adayları hakkında daha fazla bilgi için İlgili İçeriğe bakın."
+      },
+      "alarm": {
+        "title": "3. Bir alarm ayarlayın",
+        "text": "Her dinlenme süresinin yanında bir çalar saat simgesi görünür. Sistem alarmı/saat uygulamasını açmak ve seçilen dinlenme hedefinin tamamlanacağı veya son teslim tarihine ulaşacağı zamana alarm ayarlamak için buna dokunun. TachoMobile sistem alarm işlevini açar; özel bir uygulama içi alarm oluşturmaz."
+      }
+    },
+    "manual": {
+      "title": "Çalışma süresi dışında manuel girişler",
+      "text": "Çalışma süresi dışındaki manuel girişler <strong>Journal</strong>'da işlenir. <strong>Seçenekler</strong>'i açın, <strong>Kaydırma tamamlandı</strong>'i seçin ve buraya yeni bir vardiya veya sıra ekleyin. Bu işlem <strong>Etkinlik Girişi</strong> makalesine aittir."
+    }
+  },
+  "related": {
+    "title": "İlgili İçerik",
+    "activityEntry": "Etkinlik Girişi",
+    "mainScreen": "Ana ekran ve mevcut etkinlik"
+  },
+  "navigation": {
+    "back": "← Kılavuza geri dön"
+  },
+  "footer": "© TachoMobile 2"
+}

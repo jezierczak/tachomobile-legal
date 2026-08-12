@@ -1,0 +1,28 @@
+{
+  "meta": { "htmlLang": "en" },
+  "page": {
+    "title": "Rest Options Sheet - TachoMobile 2",
+    "heading": "Rest Options Sheet",
+    "intro": "The Rest Options Sheet appears when you are <strong>Off Work</strong> and your current/main activity is <strong>Rest</strong>. It lets you view available rest goals and manage how they are used."
+  },
+  "sections": {
+    "when": { "title": "When the sheet opens", "text": "The sheet is available only when you are Off Work. In this situation, tapping the Rest activity does not open the normal Add Activity window. It opens the Rest Options Sheet instead." },
+    "contents": {
+      "title": "What the sheet shows",
+      "intro": "At the top, the sheet shows the current <strong>Rest duration</strong> and <strong>Rest start time</strong>. The available rest goals are shown below these values.",
+      "header": { "title": "Daily rest goals", "text": "Depending on the current situation, a <strong>9-hour</strong> or <strong>11-hour</strong> daily rest goal may be available. The main application screen normally counts down to the nearest or next daily rest goal." },
+      "daily": { "title": "Daily rest goals", "text": "Use the selectable dot next to a daily rest goal to choose which available goal is used by the countdown on the main screen. This selection only changes the displayed goal; it does not complete the rest or change its classification." },
+      "weekly": { "title": "Weekly rest goals", "text": "Weekly rest goals are shown below the daily goals: <strong>24 hours</strong> and <strong>45 hours</strong>. Each goal shows how much time remains, its deadline, and the day and time when the goal will be reached or expires." }
+    },
+    "interactions": {
+      "title": "Three independent interactions",
+      "countdown": { "title": "1. Choose the goal for the main-screen countdown", "text": "Tap the selectable dot next to a rest goal to make it the goal used by the rest countdown/timer on the main application screen. By default, the main screen shows the nearest daily rest goal, but you can change it to another available goal. This does <strong>not</strong> mark the rest as completed and does not change its classification." },
+      "weekly": { "title": "2. Select a weekly rest", "text": "Weekly rest goals have a <strong>Select</strong> action. Selecting one marks that rest as the intended weekly rest. If the resulting rest reaches the required duration, for example 24 hours for the 24-hour goal, it is counted directly as weekly rest instead of remaining only a candidate waiting for the end of the 144-hour window. See Related Content for more about weekly rest candidates." },
+      "alarm": { "title": "3. Set an alarm", "text": "An alarm-clock icon appears next to each rest deadline. Tap it to open the system alarm/clock application and set an alarm for the time when the selected rest goal will be completed or reach its deadline. TachoMobile opens the system alarm functionality; it does not create a custom in-app alarm." }
+    },
+    "manual": { "title": "Manual entries outside working time", "text": "Manual entries outside working time are handled in <strong>Journal</strong>. Open <strong>Options</strong>, select <strong>Shift finished</strong>, and add a new shift or sequence there. This process belongs to the <strong>Activity Entry</strong> article." }
+  },
+  "related": { "title": "Related Content", "activityEntry": "Activity Entry", "mainScreen": "Main screen and current activity" },
+  "navigation": { "back": "← Back to guide" },
+  "footer": "© TachoMobile 2"
+}

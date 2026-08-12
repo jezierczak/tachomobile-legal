@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Ruheoptionsblatt – TachoMobile 2",
+    "heading": "Ruheoptionen-Blatt",
+    "intro": "Das Ruheoptionen-Blatt wird angezeigt, wenn Sie <strong> arbeitsfrei</strong> sind und Ihre aktuelle/Hauptaktivität <strong>Rest</strong> ist. Damit können Sie verfügbare Ruheziele anzeigen und verwalten, wie diese genutzt werden."
+  },
+  "sections": {
+    "when": {
+      "title": "Wenn das Blatt geöffnet wird",
+      "text": "Das Blatt ist nur verfügbar, wenn Sie arbeitslos sind. In dieser Situation wird durch Tippen auf die Aktivität „Ausruhen“ nicht das normale Fenster „Aktivität hinzufügen“ geöffnet. Stattdessen wird das Ruheoptionen-Blatt geöffnet."
+    },
+    "contents": {
+      "title": "Was das Blatt zeigt",
+      "intro": "Oben zeigt das Blatt die aktuelle <strong>Ruhedauer</strong> und <strong>Ruhestartzeit</strong>. Die verfügbaren Ruheziele werden unterhalb dieser Werte angezeigt.",
+      "header": {
+        "title": "Tägliche Ruheziele",
+        "text": "Abhängig von der aktuellen Situation kann ein <strong>9-Stunden-</strong> oder <strong>11-Stunden</strong> tägliches Ruheziel verfügbar sein. Der Hauptbildschirm der Anwendung zählt normalerweise bis zum nächsten oder nächsten täglichen Ruheziel herunter."
+      },
+      "daily": {
+        "title": "Tägliche Ruheziele",
+        "text": "Verwenden Sie den auswählbaren Punkt neben einem täglichen Ruheziel, um auszuwählen, welches verfügbare Ziel vom Countdown auf dem Hauptbildschirm verwendet wird. Diese Auswahl ändert nur das angezeigte Ziel; Es vervollständigt den Rest nicht und ändert auch nicht seine Klassifizierung."
+      },
+      "weekly": {
+        "title": "Wöchentliche Ruheziele",
+        "text": "Wöchentliche Ruheziele werden unter den Tageszielen angezeigt: <strong>24 Stunden</strong> und <strong>45 Stunden</strong>. Für jedes Ziel wird angezeigt, wie viel Zeit noch verbleibt, welche Frist festgelegt ist und an welchem ​​Tag und zu welcher Uhrzeit das Ziel erreicht wird oder abläuft."
+      }
+    },
+    "interactions": {
+      "title": "Drei unabhängige Interaktionen",
+      "countdown": {
+        "title": "1. Wählen Sie das Ziel für den Countdown auf dem Hauptbildschirm",
+        "text": "Tippen Sie auf den auswählbaren Punkt neben einem Ruheziel, um es zum Ziel für den Ruhe-Countdown/Timer auf dem Hauptbildschirm der Anwendung zu machen. Standardmäßig wird auf dem Hauptbildschirm das nächstgelegene tägliche Ruheziel angezeigt. Sie können es jedoch in ein anderes verfügbares Ziel ändern. Dadurch markiert <strong>not</strong> den Rest als abgeschlossen und ändert seine Klassifizierung nicht."
+      },
+      "weekly": {
+        "title": "2. Wählen Sie eine wöchentliche Ruhezeit",
+        "text": "Wöchentliche Ruheziele haben eine Aktion <strong>Select</strong>. Wenn Sie eine Ruhezeit auswählen, wird diese Ruhezeit als geplante wöchentliche Ruhezeit markiert. Wenn die resultierende Ruhezeit die erforderliche Dauer erreicht, beispielsweise 24 Stunden für das 24-Stunden-Ziel, wird sie direkt als wöchentliche Ruhezeit gezählt, anstatt nur auf das Ende des 144-Stunden-Fensters zu warten. Weitere Informationen zu Kandidaten für wöchentliche Ruhezeiten finden Sie in den verwandten Inhalten."
+      },
+      "alarm": {
+        "title": "3. Stellen Sie einen Alarm ein",
+        "text": "Neben jeder Ruhefrist erscheint ein Weckersymbol. Tippen Sie darauf, um die Alarm-/Uhranwendung des Systems zu öffnen und einen Alarm für die Zeit einzustellen, zu der das ausgewählte Ruheziel erreicht wird oder seine Frist erreicht. TachoMobile öffnet die Systemalarmfunktion; Es wird kein benutzerdefinierter In-App-Alarm erstellt."
+      }
+    },
+    "manual": {
+      "title": "Manuelle Eingaben außerhalb der Arbeitszeit",
+      "text": "Manuelle Eingaben außerhalb der Arbeitszeit werden im <strong>Journal</strong> abgewickelt. Öffnen Sie <strong>Optionen</strong>, wählen Sie <strong>Schicht beendet</strong> und fügen Sie dort eine neue Schicht oder Sequenz hinzu. Dieser Prozess gehört zum Artikel <strong>Activity Entry</strong>."
+    }
+  },
+  "related": {
+    "title": "Verwandter Inhalt",
+    "activityEntry": "Aktivitätseintrag",
+    "mainScreen": "Hauptbildschirm und aktuelle Aktivität"
+  },
+  "navigation": {
+    "back": "← Zurück zur Anleitung"
+  },
+  "footer": "© TachoMobile 2"
+}

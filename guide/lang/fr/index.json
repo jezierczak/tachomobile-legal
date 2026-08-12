@@ -8,6 +8,7 @@
     "description": "Ce guide contient les informations nécessaires pour configurer et utiliser correctement TachoMobile 2."
   },
   "modules": {
+    "restOptions": { "title": "Options de repos", "description": "Découvrez comment consulter et gérer les objectifs de repos quotidien et hebdomadaire lorsque vous êtes hors service.", "url": "rest-options/" },
     "activityEntry": { "title": "Saisie des activités du conducteur", "description": "Découvrez comment commencer et terminer le travail et saisir rapidement les activités du conducteur.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Premiers pas",

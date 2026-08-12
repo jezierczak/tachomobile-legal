@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Feuille d'options de repos - TachoMobile 2",
+    "heading": "Feuille d'options de repos",
+    "intro": "La feuille d'options de repos apparaît lorsque vous êtes <strong>hors travail</strong> et que votre activité actuelle/principale est <strong>Rest</strong>. Il vous permet de visualiser les objectifs de repos disponibles et de gérer la façon dont ils sont utilisés."
+  },
+  "sections": {
+    "when": {
+      "title": "Quand la feuille s'ouvre",
+      "text": "La feuille est disponible uniquement lorsque vous êtes en congé. Dans cette situation, appuyer sur l’activité Repos n’ouvre pas la fenêtre normale Ajouter une activité. Il ouvre à la place la feuille d'options de repos."
+    },
+    "contents": {
+      "title": "Ce que montre la feuille",
+      "intro": "En haut, la feuille affiche la durée actuelle du <strong>Rest</strong> et l'heure de début du <strong>Rest</strong>. Les objectifs de repos disponibles sont affichés sous ces valeurs.",
+      "header": {
+        "title": "Objectifs de repos quotidien",
+        "text": "En fonction de la situation actuelle, un objectif de repos quotidien <strong>9 heures</strong> ou <strong>11 heures</strong> peut être disponible. L’écran principal de l’application compte normalement jusqu’à l’objectif de repos quotidien le plus proche ou suivant."
+      },
+      "daily": {
+        "title": "Objectifs de repos quotidien",
+        "text": "Utilisez le point sélectionnable à côté d'un objectif de repos quotidien pour choisir quel objectif disponible est utilisé par le compte à rebours sur l'écran principal. Cette sélection modifie uniquement l'objectif affiché ; il ne complète pas le reste et ne change pas son classement."
+      },
+      "weekly": {
+        "title": "Objectifs de repos hebdomadaire",
+        "text": "Les objectifs de repos hebdomadaires sont affichés sous les objectifs quotidiens : <strong>24 heures</strong> et <strong>45 heures</strong>. Chaque objectif indique le temps restant, sa date limite, ainsi que le jour et l'heure auxquels l'objectif sera atteint ou expirera."
+      }
+    },
+    "interactions": {
+      "title": "Trois interactions indépendantes",
+      "countdown": {
+        "title": "1. Choisissez l'objectif du compte à rebours sur l'écran principal",
+        "text": "Appuyez sur le point sélectionnable à côté d'un objectif de repos pour en faire l'objectif utilisé par le compte à rebours/minuterie de repos sur l'écran principal de l'application. Par défaut, l'écran principal affiche l'objectif de repos quotidien le plus proche, mais vous pouvez le remplacer par un autre objectif disponible. Cela fait que <strong>not</strong> marque le reste comme terminé et ne modifie pas sa classification."
+      },
+      "weekly": {
+        "title": "2. Sélectionnez un repos hebdomadaire",
+        "text": "Les objectifs de repos hebdomadaires comportent une action <strong>Select</strong>. En sélectionner un marque ce repos comme étant le repos hebdomadaire prévu. Si le repos obtenu atteint la durée requise, par exemple 24 heures pour l'objectif de 24 heures, il est compté directement comme repos hebdomadaire au lieu de rester seulement un candidat en attente de la fin de la fenêtre de 144 heures. Voir le contenu connexe pour en savoir plus sur les candidats au repos hebdomadaire."
+      },
+      "alarm": {
+        "title": "3. Définir une alarme",
+        "text": "Une icône de réveil apparaît à côté de chaque échéance de repos. Appuyez dessus pour ouvrir l'application alarme/horloge du système et définir une alarme pour l'heure à laquelle l'objectif de repos sélectionné sera atteint ou atteindra sa date limite. TachoMobile ouvre la fonctionnalité d'alarme du système ; il ne crée pas d'alarme personnalisée dans l'application."
+      }
+    },
+    "manual": {
+      "title": "Saisies manuelles en dehors du temps de travail",
+      "text": "Les saisies manuelles en dehors du temps de travail sont traitées dans <strong>Journal</strong>. Ouvrez <strong>Options</strong>, sélectionnez <strong>Shift terminé</strong> et ajoutez-y un nouveau décalage ou une nouvelle séquence. Ce processus appartient à l'article <strong>Activity Entry</strong>."
+    }
+  },
+  "related": {
+    "title": "Contenu connexe",
+    "activityEntry": "Entrée d'activité",
+    "mainScreen": "Écran principal et activité actuelle"
+  },
+  "navigation": {
+    "back": "← Retour au guide"
+  },
+  "footer": "© TachoMobile 2"
+}

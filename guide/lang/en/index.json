@@ -9,6 +9,7 @@
   },
   "modules": {
     "activityEntry": { "title": "Entering driver activities", "description": "Learn how to start and finish work and quickly enter driver activities.", "url": "activity-entry/" },
+    "restOptions": { "title": "Rest Options Sheet", "description": "Learn how to view and manage daily and weekly rest goals when you are Off Work.", "url": "rest-options/" },
     "firstSteps": {
       "title": "First Steps",
       "description": "A quick introduction to getting started with TachoMobile 2.",

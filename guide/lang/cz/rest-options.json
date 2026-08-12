@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "List možností odpočinku - TachoMobile 2",
+    "heading": "List možností odpočinku",
+    "intro": "Tabulka možností odpočinku se zobrazí, když jste <strong>Nepráci</strong> a vaše aktuální/hlavní aktivita je <strong>Rest</strong>. Umožňuje vám zobrazit dostupné cíle odpočinku a spravovat, jak jsou využívány."
+  },
+  "sections": {
+    "when": {
+      "title": "Když se list otevře",
+      "text": "List je k dispozici pouze tehdy, když nemáte práci. V této situaci se klepnutím na aktivitu Odpočinek neotevře normální okno Přidat aktivitu. Místo toho otevře list možností odpočinku."
+    },
+    "contents": {
+      "title": "Co ukazuje list",
+      "intro": "Nahoře je na listu zobrazeno aktuální <strong>Doba odpočinku</strong> a <strong>Čas začátku odpočinku</strong>. Dostupné cíle odpočinku jsou uvedeny pod těmito hodnotami.",
+      "header": {
+        "title": "Cíle denního odpočinku",
+        "text": "V závislosti na aktuální situaci může být k dispozici cíl denního odpočinku <strong>9hodin</strong> nebo <strong>11hodin</strong>. Hlavní obrazovka aplikace normálně odpočítává k nejbližšímu nebo dalšímu cíli denního odpočinku."
+      },
+      "daily": {
+        "title": "Cíle denního odpočinku",
+        "text": "Pomocí volitelné tečky vedle cíle denního odpočinku vyberte, který dostupný cíl bude použit odpočítáváním na hlavní obrazovce. Tento výběr pouze změní zobrazený cíl; nedokončí zbytek ani nemění svou klasifikaci."
+      },
+      "weekly": {
+        "title": "Týdenní cíle odpočinku",
+        "text": "Týdenní cíle odpočinku jsou uvedeny pod denními cíli: <strong>24 hodin</strong> a <strong>45 hodin</strong>. Každý cíl ukazuje, kolik času zbývá, jeho termín a den a čas, kdy bude cíle dosaženo nebo vyprší."
+      }
+    },
+    "interactions": {
+      "title": "Tři nezávislé interakce",
+      "countdown": {
+        "title": "1. Vyberte cíl pro odpočítávání na hlavní obrazovce",
+        "text": "Klepněte na volitelnou tečku vedle cíle odpočinku, aby se stal cílem používaným odpočítáváním odpočinku/časovačem na hlavní obrazovce aplikace. Ve výchozím nastavení se na hlavní obrazovce zobrazuje nejbližší cíl denního odpočinku, ale můžete jej změnit na jiný dostupný cíl. To <strong>neoznačí </strong> zbytek jako dokončený a nemění to jeho klasifikaci."
+      },
+      "weekly": {
+        "title": "2. Zvolte týdenní odpočinek",
+        "text": "Týdenní cíle odpočinku mají akci <strong>Vyberte</strong>. Výběr jedné značky, která odpočívá jako zamýšlený týdenní odpočinek. Pokud výsledný odpočinek dosáhne požadované délky, například 24 hodin pro cíl 24 hodin, započítá se přímo jako týdenní odpočinek, místo aby zůstal pouze kandidátem čekajícím na konec 144hodinového okna. Další informace o kandidátech na týdenní odpočinek naleznete v části Související obsah."
+      },
+      "alarm": {
+        "title": "3. Nastavte budík",
+        "text": "Vedle každého termínu odpočinku se zobrazí ikona budíku. Klepnutím na něj otevřete aplikaci systémového budíku/hodiny a nastavíte budík na čas, kdy bude vybraný cíl odpočinku dokončen nebo kdy dosáhne svého termínu. TachoMobile otevře funkci systémového alarmu; nevytváří vlastní budík v aplikaci."
+      }
+    },
+    "manual": {
+      "title": "Ruční zadávání mimo pracovní dobu",
+      "text": "Ruční záznamy mimo pracovní dobu jsou zpracovány v <strong>Deník</strong>. Otevřete <strong>Options</strong>, vyberte <strong>Shift skončil</strong> a přidejte tam nový posun nebo sekvenci. Tento proces patří do článku <strong>Zadání aktivity</strong>."
+    }
+  },
+  "related": {
+    "title": "Související obsah",
+    "activityEntry": "Vstup do aktivity",
+    "mainScreen": "Hlavní obrazovka a aktuální aktivita"
+  },
+  "navigation": {
+    "back": "← Zpět na průvodce"
+  },
+  "footer": "© TachoMobile 2"
+}

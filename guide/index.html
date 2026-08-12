@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TachoMobile Guide</title>
+
+  <script>
+    const lang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+    let target = "/en/guide/";
+
+    if (lang.startsWith("pl")) target = "/pl/guide/";
+    else if (lang.startsWith("de")) target = "/de/guide/";
+    else if (lang.startsWith("cs")) target = "/cz/guide/";
+    else if (lang.startsWith("es")) target = "/es/guide/";
+    else if (lang.startsWith("fr")) target = "/fr/guide/";
+    else if (lang.startsWith("hu")) target = "/hu/guide/";
+    else if (lang.startsWith("it")) target = "/it/guide/";
+    else if (lang.startsWith("lt")) target = "/lt/guide/";
+    else if (lang.startsWith("pt")) target = "/pt/guide/";
+    else if (lang.startsWith("ro")) target = "/ro/guide/";
+    else if (lang.startsWith("ru")) target = "/ru/guide/";
+    else if (lang.startsWith("sk")) target = "/sk/guide/";
+    else if (lang.startsWith("tr")) target = "/tr/guide/";
+    else if (lang.startsWith("uk")) target = "/ua/guide/";
+
+    window.location.replace(target);
+  </script>
+</head>
+<body></body>
+</html>

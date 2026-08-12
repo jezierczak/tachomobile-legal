@@ -8,6 +8,7 @@
     "description": "Ez az útmutató segítséget nyújt a TachoMobile 2 megfelelő beállításához és használatához."
   },
   "modules": {
+    "restOptions": { "title": "Pihenési lehetőségek", "description": "Ismerje meg a napi és heti pihenési célok megtekintését és kezelését munkaidőn kívül.", "url": "rest-options/" },
     "activityEntry": { "title": "A sofőr tevékenységeinek rögzítése", "description": "Ismerje meg a munka megkezdését, befejezését és a sofőr tevékenységeinek gyors rögzítését.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Első lépések",

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Pihenési lehetőségek lap – TachoMobile 2",
+    "heading": "Pihenési lehetőségek lap",
+    "intro": "A Pihenési beállítások lap akkor jelenik meg, ha <strong> nem dolgozik</strong>, és a jelenlegi/fő tevékenysége <strong>Pihenés</strong>. Lehetővé teszi a rendelkezésre álló pihenési célok megtekintését és azok felhasználásának kezelését."
+  },
+  "sections": {
+    "when": {
+      "title": "Amikor kinyílik a lap",
+      "text": "A lap csak akkor érhető el, ha Ön nem dolgozik. Ebben a helyzetben a Nyugalmi tevékenység megérintése nem nyitja meg a szokásos Tevékenység hozzáadása ablakot. Ehelyett megnyitja a többi beállítási lapot."
+    },
+    "contents": {
+      "title": "Amit a lap mutat",
+      "intro": "A lap tetején látható a jelenlegi <strong>pihenőidő</strong> és <strong>pihenőkezdési idő</strong>. Az elérhető pihenőcélok ezen értékek alatt láthatók.",
+      "header": {
+        "title": "Napi pihenőcélok",
+        "text": "Az aktuális helyzettől függően <strong>9 órás</strong> vagy <strong>11 órás</strong> napi pihenőcél állhat rendelkezésre. Az alkalmazás fő képernyője általában visszaszámol a legközelebbi vagy a következő napi pihenőcélig."
+      },
+      "daily": {
+        "title": "Napi pihenőcélok",
+        "text": "A napi pihenési cél melletti kiválasztható pont segítségével válassza ki, hogy melyik elérhető célt használja a főképernyőn megjelenő visszaszámlálás. Ez a kijelölés csak a megjelenített célt módosítja; nem egészíti ki a többit, és nem változtatja meg a besorolását."
+      },
+      "weekly": {
+        "title": "Heti pihenőcélok",
+        "text": "A heti pihenési célok a napi célok alatt láthatók: <strong>24 óra</strong> és <strong>45 óra</strong>. Minden cél megmutatja, hogy mennyi idő van még hátra, annak határideje, valamint a cél elérésének vagy lejáratának napja és időpontja."
+      }
+    },
+    "interactions": {
+      "title": "Három független kölcsönhatás",
+      "countdown": {
+        "title": "1. Válassza ki a főképernyőn megjelenő visszaszámlálás célját",
+        "text": "Koppintson a pihenőcél melletti kiválasztható pontra, hogy az legyen a pihenő visszaszámláló/időzítő által használt cél az alkalmazás fő képernyőjén. Alapértelmezés szerint a főképernyő a legközelebbi napi pihenőcélt mutatja, de módosíthatja azt egy másik elérhető célra. Ez <strong>nem</strong> jelöli a többit befejezettnek, és nem módosítja a besorolását."
+      },
+      "weekly": {
+        "title": "2. Válasszon heti pihenőidőt",
+        "text": "A heti pihenőcélokhoz tartozik egy <strong>Válassza ki a</strong> műveletet. Egy pihenőhely kiválasztása a tervezett heti pihenőidőként. Ha az eredményül kapott pihenő eléri a szükséges időtartamot, például 24 órát a 24 órás célhoz, akkor közvetlenül heti pihenőnek számít, ahelyett, hogy csak a 144 órás időtartam végére váró jelölt maradna. A heti pihenőjelöltekkel kapcsolatos további információkért lásd a Kapcsolódó tartalmat."
+      },
+      "alarm": {
+        "title": "3. Állítson be ébresztést",
+        "text": "Minden pihenőidő mellett megjelenik egy ébresztőóra ikon. Érintse meg a rendszer ébresztő/óra alkalmazásának megnyitásához, és állítson be ébresztést arra az időpontra, amikor a kiválasztott pihenési cél teljesítésre kerül, vagy eléri a határidőt. A TachoMobile megnyitja a rendszer riasztási funkcióját; nem hoz létre egyéni alkalmazáson belüli riasztást."
+      }
+    },
+    "manual": {
+      "title": "Kézi bevitel munkaidőn kívül",
+      "text": "A munkaidőn kívüli kézi bejegyzéseket a <strong>Jegyzet</strong> kezeli. Nyissa meg a <strong>Options</strong> elemet, válassza a <strong>Váltás befejezve</strong> lehetőséget, és adjon hozzá egy új műszakot vagy sorozatot. Ez a folyamat a <strong>Activity Entry</strong> cikkhez tartozik."
+    }
+  },
+  "related": {
+    "title": "Kapcsolódó tartalom",
+    "activityEntry": "Tevékenység bejegyzés",
+    "mainScreen": "Főképernyő és aktuális tevékenység"
+  },
+  "navigation": {
+    "back": "← Vissza az útmutatóhoz"
+  },
+  "footer": "© TachoMobile 2"
+}

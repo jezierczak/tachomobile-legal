@@ -8,6 +8,7 @@
     "description": "Dieser Leitfaden enthält Informationen zur richtigen Einrichtung und Nutzung von TachoMobile 2."
   },
   "modules": {
+    "restOptions": { "title": "Ruheoptionen", "description": "Erfahren Sie, wie Sie tägliche und wöchentliche Ruheziele anzeigen und verwalten, wenn Sie außer Dienst sind.", "url": "rest-options/" },
     "activityEntry": { "title": "Eingabe der Fahreraktivitäten", "description": "Erfahre, wie du die Arbeit beginnst und beendest und Fahreraktivitäten schnell eingibst.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Erste Schritte",

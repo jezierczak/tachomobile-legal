@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Folha de opções de descanso - TachoMobile 2",
+    "heading": "Folha de opções de descanso",
+    "intro": "A Folha de Opções de Descanso aparece quando você está <strong>Fora do Trabalho</strong> e sua atividade atual/principal é <strong>Rest</strong>. Ele permite visualizar as metas de descanso disponíveis e gerenciar como elas são usadas."
+  },
+  "sections": {
+    "when": {
+      "title": "Quando a planilha abre",
+      "text": "A planilha está disponível somente quando você está fora do trabalho. Nessa situação, tocar na atividade Rest não abre a janela normal Adicionar atividade. Em vez disso, ele abre a Folha de opções de descanso."
+    },
+    "contents": {
+      "title": "O que a planilha mostra",
+      "intro": "Na parte superior, a planilha mostra a duração atual do <strong>Rest</strong> e <strong>Rhorário de início do descanso</strong>. As metas de descanso disponíveis são mostradas abaixo desses valores.",
+      "header": {
+        "title": "Metas de descanso diário",
+        "text": "Dependendo da situação atual, uma meta de descanso diário <strong>9 horas</strong> ou <strong>11 horas</strong> pode estar disponível. A tela principal do aplicativo normalmente faz a contagem regressiva até a meta de descanso diário mais próxima ou seguinte."
+      },
+      "daily": {
+        "title": "Metas de descanso diário",
+        "text": "Use o ponto selecionável ao lado de uma meta de descanso diário para escolher qual meta disponível será usada pela contagem regressiva na tela principal. Esta seleção altera apenas a meta exibida; não completa o resto nem altera sua classificação."
+      },
+      "weekly": {
+        "title": "Metas de descanso semanal",
+        "text": "As metas de descanso semanal são mostradas abaixo das metas diárias: <strong>24 horas</strong> e <strong>45 horas</strong>. Cada meta mostra quanto tempo resta, seu prazo e o dia e hora em que a meta será alcançada ou expirará."
+      }
+    },
+    "interactions": {
+      "title": "Três interações independentes",
+      "countdown": {
+        "title": "1. Escolha a meta para a contagem regressiva da tela principal",
+        "text": "Toque no ponto selecionável próximo a uma meta de descanso para torná-la a meta usada pela contagem regressiva/cronômetro de descanso na tela principal do aplicativo. Por padrão, a tela principal mostra a meta de descanso diário mais próxima, mas você pode alterá-la para outra meta disponível. Isso <strong>not</strong> marca o restante como concluído e não altera sua classificação."
+      },
+      "weekly": {
+        "title": "2. Selecione um descanso semanal",
+        "text": "As metas de descanso semanal têm uma ação <strong>Select</strong>. Selecionar um marca esse descanso como o descanso semanal pretendido. Se o descanso resultante atingir a duração exigida, por exemplo 24 horas para a meta de 24 horas, ele será contado diretamente como descanso semanal em vez de permanecer apenas como candidato aguardando o final da janela de 144 horas. Consulte o Conteúdo Relacionado para saber mais sobre os candidatos ao descanso semanal."
+      },
+      "alarm": {
+        "title": "3. Defina um alarme",
+        "text": "Um ícone de despertador aparece próximo a cada prazo de descanso. Toque nele para abrir o aplicativo de alarme/relógio do sistema e definir um alarme para o horário em que a meta de descanso selecionada será concluída ou atingirá seu prazo. TachoMobile abre a funcionalidade de alarme do sistema; ele não cria um alarme personalizado no aplicativo."
+      }
+    },
+    "manual": {
+      "title": "Entradas manuais fora do horário de trabalho",
+      "text": "As entradas manuais fora do horário de trabalho são tratadas em <strong>Journal</strong>. Abra <strong>Options</strong>, selecione <strong>Shift finalizado</strong> e adicione um novo turno ou sequência lá. Este processo pertence ao artigo <strong>Activity Entry</strong>."
+    }
+  },
+  "related": {
+    "title": "Conteúdo relacionado",
+    "activityEntry": "Entrada de atividade",
+    "mainScreen": "Tela principal e atividade atual"
+  },
+  "navigation": {
+    "back": "← Voltar ao guia"
+  },
+  "footer": "© TachoMobile 2"
+}

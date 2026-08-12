@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Arkusz opcji odpoczynku – TachoMobile 2",
+    "heading": "Arkusz opcji odpoczynku",
+    "intro": "Arkusz opcji odpoczynku pojawia się, gdy <strong>jesteś poza pracą</strong>, a Twoja bieżąca/główna aktywność to <strong>Rest</strong>. Umożliwia przeglądanie dostępnych celów dotyczących odpoczynku i zarządzanie sposobem ich wykorzystania."
+  },
+  "sections": {
+    "when": {
+      "title": "Kiedy arkusz się otworzy",
+      "text": "Arkusz jest dostępny tylko wtedy, gdy jesteś poza pracą. W tej sytuacji dotknięcie działania Odpoczynek nie powoduje otwarcia normalnego okna Dodaj działanie. Zamiast tego otwiera arkusz opcji odpoczynku."
+    },
+    "contents": {
+      "title": "Co wynika z arkusza",
+      "intro": "U góry arkusz pokazuje bieżący <strong>Rostatni czas trwania</strong> i <strong>najbliższy czas rozpoczęcia</strong>. Dostępne cele odpoczynku są pokazane poniżej tych wartości.",
+      "header": {
+        "title": "Cele dziennego odpoczynku",
+        "text": "W zależności od aktualnej sytuacji dostępny może być <strong>9-godzinny</strong> lub <strong>11-godzinny</strong> dzienny cel odpoczynku. Główny ekran aplikacji zwykle odlicza czas do najbliższego lub kolejnego dziennego celu odpoczynku."
+      },
+      "daily": {
+        "title": "Cele dziennego odpoczynku",
+        "text": "Użyj wybieranej kropki obok celu dziennego odpoczynku, aby wybrać, który dostępny cel będzie używany podczas odliczania na ekranie głównym. Ten wybór zmienia jedynie wyświetlany cel; nie uzupełnia reszty i nie zmienia jej klasyfikacji."
+      },
+      "weekly": {
+        "title": "Tygodniowe cele odpoczynku",
+        "text": "Tygodniowe cele odpoczynku są wyświetlane poniżej celów dziennych: <strong>24 godziny</strong> i <strong>45 godzin</strong>. Każdy cel pokazuje, ile czasu pozostało, ostateczny termin oraz dzień i godzinę osiągnięcia celu lub wygaśnięcia."
+      }
+    },
+    "interactions": {
+      "title": "Trzy niezależne interakcje",
+      "countdown": {
+        "title": "1. Wybierz cel odliczania na ekranie głównym",
+        "text": "Naciśnij wybraną kropkę obok celu odpoczynku, aby ustawić go jako cel używany przez odliczanie/minutnik do odpoczynku na głównym ekranie aplikacji. Domyślnie na ekranie głównym pokazany jest najbliższy cel dziennego odpoczynku, ale możesz go zmienić na inny dostępny cel. Spowoduje to <strong>not</strong> oznaczenie reszty jako ukończonej i nie zmienia jej klasyfikacji."
+      },
+      "weekly": {
+        "title": "2. Wybierz odpoczynek tygodniowy",
+        "text": "Cele odpoczynku tygodniowego mają działanie <strong>Wybierz</strong>. Wybranie jednego oznacza odpoczynek jako zamierzony odpoczynek tygodniowy. Jeśli powstały odpoczynek osiągnie wymagany czas trwania, np. 24 godziny w przypadku celu 24-godzinnego, jest on liczony bezpośrednio jako odpoczynek tygodniowy, a nie pozostaje jedynie kandydatem oczekującym na koniec 144-godzinnego okna. Zobacz Powiązane treści, aby uzyskać więcej informacji na temat kandydatów do odpoczynku tygodniowego."
+      },
+      "alarm": {
+        "title": "3. Ustaw alarm",
+        "text": "Obok każdego terminu odpoczynku wyświetlana jest ikona budzika. Stuknij, aby otworzyć aplikację alarmu/zegara systemowego i ustawić alarm na czas, w którym wybrany cel odpoczynku zostanie zrealizowany lub osiągnie swój ostateczny termin. TachoMobile otwiera funkcjonalność alarmu systemowego; nie tworzy niestandardowego alarmu w aplikacji."
+      }
+    },
+    "manual": {
+      "title": "Ręczne wpisy poza godzinami pracy",
+      "text": "Wpisy ręczne poza godzinami pracy obsługiwane są w <strong>Dzienniku</strong>. Otwórz <strong>OOpcje</strong>, wybierz <strong>Przesunięcie zakończone</strong> i dodaj tam nową zmianę lub sekwencję. Ten proces należy do artykułu <strong>Wpis aktywności</strong>."
+    }
+  },
+  "related": {
+    "title": "Powiązane treści",
+    "activityEntry": "Wpis aktywności",
+    "mainScreen": "Ekran główny i bieżąca aktywność"
+  },
+  "navigation": {
+    "back": "← Powrót do przewodnika"
+  },
+  "footer": "© TachoMobile 2"
+}

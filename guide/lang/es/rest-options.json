@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Hoja de Opciones de Descanso - TachoMobile 2",
+    "heading": "Hoja de opciones de descanso",
+    "intro": "La hoja de opciones de descanso aparece cuando está <strong>Fuera del trabajo</strong> y su actividad actual/principal es <strong>Rest</strong>. Le permite ver los objetivos de descanso disponibles y administrar cómo se utilizan."
+  },
+  "sections": {
+    "when": {
+      "title": "Cuando se abre la hoja",
+      "text": "La hoja está disponible solo cuando no está trabajando. En esta situación, tocar la actividad Descanso no abre la ventana normal Agregar actividad. En su lugar, abre la hoja de opciones de descanso."
+    },
+    "contents": {
+      "title": "Lo que muestra la hoja",
+      "intro": "En la parte superior, la hoja muestra la <strong>duración del descanso</strong> y la hora de inicio del descanso<strong><strong> actuales. Los objetivos de descanso disponibles se muestran debajo de estos valores.",
+      "header": {
+        "title": "Objetivos de descanso diario",
+        "text": "Dependiendo de la situación actual, es posible que haya disponible un objetivo de descanso diario <strong></strong> de 9 horas o <strong></strong> de 11 horas. La pantalla principal de la aplicación normalmente cuenta atrás hasta el objetivo de descanso diario más cercano o siguiente."
+      },
+      "daily": {
+        "title": "Objetivos de descanso diario",
+        "text": "Utilice el punto seleccionable junto a un objetivo de descanso diario para elegir qué objetivo disponible se utilizará en la cuenta atrás en la pantalla principal. Esta selección sólo cambia el objetivo mostrado; no completa el resto ni cambia su clasificación."
+      },
+      "weekly": {
+        "title": "Objetivos de descanso semanal",
+        "text": "Los objetivos de descanso semanal se muestran debajo de los objetivos diarios: <strong>24 horas</strong> y <strong>45 horas</strong>. Cada objetivo muestra cuánto tiempo queda, su fecha límite y el día y la hora en que se alcanzará o expirará el objetivo."
+      }
+    },
+    "interactions": {
+      "title": "Tres interacciones independientes",
+      "countdown": {
+        "title": "1. Elige el objetivo de la cuenta atrás en la pantalla principal.",
+        "text": "Toque el punto seleccionable junto a un objetivo de descanso para convertirlo en el objetivo utilizado por la cuenta regresiva/temporizador de descanso en la pantalla principal de la aplicación. De forma predeterminada, la pantalla principal muestra el objetivo de descanso diario más cercano, pero puedes cambiarlo a otro objetivo disponible. Esto <strong>no</strong> marca el resto como completado y no cambia su clasificación."
+      },
+      "weekly": {
+        "title": "2. Selecciona un descanso semanal",
+        "text": "Los objetivos de descanso semanal tienen una acción <strong>Seleccione</strong>. Seleccionar uno marca ese descanso como descanso semanal previsto. Si el descanso resultante alcanza la duración requerida, por ejemplo 24 horas para el objetivo de 24 horas, se cuenta directamente como descanso semanal en lugar de quedar solo como un candidato esperando el final de la ventana de 144 horas. Consulte el contenido relacionado para obtener más información sobre los candidatos para el descanso semanal."
+      },
+      "alarm": {
+        "title": "3. Poner una alarma",
+        "text": "Aparece un icono de despertador junto a cada fecha límite de descanso. Tóquelo para abrir la aplicación de alarma/reloj del sistema y configurar una alarma para la hora en que se completará el objetivo de descanso seleccionado o llegará a su fecha límite. TachoMobile abre la funcionalidad de alarma del sistema; no crea una alarma personalizada en la aplicación."
+      }
+    },
+    "manual": {
+      "title": "Entradas manuales fuera del horario laboral",
+      "text": "Las entradas manuales fuera del horario laboral se gestionan en <strong>Journal</strong>. Abra <strong>Opciones</strong>, seleccione <strong>Cambio terminado</strong> y agregue un nuevo turno o secuencia allí. Este proceso pertenece al artículo <strong>Activity Entry</strong>."
+    }
+  },
+  "related": {
+    "title": "Contenido relacionado",
+    "activityEntry": "Entrada de actividad",
+    "mainScreen": "Pantalla principal y actividad actual"
+  },
+  "navigation": {
+    "back": "← Volver a la guía"
+  },
+  "footer": "© TachoMobile 2"
+}
