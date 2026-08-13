@@ -8,6 +8,11 @@
     "description": "Przewodnik zawiera informacje pomagające prawidłowo skonfigurować i korzystać z TachoMobile 2."
   },
   "modules": {
+    "logScreen": {
+      "title": "Ekran dziennika",
+      "description": "Przeglądaj i zarządzaj wpisami aktywności w chronologicznej historii.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Opcje odpoczynku", "description": "Dowiedz się, jak wyświetlać i zarządzać celami odpoczynku dziennego i tygodniowego, gdy jesteś poza pracą.", "url": "rest-options/" },
     "firstSteps": {
       "title": "Pierwsze kroki",

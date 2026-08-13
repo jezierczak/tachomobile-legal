@@ -8,6 +8,11 @@
     "description": "Šiame vadove pateikiama informacija, padedanti tinkamai sukonfigūruoti ir naudoti „TachoMobile 2“."
   },
   "modules": {
+    "logScreen": {
+      "title": "Žurnalo ekranas",
+      "description": "Peržiūrėkite ir tvarkykite veiklos įrašus chronologinėje istorijoje.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Poilsio parinktys", "description": "Sužinokite, kaip peržiūrėti ir valdyti kasdienio bei savaitinio poilsio tikslus, kai nedirbate.", "url": "rest-options/" },
     "activityEntry": { "title": "Vairuotojo veiklos įvedimas", "description": "Sužinokite, kaip pradėti ir baigti darbą bei greitai įvesti vairuotojo veiklą.", "url": "activity-entry/" },
     "firstSteps": {

@@ -8,6 +8,11 @@
     "description": "This guide contains information to help you configure and use TachoMobile 2 correctly."
   },
   "modules": {
+    "logScreen": {
+      "title": "Log Screen",
+      "description": "View and manage your activity entries from the chronological activity history.",
+      "url": "log-screen/"
+    },
     "activityEntry": { "title": "Entering driver activities", "description": "Learn how to start and finish work and quickly enter driver activities.", "url": "activity-entry/" },
     "restOptions": { "title": "Rest Options Sheet", "description": "Learn how to view and manage daily and weekly rest goals when you are Off Work.", "url": "rest-options/" },
     "firstSteps": {

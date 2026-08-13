@@ -1,0 +1,44 @@
+{
+  "meta": { "htmlLang": "en" },
+  "page": {
+    "title": "Log Screen - TachoMobile 2",
+    "heading": "Log Screen",
+    "intro": "The Log Screen displays your activity entries and provides tools for viewing and managing the activity history."
+  },
+  "sections": {
+    "entries": {
+      "title": "Activity entries",
+      "content": "<p>Activity entries are displayed in reverse chronological order, so the newest entry is shown at the top. By default, you can browse the current entries. Move back in time and select a specific day to browse entries from that point backward.</p><p>Each entry shows the activity description, start time, duration and any relevant badges.</p>"
+    },
+    "badges": {
+      "title": "Badges",
+      "content": "<p>Badges provide additional information about an activity or its status. Some badges can show that an activity contributes to a required rest period, such as a 45-hour weekly rest.</p><p>Special badges indicate how an entry was recorded:</p><ul><li><strong>M</strong> — manually entered activity.</li><li><strong>A</strong> — automatically recorded activity.</li><li><strong>MA</strong> — automatically recorded activity that was later corrected manually.</li><li><strong>Card</strong> — activity originating from imported driver card data.</li></ul>"
+    },
+    "synchronization": {
+      "title": "Synchronization status",
+      "content": "<p>When synchronization is enabled, a cloud icon is shown for entries. It indicates the synchronization status of the entry.</p>"
+    },
+    "viewing": {
+      "title": "Viewing an entry",
+      "content": "<p>Tap any entry to open its details. The details view shows more information about the selected activity.</p><p>Each entry also has a three-dot contextual menu. The available actions depend on the type and position of the selected entry.</p>"
+    },
+    "actions": {
+      "title": "Contextual actions",
+      "addSingle": { "title": "Add a single entry", "text": "A single activity can be inserted between the selected entry and the following entry. The duration of the current entry is shortened accordingly." },
+      "edit": { "title": "Edit", "text": "An existing activity can be edited. The detailed editing rules are described separately." },
+      "delete": { "title": "Delete", "text": "An activity can be deleted." },
+      "multiple": { "title": "Multiple selection for deletion", "text": "Long-press an entry to enter selection mode and select multiple entries. This allows several entries to be deleted at once." }
+    },
+    "workAndShift": {
+      "title": "Additional options around work and shift entries",
+      "newShift": { "title": "New Shift", "text": "New Shift is a quick way to add a completed shift after work. Instead of manually reconstructing every individual activity, provide the durations of the individual activities. The system then generates a compliant shift automatically. This is useful when the exact activity sequence does not need to be reconstructed and the important information is the total duration of the activities, for example for weekly calculations." },
+      "sequential": { "title": "Sequential entry", "text": "Sequential activity entry follows a continuous sequence: <strong>activity → next activity → next activity</strong>. The start time of each new activity is automatically set to the end time of the previous activity. This lets you build a continuous sequence without entering every start time manually." }
+    },
+    "global": {
+      "title": "Global adding options",
+      "content": "<p>Activities can also be added globally from the Log Screen, rather than from the contextual menu of a specific entry. You can add a single activity, an activity range or manual sequential entries.</p><p>When you use a global adding option, the application asks whether the new activity should be added at the beginning or at the end of the existing activity history. Detailed procedures, time boundaries and restrictions for each adding method are described separately.</p>"
+    }
+  },
+  "navigation": { "back": "← Back to guide" },
+  "footer": "© TachoMobile 2"
+}

@@ -8,6 +8,11 @@
     "description": "Bu kılavuz, TachoMobile 2'yi doğru şekilde yapılandırmanıza ve kullanmanıza yardımcı olacak bilgiler içerir."
   },
   "modules": {
+    "logScreen": {
+      "title": "Günlük ekranı",
+      "description": "Etkinlik kayıtlarınızı kronolojik geçmişte görüntüleyin ve yönetin.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Dinlenme seçenekleri", "description": "İş dışında olduğunuzda günlük ve haftalık dinlenme hedeflerini görüntülemeyi ve yönetmeyi öğrenin.", "url": "rest-options/" },
     "activityEntry": { "title": "Sürücü aktivitelerinin girilmesi", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
     "firstSteps": {

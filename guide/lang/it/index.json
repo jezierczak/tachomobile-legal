@@ -8,6 +8,11 @@
     "description": "Questa guida contiene informazioni utili per configurare e utilizzare correttamente TachoMobile 2."
   },
   "modules": {
+    "logScreen": {
+      "title": "Schermata del registro",
+      "description": "Visualizza e gestisci le voci delle attività nella cronologia.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Opzioni di riposo", "description": "Scopri come visualizzare e gestire gli obiettivi di riposo giornaliero e settimanale quando sei fuori servizio.", "url": "rest-options/" },
     "activityEntry": { "title": "Inserimento delle attività del conducente", "description": "Scopri come iniziare e terminare il lavoro e inserire rapidamente le attività del conducente.", "url": "activity-entry/" },
     "firstSteps": {

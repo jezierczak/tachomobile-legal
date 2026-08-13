@@ -1,0 +1,44 @@
+{
+  "meta": { "htmlLang": "pl" },
+  "page": {
+    "title": "Ekran dziennika — TachoMobile 2",
+    "heading": "Ekran dziennika",
+    "intro": "Ekran dziennika wyświetla wpisy aktywności kierowcy oraz udostępnia narzędzia do przeglądania i zarządzania historią aktywności."
+  },
+  "sections": {
+    "entries": {
+      "title": "Wpisy aktywności",
+      "content": "<p>Wpisy aktywności są wyświetlane w odwrotnej kolejności chronologicznej, dlatego najnowszy wpis znajduje się na górze. Domyślnie możesz przeglądać bieżące wpisy. Możesz cofnąć się w czasie i wybrać konkretny dzień, a następnie przeglądać wpisy od tego momentu wstecz.</p><p>Każdy wpis pokazuje opis aktywności, godzinę rozpoczęcia, czas trwania oraz odpowiednie oznaczenia.</p>"
+    },
+    "badges": {
+      "title": "Oznaczenia",
+      "content": "<p>Oznaczenia przekazują dodatkowe informacje o aktywności lub jej statusie. Niektóre oznaczenia mogą wskazywać, że aktywność jest uwzględniana w wymaganym okresie odpoczynku, na przykład w odpoczynku tygodniowym trwającym 45 godzin.</p><p>Specjalne oznaczenia informują, w jaki sposób wpis został zarejestrowany:</p><ul><li><strong>M</strong> — aktywność wprowadzona ręcznie.</li><li><strong>A</strong> — aktywność zarejestrowana automatycznie.</li><li><strong>MA</strong> — aktywność zarejestrowana automatycznie, a następnie poprawiona ręcznie.</li><li><strong>Card</strong> — aktywność pochodząca z zaimportowanych danych karty kierowcy.</li></ul>"
+    },
+    "synchronization": {
+      "title": "Status synchronizacji",
+      "content": "<p>Gdy synchronizacja jest włączona, przy wpisach wyświetlana jest ikona chmury. Informuje ona o statusie synchronizacji wpisu.</p>"
+    },
+    "viewing": {
+      "title": "Wyświetlanie wpisu",
+      "content": "<p>Dotknij dowolnego wpisu, aby otworzyć jego szczegóły. Widok szczegółów pokazuje więcej informacji o wybranej aktywności.</p><p>Każdy wpis ma również menu kontekstowe dostępne pod ikoną trzech kropek. Dostępne działania zależą od rodzaju i położenia wybranego wpisu.</p>"
+    },
+    "actions": {
+      "title": "Działania kontekstowe",
+      "addSingle": { "title": "Dodaj pojedynczy wpis", "text": "Pojedynczą aktywność można wstawić między wybranym wpisem a następnym wpisem. W takim przypadku czas trwania bieżącego wpisu zostanie odpowiednio skrócony." },
+      "edit": { "title": "Edytuj", "text": "Istniejącą aktywność można edytować. Szczegółowe zasady edycji zostaną opisane osobno." },
+      "delete": { "title": "Usuń", "text": "Aktywność można usunąć." },
+      "multiple": { "title": "Wybór wielu wpisów do usunięcia", "text": "Przytrzymaj wpis, aby włączyć tryb zaznaczania i wybrać wiele wpisów. Dzięki temu możesz usunąć kilka wpisów jednocześnie." }
+    },
+    "workAndShift": {
+      "title": "Dodatkowe opcje dotyczące pracy i zmian",
+      "newShift": { "title": "Nowa zmiana", "text": "Nowa zmiana to szybki sposób na dodanie zakończonej zmiany po pracy. Zamiast odtwarzać ręcznie każdą aktywność, podajesz czasy trwania poszczególnych aktywności. System automatycznie generuje zgodną zmianę. Jest to przydatne, gdy nie trzeba odtwarzać dokładnej kolejności aktywności, a ważna jest ich łączna długość, na przykład przy obliczeniach tygodniowych." },
+      "sequential": { "title": "Wpis sekwencyjny", "text": "Wprowadzanie sekwencyjne tworzy ciąg aktywności: <strong>aktywność → następna aktywność → następna aktywność</strong>. Godzina rozpoczęcia każdej nowej aktywności jest automatycznie ustawiana na koniec poprzedniej. Dzięki temu możesz zbudować ciągły przebieg bez ręcznego wpisywania każdej godziny rozpoczęcia." }
+    },
+    "global": {
+      "title": "Globalne opcje dodawania",
+      "content": "<p>Aktywności można również dodawać globalnie z poziomu ekranu dziennika, a nie z menu kontekstowego konkretnego wpisu. Możesz dodać pojedynczą aktywność, zakres aktywności albo ręczne wpisy sekwencyjne.</p><p>Podczas korzystania z globalnej opcji dodawania aplikacja zapyta, czy nowa aktywność ma zostać dodana na początku, czy na końcu istniejącej historii aktywności. Szczegółowe procedury, granice czasowe i ograniczenia poszczególnych metod dodawania zostaną opisane osobno.</p>"
+    }
+  },
+  "navigation": { "back": "← Powrót do przewodnika" },
+  "footer": "© TachoMobile 2"
+}

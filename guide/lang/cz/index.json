@@ -8,6 +8,11 @@
     "description": "Tento průvodce obsahuje informace, které vám pomohou správně nastavit a používat TachoMobile 2."
   },
   "modules": {
+    "logScreen": {
+      "title": "Ekran deníku",
+      "description": "Prohlížejte a spravujte záznamy aktivit v chronologické historii aktivit.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Možnosti odpočinku", "description": "Zjistěte, jak zobrazit a spravovat cíle denního a týdenního odpočinku, když jste mimo práci.", "url": "rest-options/" },
     "activityEntry": { "title": "Vkládání aktivit řidiče", "description": "Zjistěte, jak zahájit a ukončit práci a rychle zadávat aktivity řidiče.", "url": "activity-entry/" },
     "firstSteps": {

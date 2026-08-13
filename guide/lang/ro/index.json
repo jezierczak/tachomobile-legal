@@ -8,6 +8,11 @@
     "description": "Acest ghid conține informații care vă ajută să configurați și să utilizați corect TachoMobile 2."
   },
   "modules": {
+    "logScreen": {
+      "title": "Ecranul jurnalului",
+      "description": "Vizualizați și gestionați intrările de activitate din istoricul cronologic.",
+      "url": "log-screen/"
+    },
     "restOptions": { "title": "Opțiuni de odihnă", "description": "Află cum să vezi și să gestionezi obiectivele de odihnă zilnică și săptămânală când nu lucrezi.", "url": "rest-options/" },
     "activityEntry": { "title": "Introducerea activităților șoferului", "description": "Află cum să începi și să închei lucrul și să introduci rapid activitățile șoferului.", "url": "activity-entry/" },
     "firstSteps": {
