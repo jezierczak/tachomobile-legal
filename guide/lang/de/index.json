@@ -18,6 +18,11 @@
       "description": "Erfahren Sie, wie Sie Einträge manuell hinzufügen und erstellen.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Journal – Einträge bearbeiten und entfernen",
+      "description": "Erfahren Sie, wie Sie Einträge im Journal bearbeiten und entfernen.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Ruheoptionen", "description": "Erfahren Sie, wie Sie tägliche und wöchentliche Ruheziele anzeigen und verwalten, wenn Sie außer Dienst sind.", "url": "rest-options/" },
     "activityEntry": { "title": "Arbeitsbeginn und Eingabe der aktuellen Aktivitäten", "description": "Erfahre, wie du die Arbeit beginnst und beendest und Fahreraktivitäten schnell eingibst.", "url": "activity-entry/" },
     "firstSteps": {

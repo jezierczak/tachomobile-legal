@@ -1,0 +1,10 @@
+{
+  "meta": { "htmlLang": "cz" },
+  "page": { "title": "Deník – Úprava a mazání záznamů - TachoMobile 2", "heading": "Deník – Úprava a mazání záznamů", "subtitle": "Zjistěte, jak upravovat a mazat záznamy v deníku." },
+  "sections": {
+    "editing": "<h2>1. Úprava záznamu</h2><p>Každý záznam v deníku lze upravit.</p><p>Úprava probíhá ve dvou krocích, podobně jako přidání záznamu.</p><h3>Krok 1 – Výběr aktivity/události</h3><p>Nejprve vyberte aktivitu nebo událost. Aktivitu můžete úplně změnit, například z <strong>Jízdy</strong> na <strong>Práci</strong>.</p><h3>Krok 2 – Úprava podrobností záznamu</h3><p>Poté upravte podrobnosti záznamu včetně času začátku a dalších dostupných údajů:</p><ul><li>Registrační značka vozidla</li><li>Země</li><li>Město</li><li>Stav kilometrů</li><li>Poznámky</li></ul><p>Záznam můžete upravit z jeho kontextové nabídky v deníku nebo na obrazovce Podrobnosti segmentu pomocí tlačítka <strong>Upravit</strong> dole.</p>",
+    "timeChange": "<h2>2. Změna času záznamu</h2><p>Úprava času znamená změnu času začátku události.</p><p>Záznam nemá samostatnou pevnou délku. Jeho délka je určena začátkem následujícího záznamu. Změna času začátku proto automaticky změní délku sousedního záznamu. Je to důsledek fungování časové osy deníku.</p><p>Například pokud <strong>Práce</strong> začíná v 11:00 a přesunete ji na 11:30, předchozí aktivita se prodlouží o 30 minut. Pokud <strong>Práci</strong> přesunete na 10:45, předchozí aktivita se zkrátí o 15 minut.</p>",
+    "removing": "<h2>3. Mazání záznamů</h2><p>Záznam lze odstranit z jeho kontextové nabídky volbou <strong>Smazat</strong>.</p><ul><li>Odstranění je trvalé.</li><li>Neexistuje možnost <strong>Vrátit zpět</strong>.</li><li>Více záznamů vyberete podržením záznamu, čímž aktivujete režim výběru, a následným výběrem dalších záznamů pro hromadné odstranění.</li><li>Výběr záznamů je nesmaže. Odstraní se až po stisknutí tlačítka <strong>Smazat</strong>.</li></ul>"
+  },
+  "navigation": { "back": "← Zpět na průvodce" }, "footer": "© TachoMobile 2"
+}

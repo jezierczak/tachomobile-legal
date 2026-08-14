@@ -18,6 +18,11 @@
       "description": "Aprende a añadir y crear registros manualmente.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Diario – Editar y eliminar registros",
+      "description": "Aprende a editar y eliminar registros del Diario.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Opciones de descanso", "description": "Aprende a consultar y gestionar los objetivos de descanso diario y semanal cuando estás fuera de servicio.", "url": "rest-options/" },
     "activityEntry": { "title": "Inicio del trabajo e introducción de las actividades actuales", "description": "Aprende a iniciar y finalizar el trabajo y a introducir rápidamente las actividades del conductor.", "url": "activity-entry/" },
     "firstSteps": {

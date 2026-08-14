@@ -18,6 +18,11 @@
       "description": "Dowiedz się, jak dodawać i tworzyć wpisy ręcznie.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Dziennik – Edytowanie i usuwanie wpisów",
+      "description": "Dowiedz się, jak edytować i usuwać wpisy z Dziennika.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Opcje odpoczynku", "description": "Dowiedz się, jak wyświetlać i zarządzać celami odpoczynku dziennego i tygodniowego, gdy jesteś poza pracą.", "url": "rest-options/" },
     "firstSteps": {
       "title": "Pierwsze kroki",

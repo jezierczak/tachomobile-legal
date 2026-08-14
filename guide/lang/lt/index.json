@@ -18,6 +18,11 @@
       "description": "Sužinokite, kaip rankiniu būdu pridėti ir kurti įrašus.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Žurnalas – Įrašų redagavimas ir šalinimas",
+      "description": "Sužinokite, kaip redaguoti ir pašalinti įrašus iš Žurnalo.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Poilsio parinktys", "description": "Sužinokite, kaip peržiūrėti ir valdyti kasdienio bei savaitinio poilsio tikslus, kai nedirbate.", "url": "rest-options/" },
     "activityEntry": { "title": "Darbo pradžia ir dabartinės veiklos įvedimas", "description": "Sužinokite, kaip pradėti ir baigti darbą bei greitai įvesti vairuotojo veiklą.", "url": "activity-entry/" },
     "firstSteps": {

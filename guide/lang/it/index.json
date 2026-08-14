@@ -18,6 +18,11 @@
       "description": "Scopri come aggiungere e creare registrazioni manualmente.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Diario – Modifica e rimozione delle registrazioni",
+      "description": "Scopri come modificare e rimuovere le registrazioni dal Diario.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Opzioni di riposo", "description": "Scopri come visualizzare e gestire gli obiettivi di riposo giornaliero e settimanale quando sei fuori servizio.", "url": "rest-options/" },
     "activityEntry": { "title": "Inizio del lavoro e inserimento delle attività correnti", "description": "Scopri come iniziare e terminare il lavoro e inserire rapidamente le attività del conducente.", "url": "activity-entry/" },
     "firstSteps": {

@@ -18,6 +18,11 @@
       "description": "Découvrez comment ajouter et créer des enregistrements manuellement.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Journal – Modifier et supprimer des enregistrements",
+      "description": "Découvrez comment modifier et supprimer des enregistrements du Journal.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Options de repos", "description": "Découvrez comment consulter et gérer les objectifs de repos quotidien et hebdomadaire lorsque vous êtes hors service.", "url": "rest-options/" },
     "activityEntry": { "title": "Commencer le travail et saisir les activités en cours", "description": "Découvrez comment commencer et terminer le travail et saisir rapidement les activités du conducteur.", "url": "activity-entry/" },
     "firstSteps": {

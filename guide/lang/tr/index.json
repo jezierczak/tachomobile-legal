@@ -18,6 +18,11 @@
       "description": "Manuel kayıtların nasıl ekleneceğini ve oluşturulacağını öğrenin.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Günlük – Kayıtları Düzenleme ve Silme",
+      "description": "Günlükteki kayıtları nasıl düzenleyeceğinizi ve sileceğinizi öğrenin.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Dinlenme seçenekleri", "description": "İş dışında olduğunuzda günlük ve haftalık dinlenme hedeflerini görüntülemeyi ve yönetmeyi öğrenin.", "url": "rest-options/" },
     "activityEntry": { "title": "Çalışmaya başlama ve mevcut etkinlikleri girme", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
     "firstSteps": {

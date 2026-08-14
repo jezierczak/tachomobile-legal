@@ -18,6 +18,11 @@
       "description": "Узнайте, как добавлять и создавать записи вручную.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Журнал – Редактирование и удаление записей",
+      "description": "Узнайте, как редактировать и удалять записи из Журнала.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Параметры отдыха", "description": "Узнайте, как просматривать цели ежедневного и еженедельного отдыха и управлять ими, когда вы не работаете.", "url": "rest-options/" },
     "activityEntry": { "title": "Начало работы и ввод текущих активностей", "description": "Узнайте, как начинать и заканчивать работу и быстро вводить активность водителя.", "url": "activity-entry/" },
     "firstSteps": {

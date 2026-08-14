@@ -18,6 +18,11 @@
       "description": "Aflați cum să adăugați și să creați înregistrări manual.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Jurnal – Editarea și eliminarea înregistrărilor",
+      "description": "Aflați cum să editați și să eliminați înregistrări din Jurnal.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Opțiuni de odihnă", "description": "Află cum să vezi și să gestionezi obiectivele de odihnă zilnică și săptămânală când nu lucrezi.", "url": "rest-options/" },
     "activityEntry": { "title": "Începerea lucrului și introducerea activităților curente", "description": "Află cum să începi și să închei lucrul și să introduci rapid activitățile șoferului.", "url": "activity-entry/" },
     "firstSteps": {

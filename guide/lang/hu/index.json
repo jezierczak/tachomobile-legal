@@ -18,6 +18,11 @@
       "description": "Ismerje meg, hogyan adhat hozzá és hozhat létre bejegyzéseket manuálisan.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Napló – Bejegyzések szerkesztése és törlése",
+      "description": "Ismerje meg, hogyan szerkesztheti és törölheti a Napló bejegyzéseit.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Pihenési lehetőségek", "description": "Ismerje meg a napi és heti pihenési célok megtekintését és kezelését munkaidőn kívül.", "url": "rest-options/" },
     "activityEntry": { "title": "A munka megkezdése és az aktuális tevékenységek rögzítése", "description": "Ismerje meg a munka megkezdését, befejezését és a sofőr tevékenységeinek gyors rögzítését.", "url": "activity-entry/" },
     "firstSteps": {

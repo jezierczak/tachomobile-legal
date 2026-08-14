@@ -1,0 +1,15 @@
+{
+  "meta": { "htmlLang": "en" },
+  "page": {
+    "title": "Journal – Editing and Removing Entries - TachoMobile 2",
+    "heading": "Journal – Editing and Removing Entries",
+    "subtitle": "Learn how to edit and remove entries from the Journal."
+  },
+  "sections": {
+    "editing": "<h2>1. Editing an entry</h2><p>Every Journal entry can be edited.</p><p>Editing is a two-step process, similar to adding an entry.</p><h3>Step 1 – Select the activity/event</h3><p>First, select the activity or event. You can completely change the activity, for example from <strong>Driving</strong> to <strong>Work</strong>.</p><h3>Step 2 – Edit entry details</h3><p>Then edit the entry details, including the start time and other available data:</p><ul><li>Vehicle registration number</li><li>Country</li><li>City</li><li>Odometer</li><li>Notes</li></ul><p>You can edit an entry from its context menu in the Journal, or from the Segment Details screen by pressing <strong>Edit</strong> at the bottom of the details.</p>",
+    "timeChange": "<h2>2. Changing the entry time</h2><p>Editing the time means changing the start time of the event.</p><p>An entry does not have an independent fixed duration. The duration is determined by the start of the next entry. Therefore, changing an entry's start time automatically changes the duration of the adjacent entry. This is a consequence of how the Journal timeline works.</p><p>For example, if <strong>Work</strong> starts at 11:00 and is moved to 11:30, the previous activity becomes 30 minutes longer. If <strong>Work</strong> is moved to 10:45, the previous activity becomes 15 minutes shorter.</p>",
+    "removing": "<h2>3. Removing entries</h2><p>An entry can be removed from its context menu by selecting <strong>Delete</strong>.</p><ul><li>Deletion is permanent.</li><li>There is no <strong>Undo</strong>.</li><li>To select multiple entries, press and hold an entry to enter selection mode, then select the other entries for group deletion.</li><li>Selecting entries does not delete them. They are removed only after you press <strong>Delete</strong>.</li></ul>"
+  },
+  "navigation": { "back": "← Back to guide" },
+  "footer": "© TachoMobile 2"
+}

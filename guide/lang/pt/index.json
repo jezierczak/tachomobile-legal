@@ -18,6 +18,11 @@
       "description": "Saiba como adicionar e criar registos manualmente.",
       "url": "journal-adding-entries/"
     },
+    "journalEditingRemovingEntries": {
+      "title": "Diário – Editar e remover registos",
+      "description": "Saiba como editar e remover registos do Diário.",
+      "url": "journal-editing-removing-entries/"
+    },
     "restOptions": { "title": "Opções de descanso", "description": "Saiba como consultar e gerir os objetivos de descanso diário e semanal quando está fora do trabalho.", "url": "rest-options/" },
     "activityEntry": { "title": "Início do trabalho e introdução das atividades atuais", "description": "Saiba como iniciar e terminar o trabalho e introduzir rapidamente as atividades do motorista.", "url": "activity-entry/" },
     "firstSteps": {
