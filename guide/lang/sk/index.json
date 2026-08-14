@@ -11,10 +11,15 @@
     "logScreen": {
       "title": "Obrazovka denníka",
       "description": "Prezerajte si a spravujte záznamy aktivít v chronologickej histórii.",
-      "url": "log-screen/"
+    "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Denník – Pridávanie záznamov",
+      "description": "Zistite, ako pridávať a vytvárať záznamy manuálne.",
+      "url": "journal-adding-entries/"
     },
     "restOptions": { "title": "Možnosti odpočinku", "description": "Zistite, ako zobrazovať a spravovať ciele denného a týždenného odpočinku, keď ste mimo práce.", "url": "rest-options/" },
-    "activityEntry": { "title": "Zadávanie aktivít vodiča", "description": "Zistite, ako začať a ukončiť prácu a rýchlo zadávať aktivity vodiča.", "url": "activity-entry/" },
+    "activityEntry": { "title": "Začatie práce a zadávanie aktuálnych aktivít", "description": "Zistite, ako začať a ukončiť prácu a rýchlo zadávať aktivity vodiča.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Prvé kroky",
       "description": "Rýchly úvod do začiatkov s aplikáciou TachoMobile 2.",

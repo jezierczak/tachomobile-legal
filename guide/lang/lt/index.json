@@ -11,10 +11,15 @@
     "logScreen": {
       "title": "Žurnalo ekranas",
       "description": "Peržiūrėkite ir tvarkykite veiklos įrašus chronologinėje istorijoje.",
-      "url": "log-screen/"
+    "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Žurnalas – Įrašų pridėjimas",
+      "description": "Sužinokite, kaip rankiniu būdu pridėti ir kurti įrašus.",
+      "url": "journal-adding-entries/"
     },
     "restOptions": { "title": "Poilsio parinktys", "description": "Sužinokite, kaip peržiūrėti ir valdyti kasdienio bei savaitinio poilsio tikslus, kai nedirbate.", "url": "rest-options/" },
-    "activityEntry": { "title": "Vairuotojo veiklos įvedimas", "description": "Sužinokite, kaip pradėti ir baigti darbą bei greitai įvesti vairuotojo veiklą.", "url": "activity-entry/" },
+    "activityEntry": { "title": "Darbo pradžia ir dabartinės veiklos įvedimas", "description": "Sužinokite, kaip pradėti ir baigti darbą bei greitai įvesti vairuotojo veiklą.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Pirmieji žingsniai",
       "description": "Trumpa įžanga, padėsianti pradėti naudoti „TachoMobile 2“.",

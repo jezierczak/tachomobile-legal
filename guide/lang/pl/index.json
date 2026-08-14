@@ -11,7 +11,12 @@
     "logScreen": {
       "title": "Ekran dziennika",
       "description": "Przeglądaj i zarządzaj wpisami aktywności w chronologicznej historii.",
-      "url": "log-screen/"
+    "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Dziennik – Dodawanie wpisów",
+      "description": "Dowiedz się, jak dodawać i tworzyć wpisy ręcznie.",
+      "url": "journal-adding-entries/"
     },
     "restOptions": { "title": "Opcje odpoczynku", "description": "Dowiedz się, jak wyświetlać i zarządzać celami odpoczynku dziennego i tygodniowego, gdy jesteś poza pracą.", "url": "rest-options/" },
     "firstSteps": {
@@ -35,7 +40,7 @@
       "url": "main-screen/"
     },
     "activityEntry": {
-      "title": "Wprowadzanie aktywności kierowcy",
+      "title": "Rozpoczynanie pracy i wprowadzanie bieżących aktywności",
       "description": "Dowiedz się, jak rozpoczynać i kończyć pracę oraz szybko wprowadzać kolejne aktywności kierowcy.",
       "url": "activity-entry/"
     }

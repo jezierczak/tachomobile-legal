@@ -3,8 +3,8 @@
     "htmlLang": "tr"
   },
   "page": {
-    "title": "Sürücü etkinliğine girme - TachoMobile 2",
-    "heading": "Sürücü etkinliğine girme",
+    "title": "Çalışmaya başlama ve mevcut etkinlikleri girme - TachoMobile 2",
+    "heading": "Çalışmaya başlama ve mevcut etkinlikleri girme",
     "intro": "İşe başlarken ve bitirirken TachoMobile 2, vardiyayla ilgili en önemli bilgileri doldurabileceğiniz bir form görüntüler.<br><br>Uygulama verilerin çoğunu otomatik olarak tamamlayabilir ancak girişi kaydetmeden önce her zaman kontrol edip düzeltebilirsiniz."
   },
   "sections": {

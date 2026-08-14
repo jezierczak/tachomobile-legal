@@ -11,10 +11,15 @@
     "logScreen": {
       "title": "Günlük ekranı",
       "description": "Etkinlik kayıtlarınızı kronolojik geçmişte görüntüleyin ve yönetin.",
-      "url": "log-screen/"
+    "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Günlük – Kayıt Ekleme",
+      "description": "Manuel kayıtların nasıl ekleneceğini ve oluşturulacağını öğrenin.",
+      "url": "journal-adding-entries/"
     },
     "restOptions": { "title": "Dinlenme seçenekleri", "description": "İş dışında olduğunuzda günlük ve haftalık dinlenme hedeflerini görüntülemeyi ve yönetmeyi öğrenin.", "url": "rest-options/" },
-    "activityEntry": { "title": "Sürücü aktivitelerinin girilmesi", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
+    "activityEntry": { "title": "Çalışmaya başlama ve mevcut etkinlikleri girme", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "İlk adımlar",
       "description": "TachoMobile 2'yi kullanmaya başlamak için kısa bir giriş.",

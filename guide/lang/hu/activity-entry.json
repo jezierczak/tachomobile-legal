@@ -3,8 +3,8 @@
     "htmlLang": "hu"
   },
   "page": {
-    "title": "Belépés a járművezetői tevékenységbe - TachoMobile 2",
-    "heading": "Belépés a sofőr tevékenységébe",
+    "title": "A munka megkezdése és az aktuális tevékenységek rögzítése - TachoMobile 2",
+    "heading": "A munka megkezdése és az aktuális tevékenységek rögzítése",
     "intro": "A munka megkezdésekor és befejezésekor a TachoMobile 2 megjelenít egy űrlapot, amelyben kitöltheti a műszakkal kapcsolatos legfontosabb információkat.<br><br>Az alkalmazás az adatok nagy részét automatikusan kitölti, de a bejegyzés mentése előtt bármikor ellenőrizheti és javíthatja azokat."
   },
   "sections": {

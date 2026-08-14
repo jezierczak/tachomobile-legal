@@ -3,8 +3,8 @@
     "htmlLang": "ua"
   },
   "page": {
-    "title": "Entering driver activity - TachoMobile 2",
-    "heading": "Entering driver activity",
+    "title": "Початок роботи та введення поточних активностей - TachoMobile 2",
+    "heading": "Початок роботи та введення поточних активностей",
     "intro": "When starting and ending work, TachoMobile 2 displays a form in which you can complete the most important information regarding the shift.<br><br>The application can complete most of the data automatically, but you can always check and correct it before saving the entry."
   },
   "sections": {

@@ -3,8 +3,8 @@
     "htmlLang": "de"
   },
   "page": {
-    "title": "Eingabe der Fahreraktivität – TachoMobile 2",
-    "heading": "Eingabe der Fahreraktivität",
+    "title": "Arbeitsbeginn und Eingabe der aktuellen Aktivitäten – TachoMobile 2",
+    "heading": "Arbeitsbeginn und Eingabe der aktuellen Aktivitäten",
     "intro": "Bei Arbeitsbeginn und Arbeitsende zeigt TachoMobile 2 ein Formular an, in dem Sie die wichtigsten Informationen zur Schicht eintragen können.<br><br>Die Anwendung kann die meisten Daten automatisch vervollständigen, Sie haben jedoch jederzeit die Möglichkeit, diese vor dem Speichern der Eingabe zu überprüfen und zu korrigieren."
   },
   "sections": {

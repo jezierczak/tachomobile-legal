@@ -11,10 +11,15 @@
     "logScreen": {
       "title": "Protokollbildschirm",
       "description": "Aktivitätseinträge im chronologischen Verlauf anzeigen und verwalten.",
-      "url": "log-screen/"
+    "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Journal – Einträge hinzufügen",
+      "description": "Erfahren Sie, wie Sie Einträge manuell hinzufügen und erstellen.",
+      "url": "journal-adding-entries/"
     },
     "restOptions": { "title": "Ruheoptionen", "description": "Erfahren Sie, wie Sie tägliche und wöchentliche Ruheziele anzeigen und verwalten, wenn Sie außer Dienst sind.", "url": "rest-options/" },
-    "activityEntry": { "title": "Eingabe der Fahreraktivitäten", "description": "Erfahre, wie du die Arbeit beginnst und beendest und Fahreraktivitäten schnell eingibst.", "url": "activity-entry/" },
+    "activityEntry": { "title": "Arbeitsbeginn und Eingabe der aktuellen Aktivitäten", "description": "Erfahre, wie du die Arbeit beginnst und beendest und Fahreraktivitäten schnell eingibst.", "url": "activity-entry/" },
     "firstSteps": {
       "title": "Erste Schritte",
       "description": "Eine kurze Einführung in den Start mit TachoMobile 2.",

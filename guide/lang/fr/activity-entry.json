@@ -3,8 +3,8 @@
     "htmlLang": "fr"
   },
   "page": {
-    "title": "Saisie de l'activité du conducteur - TachoMobile 2",
-    "heading": "Saisie de l'activité du conducteur",
+    "title": "Commencer le travail et saisir les activités en cours - TachoMobile 2",
+    "heading": "Commencer le travail et saisir les activités en cours",
     "intro": "Au début et à la fin du travail, TachoMobile 2 affiche un formulaire dans lequel vous pouvez compléter les informations les plus importantes concernant le quart de travail.<br><br>L'application peut compléter automatiquement la plupart des données, mais vous pouvez toujours les vérifier et les corriger avant de sauvegarder l'entrée."
   },
   "sections": {

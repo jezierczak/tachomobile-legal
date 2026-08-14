@@ -1,8 +1,8 @@
 {
   "meta": { "htmlLang": "pl" },
   "page": {
-    "title": "Wprowadzanie aktywności kierowcy — TachoMobile 2",
-    "heading": "Wprowadzanie aktywności kierowcy",
+    "title": "Rozpoczynanie pracy i wprowadzanie bieżących aktywności — TachoMobile 2",
+    "heading": "Rozpoczynanie pracy i wprowadzanie bieżących aktywności",
     "intro": "Podczas rozpoczęcia i zakończenia pracy TachoMobile 2 wyświetla formularz, w którym można uzupełnić najważniejsze informacje dotyczące zmiany.<br><br>Większość danych aplikacja może uzupełnić automatycznie, ale przed zapisaniem wpisu zawsze możesz je sprawdzić i poprawić."
   },
   "sections": {
