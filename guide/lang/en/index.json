@@ -8,6 +8,7 @@
     "description": "This guide contains information to help you configure and use TachoMobile 2 correctly."
   },
   "modules": {
+    "backupAndSync": { "title": "Backup and Synchronization", "description": "Protect your app data with an encrypted local file or cloud backup.", "url": "backup-and-sync/" },
     "logScreen": {
       "title": "Log Screen",
       "description": "View and manage your activity entries from the chronological activity history.",

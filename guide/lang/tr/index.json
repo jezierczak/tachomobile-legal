@@ -8,10 +8,15 @@
     "description": "Bu kılavuz, TachoMobile 2'yi doğru şekilde yapılandırmanıza ve kullanmanıza yardımcı olacak bilgiler içerir."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Yedekleme ve senkronizasyon",
+      "description": "Uygulama verilerinizi şifrelenmiş bir yerel dosya veya bulut yedeklemesiyle koruyun.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Günlük ekranı",
       "description": "Etkinlik kayıtlarınızı kronolojik geçmişte görüntüleyin ve yönetin.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
     "journalAddingEntries": {
       "title": "Günlük – Kayıt Ekleme",
@@ -23,8 +28,16 @@
       "description": "Günlükteki kayıtları nasıl düzenleyeceğinizi ve sileceğinizi öğrenin.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Dinlenme seçenekleri", "description": "İş dışında olduğunuzda günlük ve haftalık dinlenme hedeflerini görüntülemeyi ve yönetmeyi öğrenin.", "url": "rest-options/" },
-    "activityEntry": { "title": "Çalışmaya başlama ve mevcut etkinlikleri girme", "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.", "url": "activity-entry/" },
+    "restOptions": {
+      "title": "Dinlenme seçenekleri",
+      "description": "İş dışında olduğunuzda günlük ve haftalık dinlenme hedeflerini görüntülemeyi ve yönetmeyi öğrenin.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "Çalışmaya başlama ve mevcut etkinlikleri girme",
+      "description": "Çalışmayı nasıl başlatıp bitireceğinizi ve sürücü aktivitelerini hızlıca gireceğinizi öğrenin.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "İlk adımlar",
       "description": "TachoMobile 2'yi kullanmaya başlamak için kısa bir giriş.",

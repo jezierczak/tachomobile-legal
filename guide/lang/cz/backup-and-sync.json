@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Zálohování a synchronizace - TachoMobile 2",
+    "heading": "Zálohování a synchronizace",
+    "intro": "Tuto funkci otevřete z Hlavní nabídky -> Zálohování a synchronizace. Pomáhá vám chránit data uložená ve vašem zařízení a pomocí Premium je obnovit."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard a Premium",
+      "text": "Bezplatná verze Standard vám umožňuje exportovat všechna vaše data do místního šifrovaného souboru a provádět ruční synchronizaci s cloudem. To znamená, že i uživatelé bezplatné verze mohou svá data chránit. Premium obsahuje všechny standardní funkce a navíc umožňuje importovat a obnovovat data ze záložního souboru. Standard vám umožňuje zabezpečit data, ale import nebo obnova dat ze zálohy vyžaduje Premium.",
+      "items": [
+        "Standardní: exportujte všechna data do místního šifrovaného souboru a proveďte ruční synchronizaci s cloudem.",
+        "Premium: všechny standardní funkce plus import a obnova dat ze záložního souboru.",
+        "Důležité: Standardní vám umožňuje chránit vaše data, ale k importu nebo obnovení dat ze zálohy je vyžadováno Premium."
+      ]
+    },
+    "local": {
+      "title": "Místní soubor",
+      "text": "Sekce Místní soubor se používá k vytvoření záložního souboru nebo obnovení dat z jednoho souboru."
+    },
+    "export": {
+      "title": "Vývozní",
+      "text": "Export uloží každý záznam aktuálně uložený v databázi zařízení. Před exportem zadejte ochranné heslo. Soubor je zašifrován tímto heslem. Bez hesla nelze jeho obsah přečíst. Heslo uschovejte na bezpečném místě. Export obsahuje následující údaje:",
+      "items": [
+        "záznamy tachografu, včetně údajů GPS",
+        "mapová data",
+        "záznamy řidiče, včetně dat načtených z karet řidičů",
+        "záznamy vozidel"
+      ]
+    },
+    "import": {
+      "title": "Importovat",
+      "text": "Import se používá hlavně k obnovení dat z dříve vytvořeného exportního souboru.",
+      "steps": [
+        "Vyberte soubor.",
+        "Zadejte jeho šifrovací heslo.",
+        "Vyberte způsob řešení konfliktů dat."
+      ],
+      "conflicts": "Pokud se existující data překrývají v čase s importovanými daty, vyberte jednu z těchto možností:",
+      "options": [
+        "Uchovat existující data — existující data jsou zachována a přidávají se pouze nekonfliktní importovaná data.",
+        "Importovaná data mají přednost — v případě konfliktu jsou data z importovaného souboru zachována."
+      ],
+      "extra": "Po dokončení importu jsou data dostupná v aplikaci. Import může také načíst export ze starší verze aplikace nebo data karty řidiče ze souboru .DDD. Import .DDD používá jiný mechanismus a je popsán v samostatném článku."
+    },
+    "cloud": {
+      "title": "Mrak",
+      "text": "Použití cloudu:",
+      "steps": [
+        "Přihlaste se pomocí účtu Google.",
+        "Zapněte synchronizaci.",
+        "Nastavte heslo pro šifrování dat."
+      ],
+      "encryption": "Heslo pro šifrování je povinné. Synchronizace bez něj nepoběží. Data odeslaná na vzdálený server Google jsou šifrována tímto heslem; skutečný obsah dat je šifrován, včetně:",
+      "data": [
+        "mapy",
+        "pracovní doby",
+        "umístění",
+        "záznamy a další data aplikací"
+      ],
+      "metadata": "Na serveru zůstávají pouze technické informace a metadata potřebná k synchronizaci, například:",
+      "metadataItems": [
+        "čas odeslání",
+        "zda byl záznam smazán",
+        "ID položky v místní databázi",
+        "číslo karty řidiče, potřebné mimo jiné pro správné přiřazení dat při importu .DDD"
+      ],
+      "password": "Uchovávejte šifrovací heslo v bezpečí. Bez něj nelze zašifrovaná data přečíst ani obnovit."
+    },
+    "advanced": {
+      "title": "Pokročilé možnosti cloudu",
+      "wifiTitle": "Pouze Wi-Fi",
+      "wifi": "Automatickou synchronizaci lze spustit pouze v případě, že je zařízení připojeno k Wi-Fi.",
+      "masterTitle": "Hlavní zařízení",
+      "master": "Pouze jedno zařízení by mělo být označeno jako Master. V případě konfliktu mají přednost data hlavního zařízení. Data z jiných zařízení jsou odstraněna pouze v konfliktní části. Data, která se časově nepřekrývají, jsou všechna zachována.",
+      "warning": "Nejedná se o klasickou plnou synchronizaci více současně používaných zařízení. Doporučený způsob práce se nazývá hand-off: použijte jedno zařízení, synchronizujte ho a teprve potom použijte další zařízení. Pokud se dvě zařízení synchronizují současně, některá data nemusí být na jednom z nich správně zahrnuta. Data nejsou trvale ztracena. V této situaci může být nutné znovu načíst data ze vzdáleného serveru.",
+      "frequencyTitle": "Automatická synchronizační frekvence",
+      "frequency": "Zvolte, jak často se má automatická synchronizace spouštět:",
+      "frequencyItems": [
+        "none — pouze ruční synchronizace",
+        "každých 10 minut",
+        "každou hodinu",
+        "každých 6 hodin",
+        "každých 12 hodin",
+        "jednou denně"
+      ],
+      "next": "Další synchronizace vám umožňuje nastavit, kdy má začít další cyklus."
+    },
+    "status": {
+      "title": "Stav a ruční synchronizace",
+      "text": "V sekci Cloud najdete:",
+      "items": [
+        "Stav zálohy — zobrazuje stav zálohy nebo synchronizace.",
+        "Synchronizovat nyní — okamžitě spustí synchronizaci."
+      ]
+    },
+    "backup": {
+      "title": "Důležité: synchronizace je záloha",
+      "text": "Cloudový mechanismus je především záloha, nikoli automatická obousměrná synchronizace. Automatická synchronizace odesílá data na server.",
+      "manual": "Když otevřete obrazovku Zálohování a synchronizace, aplikace zkontroluje, zda jsou na serveru k dispozici novější data. Pokud najde novější data, zobrazí se tlačítko Obnovit. Stahování není automatické. Chybějící data, synchronizovaná z jiného zařízení, se stáhnou až po výslovném stisknutí tlačítka Obnovit."
+    },
+    "delete": {
+      "title": "Smazat vzdálenou zálohu",
+      "text": "Funkce Odstranit vzdálenou zálohu umožňuje zcela odstranit všechna synchronizovaná data ze vzdáleného serveru.",
+      "items": [
+        "Tuto operaci můžete provést maximálně jednou za 24 hodin.",
+        "Smazání může nějakou dobu trvat; počkejte, až to skončí."
+      ],
+      "important": "Odstraněním vzdálené zálohy se ze zařízení nic neodstraní. Místní data zůstávají nezměněna."
+    },
+    "journal": {
+      "title": "Ikona synchronizace v deníku",
+      "text": "Po povolení synchronizace se v deníku objeví ikona cloudu a zobrazuje stav synchronizace jednotlivých záznamů. Před synchronizací jsou položky označené k odstranění zobrazeny šedě. Po dokončení synchronizace zmizí z deníku."
+    }
+  },
+  "related": {
+    "title": "Související informace",
+    "text": "Import souboru .DDD je popsán v samostatném článku."
+  },
+  "navigation": {
+    "back": "<- Zpět na průvodce"
+  },
+  "footer": "© TachoMobile 2"
+}

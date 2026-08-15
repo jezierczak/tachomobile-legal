@@ -8,10 +8,15 @@
     "description": "Questa guida contiene informazioni utili per configurare e utilizzare correttamente TachoMobile 2."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Backup e sincronizzazione",
+      "description": "Proteggi i dati della tua app con un file locale crittografato o un backup sul cloud.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Schermata del registro",
       "description": "Visualizza e gestisci le voci delle attività nella cronologia.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
     "journalAddingEntries": {
       "title": "Diario – Aggiunta di registrazioni",
@@ -23,8 +28,16 @@
       "description": "Scopri come modificare e rimuovere le registrazioni dal Diario.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Opzioni di riposo", "description": "Scopri come visualizzare e gestire gli obiettivi di riposo giornaliero e settimanale quando sei fuori servizio.", "url": "rest-options/" },
-    "activityEntry": { "title": "Inizio del lavoro e inserimento delle attività correnti", "description": "Scopri come iniziare e terminare il lavoro e inserire rapidamente le attività del conducente.", "url": "activity-entry/" },
+    "restOptions": {
+      "title": "Opzioni di riposo",
+      "description": "Scopri come visualizzare e gestire gli obiettivi di riposo giornaliero e settimanale quando sei fuori servizio.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "Inizio del lavoro e inserimento delle attività correnti",
+      "description": "Scopri come iniziare e terminare il lavoro e inserire rapidamente le attività del conducente.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "Primi passi",
       "description": "Una breve introduzione per iniziare a utilizzare TachoMobile 2.",

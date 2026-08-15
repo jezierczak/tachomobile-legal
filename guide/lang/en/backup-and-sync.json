@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Backup and synchronization - TachoMobile 2",
+    "heading": "Backup and synchronization",
+    "intro": "Open this feature from Main menu -> Backup and synchronization. It helps you protect the data stored on your device and, with Premium, restore it."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard and Premium",
+      "text": "The free Standard version lets you export all your data to a local encrypted file and perform manual synchronization with the cloud. This means that even users of the free version can protect their data. Premium includes all Standard features and additionally allows you to import and restore data from a backup file. Standard lets you secure your data, but importing or restoring data from a backup requires Premium.",
+      "items": [
+        "Standard: export all data to a local encrypted file and perform manual synchronization with the cloud.",
+        "Premium: all Standard features plus importing and restoring data from a backup file.",
+        "Important: Standard lets you protect your data, but Premium is required to import or restore data from a backup."
+      ]
+    },
+    "local": {
+      "title": "Local file",
+      "text": "The Local file section is used to create a backup file or restore data from one."
+    },
+    "export": {
+      "title": "Export",
+      "text": "Export saves every entry currently stored in the device database. Before exporting, enter a protection password. The file is encrypted with this password. Without the password, its contents cannot be read. Keep the password in a safe place. The export includes the following data:",
+      "items": [
+        "tachograph entries, including GPS data",
+        "map data",
+        "driver entries, including data read from driver cards",
+        "vehicle entries"
+      ]
+    },
+    "import": {
+      "title": "Import",
+      "text": "Import is mainly used to restore data from an export file created earlier.",
+      "steps": [
+        "Choose the file.",
+        "Enter its encryption password.",
+        "Choose how data conflicts should be resolved."
+      ],
+      "conflicts": "If existing data overlaps in time with imported data, choose one of these options:",
+      "options": [
+        "Keep existing data — existing data is kept and only non-conflicting imported data is added.",
+        "Imported data has priority — when there is a conflict, the data from the imported file is kept."
+      ],
+      "extra": "When the import finishes, the data is available in the app. Import can also load an export from an older version of the app or driver-card data from a .DDD file. The .DDD import uses a different mechanism and is described in a separate article."
+    },
+    "cloud": {
+      "title": "Cloud",
+      "text": "To use the cloud:",
+      "steps": [
+        "Sign in with a Google account.",
+        "Turn synchronization on.",
+        "Set a data-encryption password."
+      ],
+      "encryption": "The encryption password is mandatory. Synchronization will not run without it. Data sent to Google's remote server is encrypted with this password; the actual data content is encrypted, including:",
+      "data": [
+        "maps",
+        "working times",
+        "locations",
+        "entries and other app data"
+      ],
+      "metadata": "Only technical information and metadata needed by synchronization remain on the server, for example:",
+      "metadataItems": [
+        "time of sending",
+        "whether an entry was deleted",
+        "the entry ID in the local database",
+        "the driver card number, needed among other things to assign data correctly when importing .DDD"
+      ],
+      "password": "Keep the encryption password safe. Without it, encrypted data cannot be read or restored."
+    },
+    "advanced": {
+      "title": "Advanced cloud options",
+      "wifiTitle": "Wi-Fi only",
+      "wifi": "Automatic synchronization can run only when the device is connected to Wi-Fi.",
+      "masterTitle": "Master device",
+      "master": "Only one device should be marked as Master. In a conflict, the Master device data has priority. Data from other devices is removed only within the conflicting part. Data that does not overlap in time is all preserved.",
+      "warning": "This is not a classic full synchronization of several devices used at the same time. The recommended way to work is called a hand-off: use one device, synchronize it, and only then use the next device. If two devices synchronize at the same time, some data may not be included correctly on one of them. The data is not permanently lost. In this situation, you may need to load the data from the remote server again.",
+      "frequencyTitle": "Automatic synchronization frequency",
+      "frequency": "Choose how often automatic synchronization should run:",
+      "frequencyItems": [
+        "none — manual synchronization only",
+        "every 10 minutes",
+        "every hour",
+        "every 6 hours",
+        "every 12 hours",
+        "once a day"
+      ],
+      "next": "Next synchronization lets you set when the next cycle should begin."
+    },
+    "status": {
+      "title": "Status and manual synchronization",
+      "text": "In the Cloud section you will find:",
+      "items": [
+        "Backup status — shows the state of the backup or synchronization.",
+        "Synchronize now — starts synchronization immediately."
+      ]
+    },
+    "backup": {
+      "title": "Important: synchronization is a backup",
+      "text": "The cloud mechanism is primarily a backup, not an automatic two-way synchronization. Automatic synchronization sends data to the server.",
+      "manual": "When you open the Backup and synchronization screen, the app checks whether newer data is available on the server. If it finds newer data, a Restore button appears. Downloading is not automatic. The missing data, synchronized from another device, is downloaded only after you explicitly press Restore."
+    },
+    "delete": {
+      "title": "Delete remote backup",
+      "text": "The Delete remote backup function lets you completely remove all synchronized data from the remote server.",
+      "items": [
+        "You can perform this operation at most once every 24 hours.",
+        "Deletion may take some time; wait until it finishes."
+      ],
+      "important": "Deleting the remote backup does not delete anything from your device. Local data remains unchanged."
+    },
+    "journal": {
+      "title": "Synchronization icon in the Journal",
+      "text": "After synchronization is enabled, a cloud icon appears in the Journal and shows the synchronization state of individual entries. Before synchronization, entries marked for deletion are shown in grey. After synchronization is completed, they disappear from the Journal."
+    }
+  },
+  "related": {
+    "title": "Related information",
+    "text": "Importing a .DDD file is covered in a separate article."
+  },
+  "navigation": {
+    "back": "<- Back to Guide"
+  },
+  "footer": "© TachoMobile 2"
+}

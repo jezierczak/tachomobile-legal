@@ -8,10 +8,15 @@
     "description": "Ez az útmutató segítséget nyújt a TachoMobile 2 megfelelő beállításához és használatához."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Biztonsági mentés és szinkronizálás",
+      "description": "Védje meg alkalmazásadatait titkosított helyi fájllal vagy felhőalapú biztonsági mentéssel.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Napló képernyő",
       "description": "Tekintse meg és kezelje tevékenységbejegyzéseit a kronologikus előzményekben.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
     "journalAddingEntries": {
       "title": "Napló – Bejegyzések hozzáadása",
@@ -23,8 +28,16 @@
       "description": "Ismerje meg, hogyan szerkesztheti és törölheti a Napló bejegyzéseit.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Pihenési lehetőségek", "description": "Ismerje meg a napi és heti pihenési célok megtekintését és kezelését munkaidőn kívül.", "url": "rest-options/" },
-    "activityEntry": { "title": "A munka megkezdése és az aktuális tevékenységek rögzítése", "description": "Ismerje meg a munka megkezdését, befejezését és a sofőr tevékenységeinek gyors rögzítését.", "url": "activity-entry/" },
+    "restOptions": {
+      "title": "Pihenési lehetőségek",
+      "description": "Ismerje meg a napi és heti pihenési célok megtekintését és kezelését munkaidőn kívül.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "A munka megkezdése és az aktuális tevékenységek rögzítése",
+      "description": "Ismerje meg a munka megkezdését, befejezését és a sofőr tevékenységeinek gyors rögzítését.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "Első lépések",
       "description": "Rövid bevezetés a TachoMobile 2 használatának megkezdéséhez.",

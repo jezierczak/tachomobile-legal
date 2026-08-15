@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Sauvegarde et synchronisation - TachoMobile 2",
+    "heading": "Sauvegarde et synchronisation",
+    "intro": "Ouvrez cette fonctionnalité depuis le menu principal -> Sauvegarde et synchronisation. Il vous aide à protéger les données stockées sur votre appareil et, avec Premium, à les restaurer."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard et Premium",
+      "text": "La version Standard gratuite vous permet d'exporter toutes vos données vers un fichier crypté local et d'effectuer une synchronisation manuelle avec le cloud. Cela signifie que même les utilisateurs de la version gratuite peuvent protéger leurs données. Premium inclut toutes les fonctionnalités standard et vous permet en outre d'importer et de restaurer des données à partir d'un fichier de sauvegarde. Standard vous permet de sécuriser vos données, mais l'importation ou la restauration de données à partir d'une sauvegarde nécessite Premium.",
+      "items": [
+        "Standard : exportez toutes les données vers un fichier crypté local et effectuez une synchronisation manuelle avec le cloud.",
+        "Premium : toutes les fonctionnalités standard ainsi que l'importation et la restauration de données à partir d'un fichier de sauvegarde.",
+        "Important : Standard vous permet de protéger vos données, mais Premium est requis pour importer ou restaurer des données à partir d'une sauvegarde."
+      ]
+    },
+    "local": {
+      "title": "Fichier local",
+      "text": "La section Fichier local est utilisée pour créer un fichier de sauvegarde ou restaurer les données à partir d'un fichier."
+    },
+    "export": {
+      "title": "Exporter",
+      "text": "L'exportation enregistre chaque entrée actuellement stockée dans la base de données de l'appareil. Avant d'exporter, entrez un mot de passe de protection. Le fichier est crypté avec ce mot de passe. Sans le mot de passe, son contenu ne peut pas être lu. Conservez le mot de passe dans un endroit sûr. L'export comprend les données suivantes :",
+      "items": [
+        "entrées du tachygraphe, y compris les données GPS",
+        "données cartographiques",
+        "entrées du conducteur, y compris les données lues à partir des cartes de conducteur",
+        "entrées de véhicules"
+      ]
+    },
+    "import": {
+      "title": "Importer",
+      "text": "L'importation est principalement utilisée pour restaurer les données d'un fichier d'exportation créé précédemment.",
+      "steps": [
+        "Choisissez le fichier.",
+        "Saisissez son mot de passe de cryptage.",
+        "Choisissez comment les conflits de données doivent être résolus."
+      ],
+      "conflicts": "Si les données existantes chevauchent dans le temps les données importées, choisissez l'une de ces options :",
+      "options": [
+        "Conserver les données existantes : les données existantes sont conservées et seules les données importées non conflictuelles sont ajoutées.",
+        "Les données importées sont prioritaires : en cas de conflit, les données du fichier importé sont conservées."
+      ],
+      "extra": "Une fois l'importation terminée, les données sont disponibles dans l'application. L'importation peut également charger une exportation à partir d'une ancienne version de l'application ou des données de la carte de conducteur à partir d'un fichier .DDD. L'importation .DDD utilise un mécanisme différent et est décrite dans un article séparé."
+    },
+    "cloud": {
+      "title": "Nuage",
+      "text": "Pour utiliser le cloud :",
+      "steps": [
+        "Connectez-vous avec un compte Google.",
+        "Activez la synchronisation.",
+        "Définissez un mot de passe de cryptage des données."
+      ],
+      "encryption": "Le mot de passe de cryptage est obligatoire. La synchronisation ne fonctionnera pas sans cela. Les données envoyées au serveur distant de Google sont cryptées avec ce mot de passe ; le contenu réel des données est crypté, notamment :",
+      "data": [
+        "cartes",
+        "temps de travail",
+        "emplacements",
+        "entrées et autres données d'application"
+      ],
+      "metadata": "Seules les informations techniques et métadonnées nécessaires à la synchronisation restent sur le serveur, par exemple :",
+      "metadataItems": [
+        "heure d'envoi",
+        "si une entrée a été supprimée",
+        "l'ID d'entrée dans la base de données locale",
+        "le numéro de carte de conducteur, nécessaire entre autres pour attribuer correctement les données lors de l'importation de .DDD"
+      ],
+      "password": "Conservez le mot de passe de cryptage en sécurité. Sans cela, les données cryptées ne peuvent pas être lues ou restaurées."
+    },
+    "advanced": {
+      "title": "Options cloud avancées",
+      "wifiTitle": "Wi-Fi uniquement",
+      "wifi": "La synchronisation automatique ne peut s'exécuter que lorsque l'appareil est connecté au Wi-Fi.",
+      "masterTitle": "Appareil maître",
+      "master": "Un seul appareil doit être marqué comme maître. En cas de conflit, les données de l'appareil maître sont prioritaires. Les données des autres appareils sont supprimées uniquement dans la partie en conflit. Les données qui ne se chevauchent pas dans le temps sont toutes conservées.",
+      "warning": "Il ne s’agit pas d’une synchronisation complète classique de plusieurs appareils utilisés en même temps. La méthode de travail recommandée s'appelle le transfert : utilisez un appareil, synchronisez-le, puis utilisez ensuite l'appareil suivant. Si deux appareils se synchronisent en même temps, certaines données peuvent ne pas être incluses correctement sur l'un d'entre eux. Les données ne sont pas définitivement perdues. Dans cette situation, vous devrez peut-être charger à nouveau les données depuis le serveur distant.",
+      "frequencyTitle": "Fréquence de synchronisation automatique",
+      "frequency": "Choisissez la fréquence à laquelle la synchronisation automatique doit s'exécuter :",
+      "frequencyItems": [
+        "aucun — synchronisation manuelle uniquement",
+        "toutes les 10 minutes",
+        "toutes les heures",
+        "toutes les 6 heures",
+        "toutes les 12 heures",
+        "une fois par jour"
+      ],
+      "next": "La prochaine synchronisation vous permet de définir quand le prochain cycle doit commencer."
+    },
+    "status": {
+      "title": "Statut et synchronisation manuelle",
+      "text": "Dans la section Cloud, vous trouverez :",
+      "items": [
+        "État de la sauvegarde : affiche l'état de la sauvegarde ou de la synchronisation.",
+        "Synchroniser maintenant : démarre la synchronisation immédiatement."
+      ]
+    },
+    "backup": {
+      "title": "Important : la synchronisation est une sauvegarde",
+      "text": "Le mécanisme cloud est avant tout une sauvegarde et non une synchronisation bidirectionnelle automatique. La synchronisation automatique envoie les données au serveur.",
+      "manual": "Lorsque vous ouvrez l'écran Sauvegarde et synchronisation, l'application vérifie si des données plus récentes sont disponibles sur le serveur. S'il trouve des données plus récentes, un bouton Restaurer apparaît. Le téléchargement n'est pas automatique. Les données manquantes, synchronisées depuis un autre appareil, ne sont téléchargées qu'après avoir explicitement appuyé sur Restaurer."
+    },
+    "delete": {
+      "title": "Supprimer la sauvegarde à distance",
+      "text": "La fonction Supprimer la sauvegarde à distance vous permet de supprimer complètement toutes les données synchronisées du serveur distant.",
+      "items": [
+        "Vous pouvez effectuer cette opération au maximum une fois toutes les 24 heures.",
+        "La suppression peut prendre un certain temps ; attendez que ça finisse."
+      ],
+      "important": "La suppression de la sauvegarde à distance ne supprime rien de votre appareil. Les données locales restent inchangées."
+    },
+    "journal": {
+      "title": "Icône de synchronisation dans le Journal",
+      "text": "Une fois la synchronisation activée, une icône en forme de nuage apparaît dans le journal et affiche l'état de synchronisation des entrées individuelles. Avant la synchronisation, les entrées marquées pour suppression sont affichées en gris. Une fois la synchronisation terminée, ils disparaissent du Journal."
+    }
+  },
+  "related": {
+    "title": "Informations associées",
+    "text": "L'importation d'un fichier .DDD est traitée dans un article séparé."
+  },
+  "navigation": {
+    "back": "<- Retour au guide"
+  },
+  "footer": "© TachoMobile2"
+}

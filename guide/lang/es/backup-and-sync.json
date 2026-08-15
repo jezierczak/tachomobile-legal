@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Copia de seguridad y sincronización - TachoMobile 2",
+    "heading": "Copia de seguridad y sincronización",
+    "intro": "Abra esta función desde el menú principal -> Copia de seguridad y sincronización. Te ayuda a proteger los datos almacenados en tu dispositivo y, con Premium, restaurarlos."
+  },
+  "sections": {
+    "version": {
+      "title": "Estándar y Premium",
+      "text": "La versión estándar gratuita le permite exportar todos sus datos a un archivo cifrado local y realizar una sincronización manual con la nube. Esto significa que incluso los usuarios de la versión gratuita pueden proteger sus datos. Premium incluye todas las funciones estándar y, además, le permite importar y restaurar datos desde un archivo de copia de seguridad. Estándar le permite proteger sus datos, pero importar o restaurar datos desde una copia de seguridad requiere Premium.",
+      "items": [
+        "Estándar: exporte todos los datos a un archivo cifrado local y realice la sincronización manual con la nube.",
+        "Premium: todas las funciones estándar además de importar y restaurar datos desde un archivo de respaldo.",
+        "Importante: Estándar le permite proteger sus datos, pero se requiere Premium para importar o restaurar datos desde una copia de seguridad."
+      ]
+    },
+    "local": {
+      "title": "archivo local",
+      "text": "La sección Archivo local se utiliza para crear un archivo de copia de seguridad o restaurar datos de uno."
+    },
+    "export": {
+      "title": "Exportar",
+      "text": "La exportación guarda todas las entradas almacenadas actualmente en la base de datos del dispositivo. Antes de exportar, ingrese una contraseña de protección. El archivo está cifrado con esta contraseña. Sin la contraseña, su contenido no se puede leer. Guarde la contraseña en un lugar seguro. La exportación incluye los siguientes datos:",
+      "items": [
+        "Entradas de tacógrafo, incluidos datos de GPS.",
+        "datos del mapa",
+        "Entradas de conductor, incluidos los datos leídos de las tarjetas de conductor.",
+        "entradas de vehículos"
+      ]
+    },
+    "import": {
+      "title": "Importar",
+      "text": "La importación se utiliza principalmente para restaurar datos de un archivo de exportación creado anteriormente.",
+      "steps": [
+        "Elija el archivo.",
+        "Ingrese su contraseña de cifrado.",
+        "Elija cómo se deben resolver los conflictos de datos."
+      ],
+      "conflicts": "Si los datos existentes se superponen en el tiempo con los datos importados, elija una de estas opciones:",
+      "options": [
+        "Conservar los datos existentes: los datos existentes se conservan y solo se agregan los datos importados que no entren en conflicto.",
+        "Los datos importados tienen prioridad: cuando hay un conflicto, se conservan los datos del archivo importado."
+      ],
+      "extra": "Cuando finaliza la importación, los datos están disponibles en la aplicación. La importación también puede cargar una exportación desde una versión anterior de la aplicación o datos de la tarjeta de conductor desde un archivo .DDD. La importación de .DDD utiliza un mecanismo diferente y se describe en un artículo separado."
+    },
+    "cloud": {
+      "title": "Nube",
+      "text": "Para usar la nube:",
+      "steps": [
+        "Inicia sesión con una cuenta de Google.",
+        "Active la sincronización.",
+        "Establezca una contraseña de cifrado de datos."
+      ],
+      "encryption": "La contraseña de cifrado es obligatoria. La sincronización no se ejecutará sin él. Los datos enviados al servidor remoto de Google se cifran con esta contraseña; el contenido de los datos reales está cifrado, incluyendo:",
+      "data": [
+        "mapas",
+        "tiempos de trabajo",
+        "ubicaciones",
+        "entradas y otros datos de la aplicación"
+      ],
+      "metadata": "Sólo la información técnica y los metadatos necesarios para la sincronización permanecen en el servidor, por ejemplo:",
+      "metadataItems": [
+        "hora de envío",
+        "si una entrada fue eliminada",
+        "el ID de entrada en la base de datos local",
+        "el número de tarjeta de conductor, necesario entre otras cosas para asignar correctamente los datos al importar .DDD"
+      ],
+      "password": "Mantenga segura la contraseña de cifrado. Sin él, los datos cifrados no se pueden leer ni restaurar."
+    },
+    "advanced": {
+      "title": "Opciones avanzadas de nube",
+      "wifiTitle": "Sólo Wi-Fi",
+      "wifi": "La sincronización automática solo puede ejecutarse cuando el dispositivo está conectado a Wi-Fi.",
+      "masterTitle": "Dispositivo maestro",
+      "master": "Sólo un dispositivo debe marcarse como Maestro. En caso de conflicto, los datos del dispositivo maestro tienen prioridad. Los datos de otros dispositivos se eliminan solo dentro de la parte en conflicto. Se conservan todos los datos que no se superponen en el tiempo.",
+      "warning": "Esta no es la clásica sincronización completa de varios dispositivos utilizados al mismo tiempo. La forma recomendada de trabajar se llama transferencia: use un dispositivo, sincronícelo y solo luego use el siguiente dispositivo. Si dos dispositivos se sincronizan al mismo tiempo, es posible que algunos datos no se incluyan correctamente en uno de ellos. Los datos no se pierden permanentemente. En esta situación, es posible que necesite cargar los datos desde el servidor remoto nuevamente.",
+      "frequencyTitle": "Frecuencia de sincronización automática",
+      "frequency": "Elija la frecuencia con la que se debe ejecutar la sincronización automática:",
+      "frequencyItems": [
+        "ninguno: solo sincronización manual",
+        "cada 10 minutos",
+        "cada hora",
+        "cada 6 horas",
+        "cada 12 horas",
+        "una vez al dia"
+      ],
+      "next": "La siguiente sincronización le permite establecer cuándo debe comenzar el siguiente ciclo."
+    },
+    "status": {
+      "title": "Estado y sincronización manual",
+      "text": "En la sección Nube encontrarás:",
+      "items": [
+        "Estado de la copia de seguridad: muestra el estado de la copia de seguridad o sincronización.",
+        "Sincronizar ahora: inicia la sincronización inmediatamente."
+      ]
+    },
+    "backup": {
+      "title": "Importante: la sincronización es una copia de seguridad",
+      "text": "El mecanismo de la nube es principalmente una copia de seguridad, no una sincronización bidireccional automática. La sincronización automática envía datos al servidor.",
+      "manual": "Cuando abre la pantalla Copia de seguridad y sincronización, la aplicación verifica si hay datos más nuevos disponibles en el servidor. Si encuentra datos más nuevos, aparece un botón Restaurar. La descarga no es automática. Los datos faltantes, sincronizados desde otro dispositivo, se descargan solo después de presionar explícitamente Restaurar."
+    },
+    "delete": {
+      "title": "Eliminar copia de seguridad remota",
+      "text": "La función Eliminar copia de seguridad remota le permite eliminar por completo todos los datos sincronizados del servidor remoto.",
+      "items": [
+        "Puede realizar esta operación como máximo una vez cada 24 horas.",
+        "La eliminación puede tardar algún tiempo; espera hasta que termine."
+      ],
+      "important": "Eliminar la copia de seguridad remota no elimina nada de su dispositivo. Los datos locales se mantienen sin cambios."
+    },
+    "journal": {
+      "title": "Ícono de sincronización en el Diario",
+      "text": "Una vez habilitada la sincronización, aparece un ícono de nube en el Diario y muestra el estado de sincronización de las entradas individuales. Antes de la sincronización, las entradas marcadas para su eliminación se muestran en gris. Una vez completada la sincronización, desaparecen del Diario."
+    }
+  },
+  "related": {
+    "title": "Información relacionada",
+    "text": "La importación de un archivo .DDD se trata en un artículo aparte."
+  },
+  "navigation": {
+    "back": "<- Volver a la guía"
+  },
+  "footer": "© TachoMóvil 2"
+}

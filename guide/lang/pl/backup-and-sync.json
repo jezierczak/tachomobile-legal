@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Kopia zapasowa i synchronizacja - TachoMobile 2",
+    "heading": "Kopia zapasowa i synchronizacja",
+    "intro": "Otwórz tę funkcję z menu głównego -> Kopia zapasowa i synchronizacja. Pomaga chronić dane zapisane na Twoim urządzeniu, a dzięki Premium je przywracać."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard i Premium",
+      "text": "Bezpłatna wersja Standard pozwala wyeksportować wszystkie dane do lokalnego zaszyfrowanego pliku i przeprowadzić ręczną synchronizację z chmurą. Oznacza to, że nawet użytkownicy darmowej wersji mogą chronić swoje dane. Premium zawiera wszystkie funkcje Standard, a dodatkowo umożliwia import i przywracanie danych z pliku kopii zapasowej. Standard pozwala zabezpieczyć dane, ale importowanie lub przywracanie danych z kopii zapasowej wymaga wersji Premium.",
+      "items": [
+        "Standard: wyeksportuj wszystkie dane do lokalnego zaszyfrowanego pliku i wykonaj ręczną synchronizację z chmurą.",
+        "Premium: wszystkie funkcje standardowe oraz importowanie i przywracanie danych z pliku kopii zapasowej.",
+        "Ważne: Standard pozwala chronić Twoje dane, ale Premium jest wymagany do importowania lub przywracania danych z kopii zapasowej."
+      ]
+    },
+    "local": {
+      "title": "Plik lokalny",
+      "text": "Sekcja Plik lokalny służy do tworzenia pliku kopii zapasowej lub przywracania z niego danych."
+    },
+    "export": {
+      "title": "Eksport",
+      "text": "Eksport zapisuje każdy wpis aktualnie zapisany w bazie danych urządzenia. Przed eksportem wprowadź hasło zabezpieczające. Plik jest zaszyfrowany przy użyciu tego hasła. Bez hasła nie można odczytać jego zawartości. Trzymaj hasło w bezpiecznym miejscu. Eksport zapisuje następujące dane:",
+      "items": [
+        "wpisy z tachografu, w tym dane GPS",
+        "dane map",
+        "wpisy kierowcy, w tym dane odczytane z kart kierowców",
+        "wpisy pojazdów"
+      ]
+    },
+    "import": {
+      "title": "Import",
+      "text": "Import służy głównie do przywracania danych z wcześniej utworzonego pliku eksportu.",
+      "steps": [
+        "Wybierz plik.",
+        "Wprowadź hasło szyfrowania.",
+        "Wybierz sposób rozwiązywania konfliktów danych."
+      ],
+      "conflicts": "Jeśli istniejące dane pokrywają się w czasie z danymi zaimportowanymi, wybierz jedną z poniższych opcji:",
+      "options": [
+        "Zachowaj istniejące dane — istniejące dane zostaną zachowane i dodane zostaną tylko importowane dane, które nie powodują konfliktów.",
+        "Zaimportowane dane mają pierwszeństwo — w przypadku konfliktu dane z zaimportowanego pliku zostają zachowane."
+      ],
+      "extra": "Po zakończeniu importu dane będą dostępne w aplikacji. Import może również załadować eksport ze starszej wersji aplikacji lub dane karty kierowcy z pliku .DDD. Import .DDD wykorzystuje inny mechanizm i został opisany w osobnym artykule."
+    },
+    "cloud": {
+      "title": "Chmura",
+      "text": "Aby skorzystać z chmury:",
+      "steps": [
+        "Zaloguj się za pomocą konta Google.",
+        "Włącz synchronizację.",
+        "Ustaw hasło szyfrowania danych."
+      ],
+      "encryption": "Hasło szyfrowania jest obowiązkowe. Bez tego synchronizacja nie przebiegnie. Dane wysyłane na zdalny serwer Google są szyfrowane przy użyciu tego hasła; szyfrowana jest faktyczna zawartość danych, w tym:",
+      "data": [
+        "mapy",
+        "czasy pracy",
+        "lokalizacje",
+        "wpisy i inne dane aplikacji"
+      ],
+      "metadata": "Na serwerze pozostają jedynie informacje techniczne i metadane potrzebne do synchronizacji, na przykład:",
+      "metadataItems": [
+        "czas wysłania",
+        "czy wpis został usunięty",
+        "identyfikator wpisu w lokalnej bazie danych",
+        "numer karty kierowcy, potrzebny m.in. do prawidłowego przypisania danych przy imporcie .DDD"
+      ],
+      "password": "Przechowuj hasło szyfrowania w bezpiecznym miejscu. Bez tego zaszyfrowanych danych nie można odczytać ani przywrócić."
+    },
+    "advanced": {
+      "title": "Zaawansowane opcje chmury",
+      "wifiTitle": "Tylko Wi-Fi",
+      "wifi": "Automatyczna synchronizacja może działać tylko wtedy, gdy urządzenie jest podłączone do Wi-Fi.",
+      "masterTitle": "Urządzenie główne",
+      "master": "Tylko jedno urządzenie powinno być oznaczone jako Master. W przypadku konfliktu pierwszeństwo mają dane urządzenia głównego. Dane z innych urządzeń są usuwane tylko w obrębie części powodującej konflikt. Wszystkie dane, które nie nakładają się na siebie w czasie, zostają zachowane.",
+      "warning": "Nie jest to klasyczna pełna synchronizacja kilku urządzeń używanych jednocześnie. Zalecany sposób pracy to tzw. mijanka: korzystasz z jednego urządzenia, wykonujesz synchronizację, a dopiero potem korzystasz z kolejnego. Jeśli dwa urządzenia wykonują synchronizację jednocześnie, na jednym z nich część danych może nie zostać prawidłowo uwzględniona. Dane nie są przy tym bezpowrotnie tracone. W takiej sytuacji może być konieczne ponowne załadowanie danych ze zdalnego serwera.",
+      "frequencyTitle": "Częstotliwość automatycznej synchronizacji",
+      "frequency": "Wybierz, jak często ma odbywać się automatyczna synchronizacja:",
+      "frequencyItems": [
+        "brak — tylko synchronizacja ręczna",
+        "co 10 minut",
+        "co godzinę",
+        "co 6 godzin",
+        "co 12 godzin",
+        "raz dziennie"
+      ],
+      "next": "Następna synchronizacja pozwala ustawić, kiedy powinien rozpocząć się następny cykl."
+    },
+    "status": {
+      "title": "Stan i ręczna synchronizacja",
+      "text": "W sekcji Chmura znajdziesz:",
+      "items": [
+        "Stan kopii zapasowej — pokazuje stan kopii zapasowej lub synchronizacji.",
+        "Synchronizuj teraz — natychmiast rozpoczyna synchronizację."
+      ]
+    },
+    "backup": {
+      "title": "Ważne: synchronizacja jest kopią zapasową",
+      "text": "Mechanizm chmurowy to przede wszystkim kopia zapasowa, a nie automatyczna synchronizacja dwukierunkowa. Automatyczna synchronizacja wysyła dane na serwer.",
+      "manual": "Po wejściu na ekran Kopia zapasowa i synchronizacja aplikacja sprawdza, czy na serwerze są nowsze dane. Jeśli je znajdzie, pojawi się przycisk Przywróć. Pobieranie danych nie odbywa się automatycznie. Brakujące dane, zsynchronizowane z innego urządzenia, zostaną pobrane dopiero po jawnym naciśnięciu przycisku Przywróć."
+    },
+    "delete": {
+      "title": "Usuń zdalną kopię zapasową",
+      "text": "Funkcja Usuń zdalną kopię zapasową umożliwia całkowite usunięcie wszystkich zsynchronizowanych danych ze zdalnego serwera.",
+      "items": [
+        "Tę operację możesz wykonać maksymalnie raz na 24 godziny.",
+        "Usunięcie może zająć trochę czasu; poczekaj, aż się skończy."
+      ],
+      "important": "Usunięcie zdalnej kopii zapasowej nie powoduje usunięcia niczego z urządzenia. Dane lokalne pozostają bez zmian."
+    },
+    "journal": {
+      "title": "Ikona synchronizacji w dzienniku",
+      "text": "Po włączeniu synchronizacji w Dzienniku pojawia się ikona chmurki pokazująca stan synchronizacji poszczególnych wpisów. Przed synchronizacją wpisy oznaczone do usunięcia są wyświetlane w kolorze szarym. Po zakończeniu synchronizacji znikają one z Dziennika."
+    }
+  },
+  "related": {
+    "title": "Powiązane informacje",
+    "text": "Importowanie pliku .DDD opisano w osobnym artykule."
+  },
+  "navigation": {
+    "back": "<- Powrót do przewodnika"
+  },
+  "footer": "© TachoMobile 2"
+}

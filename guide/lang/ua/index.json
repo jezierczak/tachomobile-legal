@@ -8,23 +8,36 @@
     "description": "Цей посібник містить інформацію, яка допоможе правильно налаштувати та використовувати TachoMobile 2."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Резервне копіювання та синхронізація",
+      "description": "Захистіть дані програми за допомогою зашифрованого локального файлу або резервної копії в хмарі.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Екран журналу",
       "description": "Переглядайте та керуйте записами активностей у хронологічній історії.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
-  "journalAddingEntries": {
-    "title": "Журнал – Додавання записів",
-    "description": "Дізнайтеся, як додавати та створювати записи вручну.",
-    "url": "journal-adding-entries/"
-  },
-  "journalEditingRemovingEntries": {
-    "title": "Журнал – Редагування та видалення записів",
-    "description": "Дізнайтеся, як редагувати та видаляти записи з Журналу.",
-    "url": "journal-editing-removing-entries/"
-  },
-    "restOptions": { "title": "Параметри відпочинку", "description": "Дізнайтеся, як переглядати та керувати цілями щоденного й щотижневого відпочинку, коли ви не працюєте.", "url": "rest-options/" },
-    "activityEntry": { "title": "Початок роботи та введення поточних активностей", "description": "Дізнайтеся, як починати й завершувати роботу та швидко вводити активності водія.", "url": "activity-entry/" },
+    "journalAddingEntries": {
+      "title": "Журнал – Додавання записів",
+      "description": "Дізнайтеся, як додавати та створювати записи вручну.",
+      "url": "journal-adding-entries/"
+    },
+    "journalEditingRemovingEntries": {
+      "title": "Журнал – Редагування та видалення записів",
+      "description": "Дізнайтеся, як редагувати та видаляти записи з Журналу.",
+      "url": "journal-editing-removing-entries/"
+    },
+    "restOptions": {
+      "title": "Параметри відпочинку",
+      "description": "Дізнайтеся, як переглядати та керувати цілями щоденного й щотижневого відпочинку, коли ви не працюєте.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "Початок роботи та введення поточних активностей",
+      "description": "Дізнайтеся, як починати й завершувати роботу та швидко вводити активності водія.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "Перші кроки",
       "description": "Короткий вступ до початку роботи з TachoMobile 2.",

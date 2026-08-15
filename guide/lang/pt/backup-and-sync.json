@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Backup e sincronização - TachoMobile 2",
+    "heading": "Backup e sincronização",
+    "intro": "Abra este recurso no menu principal -> Backup e sincronização. Ajuda a proteger os dados armazenados no seu dispositivo e, com o Premium, a restaurá-los."
+  },
+  "sections": {
+    "version": {
+      "title": "Padrão e Premium",
+      "text": "A versão Standard gratuita permite exportar todos os seus dados para um arquivo criptografado local e realizar a sincronização manual com a nuvem. Isso significa que mesmo os usuários da versão gratuita podem proteger seus dados. Premium inclui todos os recursos padrão e também permite importar e restaurar dados de um arquivo de backup. Padrão permite proteger seus dados, mas importar ou restaurar dados de um backup requer Premium.",
+      "items": [
+        "Padrão: exporte todos os dados para um arquivo local criptografado e realize a sincronização manual com a nuvem.",
+        "Premium: todos os recursos padrão, além de importação e restauração de dados de um arquivo de backup.",
+        "Importante: o Standard permite proteger seus dados, mas o Premium é necessário para importar ou restaurar dados de um backup."
+      ]
+    },
+    "local": {
+      "title": "Arquivo local",
+      "text": "A seção Arquivo local é usada para criar um arquivo de backup ou restaurar dados de um."
+    },
+    "export": {
+      "title": "Exportar",
+      "text": "A exportação salva todas as entradas atualmente armazenadas no banco de dados do dispositivo. Antes de exportar, insira uma senha de proteção. O arquivo é criptografado com esta senha. Sem a senha, seu conteúdo não pode ser lido. Guarde a senha em local seguro. A exportação inclui os seguintes dados:",
+      "items": [
+        "entradas de tacógrafo, incluindo dados de GPS",
+        "dados do mapa",
+        "entradas de motorista, incluindo dados lidos de cartões de motorista",
+        "entradas de veículos"
+      ]
+    },
+    "import": {
+      "title": "Importar",
+      "text": "A importação é usada principalmente para restaurar dados de um arquivo de exportação criado anteriormente.",
+      "steps": [
+        "Escolha o arquivo.",
+        "Digite sua senha de criptografia.",
+        "Escolha como os conflitos de dados devem ser resolvidos."
+      ],
+      "conflicts": "Se os dados existentes se sobrepuserem no tempo aos dados importados, escolha uma destas opções:",
+      "options": [
+        "Manter os dados existentes — os dados existentes são mantidos e apenas dados importados não conflitantes são adicionados.",
+        "Os dados importados têm prioridade — quando há conflito, os dados do arquivo importado são mantidos."
+      ],
+      "extra": "Quando a importação terminar, os dados estarão disponíveis no aplicativo. A importação também pode carregar uma exportação de uma versão mais antiga do aplicativo ou dados do cartão de motorista de um arquivo .DDD. A importação .DDD usa um mecanismo diferente e é descrita em um artigo separado."
+    },
+    "cloud": {
+      "title": "Nuvem",
+      "text": "Para usar a nuvem:",
+      "steps": [
+        "Faça login com uma conta do Google.",
+        "Ative a sincronização.",
+        "Defina uma senha de criptografia de dados."
+      ],
+      "encryption": "A senha de criptografia é obrigatória. A sincronização não será executada sem ele. Os dados enviados ao servidor remoto do Google são criptografados com esta senha; o conteúdo real dos dados é criptografado, incluindo:",
+      "data": [
+        "mapas",
+        "horários de trabalho",
+        "locais",
+        "entradas e outros dados de aplicativos"
+      ],
+      "metadata": "Apenas as informações técnicas e os metadados necessários à sincronização permanecem no servidor, por exemplo:",
+      "metadataItems": [
+        "hora do envio",
+        "se uma entrada foi excluída",
+        "o ID de entrada no banco de dados local",
+        "o número do cartão de motorista, necessário entre outras coisas para atribuir dados corretamente ao importar .DDD"
+      ],
+      "password": "Mantenha a senha de criptografia segura. Sem ele, os dados criptografados não podem ser lidos ou restaurados."
+    },
+    "advanced": {
+      "title": "Opções avançadas de nuvem",
+      "wifiTitle": "Apenas Wi-Fi",
+      "wifi": "A sincronização automática só pode ser executada quando o dispositivo estiver conectado ao Wi-Fi.",
+      "masterTitle": "Dispositivo mestre",
+      "master": "Apenas um dispositivo deve ser marcado como Master. Em caso de conflito, os dados do dispositivo Mestre têm prioridade. Os dados de outros dispositivos são removidos apenas na parte conflitante. Os dados que não se sobrepõem no tempo são todos preservados.",
+      "warning": "Esta não é uma sincronização completa clássica de vários dispositivos usados ​​ao mesmo tempo. A forma recomendada de trabalhar é chamada de hand-off: usar um dispositivo, sincronizá-lo e só então usar o próximo dispositivo. Se dois dispositivos sincronizarem ao mesmo tempo, alguns dados poderão não ser incluídos corretamente em um deles. Os dados não são perdidos permanentemente. Nesta situação, poderá ser necessário carregar novamente os dados do servidor remoto.",
+      "frequencyTitle": "Frequência de sincronização automática",
+      "frequency": "Escolha com que frequência a sincronização automática deve ser executada:",
+      "frequencyItems": [
+        "nenhum — somente sincronização manual",
+        "a cada 10 minutos",
+        "a cada hora",
+        "a cada 6 horas",
+        "a cada 12 horas",
+        "uma vez por dia"
+      ],
+      "next": "A próxima sincronização permite definir quando o próximo ciclo deve começar."
+    },
+    "status": {
+      "title": "Status e sincronização manual",
+      "text": "Na seção Nuvem você encontrará:",
+      "items": [
+        "Status do backup — mostra o estado do backup ou da sincronização.",
+        "Sincronizar agora — inicia a sincronização imediatamente."
+      ]
+    },
+    "backup": {
+      "title": "Importante: a sincronização é um backup",
+      "text": "O mecanismo da nuvem é principalmente um backup, não uma sincronização bidirecional automática. A sincronização automática envia dados para o servidor.",
+      "manual": "Ao abrir a tela Backup e sincronização, o aplicativo verifica se dados mais recentes estão disponíveis no servidor. Se encontrar dados mais recentes, um botão Restaurar será exibido. O download não é automático. Os dados ausentes, sincronizados de outro dispositivo, são baixados somente depois que você pressiona explicitamente Restaurar."
+    },
+    "delete": {
+      "title": "Excluir backup remoto",
+      "text": "A função Excluir backup remoto permite remover completamente todos os dados sincronizados do servidor remoto.",
+      "items": [
+        "Você pode realizar esta operação no máximo uma vez a cada 24 horas.",
+        "A exclusão pode levar algum tempo; espere até terminar."
+      ],
+      "important": "Excluir o backup remoto não exclui nada do seu dispositivo. Os dados locais permanecem inalterados."
+    },
+    "journal": {
+      "title": "Ícone de sincronização no Diário",
+      "text": "Após a sincronização ser habilitada, um ícone de nuvem aparece no Diário e mostra o estado de sincronização de entradas individuais. Antes da sincronização, as entradas marcadas para exclusão são mostradas em cinza. Após a conclusão da sincronização, eles desaparecem do Diário."
+    }
+  },
+  "related": {
+    "title": "Informações relacionadas",
+    "text": "A importação de um arquivo .DDD é abordada em um artigo separado."
+  },
+  "navigation": {
+    "back": "<- Voltar ao Guia"
+  },
+  "footer": "© TachoMobile 2"
+}

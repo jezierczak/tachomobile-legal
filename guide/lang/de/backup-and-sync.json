@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Backup and synchronization - TachoMobile 2",
+    "heading": "Backup and synchronization",
+    "intro": "Öffnen Sie diese Funktion über Hauptmenü -> Sicherung und Synchronisierung. Es hilft Ihnen, die auf Ihrem Gerät gespeicherten Daten zu schützen und mit Premium wiederherzustellen."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard und Premium",
+      "text": "Mit der kostenlosen Standardversion können Sie alle Ihre Daten in eine lokale verschlüsselte Datei exportieren und eine manuelle Synchronisierung mit der Cloud durchführen. Dadurch können auch Nutzer der kostenlosen Version ihre Daten schützen. Premium umfasst alle Standardfunktionen und ermöglicht Ihnen zusätzlich das Importieren und Wiederherstellen von Daten aus einer Sicherungsdatei. Mit Standard können Sie Ihre Daten sichern, für den Import oder die Wiederherstellung von Daten aus einem Backup ist jedoch Premium erforderlich.",
+      "items": [
+        "Standard: Exportieren Sie alle Daten in eine lokale verschlüsselte Datei und führen Sie eine manuelle Synchronisierung mit der Cloud durch.",
+        "Premium: alle Standardfunktionen sowie das Importieren und Wiederherstellen von Daten aus einer Sicherungsdatei.",
+        "Wichtig: Mit Standard können Sie Ihre Daten schützen, Premium ist jedoch erforderlich, um Daten aus einem Backup zu importieren oder wiederherzustellen."
+      ]
+    },
+    "local": {
+      "title": "Lokale Datei",
+      "text": "Der Abschnitt „Lokale Datei“ wird verwendet, um eine Sicherungsdatei zu erstellen oder Daten daraus wiederherzustellen."
+    },
+    "export": {
+      "title": "Export",
+      "text": "Beim Exportieren wird jeder aktuell in der Gerätedatenbank gespeicherte Eintrag gespeichert. Geben Sie vor dem Exportieren ein Schutzpasswort ein. Mit diesem Passwort wird die Datei verschlüsselt. Ohne das Passwort kann der Inhalt nicht gelesen werden. Bewahren Sie das Passwort an einem sicheren Ort auf. Der Export umfasst folgende Daten:",
+      "items": [
+        "Fahrtenschreibereinträge, einschließlich GPS-Daten",
+        "Kartendaten",
+        "Fahrereinträge, einschließlich von Fahrerkarten ausgelesener Daten",
+        "Fahrzeugeinträge"
+      ]
+    },
+    "import": {
+      "title": "Import",
+      "text": "Der Import wird hauptsächlich zum Wiederherstellen von Daten aus einer zuvor erstellten Exportdatei verwendet.",
+      "steps": [
+        "Wählen Sie die Datei aus.",
+        "Geben Sie das Verschlüsselungskennwort ein.",
+        "Wählen Sie aus, wie Datenkonflikte gelöst werden sollen."
+      ],
+      "conflicts": "Wenn sich vorhandene Daten zeitlich mit importierten Daten überschneiden, wählen Sie eine dieser Optionen:",
+      "options": [
+        "Vorhandene Daten beibehalten: Vorhandene Daten bleiben erhalten und es werden nur nicht widersprüchliche importierte Daten hinzugefügt.",
+        "Importierte Daten haben Priorität – wenn ein Konflikt auftritt, werden die Daten aus der importierten Datei beibehalten."
+      ],
+      "extra": "Wenn der Import abgeschlossen ist, sind die Daten in der App verfügbar. Der Import kann auch einen Export aus einer älteren Version der App oder Fahrerkartendaten aus einer .DDD-Datei laden. Der .DDD-Import verwendet einen anderen Mechanismus und wird in einem separaten Artikel beschrieben."
+    },
+    "cloud": {
+      "title": "Wolke",
+      "text": "So nutzen Sie die Cloud:",
+      "steps": [
+        "Melden Sie sich mit einem Google-Konto an.",
+        "Schalten Sie die Synchronisierung ein.",
+        "Legen Sie ein Passwort für die Datenverschlüsselung fest."
+      ],
+      "encryption": "Das Verschlüsselungspasswort ist obligatorisch. Ohne sie läuft die Synchronisierung nicht. Mit diesem Passwort werden die an den Remote-Server von Google gesendeten Daten verschlüsselt. Der eigentliche Dateninhalt wird verschlüsselt, einschließlich:",
+      "data": [
+        "Karten",
+        "Arbeitszeiten",
+        "Standorte",
+        "Einträge und andere App-Daten"
+      ],
+      "metadata": "Auf dem Server verbleiben nur technische Informationen und Metadaten, die für die Synchronisierung benötigt werden, zum Beispiel:",
+      "metadataItems": [
+        "Zeitpunkt des Absendens",
+        "ob ein Eintrag gelöscht wurde",
+        "die Eintrags-ID in der lokalen Datenbank",
+        "die Fahrerkartennummer, wird unter anderem zur korrekten Datenzuordnung beim .DDD-Import benötigt"
+      ],
+      "password": "Bewahren Sie das Verschlüsselungskennwort sicher auf. Ohne sie können verschlüsselte Daten nicht gelesen oder wiederhergestellt werden."
+    },
+    "advanced": {
+      "title": "Erweiterte Cloud-Optionen",
+      "wifiTitle": "Nur WLAN",
+      "wifi": "Die automatische Synchronisierung kann nur ausgeführt werden, wenn das Gerät mit WLAN verbunden ist.",
+      "masterTitle": "Master-Gerät",
+      "master": "Es sollte nur ein Gerät als Master markiert sein. Im Konfliktfall haben die Master-Gerätedaten Vorrang. Daten von anderen Geräten werden nur innerhalb des Konfliktteils entfernt. Daten, die sich zeitlich nicht überschneiden, bleiben alle erhalten.",
+      "warning": "Dabei handelt es sich nicht um eine klassische Vollsynchronisation mehrerer gleichzeitig genutzter Geräte. Die empfohlene Arbeitsweise nennt sich Übergabe: Ein Gerät verwenden, synchronisieren und erst dann das nächste Gerät verwenden. Wenn zwei Geräte gleichzeitig synchronisiert werden, kann es sein, dass einige Daten auf einem von ihnen nicht korrekt eingebunden werden. Die Daten gehen nicht dauerhaft verloren. In dieser Situation müssen Sie möglicherweise die Daten erneut vom Remote-Server laden.",
+      "frequencyTitle": "Automatische Synchronisationsfrequenz",
+      "frequency": "Wählen Sie aus, wie oft die automatische Synchronisierung ausgeführt werden soll:",
+      "frequencyItems": [
+        "keine – nur manuelle Synchronisierung",
+        "alle 10 Minuten",
+        "stündlich",
+        "alle 6 Stunden",
+        "alle 12 Stunden",
+        "einmal am Tag"
+      ],
+      "next": "Mit der nächsten Synchronisierung können Sie festlegen, wann der nächste Zyklus beginnen soll."
+    },
+    "status": {
+      "title": "Status und manuelle Synchronisierung",
+      "text": "Im Cloud-Bereich finden Sie:",
+      "items": [
+        "Sicherungsstatus – zeigt den Status der Sicherung oder Synchronisierung an.",
+        "Jetzt synchronisieren – startet die Synchronisierung sofort."
+      ]
+    },
+    "backup": {
+      "title": "Wichtig: Die Synchronisierung ist ein Backup",
+      "text": "Beim Cloud-Mechanismus handelt es sich in erster Linie um ein Backup, nicht um eine automatische bidirektionale Synchronisierung. Durch die automatische Synchronisierung werden Daten an den Server gesendet.",
+      "manual": "Wenn Sie den Bildschirm „Sichern und Synchronisieren“ öffnen, prüft die App, ob neuere Daten auf dem Server verfügbar sind. Wenn neuere Daten gefunden werden, erscheint die Schaltfläche „Wiederherstellen“. Der Download erfolgt nicht automatisch. Die fehlenden, von einem anderen Gerät synchronisierten Daten werden erst heruntergeladen, nachdem Sie explizit auf „Wiederherstellen“ geklickt haben."
+    },
+    "delete": {
+      "title": "Remote-Backup löschen",
+      "text": "Mit der Funktion „Remote-Backup löschen“ können Sie alle synchronisierten Daten vollständig vom Remote-Server entfernen.",
+      "items": [
+        "Sie können diesen Vorgang höchstens einmal alle 24 Stunden durchführen.",
+        "Das Löschen kann einige Zeit dauern; warte, bis es fertig ist."
+      ],
+      "important": "Durch das Löschen des Remote-Backups wird nichts von Ihrem Gerät gelöscht. Lokale Daten bleiben unverändert."
+    },
+    "journal": {
+      "title": "Synchronisierungssymbol im Journal",
+      "text": "Nachdem die Synchronisierung aktiviert wurde, erscheint im Journal ein Wolkensymbol und zeigt den Synchronisierungsstatus einzelner Einträge an. Vor der Synchronisierung werden zum Löschen markierte Einträge grau angezeigt. Nach Abschluss der Synchronisierung verschwinden sie aus dem Journal."
+    }
+  },
+  "related": {
+    "title": "Verwandte Informationen",
+    "text": "Das Importieren einer .DDD-Datei wird in einem separaten Artikel behandelt."
+  },
+  "navigation": {
+    "back": "<- Zurück zum Leitfaden"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -8,12 +8,17 @@
     "description": "Acest ghid conține informații care vă ajută să configurați și să utilizați corect TachoMobile 2."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Backup și sincronizare",
+      "description": "Protejați-vă datele aplicației cu un fișier local criptat sau o copie de rezervă în cloud.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Ecranul jurnalului",
       "description": "Vizualizați și gestionați intrările de activitate din istoricul cronologic.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
-   "journalAddingEntries": {
+    "journalAddingEntries": {
       "title": "Jurnal – Adăugarea înregistrărilor",
       "description": "Aflați cum să adăugați și să creați înregistrări manual.",
       "url": "journal-adding-entries/"
@@ -23,8 +28,16 @@
       "description": "Aflați cum să editați și să eliminați înregistrări din Jurnal.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Opțiuni de odihnă", "description": "Află cum să vezi și să gestionezi obiectivele de odihnă zilnică și săptămânală când nu lucrezi.", "url": "rest-options/" },
-    "activityEntry": { "title": "Începerea lucrului și introducerea activităților curente", "description": "Află cum să începi și să închei lucrul și să introduci rapid activitățile șoferului.", "url": "activity-entry/" },
+    "restOptions": {
+      "title": "Opțiuni de odihnă",
+      "description": "Află cum să vezi și să gestionezi obiectivele de odihnă zilnică și săptămânală când nu lucrezi.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "Începerea lucrului și introducerea activităților curente",
+      "description": "Află cum să începi și să închei lucrul și să introduci rapid activitățile șoferului.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "Primii pași",
       "description": "O introducere rapidă pentru a începe să utilizați TachoMobile 2.",

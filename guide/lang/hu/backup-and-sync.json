@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Biztonsági mentés és szinkronizálás - TachoMobile 2",
+    "heading": "Biztonsági mentés és szinkronizálás",
+    "intro": "Nyissa meg ezt a funkciót a Főmenü -> Biztonsági mentés és szinkronizálás menüpontban. Segít megvédeni az eszközén tárolt adatokat, és a Premiummal visszaállítani azokat."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard és Premium",
+      "text": "Az ingyenes Standard verzió lehetővé teszi az összes adat exportálását egy helyi titkosított fájlba, és manuális szinkronizálást a felhővel. Ez azt jelenti, hogy még az ingyenes verzió felhasználói is megvédhetik adataikat. A Premium tartalmazza az összes szabványos funkciót, valamint lehetővé teszi adatok importálását és visszaállítását egy biztonsági mentési fájlból. A Standard lehetővé teszi az adatok biztonságossá tételét, de az adatok biztonsági másolatból történő importálásához vagy visszaállításához prémium szolgáltatás szükséges.",
+      "items": [
+        "Szabványos: exportálja az összes adatot egy helyi titkosított fájlba, és végezzen manuális szinkronizálást a felhővel.",
+        "Prémium: minden szabványos szolgáltatás, valamint adatok importálása és visszaállítása biztonsági másolat fájlból.",
+        "Fontos: A Standard lehetővé teszi az adatok védelmét, de a Premium szükséges az adatok biztonsági másolatból történő importálásához vagy visszaállításához."
+      ]
+    },
+    "local": {
+      "title": "Helyi fájl",
+      "text": "A Helyi fájl rész biztonsági másolat létrehozására vagy adatok visszaállítására szolgál."
+    },
+    "export": {
+      "title": "Export",
+      "text": "Az Exportálás minden, az eszköz adatbázisában jelenleg tárolt bejegyzést ment. Exportálás előtt adjon meg egy védelmi jelszót. A fájl ezzel a jelszóval van titkosítva. A jelszó nélkül annak tartalma nem olvasható. A jelszót tartsa biztonságos helyen. Az exportálás a következő adatokat tartalmazza:",
+      "items": [
+        "tachográf-bejegyzések, beleértve a GPS-adatokat",
+        "térképi adatok",
+        "illesztőprogram-bejegyzések, beleértve a járművezetői kártyákról olvasott adatokat",
+        "járműbejegyzések"
+      ]
+    },
+    "import": {
+      "title": "Importálás",
+      "text": "Az importálás főként egy korábban létrehozott exportfájlból származó adatok visszaállítására szolgál.",
+      "steps": [
+        "Válassza ki a fájlt.",
+        "Adja meg a titkosítási jelszavát.",
+        "Válassza ki az adatütközések feloldásának módját."
+      ],
+      "conflicts": "Ha a meglévő adatok időben átfedésben vannak az importált adatokkal, válasszon az alábbi lehetőségek közül:",
+      "options": [
+        "Meglévő adatok megtartása – a meglévő adatok megmaradnak, és csak a nem ütköző importált adatok kerülnek hozzáadásra.",
+        "Az importált adatok elsőbbséget élveznek – ütközés esetén az importált fájl adatai megmaradnak."
+      ],
+      "extra": "Amikor az importálás befejeződik, az adatok elérhetők lesznek az alkalmazásban. Az importálás az alkalmazás régebbi verziójából is betöltheti az exportált fájlokat, vagy egy .DDD fájlból az illesztőprogram-kártya adatait. A .DDD importálás más mechanizmust használ, és egy külön cikkben ismertetjük."
+    },
+    "cloud": {
+      "title": "Felhő",
+      "text": "A felhő használatához:",
+      "steps": [
+        "Jelentkezzen be Google fiókkal.",
+        "Kapcsolja be a szinkronizálást.",
+        "Állítson be egy adattitkosítási jelszót."
+      ],
+      "encryption": "A titkosítási jelszó kötelező. A szinkronizálás enélkül nem megy. A Google távoli szerverére küldött adatok ezzel a jelszóval vannak titkosítva; a tényleges adattartalom titkosítva van, beleértve:",
+      "data": [
+        "térképek",
+        "munkaidőket",
+        "helyszíneken",
+        "bejegyzések és egyéb alkalmazásadatok"
+      ],
+      "metadata": "Csak a szinkronizáláshoz szükséges technikai információk és metaadatok maradnak a szerveren, például:",
+      "metadataItems": [
+        "küldés ideje",
+        "hogy egy bejegyzést töröltek-e",
+        "a bejegyzés azonosítója a helyi adatbázisban",
+        "a járművezetői kártya száma, amely többek között az adatok helyes hozzárendeléséhez szükséges a .DDD importálásakor"
+      ],
+      "password": "Tartsa biztonságban a titkosítási jelszót. Enélkül a titkosított adatok nem olvashatók és nem állíthatók vissza."
+    },
+    "advanced": {
+      "title": "Speciális felhőbeállítások",
+      "wifiTitle": "Csak Wi-Fi",
+      "wifi": "Az automatikus szinkronizálás csak akkor futhat, ha az eszköz csatlakozik Wi-Fi-hálózathoz.",
+      "masterTitle": "Mester készülék",
+      "master": "Csak egy eszközt jelöljön meg Masterként. Ütközés esetén a fő eszköz adatai élveznek elsőbbséget. A többi eszközről származó adatok csak az ütköző részen belül kerülnek eltávolításra. Az időben nem átfedő adatok mind megmaradnak.",
+      "warning": "Ez nem egy klasszikus, több egyidejűleg használt eszköz teljes szinkronizálása. A javasolt munkamódszert hand-off-nak nevezik: használjon egy eszközt, szinkronizálja, és csak ezután használja a következő eszközt. Ha két eszköz egyidejűleg szinkronizál, előfordulhat, hogy egyes adatok nem megfelelően szerepelnek az egyiken. Az adatok nem vesznek el véglegesen. Ebben a helyzetben előfordulhat, hogy újra be kell töltenie az adatokat a távoli szerverről.",
+      "frequencyTitle": "Automatikus szinkronizálási frekvencia",
+      "frequency": "Válassza ki, hogy milyen gyakran fusson az automatikus szinkronizálás:",
+      "frequencyItems": [
+        "nincs – csak kézi szinkronizálás",
+        "10 percenként",
+        "minden órában",
+        "6 óránként",
+        "12 óránként",
+        "naponta egyszer"
+      ],
+      "next": "A következő szinkronizálás lehetővé teszi, hogy beállítsa, mikor kezdődjön a következő ciklus."
+    },
+    "status": {
+      "title": "Állapot és kézi szinkronizálás",
+      "text": "A Felhő részben a következőket találja:",
+      "items": [
+        "Biztonsági mentés állapota – a biztonsági mentés vagy a szinkronizálás állapotát mutatja.",
+        "Szinkronizálás most – azonnal elindítja a szinkronizálást."
+      ]
+    },
+    "backup": {
+      "title": "Fontos: a szinkronizálás egy biztonsági másolat",
+      "text": "A felhőmechanizmus elsősorban biztonsági mentés, nem pedig automatikus kétirányú szinkronizálás. Az automatikus szinkronizálás adatokat küld a szervernek.",
+      "manual": "Amikor megnyitja a Biztonsági mentés és szinkronizálás képernyőt, az alkalmazás ellenőrzi, hogy elérhetők-e újabb adatok a szerveren. Ha újabb adatokat talál, megjelenik a Visszaállítás gomb. A letöltés nem automatikus. A másik eszközről szinkronizált hiányzó adatok csak a Visszaállítás gomb kifejezett megnyomása után töltődnek le."
+    },
+    "delete": {
+      "title": "Távoli biztonsági mentés törlése",
+      "text": "A Távoli biztonsági mentés törlése funkció lehetővé teszi az összes szinkronizált adat teljes eltávolítását a távoli szerverről.",
+      "items": [
+        "Ezt a műveletet legfeljebb 24 óránként hajthatja végre.",
+        "A törlés eltarthat egy ideig; várja meg, amíg véget ér."
+      ],
+      "important": "A távoli biztonsági másolat törlése nem törli semmit az eszközről. A helyi adatok változatlanok maradnak."
+    },
+    "journal": {
+      "title": "Szinkronizálás ikon a naplóban",
+      "text": "A szinkronizálás engedélyezése után egy felhő ikon jelenik meg a Naplóban, és az egyes bejegyzések szinkronizálási állapotát mutatja. A szinkronizálás előtt a törlésre kijelölt bejegyzések szürkén jelennek meg. A szinkronizálás befejezése után eltűnnek a Naplóból."
+    }
+  },
+  "related": {
+    "title": "Kapcsolódó információk",
+    "text": "A .DDD fájl importálásával egy külön cikk foglalkozik."
+  },
+  "navigation": {
+    "back": "<- Vissza az útmutatóhoz"
+  },
+  "footer": "© TachoMobile 2"
+}

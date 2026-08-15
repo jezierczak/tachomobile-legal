@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Backup e sincronizzazione - TachoMobile 2",
+    "heading": "Backup e sincronizzazione",
+    "intro": "Apri questa funzione dal menu principale -> Backup e sincronizzazione. Ti aiuta a proteggere i dati archiviati sul tuo dispositivo e, con Premium, a ripristinarli."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard e Premium",
+      "text": "La versione Standard gratuita ti consente di esportare tutti i tuoi dati in un file locale crittografato ed eseguire la sincronizzazione manuale con il cloud. Ciò significa che anche gli utenti della versione gratuita possono proteggere i propri dati. Premium include tutte le funzionalità Standard e consente inoltre di importare e ripristinare i dati da un file di backup. Standard ti consente di proteggere i tuoi dati, ma l'importazione o il ripristino dei dati da un backup richiede Premium.",
+      "items": [
+        "Standard: esporta tutti i dati in un file locale crittografato ed esegue la sincronizzazione manuale con il cloud.",
+        "Premium: tutte le funzionalità Standard più l'importazione e il ripristino dei dati da un file di backup.",
+        "Importante: Standard ti consente di proteggere i tuoi dati, ma Premium è necessario per importare o ripristinare i dati da un backup."
+      ]
+    },
+    "local": {
+      "title": "Archivio locale",
+      "text": "La sezione File locale viene utilizzata per creare un file di backup o ripristinare i dati da uno."
+    },
+    "export": {
+      "title": "Esportare",
+      "text": "L'esportazione salva ogni voce attualmente memorizzata nel database del dispositivo. Prima dell'esportazione inserire una password di protezione. Il file viene crittografato con questa password. Senza la password non è possibile leggerne il contenuto. Conservare la password in un luogo sicuro. L'esportazione include i seguenti dati:",
+      "items": [
+        "voci del tachigrafo, compresi i dati GPS",
+        "dati della mappa",
+        "voci del conducente, compresi i dati letti dalle carte del conducente",
+        "voci dei veicoli"
+      ]
+    },
+    "import": {
+      "title": "Importare",
+      "text": "L'importazione viene utilizzata principalmente per ripristinare i dati da un file di esportazione creato in precedenza.",
+      "steps": [
+        "Scegli il file.",
+        "Inserisci la sua password di crittografia.",
+        "Scegli come risolvere i conflitti di dati."
+      ],
+      "conflicts": "Se i dati esistenti si sovrappongono nel tempo con i dati importati, scegli una di queste opzioni:",
+      "options": [
+        "Conserva i dati esistenti: i dati esistenti vengono conservati e vengono aggiunti solo i dati importati non in conflitto.",
+        "I dati importati hanno la priorità: in caso di conflitto, i dati del file importato vengono conservati."
+      ],
+      "extra": "Al termine dell'importazione, i dati saranno disponibili nell'app. L'importazione può anche caricare un'esportazione da una versione precedente dell'app o i dati della carta conducente da un file .DDD. L'importazione .DDD utilizza un meccanismo diverso ed è descritta in un articolo separato."
+    },
+    "cloud": {
+      "title": "Nuvola",
+      "text": "Per utilizzare il cloud:",
+      "steps": [
+        "Accedi con un account Google.",
+        "Attiva la sincronizzazione.",
+        "Imposta una password per la crittografia dei dati."
+      ],
+      "encryption": "La password di crittografia è obbligatoria. La sincronizzazione non verrà eseguita senza di essa. I dati inviati al server remoto di Google vengono crittografati con questa password; il contenuto effettivo dei dati è crittografato, tra cui:",
+      "data": [
+        "mappe",
+        "orari di lavoro",
+        "posizioni",
+        "voci e altri dati dell'app"
+      ],
+      "metadata": "Sul server rimangono solo le informazioni tecniche e i metadati necessari per la sincronizzazione, ad esempio:",
+      "metadataItems": [
+        "momento dell'invio",
+        "se una voce è stata eliminata",
+        "l'ID della voce nel database locale",
+        "il numero della carta conducente, necessario tra l'altro per assegnare correttamente i dati durante l'importazione del .DDD"
+      ],
+      "password": "Mantieni la password di crittografia al sicuro. Senza di esso, i dati crittografati non possono essere letti o ripristinati."
+    },
+    "advanced": {
+      "title": "Opzioni cloud avanzate",
+      "wifiTitle": "Solo Wi-Fi",
+      "wifi": "La sincronizzazione automatica può essere eseguita solo quando il dispositivo è connesso al Wi-Fi.",
+      "masterTitle": "Dispositivo principale",
+      "master": "Solo un dispositivo deve essere contrassegnato come Master. In caso di conflitto, i dati del dispositivo Master hanno la priorità. I dati di altri dispositivi vengono rimossi solo all'interno della parte in conflitto. I dati che non si sovrappongono nel tempo vengono tutti conservati.",
+      "warning": "Non si tratta della classica sincronizzazione completa di più dispositivi utilizzati contemporaneamente. La modalità di lavoro consigliata è denominata hand-off: utilizzare un dispositivo, sincronizzarlo e solo successivamente utilizzare il dispositivo successivo. Se due dispositivi si sincronizzano contemporaneamente, alcuni dati potrebbero non essere inclusi correttamente su uno di essi. I dati non vengono persi in modo permanente. In questa situazione, potrebbe essere necessario caricare nuovamente i dati dal server remoto.",
+      "frequencyTitle": "Frequenza di sincronizzazione automatica",
+      "frequency": "Scegli la frequenza con cui eseguire la sincronizzazione automatica:",
+      "frequencyItems": [
+        "nessuno: solo sincronizzazione manuale",
+        "ogni 10 minuti",
+        "ogni ora",
+        "ogni 6 ore",
+        "ogni 12 ore",
+        "una volta al giorno"
+      ],
+      "next": "La prossima sincronizzazione consente di impostare quando dovrebbe iniziare il ciclo successivo."
+    },
+    "status": {
+      "title": "Stato e sincronizzazione manuale",
+      "text": "Nella sezione Cloud troverai:",
+      "items": [
+        "Stato del backup: mostra lo stato del backup o della sincronizzazione.",
+        "Sincronizza ora: avvia immediatamente la sincronizzazione."
+      ]
+    },
+    "backup": {
+      "title": "Importante: la sincronizzazione è un backup",
+      "text": "Il meccanismo cloud è principalmente un backup, non una sincronizzazione bidirezionale automatica. La sincronizzazione automatica invia i dati al server.",
+      "manual": "Quando apri la schermata Backup e sincronizzazione, l'app controlla se sul server sono disponibili dati più recenti. Se trova dati più recenti, viene visualizzato un pulsante Ripristina. Il download non è automatico. I dati mancanti, sincronizzati da un altro dispositivo, vengono scaricati solo dopo aver premuto esplicitamente Ripristina."
+    },
+    "delete": {
+      "title": "Elimina il backup remoto",
+      "text": "La funzione Elimina backup remoto consente di rimuovere completamente tutti i dati sincronizzati dal server remoto.",
+      "items": [
+        "È possibile eseguire questa operazione al massimo una volta ogni 24 ore.",
+        "L'eliminazione potrebbe richiedere del tempo; aspetta finché non finisce."
+      ],
+      "important": "L'eliminazione del backup remoto non elimina nulla dal tuo dispositivo. I dati locali rimangono invariati."
+    },
+    "journal": {
+      "title": "Icona di sincronizzazione nel diario",
+      "text": "Dopo aver abilitato la sincronizzazione, nel Diario viene visualizzata un'icona a forma di nuvola che mostra lo stato di sincronizzazione delle singole voci. Prima della sincronizzazione le voci contrassegnate per l'eliminazione vengono visualizzate in grigio. Una volta completata la sincronizzazione, scompaiono dal Diario."
+    }
+  },
+  "related": {
+    "title": "Informazioni correlate",
+    "text": "L'importazione di un file .DDD è trattata in un articolo separato."
+  },
+  "navigation": {
+    "back": "<- Torna alla Guida"
+  },
+  "footer": "© Tacho Mobile 2"
+}

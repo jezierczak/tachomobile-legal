@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Atsarginė kopija ir sinchronizavimas – „TachoMobile 2“.",
+    "heading": "Atsarginė kopija ir sinchronizavimas",
+    "intro": "Atidarykite šią funkciją iš Pagrindinis meniu -> Atsarginė kopija ir sinchronizavimas. Tai padeda apsaugoti įrenginyje saugomus duomenis ir naudojant „Premium“ juos atkurti."
+  },
+  "sections": {
+    "version": {
+      "title": "Standartinis ir Premium",
+      "text": "Nemokama standartinė versija leidžia eksportuoti visus duomenis į vietinį šifruotą failą ir atlikti rankinį sinchronizavimą su debesimi. Tai reiškia, kad net nemokamos versijos vartotojai gali apsaugoti savo duomenis. „Premium“ apima visas standartines funkcijas ir papildomai leidžia importuoti ir atkurti duomenis iš atsarginės kopijos failo. „Standard“ leidžia apsaugoti duomenis, tačiau norint importuoti arba atkurti duomenis iš atsarginės kopijos, reikalinga „Premium“.",
+      "items": [
+        "Standartinis: eksportuokite visus duomenis į vietinį šifruotą failą ir atlikite rankinį sinchronizavimą su debesimi.",
+        "Premium: visos standartinės funkcijos, taip pat duomenų importavimas ir atkūrimas iš atsarginės kopijos failo.",
+        "Svarbu: „Standard“ leidžia apsaugoti duomenis, tačiau norint importuoti arba atkurti duomenis iš atsarginės kopijos, reikalinga „Premium“."
+      ]
+    },
+    "local": {
+      "title": "Vietinis failas",
+      "text": "Skyrius Vietinis failas naudojamas atsarginei failui sukurti arba duomenims iš jo atkurti."
+    },
+    "export": {
+      "title": "Eksportuoti",
+      "text": "Eksportas išsaugo kiekvieną įrašą, šiuo metu saugomą įrenginio duomenų bazėje. Prieš eksportuodami įveskite apsaugos slaptažodį. Failas užšifruotas šiuo slaptažodžiu. Be slaptažodžio jo turinio negalima perskaityti. Slaptažodį laikykite saugioje vietoje. Eksportas apima šiuos duomenis:",
+      "items": [
+        "tachografo įrašai, įskaitant GPS duomenis",
+        "žemėlapio duomenis",
+        "vairuotojo įrašai, įskaitant duomenis, nuskaitytus iš vairuotojo kortelių",
+        "transporto priemonių įrašai"
+      ]
+    },
+    "import": {
+      "title": "Importuoti",
+      "text": "Importavimas daugiausia naudojamas duomenims atkurti iš anksčiau sukurto eksporto failo.",
+      "steps": [
+        "Pasirinkite failą.",
+        "Įveskite jo šifravimo slaptažodį.",
+        "Pasirinkite, kaip turėtų būti sprendžiami duomenų konfliktai."
+      ],
+      "conflicts": "Jei esami duomenys sutampa su importuotais duomenimis, pasirinkite vieną iš šių parinkčių:",
+      "options": [
+        "Išsaugoti esamus duomenis – esami duomenys išsaugomi ir pridedami tik neprieštaraujantys importuoti duomenys.",
+        "Importuoti duomenys turi pirmenybę – kilus konfliktui, duomenys iš importuoto failo išsaugomi."
+      ],
+      "extra": "Kai importavimas bus baigtas, duomenys bus pasiekiami programoje. Importavimas taip pat gali įkelti eksportuotą medžiagą iš senesnės versijos programos arba vairuotojo kortelės duomenis iš .DDD failo. .DDD importavimui naudojamas kitas mechanizmas ir jis aprašytas atskirame straipsnyje."
+    },
+    "cloud": {
+      "title": "Debesis",
+      "text": "Norėdami naudoti debesį:",
+      "steps": [
+        "Prisijunkite naudodami Google paskyrą.",
+        "Įjunkite sinchronizavimą.",
+        "Nustatykite duomenų šifravimo slaptažodį."
+      ],
+      "encryption": "Šifravimo slaptažodis yra privalomas. Be jo sinchronizavimas neveiks. Duomenys, siunčiami į „Google“ nuotolinį serverį, yra užšifruoti šiuo slaptažodžiu; tikrasis duomenų turinys yra užšifruotas, įskaitant:",
+      "data": [
+        "žemėlapiai",
+        "darbo laikas",
+        "vietos",
+        "įrašai ir kiti programos duomenys"
+      ],
+      "metadata": "Serveryje lieka tik techninė informacija ir metaduomenys, kurių reikia sinchronizavimui, pavyzdžiui:",
+      "metadataItems": [
+        "siuntimo laikas",
+        "ar įrašas buvo ištrintas",
+        "įrašo ID vietinėje duomenų bazėje",
+        "vairuotojo kortelės numeris, reikalingas, be kita ko, norint teisingai priskirti duomenis importuojant .DDD"
+      ],
+      "password": "Saugokite šifravimo slaptažodį. Be jo šifruotų duomenų negalima nuskaityti ar atkurti."
+    },
+    "advanced": {
+      "title": "Išplėstinės debesies parinktys",
+      "wifiTitle": "Tik Wi-Fi",
+      "wifi": "Automatinis sinchronizavimas gali veikti tik tada, kai įrenginys prijungtas prie „Wi-Fi“.",
+      "masterTitle": "Pagrindinis įrenginys",
+      "master": "Tik vienas įrenginys turėtų būti pažymėtas kaip pagrindinis. Konflikto atveju pagrindiniai įrenginio duomenys turi pirmenybę. Duomenys iš kitų įrenginių pašalinami tik prieštaraujančioje dalyje. Visi duomenys, kurie laiku nesutampa, išsaugomi.",
+      "warning": "Tai nėra klasikinis pilnas kelių vienu metu naudojamų įrenginių sinchronizavimas. Rekomenduojamas darbo būdas vadinamas „hand-off“: naudokite vieną įrenginį, jį sinchronizuokite ir tik tada naudokitės kitu įrenginiu. Jei du įrenginiai sinchronizuojasi vienu metu, kai kurie duomenys gali būti netinkamai įtraukti į vieną iš jų. Duomenys neprarandami visam laikui. Esant tokiai situacijai, gali tekti dar kartą įkelti duomenis iš nuotolinio serverio.",
+      "frequencyTitle": "Automatinis sinchronizacijos dažnis",
+      "frequency": "Pasirinkite, kaip dažnai turi vykti automatinis sinchronizavimas:",
+      "frequencyItems": [
+        "nėra – tik rankinis sinchronizavimas",
+        "kas 10 minučių",
+        "kas valandą",
+        "kas 6 valandas",
+        "kas 12 valandų",
+        "kartą per dieną"
+      ],
+      "next": "Kitas sinchronizavimas leidžia nustatyti, kada turėtų prasidėti kitas ciklas."
+    },
+    "status": {
+      "title": "Būsena ir rankinis sinchronizavimas",
+      "text": "Debesų skiltyje rasite:",
+      "items": [
+        "Atsarginės kopijos būsena – rodo atsarginės kopijos arba sinchronizavimo būseną.",
+        "Sinchronizuoti dabar – sinchronizavimas pradedamas nedelsiant."
+      ]
+    },
+    "backup": {
+      "title": "Svarbu: sinchronizavimas yra atsarginė kopija",
+      "text": "Debesų mechanizmas pirmiausia yra atsarginė kopija, o ne automatinis dvipusis sinchronizavimas. Automatinis sinchronizavimas siunčia duomenis į serverį.",
+      "manual": "Kai atidarote atsarginių kopijų kūrimo ir sinchronizavimo ekraną, programa patikrina, ar serveryje yra naujesnių duomenų. Jei randa naujesnius duomenis, pasirodo mygtukas Atkurti. Atsisiuntimas nėra automatinis. Trūkstami duomenys, sinchronizuoti iš kito įrenginio, atsisiunčiami tik tada, kai aiškiai paspaudžiate Atkurti."
+    },
+    "delete": {
+      "title": "Ištrinkite nuotolinę atsarginę kopiją",
+      "text": "Funkcija Ištrinti nuotolinę atsarginę kopiją leidžia visiškai pašalinti visus sinchronizuotus duomenis iš nuotolinio serverio.",
+      "items": [
+        "Šią operaciją galite atlikti daugiausia kartą per 24 valandas.",
+        "Ištrynimas gali užtrukti šiek tiek laiko; palaukite, kol baigsis."
+      ],
+      "important": "Ištrynus nuotolinę atsarginę kopiją, niekas iš įrenginio neištrina. Vietiniai duomenys nesikeičia."
+    },
+    "journal": {
+      "title": "Sinchronizavimo piktograma žurnale",
+      "text": "Įjungus sinchronizavimą, žurnale pasirodo debesies piktograma ir rodoma atskirų įrašų sinchronizavimo būsena. Prieš sinchronizuojant įrašai, pažymėti ištrinti, rodomi pilkai. Pasibaigus sinchronizavimui, jie išnyksta iš žurnalo."
+    }
+  },
+  "related": {
+    "title": "Susijusi informacija",
+    "text": ".DDD failo importavimas aprašytas atskirame straipsnyje."
+  },
+  "navigation": {
+    "back": "<- Atgal į vadovą"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Backup și sincronizare - TachoMobile 2",
+    "heading": "Backup și sincronizare",
+    "intro": "Deschideți această funcție din Meniul principal -> Backup și sincronizare. Vă ajută să protejați datele stocate pe dispozitiv și, cu Premium, să le restaurați."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard și Premium",
+      "text": "Versiunea gratuită Standard vă permite să exportați toate datele într-un fișier criptat local și să efectuați sincronizarea manuală cu cloud-ul. Aceasta înseamnă că chiar și utilizatorii versiunii gratuite își pot proteja datele. Premium include toate caracteristicile Standard și vă permite suplimentar să importați și să restaurați date dintr-un fișier de rezervă. Standard vă permite să vă securizați datele, dar importarea sau restaurarea datelor dintr-o copie de rezervă necesită Premium.",
+      "items": [
+        "Standard: exportați toate datele într-un fișier criptat local și efectuați sincronizarea manuală cu cloud-ul.",
+        "Premium: toate caracteristicile Standard plus importarea și restaurarea datelor dintr-un fișier de rezervă.",
+        "Important: Standard vă permite să vă protejați datele, dar Premium este necesar pentru a importa sau a restaura datele dintr-o copie de rezervă."
+      ]
+    },
+    "local": {
+      "title": "Fișier local",
+      "text": "Secțiunea Fișier local este utilizată pentru a crea un fișier de rezervă sau pentru a restaura date dintr-unul."
+    },
+    "export": {
+      "title": "Export",
+      "text": "Export salvează fiecare intrare stocată în prezent în baza de date a dispozitivului. Înainte de a exporta, introduceți o parolă de protecție. Fișierul este criptat cu această parolă. Fără parolă, conținutul acesteia nu poate fi citit. Păstrați parola într-un loc sigur. Exportul include următoarele date:",
+      "items": [
+        "intrări de tahograf, inclusiv date GPS",
+        "date de hartă",
+        "intrările șoferului, inclusiv datele citite de pe cardurile șoferului",
+        "înregistrări ale vehiculelor"
+      ]
+    },
+    "import": {
+      "title": "Import",
+      "text": "Importul este utilizat în principal pentru a restaura datele dintr-un fișier de export creat anterior.",
+      "steps": [
+        "Alegeți fișierul.",
+        "Introduceți parola de criptare.",
+        "Alegeți cum trebuie rezolvate conflictele de date."
+      ],
+      "conflicts": "Dacă datele existente se suprapun în timp cu datele importate, alegeți una dintre aceste opțiuni:",
+      "options": [
+        "Păstrați datele existente — datele existente sunt păstrate și sunt adăugate numai datele importate care nu sunt în conflict.",
+        "Datele importate au prioritate - atunci când există un conflict, datele din fișierul importat sunt păstrate."
+      ],
+      "extra": "Când importul se termină, datele sunt disponibile în aplicație. Importul poate încărca și un export dintr-o versiune mai veche a aplicației sau datele cardului de șofer dintr-un fișier .DDD. Importul .DDD utilizează un mecanism diferit și este descris într-un articol separat."
+    },
+    "cloud": {
+      "title": "Nor",
+      "text": "Pentru a utiliza cloud:",
+      "steps": [
+        "Conectați-vă cu un cont Google.",
+        "Activați sincronizarea.",
+        "Setați o parolă de criptare a datelor."
+      ],
+      "encryption": "Parola de criptare este obligatorie. Sincronizarea nu va rula fără ea. Datele trimise către serverul de la distanță Google sunt criptate cu această parolă; conținutul real al datelor este criptat, inclusiv:",
+      "data": [
+        "hărți",
+        "timpii de lucru",
+        "locatii",
+        "intrări și alte date ale aplicației"
+      ],
+      "metadata": "Doar informațiile tehnice și metadatele necesare pentru sincronizare rămân pe server, de exemplu:",
+      "metadataItems": [
+        "momentul trimiterii",
+        "dacă o intrare a fost ștearsă",
+        "ID-ul de intrare în baza de date locală",
+        "numărul cardului de șofer, necesar printre altele pentru a atribui corect datele la importul .DDD"
+      ],
+      "password": "Păstrați parola de criptare în siguranță. Fără el, datele criptate nu pot fi citite sau restaurate."
+    },
+    "advanced": {
+      "title": "Opțiuni avansate de cloud",
+      "wifiTitle": "Doar Wi-Fi",
+      "wifi": "Sincronizarea automată poate rula numai atunci când dispozitivul este conectat la Wi-Fi.",
+      "masterTitle": "Dispozitiv principal",
+      "master": "Un singur dispozitiv trebuie marcat ca Master. Într-un conflict, datele dispozitivului principal au prioritate. Datele de pe alte dispozitive sunt eliminate numai în partea aflată în conflict. Toate datele care nu se suprapun în timp sunt păstrate.",
+      "warning": "Aceasta nu este o sincronizare completă clasică a mai multor dispozitive utilizate în același timp. Modul recomandat de lucru se numește transfer: utilizați un dispozitiv, sincronizați-l și abia apoi utilizați următorul dispozitiv. Dacă două dispozitive se sincronizează în același timp, este posibil ca unele date să nu fie incluse corect pe unul dintre ele. Datele nu se pierd definitiv. În această situație, poate fi necesar să încărcați din nou datele de pe serverul de la distanță.",
+      "frequencyTitle": "Frecvența de sincronizare automată",
+      "frequency": "Alegeți cât de des ar trebui să ruleze sincronizarea automată:",
+      "frequencyItems": [
+        "none — numai sincronizare manuală",
+        "la fiecare 10 minute",
+        "în fiecare oră",
+        "la fiecare 6 ore",
+        "la fiecare 12 ore",
+        "o dată pe zi"
+      ],
+      "next": "Următoarea sincronizare vă permite să setați când ar trebui să înceapă următorul ciclu."
+    },
+    "status": {
+      "title": "Stare și sincronizare manuală",
+      "text": "În secțiunea Cloud veți găsi:",
+      "items": [
+        "Stare copie de rezervă — arată starea copiei de rezervă sau a sincronizării.",
+        "Sincronizează acum — începe imediat sincronizarea."
+      ]
+    },
+    "backup": {
+      "title": "Important: sincronizarea este o copie de rezervă",
+      "text": "Mecanismul cloud este în primul rând o copie de rezervă, nu o sincronizare automată în două sensuri. Sincronizarea automată trimite date către server.",
+      "manual": "Când deschideți ecranul Backup și sincronizare, aplicația verifică dacă sunt disponibile date mai noi pe server. Dacă găsește date mai noi, apare un buton Restaurare. Descărcarea nu este automată. Datele lipsă, sincronizate de pe alt dispozitiv, sunt descărcate numai după ce apăsați explicit Restabilire."
+    },
+    "delete": {
+      "title": "Ștergeți backup la distanță",
+      "text": "Funcția Delete remote backup vă permite să eliminați complet toate datele sincronizate de pe serverul la distanță.",
+      "items": [
+        "Puteți efectua această operație cel mult o dată la 24 de ore.",
+        "Ștergerea poate dura ceva timp; așteptați până se termină."
+      ],
+      "important": "Ștergerea copiei de rezervă de la distanță nu șterge nimic de pe dispozitiv. Datele locale rămân neschimbate."
+    },
+    "journal": {
+      "title": "Pictograma de sincronizare în Jurnal",
+      "text": "După ce sincronizarea este activată, o pictogramă cloud apare în Jurnal și arată starea de sincronizare a intrărilor individuale. Înainte de sincronizare, intrările marcate pentru ștergere sunt afișate cu gri. După ce sincronizarea este finalizată, acestea dispar din Jurnal."
+    }
+  },
+  "related": {
+    "title": "Informații conexe",
+    "text": "Importarea unui fișier .DDD este tratată într-un articol separat."
+  },
+  "navigation": {
+    "back": "<- Înapoi la Ghid"
+  },
+  "footer": "© TachoMobile 2"
+}

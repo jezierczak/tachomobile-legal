@@ -8,10 +8,15 @@
     "description": "Táto príručka obsahuje informácie, ktoré vám pomôžu správne nastaviť a používať TachoMobile 2."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Zálohovanie a synchronizácia",
+      "description": "Chráňte údaje svojej aplikácie pomocou šifrovaného lokálneho súboru alebo zálohy v cloude.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Obrazovka denníka",
       "description": "Prezerajte si a spravujte záznamy aktivít v chronologickej histórii.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
     "journalAddingEntries": {
       "title": "Denník – Pridávanie záznamov",
@@ -23,8 +28,16 @@
       "description": "Zistite, ako upravovať a odstraňovať záznamy z Denníka.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Možnosti odpočinku", "description": "Zistite, ako zobrazovať a spravovať ciele denného a týždenného odpočinku, keď ste mimo práce.", "url": "rest-options/" },
-    "activityEntry": { "title": "Začatie práce a zadávanie aktuálnych aktivít", "description": "Zistite, ako začať a ukončiť prácu a rýchlo zadávať aktivity vodiča.", "url": "activity-entry/" },
+    "restOptions": {
+      "title": "Možnosti odpočinku",
+      "description": "Zistite, ako zobrazovať a spravovať ciele denného a týždenného odpočinku, keď ste mimo práce.",
+      "url": "rest-options/"
+    },
+    "activityEntry": {
+      "title": "Začatie práce a zadávanie aktuálnych aktivít",
+      "description": "Zistite, ako začať a ukončiť prácu a rýchlo zadávať aktivity vodiča.",
+      "url": "activity-entry/"
+    },
     "firstSteps": {
       "title": "Prvé kroky",
       "description": "Rýchly úvod do začiatkov s aplikáciou TachoMobile 2.",

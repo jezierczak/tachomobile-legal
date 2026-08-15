@@ -8,10 +8,15 @@
     "description": "Przewodnik zawiera informacje pomagające prawidłowo skonfigurować i korzystać z TachoMobile 2."
   },
   "modules": {
+    "backupAndSync": {
+      "title": "Kopia zapasowa i synchronizacja",
+      "description": "Chroń dane swojej aplikacji za pomocą zaszyfrowanego pliku lokalnego lub kopii zapasowej w chmurze.",
+      "url": "backup-and-sync/"
+    },
     "logScreen": {
       "title": "Ekran dziennika",
       "description": "Przeglądaj i zarządzaj wpisami aktywności w chronologicznej historii.",
-    "url": "log-screen/"
+      "url": "log-screen/"
     },
     "journalAddingEntries": {
       "title": "Dziennik – Dodawanie wpisów",
@@ -23,7 +28,11 @@
       "description": "Dowiedz się, jak edytować i usuwać wpisy z Dziennika.",
       "url": "journal-editing-removing-entries/"
     },
-    "restOptions": { "title": "Opcje odpoczynku", "description": "Dowiedz się, jak wyświetlać i zarządzać celami odpoczynku dziennego i tygodniowego, gdy jesteś poza pracą.", "url": "rest-options/" },
+    "restOptions": {
+      "title": "Opcje odpoczynku",
+      "description": "Dowiedz się, jak wyświetlać i zarządzać celami odpoczynku dziennego i tygodniowego, gdy jesteś poza pracą.",
+      "url": "rest-options/"
+    },
     "firstSteps": {
       "title": "Pierwsze kroki",
       "description": "Szybkie wprowadzenie do rozpoczęcia pracy z TachoMobile 2.",

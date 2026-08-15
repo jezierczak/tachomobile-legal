@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Yedekleme ve senkronizasyon - TachoMobile 2",
+    "heading": "Yedekleme ve senkronizasyon",
+    "intro": "Bu özelliği Ana menü -> Yedekleme ve senkronizasyon'dan açın. Cihazınızda depolanan verileri korumanıza ve Premium ile bu verileri geri yüklemenize yardımcı olur."
+  },
+  "sections": {
+    "version": {
+      "title": "Standart ve Premium",
+      "text": "Ücretsiz Standart sürüm, tüm verilerinizi yerel şifrelenmiş bir dosyaya aktarmanıza ve bulutla manuel senkronizasyon yapmanıza olanak tanır. Bu, ücretsiz sürümü kullananların bile verilerini koruyabileceği anlamına gelir. Premium, tüm Standart özellikleri içerir ve ayrıca bir yedekleme dosyasından verileri içe aktarmanıza ve geri yüklemenize olanak tanır. Standart, verilerinizin güvenliğini sağlamanıza olanak tanır ancak verileri bir yedeklemeden içe aktarmak veya geri yüklemek için Premium gerekir.",
+      "items": [
+        "Standart: Tüm verileri yerel şifrelenmiş bir dosyaya aktarın ve bulutla manuel senkronizasyon gerçekleştirin.",
+        "Premium: Tüm Standart özelliklere ek olarak bir yedekleme dosyasından veri içe aktarma ve geri yükleme.",
+        "Önemli: Standart, verilerinizi korumanıza olanak tanır ancak Premium, verileri bir yedekten içe aktarmak veya geri yüklemek için gereklidir."
+      ]
+    },
+    "local": {
+      "title": "Yerel dosya",
+      "text": "Yerel dosya bölümü, bir yedekleme dosyası oluşturmak veya bir dosyadan verileri geri yüklemek için kullanılır."
+    },
+    "export": {
+      "title": "İhracat",
+      "text": "Dışa aktarma, cihaz veritabanında o anda depolanan her girişi kaydeder. Dışa aktarmadan önce bir koruma şifresi girin. Dosya bu şifreyle şifrelenir. Şifre olmadan içeriği okunamaz. Şifreyi güvenli bir yerde saklayın. Dışa aktarma aşağıdaki verileri içerir:",
+      "items": [
+        "GPS verileri dahil takograf girişleri",
+        "harita verileri",
+        "Sürücü kartlarından okunan veriler de dahil olmak üzere sürücü girişleri",
+        "araç kayıtları"
+      ]
+    },
+    "import": {
+      "title": "İçe aktarmak",
+      "text": "İçe aktarma, esas olarak daha önce oluşturulmuş bir dışa aktarma dosyasındaki verileri geri yüklemek için kullanılır.",
+      "steps": [
+        "Dosyayı seçin.",
+        "Şifreleme şifresini girin.",
+        "Veri çakışmalarının nasıl çözülmesi gerektiğini seçin."
+      ],
+      "conflicts": "Mevcut veriler zamanla içe aktarılan verilerle çakışıyorsa aşağıdaki seçeneklerden birini seçin:",
+      "options": [
+        "Mevcut verileri koru — mevcut veriler tutulur ve yalnızca çakışmayan içe aktarılan veriler eklenir.",
+        "İçe aktarılan verilerin önceliği vardır; bir çakışma olduğunda içe aktarılan dosyadaki veriler saklanır."
+      ],
+      "extra": "İçe aktarma tamamlandığında veriler uygulamada kullanılabilir. İçe aktarma, uygulamanın eski bir sürümünden bir dışa aktarma işlemi veya bir .DDD dosyasından sürücü kartı verileri de yükleyebilir. .DDD içe aktarma işlemi farklı bir mekanizma kullanır ve ayrı bir makalede açıklanmaktadır."
+    },
+    "cloud": {
+      "title": "Bulut",
+      "text": "Bulutu kullanmak için:",
+      "steps": [
+        "Bir Google hesabıyla oturum açın.",
+        "Senkronizasyonu açın.",
+        "Bir veri şifreleme parolası belirleyin."
+      ],
+      "encryption": "Şifreleme şifresi zorunludur. Senkronizasyon bu olmadan çalışmaz. Google'ın uzak sunucusuna gönderilen veriler bu şifreyle şifrelenir; gerçek veri içeriği aşağıdakiler dahil olmak üzere şifrelenir:",
+      "data": [
+        "haritalar",
+        "çalışma süreleri",
+        "yerler",
+        "girişler ve diğer uygulama verileri"
+      ],
+      "metadata": "Yalnızca senkronizasyonun gerektirdiği teknik bilgiler ve meta veriler sunucuda kalır, örneğin:",
+      "metadataItems": [
+        "gönderme zamanı",
+        "bir girişin silinip silinmediği",
+        "yerel veritabanındaki giriş kimliği",
+        ".DDD'yi içe aktarırken diğer şeylerin yanı sıra verileri doğru şekilde atamak için gereken sürücü kartı numarası"
+      ],
+      "password": "Şifreleme şifresini güvende tutun. Bu olmadan şifrelenmiş veriler okunamaz veya geri yüklenemez."
+    },
+    "advanced": {
+      "title": "Gelişmiş bulut seçenekleri",
+      "wifiTitle": "Yalnızca Wi-Fi",
+      "wifi": "Otomatik senkronizasyon yalnızca cihaz Wi-Fi'ye bağlandığında çalışabilir.",
+      "masterTitle": "Ana cihaz",
+      "master": "Yalnızca bir cihaz Ana olarak işaretlenmelidir. Bir çakışma durumunda Ana cihaz verilerinin önceliği vardır. Diğer cihazlardan gelen veriler yalnızca çakışan kısımdan kaldırılır. Zaman içinde çakışmayan verilerin tümü korunur.",
+      "warning": "Bu, aynı anda kullanılan birkaç cihazın klasik tam senkronizasyonu değildir. Önerilen çalışma yöntemine devretme denir: bir cihazı kullanın, senkronize edin ve ancak bundan sonra bir sonraki cihazı kullanın. İki cihaz aynı anda senkronize edilirse bazı veriler bunlardan birine doğru şekilde dahil edilmeyebilir. Veriler kalıcı olarak kaybolmaz. Bu durumda verileri uzak sunucudan tekrar yüklemeniz gerekebilir.",
+      "frequencyTitle": "Otomatik senkronizasyon frekansı",
+      "frequency": "Otomatik senkronizasyonun ne sıklıkta çalışması gerektiğini seçin:",
+      "frequencyItems": [
+        "yok — yalnızca manuel senkronizasyon",
+        "her 10 dakikada bir",
+        "her saat",
+        "her 6 saatte bir",
+        "her 12 saatte bir",
+        "günde bir kez"
+      ],
+      "next": "Sonraki senkronizasyon, bir sonraki döngünün ne zaman başlayacağını ayarlamanıza olanak tanır."
+    },
+    "status": {
+      "title": "Durum ve manuel senkronizasyon",
+      "text": "Bulut bölümünde şunları bulacaksınız:",
+      "items": [
+        "Yedekleme durumu — yedeklemenin veya senkronizasyonun durumunu gösterir.",
+        "Şimdi senkronize et — senkronizasyonu hemen başlatır."
+      ]
+    },
+    "backup": {
+      "title": "Önemli: senkronizasyon bir yedektir",
+      "text": "Bulut mekanizması öncelikle bir yedeklemedir, otomatik iki yönlü bir senkronizasyon değildir. Otomatik senkronizasyon, verileri sunucuya gönderir.",
+      "manual": "Yedekleme ve senkronizasyon ekranını açtığınızda uygulama, sunucuda daha yeni verilerin olup olmadığını kontrol eder. Daha yeni veriler bulursa Geri Yükle düğmesi görünür. İndirme otomatik değildir. Başka bir cihazdan senkronize edilen eksik veriler yalnızca siz açıkça Geri Yükle'ye bastığınızda indirilir."
+    },
+    "delete": {
+      "title": "Uzaktan yedeklemeyi sil",
+      "text": "Uzak yedeklemeyi sil işlevi, senkronize edilen tüm verileri uzak sunucudan tamamen kaldırmanıza olanak tanır.",
+      "items": [
+        "Bu işlemi en fazla 24 saatte bir gerçekleştirebilirsiniz.",
+        "Silme işlemi biraz zaman alabilir; bitene kadar bekleyin."
+      ],
+      "important": "Uzaktan yedeklemenin silinmesi cihazınızdan hiçbir şeyin silinmesine neden olmaz. Yerel veriler değişmeden kalır."
+    },
+    "journal": {
+      "title": "Günlükteki senkronizasyon simgesi",
+      "text": "Senkronizasyon etkinleştirildikten sonra Günlükte bir bulut simgesi görünür ve bireysel girişlerin senkronizasyon durumunu gösterir. Senkronizasyondan önce silinmek üzere işaretlenen girişler gri renkte gösterilir. Senkronizasyon tamamlandıktan sonra Günlükten kaybolurlar."
+    }
+  },
+  "related": {
+    "title": "İlgili bilgiler",
+    "text": ".DDD dosyasının içe aktarılması ayrı bir makalede ele alınmaktadır."
+  },
+  "navigation": {
+    "back": "<- Rehbere Geri Dön"
+  },
+  "footer": "© TachoMobile 2"
+}
