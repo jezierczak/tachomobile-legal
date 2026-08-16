@@ -58,6 +58,7 @@
       "description": "TachoMobile 2 ana ekranında bulunan öğeleri, bilgileri ve işlemleri öğrenin.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Kart verilerini içe aktarma (.ddd)", "description": "Gerçek sürücü kartı verilerini içe aktarın.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Ana sayfaya dön",

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Fahrerkartendaten aus einer .ddd-Datei importieren – TachoMobile 2",
+    "heading": "Fahrerkartendaten aus einer .ddd-Datei importieren",
+    "intro": "TachoMobile kann reale Daten von einer digitalen Fahrerkarte importieren, die in einer .ddd-Datei gespeichert ist."
+  },
+  "sections": {
+    "limit": {
+      "title": "Die Karte wird von einem anderen Gerät gelesen",
+      "text": "Zu diesem Zeitpunkt liest TachoMobile die Fahrerkarte nicht direkt. Laden Sie die Karte zunächst mit einem anderen Gerät, Lesegerät oder Programm herunter, das das Lesen der Fahrerkarte unterstützt. TachoMobile empfängt die fertige .ddd-Datei und importiert die darin gespeicherten Daten."
+    },
+    "import": {
+      "title": "So importieren Sie eine .ddd-Datei",
+      "text": "Es gibt keine separate Schaltfläche „DDD importieren“. Verwenden Sie den normalen Importpfad für lokale Dateien:",
+      "steps": [
+        "Menü → Sicherung und Synchronisierung → Lokal (Datei) → Importieren",
+        "Wählen Sie die Datei aus.",
+        "Wenn die ausgewählte Datei das .ddd-Format hat, erkennt TachoMobile sie automatisch als Fahrerkartendaten und verarbeitet sie als DDD-Daten."
+      ],
+      "extra": "Der Import erfolgt aus der von Ihnen gewählten Datei."
+    },
+    "safety": {
+      "title": "GPS-Daten werden nicht überschrieben",
+      "text": "Beim Importieren einer .ddd-Datei werden die vom Telefon aufgezeichneten GPS-Daten nicht überschrieben oder entfernt. GPS-Daten und Fahrerkartendaten werden als separate Datenquellen gespeichert, sodass Kartendaten sicher importiert werden können, ohne dass frühere GPS-Daten verloren gehen."
+    },
+    "identify": {
+      "title": "Automatische Erkennung der Fahrerkarte",
+      "text": "Jede .ddd-Datei enthält Informationen zur Identifizierung der Fahrerkarte, einschließlich der Kartennummer sowie des Vor- und Nachnamens des Fahrers.",
+      "items": [
+        "Wenn die Karte noch nicht importiert wurde, erstellt TachoMobile einen neuen Eintrag in den Fahrerkarten.",
+        "Die Kartennummer und der Name des Fahrers werden gespeichert.",
+        "Die Dateidaten werden dieser Karte zugewiesen."
+      ],
+      "extra": "Innerhalb einer Fahrerkarte können Sie auch die zugehörigen Daten und technischen Ereignisse anzeigen."
+    },
+    "many": {
+      "title": "Daten von mehreren Fahrerkarten",
+      "text": "Eine TachoMobile-Installation kann Daten von vielen Fahrerkarten speichern.",
+      "items": [
+        "Durch den Import einer anderen Karte werden die GPS-Daten nicht überschrieben.",
+        "Es werden keine Daten von einer früheren Karte überschrieben.",
+        "TachoMobile erstellt oder aktualisiert einen separaten Datensatz für die passende Fahrerkarte."
+      ]
+    },
+    "repeat": {
+      "title": "Dieselbe Karte erneut importieren",
+      "text": "Wenn Sie eine weitere .ddd-Datei für dieselbe Karte importieren, aktualisiert und erweitert TachoMobile die vorhandenen Daten. Die Historie kann entweder um einen neueren oder einen älteren Zeitraum erweitert werden. Sie können alle 28 Tage Daten herunterladen und aufeinanderfolgende Dateien importieren; Die Geschichte wird nach und nach zu einer kontinuierlichen Zeitleiste der Karte. Sie müssen nicht jedes Mal den gesamten Verlauf importieren."
+    },
+    "source": {
+      "title": "Auswahl der Datenquelle",
+      "intro": "Nachdem die Kartendaten importiert wurden, erscheint unterhalb der Haupttitelleiste ein zusätzliches Quellenmenü, wenn sowohl GPS- als auch Kartendaten verfügbar sind. Es gibt genau drei Optionen: „Nur GPS“, „GPS + Karte“ und „Nur Karte“."
+    },
+    "gps": {
+      "title": "Nur GPS",
+      "text": "Zeigt von TachoMobile mithilfe des GPS des Telefons aufgezeichnete Daten an. Die Daten der Fahrerkarte bleiben in der App gespeichert, werden in dieser Ansicht jedoch nicht verwendet."
+    },
+    "combined": {
+      "title": "GPS + Karte",
+      "text": "Dies ist die kombinierte Ansicht. Wenn für einen bestimmten Zeitraum echte Kartendaten verfügbar sind, verwendet die App die Kartendaten. Wenn diese nicht verfügbar ist, verwendet die App möglicherweise vom Telefon aufgezeichnete GPS-Daten.",
+      "items": [
+        "echte Fahrtenschreiber-/Fahrerkartendaten",
+        "ungefähre Daten vom GPS des Telefons"
+      ],
+      "note": "GPS-Daten werden nicht in Kartendaten umgewandelt. Die App nutzt einfach die entsprechende Quelle je nach Verfügbarkeit."
+    },
+    "card": {
+      "title": "Nur Karte",
+      "text": "Zeigt nur Daten an, die von einer Fahrerkarte stammen.",
+      "multiple": "Wenn mehr als eine Karte in der App gespeichert ist, wählen Sie die Karte aus, deren Daten Sie anzeigen möchten.",
+      "warning": "Wenn Sie „Nur Karte“ wählen, werden die GPS-Daten nicht gelöscht. Es ändert sich lediglich die Datenquelle, die zur Anzeige und Analyse verwendet wird."
+    },
+    "analysis": {
+      "title": "Analyse von DDD-Daten",
+      "text": "TachoMobile analysiert importierte Kartendaten mit demselben Arbeits- und Ruhezeit-Analysemechanismus wie GPS-Daten. Es analysiert unter anderem erforderliche Aktivitäts-, Arbeits-, Lenk-, Pausen- und Ruhezeiten gemäß den umgesetzten Regeln. Bei den DDD-Daten handelt es sich um reale Daten der Fahrerkarte, keine minderwertige Alternative zur Analyse."
+    },
+    "delete": {
+      "title": "Daten eines Fahrers entfernen",
+      "steps": "Verwendung: Fahrerkarten → Karte auswählen → Fahrereinträge löschen.",
+      "text": "Durch diesen Vorgang werden nur Daten entfernt, die mit der ausgewählten Fahrerkarte verknüpft sind.",
+      "items": [
+        "Die GPS-Daten des Telefons werden nicht entfernt.",
+        "Es werden keine Daten von anderen Fahrerkarten entfernt."
+      ],
+      "final": "Nach dem Entfernen der Daten können Sie auch den Fahrerkarteneintrag selbst entfernen. Das Entfernen von Daten in TachoMobile betrifft nur die in der App gespeicherten Daten; Es werden keine Daten von der physischen Fahrerkarte entfernt."
+    }
+  },
+  "related": {
+    "title": "Verwandte Informationen",
+    "text": "Nutzen Sie diese vorhandenen Guide-Module für den umgebenden Workflow:",
+    "backup": "Sicherung und Synchronisierung",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Aktivitätsverlauf und Tagebuch",
+    "historyUrl": "../log-screen/",
+    "main": "Hauptbildschirm",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† ZurĂĽck zum Leitfaden"
+  },
+  "footer": "© TachoMobile 2"
+}

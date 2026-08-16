@@ -58,6 +58,7 @@
       "description": "Poznejte prvky, informace a akce dostupné na hlavní obrazovce TachoMobile 2.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Import údajů karty (.ddd)", "description": "Importujte skutečná data z karty řidiče.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Zpět na hlavní stránku",

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Importar datos de la tarjeta de conductor desde un archivo .ddd - TachoMobile 2",
+    "heading": "Importar datos de la tarjeta de conductor desde un archivo .ddd",
+    "intro": "TachoMobile puede importar datos reales desde una tarjeta de conductor digital guardada en un archivo .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "La tarjeta es leída por otro dispositivo.",
+      "text": "En esta etapa TachoMobile no lee la tarjeta del conductor directamente. Primero descargue la tarjeta utilizando otro dispositivo, lector o programa que admita la lectura de tarjetas de conductor. TachoMobile recibe el archivo .ddd listo e importa los datos almacenados en él."
+    },
+    "import": {
+      "title": "Cómo importar un archivo .ddd",
+      "text": "No hay un botón separado para \"Importar DDD\". Utilice la ruta normal de importación de archivos locales:",
+      "steps": [
+        "Menú del programa → Copia y sincronización → Local (archivo) → Importar",
+        "Elija el archivo.",
+        "Cuando el archivo seleccionado tiene el formato .ddd, TachoMobile lo reconoce automáticamente como datos de la tarjeta de conductor y lo procesa como datos DDD."
+      ],
+      "extra": "La importación se realiza desde el archivo que elijas."
+    },
+    "safety": {
+      "title": "Los datos del GPS no se sobrescriben",
+      "text": "La importación de un archivo .ddd no sobrescribe ni elimina los datos de GPS registrados por el teléfono. Los datos del GPS y los datos de la tarjeta del conductor se almacenan como fuentes de datos independientes, por lo que los datos de la tarjeta se pueden importar de forma segura sin perder los datos del GPS anteriores."
+    },
+    "identify": {
+      "title": "Reconocimiento automático de tarjetas de conductor",
+      "text": "Cada archivo .ddd contiene información que identifica la tarjeta del conductor, incluido el número de la tarjeta y el nombre y apellido del conductor.",
+      "items": [
+        "Si la tarjeta no se ha importado antes, TachoMobile crea una nueva entrada en Tarjetas de conductor.",
+        "Se guardan el número de tarjeta y el nombre del conductor.",
+        "Los datos del archivo se asignan a esa tarjeta."
+      ],
+      "extra": "Dentro de una tarjeta de conductor también puedes ver sus datos relacionados y eventos técnicos."
+    },
+    "many": {
+      "title": "Datos de varias tarjetas de conductor",
+      "text": "Una instalación de TachoMobile puede almacenar datos de muchas tarjetas de conductor.",
+      "items": [
+        "Importar otra tarjeta no sobrescribe los datos del GPS.",
+        "No sobrescribe datos de una tarjeta anterior.",
+        "TachoMobile crea o actualiza un conjunto de datos separado para la tarjeta de conductor coincidente."
+      ]
+    },
+    "repeat": {
+      "title": "Importando la misma tarjeta nuevamente",
+      "text": "Cuando importa otro archivo .ddd para la misma tarjeta, TachoMobile actualiza y amplía los datos existentes. La historia se puede ampliar con un período más nuevo o más antiguo. Podrás descargar datos cada 28 días e importar archivos sucesivos; la historia se convierte gradualmente en una línea de tiempo continua de tarjetas. No es necesario importar el historial completo cada vez."
+    },
+    "source": {
+      "title": "Elegir la fuente de datos",
+      "intro": "Después de importar los datos de la tarjeta, aparece un menú de selección de fuente bajo la barra de título cuando están disponibles tanto el GPS como los datos de la tarjeta. Hay exactamente tres opciones: «Solo GPS», «GPS + tarjeta» y «Solo tarjeta»."
+    },
+    "gps": {
+      "title": "Sólo GPS",
+      "text": "Muestra datos registrados por TachoMobile utilizando el GPS del teléfono. Los datos de la tarjeta de conductor permanecen almacenados en la aplicación pero no se utilizan en esta vista."
+    },
+    "combined": {
+      "title": "GPS + tarjeta",
+      "text": "Ésta es la visión combinada. Cuando los datos reales de la tarjeta están disponibles durante un período, la aplicación utiliza los datos de la tarjeta. Cuando no esté disponible, la aplicación puede utilizar datos de GPS registrados por el teléfono.",
+      "items": [
+        "datos reales del tacógrafo/tarjeta de conductor",
+        "datos aproximados del GPS del teléfono"
+      ],
+      "note": "Los datos del GPS no se convierten en datos de la tarjeta. La aplicación simplemente utiliza la fuente adecuada según la disponibilidad."
+    },
+    "card": {
+      "title": "Sólo tarjeta",
+      "text": "Muestra sólo datos procedentes de una tarjeta de conductor.",
+      "multiple": "Si hay más de una tarjeta almacenada en la aplicación, elija la tarjeta cuyos datos desea mostrar.",
+      "warning": "Al elegir \"Solo tarjeta\" no se eliminan los datos del GPS. Solo cambia la fuente de datos utilizada para la visualización y el análisis."
+    },
+    "analysis": {
+      "title": "Análisis de datos DDD",
+      "text": "TachoMobile analiza los datos de la tarjeta importada utilizando el mismo mecanismo de análisis de tiempo de trabajo y tiempo de descanso que los datos del GPS. Analiza, entre otras cosas, los períodos necesarios de actividad, trabajo, conducción, pausas y descanso según las normas implementadas. Los datos DDD son datos reales de la tarjeta de conductor, no una alternativa inferior para el análisis."
+    },
+    "delete": {
+      "title": "Eliminar los datos de un conductor",
+      "steps": "Uso: Tarjetas de conductor → elegir una tarjeta → Eliminar entradas de conductor.",
+      "text": "Esta operación elimina solo los datos asociados con la tarjeta de conductor seleccionada.",
+      "items": [
+        "No elimina los datos del GPS del teléfono.",
+        "No elimina datos de otras tarjetas de conductor."
+      ],
+      "final": "Después de eliminar los datos, también puede eliminar la entrada de la tarjeta de conductor. La eliminación de datos en TachoMobile afecta únicamente a los datos almacenados en la aplicación; no elimina datos de la tarjeta de conductor física."
+    }
+  },
+  "related": {
+    "title": "Información relacionada",
+    "text": "Utilice estos módulos de Guía existentes para el flujo de trabajo circundante:",
+    "backup": "Copia de seguridad y sincronización",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Historial de actividades y diario.",
+    "historyUrl": "../log-screen/",
+    "main": "Pantalla principal",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Volver a la guĂ­a"
+  },
+  "footer": "© TachoMobile 2"
+}

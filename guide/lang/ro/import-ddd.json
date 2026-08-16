@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Importarea datelor cardului de Č™ofer dintr-un fiČ™ier .ddd - TachoMobile 2",
+    "heading": "Importarea datelor cardului de Č™ofer dintr-un fiČ™ier .ddd",
+    "intro": "TachoMobile poate importa date reale de pe un card digital de șofer salvat într-un fișier .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "Cardul este citit de un alt dispozitiv",
+      "text": "ĂŽn aceastÄ etapÄ, TachoMobile nu citeČ™te direct cardul Č™oferului. Mai Ă®ntĂ˘i descÄrcaČ›i cardul folosind un alt dispozitiv, cititor sau program care acceptÄ citirea cardului de Č™ofer. TachoMobile primeČ™te fiČ™ierul .ddd gata Č™i importÄ datele stocate Ă®n acesta."
+    },
+    "import": {
+      "title": "Cum se importÄ un fiČ™ier .ddd",
+      "text": "Nu existÄ un buton separat â€žImport DDDâ€ť. UtilizaČ›i calea normalÄ de import a fiČ™ierului local:",
+      "steps": [
+        "Meniu → Backup și sincronizare → Local (fișier) → Import",
+        "AlegeČ›i fiČ™ierul.",
+        "CĂ˘nd fiČ™ierul selectat are formatul .ddd, TachoMobile Ă®l recunoaČ™te automat ca date de card de Č™ofer Č™i Ă®l proceseazÄ ca date DDD."
+      ],
+      "extra": "Importul se face din fișierul pe care îl alegeți."
+    },
+    "safety": {
+      "title": "Datele GPS nu sunt suprascrise",
+      "text": "Importul unui fiČ™ier .ddd nu suprascrie sau eliminÄ datele GPS Ă®nregistrate de telefon. Datele GPS Č™i datele cardului Č™oferului sunt stocate ca surse de date separate, astfel Ă®ncĂ˘t datele cardului pot fi importate Ă®n siguranČ›Ä fÄrÄ a pierde datele GPS anterioare."
+    },
+    "identify": {
+      "title": "RecunoaČ™tere automatÄ a cardului Č™oferului",
+      "text": "Fiecare fiČ™ier .ddd conČ›ine informaČ›ii care identificÄ cardul Č™oferului, inclusiv numÄrul cardului Č™i numele Č™i prenumele Č™oferului.",
+      "items": [
+        "DacÄ cardul nu a fost importat Ă®nainte, TachoMobile creeazÄ o nouÄ intrare Ă®n Carduri de Č™ofer.",
+        "NumÄrul cardului Č™i numele Č™oferului sunt salvate.",
+        "Datele fiČ™ierului sunt alocate cardului respectiv."
+      ],
+      "extra": "În cadrul unui card de șofer puteți vizualiza și datele aferente și evenimentele tehnice."
+    },
+    "many": {
+      "title": "Date de pe mai multe carduri de Č™ofer",
+      "text": "O singurÄ instalare TachoMobile poate stoca date de pe mai multe carduri de Č™ofer.",
+      "items": [
+        "Importul altui card nu suprascrie datele GPS.",
+        "Nu suprascrie datele de pe un card anterior.",
+        "TachoMobile creeazÄ sau actualizeazÄ un set de date separat pentru cardul de Č™ofer corespunzÄtor."
+      ]
+    },
+    "repeat": {
+      "title": "Se importÄ din nou acelaČ™i card",
+      "text": "CĂ˘nd importaČ›i un alt fiČ™ier .ddd pentru acelaČ™i card, TachoMobile actualizeazÄ Č™i extinde datele existente. Istoria poate fi extinsÄ fie cu o perioadÄ mai nouÄ, fie cu o perioadÄ mai veche. PuteČ›i descÄrca date la fiecare 28 de zile Č™i puteČ›i importa fiČ™iere succesive; istoria devine treptat o cronologie continuÄ a cardului. Nu este necesar sÄ importaČ›i Ă®ntregul istoric de fiecare datÄ."
+    },
+    "source": {
+      "title": "Alegerea sursei de date",
+      "intro": "DupÄ ce datele cardului sunt importate, un meniu suplimentar sursÄ apare sub bara de titlu principalÄ atunci cĂ˘nd sunt disponibile atĂ˘t datele GPS, cĂ˘t Č™i datele cardului. Are exact trei opČ›iuni: â€žNumai GPSâ€ť, â€žGPS + cardâ€ť Č™i â€žNumai cardâ€ť."
+    },
+    "gps": {
+      "title": "Doar GPS",
+      "text": "AfiČ™eazÄ datele Ă®nregistrate de TachoMobile folosind GPS-ul telefonului. Datele cardului de Č™ofer rÄmĂ˘n stocate Ă®n aplicaČ›ie, dar nu sunt utilizate Ă®n aceastÄ vizualizare."
+    },
+    "combined": {
+      "title": "GPS + card",
+      "text": "Aceasta este vizualizarea combinatÄ. CĂ˘nd datele reale ale cardului sunt disponibile pentru o perioadÄ, aplicaČ›ia foloseČ™te datele cardului. CĂ˘nd nu este disponibilÄ, aplicaČ›ia poate folosi datele GPS Ă®nregistrate de telefon.",
+      "items": [
+        "date reale ale tahografului/cartei Č™oferului",
+        "date aproximative din GPS-ul telefonului"
+      ],
+      "note": "Datele GPS nu sunt convertite Ă®n date de card. AplicaČ›ia foloseČ™te pur Č™i simplu sursa corespunzÄtoare Ă®n funcČ›ie de disponibilitate."
+    },
+    "card": {
+      "title": "Numai card",
+      "text": "AfiČ™eazÄ numai datele care provin de pe un card de Č™ofer.",
+      "multiple": "DacÄ Ă®n aplicaČ›ie sunt stocate mai multe carduri, alegeČ›i cardul ale cÄrui date doriČ›i sÄ le afiČ™aČ›i.",
+      "warning": "Alegerea â€žNumai cardâ€ť nu Č™terge datele GPS. SchimbÄ doar sursa de date utilizatÄ pentru afiČ™are Č™i analizÄ."
+    },
+    "analysis": {
+      "title": "Analiza datelor DDD",
+      "text": "TachoMobile analizeazÄ datele de card importate folosind acelaČ™i mecanism de analizÄ a timpului de lucru Č™i a timpului de odihnÄ ca Č™i datele GPS. AnalizeazÄ, printre altele, perioadele necesare de activitate, muncÄ, conducere, pauze Č™i odihnÄ conform regulilor implementate. Datele DDD sunt date reale de pe cardul Č™oferului, nu o alternativÄ inferioarÄ pentru analizÄ."
+    },
+    "delete": {
+      "title": "Eliminarea datelor unui Č™ofer",
+      "steps": "Utilizare: Carduri Č™ofer â†’ alegeČ›i un card â†’ ČtergeČ›i intrÄrile Č™oferului.",
+      "text": "AceastÄ operaČ›iune Č™terge numai datele asociate cu cardul de Č™ofer selectat.",
+      "items": [
+        "Nu eliminÄ datele GPS ale telefonului.",
+        "Nu Č™terge datele de pe alte carduri de Č™ofer."
+      ],
+      "final": "DupÄ Č™tergerea datelor, puteČ›i, de asemenea, sÄ eliminaČ›i Ă®n sine intrarea cardului de Č™ofer. Eliminarea datelor din TachoMobile afecteazÄ numai datele stocate Ă®n aplicaČ›ie; nu Č™terge datele de pe cardul fizic de Č™ofer."
+    }
+  },
+  "related": {
+    "title": "InformaČ›ii conexe",
+    "text": "UtilizaČ›i aceste module Ghid existente pentru fluxul de lucru din jur:",
+    "backup": "Backup Č™i sincronizare",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Istoricul activitÄČ›ii Č™i jurnalul",
+    "historyUrl": "../log-screen/",
+    "main": "Ecranul principal",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† ĂŽnapoi la Ghid"
+  },
+  "footer": "© TachoMobile 2"
+}

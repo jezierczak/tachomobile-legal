@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Import danych karty kierowcy z pliku .ddd - TachoMobile 2",
+    "heading": "Import danych karty kierowcy z pliku .ddd",
+    "intro": "TachoMobile umożliwia import rzeczywistych danych z cyfrowej karty kierowcy zapisanej w pliku .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "Karta jest odczytywana przez inne urządzenie",
+      "text": "Na tym etapie TachoMobile nie czyta bezpośrednio karty kierowcy. Najpierw pobierz kartę za pomocą innego urządzenia, czytnika lub programu obsługującego odczyt karty kierowcy. TachoMobile otrzymuje gotowy plik .ddd i importuje zapisane w nim dane."
+    },
+    "import": {
+      "title": "Jak zaimportować plik .ddd",
+      "text": "Nie ma osobnego przycisku „Importuj DDD”. Użyj normalnej ścieżki importu pliku lokalnego:",
+      "steps": [
+        "Menu programu → Kopia i synchronizacja → Lokalna (plik) → Import",
+        "Wybierz plik.",
+        "Jeżeli wybrany plik ma format .ddd, TachoMobile automatycznie rozpoznaje go jako dane karty kierowcy i przetwarza jako dane DDD."
+      ],
+      "extra": "Import odbywa się z wybranego przez Ciebie pliku."
+    },
+    "safety": {
+      "title": "Dane GPS nie są nadpisywane",
+      "text": "Import pliku .ddd nie powoduje nadpisania ani usunięcia danych GPS zarejestrowanych przez telefon. Dane GPS i dane z karty kierowcy są przechowywane jako oddzielne źródła danych, dzięki czemu dane z karty można bezpiecznie importować bez utraty wcześniejszych danych GPS."
+    },
+    "identify": {
+      "title": "Automatyczne rozpoznawanie karty kierowcy",
+      "text": "Każdy plik .ddd zawiera informacje identyfikujące kartę kierowcy, w tym numer karty oraz imię i nazwisko kierowcy.",
+      "items": [
+        "Jeżeli karta nie była wcześniej importowana, TachoMobile tworzy nowy wpis w Kartach Kierowców.",
+        "Numer karty i nazwisko kierowcy zostają zapisane.",
+        "Dane pliku są przypisane do tej karty."
+      ],
+      "extra": "Na karcie kierowcy możesz także przeglądać powiązane z nią dane i zdarzenia techniczne."
+    },
+    "many": {
+      "title": "Dane z wielu kart kierowców",
+      "text": "Jedna instalacja TachoMobile może przechowywać dane z wielu kart kierowców.",
+      "items": [
+        "Zaimportowanie innej karty nie powoduje nadpisania danych GPS.",
+        "Nie nadpisuje danych z wcześniejszej karty.",
+        "TachoMobile tworzy lub aktualizuje oddzielny zestaw danych dla pasującej karty kierowcy."
+      ]
+    },
+    "repeat": {
+      "title": "Ponowny import tej samej karty",
+      "text": "Kiedy importujesz kolejny plik .ddd dla tej samej karty, TachoMobile aktualizuje i rozszerza istniejące dane. Historię można rozszerzyć o okres nowszy lub starszy. Możesz pobierać dane co 28 dni i importować kolejne pliki; historia stopniowo staje się ciągłą osią czasu karty. Nie musisz za każdym razem importować całej historii."
+    },
+    "source": {
+      "title": "Wybór źródła danych",
+      "intro": "Po zaimportowaniu danych karty, pod głównym paskiem tytułowym pojawia się dodatkowe menu wyboru źródła, jeśli dostępne są zarówno dane GPS, jak i dane karty. Dostępne są dokładnie trzy opcje: „Tylko GPS”, „GPS + karta” i „Tylko karta”."
+    },
+    "gps": {
+      "title": "Tylko GPS",
+      "text": "Pokazuje dane zarejestrowane przez TachoMobile przy użyciu GPS telefonu. Dane karty kierowcy pozostają zapisane w aplikacji, ale nie są wykorzystywane w tym widoku."
+    },
+    "combined": {
+      "title": "GPS + karta",
+      "text": "To jest łączny pogląd. Jeśli przez pewien czas dostępne są prawdziwe dane karty, aplikacja korzysta z danych karty. Gdy nie jest ona dostępna, aplikacja może wykorzystywać dane GPS zapisane przez telefon.",
+      "items": [
+        "prawdziwe dane z tachografu/karty kierowcy",
+        "przybliżone dane z GPS telefonu"
+      ],
+      "note": "Dane GPS nie są konwertowane na dane karty. Aplikacja po prostu korzysta z odpowiedniego źródła w zależności od dostępności."
+    },
+    "card": {
+      "title": "Tylko karta",
+      "text": "Pokazuje tylko dane pochodzące z karty kierowcy.",
+      "multiple": "Jeśli w aplikacji przechowywanych jest więcej niż jedna karta, wybierz kartę, której dane chcesz wyświetlić.",
+      "warning": "Wybranie opcji „Tylko karta” nie powoduje usunięcia danych GPS. Zmienia jedynie źródło danych używane do wyświetlania i analizy."
+    },
+    "analysis": {
+      "title": "Analiza danych DDD",
+      "text": "TachoMobile analizuje zaimportowane dane z kart, korzystając z tego samego mechanizmu analizy czasu pracy i odpoczynku, co dane GPS. Analizuje m.in. wymagane okresy aktywności, pracy, prowadzenia pojazdu, przerw i odpoczynku zgodnie z wprowadzonymi zasadami. Dane DDD to rzeczywiste dane z karty kierowcy, a nie gorsza alternatywa do analizy."
+    },
+    "delete": {
+      "title": "Usuwanie danych kierowcy",
+      "steps": "Karty kierowców → wybierz kartę → Usuń wpisy kierowcy",
+      "text": "Ta operacja usuwa jedynie dane powiązane z wybraną kartą kierowcy.",
+      "items": [
+        "Nie usuwa danych GPS telefonu.",
+        "Nie usuwa danych z innych kart kierowców."
+      ],
+      "final": "Po usunięciu danych możesz także usunąć sam wpis z karty kierowcy. Usunięcie danych w TachoMobile ma wpływ wyłącznie na dane zapisane w aplikacji; nie usuwa danych z fizycznej karty kierowcy."
+    }
+  },
+  "related": {
+    "title": "Powiązane informacje",
+    "text": "Zobacz także powiązane moduły Guide:",
+    "backup": "Kopia zapasowa i synchronizacja",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Historia aktywności i dziennik",
+    "historyUrl": "../log-screen/",
+    "main": "Główny ekran",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "Ă˘â€ Â PowrÄ‚Ĺ‚t do Przewodnika"
+  },
+  "footer": "Â© TachoMobile 2"
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Import dat z karty řidiče ze souboru .ddd - TachoMobile 2",
+    "heading": "Import dat z karty řidiče ze souboru .ddd",
+    "intro": "TachoMobile dokáže importovat skutečná data z digitální karty řidiče uložené v souboru .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "Kartu čte jiné zařízení",
+      "text": "V této fázi TachoMobile nečte kartu řidiče přímo. Nejprve si stáhněte kartu pomocí jiného zařízení, čtečky nebo programu, který podporuje čtení karet řidiče. TachoMobile obdrží připravený soubor .ddd a importuje data v něm uložená."
+    },
+    "import": {
+      "title": "Jak importovat soubor .ddd",
+      "text": "Neexistuje žádné samostatné tlačítko „Importovat DDD“. Použijte normální cestu pro import místního souboru:",
+      "steps": [
+        "Menu → Zálohování a synchronizace → Místní (soubor) → Import",
+        "Vyberte soubor.",
+        "Když má vybraný soubor formát .ddd, TachoMobile jej automaticky rozpozná jako data na kartě řidiče a zpracuje je jako data DDD."
+      ],
+      "extra": "Import se provede ze souboru, který si vyberete."
+    },
+    "safety": {
+      "title": "Data GPS se nepřepisují",
+      "text": "Import souboru .ddd nepřepíše ani neodstraní data GPS zaznamenaná telefonem. Data GPS a data z karty řidiče jsou uložena jako samostatné zdroje dat, takže data z karty lze bezpečně importovat bez ztráty dřívějších dat GPS."
+    },
+    "identify": {
+      "title": "Automatické rozpoznání karty řidiče",
+      "text": "Každý soubor .ddd obsahuje informace identifikující kartu řidiče, včetně čísla karty a jména a příjmení řidiče.",
+      "items": [
+        "Pokud karta nebyla dříve importována, TachoMobile vytvoří nový záznam v Kartách řidičů.",
+        "Číslo karty a jméno řidiče jsou uloženy.",
+        "Data souboru jsou přiřazena této kartě."
+      ],
+      "extra": "Na kartě řidiče můžete také zobrazit související data a technické události."
+    },
+    "many": {
+      "title": "Data z více karet řidičů",
+      "text": "Jedna instalace TachoMobile může ukládat data z mnoha karet řidičů.",
+      "items": [
+        "Import jiné karty nepřepíše data GPS.",
+        "Nepřepíše data z dřívější karty.",
+        "TachoMobile vytvoří nebo aktualizuje samostatnou datovou sadu pro odpovídající kartu řidiče."
+      ]
+    },
+    "repeat": {
+      "title": "Importing the same card again",
+      "text": "Když importujete další soubor .ddd pro stejnou kartu, TachoMobile aktualizuje a rozšíří stávající data. Historii lze rozšířit buď o novější nebo starší období. Můžete stahovat data každých 28 dní a importovat po sobě jdoucí soubory; historie se postupně stává souvislou časovou osou karty. Nemusíte pokaždé importovat celou historii."
+    },
+    "source": {
+      "title": "Výběr zdroje dat",
+      "intro": "Po importu dat karty se pod hlavním záhlavím zobrazí další nabídka zdroje, pokud jsou k dispozici data GPS i karty. Má přesně tři možnosti: „Pouze GPS“, „GPS + karta“ a „Pouze karta“."
+    },
+    "gps": {
+      "title": "Pouze GPS",
+      "text": "Zobrazuje data zaznamenaná TachoMobile pomocí GPS telefonu. Data karty řidiče zůstávají uložena v aplikaci, ale v tomto zobrazení se nepoužívají."
+    },
+    "combined": {
+      "title": "GPS + karta",
+      "text": "Toto je kombinovaný pohled. Když jsou po určitou dobu k dispozici skutečná data karty, aplikace použije data karty. Pokud není k dispozici, může aplikace používat data GPS zaznamenaná telefonem.",
+      "items": [
+        "skutečná data tachografu/karty řidiče",
+        "přibližné údaje z GPS telefonu"
+      ],
+      "note": "Data GPS se nepřevádějí na data karty. Aplikace jednoduše používá vhodný zdroj podle dostupnosti."
+    },
+    "card": {
+      "title": "Pouze karta",
+      "text": "Zobrazuje pouze data pocházející z karty řidiče.",
+      "multiple": "Pokud je v aplikaci uloženo více karet, vyberte kartu, jejíž data chcete zobrazit.",
+      "warning": "Výběrem „Pouze karta“ se data GPS neodstraní. Změní pouze zdroj dat používaný pro zobrazení a analýzu."
+    },
+    "analysis": {
+      "title": "Analýza dat DDD",
+      "text": "TachoMobile analyzuje importovaná data karet pomocí stejného mechanismu analýzy pracovní doby a doby odpočinku jako data GPS. Analyzuje mimo jiné požadované doby činnosti, práce, řízení, přestávek a odpočinku podle zavedených pravidel. Data DDD jsou skutečná data z karty řidiče, nikoli podřadná alternativa pro analýzu."
+    },
+    "delete": {
+      "title": "Odstranění dat řidiče",
+      "steps": "Použití: Karty řidiče → vyberte kartu → Smazat záznamy řidiče.",
+      "text": "Tato operace odstraní pouze data spojená s vybranou kartou řidiče.",
+      "items": [
+        "Neodstraní data GPS telefonu.",
+        "NeodstraĹuje data z jinĂ˝ch karet Ĺ™idiÄŤĹŻ."
+      ],
+      "final": "Po odstranění dat můžete odstranit i samotný záznam na kartě řidiče. Odstranění dat v TachoMobile ovlivní pouze data uložená v aplikaci; neodstraní data z fyzické karty řidiče."
+    }
+  },
+  "related": {
+    "title": "Související informace",
+    "text": "Použijte tyto existující moduly Průvodce pro okolní pracovní postup:",
+    "backup": "Zálohování a synchronizace",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Historie činnosti a deník",
+    "historyUrl": "../log-screen/",
+    "main": "Hlavní obrazovka",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† ZpÄ›t na PrĹŻvodce"
+  },
+  "footer": "© TachoMobile 2"
+}

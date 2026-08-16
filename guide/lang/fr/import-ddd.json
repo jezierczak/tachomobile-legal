@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Importer des données de carte de conducteur à partir d'un fichier .ddd - TachoMobile 2",
+    "heading": "Importation des données de la carte de conducteur à partir d'un fichier .ddd",
+    "intro": "TachoMobile peut importer des données réelles à partir d'une carte de conducteur numérique enregistrée dans un fichier .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "La carte est lue par un autre appareil",
+      "text": "À ce stade, TachoMobile ne lit pas directement la carte du conducteur. Téléchargez d'abord la carte à l'aide d'un autre appareil, lecteur ou programme prenant en charge la lecture de la carte de conducteur. TachoMobile reçoit le fichier .ddd prêt et importe les données qui y sont stockées."
+    },
+    "import": {
+      "title": "Comment importer un fichier .ddd",
+      "text": "Il n’y a pas de bouton « Importer DDD » séparé. Utilisez le chemin d'importation normal du fichier local :",
+      "steps": [
+        "Menu → Sauvegarde et synchronisation → Local (fichier) → Importer",
+        "Choisissez le fichier.",
+        "Lorsque le fichier sélectionné est au format .ddd, TachoMobile le reconnaît automatiquement comme données de carte de conducteur et le traite comme données DDD."
+      ],
+      "extra": "L'import s'effectue à partir du fichier que vous choisissez."
+    },
+    "safety": {
+      "title": "Les données GPS ne sont pas écrasées",
+      "text": "L'importation d'un fichier .ddd n'écrase ni ne supprime les données GPS enregistrées par le téléphone. Les données GPS et les données de la carte de conducteur sont stockées dans des sources de données distinctes, de sorte que les données de la carte peuvent être importées en toute sécurité sans perdre les données GPS antérieures."
+    },
+    "identify": {
+      "title": "Reconnaissance automatique de la carte de conducteur",
+      "text": "Chaque fichier .ddd contient des informations identifiant la carte de conducteur, notamment le numéro de carte ainsi que le prénom et le nom du conducteur.",
+      "items": [
+        "Si la carte n'a pas été importée auparavant, TachoMobile crée une nouvelle entrée dans les cartes de conducteur.",
+        "Le numéro de carte et le nom du conducteur sont enregistrés.",
+        "Les données du fichier sont attribuées à cette carte."
+      ],
+      "extra": "Au sein d'une carte de conducteur, vous pouvez également visualiser ses données associées et ses événements techniques."
+    },
+    "many": {
+      "title": "Data from multiple driver cards",
+      "text": "Une installation TachoMobile peut stocker les données de plusieurs cartes de conducteur.",
+      "items": [
+        "L'importation d'une autre carte n'écrase pas les données GPS.",
+        "It does not overwrite data from an earlier card.",
+        "TachoMobile crée ou met à jour un ensemble de données distinct pour la carte de conducteur correspondante."
+      ]
+    },
+    "repeat": {
+      "title": "Importer à nouveau la même carte",
+      "text": "Lorsque vous importez un autre fichier .ddd pour la même carte, TachoMobile met à jour et étend les données existantes. L'histoire peut être étendue avec une période plus récente ou plus ancienne. Vous pouvez télécharger des données tous les 28 jours et importer des fichiers successifs ; l'histoire devient progressivement une chronologie continue des cartes. Vous n'avez pas besoin d'importer l'intégralité de l'historique à chaque fois."
+    },
+    "source": {
+      "title": "Choisir la source de données",
+      "intro": "Une fois les données de la carte importées, un menu source supplémentaire apparaît sous la barre de titre principale lorsque les données du GPS et de la carte sont disponibles. Il propose exactement trois options : « GPS uniquement », « GPS + carte » et « Carte uniquement »."
+    },
+    "gps": {
+      "title": "GPS uniquement",
+      "text": "Affiche les données enregistrées par TachoMobile à l'aide du GPS du téléphone. Les données de la carte de conducteur restent stockées dans l'application mais ne sont pas utilisées dans cette vue."
+    },
+    "combined": {
+      "title": "GPS + carte",
+      "text": "C'est la vue combinée. Lorsque les données réelles de la carte sont disponibles pendant une période donnée, l'application utilise les données de la carte. Lorsqu'elle n'est pas disponible, l'application peut utiliser les données GPS enregistrées par le téléphone.",
+      "items": [
+        "données réelles du tachygraphe/de la carte de conducteur",
+        "données approximatives du GPS du téléphone"
+      ],
+      "note": "Les données GPS ne sont pas converties en données de carte. L'application utilise simplement la source appropriée en fonction de la disponibilité."
+    },
+    "card": {
+      "title": "Carte uniquement",
+      "text": "Affiche uniquement les données provenant d'une carte de conducteur.",
+      "multiple": "Si plusieurs cartes sont stockées dans l'application, choisissez celle dont vous souhaitez afficher les données.",
+      "warning": "Choisir « Carte uniquement » ne supprime pas les données GPS. Cela modifie uniquement la source de données utilisée pour l’affichage et l’analyse."
+    },
+    "analysis": {
+      "title": "Analyse des données DDD",
+      "text": "TachoMobile analyse les données de carte importées en utilisant le même mécanisme d'analyse du temps de travail et du temps de repos que les données GPS. Il analyse, entre autres, les périodes d'activité, de travail, de conduite, de pauses et de repos requises selon les règles mises en œuvre. Les données DDD sont des données réelles provenant de la carte du conducteur et ne constituent pas une alternative d'analyse inférieure."
+    },
+    "delete": {
+      "title": "Supprimer les données d'un conducteur",
+      "steps": "Utilisation : Cartes de conducteur → choisir une carte → Supprimer les entrées du conducteur.",
+      "text": "Cette opération supprime uniquement les données associées à la carte de conducteur sélectionnée.",
+      "items": [
+        "Cela ne supprime pas les données GPS du téléphone.",
+        "Il ne supprime pas les données des autres cartes de conducteur."
+      ],
+      "final": "Après avoir supprimé les données, vous pouvez également supprimer l'entrée de la carte de conducteur elle-même. La suppression de données dans TachoMobile affecte uniquement les données stockées dans l'application ; il ne supprime pas les données de la carte de conducteur physique."
+    }
+  },
+  "related": {
+    "title": "Informations associées",
+    "text": "Utilisez ces modules Guide existants pour le flux de travail environnant :",
+    "backup": "Sauvegarde et synchronisation",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Historique d'activité et journal",
+    "historyUrl": "../log-screen/",
+    "main": "Écran principal",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Retour au Guide"
+  },
+  "footer": "© TachoMobile 2"
+}

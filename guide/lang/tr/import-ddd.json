@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Sürücü kartı verilerini bir .ddd dosyasından içe aktarma - TachoMobile 2",
+    "heading": "Sürücü kartı verilerini bir .ddd dosyasından içe aktarma",
+    "intro": "TachoMobile, .ddd dosyasına kaydedilen dijital sürücü kartından gerçek verileri içe aktarabilir."
+  },
+  "sections": {
+    "limit": {
+      "title": "Kart başka bir cihaz tarafından okundu",
+      "text": "Bu aşamada TachoMobile sürücü kartını doğrudan okumaz. Öncelikle kartı, sürücü kartı okumayı destekleyen başka bir cihaz, okuyucu veya program kullanarak indirin. TachoMobile hazır .ddd dosyasını alır ve içinde saklanan verileri içe aktarır."
+    },
+    "import": {
+      "title": "Bir .ddd dosyası nasıl içe aktarılır",
+      "text": "Ayrı bir “DDD'yi İçe Aktar” düğmesi yoktur. Normal yerel dosya içe aktarma yolunu kullanın:",
+      "steps": [
+        "Menü → Yedekleme ve senkronizasyon → Yerel (dosya) → İçe aktar",
+        "Dosyayı seçin.",
+        "Seçilen dosya .ddd biçiminde olduğunda, TachoMobile bunu otomatik olarak sürücü kartı verisi olarak tanır ve DDD verisi olarak işler."
+      ],
+      "extra": "İçe aktarma seçtiğiniz dosyadan gerçekleştirilir."
+    },
+    "safety": {
+      "title": "GPS verilerinin üzerine yazılmaz",
+      "text": "Bir .ddd dosyasının içe aktarılması, telefon tarafından kaydedilen GPS verilerinin üzerine yazılmaz veya silinmez. GPS verileri ve sürücü kartı verileri ayrı veri kaynakları olarak depolanır, böylece kart verileri daha önceki GPS verilerini kaybetmeden güvenli bir şekilde içe aktarılabilir."
+    },
+    "identify": {
+      "title": "Otomatik sürücü kartı tanıma",
+      "text": "Her .ddd dosyası, kart numarası ve sürücünün adı ve soyadı dahil, sürücü kartını tanımlayan bilgileri içerir.",
+      "items": [
+        "Kart daha önce içe aktarılmamışsa TachoMobile, Sürücü kartlarında yeni bir giriş oluşturur.",
+        "Kart numarası ve sürücünün adı kaydedilir.",
+        "Dosya verileri bu karta atanır."
+      ],
+      "extra": "Bir sürücü kartında ilgili verileri ve teknik olayları da görüntüleyebilirsiniz."
+    },
+    "many": {
+      "title": "Birden fazla sürücü kartından gelen veriler",
+      "text": "Bir TachoMobile kurulumu birçok sürücü kartındaki verileri depolayabilir.",
+      "items": [
+        "Başka bir kartın içe aktarılması GPS verilerinin üzerine yazılmaz.",
+        "Daha önceki bir karttaki verilerin üzerine yazmaz.",
+        "TachoMobile, eşleşen sürücü kartı için ayrı bir veri seti oluşturur veya günceller."
+      ]
+    },
+    "repeat": {
+      "title": "Aynı kartı tekrar içe aktarma",
+      "text": "Aynı kart için başka bir .ddd dosyasını içe aktardığınızda, TachoMobile mevcut verileri günceller ve genişletir. Tarih, daha yeni veya daha eski bir dönemle genişletilebilir. Verileri 28 günde bir indirebilir ve art arda dosyaları içe aktarabilirsiniz; tarih yavaş yavaş sürekli bir kart zaman çizelgesine dönüşür. Her seferinde geçmişin tamamını içe aktarmanıza gerek yoktur."
+    },
+    "source": {
+      "title": "Veri kaynağını seçme",
+      "intro": "Kart verileri içe aktarıldıktan sonra, hem GPS hem de kart verileri mevcut olduğunda ana başlık çubuğunun altında ek bir kaynak menüsü görünür. Tam olarak üç seçeneğe sahiptir: “Yalnızca GPS”, “GPS + kart” ve “Yalnızca kart”."
+    },
+    "gps": {
+      "title": "Yalnızca GPS",
+      "text": "TachoMobile tarafından telefonun GPS'i kullanılarak kaydedilen verileri gösterir. Sürücü kartı verileri uygulamada kayıtlı kalır ancak bu görünümde kullanılmaz."
+    },
+    "combined": {
+      "title": "GPS + kart",
+      "text": "Bu birleştirilmiş görünümdür. Belirli bir süre boyunca gerçek kart verileri mevcut olduğunda uygulama, kart verilerini kullanır. Mevcut olmadığında uygulama, telefon tarafından kaydedilen GPS verilerini kullanabilir.",
+      "items": [
+        "gerçek takograf/sürücü kartı verileri",
+        "telefonun GPS'inden yaklaşık veriler"
+      ],
+      "note": "GPS verileri kart verilerine dönüştürülmez. Uygulama, uygunluk durumuna göre uygun kaynağı kullanır."
+    },
+    "card": {
+      "title": "Yalnızca kart",
+      "text": "Yalnızca sürücü kartından kaynaklanan verileri gösterir.",
+      "multiple": "Uygulamada birden fazla kart kayıtlıysa verilerini görüntülemek istediğiniz kartı seçin.",
+      "warning": "“Yalnızca kart”ın seçilmesi GPS verilerini silmez. Yalnızca görüntüleme ve analiz için kullanılan veri kaynağını değiştirir."
+    },
+    "analysis": {
+      "title": "DDD verilerinin analizi",
+      "text": "TachoMobile, içe aktarılan kart verilerini, GPS verileriyle aynı çalışma süresi ve dinlenme süresi analiz mekanizmasını kullanarak analiz eder. Diğer şeylerin yanı sıra, uygulanan kurallara göre gerekli aktivite, çalışma, sürüş, mola ve dinlenme sürelerini analiz eder. DDD verileri, sürücü kartından alınan gerçek verilerdir, analiz için daha kötü bir alternatif değildir."
+    },
+    "delete": {
+      "title": "Sürücü verilerini kaldırma",
+      "steps": "Kullanın: Sürücü kartları → bir kart seçin → Sürücü girişlerini silin.",
+      "text": "Bu işlem yalnızca seçilen sürücü kartıyla ilişkili verileri kaldırır.",
+      "items": [
+        "Telefonun GPS verilerini kaldırmaz.",
+        "Diğer sürücü kartlarındaki verileri kaldırmaz."
+      ],
+      "final": "Verileri kaldırdıktan sonra sürücü kartı girişini de kaldırabilirsiniz. TachoMobile'daki verilerin kaldırılması yalnızca uygulamada depolanan verileri etkiler; fiziksel sürücü kartındaki verileri kaldırmaz."
+    }
+  },
+  "related": {
+    "title": "İlgili bilgiler",
+    "text": "Çevredeki iş akışı için bu mevcut Kılavuz modüllerini kullanın:",
+    "backup": "Yedekleme ve senkronizasyon",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Etkinlik geçmişi ve günlüğü",
+    "historyUrl": "../log-screen/",
+    "main": "Ana ekran",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Rehber'e geri dĂ¶n"
+  },
+  "footer": "© TachoMobile 2"
+}

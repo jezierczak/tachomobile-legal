@@ -46,6 +46,7 @@
       "description": "Learn about the elements, information and actions available on the TachoMobile 2 main screen.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Import driver-card data (.ddd)", "description": "Import real driver-card data from a .ddd file.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Back to Home Page",

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Importando dados do cartão de motorista de um arquivo .ddd - TachoMobile 2",
+    "heading": "Importando dados do cartão de motorista de um arquivo .ddd",
+    "intro": "O TachoMobile pode importar dados reais de um cartão de motorista digital salvo em um arquivo .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "O cartão é lido por outro dispositivo",
+      "text": "Nesta fase, o TachoMobile não lê diretamente o cartão do condutor. Primeiro baixe o cartão usando outro dispositivo, leitor ou programa que suporte a leitura do cartão de motorista. O TachoMobile recebe o arquivo .ddd pronto e importa os dados nele armazenados."
+    },
+    "import": {
+      "title": "Como importar um arquivo .ddd",
+      "text": "Não existe um botão separado “Importar DDD”. Use o caminho normal de importação do arquivo local:",
+      "steps": [
+        "Menu do programa → Cópia e sincronização → Local (ficheiro) → Importar",
+        "Escolha o arquivo.",
+        "Quando o arquivo selecionado possui o formato .ddd, o TachoMobile o reconhece automaticamente como dados do cartão de motorista e os processa como dados DDD."
+      ],
+      "extra": "A importação é realizada a partir do arquivo que você escolher."
+    },
+    "safety": {
+      "title": "Os dados do GPS não são substituídos",
+      "text": "A importação de um arquivo .ddd não substitui nem remove os dados GPS registrados pelo telefone. Os dados do GPS e os dados do cartão do condutor são armazenados como fontes de dados separadas, para que os dados do cartão possam ser importados com segurança sem perder os dados GPS anteriores."
+    },
+    "identify": {
+      "title": "Reconhecimento automático do cartão de condutor",
+      "text": "Cada arquivo .ddd contém informações que identificam o cartão do motorista, incluindo o número do cartão e o nome e sobrenome do motorista.",
+      "items": [
+        "Caso o cartão ainda não tenha sido importado, o TachoMobile cria uma nova entrada em Cartões de Condutor.",
+        "O número do cartão e o nome do motorista são salvos.",
+        "Os dados do arquivo são atribuídos a esse cartão."
+      ],
+      "extra": "Dentro de um cartão de condutor você também pode visualizar seus dados relacionados e eventos técnicos."
+    },
+    "many": {
+      "title": "Dados de vários cartões de condutor",
+      "text": "Uma instalação do TachoMobile pode armazenar dados de vários cartões de motorista.",
+      "items": [
+        "A importação de outro cartão não substitui os dados GPS.",
+        "Não substitui dados de um cartão anterior.",
+        "TachoMobile cria ou atualiza um conjunto de dados separado para o cartão de motorista correspondente."
+      ]
+    },
+    "repeat": {
+      "title": "Importando o mesmo cartão novamente",
+      "text": "Ao importar outro arquivo .ddd para o mesmo cartão, o TachoMobile atualiza e estende os dados existentes. A história pode ser estendida com um período mais recente ou mais antigo. Você pode baixar dados a cada 28 dias e importar arquivos sucessivos; a história gradualmente se torna uma linha do tempo contínua do cartão. Você não precisa importar todo o histórico todas as vezes."
+    },
+    "source": {
+      "title": "Escolhendo a fonte de dados",
+      "intro": "Depois de importar os dados do cartão, aparece um menu de seleção da fonte sob a barra de título quando estão disponíveis os dados GPS e do cartão. Existem exatamente três opções: «Apenas GPS», «GPS + cartão» e «Apenas cartão»."
+    },
+    "gps": {
+      "title": "Apenas GPS",
+      "text": "Mostra dados registrados pelo TachoMobile usando o GPS do telefone. Os dados do cartão de condutor permanecem armazenados na aplicação, mas não são utilizados nesta vista."
+    },
+    "combined": {
+      "title": "GPS + cartão",
+      "text": "Esta é a visão combinada. Quando dados reais do cartão estão disponíveis por um período, o aplicativo utiliza os dados do cartão. Quando não estiver disponível, o aplicativo poderá utilizar dados de GPS registrados pelo telefone.",
+      "items": [
+        "dados reais do tacógrafo/cartão de condutor",
+        "dados aproximados do GPS do telefone"
+      ],
+      "note": "Os dados do GPS não são convertidos em dados do cartão. O aplicativo simplesmente usa a fonte apropriada de acordo com a disponibilidade."
+    },
+    "card": {
+      "title": "Somente cartão",
+      "text": "Mostra apenas dados provenientes de um cartão de condutor.",
+      "multiple": "Se mais de um cartão estiver armazenado no aplicativo, escolha o cartão cujos dados deseja exibir.",
+      "warning": "Escolher “Somente cartão” não exclui os dados do GPS. Ele altera apenas a fonte de dados usada para exibição e análise."
+    },
+    "analysis": {
+      "title": "Análise de dados DDD",
+      "text": "O TachoMobile analisa dados de cartões importados usando o mesmo mecanismo de análise de tempo de trabalho e tempo de descanso que os dados de GPS. Analisa, entre outras coisas, os períodos exigidos de atividade, trabalho, condução, pausas e descanso de acordo com as regras implementadas. Os dados DDD são dados reais do cartão do condutor e não são uma alternativa inferior para análise."
+    },
+    "delete": {
+      "title": "Removendo os dados de um motorista",
+      "steps": "Use: Cartões de motorista → escolha um cartão → Exclua entradas de motorista.",
+      "text": "Esta operação remove apenas os dados associados ao cartão de condutor selecionado.",
+      "items": [
+        "Não remove os dados GPS do telefone.",
+        "Não remove dados de outros cartões de condutor."
+      ],
+      "final": "Depois de remover os dados, você também pode remover a própria entrada do cartão de motorista. A remoção de dados no TachoMobile afeta apenas os dados armazenados no aplicativo; ele não remove dados do cartão de driver físico."
+    }
+  },
+  "related": {
+    "title": "Informações relacionadas",
+    "text": "Use estes módulos existentes do Guide para o fluxo de trabalho circundante:",
+    "backup": "Backup e sincronização",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Histórico de atividades e diário",
+    "historyUrl": "../log-screen/",
+    "main": "Tela principal",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Voltar ao Guia"
+  },
+  "footer": "© TachoMobile 2"
+}

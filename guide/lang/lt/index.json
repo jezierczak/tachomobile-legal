@@ -58,6 +58,7 @@
       "description": "Sužinokite apie „TachoMobile 2“ pagrindiniame ekrane pateikiamus elementus, informaciją ir veiksmus.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Kortelės duomenų importavimas (.ddd)", "description": "Importuokite tikrus vairuotojo kortelės duomenis.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Grįžti į pagrindinį puslapį",

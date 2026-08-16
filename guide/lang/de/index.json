@@ -58,6 +58,7 @@
       "description": "Die Elemente, Informationen und Aktionen des TachoMobile-2-Hauptbildschirms kennenlernen.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Fahrerkartendaten (.ddd) importieren", "description": "Echte Fahrerkartendaten aus einer .ddd-Datei importieren.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Zurück zur Startseite",

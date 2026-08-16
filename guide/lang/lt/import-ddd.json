@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Vairuotojo kortelės duomenų importavimas iš .ddd failo – „TachoMobile 2“.",
+    "heading": "Vairuotojo kortelės duomenų importavimas iš .ddd failo",
+    "intro": "„TachoMobile“ gali importuoti tikrus duomenis iš skaitmeninės vairuotojo kortelės, išsaugotos .ddd faile."
+  },
+  "sections": {
+    "limit": {
+      "title": "Kortelę nuskaito kitas įrenginys",
+      "text": "Šiame etape TachoMobile tiesiogiai neskaito vairuotojo kortelės. Pirmiausia atsisiųskite kortelę naudodami kitą įrenginį, skaitytuvą ar programą, kuri palaiko vairuotojo kortelės skaitymą. TachoMobile gauna paruoštą .ddd failą ir importuoja jame saugomus duomenis."
+    },
+    "import": {
+      "title": "Kaip importuoti .ddd failą",
+      "text": "Nėra atskiro mygtuko „Importuoti DDD“. Naudokite įprastą vietinio failo importavimo kelią:",
+      "steps": [
+        "Meniu → Atsarginė kopija ir sinchronizavimas → Vietinis (failas) → Importuoti",
+        "Pasirinkite failą.",
+        "Kai pasirinktas failas yra .ddd formato, „TachoMobile“ automatiškai atpažįsta jį kaip vairuotojo kortelės duomenis ir apdoroja kaip DDD duomenis."
+      ],
+      "extra": "Importavimas atliekamas iš pasirinkto failo."
+    },
+    "safety": {
+      "title": "GPS duomenys neperrašomi",
+      "text": "Importuojant .ddd failą, telefono įrašyti GPS duomenys neperrašomi ir nepašalinami. GPS duomenys ir vairuotojo kortelės duomenys saugomi kaip atskiri duomenų šaltiniai, todėl kortelės duomenis galima saugiai importuoti neprarandant ankstesnių GPS duomenų."
+    },
+    "identify": {
+      "title": "Automatinis vairuotojo kortelės atpažinimas",
+      "text": "Kiekviename .ddd faile yra informacija, identifikuojanti vairuotojo kortelę, įskaitant kortelės numerį ir vairuotojo vardą bei pavardę.",
+      "items": [
+        "Jei kortelė anksčiau nebuvo importuota, TachoMobile sukuria naują įrašą Vairuotojo kortelėse.",
+        "Išsaugomas kortelės numeris ir vairuotojo vardas.",
+        "Failo duomenys priskiriami tai kortelei."
+      ],
+      "extra": "Vairuotojo kortelėje taip pat galite peržiūrėti susijusius duomenis ir techninius įvykius."
+    },
+    "many": {
+      "title": "Duomenys iš kelių vairuotojo kortelių",
+      "text": "Vienas „TachoMobile“ diegimas gali saugoti duomenis iš daugelio vairuotojo kortelių.",
+      "items": [
+        "Importuojant kitą kortelę GPS duomenys neperrašomi.",
+        "Ji neperrašo duomenų iš ankstesnės kortelės.",
+        "TachoMobile sukuria arba atnaujina atskirą atitinkamos vairuotojo kortelės duomenų rinkinį."
+      ]
+    },
+    "repeat": {
+      "title": "Vėl importuojama ta pati kortelė",
+      "text": "Kai importuojate kitą tos pačios kortelės .ddd failą, TachoMobile atnaujina ir išplečia esamus duomenis. Istoriją galima pratęsti naujesniu arba senesniu laikotarpiu. Galite atsisiųsti duomenis kas 28 dienas ir importuoti nuoseklius failus; istorija palaipsniui tampa nuolatine kortos laiko juosta. Nereikia kiekvieną kartą importuoti visos istorijos."
+    },
+    "source": {
+      "title": "Duomenų šaltinio pasirinkimas",
+      "intro": "Importavus kortelės duomenis, po pagrindine pavadinimo juosta pasirodo papildomas šaltinio meniu, kai pasiekiami ir GPS, ir kortelės duomenys. Jis turi tiksliai tris parinktis: „tik GPS“, „GPS + kortelė“ ir „Tik kortelė“."
+    },
+    "gps": {
+      "title": "Tik GPS",
+      "text": "Rodo duomenis, įrašytus TachoMobile naudojant telefono GPS. Vairuotojo kortelės duomenys lieka saugomi programoje, bet nėra naudojami šiame rodinyje."
+    },
+    "combined": {
+      "title": "GPS + kortelė",
+      "text": "Tai yra kombinuotas vaizdas. Kai tam tikrą laikotarpį pasiekiami tikri kortelės duomenys, programa naudoja kortelės duomenis. Kai ji nepasiekiama, programa gali naudoti telefono įrašytus GPS duomenis.",
+      "items": [
+        "tikri tachografo/vairuotojo kortelės duomenys",
+        "apytikslius duomenis iš telefono GPS"
+      ],
+      "note": "GPS duomenys nėra konvertuojami į kortelės duomenis. Programa tiesiog naudoja atitinkamą šaltinį pagal prieinamumą."
+    },
+    "card": {
+      "title": "Tik kortelė",
+      "text": "Rodomi tik duomenys, gauti iš vairuotojo kortelės.",
+      "multiple": "Jei programėlėje saugoma daugiau nei viena kortelė, pasirinkite kortelę, kurios duomenis norite rodyti.",
+      "warning": "Pasirinkus „Tik kortelė“, GPS duomenys neištrinami. Tai tik pakeičia duomenų šaltinį, naudojamą rodymui ir analizei."
+    },
+    "analysis": {
+      "title": "DDD duomenų analizė",
+      "text": "TachoMobile analizuoja importuotus kortelės duomenis naudodama tą patį darbo ir poilsio laiko analizės mechanizmą kaip ir GPS duomenis. Joje, be kita ko, analizuojami būtini aktyvumo, darbo, vairavimo, pertraukų ir poilsio laikotarpiai pagal įdiegtas taisykles. DDD duomenys yra tikri duomenys iš vairuotojo kortelės, o ne prastesnė analizės alternatyva."
+    },
+    "delete": {
+      "title": "Vairuotojo duomenų pašalinimas",
+      "steps": "Naudokite: Vairuotojo kortelės → pasirinkite kortelę → Ištrinkite vairuotojo įrašus.",
+      "text": "Ši operacija pašalina tik su pasirinkta vairuotojo kortele susietus duomenis.",
+      "items": [
+        "Tai nepašalina telefono GPS duomenų.",
+        "Ji nepašalina duomenų iš kitų vairuotojo kortelių."
+      ],
+      "final": "Pašalinę duomenis galite pašalinti ir patį vairuotojo kortelės įrašą. Duomenų pašalinimas iš „TachoMobile“ turi įtakos tik programoje saugomiems duomenims; jis nepašalina duomenų iš fizinės vairuotojo kortelės."
+    }
+  },
+  "related": {
+    "title": "Susijusi informacija",
+    "text": "Aplinkinei darbo eigai naudokite šiuos esamus vadovo modulius:",
+    "backup": "Atsarginė kopija ir sinchronizavimas",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Veiklos istorija ir žurnalas",
+    "historyUrl": "../log-screen/",
+    "main": "Pagrindinis ekranas",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Atgal ÄŻ vadovÄ…"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -58,6 +58,7 @@
       "description": "Ismerje meg a TachoMobile 2 főképernyőjén elérhető elemeket, információkat és műveleteket.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Vezetőkártya-adatok importálása (.ddd)", "description": "Valódi vezetőkártya-adatok importálása.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Vissza a főoldalra",

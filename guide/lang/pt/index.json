@@ -58,6 +58,7 @@
       "description": "Conheça os elementos, informações e ações disponíveis no ecrã principal do TachoMobile 2.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Importar dados do cartão (.ddd)", "description": "Importe dados reais do cartão de motorista.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Voltar à página inicial",

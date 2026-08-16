@@ -58,6 +58,7 @@
       "description": "Aflați despre elementele, informațiile și acțiunile disponibile pe ecranul principal TachoMobile 2.",
       "url": "main-screen/"
     }
+    ,"importDdd": { "title": "Import date card șofer (.ddd)", "description": "Importați date reale de pe cardul șoferului.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Înapoi la pagina principală",

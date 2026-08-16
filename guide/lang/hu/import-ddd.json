@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Illesztőprogram-kártya adatok importálása .ddd fájlból – TachoMobile 2",
+    "heading": "Illesztőprogram-kártya adatok importálása .ddd fájlból",
+    "intro": "A TachoMobile valós adatokat tud importálni egy .ddd fájlba mentett digitális illesztőprogram-kártyáról."
+  },
+  "sections": {
+    "limit": {
+      "title": "A kártyát egy másik eszköz olvassa be",
+      "text": "Ebben a szakaszban a TachoMobile nem olvassa be közvetlenül a járművezetői kártyát. Először töltse le a kártyát egy másik eszközzel, olvasóval vagy programmal, amely támogatja a járművezetői kártya olvasását. A TachoMobile megkapja a kész .ddd fájlt, és importálja a benne tárolt adatokat."
+    },
+    "import": {
+      "title": ".ddd fájl importálása",
+      "text": "Nincs külön „DDD importálása” gomb. Használja a normál helyi fájl importálási útvonalat:",
+      "steps": [
+        "Menü → Biztonsági mentés és szinkronizálás → Helyi (fájl) → Import",
+        "Válassza ki a fájlt.",
+        "Ha a kiválasztott fájl .ddd formátumú, a TachoMobile automatikusan vezetőkártya adatként ismeri fel, és DDD adatként dolgozza fel."
+      ],
+      "extra": "Az importálás a kiválasztott fájlból történik."
+    },
+    "safety": {
+      "title": "A GPS adatok nem íródnak felül",
+      "text": "A .ddd fájl importálása nem írja felül és nem távolítja el a telefon által rögzített GPS-adatokat. A GPS-adatok és a járművezetői kártya adatok külön adatforrásként vannak tárolva, így a kártyaadatok biztonságosan importálhatók anélkül, hogy elveszítenék korábbi GPS-adatokat."
+    },
+    "identify": {
+      "title": "Automatikus járművezetői kártya felismerés",
+      "text": "Minden .ddd fájl tartalmazza a járművezetői kártya azonosítására szolgáló információkat, beleértve a kártya számát, valamint a vezető kereszt- és vezetéknevét.",
+      "items": [
+        "Ha a kártya még nem lett importálva, a TachoMobile új bejegyzést hoz létre a Vezetőkártyák között.",
+        "A kártya száma és a sofőr neve mentésre kerül.",
+        "A fájladatok ehhez a kártyához vannak rendelve."
+      ],
+      "extra": "A járművezetői kártyán belül megtekintheti a kapcsolódó adatokat és műszaki eseményeket is."
+    },
+    "many": {
+      "title": "Adatok több járművezetői kártyáról",
+      "text": "Egy TachoMobile telepítés több illesztőprogram-kártyáról is képes adatokat tárolni.",
+      "items": [
+        "Egy másik kártya importálása nem írja felül a GPS-adatokat.",
+        "Nem írja felül a korábbi kártyáról származó adatokat.",
+        "A TachoMobile külön adatkészletet hoz létre vagy frissít a megfelelő illesztőprogram-kártyához."
+      ]
+    },
+    "repeat": {
+      "title": "Ugyanazon kártya ismételt importálása",
+      "text": "Amikor egy másik .ddd fájlt importál ugyanarra a kártyára, a TachoMobile frissíti és kiterjeszti a meglévő adatokat. A történelem bővíthető akár újabb, akár régebbi korszakkal. 28 naponként letöltheti az adatokat, és importálhatja az egymást követő fájlokat; a történelem fokozatosan egy folyamatos kártya idővonalává válik. Nem kell minden alkalommal importálnia a teljes előzményt."
+    },
+    "source": {
+      "title": "Az adatforrás kiválasztása",
+      "intro": "A kártyaadatok importálása után egy további forrásmenü jelenik meg a fő címsor alatt, ha GPS- és kártyaadatok is elérhetők. Pontosan három opciója van: „csak GPS”, „GPS + kártya” és „Csak kártya”."
+    },
+    "gps": {
+      "title": "Csak GPS",
+      "text": "A TachoMobile által a telefon GPS-szel rögzített adatokat jeleníti meg. A járművezetői kártya adatai az alkalmazásban maradnak, de ebben a nézetben nem kerülnek felhasználásra."
+    },
+    "combined": {
+      "title": "GPS + kártya",
+      "text": "Ez a kombinált nézet. Ha egy adott időszakra valós kártyaadatok állnak rendelkezésre, az alkalmazás a kártyaadatokat használja. Ha nem érhető el, az alkalmazás használhatja a telefon által rögzített GPS-adatokat.",
+      "items": [
+        "valós tachográf/vezetőkártya adatok",
+        "hozzávetőleges adatok a telefon GPS-éből"
+      ],
+      "note": "A GPS-adatok nem konvertálódnak kártyaadatokká. Az alkalmazás egyszerűen a megfelelő forrást használja a rendelkezésre állás szerint."
+    },
+    "card": {
+      "title": "Csak kártya",
+      "text": "Csak a járművezetői kártyáról származó adatokat jeleníti meg.",
+      "multiple": "Ha egynél több kártya van tárolva az alkalmazásban, válassza ki azt a kártyát, amelynek adatait meg szeretné jeleníteni.",
+      "warning": "A „Csak kártya” választása nem törli a GPS-adatokat. Csak a megjelenítéshez és elemzéshez használt adatforrást változtatja meg."
+    },
+    "analysis": {
+      "title": "DDD adatok elemzése",
+      "text": "A TachoMobile az importált kártyaadatokat ugyanazzal a munkaidő- és pihenőidő-elemző mechanizmussal elemzi, mint a GPS-adatok. Elemezi többek között a szükséges aktivitási, munkavégzési, vezetési, szüneteket és pihenőidőket a végrehajtott szabályok szerint. A DDD adatok valós adatok a járművezetői kártyáról, nem rosszabb alternatíva az elemzéshez."
+    },
+    "delete": {
+      "title": "A járművezetői adatok eltávolítása",
+      "steps": "Használata: Vezetői kártyák → válasszon kártyát → Vezetői bejegyzések törlése.",
+      "text": "Ez a művelet csak a kiválasztott járművezetői kártyához tartozó adatokat távolítja el.",
+      "items": [
+        "Nem távolítja el a telefon GPS-adatait.",
+        "Nem távolítja el az adatokat más járművezetői kártyákról."
+      ],
+      "final": "Az adatok eltávolítása után magát a járművezetői kártya bejegyzést is eltávolíthatja. Az adatok TachoMobile-ból való eltávolítása csak az alkalmazásban tárolt adatokat érinti; nem távolítja el az adatokat a fizikai járművezetői kártyáról."
+    }
+  },
+  "related": {
+    "title": "Kapcsolódó információk",
+    "text": "Használja ezeket a meglévő útmutató modulokat a környező munkafolyamatokhoz:",
+    "backup": "Biztonsági mentés és szinkronizálás",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Tevékenységtörténet és napló",
+    "historyUrl": "../log-screen/",
+    "main": "Fő képernyő",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Vissza az ĂştmutatĂłhoz"
+  },
+  "footer": "© TachoMobile 2"
+}

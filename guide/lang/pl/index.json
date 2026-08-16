@@ -58,6 +58,7 @@
       "description": "Dowiedz się, jak rozpoczynać i kończyć pracę oraz szybko wprowadzać kolejne aktywności kierowcy.",
       "url": "activity-entry/"
     }
+    ,"importDdd": { "title": "Import danych karty kierowcy (.ddd)", "description": "Importuj rzeczywiste dane karty kierowcy z pliku .ddd.", "url": "import-ddd/" }
   },
   "navigation": {
     "back": "← Powrót do strony głównej",

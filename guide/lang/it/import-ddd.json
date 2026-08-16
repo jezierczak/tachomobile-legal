@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Importazione dei dati della carta conducente da un file .ddd - TachoMobile 2",
+    "heading": "Importazione dei dati della carta conducente da un file .ddd",
+    "intro": "TachoMobile può importare dati reali da una carta conducente digitale salvata in un file .ddd."
+  },
+  "sections": {
+    "limit": {
+      "title": "La carta viene letta da un altro dispositivo",
+      "text": "In questa fase TachoMobile non legge direttamente la carta del conducente. Scarica innanzitutto la carta utilizzando un altro dispositivo, lettore o programma che supporti la lettura della carta conducente. TachoMobile riceve il file .ddd pronto e importa i dati in esso memorizzati."
+    },
+    "import": {
+      "title": "Come importare un file .ddd",
+      "text": "Non esiste un pulsante separato \"Importa DDD\". Utilizza il normale percorso di importazione del file locale:",
+      "steps": [
+        "Menu → Backup e sincronizzazione → Locale (file) → Importa",
+        "Scegli il file.",
+        "Quando il file selezionato ha il formato .ddd, TachoMobile lo riconosce automaticamente come dati della carta conducente e lo elabora come dati DDD."
+      ],
+      "extra": "L'importazione viene eseguita dal file scelto."
+    },
+    "safety": {
+      "title": "I dati GPS non vengono sovrascritti",
+      "text": "L'importazione di un file .ddd non sovrascrive né rimuove i dati GPS registrati dal telefono. I dati GPS e i dati della carta conducente vengono archiviati come origini dati separate, pertanto i dati della carta possono essere importati in modo sicuro senza perdere i dati GPS precedenti."
+    },
+    "identify": {
+      "title": "Riconoscimento automatico della carta conducente",
+      "text": "Ogni file .ddd contiene informazioni che identificano la carta del conducente, compreso il numero della carta e il nome e cognome del conducente.",
+      "items": [
+        "Se la carta non è stata importata prima, TachoMobile crea una nuova voce nelle Carte conducente.",
+        "Il numero della carta e il nome del conducente vengono salvati.",
+        "I dati del file vengono assegnati a quella scheda."
+      ],
+      "extra": "All'interno di una carta conducente è inoltre possibile visualizzare i dati correlati e gli eventi tecnici."
+    },
+    "many": {
+      "title": "Dati provenienti da più carte conducente",
+      "text": "Un'installazione TachoMobile può memorizzare i dati di molte carte conducente.",
+      "items": [
+        "L'importazione di un'altra scheda non sovrascrive i dati GPS.",
+        "Non sovrascrive i dati di una scheda precedente.",
+        "TachoMobile crea o aggiorna un set di dati separato per la carta conducente corrispondente."
+      ]
+    },
+    "repeat": {
+      "title": "Importare nuovamente la stessa carta",
+      "text": "Quando importi un altro file .ddd per la stessa carta, TachoMobile aggiorna ed estende i dati esistenti. La cronologia può essere estesa con un periodo più recente o più precedente. Puoi scaricare i dati ogni 28 giorni e importare file successivi; la storia diventa gradualmente una sequenza temporale continua di carte. Non è necessario importare ogni volta l'intera cronologia."
+    },
+    "source": {
+      "title": "Scelta della fonte dati",
+      "intro": "Dopo aver importato i dati della carta, viene visualizzato un menu sorgente aggiuntivo sotto la barra del titolo principale quando sono disponibili sia i dati GPS che quelli della carta. Ha esattamente tre opzioni: “Solo GPS”, “GPS + carta” e “Solo carta”."
+    },
+    "gps": {
+      "title": "Solo GPS",
+      "text": "Mostra i dati registrati da TachoMobile utilizzando il GPS del telefono. I dati della carta conducente rimangono memorizzati nell'app ma non vengono utilizzati in questa visualizzazione."
+    },
+    "combined": {
+      "title": "GPS+scheda",
+      "text": "Questa è la visione combinata. Quando i dati reali della carta sono disponibili per un periodo, l'app utilizza i dati della carta. Quando non è disponibile, l'app potrebbe utilizzare i dati GPS registrati dal telefono.",
+      "items": [
+        "dati reali del tachigrafo/della carta del conducente",
+        "dati approssimativi dal GPS del telefono"
+      ],
+      "note": "I dati GPS non vengono convertiti in dati della carta. L'app utilizza semplicemente la fonte appropriata in base alla disponibilità."
+    },
+    "card": {
+      "title": "Solo carta",
+      "text": "Mostra solo i dati provenienti da una carta conducente.",
+      "multiple": "Se nell'app sono memorizzate più carte, scegli la carta di cui desideri visualizzare i dati.",
+      "warning": "La scelta di \"Solo scheda\" non elimina i dati GPS. Cambia solo l'origine dati utilizzata per la visualizzazione e l'analisi."
+    },
+    "analysis": {
+      "title": "Analisi dei dati DDD",
+      "text": "TachoMobile analizza i dati delle carte importate utilizzando lo stesso meccanismo di analisi dei tempi di lavoro e di riposo dei dati GPS. Analizza, tra le altre cose, i periodi di attività, lavoro, guida, pause e riposo richiesti secondo le regole implementate. I dati DDD sono dati reali provenienti dalla carta del conducente, non un'alternativa inferiore per l'analisi."
+    },
+    "delete": {
+      "title": "Rimozione dei dati di un conducente",
+      "steps": "Utilizzo: Carte conducente → scegli una carta → Elimina le voci del conducente.",
+      "text": "Questa operazione rimuove solo i dati associati alla carta conducente selezionata.",
+      "items": [
+        "Non rimuove i dati GPS del telefono.",
+        "Non rimuove i dati dalle altre carte conducente."
+      ],
+      "final": "Dopo aver eliminato i dati è possibile eliminare anche la voce stessa della carta conducente. La rimozione dei dati in TachoMobile influisce solo sui dati archiviati nell'app; non rimuove i dati dalla carta fisica del conducente."
+    }
+  },
+  "related": {
+    "title": "Informazioni correlate",
+    "text": "Utilizza questi moduli Guida esistenti per il flusso di lavoro circostante:",
+    "backup": "Backup e sincronizzazione",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Cronologia e diario delle attività",
+    "historyUrl": "../log-screen/",
+    "main": "Schermata principale",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Torna alla guida"
+  },
+  "footer": "© TachoMobile 2"
+}

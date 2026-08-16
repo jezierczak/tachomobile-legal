@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Importing driver-card data from a .ddd file - TachoMobile 2",
+    "heading": "Importing driver-card data from a .ddd file",
+    "intro": "TachoMobile can import real data from a digital driver card saved in a .ddd file."
+  },
+  "sections": {
+    "limit": {
+      "title": "The card is read by another device",
+      "text": "At this stage TachoMobile does not read the driver card directly. First download the card using another device, reader or program that supports driver-card reading. TachoMobile receives the ready .ddd file and imports the data stored in it."
+    },
+    "import": {
+      "title": "How to import a .ddd file",
+      "text": "There is no separate “Import DDD” button. Use the normal local-file import path:",
+      "steps": [
+        "Menu → Backup and synchronization → Local (file) → Import",
+        "Choose the file.",
+        "When the selected file has the .ddd format, TachoMobile recognizes it automatically as driver-card data and processes it as DDD data."
+      ],
+      "extra": "The import is performed from the file you choose."
+    },
+    "safety": {
+      "title": "GPS data is not overwritten",
+      "text": "Importing a .ddd file does not overwrite or remove GPS data recorded by the phone. GPS data and driver-card data are stored as separate data sources, so card data can be imported safely without losing earlier GPS data."
+    },
+    "identify": {
+      "title": "Automatic driver-card recognition",
+      "text": "Every .ddd file contains information identifying the driver card, including the card number and the driver's first and last name.",
+      "items": [
+        "If the card has not been imported before, TachoMobile creates a new entry in Driver cards.",
+        "The card number and the driver's name are saved.",
+        "The file data is assigned to that card."
+      ],
+      "extra": "Within a driver card you can also view its related data and technical events."
+    },
+    "many": {
+      "title": "Data from multiple driver cards",
+      "text": "One TachoMobile installation can store data from many driver cards.",
+      "items": [
+        "Importing another card does not overwrite GPS data.",
+        "It does not overwrite data from an earlier card.",
+        "TachoMobile creates or updates a separate data set for the matching driver card."
+      ]
+    },
+    "repeat": {
+      "title": "Importing the same card again",
+      "text": "When you import another .ddd file for the same card, TachoMobile updates and extends the existing data. The history can be extended with either a newer or an older period. You can download data every 28 days and import successive files; the history gradually becomes a continuous card timeline. You do not need to import the entire history each time."
+    },
+    "source": {
+      "title": "Choosing the data source",
+      "intro": "After card data is imported, an additional source menu appears below the main title bar when both GPS and card data are available. It has exactly three options: “GPS only”, “GPS + card” and “Card only”."
+    },
+    "gps": {
+      "title": "GPS only",
+      "text": "Shows data recorded by TachoMobile using the phone's GPS. Driver-card data remains stored in the app but is not used in this view."
+    },
+    "combined": {
+      "title": "GPS + card",
+      "text": "This is the combined view. When real card data is available for a period, the app uses the card data. When it is not available, the app may use GPS data recorded by the phone.",
+      "items": [
+        "real tachograph/driver-card data",
+        "approximate data from the phone's GPS"
+      ],
+      "note": "GPS data is not converted into card data. The app simply uses the appropriate source according to availability."
+    },
+    "card": {
+      "title": "Card only",
+      "text": "Shows only data originating from a driver card.",
+      "multiple": "If more than one card is stored in the app, choose the card whose data you want to display.",
+      "warning": "Choosing “Card only” does not delete GPS data. It only changes the data source used for display and analysis."
+    },
+    "analysis": {
+      "title": "Analysis of DDD data",
+      "text": "TachoMobile analyzes imported card data using the same working-time and rest-time analysis mechanism as GPS data. It analyzes, among other things, required periods of activity, work, driving, breaks and rest according to the implemented rules. DDD data is real data from the driver card, not an inferior alternative for analysis."
+    },
+    "delete": {
+      "title": "Removing a driver's data",
+      "steps": "Use: Driver cards → choose a card → Delete driver's entries.",
+      "text": "This operation removes only data associated with the selected driver card.",
+      "items": [
+        "It does not remove the phone's GPS data.",
+        "It does not remove data from other driver cards."
+      ],
+      "final": "After removing the data, you can also remove the driver-card entry itself. Removing data in TachoMobile affects only data stored in the app; it does not remove data from the physical driver card."
+    }
+  },
+  "related": {
+    "title": "Related information",
+    "text": "Use these existing Guide modules for the surrounding workflow:",
+    "backup": "Backup and synchronization",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Activity history and journal",
+    "historyUrl": "../log-screen/",
+    "main": "Main screen",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "â† Back to Guide"
+  },
+  "footer": "© TachoMobile 2"
+}
