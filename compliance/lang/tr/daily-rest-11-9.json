@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Günlük Dinlenme (11s / 9s / 3+9s) - Uyum Kuralları",
+    "heading": "Günlük Dinlenme (11s / 9s / 3+9s)",
+    "description": "Normal, kısaltılmış ve bölünmüş günlük dinlenmenin açıklaması ve kısaltılmış dinlenme sınırının haftalık sürüş süresi sayacından nasıl farklı olduğu."
+  },
+  "content": {
+    "regulation": {
+      "title": "Yönetmelik",
+      "text": "Her 24 saatlik dönem içinde sürücü, en az 11 saat aralıksız süren bir günlük dinlenme (normal günlük dinlenme) yapmalıdır. Bu, en az 9 saat aralıksız süreye kısaltılabilir (kısaltılmış günlük dinlenme), ancak kısaltılmış günlük dinlenme, iki ardışık haftalık dinlenme arasında en fazla 3 kez kullanılabilir."
+    },
+    "split": {
+      "title": "Bölünmüş Günlük Dinlenme (3+9)",
+      "text": "Günlük dinlenme, iki döneme de bölünebilir: en az 3 saat, ardından en az 9 saat aralıksız, toplamda en az 12 saat. Bölünmüş günlük dinlenme, 3 kısaltılmış dinlenme sınırına DAHİL EDİLMEZ — bu, günlük dinlenmeyi tamamlamanın ayrı, tamamen uygun bir yoludur."
+    },
+    "reset": {
+      "title": "Önemli: 3 kısaltılmış dinlenme sınırı takvim haftasıyla değil, haftalık dinlenmeler arasında sıfırlanır",
+      "text": "10 saate sürüş süresi uzatmasının aksine (takvim haftasında iki kez kullanılabilir ve her pazartesi sıfırlanır), izin verilen 3 kısaltılmış günlük dinlenme, iki ardışık haftalık dinlenme dönemi arasında sayılır — haftanın hangi gününe denk geldiğine bakılmaksızın. Sayaç yalnızca sürücü bir sonraki haftalık dinlenmesini yaptığında sıfırlanır; bu, haftanın hangi günü gerçekleştiğine bakılmaksızın geçerlidir."
+    },
+    "crew": {
+      "title": "Çok Sürücülü Ekip Halinde",
+      "text": "Çok sürücülü ekip halinde yalnızca 9 saatlik dinlenme türü geçerlidir — burada normal dinlenme (11 saat), haftada 3 kez sınırına dahil edilen kısaltılmış dinlenme veya bölünmüş dinlenme (3+9 saat) seçeneği yoktur. Ekipteki her sürücünün önceki dinlenmesinin bitiminden itibaren 30 saat içinde en az 9 saat dinlenmesi gerekir. Bu, yukarıda açıklanan 3 kısaltılmış dinlenme sayacından bağımsız, ekip için ayrı ve sabit bir kuraldır."
+    },
+    "tachomobileHandling": {
+      "title": "TachoMobile Bu Kuralı Nasıl Ele Alır",
+      "text": "TachoMobile her günlük dinlenmeyi takip eder ve bunu normal, kısaltılmış veya bölünmüş olarak sınıflandırır. Sürücünün son haftalık dinlenmesinden bu yana kaç kısaltılmış günlük dinlenme kullanıldığını sayar ve 3 kullanım sınırına yaklaşıldığında uyarır; yeni bir haftalık dinlenme tespit edildiğinde sayacı otomatik olarak sıfırlar."
+    },
+    "example": {
+      "title": "Örnek",
+      "text": "Bir sürücü salı ve perşembe günleri 9 saatlik kısaltılmış dinlenme yapar (3'te 2 kullanıldı). Cumartesi günü haftalık dinlenmesini yapar. Kısaltılmış dinlenme sayacı 0'a sıfırlanır — takvim haftası değişmemiş olsa bile — çünkü yeni bir haftalık dinlenme dönemi başlamıştır."
+    }
+  },
+  "navigation": {
+    "back": "← Uyum Kuralları Sayfasına Dön",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

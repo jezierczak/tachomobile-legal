@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Günlük Sürüş Süresi Sınırı (9s/10s) - Uyum Kuralları",
+    "heading": "Günlük Sürüş Süresi Sınırı (9s/10s)",
+    "description": "9 saatlik günlük sürüş sınırının, haftada iki kez kullanılabilen 10 saate uzatmanın ve TachoMobile'ın bunu nasıl takip ettiğinin açıklaması."
+  },
+  "content": {
+    "regulation": {
+      "title": "Yönetmelik",
+      "text": "Sürücü tek bir günde 9 saatten fazla araç kullanamaz. Bu günlük sürüş sınırı 10 saate uzatılabilir, ancak aynı hafta içinde en fazla iki kez."
+    },
+    "extension": {
+      "title": "10 Saate Uzatma",
+      "text": "10 saate uzatma haftada yalnızca iki kez kullanılabilir. Bir sürücü bir hafta içinde her iki uzatmayı da kullandığında, o haftanın kalan her sürüş günü 9 saatle sınırlıdır. Haftalık sayaç, pazar ile pazartesi arasındaki gece yarısında sıfırlanır — mevcut iki uzatma, önceki hafta nasıl kullanıldığına bakılmaksızın her yeni haftanın başında (pazartesi 00:00) yeniden kullanılabilir hale gelir."
+    },
+    "tachomobileHandling": {
+      "title": "TachoMobile Bu Kuralı Nasıl Ele Alır",
+      "text": "TachoMobile, günlük sürüş süresini 9 saatlik sınıra göre takip eder ve gerektiğinde otomatik olarak 10 saate uzatmaya izin verir. Ana ekrandaki haftalık kullanım sayacı, mevcut haftada (pazartesiden pazara) iki mevcut 10 saatlik uzatmadan kaçının kullanıldığını gösterir, böylece sürücü kalan günleri buna göre planlayabilir."
+    },
+    "example": {
+      "title": "Örnek",
+      "text": "Bir sürücü pazartesi günü 9:45 (1. uzatma kullanıldı) ve çarşamba günü 9:30 (2. uzatma kullanıldı) sürüş yapar. TachoMobile her iki uzatmayı da o hafta için kullanılmış olarak işaretler; o hafta içindeki herhangi bir ek sürüş günü 9 saatle sınırlıdır. Bir sonraki pazartesi, sayaç sıfırlanır ve her iki uzatma da yeniden kullanılabilir hale gelir."
+    },
+    "crew": {
+      "title": "Çok Sürücülü Ekip Halinde",
+      "text": "Çok sürücülü ekip halinde her sürücünün yine de bireysel 9 saatlik günlük sürüş sınırı vardır, ancak haftada iki kez kullanılabilen 10 saate uzatma burada mevcut değildir — ekipteki her sürücü, uzatma imkânı olmaksızın günde sabit 9 saat sürüşle sınırlıdır."
+    }
+  },
+  "navigation": {
+    "back": "← Uyum Kuralları Sayfasına Dön",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

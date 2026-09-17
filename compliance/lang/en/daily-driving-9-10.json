@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Daily Driving Time Limit (9h/10h) - Compliance Rules",
+    "heading": "Daily Driving Time Limit (9h/10h)",
+    "description": "Explanation of the 9-hour daily driving limit, the twice-weekly 10-hour extension, and how TachoMobile tracks it."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulation",
+      "text": "The driver may not drive for more than 9 hours in a single day. This daily driving limit may be extended to 10 hours, but no more than twice within the same week."
+    },
+    "extension": {
+      "title": "Extension to 10 Hours",
+      "text": "The 10-hour extension is only available twice per week. Once a driver has used both extensions in a week, every remaining driving day that week is capped at 9 hours. The weekly counter resets at midnight between Sunday and Monday — the two available extensions become available again at the start of every new week (Monday 00:00), regardless of how they were used the previous week."
+    },
+    "tachomobileHandling": {
+      "title": "How TachoMobile Handles This Rule",
+      "text": "TachoMobile tracks daily driving time against the 9-hour limit and automatically allows the 10-hour extension when needed. The weekly-usage counter on the main screen shows how many of the two available 10-hour extensions have been used in the current week (Monday–Sunday), so the driver can plan remaining days accordingly."
+    },
+    "example": {
+      "title": "Example",
+      "text": "A driver drives 9:45 on Monday (1st extension used) and 9:30 on Wednesday (2nd extension used). TachoMobile marks both extensions as used for that week; any further driving day that week is limited to 9 hours. On the following Monday, the counter resets and both extensions are available again."
+    },
+    "crew": {
+      "title": "In a Multi-Manning Crew",
+      "text": "In a multi-manning crew, each driver still has an individual 9-hour daily driving limit, but the twice-weekly extension to 10 hours is not available — every driver in the crew is limited to a flat 9 hours of driving per day, with no extension."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Compliance Rules",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

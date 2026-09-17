@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Descanso semanal (45h / 24h) - Regras de Conformidade",
+    "heading": "Descanso semanal (45h / 24h)",
+    "description": "Explicação do descanso semanal regular e reduzido, de como um descanso reduzido deve ser compensado, e da regra das duas semanas que limita a frequência com que pode ser utilizado."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulamento",
+      "text": "No prazo de 6 períodos consecutivos de 24 horas após o fim do descanso semanal anterior, o condutor deve fazer um novo descanso semanal. Um descanso semanal regular é de pelo menos 45 horas. Um descanso semanal reduzido é de pelo menos 24 horas (mas menos de 45)."
+    },
+    "compensation": {
+      "title": "Compensação do descanso reduzido",
+      "text": "Qualquer redução abaixo de 45 horas deve ser compensada por um período de descanso equivalente, associado a outro descanso de pelo menos 9 horas, gozado antes do fim da 3.ª semana seguinte à semana em questão."
+    },
+    "twoWeek": {
+      "title": "A regra das duas semanas",
+      "text": "Em quaisquer duas semanas consecutivas, o condutor deve fazer pelo menos dois descansos semanais, dos quais pelo menos um deve ser um descanso regular (45h). Um condutor não pode fazer dois descansos semanais reduzidos seguidos."
+    },
+    "tachomobileHandling": {
+      "title": "Como o TachoMobile trata isto",
+      "text": "Durante a janela atual de 144 horas (6 dias), o TachoMobile marca como candidato cada descanso suficientemente longo para se qualificar como descanso semanal (pelo menos 24 horas). Assim que a janela se fecha, a aplicação seleciona automaticamente o melhor candidato — o descanso qualificado mais longo — e confirma-o como descanso semanal, classificando-o como regular ou reduzido e monitorizando qualquer compensação em dívida. O condutor também pode forçar manualmente que um candidato seja confirmado imediatamente como descanso semanal, sem esperar que a janela se feche."
+    },
+    "example": {
+      "title": "Exemplo",
+      "text": "Um condutor faz um descanso semanal reduzido de 30 horas (uma redução de 15 horas em relação às 45 horas regulares). Antes do fim da 3.ª semana seguinte a essa semana, deve fazer mais 15 horas de descanso, associadas a outro descanso de pelo menos 9 horas, para compensar."
+    }
+  },
+  "navigation": {
+    "back": "← Voltar às Regras de Conformidade",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

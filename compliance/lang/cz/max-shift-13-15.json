@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Maximální délka směny (13h / 15h, v posádce 21h) - Pravidla souladu",
+    "heading": "Maximální délka směny (13h / 15h, v posádce 21h)",
+    "description": "Vysvětlení, proč je maximální směna 13 nebo 15 hodin — nejde o přímý limit stanovený předpisem, ale o důsledek 24hodinového cyklu a denního odpočinku, který má řidič k dispozici."
+  },
+  "content": {
+    "basis": {
+      "title": "Odkud se berou hodnoty 13h a 15h",
+      "text": "Maximální délka směny není limit stanovený přímo předpisem. Vyplývá z 24hodinového cyklu počítaného od začátku směny v kombinaci s denním odpočinkem, který musí řidič čerpat před další směnou. Pokud má řidič k dispozici zkrácený denní odpočinek 9 hodin, maximální směna je 15 hodin. Pokud má k dispozici pouze pravidelný denní odpočinek 11 hodin, maximální směna je 13 hodin."
+    },
+    "crew": {
+      "title": "V posádce: pevných 21 hodin",
+      "text": "V posádce je tato hodnota pevná, nikoli proměnlivá. Cyklus je 30 hodin místo 24 a požadovaný odpočinek je vždy 9 hodin (v posádce neexistuje varianta 11 hodin, jak je vysvětleno v pravidlech pro denní odpočinek). Z toho vyplývá pevná maximální směna 21 hodin pro každého řidiče v posádce — nikdy 13 nebo 15 hodin."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile toto zpracovává",
+      "text": "TachoMobile zobrazuje jak aktuální délku směny, tak maximum povolené pro daný den, na základě toho, jaká varianta denního odpočinku je řidiči k dispozici."
+    },
+    "example": {
+      "title": "Příklad",
+      "text": "Řidič čerpá pravidelný 11hodinový odpočinek a zahajuje novou směnu. Maximální délka jeho směny je pro tento den 13 hodin. Následující den má stále k dispozici zkrácený 9hodinový odpočinek (využity 2 ze 3 za týden), takže maximální směna se prodlužuje na 15 hodin."
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na stránku Pravidla souladu",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

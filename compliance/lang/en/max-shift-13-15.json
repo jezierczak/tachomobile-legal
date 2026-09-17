@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Maximum Shift Length (13h / 15h, 21h for a Crew) - Compliance Rules",
+    "heading": "Maximum Shift Length (13h / 15h, 21h for a Crew)",
+    "description": "Explanation of why the maximum shift is 13 or 15 hours — it's not a direct regulatory limit, but a consequence of the 24-hour cycle and the daily rest available to the driver."
+  },
+  "content": {
+    "basis": {
+      "title": "Where 13h and 15h Come From",
+      "text": "The maximum shift length isn't a limit set directly by regulation. It follows from the 24-hour cycle counted from the start of the shift, combined with the daily rest the driver is required to take before the next shift. If a 9-hour reduced daily rest is available to the driver, the maximum shift is 15 hours. If only the 11-hour regular daily rest is available, the maximum shift is 13 hours."
+    },
+    "crew": {
+      "title": "In a Multi-Manning Crew: a Fixed 21 Hours",
+      "text": "For a multi-manning crew, this figure is fixed rather than variable. The cycle is 30 hours rather than 24, and the required rest is always 9 hours (there is no 11-hour option in a crew, as explained in the daily rest rules). That leaves a fixed 21-hour maximum shift for each driver in the crew — never 13 or 15 hours."
+    },
+    "tachomobileHandling": {
+      "title": "How TachoMobile Handles This",
+      "text": "TachoMobile shows both the current shift duration and the maximum allowed for that day, based on which daily rest option is available to the driver."
+    },
+    "example": {
+      "title": "Example",
+      "text": "A driver takes a regular 11-hour rest and starts a new shift. Their maximum shift length for that day is 13 hours. The next day, a 9-hour reduced rest is still available (2 of 3 used that week), so the maximum shift extends to 15 hours."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Compliance Rules",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

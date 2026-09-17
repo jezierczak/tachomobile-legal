@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Repos hebdomadaire (45h / 24h) - Règles de conformité",
+    "heading": "Repos hebdomadaire (45h / 24h)",
+    "description": "Explication du repos hebdomadaire normal et réduit, de la façon dont un repos réduit doit être compensé, et de la règle des deux semaines qui limite sa fréquence d'utilisation."
+  },
+  "content": {
+    "regulation": {
+      "title": "Réglementation",
+      "text": "Dans un délai de 6 périodes consécutives de 24 heures après la fin du repos hebdomadaire précédent, le conducteur doit prendre un nouveau repos hebdomadaire. Un repos hebdomadaire normal est d'au moins 45 heures. Un repos hebdomadaire réduit est d'au moins 24 heures (mais moins de 45)."
+    },
+    "compensation": {
+      "title": "Compensation du repos réduit",
+      "text": "Toute réduction en dessous de 45 heures doit être compensée par une période de repos équivalente, rattachée à un autre repos d'au moins 9 heures, prise avant la fin de la 3e semaine suivant la semaine en question."
+    },
+    "twoWeek": {
+      "title": "La règle des deux semaines",
+      "text": "Au cours de deux semaines consécutives quelconques, le conducteur doit prendre au moins deux repos hebdomadaires, dont au moins un doit être un repos normal (45h). Un conducteur ne peut pas prendre deux repos hebdomadaires réduits consécutifs."
+    },
+    "tachomobileHandling": {
+      "title": "Comment TachoMobile gère cela",
+      "text": "Pendant la fenêtre actuelle de 144 heures (6 jours), TachoMobile marque comme candidat chaque repos suffisamment long pour être qualifié de repos hebdomadaire (au moins 24 heures). Une fois la fenêtre fermée, l'application sélectionne automatiquement le meilleur candidat — le repos qualifiant le plus long — et le confirme comme repos hebdomadaire, en le classant comme normal ou réduit et en suivant toute compensation due. Le conducteur peut également forcer manuellement la confirmation immédiate d'un candidat comme repos hebdomadaire, sans attendre la fermeture de la fenêtre."
+    },
+    "example": {
+      "title": "Exemple",
+      "text": "Un conducteur prend un repos hebdomadaire réduit de 30 heures (une réduction de 15 heures par rapport aux 45 heures normales). Avant la fin de la 3e semaine suivant cette semaine-là, il doit prendre 15 heures de repos supplémentaires, rattachées à un autre repos d'au moins 9 heures, pour compenser."
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page des règles de conformité",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

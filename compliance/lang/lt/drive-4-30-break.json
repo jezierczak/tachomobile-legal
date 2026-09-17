@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Vairavimas 4:30 ir pertrauka - Atitikties taisyklės",
+    "heading": "Vairavimas 4:30 ir pertrauka",
+    "description": "Paaiškinimas apie 4 valandų ir 30 minučių vairavimo ribą ir būtiną pertrauką."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglamentas",
+      "text": "Vairuotojas negali vairuoti transporto priemonės ilgiau nei 4 valandos ir 30 minučių be būtinai reikalingos pertraukos. Po šio laiko reikia 45 minučių pertraukos."
+    },
+    "breakVariants": {
+      "title": "Pertraukos variantai",
+      "text": "Pertrauka gali būti atlikta dviem būdais: 1. Kaip 45 minučių nepriklausomai nuo poilsio, arba 2. Padalyta į dvi dalis: pirmiausia 15 minučių, tada 30 minučių poilsio."
+    },
+    "tachomobileHandling": {
+      "title": "Kaip TachoMobile apdoroja šį taisyklę",
+      "text": "TachoMobile palaiko abi pertraukos variantų. Programa analizuoja vairavimo laiką ir kontroliuoja, ar vairuotojas atliko būtiną pertrauką. Pagrindiniame ekrane yra žymimasis langelis, rodantis, ar pirmosios 15 minučių pertrauka buvo atlikta. Jei pirmosios 15 minučių yra tinkamai įrašytos, programa prisimena šį faktą. Tokiu atveju lieka 30 minučių poilsio, kad būtų baigta būtina pertrauka. Baigus šias papildomas 30 minutes, TachoMobile laiko būtiną pertrauką įvykdytą ir atstatomi nuolatinio vairavimo skaitikliai. Jei atliekama pilna 45 minučių nepriklausomai nuo poilsio, programa taip pat laiko reikalavimą įvykdytą ir atstatomi nuolatinio vairavimo skaitikliai."
+    },
+    "example": {
+      "title": "Pavyzdys",
+      "text": "Vairuotojas vairavo 4:00 → sustojo 15 minučių → pratęsė vairavimą → vėliau sustojo 30 minučių. TachoMobile prisimena anksčiau atliktas 15 minučių. Baigus papildomas 30 minutes, TachoMobile laiko 45 minučių pertrauką įvykdytą ir atstatomi nuolatinio vairavimo skaitikliai."
+    },
+    "crew": {
+      "title": "Vairuojant su keliais vairuotojais (ekipažu)",
+      "text": "Vairuojant ekipažu vienas vairuotojas gali panaudoti privalomą 45 minučių pertrauką kaip budėjimo laiką, kol kitas vairuotojas vairuoja. Toks pertraukos panaudojimas atstato besiilsinčio vairuotojo 4 valandų 30 minučių vairavimo skaitiklį. Vairuotojams pakaitomis naudojantis pertraukomis, ekipažas gali išlaikyti transporto priemonę praktiškai nuolat judančią apie 18 valandų, nors kiekvienas vairuotojas individualiai laikosi savo vairavimo ir poilsio ribų."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į atitikties taisykles",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

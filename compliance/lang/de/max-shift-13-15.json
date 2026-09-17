@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Maximale Schichtlänge (13/15 Stunden, 21 Stunden bei Besatzung) - Einhaltungsregeln",
+    "heading": "Maximale Schichtlänge (13/15 Stunden, 21 Stunden bei Besatzung)",
+    "description": "Erklärung, warum die maximale Schicht 13 oder 15 Stunden beträgt — kein direktes gesetzliches Limit, sondern eine Folge des 24-Stunden-Zyklus und der dem Fahrer zur Verfügung stehenden täglichen Ruhezeit."
+  },
+  "content": {
+    "basis": {
+      "title": "Woher die Werte 13 und 15 Stunden stammen",
+      "text": "Die maximale Schichtlänge ist kein direkt durch Vorschrift festgelegtes Limit. Sie ergibt sich aus dem 24-Stunden-Zyklus, gerechnet ab Schichtbeginn, in Verbindung mit der täglichen Ruhezeit, die der Fahrer vor der nächsten Schicht einhalten muss. Steht dem Fahrer eine verkürzte tägliche Ruhezeit von 9 Stunden zur Verfügung, beträgt die maximale Schicht 15 Stunden. Steht nur die reguläre tägliche Ruhezeit von 11 Stunden zur Verfügung, beträgt die maximale Schicht 13 Stunden."
+    },
+    "crew": {
+      "title": "Bei Mehrfahrerbesatzung: feste 21 Stunden",
+      "text": "Bei einer Mehrfahrerbesatzung ist dieser Wert fest statt variabel. Der Zyklus beträgt 30 statt 24 Stunden, und die erforderliche Ruhezeit beträgt immer 9 Stunden (es gibt bei einer Besatzung keine 11-Stunden-Option, wie in den Regeln zur täglichen Ruhezeit erklärt). Daraus ergibt sich eine feste maximale Schicht von 21 Stunden für jeden Fahrer der Besatzung — nie 13 oder 15 Stunden."
+    },
+    "tachomobileHandling": {
+      "title": "Wie TachoMobile dies handhabt",
+      "text": "TachoMobile zeigt sowohl die aktuelle Schichtdauer als auch das für diesen Tag zulässige Maximum an, basierend darauf, welche Ruhezeit-Option dem Fahrer zur Verfügung steht."
+    },
+    "example": {
+      "title": "Beispiel",
+      "text": "Ein Fahrer nimmt eine reguläre 11-stündige Ruhezeit und beginnt eine neue Schicht. Seine maximale Schichtlänge beträgt für diesen Tag 13 Stunden. Am nächsten Tag steht noch eine verkürzte 9-stündige Ruhezeit zur Verfügung (2 von 3 in dieser Woche genutzt), sodass sich die maximale Schicht auf 15 Stunden verlängert."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Seite Einhaltungsregeln",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

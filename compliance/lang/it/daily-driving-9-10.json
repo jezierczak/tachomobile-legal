@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Limite giornaliero del tempo di guida (9h/10h) - Regole di conformità",
+    "heading": "Limite giornaliero del tempo di guida (9h/10h)",
+    "description": "Spiegazione del limite giornaliero di 9 ore di guida, della proroga a 10 ore disponibile due volte a settimana e di come TachoMobile la monitora."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "Il conducente non può guidare per più di 9 ore in un singolo giorno. Questo limite giornaliero di guida può essere prorogato a 10 ore, ma non più di due volte nella stessa settimana."
+    },
+    "extension": {
+      "title": "Proroga a 10 ore",
+      "text": "La proroga a 10 ore è disponibile solo due volte a settimana. Una volta che il conducente ha utilizzato entrambe le proroghe in una settimana, ogni ulteriore giorno di guida di quella settimana è limitato a 9 ore. Il contatore settimanale si azzera a mezzanotte tra domenica e lunedì: le due proroghe disponibili tornano disponibili all'inizio di ogni nuova settimana (lunedì ore 00:00), indipendentemente da come sono state utilizzate la settimana precedente."
+    },
+    "tachomobileHandling": {
+      "title": "Come TachoMobile gestisce questa regola",
+      "text": "TachoMobile monitora il tempo di guida giornaliero rispetto al limite di 9 ore e consente automaticamente la proroga a 10 ore quando necessario. Il contatore di utilizzo settimanale nella schermata principale mostra quante delle due proroghe a 10 ore disponibili sono state utilizzate nella settimana corrente (da lunedì a domenica), in modo che il conducente possa pianificare i giorni rimanenti."
+    },
+    "example": {
+      "title": "Esempio",
+      "text": "Un conducente guida per 9:45 il lunedì (1ª proroga utilizzata) e per 9:30 il mercoledì (2ª proroga utilizzata). TachoMobile contrassegna entrambe le proroghe come utilizzate per quella settimana; qualsiasi ulteriore giorno di guida in quella settimana è limitato a 9 ore. Il lunedì successivo, il contatore si azzera ed entrambe le proroghe tornano disponibili."
+    },
+    "crew": {
+      "title": "In equipaggio a più conducenti",
+      "text": "In un equipaggio a più conducenti, ogni conducente mantiene un limite giornaliero individuale di 9 ore di guida, ma la proroga a 10 ore disponibile due volte a settimana non è disponibile — ogni conducente dell'equipaggio è limitato a 9 ore fisse di guida al giorno, senza possibilità di proroga."
+    }
+  },
+  "navigation": {
+    "back": "← Torna alle regole di conformità",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

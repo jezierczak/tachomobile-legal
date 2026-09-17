@@ -98,7 +98,7 @@
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† Retour au Guide"
+    "back": "← Retour au Guide"
   },
   "footer": "© TachoMobile 2"
 }

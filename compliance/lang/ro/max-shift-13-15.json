@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Durata maximă a turei (13h / 15h, 21h în echipaj) - Reguli de conformitate",
+    "heading": "Durata maximă a turei (13h / 15h, 21h în echipaj)",
+    "description": "Explicația motivului pentru care tura maximă este de 13 sau 15 ore — nu este o limită directă stabilită de reglementare, ci o consecință a ciclului de 24 de ore și a repausului zilnic disponibil pentru conducătorul auto."
+  },
+  "content": {
+    "basis": {
+      "title": "De unde provin valorile de 13h și 15h",
+      "text": "Durata maximă a turei nu este o limită stabilită direct de reglementare. Ea rezultă din ciclul de 24 de ore calculat de la începutul turei, combinat cu repausul zilnic pe care conducătorul auto trebuie să îl efectueze înainte de următoarea tură. Dacă îi este disponibil conducătorului auto un repaus zilnic redus de 9 ore, tura maximă este de 15 ore. Dacă este disponibil doar repausul zilnic normal de 11 ore, tura maximă este de 13 ore."
+    },
+    "crew": {
+      "title": "În echipaj: 21 de ore fixe",
+      "text": "În echipaj cu mai mulți conducători auto, această valoare este fixă, nu variabilă. Ciclul este de 30 de ore în loc de 24, iar repausul necesar este întotdeauna de 9 ore (nu există opțiunea de 11 ore în echipaj, așa cum este explicat în regulile privind repausul zilnic). Astfel rezultă o tură maximă fixă de 21 de ore pentru fiecare conducător auto din echipaj — niciodată 13 sau 15 ore."
+    },
+    "tachomobileHandling": {
+      "title": "Cum gestionează TachoMobile acest lucru",
+      "text": "TachoMobile afișează atât durata turei curente, cât și maximul permis pentru ziua respectivă, în funcție de opțiunea de repaus zilnic disponibilă pentru conducătorul auto."
+    },
+    "example": {
+      "title": "Exemplu",
+      "text": "Un conducător auto efectuează un repaus normal de 11 ore și începe o tură nouă. Tura sa maximă pentru acea zi este de 13 ore. A doua zi, mai este disponibil un repaus redus de 9 ore (2 din 3 folosite în acea săptămână), astfel încât tura maximă se extinde la 15 ore."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la Reguli de conformitate",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

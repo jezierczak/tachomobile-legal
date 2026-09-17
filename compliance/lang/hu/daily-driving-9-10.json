@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Napi vezetési idő korlátja (9/10 óra) - Megfelelőségi szabályok",
+    "heading": "Napi vezetési idő korlátja (9/10 óra)",
+    "description": "A 9 órás napi vezetési korlát, a heti kétszer igénybe vehető 10 órás meghosszabbítás és a TachoMobile általi nyomon követés magyarázata."
+  },
+  "content": {
+    "regulation": {
+      "title": "Szabályozás",
+      "text": "A vezető egyetlen napon sem vezethet 9 óránál tovább. Ez a napi vezetési korlát 10 órára meghosszabbítható, de egy héten belül legfeljebb kétszer."
+    },
+    "extension": {
+      "title": "Meghosszabbítás 10 órára",
+      "text": "A 10 órás meghosszabbítás hetente csak kétszer vehető igénybe. Amint a vezető mindkét meghosszabbítást felhasználta egy héten belül, az adott hét minden további vezetési napja 9 órára korlátozódik. A heti számláló vasárnapról hétfőre virradó éjfélkor nullázódik — a két elérhető meghosszabbítás minden új hét elején (hétfő 0:00) ismét rendelkezésre áll, függetlenül attól, hogyan használták fel az előző héten."
+    },
+    "tachomobileHandling": {
+      "title": "Hogyan kezeli a TachoMobile ezt a szabályt",
+      "text": "A TachoMobile a napi vezetési időt a 9 órás korláthoz méri, és szükség esetén automatikusan engedélyezi a 10 órás meghosszabbítást. A főképernyőn található heti felhasználási számláló mutatja, hogy a két elérhető 10 órás meghosszabbításból mennyit használtak fel a jelenlegi héten (hétfőtől vasárnapig), így a vezető ennek megfelelően tervezheti a hátralévő napokat."
+    },
+    "example": {
+      "title": "Példa",
+      "text": "Egy vezető hétfőn 9:45 órát vezet (1. meghosszabbítás felhasználva), szerdán pedig 9:30 órát (2. meghosszabbítás felhasználva). A TachoMobile mindkét meghosszabbítást felhasználtként jelöli meg az adott hétre; a hét bármely további vezetési napja 9 órára korlátozódik. A következő hétfőn a számláló nullázódik, és mindkét meghosszabbítás ismét elérhető."
+    },
+    "crew": {
+      "title": "Több vezetőből álló személyzet esetén",
+      "text": "Több vezetőből álló személyzet esetén minden vezetőre továbbra is egyéni, 9 órás napi vezetési korlát vonatkozik, de a hetente kétszer igénybe vehető 10 órás meghosszabbítás nem áll rendelkezésre — a személyzet minden vezetője fix 9 órás napi vezetésre korlátozódik, meghosszabbítási lehetőség nélkül."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a megfelelőségi szabályok oldalra",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

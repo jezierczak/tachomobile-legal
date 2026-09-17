@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Regras de Conformidade - TachoMobile 2",
+    "heading": "Regras de Conformidade",
+    "description": "Compreensão das regulamentações de condução, trabalho e descanso e como o TachoMobile as apoia."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Condução 4:30 e pausa",
+      "description": "Explicação do limite de 4 horas e 30 minutos de condução e pausa obrigatória.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Limite diário de tempo de condução (9h/10h)",
+      "description": "Explicação do limite diário de 9 horas de condução e da extensão para 10 horas disponível duas vezes por semana.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Descanso diário (11h / 9h / 3+9h)",
+      "description": "Explicação do descanso diário regular, reduzido e fracionado, e da regra de reinício do limite de 3 descansos reduzidos.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Duração máxima do turno (13h / 15h, 21h em tripulação)",
+      "description": "Explicação de por que o turno máximo é de 13 ou 15 horas, e por que é fixo em 21 horas em tripulação.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Descanso semanal (45h / 24h)",
+      "description": "Explicação do descanso semanal regular e reduzido, e das regras de compensação e das duas semanas.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Voltar à página inicial",
+    "backUrl": "/pt/"
+  },
+  "footer": "© TachoMobile 2"
+}

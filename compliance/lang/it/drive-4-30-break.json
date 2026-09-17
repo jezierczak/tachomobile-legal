@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Guidare 4:30 e pausa - Regole di conformità",
+    "heading": "Guidare 4:30 e pausa",
+    "description": "Spiegazione del limite di 4 ore e 30 minuti di guida e della pausa richiesta."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regolamento",
+      "text": "Il conducente non può guidare un veicolo per più di 4 ore e 30 minuti senza una pausa richiesta. Dopo questo periodo, è richiesta una pausa di 45 minuti."
+    },
+    "breakVariants": {
+      "title": "Varianti di pausa",
+      "text": "La pausa può essere effettuata in due modi: 1. Come riposo ininterrotto di 45 minuti, o 2. Divisa in due parti: prima 15 minuti, poi 30 minuti di riposo."
+    },
+    "tachomobileHandling": {
+      "title": "Come TachoMobile gestisce questa regola",
+      "text": "TachoMobile supporta entrambe le varianti di pausa. Il programma analizza il tempo di guida e controlla se il conducente ha completato la pausa richiesta. Sulla schermata principale c'è una casella di controllo che indica se i primi 15 minuti della pausa sono stati completati. Se i primi 15 minuti sono registrati correttamente, il programma ricorda questo fatto. In questa situazione, rimangono 30 minuti di riposo per completare la pausa richiesta. Dopo aver completato questi 30 minuti aggiuntivi, TachoMobile considera la pausa richiesta come completata e reimposta il contatore della guida continua. Se viene effettuata una pausa completa di 45 minuti ininterrotti, il programma considera anche questa richiesta come soddisfatta e reimposta il contatore della guida continua."
+    },
+    "example": {
+      "title": "Esempio",
+      "text": "Il conducente ha guidato per 4:00 → si è fermato per 15 minuti → ha ripreso la guida → successivamente si è fermato per 30 minuti. TachoMobile ricorda i 15 minuti precedentemente completati. Dopo aver completato i 30 minuti aggiuntivi, TachoMobile considera la pausa di 45 minuti come completata e reimposta il contatore della guida continua."
+    },
+    "crew": {
+      "title": "In equipaggio a più conducenti",
+      "text": "In un equipaggio a più conducenti, un conducente può effettuare la pausa obbligatoria di 45 minuti come tempo di disponibilità mentre l'altro conducente è alla guida. Utilizzare la pausa in questo modo azzera il contatore delle 4 ore e 30 minuti di guida del conducente a riposo. Alternando le pause tra i due conducenti, l'equipaggio può mantenere il veicolo praticamente in movimento continuo per circa 18 ore, anche se ciascun conducente rispetta individualmente i propri limiti di guida e riposo."
+    }
+  },
+  "navigation": {
+    "back": "← Torna alle regole di conformità",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Repos journalier (11h / 9h / 3+9h) - Règles de conformité",
+    "heading": "Repos journalier (11h / 9h / 3+9h)",
+    "description": "Explication du repos journalier normal, réduit et fractionné, et de la façon dont la limite des repos réduits diffère du compteur hebdomadaire de temps de conduite."
+  },
+  "content": {
+    "regulation": {
+      "title": "Réglementation",
+      "text": "Au cours de chaque période de 24 heures, le conducteur doit prendre un repos journalier d'au moins 11 heures consécutives (repos journalier normal). Celui-ci peut être réduit à un minimum de 9 heures consécutives (repos journalier réduit), mais un repos journalier réduit ne peut être pris plus de 3 fois entre deux périodes de repos hebdomadaire consécutives."
+    },
+    "split": {
+      "title": "Repos journalier fractionné (3+9)",
+      "text": "Le repos journalier peut également être fractionné en deux périodes : au moins 3 heures, suivies d'au moins 9 heures consécutives, pour un total d'au moins 12 heures. Le repos journalier fractionné n'est PAS comptabilisé dans la limite des 3 repos réduits — il s'agit d'une méthode distincte, entièrement conforme, de prendre le repos journalier."
+    },
+    "reset": {
+      "title": "Important : la limite des 3 repos réduits se réinitialise entre les repos hebdomadaires, pas avec la semaine civile",
+      "text": "Contrairement à la prolongation du temps de conduite à 10 heures (disponible deux fois par semaine civile, réinitialisée chaque lundi), les 3 repos journaliers réduits autorisés sont comptabilisés entre deux périodes de repos hebdomadaire consécutives — quel que soit le jour de la semaine où elles tombent. Le compteur ne se réinitialise que lorsque le conducteur prend son prochain repos hebdomadaire, quel que soit le jour de la semaine où cela se produit."
+    },
+    "crew": {
+      "title": "En équipage à plusieurs conducteurs",
+      "text": "En équipage à plusieurs conducteurs, seule la variante de repos de 9 heures s'applique — il n'y a ici ni option de repos normal (11 h), ni repos réduit comptabilisé dans la limite de 3 fois par semaine, ni repos fractionné (3+9 h). Chaque conducteur de l'équipage doit prendre un repos d'au moins 9 heures dans les 30 heures suivant la fin de son repos précédent. Il s'agit d'une règle distincte et fixe pour l'équipage, indépendante du compteur des 3 repos réduits décrit ci-dessus."
+    },
+    "tachomobileHandling": {
+      "title": "Comment TachoMobile gère cette règle",
+      "text": "TachoMobile suit chaque repos journalier et le classe comme normal, réduit ou fractionné. Il compte combien de repos journaliers réduits ont été utilisés depuis le dernier repos hebdomadaire du conducteur et avertit lorsque la limite de 3 utilisations approche, en réinitialisant automatiquement le compteur dès qu'un nouveau repos hebdomadaire est détecté."
+    },
+    "example": {
+      "title": "Exemple",
+      "text": "Un conducteur prend un repos réduit de 9 heures le mardi et le jeudi (2 sur 3 utilisés). Le samedi, il prend son repos hebdomadaire. Le compteur de repos réduits revient à 0 — même si la semaine civile n'a pas changé — car une nouvelle période de repos hebdomadaire a commencé."
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page des règles de conformité",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

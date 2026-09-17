@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Tägliche Ruhezeit (11/9 Stunden / 3+9) - Einhaltungsregeln",
+    "heading": "Tägliche Ruhezeit (11/9 Stunden / 3+9)",
+    "description": "Erklärung der regelmäßigen, verkürzten und aufgeteilten täglichen Ruhezeit und wie sich das Limit für verkürzte Ruhezeiten vom wöchentlichen Lenkzeitzähler unterscheidet."
+  },
+  "content": {
+    "regulation": {
+      "title": "Vorschrift",
+      "text": "Innerhalb jedes 24-Stunden-Zeitraums muss der Fahrer eine tägliche Ruhezeit von mindestens 11 zusammenhängenden Stunden einhalten (regelmäßige tägliche Ruhezeit). Diese kann auf mindestens 9 zusammenhängende Stunden verkürzt werden (verkürzte tägliche Ruhezeit), jedoch darf eine verkürzte tägliche Ruhezeit höchstens 3-mal zwischen zwei wöchentlichen Ruhezeiten in Anspruch genommen werden."
+    },
+    "split": {
+      "title": "Geteilte tägliche Ruhezeit (3+9)",
+      "text": "Die tägliche Ruhezeit kann auch in zwei Abschnitte aufgeteilt werden: mindestens 3 Stunden, gefolgt von mindestens 9 zusammenhängenden Stunden, insgesamt also mindestens 12 Stunden. Eine geteilte tägliche Ruhezeit wird NICHT auf das 3-malige Limit für verkürzte Ruhezeiten angerechnet — sie ist eine eigenständige, vollständig regelkonforme Art der täglichen Ruhezeit."
+    },
+    "reset": {
+      "title": "Wichtig: Das 3-malige Limit für verkürzte Ruhezeiten setzt sich zwischen wöchentlichen Ruhezeiten zurück, nicht mit der Kalenderwoche",
+      "text": "Im Gegensatz zur Verlängerung der Lenkzeit auf 10 Stunden (die zweimal pro Kalenderwoche verfügbar ist und jeden Montag zurückgesetzt wird), werden die 3 zulässigen verkürzten täglichen Ruhezeiten zwischen zwei aufeinanderfolgenden wöchentlichen Ruhezeiten gezählt — unabhängig davon, auf welchen Wochentag diese fallen. Der Zähler wird erst zurückgesetzt, wenn der Fahrer seine nächste wöchentliche Ruhezeit nimmt, unabhängig davon, an welchem Wochentag dies geschieht."
+    },
+    "crew": {
+      "title": "Bei Mehrfahrerbesatzung",
+      "text": "In einer Mehrfahrerbesatzung gilt nur die 9-Stunden-Variante der Ruhezeit — es gibt hier keine reguläre Ruhezeit (11 Stunden), keine verkürzte Ruhezeit, die auf das 3-mal-pro-Woche-Limit angerechnet wird, und keine geteilte Ruhezeit (3+9 Stunden). Jeder Fahrer der Besatzung muss innerhalb von 30 Stunden nach Ende seiner vorherigen Ruhezeit eine Ruhezeit von mindestens 9 Stunden einhalten. Dies ist eine eigenständige, feste Regel für Besatzungen, unabhängig von dem oben beschriebenen Zähler für 3 verkürzte Ruhezeiten."
+    },
+    "tachomobileHandling": {
+      "title": "Wie TachoMobile diese Regel behandelt",
+      "text": "TachoMobile verfolgt jede tägliche Ruhezeit und klassifiziert sie als regelmäßig, verkürzt oder geteilt. Es zählt, wie viele verkürzte tägliche Ruhezeiten seit der letzten wöchentlichen Ruhezeit des Fahrers genutzt wurden, und warnt, wenn sich das Limit von 3 Nutzungen nähert, wobei der Zähler automatisch zurückgesetzt wird, sobald eine neue wöchentliche Ruhezeit erkannt wird."
+    },
+    "example": {
+      "title": "Beispiel",
+      "text": "Ein Fahrer nimmt am Dienstag und am Donnerstag eine 9-stündige verkürzte Ruhezeit (2 von 3 genutzt). Am Samstag nimmt er seine wöchentliche Ruhezeit. Der Zähler für verkürzte Ruhezeiten wird auf 0 zurückgesetzt — obwohl sich die Kalenderwoche nicht geändert hat — weil eine neue wöchentliche Ruhezeit begonnen hat."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Seite Einhaltungsregeln",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

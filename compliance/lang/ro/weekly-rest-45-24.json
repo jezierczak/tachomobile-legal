@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Repaus săptămânal (45h / 24h) - Reguli de conformitate",
+    "heading": "Repaus săptămânal (45h / 24h)",
+    "description": "Explicația repausului săptămânal normal și redus, a modului în care un repaus redus trebuie compensat, și a regulii celor două săptămâni care limitează cât de des poate fi folosit."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglementare",
+      "text": "În termen de 6 perioade consecutive de 24 de ore de la sfârșitul repausului săptămânal anterior, conducătorul auto trebuie să efectueze un nou repaus săptămânal. Un repaus săptămânal normal este de cel puțin 45 de ore. Un repaus săptămânal redus este de cel puțin 24 de ore (dar mai puțin de 45)."
+    },
+    "compensation": {
+      "title": "Compensarea repausului redus",
+      "text": "Orice reducere sub 45 de ore trebuie compensată printr-o perioadă de repaus echivalentă, atașată la un alt repaus de cel puțin 9 ore, efectuată înainte de sfârșitul celei de-a 3-a săptămâni care urmează săptămânii respective."
+    },
+    "twoWeek": {
+      "title": "Regula celor două săptămâni",
+      "text": "În orice două săptămâni consecutive, conducătorul auto trebuie să efectueze cel puțin două repausuri săptămânale, dintre care cel puțin unul trebuie să fie un repaus normal (45h). Un conducător auto nu poate efectua două repausuri săptămânale reduse consecutive."
+    },
+    "tachomobileHandling": {
+      "title": "Cum gestionează TachoMobile acest lucru",
+      "text": "În fereastra actuală de 144 de ore (6 zile), TachoMobile marchează drept candidat fiecare repaus suficient de lung pentru a se califica drept repaus săptămânal (cel puțin 24 de ore). Odată ce fereastra se închide, aplicația selectează automat cel mai bun candidat — cel mai lung repaus care se califică — și îl confirmă drept repaus săptămânal, clasificându-l drept normal sau redus și urmărind orice compensare datorată. Conducătorul auto poate, de asemenea, să forțeze manual confirmarea imediată a unui candidat drept repaus săptămânal, fără a aștepta închiderea ferestrei."
+    },
+    "example": {
+      "title": "Exemplu",
+      "text": "Un conducător auto efectuează un repaus săptămânal redus de 30 de ore (o reducere de 15 ore față de cele 45 de ore normale). Înainte de sfârșitul celei de-a 3-a săptămâni care urmează acelei săptămâni, trebuie să efectueze încă 15 ore de repaus, atașate la un alt repaus de cel puțin 9 ore, pentru a compensa."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la Reguli de conformitate",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

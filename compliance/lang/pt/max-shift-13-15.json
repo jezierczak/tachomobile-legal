@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "pt"
+  },
+  "page": {
+    "title": "Duração máxima do turno (13h / 15h, 21h em tripulação) - Regras de Conformidade",
+    "heading": "Duração máxima do turno (13h / 15h, 21h em tripulação)",
+    "description": "Explicação de por que o turno máximo é de 13 ou 15 horas — não é um limite direto da regulamentação, mas uma consequência do ciclo de 24 horas e do descanso diário disponível para o condutor."
+  },
+  "content": {
+    "basis": {
+      "title": "De onde vêm as 13h e as 15h",
+      "text": "A duração máxima do turno não é um limite estabelecido diretamente pela regulamentação. Resulta do ciclo de 24 horas contado a partir do início do turno, combinado com o descanso diário que o condutor deve fazer antes do próximo turno. Se estiver disponível para o condutor um descanso diário reduzido de 9 horas, o turno máximo é de 15 horas. Se apenas o descanso diário regular de 11 horas estiver disponível, o turno máximo é de 13 horas."
+    },
+    "crew": {
+      "title": "Em tripulação: 21 horas fixas",
+      "text": "Em tripulação múltipla, este valor é fixo em vez de variável. O ciclo é de 30 horas em vez de 24, e o descanso exigido é sempre de 9 horas (não há opção de 11 horas em tripulação, conforme explicado nas regras de descanso diário). Isto resulta num turno máximo fixo de 21 horas para cada condutor da tripulação — nunca 13 ou 15 horas."
+    },
+    "tachomobileHandling": {
+      "title": "Como o TachoMobile trata isto",
+      "text": "O TachoMobile mostra tanto a duração atual do turno como o máximo permitido para esse dia, com base na opção de descanso diário disponível para o condutor."
+    },
+    "example": {
+      "title": "Exemplo",
+      "text": "Um condutor faz um descanso regular de 11 horas e começa um novo turno. O seu turno máximo para esse dia é de 13 horas. No dia seguinte, ainda está disponível um descanso reduzido de 9 horas (2 de 3 utilizados nessa semana), pelo que o turno máximo se estende a 15 horas."
+    }
+  },
+  "navigation": {
+    "back": "← Voltar às Regras de Conformidade",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

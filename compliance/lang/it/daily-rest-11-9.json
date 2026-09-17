@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Riposo giornaliero (11h / 9h / 3+9h) - Regole di conformità",
+    "heading": "Riposo giornaliero (11h / 9h / 3+9h)",
+    "description": "Spiegazione del riposo giornaliero regolare, ridotto e frazionato, e di come il limite dei riposi ridotti differisca dal contatore settimanale del tempo di guida."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "In ogni periodo di 24 ore, il conducente deve osservare un riposo giornaliero di almeno 11 ore consecutive (riposo giornaliero regolare). Questo può essere ridotto a un minimo di 9 ore consecutive (riposo giornaliero ridotto), ma un riposo giornaliero ridotto può essere effettuato al massimo 3 volte tra due periodi di riposo settimanale consecutivi."
+    },
+    "split": {
+      "title": "Riposo giornaliero frazionato (3+9)",
+      "text": "Il riposo giornaliero può anche essere suddiviso in due periodi: almeno 3 ore, seguite da almeno 9 ore consecutive, per un totale di almeno 12 ore. Il riposo giornaliero frazionato NON viene conteggiato nel limite dei 3 riposi ridotti: è un modo distinto e pienamente conforme di effettuare il riposo giornaliero."
+    },
+    "reset": {
+      "title": "Importante: il limite dei 3 riposi ridotti si azzera tra i riposi settimanali, non con la settimana di calendario",
+      "text": "A differenza della proroga del tempo di guida a 10 ore (disponibile due volte per settimana di calendario, azzerata ogni lunedì), i 3 riposi giornalieri ridotti consentiti vengono conteggiati tra due periodi di riposo settimanale consecutivi, indipendentemente dal giorno della settimana in cui cadono. Il contatore si azzera solo quando il conducente effettua il riposo settimanale successivo, indipendentemente dal giorno della settimana in cui ciò avviene."
+    },
+    "crew": {
+      "title": "In equipaggio a più conducenti",
+      "text": "In un equipaggio a più conducenti si applica solo la variante di riposo di 9 ore — non esiste qui l'opzione di riposo regolare (11 ore), né il riposo ridotto conteggiato nel limite di 3 volte a settimana, né il riposo frazionato (3+9 ore). Ogni conducente dell'equipaggio deve effettuare un riposo di almeno 9 ore entro 30 ore dalla fine del proprio riposo precedente. Si tratta di una regola separata e fissa per l'equipaggio, indipendente dal contatore dei 3 riposi ridotti descritto sopra."
+    },
+    "tachomobileHandling": {
+      "title": "Come TachoMobile gestisce questa regola",
+      "text": "TachoMobile monitora ogni riposo giornaliero e lo classifica come regolare, ridotto o frazionato. Conta quanti riposi giornalieri ridotti sono stati utilizzati dall'ultimo riposo settimanale del conducente e avvisa quando si avvicina il limite di 3 utilizzi, azzerando automaticamente il contatore non appena viene rilevato un nuovo riposo settimanale."
+    },
+    "example": {
+      "title": "Esempio",
+      "text": "Un conducente effettua un riposo ridotto di 9 ore martedì e giovedì (2 su 3 utilizzati). Sabato effettua il riposo settimanale. Il contatore dei riposi ridotti si azzera a 0, anche se la settimana di calendario non è cambiata, perché è iniziato un nuovo periodo di riposo settimanale."
+    }
+  },
+  "navigation": {
+    "back": "← Torna alle regole di conformità",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

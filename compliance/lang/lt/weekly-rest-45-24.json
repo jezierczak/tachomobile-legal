@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Savaitinis poilsis (45 val. / 24 val.) - Atitikties taisyklės",
+    "heading": "Savaitinis poilsis (45 val. / 24 val.)",
+    "description": "Įprasto ir sutrumpinto savaitinio poilsio paaiškinimas, kaip turi būti kompensuojamas sutrumpintas poilsis, ir dviejų savaičių taisyklė, ribojanti, kaip dažnai juo galima pasinaudoti."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglamentas",
+      "text": "Per 6 iš eilės einančius 24 valandų laikotarpius nuo ankstesnio savaitinio poilsio pabaigos vairuotojas privalo pasinaudoti nauju savaitiniu poilsiu. Įprastas savaitinis poilsis trunka ne mažiau kaip 45 valandas. Sutrumpintas savaitinis poilsis trunka ne mažiau kaip 24 valandas (bet mažiau nei 45)."
+    },
+    "compensation": {
+      "title": "Sutrumpinto poilsio kompensavimas",
+      "text": "Bet koks sutrumpinimas žemiau 45 valandų turi būti kompensuotas lygiaverčiu poilsio laikotarpiu, pridedamu prie kito bent 9 valandų poilsio, panaudotu iki 3-ios savaitės, einančios po atitinkamos savaitės, pabaigos."
+    },
+    "twoWeek": {
+      "title": "Dviejų savaičių taisyklė",
+      "text": "Per bet kurias dvi iš eilės einančias savaites vairuotojas privalo pasinaudoti bent dviem savaitiniais poilsiais, iš kurių bent vienas turi būti įprastas (45 val.) poilsis. Vairuotojas negali pasinaudoti dviem sutrumpintais savaitiniais poilsiais iš eilės."
+    },
+    "tachomobileHandling": {
+      "title": "Kaip tai tvarko „TachoMobile“",
+      "text": "Per dabartinį 144 valandų (6 dienų) langą „TachoMobile“ kaip kandidatą pažymi kiekvieną pakankamai ilgą poilsį, kad jis atitiktų savaitinio poilsio reikalavimus (bent 24 valandas). Kai langas užsidaro, programa automatiškai išrenka geriausią kandidatą – ilgiausią tinkamą poilsį – ir patvirtina jį kaip savaitinį poilsį, priskirdama jį prie įprasto arba sutrumpinto ir sekdama bet kokią mokėtiną kompensaciją. Vairuotojas taip pat gali rankiniu būdu priverstinai iškart patvirtinti kandidatą kaip savaitinį poilsį, nelaukdamas, kol langas užsidarys."
+    },
+    "example": {
+      "title": "Pavyzdys",
+      "text": "Vairuotojas pasinaudoja 30 valandų sutrumpintu savaitiniu poilsiu (15 valandų trumpesniu už įprastas 45 valandas). Iki 3-ios savaitės, einančios po tos savaitės, pabaigos jis kompensacijai turi panaudoti papildomas 15 valandų poilsio, pridedamas prie kito bent 9 valandų poilsio."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į atitikties taisykles",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

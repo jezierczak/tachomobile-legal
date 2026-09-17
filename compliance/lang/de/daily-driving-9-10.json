@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Tägliches Lenkzeitlimit (9/10 Stunden) - Einhaltungsregeln",
+    "heading": "Tägliches Lenkzeitlimit (9/10 Stunden)",
+    "description": "Erklärung des 9-Stunden-Tageslimits für die Lenkzeit, der zweimal wöchentlich möglichen Verlängerung auf 10 Stunden und wie TachoMobile dies verfolgt."
+  },
+  "content": {
+    "regulation": {
+      "title": "Vorschrift",
+      "text": "Der Fahrer darf an einem einzigen Tag nicht länger als 9 Stunden fahren. Diese tägliche Lenkzeitgrenze kann auf 10 Stunden verlängert werden, jedoch höchstens zweimal innerhalb derselben Woche."
+    },
+    "extension": {
+      "title": "Verlängerung auf 10 Stunden",
+      "text": "Die Verlängerung auf 10 Stunden steht nur zweimal pro Woche zur Verfügung. Sobald ein Fahrer beide Verlängerungen in einer Woche genutzt hat, ist jeder weitere Fahrtag dieser Woche auf 9 Stunden begrenzt. Der Wochenzähler wird um Mitternacht zwischen Sonntag und Montag zurückgesetzt — die beiden verfügbaren Verlängerungen stehen zu Beginn jeder neuen Woche (Montag 00:00 Uhr) wieder zur Verfügung, unabhängig davon, wie sie in der Vorwoche genutzt wurden."
+    },
+    "tachomobileHandling": {
+      "title": "Wie TachoMobile diese Regel behandelt",
+      "text": "TachoMobile verfolgt die tägliche Lenkzeit im Verhältnis zum 9-Stunden-Limit und erlaubt bei Bedarf automatisch die Verlängerung auf 10 Stunden. Der Wochenzähler auf dem Hauptbildschirm zeigt, wie viele der beiden verfügbaren 10-Stunden-Verlängerungen in der aktuellen Woche (Montag bis Sonntag) bereits genutzt wurden, sodass der Fahrer die verbleibenden Tage entsprechend planen kann."
+    },
+    "example": {
+      "title": "Beispiel",
+      "text": "Ein Fahrer fährt am Montag 9:45 Stunden (1. Verlängerung genutzt) und am Mittwoch 9:30 Stunden (2. Verlängerung genutzt). TachoMobile markiert beide Verlängerungen für diese Woche als genutzt; jeder weitere Fahrtag dieser Woche ist auf 9 Stunden begrenzt. Am folgenden Montag wird der Zähler zurückgesetzt und beide Verlängerungen stehen wieder zur Verfügung."
+    },
+    "crew": {
+      "title": "Bei Mehrfahrerbesatzung",
+      "text": "In einer Mehrfahrerbesatzung hat jeder Fahrer weiterhin ein individuelles tägliches Lenkzeitlimit von 9 Stunden, die zweimal wöchentlich verfügbare Verlängerung auf 10 Stunden steht jedoch nicht zur Verfügung — jeder Fahrer der Besatzung ist auf feste 9 Stunden Lenkzeit pro Tag beschränkt, ohne Verlängerungsmöglichkeit."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Seite Einhaltungsregeln",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "4:30-es vezetés és szünet - Megfelelőségi szabályok",
+    "heading": "4:30-es vezetés és szünet",
+    "description": "A 4 óra 30 perc vezetési korlátozás és a szükséges szünet magyarázata."
+  },
+  "content": {
+    "regulation": {
+      "title": "Szabályozás",
+      "text": "A sofőr nem vezethet járművet több mint 4 óra 30 percig szükséges szünet nélkül. Ezután 45 perces szünet szükséges."
+    },
+    "breakVariants": {
+      "title": "Szünet variánsok",
+      "text": "A szünetet két módon lehet teljesíteni: 1. 45 perces folyamatos pihenés formájában, vagy 2. Két részre osztva: először 15 perc, majd 30 perc pihenés."
+    },
+    "tachomobileHandling": {
+      "title": "Hogyan kezeli a TachoMobile ezt a szabályt",
+      "text": "A TachoMobile támogatja mindkét szünetvariánsot. A program elemzi a vezetési időt, és ellenőrzi, hogy a sofőr teljesítette-e a szükséges szünetet. A főképernyőn van egy jelölőnégyzet, amely tájékoztatja a első 15 perc szünettel való teljesítéséről. Ha az első 15 perc megfelelően rögzítésre került, a program megjegyezni ezt a tényt. Ebben az esetben 30 perc pihenés marad a szükséges szünet befejezéséhez. Miután ezeket a további 30 percet befejezte, a TachoMobile a szükséges szünetet teljesítettnek tekinti, és visszaállítja a folyamatos vezetési idő számlálót. Ha teljes 45 perces folyamatos pihenést végez, a program is ezt a követelményt teljesítettnek tekinti, és visszaállítja a folyamatos vezetési idő számlálót."
+    },
+    "example": {
+      "title": "Példa",
+      "text": "A sofőr 4:00-ig vezetett → 15 percig megállt → újra elkezdte vezetni → később 30 percig megállt. A TachoMobile megjegyezzi az előzőleg teljesített 15 perceket. A további 30 perc befejezése után a TachoMobile a 45 perces szünetet teljesítettnek tekinti, és visszaállítja a folyamatos vezetési idő számlálót."
+    },
+    "crew": {
+      "title": "Több vezetőből álló személyzet esetén",
+      "text": "Több vezetőből álló személyzet esetén az egyik vezető a kötelező 45 perces szünetet rendelkezésre állási időként töltheti, miközben a másik vezető vezet. A szünet ilyen módon történő felhasználása nullázza a pihenő vezető 4 óra 30 perces vezetési számlálóját. A két vezető felváltva tartott szüneteivel a személyzet gyakorlatilag folyamatosan mozgásban tarthatja a járművet akár körülbelül 18 órán át is, miközben mindkét vezető egyénileg betartja saját vezetési és pihenési korlátait."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a megfelelőségi szabályok oldalra",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

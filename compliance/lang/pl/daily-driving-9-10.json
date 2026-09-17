@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Dzienny limit czasu prowadzenia (9h/10h) - Zasady zgodności",
+    "heading": "Dzienny limit czasu prowadzenia (9h/10h)",
+    "description": "Wyjaśnienie 9-godzinnego dziennego limitu prowadzenia, dostępnego dwa razy w tygodniu wydłużenia do 10 godzin oraz sposobu, w jaki śledzi to TachoMobile."
+  },
+  "content": {
+    "regulation": {
+      "title": "Przepis",
+      "text": "Kierowca nie może prowadzić dłużej niż 9 godzin w ciągu jednej doby. Ten dzienny limit prowadzenia może zostać wydłużony do 10 godzin, jednak nie więcej niż dwa razy w tym samym tygodniu."
+    },
+    "extension": {
+      "title": "Wydłużenie do 10 godzin",
+      "text": "Wydłużenie do 10 godzin jest dostępne tylko dwa razy w tygodniu. Gdy kierowca wykorzysta oba wydłużenia w danym tygodniu, każdy kolejny dzień prowadzenia w tym tygodniu jest ograniczony do 9 godzin. Licznik tygodniowy resetuje się o północy z niedzieli na poniedziałek — oba dostępne wydłużenia stają się ponownie dostępne na początku każdego nowego tygodnia (poniedziałek 00:00), niezależnie od tego, jak zostały wykorzystane w poprzednim tygodniu."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile obsługuje tę zasadę",
+      "text": "TachoMobile śledzi dzienny czas prowadzenia względem limitu 9 godzin i automatycznie zezwala na wydłużenie do 10 godzin, gdy jest to potrzebne. Licznik tygodniowego wykorzystania na ekranie głównym pokazuje, ile z dwóch dostępnych wydłużeń do 10 godzin zostało wykorzystanych w bieżącym tygodniu (od poniedziałku do niedzieli), dzięki czemu kierowca może odpowiednio zaplanować pozostałe dni."
+    },
+    "example": {
+      "title": "Przykład",
+      "text": "Kierowca prowadzi 9:45 w poniedziałek (wykorzystane 1. wydłużenie) oraz 9:30 w środę (wykorzystane 2. wydłużenie). TachoMobile oznacza oba wydłużenia jako wykorzystane w tym tygodniu; każdy kolejny dzień prowadzenia w tym tygodniu jest ograniczony do 9 godzin. W kolejny poniedziałek licznik się resetuje i oba wydłużenia są ponownie dostępne."
+    },
+    "crew": {
+      "title": "W załodze (kilku kierowców)",
+      "text": "W załodze każdy kierowca ma nadal indywidualny dzienny limit jazdy 9 godzin, jednak dostępne dwa razy w tygodniu wydłużenie do 10 godzin nie jest tu dostępne — każdy kierowca w załodze jest ograniczony do sztywnych 9 godzin jazdy dziennie, bez możliwości wydłużenia."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do Zasad zgodności",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Weekly Rest (45h / 24h) - Compliance Rules",
+    "heading": "Weekly Rest (45h / 24h)",
+    "description": "Explanation of the regular and reduced weekly rest periods, how a reduced rest must be compensated, and the two-week rule that limits how often it can be used."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulation",
+      "text": "Within 6 consecutive 24-hour periods after the end of the previous weekly rest, the driver must take a new weekly rest period. A regular weekly rest is at least 45 hours. A reduced weekly rest is at least 24 hours (but less than 45)."
+    },
+    "compensation": {
+      "title": "Reduced Rest Compensation",
+      "text": "Any reduction below 45 hours must be compensated by an equivalent period of rest, attached to another rest period of at least 9 hours, taken before the end of the 3rd week following the week in question."
+    },
+    "twoWeek": {
+      "title": "The Two-Week Rule",
+      "text": "Within any two consecutive weeks, the driver must take at least two weekly rest periods, of which at least one must be a regular (45h) rest. A driver cannot take two reduced weekly rests back to back."
+    },
+    "tachomobileHandling": {
+      "title": "How TachoMobile Handles This",
+      "text": "During the current 144-hour (6-day) window, TachoMobile marks every rest period long enough to qualify as a weekly rest (at least 24 hours) as a candidate. Once the window closes, the app automatically selects the best candidate — the longest qualifying rest — and confirms it as the weekly rest, classifying it as regular or reduced and tracking any compensation owed. The driver can also manually force a candidate to be confirmed as the weekly rest immediately, without waiting for the window to close."
+    },
+    "example": {
+      "title": "Example",
+      "text": "A driver takes a reduced weekly rest of 30 hours (a 15-hour reduction from the regular 45 hours). Before the end of the 3rd week following that week, they must take an additional 15 hours of rest, attached to another rest period of at least 9 hours, to compensate."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Compliance Rules",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

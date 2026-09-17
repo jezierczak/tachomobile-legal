@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Amplitude journalière maximale (13h / 15h, 21h en équipage) - Règles de conformité",
+    "heading": "Amplitude journalière maximale (13h / 15h, 21h en équipage)",
+    "description": "Explication de la raison pour laquelle l'amplitude maximale est de 13 ou 15 heures — ce n'est pas une limite directe de la réglementation, mais une conséquence du cycle de 24 heures et du repos journalier disponible pour le conducteur."
+  },
+  "content": {
+    "basis": {
+      "title": "D'où viennent les valeurs 13h et 15h",
+      "text": "L'amplitude journalière maximale n'est pas une limite fixée directement par la réglementation. Elle découle du cycle de 24 heures compté à partir du début de la journée de travail, combiné au repos journalier que le conducteur doit prendre avant la prochaine journée de travail. Si un repos journalier réduit de 9 heures est disponible pour le conducteur, l'amplitude maximale est de 15 heures. Si seul le repos journalier normal de 11 heures est disponible, l'amplitude maximale est de 13 heures."
+    },
+    "crew": {
+      "title": "En équipage : 21 heures fixes",
+      "text": "En équipage à plusieurs conducteurs, ce chiffre est fixe plutôt que variable. Le cycle est de 30 heures au lieu de 24, et le repos requis est toujours de 9 heures (il n'y a pas d'option de 11 heures en équipage, comme expliqué dans les règles de repos journalier). Il en résulte une amplitude maximale fixe de 21 heures pour chaque conducteur de l'équipage — jamais 13 ou 15 heures."
+    },
+    "tachomobileHandling": {
+      "title": "Comment TachoMobile gère cela",
+      "text": "TachoMobile affiche à la fois la durée actuelle de la journée de travail et le maximum autorisé pour ce jour-là, en fonction de l'option de repos journalier disponible pour le conducteur."
+    },
+    "example": {
+      "title": "Exemple",
+      "text": "Un conducteur prend un repos normal de 11 heures et commence une nouvelle journée de travail. Son amplitude maximale pour ce jour-là est de 13 heures. Le lendemain, un repos réduit de 9 heures est encore disponible (2 sur 3 utilisés cette semaine-là), donc l'amplitude maximale passe à 15 heures."
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page des règles de conformité",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

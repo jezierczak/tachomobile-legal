@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "it"
+  },
+  "page": {
+    "title": "Riposo settimanale (45h / 24h) - Regole di conformità",
+    "heading": "Riposo settimanale (45h / 24h)",
+    "description": "Spiegazione del riposo settimanale regolare e ridotto, di come un riposo ridotto debba essere compensato, e della regola delle due settimane che limita la frequenza con cui può essere utilizzato."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "Entro 6 periodi consecutivi di 24 ore dalla fine del riposo settimanale precedente, il conducente deve effettuare un nuovo riposo settimanale. Un riposo settimanale regolare è di almeno 45 ore. Un riposo settimanale ridotto è di almeno 24 ore (ma inferiore a 45)."
+    },
+    "compensation": {
+      "title": "Compensazione del riposo ridotto",
+      "text": "Qualsiasi riduzione sotto le 45 ore deve essere compensata da un periodo di riposo equivalente, collegato a un altro riposo di almeno 9 ore, effettuato entro la fine della 3ª settimana successiva alla settimana in questione."
+    },
+    "twoWeek": {
+      "title": "La regola delle due settimane",
+      "text": "Nell'arco di due settimane consecutive qualsiasi, il conducente deve effettuare almeno due riposi settimanali, di cui almeno uno deve essere un riposo regolare (45h). Un conducente non può effettuare due riposi settimanali ridotti consecutivi."
+    },
+    "tachomobileHandling": {
+      "title": "Come TachoMobile gestisce questo",
+      "text": "Durante la finestra attuale di 144 ore (6 giorni), TachoMobile contrassegna come candidato ogni riposo abbastanza lungo da qualificarsi come riposo settimanale (almeno 24 ore). Una volta chiusa la finestra, l'app seleziona automaticamente il miglior candidato — il riposo idoneo più lungo — e lo conferma come riposo settimanale, classificandolo come regolare o ridotto e tenendo traccia di eventuali compensazioni dovute. Il conducente può anche forzare manualmente la conferma immediata di un candidato come riposo settimanale, senza attendere la chiusura della finestra."
+    },
+    "example": {
+      "title": "Esempio",
+      "text": "Un conducente effettua un riposo settimanale ridotto di 30 ore (una riduzione di 15 ore rispetto alle 45 ore regolari). Entro la fine della 3ª settimana successiva a quella settimana, deve effettuare altre 15 ore di riposo, collegate a un altro riposo di almeno 9 ore, per compensare."
+    }
+  },
+  "navigation": {
+    "back": "← Torna alle regole di conformità",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

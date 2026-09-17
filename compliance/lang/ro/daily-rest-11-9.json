@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Repaus zilnic (11h / 9h / 3+9h) - Reguli de conformitate",
+    "heading": "Repaus zilnic (11h / 9h / 3+9h)",
+    "description": "Explicația repausului zilnic normal, redus și fracționat, precum și a modului în care limita repausurilor reduse diferă de contorul săptămânal al timpului de conducere."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglementare",
+      "text": "În fiecare perioadă de 24 de ore, conducătorul auto trebuie să efectueze un repaus zilnic de cel puțin 11 ore consecutive (repaus zilnic normal). Acesta poate fi redus la minimum 9 ore consecutive (repaus zilnic redus), dar un repaus zilnic redus poate fi efectuat de cel mult 3 ori între două perioade consecutive de repaus săptămânal."
+    },
+    "split": {
+      "title": "Repaus zilnic fracționat (3+9)",
+      "text": "Repausul zilnic poate fi, de asemenea, împărțit în două perioade: cel puțin 3 ore, urmate de cel puțin 9 ore consecutive, totalizând cel puțin 12 ore. Repausul zilnic fracționat NU se contorizează în limita celor 3 repausuri reduse — este un mod separat, pe deplin conform, de efectuare a repausului zilnic."
+    },
+    "reset": {
+      "title": "Important: limita de 3 repausuri reduse se resetează între repausurile săptămânale, nu odată cu săptămâna calendaristică",
+      "text": "Spre deosebire de prelungirea timpului de conducere la 10 ore (disponibilă de două ori pe săptămâna calendaristică, resetată în fiecare luni), cele 3 repausuri zilnice reduse permise sunt numărate între două perioade consecutive de repaus săptămânal — indiferent de ziua săptămânii în care cad. Contorul se resetează abia atunci când conducătorul auto efectuează următorul repaus săptămânal, indiferent de ziua săptămânii în care are loc."
+    },
+    "crew": {
+      "title": "În echipaj cu mai mulți conducători auto",
+      "text": "În echipaj, se aplică doar varianta de repaus de 9 ore — nu există aici opțiunea de repaus normal (11 h), de repaus redus contorizat în limita de 3 ori pe săptămână, nici de repaus fracționat (3+9 h). Fiecare conducător auto din echipaj trebuie să efectueze un repaus de cel puțin 9 ore în termen de 30 de ore de la sfârșitul repausului său anterior. Aceasta este o regulă separată și fixă pentru echipaj, independentă de contorul celor 3 repausuri reduse descris mai sus."
+    },
+    "tachomobileHandling": {
+      "title": "Cum gestionează TachoMobile această regulă",
+      "text": "TachoMobile urmărește fiecare repaus zilnic și îl clasifică drept normal, redus sau fracționat. Numără câte repausuri zilnice reduse au fost folosite de la ultimul repaus săptămânal al conducătorului auto și avertizează atunci când limita de 3 utilizări se apropie, resetând automat contorul de îndată ce este detectat un nou repaus săptămânal."
+    },
+    "example": {
+      "title": "Exemplu",
+      "text": "Un conducător auto efectuează un repaus redus de 9 ore marți și joi (2 din 3 folosite). Sâmbătă efectuează repausul săptămânal. Contorul repausurilor reduse se resetează la 0 — chiar dacă săptămâna calendaristică nu s-a schimbat — deoarece a început o nouă perioadă de repaus săptămânal."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la Reguli de conformitate",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

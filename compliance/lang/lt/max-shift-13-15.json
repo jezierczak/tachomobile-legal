@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Maksimali pamainos trukmė (13/15 val., ekipaže 21 val.) - Atitikties taisyklės",
+    "heading": "Maksimali pamainos trukmė (13/15 val., ekipaže 21 val.)",
+    "description": "Paaiškinimas, kodėl maksimali pamaina yra 13 ar 15 valandų — tai nėra tiesioginis teisės aktų nustatytas apribojimas, o 24 valandų ciklo ir vairuotojui prieinamo dienos poilsio pasekmė."
+  },
+  "content": {
+    "basis": {
+      "title": "Iš kur atsiranda 13 ir 15 valandų",
+      "text": "Maksimali pamainos trukmė nėra tiesiogiai teisės aktų nustatyta riba. Ji išplaukia iš 24 valandų ciklo, skaičiuojamo nuo pamainos pradžios, kartu su dienos poilsiu, kurį vairuotojas privalo panaudoti prieš kitą pamainą. Jei vairuotojui prieinamas sutrumpintas 9 valandų dienos poilsis, maksimali pamaina yra 15 valandų. Jei prieinamas tik įprastas 11 valandų dienos poilsis, maksimali pamaina yra 13 valandų."
+    },
+    "crew": {
+      "title": "Ekipaže: fiksuotos 21 valandos",
+      "text": "Vairuojant ekipažu, ši reikšmė yra fiksuota, o ne kintama. Ciklas yra 30, o ne 24 valandos, o reikalaujamas poilsis visada yra 9 valandos (ekipaže nėra 11 valandų varianto, kaip paaiškinta dienos poilsio taisyklėse). Todėl kiekvienam ekipažo vairuotojui taikoma fiksuota 21 valandos maksimali pamaina — niekada 13 ar 15 valandų."
+    },
+    "tachomobileHandling": {
+      "title": "Kaip tai tvarko „TachoMobile“",
+      "text": "„TachoMobile“ rodo tiek dabartinę pamainos trukmę, tiek tą dieną leidžiamą maksimumą, priklausomai nuo to, kokia dienos poilsio galimybė yra prieinama vairuotojui."
+    },
+    "example": {
+      "title": "Pavyzdys",
+      "text": "Vairuotojas pasinaudoja įprastu 11 valandų poilsiu ir pradeda naują pamainą. Tą dieną jo maksimali pamaina yra 13 valandų. Kitą dieną vis dar prieinamas sutrumpintas 9 valandų poilsis (panaudoti 2 iš 3 tą savaitę), todėl maksimali pamaina pailgėja iki 15 valandų."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į atitikties taisykles",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

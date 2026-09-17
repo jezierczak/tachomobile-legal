@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Reguli de conformitate - TachoMobile 2",
+    "heading": "Reguli de conformitate",
+    "description": "Înțelegerea reglementărilor privind conducerea, muncă și odihnă și modul în care TachoMobile le sprijină."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Conducere 4:30 și pauză",
+      "description": "Explicația limitării de 4 ore și 30 minute conducere și a pauzei obligatorii.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Limita zilnică a timpului de conducere (9h/10h)",
+      "description": "Explicația limitei zilnice de 9 ore de conducere și a prelungirii la 10 ore disponibile de două ori pe săptămână.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Repaus zilnic (11h / 9h / 3+9h)",
+      "description": "Explicația repausului zilnic normal, redus și fracționat, precum și a regulii de resetare a limitei de 3 repausuri reduse.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Durata maximă a turei (13h / 15h, 21h în echipaj)",
+      "description": "Explicația motivului pentru care tura maximă este de 13 sau 15 ore, și de ce este fixă la 21 de ore în echipaj.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Repaus săptămânal (45h / 24h)",
+      "description": "Explicația repausului săptămânal normal și redus, și a regulilor de compensare și a celor două săptămâni.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la pagina principală",
+    "backUrl": "/ro/"
+  },
+  "footer": "© TachoMobile 2"
+}

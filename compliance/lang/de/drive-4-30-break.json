@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Fahrt 4:30 und Pause - Einhaltungsregeln",
+    "heading": "Fahrt 4:30 und Pause",
+    "description": "Erklärung des 4 Stunden und 30 Minuten Fahrbegrenzungs- und erforderlichen Pausenlimits."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regelung",
+      "text": "Der Fahrer darf ein Fahrzeug nicht länger als 4 Stunden und 30 Minuten ohne eine erforderliche Pause führen. Nach dieser Zeit ist eine 45-minütige Pause erforderlich."
+    },
+    "breakVariants": {
+      "title": "Pausenvarianten",
+      "text": "Die Pause kann auf zwei Arten durchgeführt werden: 1. Als 45-minütiger ununterbrochener Ruhezeit, oder 2. Aufgeteilt in zwei Teile: zunächst 15 Minuten, dann 30 Minuten Ruhe."
+    },
+    "tachomobileHandling": {
+      "title": "Wie TachoMobile diese Regel behandelt",
+      "text": "TachoMobile unterstützt beide Varianten der Pause. Das Programm analysiert die Fahrzeit und überprüft, ob der Fahrer die erforderliche Pause absolviert hat. Auf dem Hauptbildschirm befindet sich ein Kontrollkästchen, das angibt, ob die ersten 15 Minuten der Pause erfüllt wurden. Wenn die ersten 15 Minuten ordnungsgemäß erfasst wurden, merkt sich das Programm diesen Fakt. In diesem Fall bleiben noch 30 Minuten Ruhezeit übrig, um die erforderliche Pause abzuschließen. Nach Abschluss dieser zusätzlichen 30 Minuten betrachtet TachoMobile die erforderliche Pause als erfüllt und setzt den Zähler für fortlaufende Fahrzeit zurück. Wenn eine vollständige 45 Minuten ununterbrochener Ruhezeit durchgeführt wird, betrachtet das Programm auch dies als erfüllt und setzt den Zähler für fortlaufende Fahrzeit zurück."
+    },
+    "example": {
+      "title": "Beispiel",
+      "text": "Der Fahrer fuhr 4:00 → hielt 15 Minuten an → fuhr fort → hielt später 30 Minuten an. TachoMobile merkt sich die zuvor erfüllten 15 Minuten. Nach Abschluss der zusätzlichen 30 Minuten betrachtet TachoMobile die 45-minütige Pause als erfüllt und setzt den Zähler für fortlaufende Fahrzeit zurück."
+    },
+    "crew": {
+      "title": "Bei Mehrfahrerbesatzung",
+      "text": "In einer Mehrfahrerbesatzung kann ein Fahrer die vorgeschriebene 45-minütige Pause als Bereitschaftszeit nutzen, während der andere Fahrer am Steuer sitzt. Diese Art der Pausennutzung setzt den Zähler für die 4 Stunden 30 Minuten Lenkzeit des ruhenden Fahrers zurück. Durch abwechselnde Pausennutzung beider Fahrer kann die Besatzung das Fahrzeug praktisch ununterbrochen für etwa 18 Stunden in Bewegung halten, obwohl jeder Fahrer individuell seine eigenen Lenk- und Ruhezeitgrenzen einhält."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Seite Einhaltungsregeln",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

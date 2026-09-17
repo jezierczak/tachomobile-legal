@@ -98,7 +98,7 @@
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† Atgal ÄŻ vadovÄ…"
+    "back": "← Atgal į vadovą"
   },
   "footer": "© TachoMobile 2"
 }

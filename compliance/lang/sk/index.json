@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Príslušné pravidlá - TachoMobile 2",
+    "heading": "Príslušné pravidlá",
+    "description": "Porozumenie predpisom týkajúcim sa vedenia, práce a odpočinku a spôsobu, akým TachoMobile ich podporuje."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Vozenie 4:30 a prestávka",
+      "description": "Vysvetlenie obmedzenia 4 hodín a 30 minút vozenia a požadovanej prestávky.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Denný limit doby vedenia vozidla (9h/10h)",
+      "description": "Vysvetlenie 9-hodinového denného limitu vedenia vozidla a predĺženia na 10 hodín dostupného dvakrát týždenne.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Denný odpočinok (11h / 9h / 3+9h)",
+      "description": "Vysvetlenie pravidelného, skráteného a deleného denného odpočinku a pravidla resetovania limitu 3 skrátených odpočinkov.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Maximálna dĺžka zmeny (13h / 15h, v posádke 21h)",
+      "description": "Vysvetlenie, prečo je maximálna zmena 13 alebo 15 hodín, a prečo je v posádke pevne 21 hodín.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Týždenný odpočinok (45h / 24h)",
+      "description": "Vysvetlenie pravidelného a skráteného týždenného odpočinku a pravidla kompenzácie a dvoch týždňov.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Späť na hlavnú stránku",
+    "backUrl": "/sk/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Conduite 4:30 et pause - Règles de conformité",
+    "heading": "Conduite 4:30 et pause",
+    "description": "Explication de la limite de 4 heures et 30 minutes de conduite et de la pause requise."
+  },
+  "content": {
+    "regulation": {
+      "title": "Règlement",
+      "text": "Le conducteur ne peut pas conduire un véhicule plus de 4 heures et 30 minutes sans une pause requise. Après cette période, une pause de 45 minutes est requise."
+    },
+    "breakVariants": {
+      "title": "Variantes de pause",
+      "text": "La pause peut être effectuée de deux façons : 1. Sous forme d'une pause ininterrompue de 45 minutes, ou 2. Divisée en deux parties : d'abord 15 minutes, puis 30 minutes de repos."
+    },
+    "tachomobileHandling": {
+      "title": "Comment TachoMobile gère cette règle",
+      "text": "TachoMobile prend en charge les deux variantes de pause. Le programme analyse le temps de conduite et contrôle si le conducteur a effectué la pause requise. Sur l'écran principal se trouve une case à cocher indiquant si les premières 15 minutes de pause ont été effectuées. Si les premières 15 minutes ont été correctement enregistrées, le programme se souvient de ce fait. Dans ce cas, il reste 30 minutes de repos pour terminer la pause requise. Après avoir complété ces 30 minutes supplémentaires, TachoMobile considère que la pause requise a été effectuée et réinitialise le compteur de conduite continue. Si une pause complète de 45 minutes d'affilée est effectuée, le programme considère également que la exigence est remplie et réinitialise le compteur de conduite continue."
+    },
+    "example": {
+      "title": "Exemple",
+      "text": "Le conducteur a conduit pendant 4:00 → s'est arrêté pendant 15 minutes → a repris la conduite → s'est arrêté plus tard pendant 30 minutes. TachoMobile se souvient des 15 minutes déjà effectuées. Après avoir complété les 30 minutes supplémentaires, TachoMobile considère que la pause de 45 minutes a été effectuée et réinitialise le compteur de conduite continue."
+    },
+    "crew": {
+      "title": "En équipage à plusieurs conducteurs",
+      "text": "En équipage à plusieurs conducteurs, un conducteur peut prendre la pause obligatoire de 45 minutes comme temps de disponibilité pendant que l'autre conducteur est au volant. Utiliser la pause de cette façon réinitialise le compteur des 4 heures 30 de conduite du conducteur au repos. En alternant les pauses entre les deux conducteurs, l'équipage peut maintenir le véhicule en mouvement quasi continu pendant environ 18 heures, même si chaque conducteur respecte individuellement ses propres limites de conduite et de repos."
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page des règles de conformité",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Jízda 4:30 a přestávka - Pravidla souladu",
+    "heading": "Jízda 4:30 a přestávka",
+    "description": "Vysvětlení limitu 4 hodin a 30 minut jízdy a požadované přestávky."
+  },
+  "content": {
+    "regulation": {
+      "title": "Pravidlo",
+      "text": "Řidič nesmí řídit vozidlo déle než 4 hodiny a 30 minut bez požadované přestávky. Po této době je vyžadována 45minutová přestávka."
+    },
+    "breakVariants": {
+      "title": "Varianty přestávky",
+      "text": "Přestávku lze provést dvěma způsoby: 1. Jako 45 minut nepřetržitého odpočinku, nebo 2. Rozděleno na dvě části: nejprve 15 minut, poté 30 minut odpočinku."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile tento pravidlo zpracovává",
+      "text": "TachoMobile podporuje oba varianty přestávky. Program analyzuje čas nepřetržité jízdy a kontroluje, zda řidič splnil požadovanou přestávku. Na hlavním displeji se nachází zaškrtávací políčko, které informuje o splnění prvních 15 minut přestávky. Pokud bylo prvních 15 minut správně zaznamenáno, program si tento fakt zapamatuje. V tomto případě zbývá 30 minut odpočinku k dokončení požadované přestávky. Po dokončení těchto dalších 30 minut považuje TachoMobile požadovanou přestávku za splněnou a resetuje počítadlo nepřetržité jízdy. Pokud je provedeno plných 45 minut nepřetržitého odpočinku, program také považuje požadavek za splněný a resetuje počítadlo nepřetržité jízdy."
+    },
+    "example": {
+      "title": "Příklad",
+      "text": "Řidič jel 4:00 → zastavil se na 15 minut → pokračoval v jízdě → později zastavil se na 30 minut. TachoMobile si pamatuje dříve splněné 15 minut. Po dokončení dalších 30 minut považuje TachoMobile 45minutovou přestávku za splněnou a resetuje počítadlo nepřetržité jízdy."
+    },
+    "crew": {
+      "title": "V posádce (více řidičů)",
+      "text": "V posádce může řidič čerpat požadovanou 45minutovou přestávku jako dobu pohotovosti, zatímco za volantem sedí druhý řidič. Takové využití přestávky resetuje počítadlo 4 hodin 30 minut řízení odpočívajícího řidiče. Díky střídavému čerpání přestávek oběma řidiči může posádka udržet vozidlo prakticky v nepřetržitém pohybu po dobu až přibližně 18 hodin, přestože každý řidič individuálně dodržuje své vlastní limity řízení a odpočinku."
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na stránku Pravidla souladu",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

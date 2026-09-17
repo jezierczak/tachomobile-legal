@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Vozenie 4:30 a prestávka - Príslušné pravidlá",
+    "heading": "Vozenie 4:30 a prestávka",
+    "description": "Vysvetlenie obmedzenia 4 hodín a 30 minút vozenia a požadovanej prestávky."
+  },
+  "content": {
+    "regulation": {
+      "title": "Predpis",
+      "text": "Vodič nesmie viesť vozidlo dlhšie ako 4 hodiny a 30 minút bez požadovanej prestávky. Po tomto období je vyžadovaná 45-minútová prestávka."
+    },
+    "breakVariants": {
+      "title": "Varianty prestávky",
+      "text": "Prestávku možno vykonať dvoma spôsobmi: 1. Ako 45-minútový nepretržitý odpočinok, alebo 2. Rozdelený na dve časti: najskôr 15 minút, potom 30 minút odpočinku."
+    },
+    "tachomobileHandling": {
+      "title": "Ako TachoMobile zabezpečuje toto pravidlo",
+      "text": "TachoMobile podporuje oba varianty prestávky. Program analyzuje čas vedenia a kontroluje, či vodič splnil požadovanú prestávku. Na hlavnom obrazovke sa nachádza začiarkavacie políčko, ktoré informuje o splnení prvých 15 minút prestávky. Ak boli prvé 15 minút správne zaznamenané, program si tento fakt zapamätá. V tomto prípade zostávajú 30 minút odpočinku na dokončenie požadovanej prestávky. Po dokončení týchto ďalších 30 minút považuje TachoMobile požadovanú prestávku za splnenú a resetuje počítadlo nepretržitého vedenia. Ak je vykonaných plných 45 minút nepretržitého odpočinku, program tiež považuje požiadavku za splnenú a resetuje počítadlo nepretržitého vedenia."
+    },
+    "example": {
+      "title": "Príklad",
+      "text": "Vodič išiel 4:00 → zastavil sa na 15 minút → pokračoval vo vedení → neskôr zastavil sa na 30 minút. TachoMobile si pamätá predtým splnené 15 minút. Po dokončení ďalších 30 minút považuje TachoMobile 45-minútovú prestávku za splnenú a resetuje počítadlo nepretržitého vedenia."
+    },
+    "crew": {
+      "title": "V posádke (viacero vodičov)",
+      "text": "V posádke môže vodič čerpať povinnú 45-minútovú prestávku ako čas pohotovosti, kým za volantom sedí druhý vodič. Takéto využitie prestávky resetuje počítadlo 4 hodín 30 minút vedenia vozidla odpočívajúceho vodiča. Vďaka striedavému čerpaniu prestávok oboma vodičmi môže posádka udržať vozidlo prakticky v nepretržitom pohybe približne 18 hodín, hoci každý vodič individuálne dodržiava svoje vlastné limity vedenia vozidla a odpočinku."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na stránku Príslušné pravidlá",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

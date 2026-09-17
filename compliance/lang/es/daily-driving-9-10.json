@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Límite diario de tiempo de conducción (9h/10h) - Reglas de cumplimiento",
+    "heading": "Límite diario de tiempo de conducción (9h/10h)",
+    "description": "Explicación del límite diario de 9 horas de conducción, la ampliación a 10 horas disponible dos veces por semana, y cómo lo controla TachoMobile."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "El conductor no puede conducir más de 9 horas en un solo día. Este límite diario de conducción puede ampliarse a 10 horas, pero no más de dos veces en la misma semana."
+    },
+    "extension": {
+      "title": "Ampliación a 10 horas",
+      "text": "La ampliación a 10 horas solo está disponible dos veces por semana. Una vez que el conductor ha utilizado ambas ampliaciones en una semana, cualquier día de conducción restante de esa semana queda limitado a 9 horas. El contador semanal se reinicia a medianoche entre el domingo y el lunes: las dos ampliaciones disponibles vuelven a estar disponibles al comienzo de cada nueva semana (lunes 00:00), independientemente de cómo se usaran la semana anterior."
+    },
+    "tachomobileHandling": {
+      "title": "Cómo gestiona TachoMobile esta norma",
+      "text": "TachoMobile controla el tiempo de conducción diario respecto al límite de 9 horas y permite automáticamente la ampliación a 10 horas cuando es necesario. El contador de uso semanal de la pantalla principal muestra cuántas de las dos ampliaciones disponibles a 10 horas se han utilizado en la semana actual (de lunes a domingo), para que el conductor pueda planificar los días restantes."
+    },
+    "example": {
+      "title": "Ejemplo",
+      "text": "Un conductor conduce 9:45 el lunes (1.ª ampliación utilizada) y 9:30 el miércoles (2.ª ampliación utilizada). TachoMobile marca ambas ampliaciones como utilizadas para esa semana; cualquier día de conducción adicional en esa semana queda limitado a 9 horas. El lunes siguiente, el contador se reinicia y ambas ampliaciones vuelven a estar disponibles."
+    },
+    "crew": {
+      "title": "En una tripulación de varios conductores",
+      "text": "En una tripulación de varios conductores, cada conductor sigue teniendo un límite diario individual de 9 horas de conducción, pero la ampliación a 10 horas disponible dos veces por semana no está disponible: cada conductor de la tripulación queda limitado a 9 horas fijas de conducción al día, sin posibilidad de ampliación."
+    }
+  },
+  "navigation": {
+    "back": "← Volver a las reglas de cumplimiento",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

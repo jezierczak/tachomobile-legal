@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Maximális műszakhossz (13/15 óra, személyzet esetén 21 óra) - Megfelelőségi szabályok",
+    "heading": "Maximális műszakhossz (13/15 óra, személyzet esetén 21 óra)",
+    "description": "Magyarázat arra, miért 13 vagy 15 óra a maximális műszak — ez nem közvetlen jogszabályi korlát, hanem a 24 órás ciklus és a vezető számára elérhető napi pihenő következménye."
+  },
+  "content": {
+    "basis": {
+      "title": "Honnan ered a 13 és a 15 óra",
+      "text": "A maximális műszakhossz nem közvetlenül a jogszabály által meghatározott korlát. A műszak kezdetétől számított 24 órás ciklusból következik, a következő műszak előtt kötelező napi pihenővel együtt. Ha a vezető számára elérhető a 9 órás csökkentett napi pihenő, a maximális műszak 15 óra. Ha csak a 11 órás rendes napi pihenő érhető el, a maximális műszak 13 óra."
+    },
+    "crew": {
+      "title": "Több vezetőből álló személyzet esetén: fix 21 óra",
+      "text": "Több vezetőből álló személyzet esetén ez az érték fix, nem változó. A ciklus 24 óra helyett 30 óra, a kötelező pihenő pedig mindig 9 óra (személyzet esetén nincs 11 órás lehetőség, ahogy a napi pihenő szabályainál is szerepel). Ebből fix, 21 órás maximális műszak adódik a személyzet minden tagjára — soha nem 13 vagy 15 óra."
+    },
+    "tachomobileHandling": {
+      "title": "Hogyan kezeli ezt a TachoMobile",
+      "text": "A TachoMobile megjeleníti mind az aktuális műszakidőt, mind az adott napra engedélyezett maximumot, attól függően, hogy melyik napi pihenő opció áll a vezető rendelkezésére."
+    },
+    "example": {
+      "title": "Példa",
+      "text": "Egy vezető rendes, 11 órás pihenőt tart, és új műszakot kezd. Aznapi maximális műszakja 13 óra. Másnap még elérhető egy 9 órás csökkentett pihenő (3-ból 2 felhasználva azon a héten), így a maximális műszak 15 órára nő."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a megfelelőségi szabályok oldalra",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

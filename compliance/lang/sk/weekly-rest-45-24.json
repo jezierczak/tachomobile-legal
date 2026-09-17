@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Týždenný odpočinok (45h / 24h) - Príslušné pravidlá",
+    "heading": "Týždenný odpočinok (45h / 24h)",
+    "description": "Vysvetlenie pravidelného a skráteného týždenného odpočinku, spôsobu kompenzácie skráteného odpočinku a pravidla dvoch týždňov, ktoré obmedzuje, ako často ho možno využiť."
+  },
+  "content": {
+    "regulation": {
+      "title": "Predpis",
+      "text": "Do 6 po sebe nasledujúcich 24-hodinových období od konca predchádzajúceho týždenného odpočinku musí vodič čerpať nový týždenný odpočinok. Pravidelný týždenný odpočinok trvá najmenej 45 hodín. Skrátený týždenný odpočinok trvá najmenej 24 hodín (ale menej ako 45)."
+    },
+    "compensation": {
+      "title": "Kompenzácia skráteného odpočinku",
+      "text": "Akékoľvek skrátenie pod 45 hodín musí byť kompenzované rovnocennou dobou odpočinku, pripojenou k inému odpočinku v trvaní najmenej 9 hodín, čerpanou pred koncom 3. týždňa nasledujúceho po danom týždni."
+    },
+    "twoWeek": {
+      "title": "Pravidlo dvoch týždňov",
+      "text": "V rámci akýchkoľvek dvoch po sebe nasledujúcich týždňov musí vodič čerpať aspoň dva týždenné odpočinky, z ktorých aspoň jeden musí byť pravidelný (45h) odpočinok. Vodič nemôže čerpať dva skrátené týždenné odpočinky po sebe."
+    },
+    "tachomobileHandling": {
+      "title": "Ako to TachoMobile spracúva",
+      "text": "Počas aktuálneho 144-hodinového (6-dňového) okna TachoMobile označuje ako kandidáta každý odpočinok dostatočne dlhý na to, aby sa kvalifikoval ako týždenný odpočinok (aspoň 24 hodín). Po uzavretí okna aplikácia automaticky vyberie najlepšieho kandidáta – najdlhší vyhovujúci odpočinok – a potvrdí ho ako týždenný odpočinok, pričom ho klasifikuje ako pravidelný alebo skrátený a sleduje akúkoľvek dlžnú kompenzáciu. Vodič môže tiež ručne vynútiť okamžité potvrdenie kandidáta ako týždenného odpočinku bez čakania na uzavretie okna."
+    },
+    "example": {
+      "title": "Príklad",
+      "text": "Vodič čerpá skrátený týždenný odpočinok v trvaní 30 hodín (skrátenie o 15 hodín oproti pravidelným 45 hodinám). Pred koncom 3. týždňa nasledujúceho po danom týždni musí ako kompenzáciu čerpať ďalších 15 hodín odpočinku, pripojených k inému odpočinku v trvaní najmenej 9 hodín."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na stránku Príslušné pravidlá",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

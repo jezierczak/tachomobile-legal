@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Denní odpočinek (11h / 9h / 3+9h) - Pravidla souladu",
+    "heading": "Denní odpočinek (11h / 9h / 3+9h)",
+    "description": "Vysvětlení pravidelného, zkráceného a děleného denního odpočinku a toho, čím se liší limit zkrácených odpočinků od týdenního počítadla doby řízení."
+  },
+  "content": {
+    "regulation": {
+      "title": "Předpis",
+      "text": "V každém dni musí řidič čerpat denní odpočinek v délce alespoň 11 po sobě jdoucích hodin (pravidelný denní odpočinek). Ten lze zkrátit až na 9 po sobě jdoucích hodin (zkrácený denní odpočinek), avšak zkrácený denní odpočinek lze čerpat nejvýše 3krát mezi dvěma po sobě jdoucími týdenními odpočinky."
+    },
+    "split": {
+      "title": "Dělený denní odpočinek (3+9)",
+      "text": "Denní odpočinek lze také rozdělit na dvě části: alespoň 3 hodiny, po nichž následuje alespoň 9 po sobě jdoucích hodin, dohromady tedy alespoň 12 hodin. Dělený denní odpočinek se NEZAPOČÍTÁVÁ do limitu 3 zkrácených odpočinků — jde o samostatný, plně vyhovující způsob čerpání denního odpočinku."
+    },
+    "reset": {
+      "title": "Důležité: limit 3 zkrácených odpočinků se resetuje mezi týdenními odpočinky, nikoli s kalendářním týdnem",
+      "text": "Na rozdíl od prodloužení doby řízení na 10 hodin (dostupného dvakrát za kalendářní týden, resetovaného každé pondělí) se 3 povolené zkrácené denní odpočinky počítají mezi dvěma po sobě jdoucími týdenními odpočinky — bez ohledu na to, na který den v týdnu připadají. Počítadlo se resetuje až tehdy, kdy řidič čerpá další týdenní odpočinek, bez ohledu na to, v který den v týdnu k tomu dojde."
+    },
+    "crew": {
+      "title": "V posádce (více řidičů)",
+      "text": "V posádce platí pouze 9hodinová varianta odpočinku — neexistuje zde možnost pravidelného odpočinku (11h), zkráceného odpočinku započítávaného do limitu 3× týdně ani děleného odpočinku (3+9h). Každý řidič v posádce musí mít odpočinek v délce alespoň 9 hodin do 30 hodin od konce svého předchozího odpočinku. Jde o samostatné, pevné pravidlo pro posádku, nezávislé na výše popsaném počítadle 3 zkrácených odpočinků."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile zpracovává toto pravidlo",
+      "text": "TachoMobile sleduje každý denní odpočinek a klasifikuje jej jako pravidelný, zkrácený nebo dělený. Program počítá, kolik zkrácených denních odpočinků bylo čerpáno od posledního týdenního odpočinku řidiče, a upozorňuje, když se blíží limit 3 využití, přičemž počítadlo se automaticky resetuje po zjištění nového týdenního odpočinku."
+    },
+    "example": {
+      "title": "Příklad",
+      "text": "Řidič čerpá 9hodinový zkrácený odpočinek v úterý a ve čtvrtek (využity 2 ze 3). V sobotu čerpá týdenní odpočinek. Počítadlo zkrácených odpočinků se resetuje na 0 — přestože se kalendářní týden nezměnil — protože začal nový týdenní odpočinek."
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na stránku Pravidla souladu",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

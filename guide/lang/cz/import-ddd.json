@@ -82,7 +82,7 @@
       "text": "Tato operace odstraní pouze data spojená s vybranou kartou řidiče.",
       "items": [
         "Neodstraní data GPS telefonu.",
-        "NeodstraĹuje data z jinĂ˝ch karet Ĺ™idiÄŤĹŻ."
+        "Neodstraňuje data z jiných karet řidičů."
       ],
       "final": "Po odstranění dat můžete odstranit i samotný záznam na kartě řidiče. Odstranění dat v TachoMobile ovlivní pouze data uložená v aplikaci; neodstraní data z fyzické karty řidiče."
     }
@@ -98,7 +98,7 @@
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† ZpÄ›t na PrĹŻvodce"
+    "back": "← Zpět na Průvodce"
   },
   "footer": "© TachoMobile 2"
 }

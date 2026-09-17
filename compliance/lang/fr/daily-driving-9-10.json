@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "fr"
+  },
+  "page": {
+    "title": "Limite de temps de conduite journalier (9h/10h) - Règles de conformité",
+    "heading": "Limite de temps de conduite journalier (9h/10h)",
+    "description": "Explication de la limite journalière de 9 heures de conduite, de la prolongation à 10 heures possible deux fois par semaine, et de la façon dont TachoMobile la suit."
+  },
+  "content": {
+    "regulation": {
+      "title": "Réglementation",
+      "text": "Le conducteur ne peut pas conduire plus de 9 heures au cours d'une même journée. Cette limite journalière de conduite peut être prolongée à 10 heures, mais pas plus de deux fois au cours de la même semaine."
+    },
+    "extension": {
+      "title": "Prolongation à 10 heures",
+      "text": "La prolongation à 10 heures n'est disponible que deux fois par semaine. Une fois que le conducteur a utilisé les deux prolongations au cours d'une semaine, chaque journée de conduite restante de cette semaine est limitée à 9 heures. Le compteur hebdomadaire se réinitialise à minuit entre le dimanche et le lundi — les deux prolongations disponibles redeviennent accessibles au début de chaque nouvelle semaine (lundi 00h00), quelle que soit la façon dont elles ont été utilisées la semaine précédente."
+    },
+    "tachomobileHandling": {
+      "title": "Comment TachoMobile gère cette règle",
+      "text": "TachoMobile suit le temps de conduite journalier par rapport à la limite de 9 heures et autorise automatiquement la prolongation à 10 heures lorsque nécessaire. Le compteur d'utilisation hebdomadaire sur l'écran principal indique combien des deux prolongations à 10 heures disponibles ont été utilisées au cours de la semaine en cours (du lundi au dimanche), afin que le conducteur puisse planifier les jours restants."
+    },
+    "example": {
+      "title": "Exemple",
+      "text": "Un conducteur conduit 9h45 le lundi (1ère prolongation utilisée) et 9h30 le mercredi (2ème prolongation utilisée). TachoMobile marque les deux prolongations comme utilisées pour cette semaine ; toute journée de conduite supplémentaire cette semaine-là est limitée à 9 heures. Le lundi suivant, le compteur se réinitialise et les deux prolongations redeviennent disponibles."
+    },
+    "crew": {
+      "title": "En équipage à plusieurs conducteurs",
+      "text": "En équipage à plusieurs conducteurs, chaque conducteur conserve une limite journalière individuelle de 9 heures de conduite, mais la prolongation à 10 heures disponible deux fois par semaine n'est pas accessible — chaque conducteur de l'équipage est limité à 9 heures fixes de conduite par jour, sans possibilité de prolongation."
+    }
+  },
+  "navigation": {
+    "back": "← Retour à la page des règles de conformité",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

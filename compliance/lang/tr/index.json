@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Uyum Kuralları - TachoMobile 2",
+    "heading": "Uyum Kuralları",
+    "description": "Sürüş, çalışma ve dinlenme düzenlemelerini anlama ve TachoMobile'in bunları nasıl desteklediği."
+  },
+  "modules": {
+    "drive430": {
+      "title": "4:30 Sürüş ve Dinlenme",
+      "description": "4 saat 30 dakikalık sürüş sınırı ve gerekli dinlenme hakkında açıklama.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Günlük Sürüş Süresi Sınırı (9s/10s)",
+      "description": "9 saatlik günlük sürüş sınırının ve haftada iki kez kullanılabilen 10 saate uzatmanın açıklaması.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Günlük Dinlenme (11s / 9s / 3+9s)",
+      "description": "Normal, kısaltılmış ve bölünmüş günlük dinlenmenin ve 3 kısaltılmış dinlenme sınırının sıfırlanma kuralının açıklaması.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Maksimum Vardiya Süresi (13s / 15s, Ekipte 21s)",
+      "description": "Maksimum vardiyanın neden 13 veya 15 saat olduğunun ve ekipte neden sabit 21 saat olduğunun açıklaması.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Haftalık Dinlenme (45s / 24s)",
+      "description": "Normal ve kısaltılmış haftalık dinlenmenin, telafi ve iki haftalık kuralın açıklaması.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Ana Sayfaya Dön",
+    "backUrl": "/tr/"
+  },
+  "footer": "© TachoMobile 2"
+}

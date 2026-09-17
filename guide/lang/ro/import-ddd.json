@@ -3,102 +3,102 @@
     "htmlLang": "ro"
   },
   "page": {
-    "title": "Importarea datelor cardului de Č™ofer dintr-un fiČ™ier .ddd - TachoMobile 2",
-    "heading": "Importarea datelor cardului de Č™ofer dintr-un fiČ™ier .ddd",
+    "title": "Importarea datelor cardului de șofer dintr-un fișier .ddd - TachoMobile 2",
+    "heading": "Importarea datelor cardului de șofer dintr-un fișier .ddd",
     "intro": "TachoMobile poate importa date reale de pe un card digital de șofer salvat într-un fișier .ddd."
   },
   "sections": {
     "limit": {
       "title": "Cardul este citit de un alt dispozitiv",
-      "text": "ĂŽn aceastÄ etapÄ, TachoMobile nu citeČ™te direct cardul Č™oferului. Mai Ă®ntĂ˘i descÄrcaČ›i cardul folosind un alt dispozitiv, cititor sau program care acceptÄ citirea cardului de Č™ofer. TachoMobile primeČ™te fiČ™ierul .ddd gata Č™i importÄ datele stocate Ă®n acesta."
+      "text": "În această etapă, TachoMobile nu citește direct cardul șoferului. Mai întâi descărcați cardul folosind un alt dispozitiv, cititor sau program care acceptă citirea cardului de șofer. TachoMobile primește fișierul .ddd gata și importă datele stocate în acesta."
     },
     "import": {
-      "title": "Cum se importÄ un fiČ™ier .ddd",
-      "text": "Nu existÄ un buton separat â€žImport DDDâ€ť. UtilizaČ›i calea normalÄ de import a fiČ™ierului local:",
+      "title": "Cum se importă un fișier .ddd",
+      "text": "Nu există un buton separat „Import DDD”. Utilizați calea normală de import a fișierului local:",
       "steps": [
         "Meniu → Backup și sincronizare → Local (fișier) → Import",
-        "AlegeČ›i fiČ™ierul.",
-        "CĂ˘nd fiČ™ierul selectat are formatul .ddd, TachoMobile Ă®l recunoaČ™te automat ca date de card de Č™ofer Č™i Ă®l proceseazÄ ca date DDD."
+        "Alegeți fișierul.",
+        "Când fișierul selectat are formatul .ddd, TachoMobile îl recunoaște automat ca date de card de șofer și îl procesează ca date DDD."
       ],
       "extra": "Importul se face din fișierul pe care îl alegeți."
     },
     "safety": {
       "title": "Datele GPS nu sunt suprascrise",
-      "text": "Importul unui fiČ™ier .ddd nu suprascrie sau eliminÄ datele GPS Ă®nregistrate de telefon. Datele GPS Č™i datele cardului Č™oferului sunt stocate ca surse de date separate, astfel Ă®ncĂ˘t datele cardului pot fi importate Ă®n siguranČ›Ä fÄrÄ a pierde datele GPS anterioare."
+      "text": "Importul unui fișier .ddd nu suprascrie sau elimină datele GPS înregistrate de telefon. Datele GPS și datele cardului șoferului sunt stocate ca surse de date separate, astfel încât datele cardului pot fi importate în siguranță fără a pierde datele GPS anterioare."
     },
     "identify": {
-      "title": "RecunoaČ™tere automatÄ a cardului Č™oferului",
-      "text": "Fiecare fiČ™ier .ddd conČ›ine informaČ›ii care identificÄ cardul Č™oferului, inclusiv numÄrul cardului Č™i numele Č™i prenumele Č™oferului.",
+      "title": "Recunoaștere automată a cardului șoferului",
+      "text": "Fiecare fișier .ddd conține informații care identifică cardul șoferului, inclusiv numărul cardului și numele și prenumele șoferului.",
       "items": [
-        "DacÄ cardul nu a fost importat Ă®nainte, TachoMobile creeazÄ o nouÄ intrare Ă®n Carduri de Č™ofer.",
-        "NumÄrul cardului Č™i numele Č™oferului sunt salvate.",
-        "Datele fiČ™ierului sunt alocate cardului respectiv."
+        "Dacă cardul nu a fost importat înainte, TachoMobile creează o nouă intrare în Carduri de șofer.",
+        "Numărul cardului și numele șoferului sunt salvate.",
+        "Datele fișierului sunt alocate cardului respectiv."
       ],
       "extra": "În cadrul unui card de șofer puteți vizualiza și datele aferente și evenimentele tehnice."
     },
     "many": {
-      "title": "Date de pe mai multe carduri de Č™ofer",
-      "text": "O singurÄ instalare TachoMobile poate stoca date de pe mai multe carduri de Č™ofer.",
+      "title": "Date de pe mai multe carduri de șofer",
+      "text": "O singură instalare TachoMobile poate stoca date de pe mai multe carduri de șofer.",
       "items": [
         "Importul altui card nu suprascrie datele GPS.",
         "Nu suprascrie datele de pe un card anterior.",
-        "TachoMobile creeazÄ sau actualizeazÄ un set de date separat pentru cardul de Č™ofer corespunzÄtor."
+        "TachoMobile creează sau actualizează un set de date separat pentru cardul de șofer corespunzător."
       ]
     },
     "repeat": {
-      "title": "Se importÄ din nou acelaČ™i card",
-      "text": "CĂ˘nd importaČ›i un alt fiČ™ier .ddd pentru acelaČ™i card, TachoMobile actualizeazÄ Č™i extinde datele existente. Istoria poate fi extinsÄ fie cu o perioadÄ mai nouÄ, fie cu o perioadÄ mai veche. PuteČ›i descÄrca date la fiecare 28 de zile Č™i puteČ›i importa fiČ™iere succesive; istoria devine treptat o cronologie continuÄ a cardului. Nu este necesar sÄ importaČ›i Ă®ntregul istoric de fiecare datÄ."
+      "title": "Se importă din nou același card",
+      "text": "Când importați un alt fișier .ddd pentru același card, TachoMobile actualizează și extinde datele existente. Istoria poate fi extinsă fie cu o perioadă mai nouă, fie cu o perioadă mai veche. Puteți descărca date la fiecare 28 de zile și puteți importa fișiere succesive; istoria devine treptat o cronologie continuă a cardului. Nu este necesar să importați întregul istoric de fiecare dată."
     },
     "source": {
       "title": "Alegerea sursei de date",
-      "intro": "DupÄ ce datele cardului sunt importate, un meniu suplimentar sursÄ apare sub bara de titlu principalÄ atunci cĂ˘nd sunt disponibile atĂ˘t datele GPS, cĂ˘t Č™i datele cardului. Are exact trei opČ›iuni: â€žNumai GPSâ€ť, â€žGPS + cardâ€ť Č™i â€žNumai cardâ€ť."
+      "intro": "După ce datele cardului sunt importate, un meniu suplimentar sursă apare sub bara de titlu principală atunci când sunt disponibile atât datele GPS, cât și datele cardului. Are exact trei opțiuni: „Numai GPS”, „GPS + card” și „Numai card”."
     },
     "gps": {
       "title": "Doar GPS",
-      "text": "AfiČ™eazÄ datele Ă®nregistrate de TachoMobile folosind GPS-ul telefonului. Datele cardului de Č™ofer rÄmĂ˘n stocate Ă®n aplicaČ›ie, dar nu sunt utilizate Ă®n aceastÄ vizualizare."
+      "text": "Afișează datele înregistrate de TachoMobile folosind GPS-ul telefonului. Datele cardului de șofer rămân stocate în aplicație, dar nu sunt utilizate în această vizualizare."
     },
     "combined": {
       "title": "GPS + card",
-      "text": "Aceasta este vizualizarea combinatÄ. CĂ˘nd datele reale ale cardului sunt disponibile pentru o perioadÄ, aplicaČ›ia foloseČ™te datele cardului. CĂ˘nd nu este disponibilÄ, aplicaČ›ia poate folosi datele GPS Ă®nregistrate de telefon.",
+      "text": "Aceasta este vizualizarea combinată. Când datele reale ale cardului sunt disponibile pentru o perioadă, aplicația folosește datele cardului. Când nu este disponibilă, aplicația poate folosi datele GPS înregistrate de telefon.",
       "items": [
-        "date reale ale tahografului/cartei Č™oferului",
+        "date reale ale tahografului/cartei șoferului",
         "date aproximative din GPS-ul telefonului"
       ],
-      "note": "Datele GPS nu sunt convertite Ă®n date de card. AplicaČ›ia foloseČ™te pur Č™i simplu sursa corespunzÄtoare Ă®n funcČ›ie de disponibilitate."
+      "note": "Datele GPS nu sunt convertite în date de card. Aplicația folosește pur și simplu sursa corespunzătoare în funcție de disponibilitate."
     },
     "card": {
       "title": "Numai card",
-      "text": "AfiČ™eazÄ numai datele care provin de pe un card de Č™ofer.",
-      "multiple": "DacÄ Ă®n aplicaČ›ie sunt stocate mai multe carduri, alegeČ›i cardul ale cÄrui date doriČ›i sÄ le afiČ™aČ›i.",
-      "warning": "Alegerea â€žNumai cardâ€ť nu Č™terge datele GPS. SchimbÄ doar sursa de date utilizatÄ pentru afiČ™are Č™i analizÄ."
+      "text": "Afișează numai datele care provin de pe un card de șofer.",
+      "multiple": "Dacă în aplicație sunt stocate mai multe carduri, alegeți cardul ale cărui date doriți să le afișați.",
+      "warning": "Alegerea „Numai card” nu șterge datele GPS. Schimbă doar sursa de date utilizată pentru afișare și analiză."
     },
     "analysis": {
       "title": "Analiza datelor DDD",
-      "text": "TachoMobile analizeazÄ datele de card importate folosind acelaČ™i mecanism de analizÄ a timpului de lucru Č™i a timpului de odihnÄ ca Č™i datele GPS. AnalizeazÄ, printre altele, perioadele necesare de activitate, muncÄ, conducere, pauze Č™i odihnÄ conform regulilor implementate. Datele DDD sunt date reale de pe cardul Č™oferului, nu o alternativÄ inferioarÄ pentru analizÄ."
+      "text": "TachoMobile analizează datele de card importate folosind același mecanism de analiză a timpului de lucru și a timpului de odihnă ca și datele GPS. Analizează, printre altele, perioadele necesare de activitate, muncă, conducere, pauze și odihnă conform regulilor implementate. Datele DDD sunt date reale de pe cardul șoferului, nu o alternativă inferioară pentru analiză."
     },
     "delete": {
-      "title": "Eliminarea datelor unui Č™ofer",
-      "steps": "Utilizare: Carduri Č™ofer â†’ alegeČ›i un card â†’ ČtergeČ›i intrÄrile Č™oferului.",
-      "text": "AceastÄ operaČ›iune Č™terge numai datele asociate cu cardul de Č™ofer selectat.",
+      "title": "Eliminarea datelor unui șofer",
+      "steps": "Utilizare: Carduri șofer → alegeți un card → Ștergeți intrările șoferului.",
+      "text": "Această operațiune șterge numai datele asociate cu cardul de șofer selectat.",
       "items": [
-        "Nu eliminÄ datele GPS ale telefonului.",
-        "Nu Č™terge datele de pe alte carduri de Č™ofer."
+        "Nu elimină datele GPS ale telefonului.",
+        "Nu șterge datele de pe alte carduri de șofer."
       ],
-      "final": "DupÄ Č™tergerea datelor, puteČ›i, de asemenea, sÄ eliminaČ›i Ă®n sine intrarea cardului de Č™ofer. Eliminarea datelor din TachoMobile afecteazÄ numai datele stocate Ă®n aplicaČ›ie; nu Č™terge datele de pe cardul fizic de Č™ofer."
+      "final": "După ștergerea datelor, puteți, de asemenea, să eliminați în sine intrarea cardului de șofer. Eliminarea datelor din TachoMobile afectează numai datele stocate în aplicație; nu șterge datele de pe cardul fizic de șofer."
     }
   },
   "related": {
-    "title": "InformaČ›ii conexe",
-    "text": "UtilizaČ›i aceste module Ghid existente pentru fluxul de lucru din jur:",
-    "backup": "Backup Č™i sincronizare",
+    "title": "Informații conexe",
+    "text": "Utilizați aceste module Ghid existente pentru fluxul de lucru din jur:",
+    "backup": "Backup și sincronizare",
     "backupUrl": "../backup-and-sync/",
-    "history": "Istoricul activitÄČ›ii Č™i jurnalul",
+    "history": "Istoricul activității și jurnalul",
     "historyUrl": "../log-screen/",
     "main": "Ecranul principal",
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† ĂŽnapoi la Ghid"
+    "back": "← Înapoi la Ghid"
   },
   "footer": "© TachoMobile 2"
 }

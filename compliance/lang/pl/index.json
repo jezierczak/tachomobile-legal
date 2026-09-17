@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Zasady zgodności - TachoMobile 2",
+    "heading": "Zasady zgodności",
+    "description": "Rozumienie przepisów dotyczących jazdy, pracy i odpoczynku oraz sposobu, w jaki TachoMobile je wspiera."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Jazda 4:30 i przerwa",
+      "description": "Wyjaśnienie limitu 4 godzin i 30 minut jazdy oraz wymaganej przerwy.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Dzienny limit czasu prowadzenia (9h/10h)",
+      "description": "Wyjaśnienie 9-godzinnego dziennego limitu prowadzenia i wydłużenia do 10 godzin dostępnego dwa razy w tygodniu.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Odpoczynek dzienny (11h / 9h / 3+9h)",
+      "description": "Wyjaśnienie regularnego, skróconego i dzielonego odpoczynku dziennego oraz zasady resetowania licznika 3 skróconych odpoczynków.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Maksymalny czas zmiany (13h / 15h, w załodze 21h)",
+      "description": "Wyjaśnienie, dlaczego maksymalna zmiana wynosi 13 lub 15 godzin oraz dlaczego w załodze jest sztywno 21 godzin.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Odpoczynek tygodniowy (45h / 24h)",
+      "description": "Wyjaśnienie regularnego i skróconego odpoczynku tygodniowego oraz zasad rekompensaty i dwóch tygodni.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do strony głównej",
+    "backUrl": "/pl/"
+  },
+  "footer": "© TachoMobile 2"
+}

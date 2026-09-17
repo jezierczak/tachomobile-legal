@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Dienos vairavimo trukmės riba (9/10 val.) - Atitikties taisyklės",
+    "heading": "Dienos vairavimo trukmės riba (9/10 val.)",
+    "description": "9 valandų dienos vairavimo ribos, du kartus per savaitę galimo pratęsimo iki 10 valandų ir kaip tai stebi „TachoMobile“, paaiškinimas."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglamentas",
+      "text": "Vairuotojas negali vairuoti ilgiau nei 9 valandas per vieną dieną. Ši dienos vairavimo riba gali būti pratęsta iki 10 valandų, bet ne daugiau kaip du kartus per tą pačią savaitę."
+    },
+    "extension": {
+      "title": "Pratęsimas iki 10 valandų",
+      "text": "Pratęsimas iki 10 valandų galimas tik du kartus per savaitę. Kai vairuotojas per savaitę panaudoja abu pratęsimus, kiekviena likusi tos savaitės vairavimo diena ribojama iki 9 valandų. Savaitės skaitiklis atsinaujina vidurnaktį iš sekmadienio į pirmadienį — abu galimi pratęsimai vėl tampa prieinami kiekvienos naujos savaitės pradžioje (pirmadienį 00:00), nepriklausomai nuo to, kaip jie buvo panaudoti praėjusią savaitę."
+    },
+    "tachomobileHandling": {
+      "title": "Kaip „TachoMobile“ tvarko šią taisyklę",
+      "text": "„TachoMobile“ stebi dienos vairavimo trukmę pagal 9 valandų ribą ir prireikus automatiškai leidžia pratęsimą iki 10 valandų. Pagrindiniame ekrane esantis savaitės naudojimo skaitiklis rodo, kiek iš dviejų galimų 10 valandų pratęsimų panaudota einamąją savaitę (nuo pirmadienio iki sekmadienio), kad vairuotojas galėtų atitinkamai planuoti likusias dienas."
+    },
+    "example": {
+      "title": "Pavyzdys",
+      "text": "Vairuotojas pirmadienį vairuoja 9:45 (panaudotas 1-asis pratęsimas), o trečiadienį — 9:30 (panaudotas 2-asis pratęsimas). „TachoMobile“ pažymi abu tos savaitės pratęsimus kaip panaudotus; kiekviena kita tos savaitės vairavimo diena ribojama iki 9 valandų. Kitą pirmadienį skaitiklis atsinaujina ir abu pratęsimai vėl tampa prieinami."
+    },
+    "crew": {
+      "title": "Vairuojant su keliais vairuotojais (ekipažu)",
+      "text": "Vairuojant ekipažu kiekvienam vairuotojui vis tiek taikoma individuali 9 valandų dienos vairavimo riba, tačiau du kartus per savaitę galimas pratęsimas iki 10 valandų negalioja — kiekvienas ekipažo vairuotojas apribotas fiksuotomis 9 valandomis vairavimo per dieną, be galimybės pratęsti."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į atitikties taisykles",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

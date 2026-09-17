@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Heti pihenőidő (45/24 óra) - Megfelelőségi szabályok",
+    "heading": "Heti pihenőidő (45/24 óra)",
+    "description": "A rendes és csökkentett heti pihenőidő magyarázata, a csökkentett pihenő kompenzálásának módja, valamint a kéthetes szabály, amely korlátozza, milyen gyakran vehető igénybe."
+  },
+  "content": {
+    "regulation": {
+      "title": "Szabályozás",
+      "text": "Az előző heti pihenőidő végétől számított 6 egymást követő 24 órás időszakon belül a vezetőnek új heti pihenőidőt kell tartania. A rendes heti pihenő legalább 45 óra. A csökkentett heti pihenő legalább 24 óra (de 45-nél kevesebb)."
+    },
+    "compensation": {
+      "title": "A csökkentett pihenő kompenzálása",
+      "text": "A 45 óra alatti csökkentést egy másik, legalább 9 órás pihenőhöz kapcsolt, azzal egyenértékű pihenőidővel kell kompenzálni, amelyet az adott hetet követő 3. hét végéig kell letölteni."
+    },
+    "twoWeek": {
+      "title": "A kéthetes szabály",
+      "text": "Bármely két egymást követő héten belül a vezetőnek legalább két heti pihenőt kell tartania, amelyek közül legalább egynek rendes (45 órás) pihenőnek kell lennie. A vezető nem tarthat két csökkentett heti pihenőt egymás után."
+    },
+    "tachomobileHandling": {
+      "title": "Hogyan kezeli ezt a TachoMobile",
+      "text": "Az aktuális 144 órás (6 napos) ablakon belül a TachoMobile jelöltként megjelöl minden olyan pihenőt, amely elég hosszú ahhoz, hogy heti pihenőnek minősüljön (legalább 24 óra). Az ablak lezárultával az alkalmazás automatikusan kiválasztja a legjobb jelöltet – a leghosszabb, minősítésnek megfelelő pihenőt – és heti pihenőként erősíti meg, rendesként vagy csökkentettként sorolva be, és nyomon követve az esetleges fennálló kompenzációt. A vezető manuálisan is kényszerítheti, hogy egy jelöltet azonnal heti pihenőként erősítsenek meg, anélkül hogy megvárná az ablak lezárását."
+    },
+    "example": {
+      "title": "Példa",
+      "text": "Egy vezető 30 órás csökkentett heti pihenőt tart (15 órás csökkentés a rendes 45 órához képest). Az adott hetet követő 3. hét végéig további 15 óra pihenőt kell tartania, egy másik, legalább 9 órás pihenőhöz kapcsolva, kompenzációként."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a megfelelőségi szabályok oldalra",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

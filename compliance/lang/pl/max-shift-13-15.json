@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Maksymalny czas zmiany (13h / 15h, w załodze 21h) - Zasady zgodności",
+    "heading": "Maksymalny czas zmiany (13h / 15h, w załodze 21h)",
+    "description": "Wyjaśnienie, dlaczego maksymalna zmiana wynosi 13 lub 15 godzin — to nie jest bezpośredni limit z przepisów, tylko konsekwencja cyklu 24-godzinnego i odpoczynku dziennego dostępnego dla kierowcy."
+  },
+  "content": {
+    "basis": {
+      "title": "Skąd się biorą 13h i 15h",
+      "text": "Maksymalny czas zmiany nie jest limitem ustalonym bezpośrednio przez przepisy. Wynika z cyklu 24-godzinnego liczonego od rozpoczęcia zmiany, w połączeniu z odpoczynkiem dziennym, który kierowca musi wykorzystać przed kolejną zmianą. Jeśli kierowcy dostępny jest skrócony odpoczynek dzienny 9 godzin, maksymalna zmiana wynosi 15 godzin. Jeśli dostępny jest tylko regularny odpoczynek dzienny 11 godzin, maksymalna zmiana wynosi 13 godzin."
+    },
+    "crew": {
+      "title": "W załodze: sztywne 21 godzin",
+      "text": "W załodze ta wartość jest sztywna, a nie zmienna. Cykl wynosi 30 godzin zamiast 24, a wymagany odpoczynek to zawsze 9 godzin (w załodze nie ma wariantu 11-godzinnego, co zostało wyjaśnione w zasadach dotyczących odpoczynku dziennego). Wynika z tego sztywna maksymalna zmiana 21 godzin dla każdego kierowcy w załodze — nigdy 13 ani 15 godzin."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile to obsługuje",
+      "text": "TachoMobile pokazuje zarówno aktualny czas trwania zmiany, jak i maksimum dozwolone na dany dzień, w zależności od tego, który wariant odpoczynku dziennego jest dostępny dla kierowcy."
+    },
+    "example": {
+      "title": "Przykład",
+      "text": "Kierowca wykorzystuje regularny 11-godzinny odpoczynek i rozpoczyna nową zmianę. Maksymalny czas jego zmiany tego dnia wynosi 13 godzin. Następnego dnia nadal dostępny jest skrócony 9-godzinny odpoczynek (wykorzystane 2 z 3 w tym tygodniu), więc maksymalna zmiana wydłuża się do 15 godzin."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do Zasad zgodności",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

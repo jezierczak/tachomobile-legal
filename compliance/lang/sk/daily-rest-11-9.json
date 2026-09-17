@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Denný odpočinok (11h / 9h / 3+9h) - Príslušné pravidlá",
+    "heading": "Denný odpočinok (11h / 9h / 3+9h)",
+    "description": "Vysvetlenie pravidelného, skráteného a deleného denného odpočinku a toho, čím sa limit skrátených odpočinkov líši od týždenného počítadla doby vedenia vozidla."
+  },
+  "content": {
+    "regulation": {
+      "title": "Predpis",
+      "text": "V rámci každých 24 hodín musí vodič čerpať denný odpočinok v trvaní najmenej 11 po sebe nasledujúcich hodín (pravidelný denný odpočinok). Ten možno skrátiť na minimálne 9 po sebe nasledujúcich hodín (skrátený denný odpočinok), avšak skrátený denný odpočinok možno čerpať najviac 3-krát medzi dvoma po sebe nasledujúcimi týždennými odpočinkami."
+    },
+    "split": {
+      "title": "Delený denný odpočinok (3+9)",
+      "text": "Denný odpočinok možno tiež rozdeliť na dve časti: najmenej 3 hodiny, po ktorých nasleduje najmenej 9 po sebe nasledujúcich hodín, spolu teda najmenej 12 hodín. Delený denný odpočinok sa NEZAPOČÍTAVA do limitu 3 skrátených odpočinkov — ide o samostatný, plne vyhovujúci spôsob čerpania denného odpočinku."
+    },
+    "reset": {
+      "title": "Dôležité: limit 3 skrátených odpočinkov sa resetuje medzi týždennými odpočinkami, nie s kalendárnym týždňom",
+      "text": "Na rozdiel od predĺženia doby vedenia vozidla na 10 hodín (dostupného dvakrát za kalendárny týždeň, resetovaného každý pondelok), 3 povolené skrátené denné odpočinky sa počítajú medzi dvoma po sebe nasledujúcimi týždennými odpočinkami — bez ohľadu na to, na ktorý deň týždňa pripadajú. Počítadlo sa resetuje až vtedy, keď vodič čerpá ďalší týždenný odpočinok, bez ohľadu na to, v ktorý deň týždňa k tomu dôjde."
+    },
+    "crew": {
+      "title": "V posádke (viacero vodičov)",
+      "text": "V posádke platí iba 9-hodinový variant odpočinku — neexistuje tu možnosť pravidelného odpočinku (11 h), skráteného odpočinku započítavaného do limitu 3-krát týždenne ani deleného odpočinku (3+9 h). Každý vodič v posádke potrebuje odpočinok v trvaní najmenej 9 hodín do 30 hodín od konca svojho predchádzajúceho odpočinku. Ide o samostatné, pevné pravidlo pre posádku, nezávislé od vyššie opísaného počítadla 3 skrátených odpočinkov."
+    },
+    "tachomobileHandling": {
+      "title": "Ako TachoMobile spracúva toto pravidlo",
+      "text": "TachoMobile sleduje každý denný odpočinok a klasifikuje ho ako pravidelný, skrátený alebo delený. Počíta, koľko skrátených denných odpočinkov bolo čerpaných od posledného týždenného odpočinku vodiča, a upozorňuje, keď sa blíži limit 3 použití, pričom počítadlo sa automaticky resetuje po zistení nového týždenného odpočinku."
+    },
+    "example": {
+      "title": "Príklad",
+      "text": "Vodič čerpá 9-hodinový skrátený odpočinok v utorok a vo štvrtok (využité 2 z 3). V sobotu čerpá týždenný odpočinok. Počítadlo skrátených odpočinkov sa resetuje na 0 — hoci sa kalendárny týždeň nezmenil — pretože začal nový týždenný odpočinok."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na stránku Príslušné pravidlá",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Jazda 4:30 i przerwa - Zasady zgodności",
+    "heading": "Jazda 4:30 i przerwa",
+    "description": "Wyjaśnienie limitu 4 godzin i 30 minut jazdy oraz wymaganej przerwy."
+  },
+  "content": {
+    "regulation": {
+      "title": "Przepis",
+      "text": "Kierowca nie może prowadzić pojazdu dłużej niż 4 godziny i 30 minut bez wymaganej przerwy. Po tym czasie wymagana jest 45-minutowa przerwa."
+    },
+    "breakVariants": {
+      "title": "Warianty przerwy",
+      "text": "Przerwa może być wykonana jako 45 minut nieprzerwanego odpoczynku, albo podzielona na dwie części: najpierw 15 minut, a następnie 30 minut odpoczynku."
+    },
+    "tachomobileHandling": {
+      "title": "Jak obsługuje to TachoMobile",
+      "text": "TachoMobile obsługuje oba warianty przerwy. Program analizuje czas ciągłej jazdy i kontroluje, czy kierowca wykonał wymaganą przerwę. Na ekranie głównym znajduje się checkbox informujący o zaliczeniu pierwszych 15 minut przerwy. Jeżeli pierwsze 15 minut zostało prawidłowo zaliczone, program zapamiętuje ten fakt. W takiej sytuacji do zakończenia wymaganej przerwy pozostaje 30 minut odpoczynku. Po wykonaniu tych kolejnych 30 minut TachoMobile uznaje wymaganą przerwę za spełnioną i resetuje licznik ciągłej jazdy. W przypadku wykonania pełnych 45 minut nieprzerwanego odpoczynku program również uznaje wymóg za spełniony i resetuje licznik ciągłej jazdy."
+    },
+    "example": {
+      "title": "Przykład",
+      "text": "Kierowca przejechał 4:00 → zatrzymał się na 15 minut → wznowił jazdę → później zatrzymał się na 30 minut. TachoMobile pamięta wcześniej zaliczone 15 minut. Po zakończeniu kolejnych 30 minut uznaje przerwę 45-minutową za wykonaną i resetuje licznik jazdy ciągłej."
+    },
+    "crew": {
+      "title": "W załodze (kilku kierowców)",
+      "text": "W załodze wymagana 45-minutowa przerwa może zostać wykorzystana przez kierowcę jako czas dostępności, gdy pojazdem kieruje w tym czasie drugi kierowca. Takie wykorzystanie przerwy resetuje licznik 4 godzin 30 minut jazdy dla odpoczywającego kierowcy. Dzięki naprzemiennemu wykorzystywaniu przerw przez obu kierowców załoga może utrzymać pojazd w ruchu praktycznie ciągiem nawet przez ok. 18 godzin, mimo że każdy kierowca indywidualnie przestrzega swoich własnych limitów jazdy i odpoczynku."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do Zasad zgodności",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

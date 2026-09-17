@@ -10,7 +10,7 @@
   "sections": {
     "limit": {
       "title": "Kartu číta iné zariadenie",
-      "text": "V tejto fĂˇze TachoMobile neÄŤĂ­ta kartu vodiÄŤa priamo. Najprv si stiahnite kartu pomocou inĂ©ho zariadenia, ÄŤĂ­taÄŤky alebo programu, ktorĂ˝ podporuje ÄŤĂ­tanie z karty vodiÄŤa. TachoMobile prijme pripravenĂ˝ sĂşbor .ddd a importuje Ăşdaje v Ĺom uloĹľenĂ©."
+      "text": "V tejto fáze TachoMobile nečíta kartu vodiča priamo. Najprv si stiahnite kartu pomocou iného zariadenia, čítačky alebo programu, ktorý podporuje čítanie z karty vodiča. TachoMobile prijme pripravený súbor .ddd a importuje údaje v ňom uložené."
     },
     "import": {
       "title": "Ako importovať súbor .ddd",
@@ -98,7 +98,7 @@
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† SpĂ¤ĹĄ na Sprievodca"
+    "back": "← Späť na Sprievodca"
   },
   "footer": "© TachoMobile 2"
 }

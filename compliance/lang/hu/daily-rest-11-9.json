@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "hu"
+  },
+  "page": {
+    "title": "Napi pihenőidő (11/9 óra / 3+9) - Megfelelőségi szabályok",
+    "heading": "Napi pihenőidő (11/9 óra / 3+9)",
+    "description": "A rendes, csökkentett és megosztott napi pihenőidő magyarázata, valamint hogy a csökkentett pihenők korlátja miben tér el a heti vezetésiidő-számlálótól."
+  },
+  "content": {
+    "regulation": {
+      "title": "Szabályozás",
+      "text": "Minden 24 órás időszakon belül a vezetőnek legalább 11 egymást követő órás napi pihenőidőt kell tartania (rendes napi pihenőidő). Ez legfeljebb 9 egymást követő órára csökkenthető (csökkentett napi pihenőidő), de csökkentett napi pihenőidő legfeljebb 3 alkalommal vehető igénybe két egymást követő heti pihenőidő között."
+    },
+    "split": {
+      "title": "Megosztott napi pihenőidő (3+9)",
+      "text": "A napi pihenőidő két részre is osztható: legalább 3 óra, majd legalább 9 egymást követő óra, összesen legalább 12 óra. A megosztott napi pihenőidő NEM számít bele a 3 alkalmas csökkentett pihenő korlátba — ez a napi pihenőidő letöltésének egy önálló, teljesen szabályos módja."
+    },
+    "reset": {
+      "title": "Fontos: a 3 alkalmas csökkentett pihenő korlátja a heti pihenők között nullázódik, nem a naptári héttel",
+      "text": "A 10 órára történő vezetésiidő-meghosszabbítással ellentétben (amely naptári hetenként kétszer vehető igénybe, és minden hétfőn nullázódik), a 3 engedélyezett csökkentett napi pihenőt két egymást követő heti pihenőidő között számolják — függetlenül attól, hogy a hét mely napjára esnek. A számláló csak akkor nullázódik, amikor a vezető leteszi a következő heti pihenőidejét, függetlenül attól, hogy ez a hét melyik napján történik."
+    },
+    "crew": {
+      "title": "Több vezetőből álló személyzet esetén",
+      "text": "Több vezetőből álló személyzet esetén kizárólag a 9 órás pihenőváltozat érvényes — itt nincs lehetőség rendes pihenőre (11 óra), a heti 3-szoros korlátba beszámító csökkentett pihenőre, sem megosztott pihenőre (3+9 óra). A személyzet minden tagjának legalább 9 óra pihenőt kell tartania az előző pihenője végétől számított 30 órán belül. Ez a személyzetre vonatkozó önálló, fix szabály, függetlenül a fent leírt 3 alkalmas csökkentett pihenő számlálótól."
+    },
+    "tachomobileHandling": {
+      "title": "Hogyan kezeli a TachoMobile ezt a szabályt",
+      "text": "A TachoMobile nyomon követi minden napi pihenőt, és rendesként, csökkentettként vagy megosztottként sorolja be. Számolja, hány csökkentett napi pihenőt vettek igénybe a vezető utolsó heti pihenője óta, és figyelmeztet, ha közeledik a 3 alkalmas korlát, a számlálót pedig automatikusan nullázza, amint új heti pihenőt észlel."
+    },
+    "example": {
+      "title": "Példa",
+      "text": "Egy vezető kedden és csütörtökön 9 órás csökkentett pihenőt tart (3-ból 2 felhasználva). Szombaton leteszi a heti pihenőjét. A csökkentett pihenők számlálója 0-ra áll vissza — annak ellenére, hogy a naptári hét nem változott —, mert új heti pihenőidőszak kezdődött."
+    }
+  },
+  "navigation": {
+    "back": "← Vissza a megfelelőségi szabályok oldalra",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

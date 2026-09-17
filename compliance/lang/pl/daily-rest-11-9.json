@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Odpoczynek dzienny (11h / 9h / 3+9h) - Zasady zgodności",
+    "heading": "Odpoczynek dzienny (11h / 9h / 3+9h)",
+    "description": "Wyjaśnienie regularnego, skróconego i dzielonego odpoczynku dziennego oraz tego, czym różni się limit skróconych odpoczynków od tygodniowego licznika czasu jazdy."
+  },
+  "content": {
+    "regulation": {
+      "title": "Przepis",
+      "text": "W każdej dobie kierowca musi wykorzystać odpoczynek dzienny trwający co najmniej 11 kolejnych godzin (regularny odpoczynek dzienny). Może on zostać skrócony do co najmniej 9 kolejnych godzin (skrócony odpoczynek dzienny), jednak skrócony odpoczynek dzienny można wykorzystać maksymalnie 3 razy pomiędzy dwoma kolejnymi tygodniowymi okresami odpoczynku."
+    },
+    "split": {
+      "title": "Dzielony odpoczynek dzienny (3+9)",
+      "text": "Odpoczynek dzienny można również podzielić na dwa okresy: co najmniej 3 godziny, a następnie co najmniej 9 kolejnych godzin, co daje łącznie co najmniej 12 godzin. Dzielony odpoczynek dzienny NIE wlicza się do limitu 3 skróconych odpoczynków — jest to osobny, w pełni zgodny sposób realizacji odpoczynku dziennego."
+    },
+    "reset": {
+      "title": "Ważne: limit 3 skróconych odpoczynków resetuje się pomiędzy tygodniowymi odpoczynkami, a nie z tygodniem kalendarzowym",
+      "text": "W przeciwieństwie do wydłużenia czasu jazdy do 10 godzin (dostępnego dwa razy w tygodniu kalendarzowym, resetowanego co poniedziałek), 3 dozwolone skrócone odpoczynki dzienne liczone są pomiędzy dwoma kolejnymi tygodniowymi okresami odpoczynku — niezależnie od tego, na jaki dzień tygodnia przypadają. Licznik resetuje się dopiero, gdy kierowca wykorzysta kolejny odpoczynek tygodniowy, bez względu na to, w jaki dzień tygodnia to nastąpi."
+    },
+    "crew": {
+      "title": "W załodze (kilku kierowców)",
+      "text": "W załodze obowiązuje TYLKO wariant 9-godzinny — nie ma tu opcji odpoczynku regularnego (11h), skróconego liczonego do limitu 3x/tydzień ani dzielonego (3+9h). Każdy kierowca w załodze musi mieć odpoczynek co najmniej 9 godzin w ciągu 30 godzin od końca poprzedniego odpoczynku — to osobna, stała zasada dla załogi, niezależna od licznika 3 skróconych odpoczynków opisanego wyżej."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile obsługuje tę zasadę",
+      "text": "TachoMobile śledzi każdy odpoczynek dzienny i klasyfikuje go jako regularny, skrócony lub dzielony. Program liczy, ile skróconych odpoczynków dziennych zostało wykorzystanych od ostatniego tygodniowego odpoczynku kierowcy, i ostrzega, gdy zbliża się limit 3 użyć, automatycznie resetując licznik po wykryciu nowego odpoczynku tygodniowego."
+    },
+    "example": {
+      "title": "Przykład",
+      "text": "Kierowca korzysta z 9-godzinnego skróconego odpoczynku we wtorek i w czwartek (wykorzystane 2 z 3). W sobotę wykorzystuje odpoczynek tygodniowy. Licznik skróconych odpoczynków resetuje się do 0 — mimo że tydzień kalendarzowy się nie zmienił — ponieważ rozpoczął się nowy okres odpoczynku tygodniowego."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do Zasad zgodności",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

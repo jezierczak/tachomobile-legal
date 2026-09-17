@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Haftalık Dinlenme (45s / 24s) - Uyum Kuralları",
+    "heading": "Haftalık Dinlenme (45s / 24s)",
+    "description": "Normal ve kısaltılmış haftalık dinlenmenin, kısaltılmış dinlenmenin nasıl telafi edilmesi gerektiğinin ve kaç kez kullanılabileceğini sınırlayan iki haftalık kuralın açıklaması."
+  },
+  "content": {
+    "regulation": {
+      "title": "Yönetmelik",
+      "text": "Önceki haftalık dinlenmenin bitiminden sonraki 6 ardışık 24 saatlik dönem içinde sürücü yeni bir haftalık dinlenme yapmalıdır. Normal haftalık dinlenme en az 45 saattir. Kısaltılmış haftalık dinlenme en az 24 saattir (ancak 45 saatten azdır)."
+    },
+    "compensation": {
+      "title": "Kısaltılmış Dinlenmenin Telafisi",
+      "text": "45 saatin altındaki her kısaltma, söz konusu haftayı takip eden 3. haftanın sonundan önce alınan, en az 9 saatlik başka bir dinlenmeye eklenen eşdeğer bir dinlenme süresiyle telafi edilmelidir."
+    },
+    "twoWeek": {
+      "title": "İki Haftalık Kural",
+      "text": "Herhangi iki ardışık hafta içinde sürücü, en az biri normal (45s) dinlenme olmak üzere en az iki haftalık dinlenme yapmalıdır. Bir sürücü art arda iki kısaltılmış haftalık dinlenme yapamaz."
+    },
+    "tachomobileHandling": {
+      "title": "TachoMobile Bunu Nasıl Ele Alır",
+      "text": "Mevcut 144 saatlik (6 günlük) pencere boyunca TachoMobile, haftalık dinlenme olarak nitelendirilmek için yeterince uzun olan (en az 24 saat) her dinlenmeyi aday olarak işaretler. Pencere kapandığında uygulama otomatik olarak en iyi adayı — en uzun uygun dinlenmeyi — seçer ve bunu haftalık dinlenme olarak onaylar, normal veya kısaltılmış olarak sınıflandırır ve varsa borçlu olunan telafiyi izler. Sürücü ayrıca pencerenin kapanmasını beklemeden bir adayı hemen haftalık dinlenme olarak onaylamaya manuel olarak zorlayabilir."
+    },
+    "example": {
+      "title": "Örnek",
+      "text": "Bir sürücü 30 saatlik kısaltılmış haftalık dinlenme yapar (normal 45 saate göre 15 saatlik bir kısaltma). O haftayı takip eden 3. haftanın sonundan önce, telafi etmek için en az 9 saatlik başka bir dinlenmeye eklenmiş 15 saat ek dinlenme yapmalıdır."
+    }
+  },
+  "navigation": {
+    "back": "← Uyum Kuralları Sayfasına Dön",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

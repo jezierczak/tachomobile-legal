@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Atitikties taisyklės - TachoMobile 2",
+    "heading": "Atitikties taisyklės",
+    "description": "Suprantantys vairavimo, darbo ir poilsio reikalavimus ir kaip TachoMobile juos palaiko."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Vairavimas 4:30 ir pertrauka",
+      "description": "Paaiškinimas apie 4 valandų ir 30 minučių vairavimo ribą ir būtiną pertrauką.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Dienos vairavimo trukmės riba (9/10 val.)",
+      "description": "9 valandų dienos vairavimo ribos ir du kartus per savaitę galimo pratęsimo iki 10 valandų paaiškinimas.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Kasdienis poilsis (11 val. / 9 val. / 3+9)",
+      "description": "Įprasto, sutrumpinto ir padalyto kasdienio poilsio bei 3 sutrumpintų poilsių ribos atsinaujinimo taisyklės paaiškinimas.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Maksimali pamainos trukmė (13/15 val., ekipaže 21 val.)",
+      "description": "Paaiškinimas, kodėl maksimali pamaina yra 13 ar 15 valandų ir kodėl ekipaže ji fiksuota ties 21 valanda.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Savaitinis poilsis (45 val. / 24 val.)",
+      "description": "Įprasto ir sutrumpinto savaitinio poilsio bei kompensavimo ir dviejų savaičių taisyklės paaiškinimas.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į pagrindinį puslapį",
+    "backUrl": "/lt/"
+  },
+  "footer": "© TachoMobile 2"
+}

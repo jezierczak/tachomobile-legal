@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Maximálna dĺžka zmeny (13h / 15h, v posádke 21h) - Príslušné pravidlá",
+    "heading": "Maximálna dĺžka zmeny (13h / 15h, v posádke 21h)",
+    "description": "Vysvetlenie, prečo je maximálna zmena 13 alebo 15 hodín — nejde o priamy limit stanovený predpisom, ale o dôsledok 24-hodinového cyklu a denného odpočinku, ktorý má vodič k dispozícii."
+  },
+  "content": {
+    "basis": {
+      "title": "Odkiaľ pochádzajú hodnoty 13h a 15h",
+      "text": "Maximálna dĺžka zmeny nie je limit stanovený priamo predpisom. Vyplýva z 24-hodinového cyklu počítaného od začiatku zmeny v kombinácii s denným odpočinkom, ktorý musí vodič čerpať pred ďalšou zmenou. Ak má vodič k dispozícii skrátený denný odpočinok 9 hodín, maximálna zmena je 15 hodín. Ak má k dispozícii iba pravidelný denný odpočinok 11 hodín, maximálna zmena je 13 hodín."
+    },
+    "crew": {
+      "title": "V posádke: pevných 21 hodín",
+      "text": "V posádke je táto hodnota pevná, nie premenlivá. Cyklus je 30 hodín namiesto 24 a požadovaný odpočinok je vždy 9 hodín (v posádke neexistuje variant 11 hodín, ako je vysvetlené v pravidlách denného odpočinku). Z toho vyplýva pevná maximálna zmena 21 hodín pre každého vodiča v posádke — nikdy 13 alebo 15 hodín."
+    },
+    "tachomobileHandling": {
+      "title": "Ako to TachoMobile spracúva",
+      "text": "TachoMobile zobrazuje aktuálnu dĺžku zmeny aj maximum povolené pre daný deň, na základe toho, ktorý variant denného odpočinku má vodič k dispozícii."
+    },
+    "example": {
+      "title": "Príklad",
+      "text": "Vodič čerpá pravidelný 11-hodinový odpočinok a začína novú zmenu. Jeho maximálna dĺžka zmeny je pre tento deň 13 hodín. Nasledujúci deň je stále k dispozícii skrátený 9-hodinový odpočinok (využité 2 z 3 za týždeň), takže maximálna zmena sa predlžuje na 15 hodín."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na stránku Príslušné pravidlá",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

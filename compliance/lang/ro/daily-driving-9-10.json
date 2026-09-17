@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Limita zilnică a timpului de conducere (9h/10h) - Reguli de conformitate",
+    "heading": "Limita zilnică a timpului de conducere (9h/10h)",
+    "description": "Explicația limitei zilnice de 9 ore de conducere, a prelungirii la 10 ore disponibile de două ori pe săptămână și a modului în care TachoMobile o urmărește."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglementare",
+      "text": "Conducătorul auto nu poate conduce mai mult de 9 ore într-o singură zi. Această limită zilnică de conducere poate fi prelungită la 10 ore, dar nu mai mult de două ori în aceeași săptămână."
+    },
+    "extension": {
+      "title": "Prelungire la 10 ore",
+      "text": "Prelungirea la 10 ore este disponibilă doar de două ori pe săptămână. Odată ce un conducător auto a folosit ambele prelungiri într-o săptămână, orice zi de conducere rămasă din acea săptămână este limitată la 9 ore. Contorul săptămânal se resetează la miezul nopții dintre duminică și luni — cele două prelungiri disponibile devin din nou disponibile la începutul fiecărei săptămâni noi (luni, ora 00:00), indiferent de modul în care au fost folosite în săptămâna anterioară."
+    },
+    "tachomobileHandling": {
+      "title": "Cum gestionează TachoMobile această regulă",
+      "text": "TachoMobile urmărește timpul zilnic de conducere în raport cu limita de 9 ore și permite automat prelungirea la 10 ore atunci când este necesar. Contorul de utilizare săptămânală de pe ecranul principal arată câte dintre cele două prelungiri de 10 ore disponibile au fost folosite în săptămâna curentă (luni–duminică), astfel încât conducătorul auto își poate planifica zilele rămase."
+    },
+    "example": {
+      "title": "Exemplu",
+      "text": "Un conducător auto conduce 9:45 luni (prima prelungire folosită) și 9:30 miercuri (a doua prelungire folosită). TachoMobile marchează ambele prelungiri ca folosite pentru acea săptămână; orice zi de conducere suplimentară din acea săptămână este limitată la 9 ore. Lunea următoare, contorul se resetează și ambele prelungiri devin din nou disponibile."
+    },
+    "crew": {
+      "title": "În echipaj cu mai mulți conducători auto",
+      "text": "În echipaj, fiecare conducător auto păstrează o limită zilnică individuală de 9 ore de conducere, dar prelungirea la 10 ore disponibilă de două ori pe săptămână nu este disponibilă — fiecare conducător auto din echipaj este limitat la 9 ore fixe de conducere pe zi, fără posibilitate de prelungire."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la Reguli de conformitate",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

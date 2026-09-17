@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "ro"
+  },
+  "page": {
+    "title": "Conducere 4:30 și pauză - Reguli de conformitate",
+    "heading": "Conducere 4:30 și pauză",
+    "description": "Explicația limitării de 4 ore și 30 minute conducere și a pauzei obligatorii."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulament",
+      "text": "Conducătorul nu poate conduce un vehicul mai mult de 4 ore și 30 minute fără o pauză obligatorie. După acest interval, este necesară o pauză de 45 de minute."
+    },
+    "breakVariants": {
+      "title": "Variante de pauză",
+      "text": "Pauza poate fi efectuată în două moduri: 1. Ca odihnă neîntreruptă de 45 de minute, sau 2. Împărțită în două părți: întâi 15 minute, apoi 30 minute odihnă."
+    },
+    "tachomobileHandling": {
+      "title": "Cum gestionează TachoMobile această regulă",
+      "text": "TachoMobile susține ambele variante de pauză. Programul analizează timpul de conducere și controlează dacă conducătorul a finalizat pauza obligatorie. Pe ecranul principal se află o casetă de selectare care indică dacă primele 15 minute din pauză au fost încheiate. Dacă primele 15 minute sunt înregistrate corect, programul se amintește de acest fapt. În această situație, rămân 30 de minute odihnă pentru a finaliza pauza obligatorie. După finalizarea acestor 30 de minute suplimentari, TachoMobile consideră că pauza obligatorie a fost îndeplinită și resetează contorul pentru conducerea continuă. Dacă este efectuată o pauză completă de 45 de minute neîntrerupte, programul consideră și această cerință îndeplinită și resetează contorul pentru conducerea continuă."
+    },
+    "example": {
+      "title": "Exemplu",
+      "text": "Conducătorul a condus timp de 4:00 → s-a oprit timp de 15 minute → a reluat conducerea → mai târziu s-a oprit timp de 30 minute. TachoMobile se amintește de cele 15 minute deja încheiate. După finalizarea celor 30 de minute suplimentari, TachoMobile consideră că pauza de 45 de minute a fost îndeplinită și resetează contorul pentru conducerea continuă."
+    },
+    "crew": {
+      "title": "În echipaj cu mai mulți conducători auto",
+      "text": "În echipaj, un conducător auto poate folosi pauza obligatorie de 45 de minute ca timp de disponibilitate în timp ce celălalt conducător auto este la volan. Folosirea pauzei în acest mod resetează contorul de 4 ore și 30 de minute de conducere al conducătorului auto care se odihnește. Alternând pauzele între cei doi conducători auto, echipajul poate menține vehiculul practic în mișcare continuă timp de aproximativ 18 ore, chiar dacă fiecare conducător auto respectă individual propriile limite de conducere și repaus."
+    }
+  },
+  "navigation": {
+    "back": "← Înapoi la Reguli de conformitate",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

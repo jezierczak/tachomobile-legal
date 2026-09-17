@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "cz"
+  },
+  "page": {
+    "title": "Denní limit doby řízení (9h/10h) - Pravidla souladu",
+    "heading": "Denní limit doby řízení (9h/10h)",
+    "description": "Vysvětlení 9hodinového denního limitu řízení, dvakrát týdně možného prodloužení na 10 hodin a jak to TachoMobile sleduje."
+  },
+  "content": {
+    "regulation": {
+      "title": "Předpis",
+      "text": "Řidič nesmí řídit déle než 9 hodin v jednom dni. Tento denní limit řízení lze prodloužit na 10 hodin, nejvýše však dvakrát v témže týdnu."
+    },
+    "extension": {
+      "title": "Prodloužení na 10 hodin",
+      "text": "Prodloužení na 10 hodin je k dispozici pouze dvakrát týdně. Jakmile řidič využije obě prodloužení v daném týdnu, každý další den řízení v tomto týdnu je omezen na 9 hodin. Týdenní počítadlo se resetuje o půlnoci z neděle na pondělí — obě dostupná prodloužení jsou opět k dispozici na začátku každého nového týdne (pondělí 00:00), bez ohledu na to, jak byla využita v předchozím týdnu."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile zpracovává toto pravidlo",
+      "text": "TachoMobile sleduje denní dobu řízení vůči 9hodinovému limitu a automaticky povoluje prodloužení na 10 hodin, je-li potřeba. Počítadlo týdenního využití na hlavní obrazovce ukazuje, kolik z obou dostupných prodloužení na 10 hodin bylo v aktuálním týdnu (pondělí až neděle) využito, takže si řidič může naplánovat zbývající dny."
+    },
+    "example": {
+      "title": "Příklad",
+      "text": "Řidič jede v pondělí 9:45 (využito 1. prodloužení) a ve středu 9:30 (využito 2. prodloužení). TachoMobile označí obě prodloužení jako využitá pro tento týden; jakýkoli další den řízení v tomto týdnu je omezen na 9 hodin. Následující pondělí se počítadlo resetuje a obě prodloužení jsou opět k dispozici."
+    },
+    "crew": {
+      "title": "V posádce (více řidičů)",
+      "text": "V posádce má každý řidič stále individuální denní limit řízení 9 hodin, avšak dvakrát týdně dostupné prodloužení na 10 hodin zde není k dispozici — každý řidič v posádce je omezen na pevných 9 hodin řízení denně, bez možnosti prodloužení."
+    }
+  },
+  "navigation": {
+    "back": "← Zpět na stránku Pravidla souladu",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

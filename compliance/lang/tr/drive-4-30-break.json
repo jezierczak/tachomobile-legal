@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "4:30 Sürüş ve Dinlenme - Uyum Kuralları",
+    "heading": "4:30 Sürüş ve Dinlenme",
+    "description": "4 saat 30 dakikalık sürüş sınırı ve gerekli dinlenme hakkında açıklama."
+  },
+  "content": {
+    "regulation": {
+      "title": "Kurallar",
+      "text": "Sürücü, gerekli dinlenmeden sonra bir araç 4 saat 30 dakikadan fazla sürmeyebilir. Bu süre sonunda 45 dakikalık bir dinlenme gereklidir."
+    },
+    "breakVariants": {
+      "title": "Dinlenme Varyantları",
+      "text": "Dinlenme iki şekilde yapılabilir: 1. 45 dakikalık kesintisiz dinlenme şeklinde veya 2. İki bölüme ayrılarak: önce 15 dakika, ardından 30 dakikalık dinlenme."
+    },
+    "tachomobileHandling": {
+      "title": "TachoMobile Bu Kuralı Nasıl İşler",
+      "text": "TachoMobile dinlenme varyantlarını destekler. Program sürüş süresini analiz eder ve sürücünün gerekli dinlenmeyi tamamladığını kontrol eder. Ana ekranda, ilk 15 dakikalık dinlenmenin tamamlandığını gösteren bir onay kutusu vardır. İlk 15 dakika doğru kaydedilirse, program bu gerçeği hatırlar. Bu durumda, gerekli dinlenmeyi tamamlamak için 30 dakikalık dinlenme kalır. Bu ek 30 dakikayı tamamladıktan sonra TachoMobile gerekli dinlenmeyi yerine getirildi olarak kabul eder ve sürekli sürüş sayaçını sıfırlar. Kesintisiz 45 dakikalık bir dinlenme yapılması durumunda, program da gerekliliği yerine getirildi olarak kabul eder ve sürekli sürüş sayaçını sıfırlar."
+    },
+    "example": {
+      "title": "Örnek",
+      "text": "Sürücü 4:00 sürdü → 15 dakika durdu → sürüşe devam etti → daha sonra 30 dakika durdu. TachoMobile daha önce tamamlanan 15 dakikayı hatırlar. Ek 30 dakikayı tamamladıktan sonra TachoMobile 45 dakikalık dinlenmeyi yerine getirildi olarak kabul eder ve sürekli sürüş sayaçını sıfırlar."
+    },
+    "crew": {
+      "title": "Çok Sürücülü Ekip Halinde",
+      "text": "Çok sürücülü ekip halinde, diğer sürücü direksiyondayken bir sürücü zorunlu 45 dakikalık molayı müsaitlik süresi olarak kullanabilir. Molanın bu şekilde kullanılması, dinlenen sürücünün 4 saat 30 dakikalık sürüş sayacını sıfırlar. İki sürücünün molaları sırayla kullanmasıyla ekip, her sürücü kendi sürüş ve dinlenme sınırlarına ayrı ayrı uysa bile, aracı yaklaşık 18 saat boyunca neredeyse kesintisiz hareket halinde tutabilir."
+    }
+  },
+  "navigation": {
+    "back": "← Uyum Kuralları Sayfasına Dön",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

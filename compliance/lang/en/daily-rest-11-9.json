@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Daily Rest (11h / 9h / 3+9h) - Compliance Rules",
+    "heading": "Daily Rest (11h / 9h / 3+9h)",
+    "description": "Explanation of regular, reduced and split daily rest periods, and how the reduced-rest limit differs from the weekly driving-time counter."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulation",
+      "text": "Within each 24-hour period, the driver must take a daily rest period of at least 11 consecutive hours (regular daily rest). This may be reduced to a minimum of 9 consecutive hours (reduced daily rest), but a reduced daily rest may be taken at most 3 times between any two weekly rest periods."
+    },
+    "split": {
+      "title": "Split Daily Rest (3+9)",
+      "text": "The daily rest may also be split into two periods: at least 3 hours, followed by at least 9 consecutive hours, for a combined total of at least 12 hours. A split daily rest does NOT count against the 3-times reduced-rest limit — it is a separate, fully compliant way of taking daily rest."
+    },
+    "reset": {
+      "title": "Important: the 3x reduced-rest limit resets between weekly rests, not on the calendar week",
+      "text": "Unlike the 10-hour driving extension (limited to twice per calendar week, resetting every Monday), the 3 allowed reduced daily rests are counted between two consecutive weekly rest periods — whenever the driver's weekly rest falls. The count resets only when the driver takes their next weekly rest, regardless of which day of the week that is."
+    },
+    "crew": {
+      "title": "In a Multi-Manning Crew",
+      "text": "In a multi-manning crew, only the 9-hour rest variant applies — there is no regular (11h) rest, no reduced rest counted against the 3-times-per-week limit, and no split (3+9h) option. Every driver in the crew must have a rest of at least 9 hours within 30 hours of the end of their previous rest period. This is a separate, fixed crew rule, independent of the 3x reduced-rest counter described above."
+    },
+    "tachomobileHandling": {
+      "title": "How TachoMobile Handles This Rule",
+      "text": "TachoMobile tracks each daily rest period and classifies it as regular, reduced, or split. It counts how many reduced daily rests have been used since the driver's last weekly rest period and warns when the 3-use limit is approaching, resetting the count automatically once a new weekly rest is detected."
+    },
+    "example": {
+      "title": "Example",
+      "text": "A driver takes a 9-hour reduced rest on Tuesday and Thursday (2 of 3 used). On Saturday they take their weekly rest. The reduced-rest count resets to 0 — even though the calendar week hasn't changed — because a new weekly rest period has started."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Compliance Rules",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

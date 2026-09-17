@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "de"
+  },
+  "page": {
+    "title": "Wöchentliche Ruhezeit (45/24 Stunden) - Einhaltungsregeln",
+    "heading": "Wöchentliche Ruhezeit (45/24 Stunden)",
+    "description": "Erklärung der regelmäßigen und verkürzten wöchentlichen Ruhezeit, wie eine verkürzte Ruhezeit ausgeglichen werden muss, und der Zwei-Wochen-Regel, die einschränkt, wie oft sie genutzt werden kann."
+  },
+  "content": {
+    "regulation": {
+      "title": "Vorschrift",
+      "text": "Innerhalb von 6 aufeinanderfolgenden 24-Stunden-Zeiträumen nach dem Ende der vorherigen wöchentlichen Ruhezeit muss der Fahrer eine neue wöchentliche Ruhezeit einhalten. Eine regelmäßige wöchentliche Ruhezeit beträgt mindestens 45 Stunden. Eine verkürzte wöchentliche Ruhezeit beträgt mindestens 24 Stunden (aber weniger als 45)."
+    },
+    "compensation": {
+      "title": "Ausgleich der verkürzten Ruhezeit",
+      "text": "Jede Verkürzung unter 45 Stunden muss durch eine entsprechende Ruhezeit ausgeglichen werden, die an eine andere Ruhezeit von mindestens 9 Stunden angehängt wird und vor Ende der 3. Woche nach der betreffenden Woche genommen werden muss."
+    },
+    "twoWeek": {
+      "title": "Die Zwei-Wochen-Regel",
+      "text": "Innerhalb von zwei aufeinanderfolgenden Wochen muss der Fahrer mindestens zwei wöchentliche Ruhezeiten einhalten, von denen mindestens eine eine regelmäßige (45-Stunden-)Ruhezeit sein muss. Ein Fahrer darf nicht zwei verkürzte wöchentliche Ruhezeiten hintereinander nehmen."
+    },
+    "tachomobileHandling": {
+      "title": "Wie TachoMobile dies handhabt",
+      "text": "Innerhalb des aktuellen 144-Stunden-Fensters (6 Tage) markiert TachoMobile jede Ruhezeit, die lang genug ist, um sich als wöchentliche Ruhezeit zu qualifizieren (mindestens 24 Stunden), als Kandidaten. Sobald das Fenster schließt, wählt die App automatisch den besten Kandidaten aus – die längste qualifizierende Ruhezeit – und bestätigt ihn als wöchentliche Ruhezeit, klassifiziert ihn als regelmäßig oder verkürzt und verfolgt einen eventuell geschuldeten Ausgleich. Der Fahrer kann auch manuell erzwingen, dass ein Kandidat sofort als wöchentliche Ruhezeit bestätigt wird, ohne auf den Abschluss des Fensters zu warten."
+    },
+    "example": {
+      "title": "Beispiel",
+      "text": "Ein Fahrer nimmt eine verkürzte wöchentliche Ruhezeit von 30 Stunden (eine Verkürzung um 15 Stunden gegenüber den regulären 45 Stunden). Vor Ende der 3. Woche nach dieser Woche muss er zum Ausgleich weitere 15 Stunden Ruhezeit nehmen, angehängt an eine andere Ruhezeit von mindestens 9 Stunden."
+    }
+  },
+  "navigation": {
+    "back": "← Zurück zur Seite Einhaltungsregeln",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

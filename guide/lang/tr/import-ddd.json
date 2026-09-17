@@ -98,7 +98,7 @@
     "mainUrl": "../main-screen/"
   },
   "navigation": {
-    "back": "â† Rehber'e geri dĂ¶n"
+    "back": "← Rehber'e geri dön"
   },
   "footer": "© TachoMobile 2"
 }

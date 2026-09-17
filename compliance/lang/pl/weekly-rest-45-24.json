@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "pl"
+  },
+  "page": {
+    "title": "Odpoczynek tygodniowy (45h / 24h) - Zasady zgodności",
+    "heading": "Odpoczynek tygodniowy (45h / 24h)",
+    "description": "Wyjaśnienie regularnego i skróconego odpoczynku tygodniowego, sposobu rekompensaty skróconego odpoczynku oraz zasady dwóch tygodni, która ogranicza, jak często można z niego korzystać."
+  },
+  "content": {
+    "regulation": {
+      "title": "Przepis",
+      "text": "W ciągu 6 kolejnych okresów 24-godzinnych od zakończenia poprzedniego odpoczynku tygodniowego kierowca musi wykorzystać nowy odpoczynek tygodniowy. Regularny odpoczynek tygodniowy trwa co najmniej 45 godzin. Skrócony odpoczynek tygodniowy trwa co najmniej 24 godziny (ale mniej niż 45)."
+    },
+    "compensation": {
+      "title": "Rekompensata skróconego odpoczynku",
+      "text": "Każde skrócenie poniżej 45 godzin musi zostać zrekompensowane równoważnym okresem odpoczynku, połączonym z innym odpoczynkiem trwającym co najmniej 9 godzin, wykorzystanym przed końcem 3. tygodnia następującego po danym tygodniu."
+    },
+    "twoWeek": {
+      "title": "Zasada dwóch tygodni",
+      "text": "W dowolnych dwóch kolejnych tygodniach kierowca musi wykorzystać co najmniej dwa odpoczynki tygodniowe, z których przynajmniej jeden musi być odpoczynkiem regularnym (45h). Kierowca nie może wykorzystać dwóch skróconych odpoczynków tygodniowych pod rząd."
+    },
+    "tachomobileHandling": {
+      "title": "Jak TachoMobile to obsługuje",
+      "text": "W trakcie bieżącego 144-godzinnego (6-dniowego) okna TachoMobile oznacza jako kandydata każdy odpoczynek wystarczająco długi, by kwalifikować się jako odpoczynek tygodniowy (co najmniej 24 godziny). Po zamknięciu okna aplikacja automatycznie wybiera najlepszego kandydata — najdłuższy kwalifikujący się odpoczynek — i zatwierdza go jako odpoczynek tygodniowy, klasyfikując go jako regularny lub skrócony oraz śledząc ewentualną należną rekompensatę. Kierowca może też ręcznie wymusić natychmiastowe zatwierdzenie kandydata jako odpoczynku tygodniowego, bez czekania na zamknięcie okna."
+    },
+    "example": {
+      "title": "Przykład",
+      "text": "Kierowca wykorzystuje skrócony odpoczynek tygodniowy w wymiarze 30 godzin (skrócenie o 15 godzin względem regularnych 45 godzin). Przed końcem 3. tygodnia następującego po danym tygodniu musi jako rekompensatę wykorzystać dodatkowe 15 godzin odpoczynku, połączone z innym odpoczynkiem trwającym co najmniej 9 godzin."
+    }
+  },
+  "navigation": {
+    "back": "← Powrót do Zasad zgodności",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

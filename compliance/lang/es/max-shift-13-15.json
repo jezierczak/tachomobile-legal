@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Duración máxima del turno (13h / 15h, 21h en tripulación) - Reglas de cumplimiento",
+    "heading": "Duración máxima del turno (13h / 15h, 21h en tripulación)",
+    "description": "Explicación de por qué el turno máximo es de 13 o 15 horas: no es un límite directo de la normativa, sino una consecuencia del ciclo de 24 horas y del descanso diario disponible para el conductor."
+  },
+  "content": {
+    "basis": {
+      "title": "De dónde vienen las 13h y las 15h",
+      "text": "La duración máxima del turno no es un límite establecido directamente por la normativa. Se deriva del ciclo de 24 horas contado desde el inicio del turno, combinado con el descanso diario que el conductor debe tomar antes del siguiente turno. Si el conductor tiene disponible un descanso diario reducido de 9 horas, el turno máximo es de 15 horas. Si solo tiene disponible el descanso diario regular de 11 horas, el turno máximo es de 13 horas."
+    },
+    "crew": {
+      "title": "En tripulación: 21 horas fijas",
+      "text": "En una tripulación de varios conductores, esta cifra es fija en lugar de variable. El ciclo es de 30 horas en lugar de 24, y el descanso requerido es siempre de 9 horas (no existe la opción de 11 horas en tripulación, como se explica en las reglas de descanso diario). Esto deja un turno máximo fijo de 21 horas para cada conductor de la tripulación, nunca 13 o 15 horas."
+    },
+    "tachomobileHandling": {
+      "title": "Cómo gestiona TachoMobile esto",
+      "text": "TachoMobile muestra tanto la duración del turno actual como el máximo permitido para ese día, según qué opción de descanso diario tenga disponible el conductor."
+    },
+    "example": {
+      "title": "Ejemplo",
+      "text": "Un conductor toma un descanso regular de 11 horas y comienza un nuevo turno. Su turno máximo para ese día es de 13 horas. Al día siguiente, aún tiene disponible un descanso reducido de 9 horas (2 de 3 utilizados esa semana), por lo que el turno máximo se amplía a 15 horas."
+    }
+  },
+  "navigation": {
+    "back": "← Volver a las reglas de cumplimiento",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

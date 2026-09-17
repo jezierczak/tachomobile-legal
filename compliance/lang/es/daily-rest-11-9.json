@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Descanso diario (11h / 9h / 3+9h) - Reglas de cumplimiento",
+    "heading": "Descanso diario (11h / 9h / 3+9h)",
+    "description": "Explicación del descanso diario regular, reducido y fraccionado, y de cómo el límite de descansos reducidos difiere del contador semanal de tiempo de conducción."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "Dentro de cada período de 24 horas, el conductor debe tomar un descanso diario de al menos 11 horas consecutivas (descanso diario regular). Este puede reducirse a un mínimo de 9 horas consecutivas (descanso diario reducido), pero un descanso diario reducido solo puede tomarse un máximo de 3 veces entre dos períodos de descanso semanal consecutivos."
+    },
+    "split": {
+      "title": "Descanso diario fraccionado (3+9)",
+      "text": "El descanso diario también puede dividirse en dos períodos: al menos 3 horas, seguidas de al menos 9 horas consecutivas, sumando un total de al menos 12 horas. El descanso diario fraccionado NO cuenta para el límite de 3 descansos reducidos: es una forma separada y totalmente válida de tomar el descanso diario."
+    },
+    "reset": {
+      "title": "Importante: el límite de 3 descansos reducidos se reinicia entre descansos semanales, no con la semana natural",
+      "text": "A diferencia de la ampliación del tiempo de conducción a 10 horas (disponible dos veces por semana natural, reiniciándose cada lunes), los 3 descansos diarios reducidos permitidos se cuentan entre dos períodos de descanso semanal consecutivos, sin importar en qué día de la semana caigan. El contador solo se reinicia cuando el conductor toma su siguiente descanso semanal, independientemente del día de la semana en que ocurra."
+    },
+    "crew": {
+      "title": "En una tripulación de varios conductores",
+      "text": "En una tripulación de varios conductores solo se aplica la variante de descanso de 9 horas: no existe la opción de descanso regular (11 h), ni el descanso reducido contabilizado en el límite de 3 veces por semana, ni el descanso fraccionado (3+9 h). Cada conductor de la tripulación debe tomar un descanso de al menos 9 horas dentro de las 30 horas siguientes al final de su descanso anterior. Se trata de una norma fija y separada para la tripulación, independiente del contador de 3 descansos reducidos descrito anteriormente."
+    },
+    "tachomobileHandling": {
+      "title": "Cómo gestiona TachoMobile esta norma",
+      "text": "TachoMobile controla cada descanso diario y lo clasifica como regular, reducido o fraccionado. Cuenta cuántos descansos diarios reducidos se han utilizado desde el último descanso semanal del conductor y avisa cuando se acerca el límite de 3 usos, reiniciando el contador automáticamente en cuanto detecta un nuevo descanso semanal."
+    },
+    "example": {
+      "title": "Ejemplo",
+      "text": "Un conductor toma un descanso reducido de 9 horas el martes y el jueves (2 de 3 utilizados). El sábado toma su descanso semanal. El contador de descansos reducidos se reinicia a 0 —aunque la semana natural no haya cambiado— porque ha comenzado un nuevo período de descanso semanal."
+    }
+  },
+  "navigation": {
+    "back": "← Volver a las reglas de cumplimiento",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "es"
+  },
+  "page": {
+    "title": "Conducción 4:30 y descanso - Reglas de cumplimiento",
+    "heading": "Conducción 4:30 y descanso",
+    "description": "Explicación del límite de 4 horas y 30 minutos de conducción y el descanso requerido."
+  },
+  "content": {
+    "regulation": {
+      "title": "Normativa",
+      "text": "El conductor no puede conducir un vehículo durante más de 4 horas y 30 minutos sin realizar la pausa obligatoria. Transcurrido este período, se requiere un descanso de 45 minutos."
+    },
+    "breakVariants": {
+      "title": "Variantes de la pausa",
+      "text": "La pausa se puede realizar de dos formas: 1. Como un descanso ininterrumpido de 45 minutos, o 2. Dividida en dos partes: primero 15 minutos y después 30 minutos de descanso."
+    },
+    "tachomobileHandling": {
+      "title": "Cómo gestiona TachoMobile esta norma",
+      "text": "TachoMobile admite ambas variantes de la pausa. El programa analiza el tiempo de conducción y controla si el conductor ha completado el descanso requerido. En la pantalla principal hay una casilla que indica si se han completado los primeros 15 minutos de la pausa. Si los primeros 15 minutos quedan registrados correctamente, el programa recuerda este hecho. En ese caso, quedan 30 minutos de descanso para completar la pausa requerida. Al completar esos 30 minutos adicionales, TachoMobile considera cumplida la pausa requerida y reinicia el contador de conducción continua. Si se realiza un descanso ininterrumpido completo de 45 minutos, el programa también considera cumplido el requisito y reinicia el contador de conducción continua."
+    },
+    "example": {
+      "title": "Ejemplo",
+      "text": "El conductor condujo durante 4:00 → se detuvo 15 minutos → reanudó la conducción → más tarde se detuvo 30 minutos. TachoMobile recuerda los 15 minutos completados previamente. Al completar los 30 minutos adicionales, TachoMobile considera cumplida la pausa de 45 minutos y reinicia el contador de conducción continua."
+    },
+    "crew": {
+      "title": "En una tripulación de varios conductores",
+      "text": "En una tripulación de varios conductores, un conductor puede tomar la pausa obligatoria de 45 minutos como tiempo de disponibilidad mientras el otro conductor está al volante. Utilizar la pausa de esta manera reinicia el contador de las 4 horas y 30 minutos de conducción del conductor que descansa. Alternando las pausas entre ambos conductores, la tripulación puede mantener el vehículo prácticamente en movimiento continuo durante unas 18 horas, aunque cada conductor respeta individualmente sus propios límites de conducción y descanso."
+    }
+  },
+  "navigation": {
+    "back": "← Volver a las reglas de cumplimiento",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

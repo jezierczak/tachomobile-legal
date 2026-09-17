@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "en"
+  },
+  "page": {
+    "title": "Driving 4:30 and Break - Compliance Rules",
+    "heading": "Driving 4:30 and Break",
+    "description": "Explanation of the 4 hours 30 minutes driving limit and required break."
+  },
+  "content": {
+    "regulation": {
+      "title": "Regulation",
+      "text": "The driver may not drive a vehicle for longer than 4 hours and 30 minutes without a required break. After this period, a 45-minute break is required."
+    },
+    "breakVariants": {
+      "title": "Break Variants",
+      "text": "The break can be performed in two ways: 1. As a 45-minute uninterrupted rest, or 2. Divided into two parts: first 15 minutes, then 30 minutes of rest."
+    },
+    "tachomobileHandling": {
+      "title": "How TachoMobile Handles This Rule",
+      "text": "TachoMobile supports both variants of the break. The program analyzes driving time and controls whether the driver has completed the required break. On the main screen, there is a checkbox indicating whether the first 15 minutes of the break have been completed. If the first 15 minutes are properly recorded, the program remembers this fact. In this situation, 30 minutes of rest remain to complete the required break. After completing these additional 30 minutes, TachoMobile considers the required break fulfilled and resets the continuous driving counter. If a full 45 minutes of uninterrupted rest is performed, the program also considers the requirement fulfilled and resets the continuous driving counter."
+    },
+    "example": {
+      "title": "Example",
+      "text": "The driver drove for 4:00 → stopped for 15 minutes → resumed driving → later stopped for 30 minutes. TachoMobile remembers the previously completed 15 minutes. After completing the additional 30 minutes, TachoMobile considers the 45-minute break fulfilled and resets the continuous driving counter."
+    },
+    "crew": {
+      "title": "In a Multi-Manning Crew",
+      "text": "In a multi-manning crew, a driver may take the required 45-minute break as availability time while the other driver is behind the wheel. Using the break this way resets the resting driver's 4-hour-30-minute driving counter. By alternating breaks between the two drivers, the crew can keep the vehicle moving almost continuously for around 18 hours, even though each driver individually still respects their own driving and rest limits."
+    }
+  },
+  "navigation": {
+    "back": "← Back to Compliance Rules",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

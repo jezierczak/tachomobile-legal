@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "tr"
+  },
+  "page": {
+    "title": "Maksimum Vardiya Süresi (13s / 15s, Ekipte 21s) - Uyum Kuralları",
+    "heading": "Maksimum Vardiya Süresi (13s / 15s, Ekipte 21s)",
+    "description": "Maksimum vardiyanın neden 13 veya 15 saat olduğunun açıklaması — bu doğrudan bir mevzuat sınırı değil, 24 saatlik döngünün ve sürücüye açık olan günlük dinlenmenin bir sonucudur."
+  },
+  "content": {
+    "basis": {
+      "title": "13 ve 15 Saat Nereden Geliyor",
+      "text": "Maksimum vardiya süresi doğrudan mevzuat tarafından belirlenen bir sınır değildir. Vardiyanın başlangıcından itibaren sayılan 24 saatlik döngüden, bir sonraki vardiyadan önce sürücünün alması gereken günlük dinlenmeyle birlikte ortaya çıkar. Sürücü için 9 saatlik kısaltılmış günlük dinlenme kullanılabilirse, maksimum vardiya 15 saattir. Yalnızca 11 saatlik normal günlük dinlenme kullanılabilirse, maksimum vardiya 13 saattir."
+    },
+    "crew": {
+      "title": "Çok Sürücülü Ekipte: Sabit 21 Saat",
+      "text": "Çok sürücülü bir ekipte bu rakam değişken değil sabittir. Döngü 24 yerine 30 saattir ve gereken dinlenme her zaman 9 saattir (günlük dinlenme kurallarında açıklandığı gibi, ekipte 11 saatlik seçenek yoktur). Bu da ekipteki her sürücü için sabit 21 saatlik maksimum vardiya anlamına gelir — asla 13 veya 15 saat değil."
+    },
+    "tachomobileHandling": {
+      "title": "TachoMobile Bunu Nasıl Ele Alır",
+      "text": "TachoMobile, sürücü için hangi günlük dinlenme seçeneğinin mevcut olduğuna bağlı olarak hem mevcut vardiya süresini hem de o gün için izin verilen maksimumu gösterir."
+    },
+    "example": {
+      "title": "Örnek",
+      "text": "Bir sürücü normal 11 saatlik dinlenme yapar ve yeni bir vardiyaya başlar. O gün için maksimum vardiya süresi 13 saattir. Ertesi gün, hâlâ 9 saatlik kısaltılmış dinlenme mevcuttur (o hafta 3'te 2'si kullanıldı), bu nedenle maksimum vardiya 15 saate uzar."
+    }
+  },
+  "navigation": {
+    "back": "← Uyum Kuralları Sayfasına Dön",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

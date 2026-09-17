@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "lt"
+  },
+  "page": {
+    "title": "Kasdienis poilsis (11 val. / 9 val. / 3+9) - Atitikties taisyklės",
+    "heading": "Kasdienis poilsis (11 val. / 9 val. / 3+9)",
+    "description": "Įprasto, sutrumpinto ir padalyto kasdienio poilsio paaiškinimas bei tai, kuo sutrumpinto poilsio riba skiriasi nuo savaitinio vairavimo laiko skaitiklio."
+  },
+  "content": {
+    "regulation": {
+      "title": "Reglamentas",
+      "text": "Per kiekvieną 24 valandų laikotarpį vairuotojas privalo pasinaudoti bent 11 valandų iš eilės trunkančiu kasdieniu poilsiu (įprastas kasdienis poilsis). Jis gali būti sutrumpintas iki ne mažiau kaip 9 valandų iš eilės (sutrumpintas kasdienis poilsis), tačiau sutrumpintu kasdieniu poilsiu galima pasinaudoti ne daugiau kaip 3 kartus tarp dviejų iš eilės einančių savaitinio poilsio laikotarpių."
+    },
+    "split": {
+      "title": "Padalytas kasdienis poilsis (3+9)",
+      "text": "Kasdienis poilsis taip pat gali būti padalytas į du laikotarpius: ne mažiau kaip 3 valandas, po kurių seka ne mažiau kaip 9 valandos iš eilės, iš viso ne mažiau kaip 12 valandų. Padalytas kasdienis poilsis NEĮSKAIČIUOJAMAS į 3 sutrumpintų poilsių ribą — tai atskiras, visiškai teisėtas kasdienio poilsio panaudojimo būdas."
+    },
+    "reset": {
+      "title": "Svarbu: 3 sutrumpintų poilsių riba atsinaujina tarp savaitinių poilsių, o ne kalendorinę savaitę",
+      "text": "Skirtingai nei vairavimo laiko pratęsimas iki 10 valandų (galimas du kartus per kalendorinę savaitę, atsinaujinantis kiekvieną pirmadienį), 3 leidžiami sutrumpinti kasdieniai poilsiai skaičiuojami tarp dviejų iš eilės einančių savaitinio poilsio laikotarpių — nepriklausomai nuo to, kurią savaitės dieną jie patenka. Skaitiklis atsinaujina tik tada, kai vairuotojas pasinaudoja kitu savaitiniu poilsiu, nepriklausomai nuo to, kurią savaitės dieną tai įvyksta."
+    },
+    "crew": {
+      "title": "Vairuojant su keliais vairuotojais (ekipažu)",
+      "text": "Vairuojant ekipažu taikomas tik 9 valandų poilsio variantas — nėra įprasto poilsio (11 val.), sutrumpinto poilsio, įskaičiuojamo į 3 kartų per savaitę ribą, nei padalyto poilsio (3+9 val.) galimybės. Kiekvienam ekipažo vairuotojui reikia poilsio, trunkančio ne mažiau kaip 9 valandas, per 30 valandų nuo ankstesnio poilsio pabaigos. Tai atskira, fiksuota ekipažo taisyklė, nepriklausoma nuo aukščiau aprašyto 3 sutrumpintų poilsių skaitiklio."
+    },
+    "tachomobileHandling": {
+      "title": "Kaip „TachoMobile“ tvarko šią taisyklę",
+      "text": "„TachoMobile“ stebi kiekvieną kasdienį poilsį ir priskiria jį prie įprasto, sutrumpinto arba padalyto. Skaičiuoja, kiek sutrumpintų kasdienių poilsių panaudota nuo paskutinio vairuotojo savaitinio poilsio, ir įspėja, kai artėja 3 panaudojimų riba, automatiškai atnaujindamas skaitiklį, kai tik aptinkamas naujas savaitinis poilsis."
+    },
+    "example": {
+      "title": "Pavyzdys",
+      "text": "Vairuotojas antradienį ir ketvirtadienį pasinaudoja 9 valandų sutrumpintu poilsiu (panaudoti 2 iš 3). Šeštadienį jis pasinaudoja savaitiniu poilsiu. Sutrumpintų poilsių skaitiklis atsinaujina iki 0 — nors kalendorinė savaitė nepasikeitė — nes prasidėjo naujas savaitinio poilsio laikotarpis."
+    }
+  },
+  "navigation": {
+    "back": "← Grįžti į atitikties taisykles",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "sk"
+  },
+  "page": {
+    "title": "Denný limit doby vedenia vozidla (9h/10h) - Príslušné pravidlá",
+    "heading": "Denný limit doby vedenia vozidla (9h/10h)",
+    "description": "Vysvetlenie 9-hodinového denného limitu vedenia vozidla, dvakrát týždenne dostupného predĺženia na 10 hodín a spôsobu, akým to TachoMobile sleduje."
+  },
+  "content": {
+    "regulation": {
+      "title": "Predpis",
+      "text": "Vodič nesmie viesť vozidlo dlhšie ako 9 hodín v jednom dni. Tento denný limit vedenia vozidla možno predĺžiť na 10 hodín, najviac však dvakrát v rámci toho istého týždňa."
+    },
+    "extension": {
+      "title": "Predĺženie na 10 hodín",
+      "text": "Predĺženie na 10 hodín je dostupné iba dvakrát týždenne. Akonáhle vodič využije obe predĺženia v danom týždni, každý ďalší deň vedenia vozidla v tomto týždni je obmedzený na 9 hodín. Týždenné počítadlo sa resetuje o polnoci z nedele na pondelok — obe dostupné predĺženia sú opäť k dispozícii na začiatku každého nového týždňa (pondelok 00:00), bez ohľadu na to, ako boli využité v predchádzajúcom týždni."
+    },
+    "tachomobileHandling": {
+      "title": "Ako TachoMobile spracúva toto pravidlo",
+      "text": "TachoMobile sleduje denný čas vedenia vozidla voči 9-hodinovému limitu a automaticky povoľuje predĺženie na 10 hodín, ak je to potrebné. Počítadlo týždenného využitia na hlavnej obrazovke ukazuje, koľko z oboch dostupných predĺžení na 10 hodín bolo využitých v aktuálnom týždni (pondelok až nedeľa), takže si vodič môže naplánovať zostávajúce dni."
+    },
+    "example": {
+      "title": "Príklad",
+      "text": "Vodič vedie v pondelok 9:45 (využité 1. predĺženie) a v stredu 9:30 (využité 2. predĺženie). TachoMobile označí obe predĺženia ako využité pre tento týždeň; akýkoľvek ďalší deň vedenia vozidla v tomto týždni je obmedzený na 9 hodín. Nasledujúci pondelok sa počítadlo resetuje a obe predĺženia sú opäť k dispozícii."
+    },
+    "crew": {
+      "title": "V posádke (viacero vodičov)",
+      "text": "V posádke má každý vodič naďalej individuálny denný limit vedenia vozidla 9 hodín, avšak dvakrát týždenne dostupné predĺženie na 10 hodín tu nie je k dispozícii — každý vodič v posádke je obmedzený na pevných 9 hodín vedenia vozidla denne, bez možnosti predĺženia."
+    }
+  },
+  "navigation": {
+    "back": "← Späť na stránku Príslušné pravidlá",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}
