@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Juhikaardi andmete importimine .ddd failist - TachoMobile 2",
+    "heading": "Juhikaardi andmete importimine .ddd failist",
+    "intro": "TachoMobile saab importida tegelikke andmeid digitaalselt juhikaardilt, mis on salvestatud .ddd failina."
+  },
+  "sections": {
+    "limit": {
+      "title": "Kaarti loeb teine seade",
+      "text": "Selles etapis ei loe TachoMobile juhikaarti otse. Laadi kaart esmalt alla teise seadme, lugeja või juhikaardi lugemist toetava programmiga. TachoMobile saab valmis .ddd faili ja impordib sinna salvestatud andmed."
+    },
+    "import": {
+      "title": "Kuidas .ddd faili importida",
+      "text": "Eraldi nuppu „Impordi DDD” ei ole. Kasuta tavalist kohaliku faili importimise rada:",
+      "steps": [
+        "Menüü → Varundamine ja sünkroonimine → Kohalik (fail) → Import",
+        "Vali fail.",
+        "Kui valitud failil on .ddd vorming, tuvastab TachoMobile selle automaatselt juhikaardi andmetena ja töötleb seda DDD-andmetena."
+      ],
+      "extra": "Import tehakse failist, mille valid."
+    },
+    "safety": {
+      "title": "GPS-andmeid ei kirjutata üle",
+      "text": ".ddd faili importimine ei kirjuta üle ega eemalda telefoni salvestatud GPS-andmeid. GPS-andmed ja juhikaardi andmed on salvestatud eraldi andmeallikatena, nii et kaardi andmeid saab turvaliselt importida ilma varasemaid GPS-andmeid kaotamata."
+    },
+    "identify": {
+      "title": "Juhikaardi automaatne tuvastamine",
+      "text": "Iga .ddd fail sisaldab teavet, mis tuvastab juhikaardi, sealhulgas kaardi numbri ning juhi ees- ja perekonnanime.",
+      "items": [
+        "Kui kaarti ei ole varem imporditud, loob TachoMobile jaotisesse Juhikaardid uue kirje.",
+        "Kaardi number ja juhi nimi salvestatakse.",
+        "Faili andmed määratakse sellele kaardile."
+      ],
+      "extra": "Juhikaardi sees saad vaadata ka sellega seotud andmeid ja tehnilisi sündmusi."
+    },
+    "many": {
+      "title": "Andmed mitmelt juhikaardilt",
+      "text": "Üks TachoMobile'i paigaldus saab salvestada andmeid paljudelt juhikaartidelt.",
+      "items": [
+        "Teise kaardi importimine ei kirjuta üle GPS-andmeid.",
+        "See ei kirjuta üle eelmise kaardi andmeid.",
+        "TachoMobile loob või uuendab vastava juhikaardi jaoks eraldi andmekogumi."
+      ]
+    },
+    "repeat": {
+      "title": "Sama kaardi uuesti importimine",
+      "text": "Kui impordid sama kaardi jaoks teise .ddd faili, uuendab ja laiendab TachoMobile olemasolevaid andmeid. Ajalugu saab laiendada nii uuema kui ka vanema perioodiga. Andmeid saad alla laadida iga 28 päeva järel ja importida üksteise järel faile; ajalugu muutub järk-järgult kaardi pidevaks ajateljeks. Sul ei ole vaja iga kord kogu ajalugu importida."
+    },
+    "source": {
+      "title": "Andmeallika valimine",
+      "intro": "Pärast kaardiandmete importimist ilmub peamise pealkirjariba alla täiendav allikamenüü, kui saadaval on nii GPS- kui ka kaardiandmed. Sellel on täpselt kolm valikut: „Ainult GPS”, „GPS + kaart” ja „Ainult kaart”."
+    },
+    "gps": {
+      "title": "Ainult GPS",
+      "text": "Näitab andmeid, mille TachoMobile on salvestanud telefoni GPS-i abil. Juhikaardi andmed jäävad rakendusse salvestatuks, kuid neid selles vaates ei kasutata."
+    },
+    "combined": {
+      "title": "GPS + kaart",
+      "text": "See on kombineeritud vaade. Kui perioodi kohta on saadaval tegelikud kaardiandmed, kasutab rakendus kaardiandmeid. Kui need pole saadaval, võib rakendus kasutada telefoni salvestatud GPS-andmeid.",
+      "items": [
+        "tegelikud sõidumeeriku/juhikaardi andmed",
+        "ligikaudsed andmed telefoni GPS-ist"
+      ],
+      "note": "GPS-andmeid ei teisendata kaardiandmeteks. Rakendus lihtsalt kasutab saadavuse järgi sobivat allikat."
+    },
+    "card": {
+      "title": "Ainult kaart",
+      "text": "Näitab ainult juhikaardilt pärinevaid andmeid.",
+      "multiple": "Kui rakendusse on salvestatud rohkem kui üks kaart, vali kaart, mille andmeid soovid kuvada.",
+      "warning": "Valik „Ainult kaart” ei kustuta GPS-andmeid. See muudab ainult kuvamiseks ja analüüsiks kasutatavat andmeallikat."
+    },
+    "analysis": {
+      "title": "DDD-andmete analüüs",
+      "text": "TachoMobile analüüsib imporditud kaardiandmeid sama tööaja ja puhkeaja analüüsimehhanismi abil, mida kasutatakse GPS-andmete puhul. See analüüsib muu hulgas nõutavaid tegevus-, töö-, sõidu-, pausi- ja puhkeperioode vastavalt rakendatud reeglitele. DDD-andmed on juhikaardilt pärit tegelikud andmed, mitte halvem alternatiiv analüüsiks."
+    },
+    "delete": {
+      "title": "Juhi andmete eemaldamine",
+      "steps": "Kasuta: Juhikaardid → vali kaart → Kustuta juhi kirjed.",
+      "text": "See toiming eemaldab ainult valitud juhikaardiga seotud andmed.",
+      "items": [
+        "See ei eemalda telefoni GPS-andmeid.",
+        "See ei eemalda teiste juhikaartide andmeid."
+      ],
+      "final": "Pärast andmete eemaldamist saad eemaldada ka juhikaardi kirje enda. Andmete eemaldamine TachoMobiles mõjutab ainult rakendusse salvestatud andmeid; see ei eemalda andmeid füüsiliselt juhikaardilt."
+    }
+  },
+  "related": {
+    "title": "Seotud teave",
+    "text": "Kasuta ümbritseva töövoo jaoks neid olemasolevaid juhendi mooduleid:",
+    "backup": "Varundamine ja sünkroonimine",
+    "backupUrl": "../backup-and-sync/",
+    "history": "Tegevuste ajalugu ja logiraamat",
+    "historyUrl": "../log-screen/",
+    "main": "Põhiekraan",
+    "mainUrl": "../main-screen/"
+  },
+  "navigation": {
+    "back": "← Tagasi juhendisse"
+  },
+  "footer": "© TachoMobile 2"
+}

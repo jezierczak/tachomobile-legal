@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Varundamine ja sünkroonimine - TachoMobile 2",
+    "heading": "Varundamine ja sünkroonimine",
+    "intro": "Ava see funktsioon peamenüüst -> Varundamine ja sünkroonimine. See aitab kaitsta sinu seadmesse salvestatud andmeid ja Premiumiga need taastada."
+  },
+  "sections": {
+    "version": {
+      "title": "Standard ja Premium",
+      "text": "Tasuta Standard-versioon võimaldab eksportida kõik andmed kohalikku krüptitud faili ja teha käsitsi sünkroonimist pilvega. See tähendab, et ka tasuta versiooni kasutajad saavad oma andmeid kaitsta. Premium sisaldab kõiki Standard-funktsioone ja võimaldab lisaks andmeid varundusfailist importida ja taastada. Standard võimaldab andmeid kaitsta, kuid andmete importimiseks või varundusest taastamiseks on vaja Premiumit.",
+      "items": [
+        "Standard: ekspordi kõik andmed kohalikku krüptitud faili ja tee käsitsi sünkroonimist pilvega.",
+        "Premium: kõik Standard-funktsioonid pluss andmete importimine ja taastamine varundusfailist.",
+        "Tähtis: Standard võimaldab andmeid kaitsta, kuid andmete importimiseks või varundusest taastamiseks on vajalik Premium."
+      ]
+    },
+    "local": {
+      "title": "Kohalik fail",
+      "text": "Jaotist Kohalik fail kasutatakse varundusfaili loomiseks või sellest andmete taastamiseks."
+    },
+    "export": {
+      "title": "Eksport",
+      "text": "Eksport salvestab iga seadme andmebaasis hetkel oleva kirje. Enne eksportimist sisesta kaitseparool. Fail krüptitakse selle parooliga. Ilma paroolita ei saa selle sisu lugeda. Hoia parooli turvalises kohas. Eksport sisaldab järgmisi andmeid:",
+      "items": [
+        "sõidumeeriku kirjed, sealhulgas GPS-andmed",
+        "kaardiandmed",
+        "juhi kirjed, sealhulgas juhikaartidelt loetud andmed",
+        "sõiduki kirjed"
+      ]
+    },
+    "import": {
+      "title": "Import",
+      "text": "Importi kasutatakse peamiselt varem loodud eksportfailist andmete taastamiseks.",
+      "steps": [
+        "Vali fail.",
+        "Sisesta selle krüpteerimisparool.",
+        "Vali, kuidas tuleks andmekonfliktid lahendada."
+      ],
+      "conflicts": "Kui olemasolevad andmed kattuvad ajaliselt imporditud andmetega, vali üks järgmistest valikutest:",
+      "options": [
+        "Säilita olemasolevad andmed — olemasolevad andmed säilitatakse ja lisatakse ainult mittekonfliktsed imporditud andmed.",
+        "Imporditud andmetel on prioriteet — konflikti korral säilitatakse imporditud failist pärit andmed."
+      ],
+      "extra": "Kui import on valmis, on andmed rakenduses saadaval. Import saab laadida ka vanemast rakenduse versioonist pärit ekspordi või juhikaardi andmed .DDD failist. .DDD importimine kasutab teistsugust mehhanismi ja on kirjeldatud eraldi artiklis."
+    },
+    "cloud": {
+      "title": "Pilv",
+      "text": "Pilve kasutamiseks:",
+      "steps": [
+        "Logi sisse Google'i kontoga.",
+        "Lülita sünkroonimine sisse.",
+        "Määra andmete krüpteerimisparool."
+      ],
+      "encryption": "Krüpteerimisparool on kohustuslik. Ilma selleta sünkroonimine ei tööta. Google'i kaugserverisse saadetud andmed krüpteeritakse selle parooliga; krüpteeritud on andmete tegelik sisu, sealhulgas:",
+      "data": [
+        "kaardid",
+        "tööajad",
+        "asukohad",
+        "kirjed ja muud rakenduse andmed"
+      ],
+      "metadata": "Serverisse jääb ainult sünkroonimiseks vajalik tehniline teave ja metaandmed, näiteks:",
+      "metadataItems": [
+        "saatmise aeg",
+        "kas kirje on kustutatud",
+        "kirje ID kohalikus andmebaasis",
+        "juhikaardi number, mida on muu hulgas vaja andmete õigeks määramiseks .DDD importimisel"
+      ],
+      "password": "Hoia krüpteerimisparool turvalisena. Ilma selleta ei saa krüptitud andmeid lugeda ega taastada."
+    },
+    "advanced": {
+      "title": "Pilve täpsemad valikud",
+      "wifiTitle": "Ainult Wi-Fi",
+      "wifi": "Automaatne sünkroonimine saab töötada ainult siis, kui seade on ühendatud Wi-Fi-ga.",
+      "masterTitle": "Peaseade",
+      "master": "Ainult üks seade tuleks märkida Peaseadmeks. Konflikti korral on prioriteet Peaseadme andmetel. Teiste seadmete andmed eemaldatakse ainult konfliktse osa ulatuses. Kõik ajaliselt mittekattuvad andmed säilitatakse.",
+      "warning": "See ei ole klassikaline mitme samaaegselt kasutatava seadme täielik sünkroonimine. Soovitatav töömeetod on nn üleandmine: kasuta üht seadet, sünkrooni see ja alles seejärel kasuta järgmist seadet. Kui kaks seadet sünkroonivad samaaegselt, ei pruugi osa andmeid ühes neist õigesti kajastuda. Andmed ei lähe jäädavalt kaotsi. Sellises olukorras võib olla vaja andmed kaugserverist uuesti laadida.",
+      "frequencyTitle": "Automaatse sünkroonimise sagedus",
+      "frequency": "Vali, kui sageli automaatne sünkroonimine peaks toimuma:",
+      "frequencyItems": [
+        "mitte kunagi — ainult käsitsi sünkroonimine",
+        "iga 10 minuti järel",
+        "iga tunni järel",
+        "iga 6 tunni järel",
+        "iga 12 tunni järel",
+        "üks kord päevas"
+      ],
+      "next": "Järgmine sünkroonimine võimaldab määrata, millal järgmine tsükkel peaks algama."
+    },
+    "status": {
+      "title": "Olek ja käsitsi sünkroonimine",
+      "text": "Jaotises Pilv leiad:",
+      "items": [
+        "Varunduse olek — näitab varunduse või sünkroonimise olekut.",
+        "Sünkrooni kohe — käivitab sünkroonimise koheselt."
+      ]
+    },
+    "backup": {
+      "title": "Tähtis: sünkroonimine on varundus",
+      "text": "Pilvemehhanism on eelkõige varundus, mitte automaatne kahesuunaline sünkroonimine. Automaatne sünkroonimine saadab andmed serverisse.",
+      "manual": "Kui avad ekraani Varundamine ja sünkroonimine, kontrollib rakendus, kas serveris on uuemaid andmeid. Kui leitakse uuemaid andmeid, ilmub nupp Taasta. Allalaadimine ei toimu automaatselt. Puuduvad, teisest seadmest sünkroonitud andmed laaditakse alla alles pärast seda, kui vajutad selgelt nuppu Taasta."
+    },
+    "delete": {
+      "title": "Kustuta kaugvarundus",
+      "text": "Funktsioon Kustuta kaugvarundus võimaldab kaugserverist täielikult eemaldada kõik sünkroonitud andmed.",
+      "items": [
+        "Seda toimingut saab teha maksimaalselt üks kord iga 24 tunni jooksul.",
+        "Kustutamine võib võtta aega; oota, kuni see lõpeb."
+      ],
+      "important": "Kaugvarunduse kustutamine ei kustuta midagi sinu seadmest. Kohalikud andmed jäävad muutumatuks."
+    },
+    "journal": {
+      "title": "Sünkroonimise ikoon logiraamatus",
+      "text": "Pärast sünkroonimise sisselülitamist ilmub logiraamatus pilve ikoon, mis näitab üksikute kirjete sünkroonimise olekut. Enne sünkroonimist kuvatakse kustutamiseks märgitud kirjed halli värviga. Pärast sünkroonimise lõppu kaovad need logiraamatust."
+    }
+  },
+  "related": {
+    "title": "Seotud teave",
+    "text": ".DDD faili importimist käsitletakse eraldi artiklis."
+  },
+  "navigation": {
+    "back": "<- Tagasi juhendisse"
+  },
+  "footer": "© TachoMobile 2"
+}

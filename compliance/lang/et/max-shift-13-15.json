@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Maksimaalne vahetuse pikkus (13h / 15h, meeskonnal 21h) - Vastavuseeskirjad",
+    "heading": "Maksimaalne vahetuse pikkus (13h / 15h, meeskonnal 21h)",
+    "description": "Selgitus sellest, miks maksimaalne vahetus on 13 või 15 tundi — see ei ole otsene eeskirjast tulenev piirang, vaid tagajärg 24-tunnisest tsüklist ja juhile saadaolevast päevasest puhkusest."
+  },
+  "content": {
+    "basis": {
+      "title": "Kust tulevad 13h ja 15h",
+      "text": "Maksimaalne vahetuse pikkus ei ole otse eeskirjaga kehtestatud piirang. See tuleneb vahetuse algusest arvestatavast 24-tunnisest tsüklist koos päevase puhkusega, mille juht peab enne järgmist vahetust võtma. Kui juhil on saadaval 9-tunnine vähendatud päevane puhkus, on maksimaalne vahetus 15 tundi. Kui saadaval on ainult 11-tunnine tavapärane päevane puhkus, on maksimaalne vahetus 13 tundi."
+    },
+    "crew": {
+      "title": "Meeskonnaga sõidul: fikseeritud 21 tundi",
+      "text": "Meeskonnaga sõidul on see näitaja fikseeritud, mitte muutuv. Tsükkel on 30 tundi, mitte 24, ja nõutav puhkus on alati 9 tundi (meeskonnas ei ole 11-tunnist valikut, nagu selgitatud päevase puhkuse eeskirjades). See annab igale meeskonna juhile fikseeritud maksimaalse 21-tunnise vahetuse — mitte kunagi 13 ega 15 tundi."
+    },
+    "tachomobileHandling": {
+      "title": "Kuidas TachoMobile seda käsitleb",
+      "text": "TachoMobile näitab nii praeguse vahetuse kestust kui ka selle päeva maksimaalset lubatud kestust, lähtudes sellest, milline päevase puhkuse valik on juhile saadaval."
+    },
+    "example": {
+      "title": "Näide",
+      "text": "Juht võtab tavapärase 11-tunnise puhkuse ja alustab uut vahetust. Tema maksimaalne vahetuse pikkus sel päeval on 13 tundi. Järgmisel päeval on endiselt saadaval 9-tunnine vähendatud puhkus (2 kolmest kasutatud sel nädalal), nii et maksimaalne vahetus pikeneb 15 tunnini."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi vastavuseeskirjade juurde",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

@@ -1,0 +1,44 @@
+{
+  "meta": { "htmlLang": "et" },
+  "page": {
+    "title": "Logi ekraan - TachoMobile 2",
+    "heading": "Logi ekraan",
+    "intro": "Logi ekraan kuvab sinu tegevuskirjeid ning pakub tööriistu tegevuste ajaloo vaatamiseks ja haldamiseks."
+  },
+  "sections": {
+    "entries": {
+      "title": "Tegevuskirjed",
+      "content": "<p>Tegevuskirjed kuvatakse vastupidises kronoloogilises järjekorras, nii et uusim kirje on üleval. Vaikimisi saad sirvida praeguseid kirjeid. Liigu ajas tagasi ja vali konkreetne päev, et sirvida sellest hetkest tagasiulatuvalt kirjeid.</p><p>Iga kirje näitab tegevuse kirjeldust, algusaega, kestust ja asjakohaseid märgiseid.</p>"
+    },
+    "badges": {
+      "title": "Märgised",
+      "content": "<p>Märgised annavad täiendavat teavet tegevuse või selle oleku kohta. Mõned märgised võivad näidata, et tegevus arvestatakse nõutava puhkeperioodi, näiteks 45-tunnise nädalase puhkuse hulka.</p><p>Erimärgised näitavad, kuidas kirje salvestati:</p><ul><li><strong>M</strong> — käsitsi sisestatud tegevus.</li><li><strong>A</strong> — automaatselt salvestatud tegevus.</li><li><strong>MA</strong> — automaatselt salvestatud tegevus, mida hiljem käsitsi parandati.</li><li><strong>Kaart</strong> — tegevus, mis pärineb imporditud juhikaardi andmetest.</li></ul>"
+    },
+    "synchronization": {
+      "title": "Sünkroonimise olek",
+      "content": "<p>Kui sünkroonimine on sisse lülitatud, kuvatakse kirjete juures pilve ikoon. See näitab kirje sünkroonimise olekut.</p>"
+    },
+    "viewing": {
+      "title": "Kirje vaatamine",
+      "content": "<p>Puuduta mis tahes kirjet, et avada selle üksikasjad. Üksikasjade vaade näitab rohkem teavet valitud tegevuse kohta.</p><p>Igal kirjel on ka kolme punktiga kontekstimenüü. Saadaolevad toimingud sõltuvad valitud kirje tüübist ja asukohast.</p>"
+    },
+    "actions": {
+      "title": "Kontekstitoimingud",
+      "addSingle": { "title": "Lisa üksik kirje", "text": "Valitud kirje ja järgmise kirje vahele saab lisada ühe tegevuse. Praeguse kirje kestust lühendatakse vastavalt." },
+      "edit": { "title": "Muuda", "text": "Olemasolevat tegevust saab muuta. Üksikasjalikud muutmise reeglid on kirjeldatud eraldi." },
+      "delete": { "title": "Kustuta", "text": "Tegevuse saab kustutada." },
+      "multiple": { "title": "Mitme valimine kustutamiseks", "text": "Vajuta ja hoia kirjet, et siseneda valikurežiimi ja valida mitu kirjet. See võimaldab mitu kirjet korraga kustutada." }
+    },
+    "workAndShift": {
+      "title": "Täiendavad valikud töö ja vahetuse kirjete kohta",
+      "newShift": { "title": "Uus vahetus", "text": "Uus vahetus on kiire viis lisada pärast tööd valmis vahetus. Selle asemel et iga üksikut tegevust käsitsi uuesti luua, sisesta üksikute tegevuste kestused. Süsteem genereerib seejärel automaatselt vastava vahetuse. See on kasulik, kui täpset tegevuste jada ei ole vaja taastada ja oluline teave on tegevuste kogukestus, näiteks nädalaste arvutuste jaoks." },
+      "sequential": { "title": "Järjestikune kirje", "text": "Järjestikune tegevuse sisestamine järgib pidevat jada: <strong>tegevus → järgmine tegevus → järgmine tegevus</strong>. Iga uue tegevuse algusaeg määratakse automaatselt eelmise tegevuse lõppajaks. See võimaldab luua pideva jada ilma iga algusaega käsitsi sisestamata." }
+    },
+    "global": {
+      "title": "Globaalsed lisamisvalikud",
+      "content": "<p>Tegevusi saab lisada ka globaalselt logi ekraanilt, mitte konkreetse kirje kontekstimenüüst. Saad lisada üksiku tegevuse, tegevuste vahemiku või käsitsi järjestikused kirjed.</p><p>Kui kasutad globaalset lisamisvalikut, küsib rakendus, kas uus tegevus tuleks lisada olemasoleva tegevuste ajaloo algusesse või lõppu. Iga lisamismeetodi üksikasjalikud protseduurid, ajapiirangud ja piirangud on kirjeldatud eraldi.</p>"
+    }
+  },
+  "navigation": { "back": "← Tagasi juhendisse" },
+  "footer": "© TachoMobile 2"
+}

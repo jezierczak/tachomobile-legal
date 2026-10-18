@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "TachoMobile 2 põhiekraan",
+    "heading": "TachoMobile 2 põhiekraan",
+    "intro": "Juhend rakenduse põhiekraanil saadaoleva teabe, kaartide, loendurite ja toimingute kohta."
+  },
+  "sections": {
+    "header": {
+      "title": "Rakenduse päis",
+      "content": "<p>Päis sisaldab TachoMobile'i logo, rakenduse versiooni, Standard- või Premium-olekut ning juurdepääsu programmi valikutele. See on püsiv juurdepääsupunkt rakenduse põhiteabele ja seadetele.</p>"
+    },
+    "dataSource": {
+      "title": "Andmeallikas",
+      "content": "<p>See element ilmub pärast juhikaardi andmete allalaadimist. Tuvastamise oleku kohal saad valida:</p><ul><li><strong>GPS</strong> — TachoMobile'i põhivaade, mis kasutab praegust GPS-jälgimist ja rakenduse salvestatud tegevusi.</li><li><strong>MIX</strong> — kombineerib juhikaardi ja GPS-andmed. Kaardiandmeid kasutatakse seal, kus need on saadaval, ja GPS täidab puuduva teabe.</li><li><strong>CARD</strong> — kasutab ainult juhikaardi DDD-failist pärit andmeid, peamiselt kaardiandmete analüüsimiseks.</li></ul><p><strong>Tähtis:</strong> GPS, MIX ja CARD on andmeallikad, mitte sõidu tuvastamise režiimid. OFF, MANUAL, STANDBY ja AUTO on selgitatud sõidu tuvastamise moodulis.</p>"
+    },
+    "detection": {
+      "title": "Tuvastamise olek",
+      "content": "<p>Tuvastamise olek kuvatakse andmeallika valija all. See näitab praegust automaatse sõidu tuvastamise olekut ja võimaldab tuvastamise režiimi muuta. Kui juhikaardi andmeid ei ole alla laaditud, GPS/MIX/CARD valijat ei kuvata.</p><p>OFF, MANUAL, STANDBY ja AUTO üksikasjad leiad moodulist <strong>Sõidu tuvastamine</strong>.</p>"
+    },
+    "work": {
+      "title": "▶️ Töö alustamine ja lõpetamine",
+      "content": "<p>Töö alustamise/lõpetamise nupp käsitleb sobivat toimingut sõltuvalt praegusest töö olekust. See juhendab kasutajat töö alustamisel ja kaardi sisestamisel või töö lõpetamisel ja kaardi eemaldamisel. Kahte eraldi toimingut ei ole vaja.</p>"
+    },
+    "currentActivity": {
+      "title": "Praegune tegevus",
+      "content": "<p>Praeguse tegevuse kaart näitab <strong>Sõit</strong>, <strong>Töö</strong>, <strong>Valmisolek</strong> või <strong>Puhkus</strong>. Tegevuse muutmiseks puuduta kaarti.</p><p>Väljaspool tööd on praeguse tegevuse puudutamisel teine tähendus ning see avab teabe puhkuse eesmärkide kohta. Seda funktsiooni kirjeldatakse eraldi juhendi moodulis.</p>"
+    },
+    "breaks": {
+      "title": "☕ Pausi ja puhkuse kontroll",
+      "content": "<p>Põhikaart näitab teavet, mis on kasulik puhketingimuste kontrollimiseks, sealhulgas:</p><ul><li>kas täieliku 45-minutilise pausi jaoks vajalik esimene 15-minutiline paus on arvestatud;</li><li>kas 3-tunnine puhkus, mis võimaldab 9-tunnist puhkust ilma limiiti vähendamata, on arvestatud.</li></ul><p>See kirjeldab teabe funktsiooni, mitte täielikke puhkuseeskirju.</p>"
+    },
+    "drivingCounter": {
+      "title": "Sõiduaja loendur",
+      "content": "<p>Loendur näitab praeguses vahetuses kasutatud sõiduaega.</p>"
+    },
+    "shiftCounter": {
+      "title": "⏱️ Vahetuse kogukestus",
+      "content": "<p>Teine põhiline loendur näitab praeguse vahetuse kogukestust. Koos sõiduaja loenduriga annab see kiire ülevaate vahetuse kestusest ja sõidule kulutatud ajast.</p>"
+    },
+    "progress": {
+      "title": "Edenemisribad",
+      "content": "<p>Edenemisribad näitavad vastavate loendurite maksimaalset saadaolevat aega. Puuduta loendurit, et näha, mida see mõõdab. Vajuta ja hoia, et vahetada möödunud/mõõdetud aja ja järelejäänud aja vahel.</p><p>Näiteks võib loendur näidata kasutatud 2 tundi või järelejäänud 8 tundi, sõltuvalt valitud kuvamisrežiimist. See moodul ei paku täielikku õiguslikku tõlgendust.</p>"
+    },
+    "wdt": {
+      "title": "⚒️ WDT",
+      "content": "<p>WDT jaotis on valikuline ja selle saab programmi valikutes sisse lülitada. WDT seaded võimaldavad ka hoiatusi enne WDT piirangute ületamist. Kui WDT on välja lülitatud, jaotist ei kuvata.</p>"
+    },
+    "rests": {
+      "title": "Puhkused",
+      "content": "<p>Põhiekraan näitab juba arvestatud puhkuste arvu ja praegu nõutavat arvu. See on kiire ülevaade juhi praegusest olukorrast. Üksikasjalikke puhkusereegleid käsitletakse eraldi.</p>"
+    },
+    "workAndDriving": {
+      "title": "Töö + sõit",
+      "content": "<p>Loendur <strong>Töö + sõit</strong> näitab praeguse vahetuse kogu töö- ja sõiduaega.</p>"
+    },
+    "continuous": {
+      "title": "Pidev töö + sõit",
+      "content": "<p>See loendur näitab pidevat töö- ja sõiduaega: töö- ja sõiduperioodi, mida ei ole katkestanud 15-minutiline puhkus enne kuue tunni möödumist. See selgitab loenduri funktsiooni, kirjeldamata kõiki eeskirju.</p>"
+    },
+    "weekly": {
+      "title": "Nädalane kasutus",
+      "content": "<p>Praeguse vahetuse loendurite all on nädalase kasutuse loendur. See näitab 9 tunni puhkuse ja 10 tunni sõidu kasutust.</p><p>Puuduta kaarti, et näha kiiret ülevaadet sõiduajast kahe nädala jooksul ning nädalavahetuse/nädalase puhkuse olekut. See hõlmab praegusest vahetusest laiemat perioodi.</p>"
+    },
+    "vehicle": {
+      "title": "Praegune sõiduk",
+      "content": "<p>Ekraan näitab praegust sõidukit, selle läbisõidumõõdiku näitu ja läbitud vahemaad. Kui sõiduk vahetub töö ajal, ilmuvad lisakirjed:</p><ul><li><strong>Sõiduk A</strong> — läbisõidumõõdik ja vahemaa;</li><li><strong>Sõiduk B</strong> — läbisõidumõõdik ja vahemaa pärast vahetust.</li></ul><p>Üks vahetus võib seega hõlmata rohkem kui ühte sõidukit.</p>"
+    },
+    "timeline": {
+      "title": "Praeguse vahetuse tegevused",
+      "content": "<p>All on nimekiri praeguse vahetuse tegevustest. Puuduta või keri vaadet ülespoole, et näha täiendavaid salvestatud tegevusi. Programmi valikud võimaldavad siin kuvada ka praegust tegevust. Üksikasjalikku tegevuste muutmist käsitletakse eraldi.</p>"
+    },
+    "bottomMenu": {
+      "title": "Alumine menüü",
+      "content": "<ul><li><strong>Põhimenüü</strong> — rakenduse põhiekraan.</li><li><strong>Eeskirjad</strong> — vastavuse ekraan juhi praeguse olukorra kontrollimiseks piirangute ja nõuetega.</li><li><strong>Analüüs</strong> — tööaja, vahetuste ja salvestatud tööperioodide analüüs.</li><li><strong>Logi</strong> — andmebaasi salvestatud tegevuste kronoloogiline loend; olemasolevaid tegevusi saab muuta ja uusi kirjeid lisada.</li></ul><p>Üksikasjalikud logi muutmise juhised on kirjeldatud eraldi moodulis.</p>"
+    },
+    "distinction": {
+      "title": "⚠️ Tähtsad erinevused",
+      "content": "<p>Neid mõisteid ei tohi omavahel segi ajada:</p><h3>Andmeallikas</h3><ul><li>GPS</li><li>MIX</li><li>CARD</li></ul><h3>Tuvastamise režiim</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Praegune tegevus</h3><ul><li>Sõit</li><li>Töö</li><li>Valmisolek</li><li>Puhkus</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi juhendisse"
+  },
+  "footer": "© TachoMobile 2"
+}

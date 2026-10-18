@@ -1,0 +1,80 @@
+{
+    "meta":  {
+                 "htmlLang":  "et"
+             },
+    "page":  {
+                 "title":  "Kuidas TachoMobile 2 töötab",
+                 "heading":  "📖 Kuidas TachoMobile 2 töötab"
+             },
+    "intro":  {
+                  "1":  "TachoMobile 2 on intelligentne juhiassistent, mis aitab jälgida sõiduaega, pause, puhkeperioode ja vastavust ELi sõidueeskirjadele.",
+                  "2":  "Rakendus töötab sarnaselt digitaalsele sõidumeerikule, tuvastades GPS-andmete abil automaatselt juhi tegevused ja pidades elektroonilist arvestust tööpäeva kohta."
+              },
+    "sections":  {
+                     "start":  {
+                                   "title":  "🚀 1. Tööpäeva alustamine",
+                                   "text1":  "Anna kõik vajalikud load ja kontrolli, et kõik oleks õigesti seadistatud ekraanil <b>Rakenduse olek</b>.",
+                                   "text2":  "Seejärel vali <b>Alusta tööd / Sisesta juhikaart</b>. Sellest hetkest töötab TachoMobile taustal automaatselt.",
+                                   "tip":  {
+                                               "title":  "💡 Nõuanne",
+                                               "text":  "Soovitatav on hoida telefon töö ajal laadijaga ühendatud, kuna pidev GPS-i kasutamine võib suurendada aku kulu."
+                                           }
+                               },
+                     "detection":  {
+                                       "title":  "🚚 2. Automaatne sõidu tuvastamine",
+                                       "text1":  "TachoMobile tuvastab automaatselt sõidu alguse ja lõpu, uuendades juhi tegevusi ilma käsitsi sisestamiseta.",
+                                       "text2":  "Rakendus analüüsib GPS-andmeid koos seadme käitumisega, et tuvastada sõidutegevus võimalikult täpselt."
+                                   },
+                     "breaks":  {
+                                    "title":  "☕ 3. Pausid",
+                                    "text1":  "Pikemate pauside ajal on soovitatav automaatne sõidu tuvastamine välja lülitada.",
+                                    "text2":  "See aitab vältida juhuslikke tegevuskirjeid, mis on tingitud kõndimisest, sõidukist väljaspool liikumisest või ajutisest GPS-signaali kadumisest.",
+                                    "text3":  "See ei ole siiski kohustuslik. TachoMobile sisaldab intelligentseid algoritme, mis on loodud valede sõidutuvastuste minimeerimiseks."
+                                },
+                     "edit":  {
+                                  "title":  "✏️ 4. Tegevuste muutmine",
+                                  "text1":  "Iga tegevust saab igal ajal muuta, kustutada või vahetada.",
+                                  "text2":  "Kui tegevus on valesti tuvastatud, saab seda hõlpsasti käsitsi parandada."
+                              },
+                     "finish":  {
+                                    "title":  "🏁 5. Tööpäeva lõpetamine",
+                                    "text1":  "Vahetuse lõpus vali <b>Eemalda juhikaart / Lõpeta töö</b>.",
+                                    "text2":  "Rakendus peatab GPS-jälgimise, et vähendada tarbetut aku kulu."
+                                },
+                     "premium":  {
+                                     "title":  "📊 6. Analüüs ja Premium-funktsioonid",
+                                     "text1":  "Kogutud andmete põhjal analüüsib TachoMobile automaatselt:",
+                                     "items":  [
+                                                   "Sõiduaeg",
+                                                   "Pausid",
+                                                   "Päevased puhkeperioodid",
+                                                   "Nädalased puhkeperioodid",
+                                                   "Sõidupiirangud",
+                                                   "Võimalikud rikkumised",
+                                                   "Tööaja statistika"
+                                               ],
+                                     "free":  "<b>Tasuta versioon</b> kasutab täpselt sama arvutusmootorit kui Premium-versioon. Automaatne sõidu tuvastamine ja põhilised jälgimisfunktsioonid töötavad mõlemas versioonis identselt.",
+                                     "premium":  "<b>Premium</b> ja <b>tasuta prooviperiood</b> avavad kõik täiustatud funktsioonid, sealhulgas üksikasjaliku analüüsi, täieliku ajaloo, täpsema statistika, aruanded ning seadistatavad hoiatused ja teavitused enne sõidupiirangute või võimalike rikkumiste saabumist."
+                                 },
+                     "done":  {
+                                  "title":  "✅ Sellega oli kõik!",
+                                  "automatic":  "Kui rakendus on seadistatud, töötab peaaegu kõik automaatselt.",
+                                  "daily":  "Igapäevases kasutuses peab juht tegema vaid järgmist:",
+                                  "items":  {
+                                                "1":  "Alusta tööpäeva.",
+                                                "2":  "Lõpeta töö vahetuse lõpus."
+                                            },
+                                  "text":  "TachoMobile 2 hoolitseb kõige ülejäänu eest."
+                              },
+                     "warning":  {
+                                     "title":  "⚠️ Tähtis teave",
+                                     "text1":  "<b>TachoMobile 2 on juhi abivahend.</b> See ei asenda digitaalset sõidumeerikut ega ühtegi kehtivate seaduste ja eeskirjadega nõutavat salvestusseadet.",
+                                     "text2":  "Rakendus kasutab GPS-andmeid koos omaenda tegevuste tuvastamise algoritmidega. Kuigi rakendust pidevalt täiustatakse, võib aeg-ajalt esineda ebatäpset tegevuste tuvastamist GPS-i piirangute, Androidi süsteemi piirangute või konkreetse seadme omaduste tõttu.",
+                                     "text3":  "Juhid peaksid alati salvestatud tegevusi kontrollima. Lahknevuste korral on alati ülimuslikud ametlikud sõidumeeriku andmed ja kehtiv seadusandlus."
+                                 }
+                 },
+    "navigation":  {
+                       "back":  "← Tagasi avalehele"
+                   },
+    "footer":  "© TachoMobile 2"
+}

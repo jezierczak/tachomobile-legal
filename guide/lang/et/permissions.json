@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Load ja rakenduse olek",
+    "heading": "Load ja rakenduse olek"
+  },
+  "intro": {
+    "1": "TachoMobile kasutab sõidu automaatseks tuvastamiseks telefoni GPS-i ja Google Activity Recognitioni.",
+    "2": "GPS aitab määrata sõiduki liikumist, kiirust ja marsruuti, samas kui tegevuse tuvastamine aitab kindlaks teha, kas telefon on sõidukis või väljaspool seda. See võimaldab rakendusel kohandada ka GPS-mõõtmist praeguste tingimustega.",
+    "3": "Et jälgimine töötaks õigesti ka siis, kui TachoMobile ei ole ekraanil kuvatud, on vaja vastavaid lubasid ja telefoni seadeid."
+  },
+  "sections": {
+    "status": {
+      "title": "Rakenduse olek",
+      "text1": "Kõigi vajalike lubade ja seadete olekut saad kontrollida rakenduses:",
+      "text2": "Jaotis Rakenduse olek sisaldab järgmisi elemente:",
+      "items": [
+        "Täpne asukoht",
+        "Taustal asukoht",
+        "Tegevuse tuvastamine",
+        "Teavitused",
+        "Aku optimeerimine",
+        "GPS-signaal"
+      ]
+    },
+    "location": {
+      "title": "Täpne asukoht",
+      "text": "TachoMobile kasutab täpset asukohta, et määrata sõiduki kiirust ja marsruuti ning tagada GPS-jälgimise korrektne toimimine."
+    },
+    "backgroundLocation": {
+      "title": "Taustal asukoht",
+      "text1": "Taustal asukoht võimaldab rakendusel jätkata GPS-i jälgimist, kui TachoMobile töötab taustal.",
+      "text2": "Ilma selle loata võib jälgimine peatuda, kui rakendus ei ole avaekraanil."
+    },
+    "activityRecognition": {
+      "title": "Tegevuse tuvastamine",
+      "text1": "TachoMobile kasutab Google Activity Recognitioni, et määrata, kas telefon on sõidukis või väljaspool seda.",
+      "text2": "See teave aitab rakendusel GPS-mõõtmise sagedust sobivalt kohandada."
+    },
+    "notifications": {
+      "title": "Teavitused",
+      "text": "Teavitused on vajalikud, et taustal töötav asukohateenus toimiks korrektselt."
+    },
+    "battery": {
+      "title": "Aku optimeerimine",
+      "text1": "Mõned seadmed võivad taustal töötavaid rakendusi aku säästmiseks piirata. See võib piirata või peatada GPS-i toimimise ja põhjustada seega jälgimise katkemise.",
+      "text2": "Seetõttu veendu, et aku optimeerimine ei piira TachoMobile'i."
+    },
+    "gps": {
+      "title": "GPS-signaal",
+      "text": "GPS-signaali olek võimaldab kiiresti kontrollida, kas telefon saab hetkel kehtivaid asukohaandmeid."
+    },
+    "troubleshooting": {
+      "title": "⚠️ Mida teha, kui midagi ei tööta?",
+      "text1": "Kui mõni vajalik seade ei ole õigesti seadistatud, näitab Rakenduse olek vastavat olekut.",
+      "text2": "Elemendil klõpsamine viib sind vastavatesse telefoni seadetesse, kus saad nõutava seade kontrollida või muuta."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi avalehele"
+  },
+  "footer": "© TachoMobile 2"
+}

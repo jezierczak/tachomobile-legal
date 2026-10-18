@@ -1,0 +1,28 @@
+{
+  "meta": { "htmlLang": "et" },
+  "page": {
+    "title": "Puhkuse valikute leht - TachoMobile 2",
+    "heading": "Puhkuse valikute leht",
+    "intro": "Puhkuse valikute leht ilmub siis, kui oled <strong>töölt eemal</strong> ja sinu praegune/peamine tegevus on <strong>Puhkus</strong>. See võimaldab vaadata saadaolevaid puhkuse eesmärke ja hallata nende kasutamist."
+  },
+  "sections": {
+    "when": { "title": "Millal leht avaneb", "text": "Leht on saadaval ainult siis, kui oled töölt eemal. Sellises olukorras ei ava tegevuse Puhkus puudutamine tavalist tegevuse lisamise akent. Selle asemel avab see puhkuse valikute lehe." },
+    "contents": {
+      "title": "Mida leht näitab",
+      "intro": "Ülaosas näitab leht praegust <strong>puhkuse kestust</strong> ja <strong>puhkuse algusaega</strong>. Nende väärtuste all on näidatud saadaolevad puhkuse eesmärgid.",
+      "header": { "title": "Päevased puhkuse eesmärgid", "text": "Sõltuvalt praegusest olukorrast võib saadaval olla <strong>9-tunnine</strong> või <strong>11-tunnine</strong> päevane puhkuse eesmärk. Rakenduse põhiekraan loeb tavaliselt maha lähima või järgmise päevase puhkuse eesmärgini." },
+      "daily": { "title": "Päevased puhkuse eesmärgid", "text": "Kasuta päevase puhkuse eesmärgi kõrval olevat valikupunkti, et valida, millist saadaolevat eesmärki põhiekraani loendur kasutab. See valik muudab ainult kuvatavat eesmärki; see ei lõpeta puhkust ega muuda selle klassifikatsiooni." },
+      "weekly": { "title": "Nädalased puhkuse eesmärgid", "text": "Nädalased puhkuse eesmärgid on näidatud päevaste eesmärkide all: <strong>24 tundi</strong> ja <strong>45 tundi</strong>. Iga eesmärk näitab, kui palju aega on jäänud, selle tähtaega ning päeva ja kellaaega, millal eesmärk saavutatakse või aegub." }
+    },
+    "interactions": {
+      "title": "Kolm sõltumatut tegevust",
+      "countdown": { "title": "1. Vali põhiekraani loenduri eesmärk", "text": "Puuduta puhkuse eesmärgi kõrval olevat valikupunkti, et teha see eesmärgiks, mida kasutab rakenduse põhiekraani puhkuse loendur/taimer. Vaikimisi näitab põhiekraan lähimat päevast puhkuse eesmärki, kuid saad selle muuta mõneks teiseks saadaolevaks eesmärgiks. See <strong>ei</strong> märgi puhkust lõpetatuks ega muuda selle klassifikatsiooni." },
+      "weekly": { "title": "2. Vali nädalane puhkus", "text": "Nädalastel puhkuse eesmärkidel on toiming <strong>Vali</strong>. Ühe valimine märgib selle puhkuse kavandatud nädalaseks puhkuseks. Kui saadud puhkus saavutab nõutava kestuse, näiteks 24 tundi 24-tunnise eesmärgi puhul, arvestatakse see otse nädalase puhkusena, mitte ei jää lihtsalt kandidaadiks, mis ootab 144-tunnise akna lõppu. Vaata jaotist Seotud sisu, et saada rohkem teavet nädalase puhkuse kandidaatide kohta." },
+      "alarm": { "title": "3. Sea äratus", "text": "Iga puhkuse tähtaja kõrval on äratuskella ikoon. Puuduta seda, et avada süsteemi äratuse/kella rakendus ja seada äratus ajaks, millal valitud puhkuse eesmärk saab täidetud või jõuab oma tähtajani. TachoMobile avab süsteemi äratusfunktsiooni; see ei loo rakendusesisest kohandatud äratust." }
+    },
+    "manual": { "title": "Käsitsi kirjed väljaspool tööaega", "text": "Käsitsi kirjeid väljaspool tööaega käsitletakse jaotises <strong>Logiraamat</strong>. Ava <strong>Valikud</strong>, vali <strong>Vahetus lõppenud</strong> ja lisa seal uus vahetus või jada. See protsess kuulub artikli <strong>Tegevuse sisestamine</strong> alla." }
+  },
+  "related": { "title": "Seotud sisu", "activityEntry": "Tegevuse sisestamine", "mainScreen": "Põhiekraan ja praegune tegevus" },
+  "navigation": { "back": "← Tagasi juhendisse" },
+  "footer": "© TachoMobile 2"
+}

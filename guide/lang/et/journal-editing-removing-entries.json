@@ -1,0 +1,15 @@
+{
+  "meta": { "htmlLang": "et" },
+  "page": {
+    "title": "Logiraamat – kirjete muutmine ja eemaldamine - TachoMobile 2",
+    "heading": "Logiraamat – kirjete muutmine ja eemaldamine",
+    "subtitle": "Õpi, kuidas muuta ja eemaldada kirjeid logiraamatust."
+  },
+  "sections": {
+    "editing": "<h2>1. Kirje muutmine</h2><p>Iga logiraamatu kirjet saab muuta.</p><p>Muutmine on kaheetapiline protsess, sarnane kirje lisamisega.</p><h3>1. samm – vali tegevus/sündmus</h3><p>Esmalt vali tegevus või sündmus. Saad tegevust täielikult muuta, näiteks <strong>Sõidust</strong> <strong>Tööks</strong>.</p><h3>2. samm – muuda kirje üksikasju</h3><p>Seejärel muuda kirje üksikasju, sealhulgas algusaega ja muid saadaolevaid andmeid:</p><ul><li>Sõiduki registreerimisnumber</li><li>Riik</li><li>Linn</li><li>Läbisõidumõõdik</li><li>Märkused</li></ul><p>Kirjet saad muuta selle kontekstimenüüst logiraamatus või lõigu üksikasjade ekraanilt, vajutades üksikasjade all nuppu <strong>Muuda</strong>.</p>",
+    "timeChange": "<h2>2. Kirje aja muutmine</h2><p>Aja muutmine tähendab sündmuse alguskellaaja muutmist.</p><p>Kirjel ei ole sõltumatut fikseeritud kestust. Kestuse määrab järgmise kirje algus. Seetõttu muudab kirje alguskellaaja muutmine automaatselt kõrvaloleva kirje kestust. See on tagajärg sellest, kuidas logiraamatu ajatelg töötab.</p><p>Näiteks, kui <strong>Töö</strong> algab kell 11:00 ja liigutatakse kellale 11:30, pikeneb eelmine tegevus 30 minuti võrra. Kui <strong>Töö</strong> liigutatakse kellale 10:45, lüheneb eelmine tegevus 15 minuti võrra.</p>",
+    "removing": "<h2>3. Kirjete eemaldamine</h2><p>Kirje saab eemaldada selle kontekstimenüüst, valides <strong>Kustuta</strong>.</p><ul><li>Kustutamine on lõplik.</li><li><strong>Tagasivõtmist</strong> ei ole.</li><li>Mitme kirje valimiseks vajuta ja hoia kirjet, et siseneda valikurežiimi, seejärel vali teised kirjed rühma kustutamiseks.</li><li>Kirjete valimine ei kustuta neid. Need eemaldatakse alles pärast nupu <strong>Kustuta</strong> vajutamist.</li></ul>"
+  },
+  "navigation": { "back": "← Tagasi juhendisse" },
+  "footer": "© TachoMobile 2"
+}

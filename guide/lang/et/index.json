@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "TachoMobile 2 — Juhend",
+    "heading": "TachoMobile 2 — Juhend",
+    "description": "See juhend sisaldab teavet, mis aitab Sul TachoMobile 2 rakendust õigesti seadistada ja kasutada."
+  },
+  "modules": {
+    "backupAndSync": { "title": "Varundamine ja sünkroonimine", "description": "Kaitse oma rakenduse andmeid krüptitud kohaliku faili või pilvevarunduse abil.", "url": "backup-and-sync/" },
+    "logScreen": {
+      "title": "Logi ekraan",
+      "description": "Vaata ja halda oma tegevuskirjeid kronoloogilisest tegevuste ajaloost.",
+      "url": "log-screen/"
+    },
+    "journalAddingEntries": {
+      "title": "Logiraamat – kirjete lisamine",
+      "description": "Õpi, kuidas lisada ja luua käsitsi kirjeid.",
+      "url": "journal-adding-entries/"
+    },
+    "journalEditingRemovingEntries": {
+      "title": "Logiraamat – kirjete muutmine ja eemaldamine",
+      "description": "Õpi, kuidas muuta ja eemaldada kirjeid logiraamatust.",
+      "url": "journal-editing-removing-entries/"
+    },
+    "activityEntry": { "title": "Töö alustamine ja praeguste tegevuste sisestamine", "description": "Õpi, kuidas alustada ja lõpetada tööd ning kiiresti sisestada juhi tegevusi.", "url": "activity-entry/" },
+    "restOptions": { "title": "Puhkuse valikute leht", "description": "Õpi, kuidas vaadata ja hallata päevaseid ja nädalaseid puhkuse eesmärke, kui oled töölt eemal.", "url": "rest-options/" },
+    "firstSteps": {
+      "title": "Esimesed sammud",
+      "description": "Kiire sissejuhatus TachoMobile 2 kasutamise alustamiseks.",
+      "url": "first-steps/"
+    },
+    "permissions": {
+      "title": "Load ja rakenduse olek",
+      "description": "Õpi, millised load ja telefoni seaded on vajalikud, et TachoMobile 2 töötaks korrektselt.",
+      "url": "permissions/"
+    },
+    "drivingDetection": {
+      "title": "Sõidu tuvastamine",
+      "description": "Õpi, kuidas automaatne sõidu tuvastamine töötab ja kuidas seda oma vajadustele kohandada.",
+      "url": "driving-detection/"
+    },
+    "mainScreen": {
+      "title": "Põhiekraan",
+      "description": "Tutvu TachoMobile 2 põhiekraanil olevate elementide, teabe ja toimingutega.",
+      "url": "main-screen/"
+    }
+    ,"importDdd": { "title": "Juhikaardi andmete importimine (.ddd)", "description": "Impordi päris juhikaardi andmed .ddd failist.", "url": "import-ddd/" }
+  },
+  "navigation": {
+    "back": "← Tagasi avalehele",
+    "backUrl": "/et/"
+  },
+  "footer": "© TachoMobile 2"
+}

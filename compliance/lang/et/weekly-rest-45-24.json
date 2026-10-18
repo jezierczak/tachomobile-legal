@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Nädalane puhkus (45h / 24h) - Vastavuseeskirjad",
+    "heading": "Nädalane puhkus (45h / 24h)",
+    "description": "Selgitus tavapärase ja vähendatud nädalase puhkuse kohta, sellest, kuidas vähendatud puhkust tuleb kompenseerida, ning kahenädalareeglist, mis piirab selle kasutamise sagedust."
+  },
+  "content": {
+    "regulation": {
+      "title": "Eeskiri",
+      "text": "6 järjestikuse 24-tunnise perioodi jooksul pärast eelmise nädalase puhkuse lõppu peab juht võtma uue nädalase puhkeperioodi. Tavapärane nädalane puhkus on vähemalt 45 tundi. Vähendatud nädalane puhkus on vähemalt 24 tundi (kuid alla 45)."
+    },
+    "compensation": {
+      "title": "Vähendatud puhkuse kompenseerimine",
+      "text": "Iga vähendamine alla 45 tunni tuleb kompenseerida võrdväärse puhkeperioodiga, mis lisatakse teisele, vähemalt 9-tunnisele puhkeperioodile, ja mis tuleb võtta enne vastavale nädalale järgneva 3. nädala lõppu."
+    },
+    "twoWeek": {
+      "title": "Kahenädalareegel",
+      "text": "Mis tahes kahe järjestikuse nädala jooksul peab juht võtma vähemalt kaks nädalast puhkeperioodi, millest vähemalt üks peab olema tavapärane (45h) puhkus. Juht ei tohi võtta kahte vähendatud nädalast puhkust järjest."
+    },
+    "tachomobileHandling": {
+      "title": "Kuidas TachoMobile seda käsitleb",
+      "text": "Praeguse 144-tunnise (6-päevase) akna jooksul märgib TachoMobile iga piisavalt pika puhkeperioodi, mis vastab nädalase puhkuse tingimustele (vähemalt 24 tundi), kandidaadiks. Kui aken sulgub, valib rakendus automaatselt parima kandidaadi — pikima nõuetele vastava puhkuse — ja kinnitab selle nädalase puhkusena, liigitades selle tavapäraseks või vähendatuks ning jälgides võlgnetavat kompensatsiooni. Juht saab kandidaadi ka käsitsi kohe nädalase puhkusena kinnitada, ootamata akna sulgumist."
+    },
+    "example": {
+      "title": "Näide",
+      "text": "Juht võtab 30-tunnise vähendatud nädalase puhkuse (15-tunnine vähendus tavapärasest 45 tunnist). Enne sellele nädalale järgneva 3. nädala lõppu peab ta kompensatsiooniks võtma täiendavad 15 tundi puhkust, mis on lisatud teisele, vähemalt 9-tunnisele puhkeperioodile."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi vastavuseeskirjade juurde",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

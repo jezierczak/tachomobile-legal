@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Päevane puhkus (11h / 9h / 3+9h) - Vastavuseeskirjad",
+    "heading": "Päevane puhkus (11h / 9h / 3+9h)",
+    "description": "Selgitus tavapärase, vähendatud ja jagatud päevase puhkuse kohta ning sellest, kuidas vähendatud puhkuse piirang erineb nädalasest sõiduaja loendurist."
+  },
+  "content": {
+    "regulation": {
+      "title": "Eeskiri",
+      "text": "Iga 24-tunnise perioodi jooksul peab juht võtma vähemalt 11 järjestikust tundi kestva päevase puhkuse (tavapärane päevane puhkus). Seda võib vähendada kuni 9 järjestikuse tunnini (vähendatud päevane puhkus), kuid vähendatud päevast puhkust tohib võtta kõige rohkem 3 korda kahe nädalase puhkuse vahel."
+    },
+    "split": {
+      "title": "Jagatud päevane puhkus (3+9)",
+      "text": "Päevase puhkuse võib jagada ka kaheks perioodiks: vähemalt 3 tundi, millele järgneb vähemalt 9 järjestikust tundi, kokku vähemalt 12 tundi. Jagatud päevane puhkus EI arvestata 3 korra vähendatud puhkuse piirangu hulka — see on eraldiseisev, täielikult vastav viis päevase puhkuse võtmiseks."
+    },
+    "reset": {
+      "title": "Tähtis: 3x vähendatud puhkuse piirang nullib nädalaste puhkuste vahel, mitte kalendrinädalal",
+      "text": "Erinevalt 10-tunnisest sõidupikendusest (piiratud kaks korda kalendrinädalas, nullib iga esmaspäev), loetakse 3 lubatud vähendatud päevast puhkust kahe järjestikuse nädalase puhkuse vahel — olenemata sellest, millisele nädalapäevale juhi nädalane puhkus langeb. Loendur nullib alles siis, kui juht võtab oma järgmise nädalase puhkuse, olenemata sellest, mis nädalapäev see on."
+    },
+    "crew": {
+      "title": "Meeskonnaga sõidul",
+      "text": "Meeskonnaga sõidul kehtib ainult 9-tunnine puhkuse variant — ei ole tavapärast (11h) puhkust, ei arvestata vähendatud puhkust 3-korra-nädalas piirangu hulka ega ole jagatud (3+9h) võimalust. Iga meeskonna juht peab 30 tunni jooksul pärast eelmise puhkeperioodi lõppu võtma vähemalt 9-tunnise puhkuse. See on eraldiseisev, fikseeritud meeskonnareegel, mis on sõltumatu ülalkirjeldatud 3x vähendatud puhkuse loendurist."
+    },
+    "tachomobileHandling": {
+      "title": "Kuidas TachoMobile seda eeskirja käsitleb",
+      "text": "TachoMobile jälgib iga päevast puhkeperioodi ja liigitab selle tavapäraseks, vähendatuks või jagatuks. See loeb, mitu vähendatud päevast puhkust on alates juhi viimasest nädalasest puhkusest kasutatud, ja hoiatab, kui 3-korra piirang läheneb, nullides loenduri automaatselt, kui tuvastatakse uus nädalane puhkus."
+    },
+    "example": {
+      "title": "Näide",
+      "text": "Juht võtab teisipäeval ja neljapäeval 9-tunnise vähendatud puhkuse (2 kolmest kasutatud). Laupäeval võtab ta oma nädalase puhkuse. Vähendatud puhkuse loendur nullib — isegi kui kalendrinädal ei ole vahetunud —, sest on alanud uus nädalane puhkeperiood."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi vastavuseeskirjade juurde",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

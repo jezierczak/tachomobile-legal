@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Päevane sõiduaja piirang (9h/10h) - Vastavuseeskirjad",
+    "heading": "Päevane sõiduaja piirang (9h/10h)",
+    "description": "Selgitus 9-tunnise päevase sõidupiirangu, kaks korda nädalas lubatud 10-tunnise pikenduse ja selle kohta, kuidas TachoMobile seda jälgib."
+  },
+  "content": {
+    "regulation": {
+      "title": "Eeskiri",
+      "text": "Juht ei tohi ühe ööpäeva jooksul sõita rohkem kui 9 tundi. Seda päevast sõidupiirangut võib pikendada 10 tunnini, kuid mitte rohkem kui kaks korda samal nädalal."
+    },
+    "extension": {
+      "title": "Pikendus 10 tunnini",
+      "text": "10-tunnine pikendus on saadaval ainult kaks korda nädalas. Kui juht on nädala jooksul kasutanud mõlemad pikendused, on iga järgnev sõidupäev sel nädalal piiratud 9 tunniga. Nädalane loendur nullib kesköösel pühapäeva ja esmaspäeva vahel — mõlemad saadaolevad pikendused muutuvad uuesti saadavaks iga uue nädala alguses (esmaspäeval kell 00:00), olenemata sellest, kuidas neid eelmisel nädalal kasutati."
+    },
+    "tachomobileHandling": {
+      "title": "Kuidas TachoMobile seda eeskirja käsitleb",
+      "text": "TachoMobile jälgib päevast sõiduaega 9-tunnise piirangu suhtes ja lubab vajaduse korral automaatselt 10-tunnist pikendust. Põhiekraani nädalase kasutuse loendur näitab, mitu kahest saadaolevast 10-tunnisest pikendusest on jooksval nädalal (esmaspäevast pühapäevani) kasutatud, et juht saaks järgnevaid päevi vastavalt planeerida."
+    },
+    "example": {
+      "title": "Näide",
+      "text": "Juht sõidab esmaspäeval 9:45 (1. pikendus kasutatud) ja kolmapäeval 9:30 (2. pikendus kasutatud). TachoMobile märgib mõlemad pikendused sel nädalal kasutatuks; iga järgnev sõidupäev sel nädalal on piiratud 9 tunniga. Järgmisel esmaspäeval loendur nullib ja mõlemad pikendused on jälle saadaval."
+    },
+    "crew": {
+      "title": "Meeskonnaga sõidul",
+      "text": "Meeskonnaga sõidul on igal juhil endiselt individuaalne 9-tunnine päevane sõidupiirang, kuid kaks korda nädalas lubatud pikendus 10 tunnini ei ole saadaval — iga meeskonna juht on piiratud range 9-tunnise päevase sõiduajaga, ilma pikenduse võimaluseta."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi vastavuseeskirjade juurde",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

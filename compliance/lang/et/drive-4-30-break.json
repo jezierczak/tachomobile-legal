@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Sõit 4:30 ja paus - Vastavuseeskirjad",
+    "heading": "Sõit 4:30 ja paus",
+    "description": "Selgitus 4 tunni ja 30 minuti sõidupiirangu ja nõutava pausi kohta."
+  },
+  "content": {
+    "regulation": {
+      "title": "Eeskiri",
+      "text": "Juht ei tohi sõidukit juhtida kauem kui 4 tundi ja 30 minutit ilma nõutava pausita. Pärast seda perioodi on nõutav 45-minutiline paus."
+    },
+    "breakVariants": {
+      "title": "Pausi variandid",
+      "text": "Pausi saab teha kahel viisil: 1. 45-minutilise katkematu puhkusena, või 2. Jagatuna kaheks osaks: esmalt 15 minutit, seejärel 30 minutit puhkust."
+    },
+    "tachomobileHandling": {
+      "title": "Kuidas TachoMobile seda eeskirja käsitleb",
+      "text": "TachoMobile toetab mõlemat pausi varianti. Programm analüüsib sõiduaega ja kontrollib, kas juht on nõutava pausi lõpetanud. Põhiekraanil on märkeruut, mis näitab, kas pausi esimesed 15 minutit on lõpetatud. Kui esimesed 15 minutit on korrektselt salvestatud, jätab programm selle meelde. Sellises olukorras jääb nõutava pausi lõpetamiseks alles 30 minutit puhkust. Pärast selle lisapause 30 minuti lõpetamist loeb TachoMobile nõutava pausi täidetuks ja nullib pideva sõiduaja loenduri. Kui tehakse 45 minutit katkematut puhkust tervikuna, loeb programm nõude samuti täidetuks ja nullib pideva sõiduaja loenduri."
+    },
+    "example": {
+      "title": "Näide",
+      "text": "Juht sõitis 4:00 → peatus 15 minutiks → jätkas sõitu → hiljem peatus 30 minutiks. TachoMobile jätab meelde varem lõpetatud 15 minutit. Pärast lisapause 30 minuti lõpetamist loeb TachoMobile 45-minutilise pausi täidetuks ja nullib pideva sõiduaja loenduri."
+    },
+    "crew": {
+      "title": "Meeskonnaga sõidul",
+      "text": "Meeskonnaga sõidul võib juht teha nõutava 45-minutilise pausi valmisoleku ajal, kui teine juht on rooli taga. Pausi sel viisil kasutamine nullib puhkava juhi 4 tunni ja 30 minuti sõiduaja loenduri. Pause juhtide vahel vaheldumisi kasutades saab meeskond hoida sõidukit liikumas peaaegu katkematult umbes 18 tundi, kuigi iga juht järgib individuaalselt endiselt oma sõidu- ja puhkepiiranguid."
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi vastavuseeskirjade juurde",
+    "backUrl": "/compliance/"
+  },
+  "footer": "© TachoMobile 2"
+}

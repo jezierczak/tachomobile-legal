@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Sõidu tuvastamine",
+    "heading": "Sõidu tuvastamine"
+  },
+  "intro": {
+    "1": "TachoMobile kasutab sõidu automaatseks tuvastamiseks mitut teabeallikat.",
+    "2": "Telefoni GPS annab teavet sõiduki liikumise ja kiiruse kohta. Google Activity Recognition aitab määrata, kas telefon on sõidukis või väljaspool seda.",
+    "3": "Neid allikaid analüüsitakse koos, et määrata telefoni praegune olek ja juhtida vastavalt automaatset sõidu tuvastamist."
+  },
+  "sections": {
+    "how": {
+      "title": "Kuidas sõidu tuvastamine töötab?",
+      "content": "<p>TachoMobilel ei ole otsest ühendust sõidumeerikuga. Sõidutegevuse automaatseks tuvastamiseks kasutab see telefoni GPS-i ja Google Activity Recognitioni.</p><p>Telefoni GPS annab teavet sõiduki liikumise ja kiiruse kohta. Google Activity Recognition aitab määrata, kas telefon on sõidukis või väljaspool seda.</p><p>Neid allikaid analüüsitakse koos, et määrata telefoni praegune olek ja juhtida vastavalt automaatset sõidu tuvastamist.</p>"
+    },
+    "workModes": {
+      "title": "⚙️ Tuvastamise töörežiimid",
+      "content": "<p>Tuvastamisel on neli töörežiimi:</p><h3>⛔ OFF — väljas</h3><p>Automaatne sõidu tuvastamine on täielikult välja lülitatud.</p><ul><li>GPS-i ei kasutata tuvastamiseks.</li><li>Google Activity Recognitioni ei kasutata tuvastamiseks.</li><li>Tegevused sisestatakse ainult käsitsi.</li></ul><p>OFF tähendab täielikult käsitsi tegevuste haldamist.</p><h3>✋ MANUAL — käsitsi</h3><p>Tegevused sisestatakse ainult käsitsi.</p><p>Järgmiste tegevuste ajal kasutatakse GPS-i marsruudi jälgimiseks ja kilomeetrite arvestamiseks:</p><ul><li>Sõit</li><li>Valmisolek meeskonnas</li></ul><p><strong>Tähtis:</strong> MANUAL ei tähenda, et GPS on täielikult välja lülitatud. GPS töötab siis, kui seda on vaja Sõidu või Meeskonna valmisoleku jälgimiseks.</p><h3>STANDBY — ooterežiim</h3><p>Ooterežiim on erirežiim, mis on mõeldud peamiselt olukordadeks, kus juht teeb pausi. Ebatavalistes tingimustes, näiteks nõrga või ebastabiilse GPS-signaali korral, võib rakendus tuvastada sõidu, kuigi sõiduk seisab.</p><ol><li>Rakendus võib tuvastada võimaliku sõidu.</li><li>Teade annab teada, et sõit on tuvastatud.</li><li>Rakendus ootab kinnitust 30 sekundit.</li><li>Kui sõitu ei kinnitata, tühistatakse tuvastus.</li><li>Kui sõit kinnitatakse, säilitatakse sõidukirje.</li><li>Töörežiim muutub AUTO-ks.</li></ol><p>Pausi ajal on soovitatav ooterežiim.</p><h3>AUTO — automaatne</h3><p>AUTO on täielikult automaatne sõidu tuvastamise režiim.</p><ul><li>Juhi tegevused muutuvad algoritmi põhjal automaatselt.</li><li>GPS töötab töö ajal.</li><li>Automaatne tuvastamine töötab töö ajal.</li></ul><p>Pärast töö lõppu ja juhikaardi eemaldamist peatatakse automaatne sõidu tuvastamine.</p><p>Pärast töö lõppu toimuva puhkuse ajal ei kasutata GPS-i automaatseks sõidu tuvastamiseks.</p>"
+    },
+    "vehicleStates": {
+      "title": "Sõiduki tuvastamise olekud",
+      "content": "<p>TachoMobile kuvab praeguse tuvastamise oleku ikoonina rakenduse olekus.</p><p><strong>Tähtis:</strong> Sõiduki tuvastamise olek ei ole sama mis juhi tegevus. See on üks element, mida tuvastamismootor kasutab otsustamisel, kas tegevust muuta.</p><h3>⏸️ Kindlasti väljaspool sõidukit</h3><p>Rakendus on väga kindel, et telefon on väljaspool sõidukit. Aku säästvates režiimides võidakse selles olekus GPS-i kasutada väga harva — isegi üks mõõtmine iga 60 sekundi järel.</p><h3>Väljaspool sõidukit</h3><p>Telefon on tuvastatud sõidukist väljaspool olevana.</p><h3>Kindlasti sõidukis</h3><p>Rakendus on väga kindel, et telefon on sõidukis. Selles olekus võidakse kasutada madalamat sõidu aktiveerimise kiiruse läve.</p><h3>Sõidukis</h3><p>Rakendus on tuvastanud, et telefon on sõidukis.</p><h3>Autosisene lukk (In-Car Lock)</h3><p><strong>Autosisene lukk ei ole kasutajale kättesaadav seadistus.</strong> See on automaatne mehhanism, mis kaitseb tuvastamise toimimist.</p><p>Kui rakendus on väga kindel, et telefon on sõidukis ja see on ühendatud laadijaga, võib see aktiveerida autosisese luku.</p><p>Selles olekus eeldab rakendus, et telefon jääb sõidukisse, ega lülitu teistele tuvastamise olekutele lühiajaliste või ajutiste signaalimuutuste tõttu.</p><p>Autosisene lukk vabastatakse pärast:</p><ul><li>laadija eemaldamist,</li><li>või vähemalt 2 minutit kestva peatuse tuvastamist.</li></ul><p>Autosisese luku ajal kasutatakse madalaimat sõidu aktiveerimise kiiruse läve.</p><p>Autosisene lukk on automaatne. Kasutaja ei lülita seda käsitsi sisse.</p>"
+    },
+    "power": {
+      "title": "Üleminek puhkusele pärast toite kadu",
+      "content": "<p>See on sõidu tuvastamise seadetes saadaolev valik.</p><p>Kui see on sisse lülitatud, võib peatumise järel või väga madalal kiirusel toite kadu automaatselt tegevuse puhkuseks muuta.</p><p>Näiteks:</p><p><strong>sõit → peatumine → süüde välja lülitatud → puhkus</strong></p><p>See funktsioon on autosisesest lukust eraldiseisev.</p>"
+    },
+    "detectionModes": {
+      "title": "Tuvastamise režiimid",
+      "content": "<p>See on eraldiseisev seade neljast töörežiimist: OFF / MANUAL / STANDBY / AUTO.</p><h3>⛔ Väljas</h3><p>Automaatne GPS-mõõtmine tuvastamiseks on välja lülitatud.</p><h3>Kõrge täpsus</h3><ul><li>Kiire GPS-mõõtmine.</li><li>Kiire reageerimine tuvastamisel.</li><li>Kiire mõõtmine ka tuvastatud peatuse ajal.</li><li>Kõrge täpsus ja reageerimisvõime.</li><li>Suurenenud aku kulu.</li></ul><h3>⚖️ Tasakaalustatud</h3><ul><li>Kompromiss kiiruse ja aku kulu vahel.</li><li>Pärast peatuse tuvastamist kasutatakse pakettmõõtmist.</li><li>See on vaikimisi režiim.</li></ul><h3>Aku säästmine</h3><p>See on igapäevaseks tööks soovitatav säästurežiim.</p><ul><li>Pärast peatuse tuvastamist kasutatakse GPS-i väga harva: üks mõõtmine iga 60 sekundi järel.</li><li>Üle 50 km/h kasutatakse pakettmõõtmist iga 8 sekundi järel.</li></ul><p>Aku säästmine võimaldab endiselt automaatset sõidu tuvastamist. See muudab peamiselt GPS-i kasutamise viisi.</p><p>Kõrge täpsus, Tasakaalustatud ja Aku säästmine on vaikimisi tuvastamise režiimid ning igaühel neist on oma sõidu aktiveerimise ja deaktiveerimise kiirused.</p>"
+    },
+    "custom": {
+      "title": "Kohandatud režiim",
+      "content": "<p>Kohandatud režiim on Premium-funktsioon. See võimaldab kasutajal tuvastamist oma vajadustele kohandada.</p><p>See jaotis sisaldab ka kasutaja reguleeritavaid sõidu aktiveerimise ja deaktiveerimise kiirusi ning peatatud olekus kasutatavat jälgimisrežiimi.</p><h3>Mõõtmise tundlikkus</h3><p>See määrab GPS-mõõtmiste arvu, mida kasutatakse keskmise arvutamiseks.</p><p>Vaikeväärtus: 3 mõõtmist.</p><h3>Mõõtmiste vaheline intervall</h3><p>See määrab järjestikuste GPS-mõõtmiste vahelise aja.</p><p>Vaikeväärtus: 4 sekundit.</p><p>Vaikekonfiguratsioon tähendab 3 mõõtmist iga 4 sekundi järel. Nendest mõõtmistest arvutatakse keskmine, mida algoritm seejärel kasutab sõidu aktiveerimise ja deaktiveerimise kiiruse määramisel.</p>"
+    },
+    "thresholds": {
+      "title": "Aktiveerimise ja deaktiveerimise kiirused",
+      "content": "<p>Kohandatud režiimis saab kasutaja kiiruse lävesid reguleerida.</p><p>Algoritm kasutab sõiduki tuvastamise teavet koos keskmise GPS-kiirusega.</p><p>Vaikimisi tuvastamise tasemed:</p><ul><li>Kindlasti sõidukis — 3 km/h</li><li>Tõenäoliselt sõidukis — 6 km/h</li><li>Tõenäoliselt väljaspool sõidukit — 12 km/h</li><li>Väljaspool sõidukit — 15 km/h</li></ul><p>Need väärtused ei ole lihtne süsteem „üle X km/h = sõit”. Need on parameetrid, mida algoritm kasutab koos sõiduki tuvastamise olekuga.</p><p>Ka vaikimisi tuvastamise režiimidel on oma aktiveerimise ja deaktiveerimise kiirused. Kohandatud režiim võimaldab kasutajal neid lävesid reguleerida.</p>"
+    },
+    "stoppedTracking": {
+      "title": "Jälgimisrežiim peatuse ajal",
+      "content": "<p>Pärast peatuse tuvastamist saab kasutaja valida, kuidas GPS-jälgimine jätkub.</p><h3>Reaalaeg</h3><p>GPS-mõõtmised tehakse vastavalt seadistatud skeemile. Näiteks 4-sekundilise intervalliga tehakse mõõtmisi iga 4 sekundi järel. See vastab Kõrgele täpsusele.</p><h3>Pakettmõõtmine</h3><p>Mõõtmised rühmitatakse suurematesse intervallidesse. Näiteks: 16 sekundit. See vastab Tasakaalustatud režiimile.</p><h3>Eco</h3><p>GPS-i kasutatakse palju harvem. Näiteks: 60 sekundit. See vastab Aku säästmisele.</p><p>See on viis vähendada aku kulu seismise ajal.</p>"
+    },
+    "switching": {
+      "title": "⏱️ Vahetamise loogika",
+      "content": "<p>See valik määrab, kui kaua rakendus pärast peatuse tuvastamist ootab, enne kui tegevust muudab.</p><p>Saadaolevad väärtused:</p><ul><li>Kohe</li><li>10 sekundit</li><li>30 sekundit</li><li>1 minut</li><li>2 minutit</li><li>5 minutit</li></ul><p>Näiteks, kui valitud on 1 minut ja sõiduk liigub selle minuti jooksul uuesti, tühistatakse peatuse tegevus ja sõit jätkub. Valikuga Kohe toimub vahetus kohe, kui peatus tuvastatakse.</p>"
+    },
+    "defaultActivity": {
+      "title": "Vaiketegevus pärast peatumist",
+      "content": "<p>See valik määrab, milline tegevus salvestatakse pärast peatuse tuvastamist.</p><p>Saadaolevad programmi tegevused on näiteks:</p><ul><li>Puhkus</li><li>Töö</li></ul>"
+    },
+    "distinction": {
+      "title": "⚠️ Tähtis erinevus",
+      "content": "<p>Ära aja omavahel segi neid kolme eraldiseisvat mõistet:</p><h3>Tuvastamise töörežiim</h3><ul><li>OFF</li><li>MANUAL</li><li>STANDBY</li><li>AUTO</li></ul><h3>Tuvastamise režiim / mõõtmisviis</h3><ul><li>Väljas</li><li>Kõrge täpsus</li><li>Tasakaalustatud</li><li>Aku säästmine</li><li>Kohandatud</li></ul><h3>Sõiduki tuvastamise olek</h3><ul><li>Väljaspool sõidukit</li><li>Kindlasti väljaspool sõidukit</li><li>Sõidukis</li><li>Kindlasti sõidukis</li><li>Autosisene lukk</li></ul>"
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi avalehele"
+  },
+  "footer": "© TachoMobile 2"
+}

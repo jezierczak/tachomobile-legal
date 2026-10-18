@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Vastavuseeskirjad - TachoMobile 2",
+    "heading": "Vastavuseeskirjad",
+    "description": "Sõidu-, töö- ja puhkeeeskirjade mõistmine ning see, kuidas TachoMobile neid toetab."
+  },
+  "modules": {
+    "drive430": {
+      "title": "Sõit 4:30 ja paus",
+      "description": "Selgitus 4 tunni ja 30 minuti sõidupiirangu ja nõutava pausi kohta.",
+      "url": "drive-4-30-break/"
+    },
+    "dailyDriving": {
+      "title": "Päevane sõiduaja piirang (9h/10h)",
+      "description": "Selgitus 9-tunnise päevase sõidupiirangu ja kaks korda nädalas lubatud 10-tunnise pikenduse kohta.",
+      "url": "daily-driving-9-10/"
+    },
+    "dailyRest": {
+      "title": "Päevane puhkus (11h / 9h / 3+9h)",
+      "description": "Selgitus tavapärase, vähendatud ja jagatud päevase puhkuse kohta ning sellest, kuidas vähendatud puhkuse arvestus nädalaste puhkuste vahel nulllib.",
+      "url": "daily-rest-11-9/"
+    },
+    "maxShift": {
+      "title": "Maksimaalne vahetuse pikkus (13h / 15h, meeskonnal 21h)",
+      "description": "Selgitus sellest, miks maksimaalne vahetus on 13 või 15 tundi ja miks see on meeskonnaga sõidu puhul fikseeritud 21 tunnile.",
+      "url": "max-shift-13-15/"
+    },
+    "weeklyRest": {
+      "title": "Nädalane puhkus (45h / 24h)",
+      "description": "Selgitus tavapärase ja vähendatud nädalase puhkuse ning kompenseerimis- ja kahenädalareegli kohta.",
+      "url": "weekly-rest-45-24/"
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi avalehele",
+    "backUrl": "/"
+  },
+  "footer": "© TachoMobile 2"
+}

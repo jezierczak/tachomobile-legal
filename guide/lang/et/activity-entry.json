@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "et"
+  },
+  "page": {
+    "title": "Töö alustamine ja praeguste tegevuste sisestamine - TachoMobile 2",
+    "heading": "Töö alustamine ja praeguste tegevuste sisestamine",
+    "intro": "Töö alustamisel ja lõpetamisel kuvab TachoMobile 2 vormi, kuhu saad täita vahetuse kohta kõige olulisema teabe.<br><br>Rakendus saab enamiku andmetest täita automaatselt, kuid saad need enne kirje salvestamist alati üle kontrollida ja parandada."
+  },
+  "sections": {
+    "start": {
+      "title": "Alustamine",
+      "intro": "Pärast valikut<strong>\"Alusta / Sisesta juhikaart\"</strong>ilmub käivitusvorm.",
+      "initialActivity": {
+        "title": "Esialgne tegevus",
+        "text": "Vali tegevus, millega oma päeva alustad. Vaikimisi on selleks<strong>Töö</strong>, kuid saad valida teise tegevuse, kui su päev algab teisiti."
+      },
+      "vehicle": {
+        "title": "Registreerimisnumber",
+        "text": "Vali sõiduk, millega tööd alustad.<br><br>Pärast esimest kasutamist jääb registreerimisnumber sõidukite loendisse meelde, nii et sul ei pea seda järgmistel päevadel uuesti sisestama."
+      },
+      "location": {
+        "title": "Alustamise riik ja linn",
+        "text": "Riik ja linn määratakse automaatselt telefoni praeguse asukoha põhjal.<br><br>Kui andmed on valed, saad neid enne kirje salvestamist parandada."
+      },
+      "odometer": {
+        "title": "Läbisõidumõõdiku näit",
+        "text": "Sisesta sõiduki praegune läbisõidumõõdiku näit.<br><br>Sisestatud väärtust kasutatakse seejärel edaspidiste tegevuste võrdluspunktina ja seda võidakse automaatselt täita viimase salvestatud oleku põhjal."
+      },
+      "dateTime": {
+        "title": "Alguskuupäev ja -kellaaeg",
+        "text": "Vaikimisi on seatud praegune kuupäev ja kellaaeg.<br><br>Saad seda muuta, kui alustasid tööd varem, näiteks mõni või mõnikümmend minutit enne rakenduse avamist."
+      },
+      "notes": {
+        "title": "Märkused",
+        "text": "Siia saad lisada täiendavat teavet töö alustamise kohta.<br><br>Väli on valikuline."
+      }
+    },
+    "transport": {
+      "title": "⚙️ Seaded veo läbiviimise kohta",
+      "intro": "Töö alustamise vorm sisaldab ka kolme valikut, mis mõjutavad kirjete tõlgendamist ja vastavate reeglite rakendamist.",
+      "crew": {
+        "title": "Sõit meeskonnaga",
+        "text": "Selle valiku sisselülitamine tähendab, et kogu vahetust tõlgendatakse meeskonnatööna.<br><br>See mõjutab tööaja, sõiduaja, puhkeperioodide ja muude meeskonnasõitu käsitlevatest eeskirjadest tulenevate piirangute arvutamise viisi."
+      },
+      "international": {
+        "title": "Rahvusvaheline vedu",
+        "text": "Selle valiku sisselülitamine võimaldab rakendada asjakohaseid rahvusvahelise veo reegleid.<br><br>See on oluline muu hulgas nädalase puhkeperioodi ja juhi baaskohta naasmise tõlgendamiseks."
+      },
+      "passenger": {
+        "title": "Juhuslik reisijatevedu",
+        "text": "Valik tuleks sisse lülitada juhusliku reisijateveo, näiteks bussiveo tegemisel.<br><br>See võimaldab rakendada seda liiki veole vastavaid sõidu- ja puhkeaja reegleid."
+      },
+      "warning": {
+        "title": "Tähtis",
+        "text": "Need valikud peaksid vastama tegeliku veo olemusele. Need mõjutavad seda, kuidas vastavuse moodul andmeid tõlgendab."
+      },
+      "actions": {
+        "title": "✅ Kinnita/Tühista",
+        "text": "<strong>Kinnita</strong>salvestab töö alustamise.<br><br><strong>Tühista</strong>sulgeb vormi ilma muudatusi salvestamata."
+      }
+    },
+    "finish": {
+      "title": "Töö lõpetamine",
+      "intro": "Pärast valikut<strong>\"Eemalda kaart/Lõpeta töö\"</strong>ilmub töö lõpetamise vorm.<br><br>Selle toimimine sarnaneb alustamisvormile.",
+      "vehicle": {
+        "title": "Sõiduk",
+        "text": "Registreerimisnumber täidetakse automaatselt alustatud vahetuse põhjal."
+      },
+      "location": {
+        "title": "Riik ja linn",
+        "text": "Andmed täidetakse automaatselt sinu praeguse asukoha põhjal.<br><br>Vajadusel saad neid parandada."
+      },
+      "odometer": {
+        "title": "Läbisõidumõõdiku näit",
+        "text": "Rakendus kasutab viimast teadaolevat näitu. Saad seda enne salvestamist kontrollida ja parandada."
+      },
+      "dateTime": {
+        "title": "Lõppkuupäev ja -kellaaeg",
+        "text": "Vaikimisi on seatud praegune kuupäev ja kellaaeg.<br><br>Saad seda muuta, kui tegelik töö lõppes varem või soovid kirjet parandada."
+      },
+      "notes": {
+        "title": "Märkused",
+        "text": "Valikuline väli töö lõpetamisega seotud täiendava teabe jaoks."
+      },
+      "actions": {
+        "title": "✅ Kinnita/Tühista",
+        "text": "<strong>Kinnita</strong>lõpetab vahetuse ja salvestab andmed.<br><br><strong>Tühista</strong>sulgeb vormi ilma muudatusi salvestamata.<br><br>Pärast lõpetamist alustab TachoMobile 2 ka<strong>puhkeaja kogumist</strong>. Sel hetkel saad määrata või kontrollida<strong>puhkuse eesmärki</strong>, kui kasutad seda funktsiooni."
+      }
+    },
+    "quickChange": {
+      "title": "Tegevuse kiire vahetamine",
+      "intro": "Töö ajal ei pea sa iga kord täisvormi avama.<br><br>Avaekraanil saad puudutada oma praegust tegevust, et kiiresti valida järgmine.",
+      "available": {
+        "title": "Saadaolevad tegevused",
+        "items": [
+          "🚗 Sõit",
+          "Töö",
+          "⏱️ Valmisolek",
+          "Puhkus"
+        ]
+      },
+      "special": {
+        "title": "Erikirjed",
+        "items": [
+          "⛴️ Praamile sisenemine / praamilt väljumine",
+          "Laadimine / mahalaadimine"
+        ]
+      },
+      "quickSave": {
+        "title": "⚡ Kiirsalvestus",
+        "text": "Kui<strong>kiirsalvestus</strong>on sisse lülitatud, salvestatakse valitud tegevus kohe.<br><br>Kui kiirsalvestus on välja lülitatud, ilmub pärast tegevuse valimist vorm, kus saad kirje üksikasju kontrollida või täiendada.",
+        "fields": "Vorm sisaldab sama põhiteavet:",
+        "summary": "<strong>sõiduk → riik → linn → läbisõidumõõdik → kuupäev ja kellaaeg → märkused</strong><br><br>Tänu sellele saad nii kiiresti tegevust vahetada kui ka täpselt määrata selle alguse hetke ja koha."
+      }
+    },
+    "important": {
+      "title": "Tasub teada",
+      "text1": "TachoMobile 2 üritab automaatselt täita andmeid, mis on eelmistest kirjetest juba teada. Kuid see ei tähenda, et sa ei saaks neid parandada.",
+      "text2": "<strong>Kui kirje ei vasta tegelikkusele, kontrolli andmeid ja paranda neid enne kinnitamist.</strong>"
+    }
+  },
+  "navigation": {
+    "back": "← Tagasi juhendisse"
+  },
+  "footer": "© TachoMobile 2"
+}
