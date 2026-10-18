@@ -12,6 +12,16 @@
       "title": "The card is read by another device",
       "text": "At this stage TachoMobile does not read the driver card directly. First download the card using another device, reader or program that supports driver-card reading. TachoMobile receives the ready .ddd file and imports the data stored in it."
     },
+    "readers": {
+      "title": "Supported card readers (USB-C OTG)",
+      "text": "Reading a card via a USB-C OTG reader is an experimental feature still under development. Currently the best tested readers are:",
+      "items": [
+        "Alcor Micro AU9540 (and readers that identify as AU9540, e.g. Zoweetek)",
+        "Rocketek and other readers from the same chipset family",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Even supported readers may not work on every phone — USB OTG compatibility depends on the specific device model. If your reader isn't on this list, the feature may not work correctly yet — in the meantime we recommend importing a .ddd file downloaded by another method."
+    },
     "import": {
       "title": "How to import a .ddd file",
       "text": "There is no separate “Import DDD” button. Use the normal local-file import path:",

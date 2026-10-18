@@ -12,6 +12,16 @@
       "title": "Cardul este citit de un alt dispozitiv",
       "text": "În această etapă, TachoMobile nu citește direct cardul șoferului. Mai întâi descărcați cardul folosind un alt dispozitiv, cititor sau program care acceptă citirea cardului de șofer. TachoMobile primește fișierul .ddd gata și importă datele stocate în acesta."
     },
+    "readers": {
+      "title": "Cititoare de card compatibile (USB-C OTG)",
+      "text": "Citirea cardului printr-un cititor USB-C OTG este o funcție experimentală, încă în dezvoltare. În prezent, cele mai bine testate sunt:",
+      "items": [
+        "Alcor Micro AU9540 (și cititoarele care se identifică drept AU9540, de ex. Zoweetek)",
+        "Rocketek și alte cititoare din aceeași familie de chipset",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Chiar și cititoarele compatibile pot să nu funcționeze pe orice telefon — compatibilitatea USB OTG depinde de modelul concret al dispozitivului. Dacă cititorul tău nu este pe această listă, funcția poate să nu funcționeze încă corect — între timp recomandăm importul unui fișier .ddd descărcat prin altă metodă."
+    },
     "import": {
       "title": "Cum se importă un fișier .ddd",
       "text": "Nu există un buton separat „Import DDD”. Utilizați calea normală de import a fișierului local:",

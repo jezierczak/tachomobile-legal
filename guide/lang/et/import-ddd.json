@@ -12,6 +12,16 @@
       "title": "Kaarti loeb teine seade",
       "text": "Selles etapis ei loe TachoMobile juhikaarti otse. Laadi kaart esmalt alla teise seadme, lugeja või juhikaardi lugemist toetava programmiga. TachoMobile saab valmis .ddd faili ja impordib sinna salvestatud andmed."
     },
+    "readers": {
+      "title": "Toetatud kaardilugejad (USB-C OTG)",
+      "text": "Kaardi lugemine USB-C OTG lugeja kaudu on eksperimentaalne funktsioon, mida alles arendatakse. Praegu on kõige paremini testitud:",
+      "items": [
+        "Alcor Micro AU9540 (samuti lugejad, mis tuvastavad end AU9540-na, nt Zoweetek)",
+        "Rocketek ja teised sama kiibikomplekti perekonna lugejad",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Isegi toetatud lugejad ei pruugi igas telefonis töötada — USB OTG ühilduvus sõltub konkreetsest seadme mudelist. Kui sinu lugejat selles loendis ei ole, ei pruugi funktsioon veel korrektselt töötada — vahepeal soovitame importida teisel viisil alla laaditud .ddd faili."
+    },
     "import": {
       "title": "Kuidas .ddd faili importida",
       "text": "Eraldi nuppu „Impordi DDD” ei ole. Kasuta tavalist kohaliku faili importimise rada:",

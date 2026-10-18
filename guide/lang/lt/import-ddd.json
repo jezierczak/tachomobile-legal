@@ -12,6 +12,16 @@
       "title": "Kortelę nuskaito kitas įrenginys",
       "text": "Šiame etape TachoMobile tiesiogiai neskaito vairuotojo kortelės. Pirmiausia atsisiųskite kortelę naudodami kitą įrenginį, skaitytuvą ar programą, kuri palaiko vairuotojo kortelės skaitymą. TachoMobile gauna paruoštą .ddd failą ir importuoja jame saugomus duomenis."
     },
+    "readers": {
+      "title": "Palaikomi kortelių skaitytuvai (USB-C OTG)",
+      "text": "Kortelės nuskaitymas naudojant USB-C OTG skaitytuvą yra eksperimentinė, vis dar kuriama funkcija. Šiuo metu geriausiai išbandyti yra:",
+      "items": [
+        "Alcor Micro AU9540 (ir skaitytuvai, kurie prisistato kaip AU9540, pvz., Zoweetek)",
+        "Rocketek ir kiti tos pačios lustų šeimos skaitytuvai",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Net ir palaikomi skaitytuvai gali neveikti kiekviename telefone — USB OTG suderinamumas priklauso nuo konkretaus įrenginio modelio. Jei jūsų skaitytuvo nėra šiame sąraše, funkcija dar gali veikti netinkamai — kol kas rekomenduojame importuoti kitu būdu atsisiųstą .ddd failą."
+    },
     "import": {
       "title": "Kaip importuoti .ddd failą",
       "text": "Nėra atskiro mygtuko „Importuoti DDD“. Naudokite įprastą vietinio failo importavimo kelią:",

@@ -12,6 +12,16 @@
       "title": "Kartu čte jiné zařízení",
       "text": "V této fázi TachoMobile nečte kartu řidiče přímo. Nejprve si stáhněte kartu pomocí jiného zařízení, čtečky nebo programu, který podporuje čtení karet řidiče. TachoMobile obdrží připravený soubor .ddd a importuje data v něm uložená."
     },
+    "readers": {
+      "title": "Podporované čtečky karet (USB-C OTG)",
+      "text": "Čtení karty pomocí čtečky USB-C OTG je experimentální funkce, která se stále vyvíjí. Nejlépe otestované jsou v současnosti:",
+      "items": [
+        "Alcor Micro AU9540 (a čtečky, které se hlásí jako AU9540, např. Zoweetek)",
+        "Rocketek a další čtečky stejné rodiny čipsetů",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "I podporované čtečky nemusí fungovat na každém telefonu — kompatibilita USB OTG závisí na konkrétním modelu zařízení. Pokud vaše čtečka není na tomto seznamu, funkce zatím nemusí fungovat správně — mezitím doporučujeme import souboru .ddd staženého jiným způsobem."
+    },
     "import": {
       "title": "Jak importovat soubor .ddd",
       "text": "Neexistuje žádné samostatné tlačítko „Importovat DDD“. Použijte normální cestu pro import místního souboru:",

@@ -12,6 +12,16 @@
       "title": "Karta jest odczytywana przez inne urządzenie",
       "text": "Na tym etapie TachoMobile nie czyta bezpośrednio karty kierowcy. Najpierw pobierz kartę za pomocą innego urządzenia, czytnika lub programu obsługującego odczyt karty kierowcy. TachoMobile otrzymuje gotowy plik .ddd i importuje zapisane w nim dane."
     },
+    "readers": {
+      "title": "Obsługiwane czytniki kart (USB-C OTG)",
+      "text": "Funkcja odczytu karty przez czytnik USB-C OTG jest eksperymentalna i wciąż rozwijana. Obecnie najlepiej przetestowane są:",
+      "items": [
+        "Alcor Micro AU9540 (oraz czytniki zgłaszające się jako AU9540, np. Zoweetek)",
+        "Rocketek i podobne czytniki tej samej rodziny chipsetu",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Nawet obsługiwane czytniki mogą nie działać na każdym telefonie — zgodność USB OTG zależy od konkretnego modelu urządzenia. Jeśli Twojego czytnika nie ma na liście, funkcja może jeszcze nie działać poprawnie — w międzyczasie zalecamy import pliku .ddd pobranego inną metodą."
+    },
     "import": {
       "title": "Jak zaimportować plik .ddd",
       "text": "Nie ma osobnego przycisku „Importuj DDD”. Użyj normalnej ścieżki importu pliku lokalnego:",

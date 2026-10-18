@@ -12,6 +12,16 @@
       "title": "Kart başka bir cihaz tarafından okundu",
       "text": "Bu aşamada TachoMobile sürücü kartını doğrudan okumaz. Öncelikle kartı, sürücü kartı okumayı destekleyen başka bir cihaz, okuyucu veya program kullanarak indirin. TachoMobile hazır .ddd dosyasını alır ve içinde saklanan verileri içe aktarır."
     },
+    "readers": {
+      "title": "Desteklenen kart okuyucular (USB-C OTG)",
+      "text": "USB-C OTG okuyucu ile kart okuma, hâlâ geliştirilmekte olan deneysel bir özelliktir. Şu anda en iyi test edilenler:",
+      "items": [
+        "Alcor Micro AU9540 (ve AU9540 olarak tanımlanan okuyucular, örn. Zoweetek)",
+        "Rocketek ve aynı çipset ailesinden diğer okuyucular",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Desteklenen okuyucular bile her telefonda çalışmayabilir — USB OTG uyumluluğu cihaz modeline bağlıdır. Okuyucunuz bu listede yoksa, özellik henüz doğru çalışmayabilir — bu süre zarfında başka bir yöntemle indirilmiş bir .ddd dosyası içe aktarmanızı öneririz."
+    },
     "import": {
       "title": "Bir .ddd dosyası nasıl içe aktarılır",
       "text": "Ayrı bir “DDD'yi İçe Aktar” düğmesi yoktur. Normal yerel dosya içe aktarma yolunu kullanın:",

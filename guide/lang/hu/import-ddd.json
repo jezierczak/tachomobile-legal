@@ -12,6 +12,16 @@
       "title": "A kártyát egy másik eszköz olvassa be",
       "text": "Ebben a szakaszban a TachoMobile nem olvassa be közvetlenül a járművezetői kártyát. Először töltse le a kártyát egy másik eszközzel, olvasóval vagy programmal, amely támogatja a járművezetői kártya olvasását. A TachoMobile megkapja a kész .ddd fájlt, és importálja a benne tárolt adatokat."
     },
+    "readers": {
+      "title": "Támogatott kártyaolvasók (USB-C OTG)",
+      "text": "A kártya beolvasása USB-C OTG olvasóval kísérleti funkció, amely még fejlesztés alatt áll. Jelenleg a legjobban tesztelt eszközök:",
+      "items": [
+        "Alcor Micro AU9540 (valamint az AU9540-ként azonosított olvasók, pl. Zoweetek)",
+        "Rocketek és az azonos chipkészlet-családba tartozó más olvasók",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Még a támogatott olvasók sem biztos, hogy minden telefonon működnek — az USB OTG kompatibilitás az adott eszközmodelltől függ. Ha az olvasód nincs ezen a listán, a funkció még nem biztos, hogy megfelelően működik — addig is javasoljuk egy más módszerrel letöltött .ddd fájl importálását."
+    },
     "import": {
       "title": ".ddd fájl importálása",
       "text": "Nincs külön „DDD importálása” gomb. Használja a normál helyi fájl importálási útvonalat:",

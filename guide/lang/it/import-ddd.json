@@ -12,6 +12,16 @@
       "title": "La carta viene letta da un altro dispositivo",
       "text": "In questa fase TachoMobile non legge direttamente la carta del conducente. Scarica innanzitutto la carta utilizzando un altro dispositivo, lettore o programma che supporti la lettura della carta conducente. TachoMobile riceve il file .ddd pronto e importa i dati in esso memorizzati."
     },
+    "readers": {
+      "title": "Lettori di carte supportati (USB-C OTG)",
+      "text": "La lettura della carta tramite un lettore USB-C OTG è una funzione sperimentale ancora in sviluppo. Attualmente i più testati sono:",
+      "items": [
+        "Alcor Micro AU9540 (e i lettori che si identificano come AU9540, ad es. Zoweetek)",
+        "Rocketek e altri lettori della stessa famiglia di chipset",
+        "mTacho CR318C / CSCR3"
+      ],
+      "warning": "Anche i lettori supportati potrebbero non funzionare su tutti i telefoni — la compatibilità USB OTG dipende dal modello specifico del dispositivo. Se il tuo lettore non è in questo elenco, la funzione potrebbe non funzionare ancora correttamente — nel frattempo consigliamo di importare un file .ddd scaricato con un altro metodo."
+    },
     "import": {
       "title": "Come importare un file .ddd",
       "text": "Non esiste un pulsante separato \"Importa DDD\". Utilizza il normale percorso di importazione del file locale:",
